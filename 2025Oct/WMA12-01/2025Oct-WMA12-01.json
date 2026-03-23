@@ -70,7 +70,19 @@
         }
       ],
       "answer": null,
-      "meta": {}
+      "meta": {
+        "sections": [
+          "4.2"
+        ],
+        "primary_section": "4.2",
+        "question_type": "Arithmetic series term and sum",
+        "command_words": [
+          "Find"
+        ],
+        "cognitive_level": "AO1",
+        "tagged_at": "2026-03-23",
+        "tagger": "gemini-2.5-flash"
+      }
     },
     {
       "qnum": 2,
@@ -138,7 +150,19 @@
           }
         ]
       },
-      "meta": {}
+      "meta": {
+        "sections": [
+          "4.5"
+        ],
+        "primary_section": "4.5",
+        "question_type": "Binomial expansion coefficients",
+        "command_words": [
+          "Find"
+        ],
+        "cognitive_level": "AO1",
+        "tagged_at": "2026-03-23",
+        "tagger": "gemini-2.5-flash"
+      }
     },
     {
       "qnum": 3,
@@ -272,7 +296,22 @@
         }
       ],
       "answer": null,
-      "meta": {}
+      "meta": {
+        "sections": [
+          "8.3",
+          "5.3"
+        ],
+        "primary_section": "8.3",
+        "question_type": "Trapezium rule and solving exponential equations",
+        "command_words": [
+          "Use logarithms to find",
+          "Use the trapezium rule",
+          "Use your answer to estimate"
+        ],
+        "cognitive_level": "AO2",
+        "tagged_at": "2026-03-23",
+        "tagger": "gemini-2.5-flash"
+      }
     },
     {
       "qnum": 4,
@@ -406,7 +445,24 @@
         }
       ],
       "answer": null,
-      "meta": {}
+      "meta": {
+        "sections": [
+          "2.1",
+          "1.1",
+          "7.1"
+        ],
+        "primary_section": "2.1",
+        "question_type": "Polynomials: factor theorem, roots, decreasing function",
+        "command_words": [
+          "Find",
+          "Use the factor theorem to show that",
+          "Prove",
+          "Find the range of values"
+        ],
+        "cognitive_level": "AO3",
+        "tagged_at": "2026-03-23",
+        "tagger": "gemini-2.5-flash"
+      }
     },
     {
       "qnum": 5,
@@ -489,7 +545,20 @@
         }
       ],
       "answer": null,
-      "meta": {}
+      "meta": {
+        "sections": [
+          "6.2",
+          "6.1"
+        ],
+        "primary_section": "6.2",
+        "question_type": "Solving trigonometric equations using identities",
+        "command_words": [
+          "Solve"
+        ],
+        "cognitive_level": "AO2",
+        "tagged_at": "2026-03-23",
+        "tagger": "gemini-2.5-flash"
+      }
     },
     {
       "qnum": 6,
@@ -565,7 +634,19 @@
         }
       ],
       "answer": null,
-      "meta": {}
+      "meta": {
+        "sections": [
+          "3.1"
+        ],
+        "primary_section": "3.1",
+        "question_type": "Circle equations and properties (touching circles)",
+        "command_words": [
+          "find"
+        ],
+        "cognitive_level": "AO2",
+        "tagged_at": "2026-03-23",
+        "tagger": "gemini-2.5-flash"
+      }
     },
     {
       "qnum": 7,
@@ -693,7 +774,22 @@
         }
       ],
       "answer": null,
-      "meta": {}
+      "meta": {
+        "sections": [
+          "8.2",
+          "7.1"
+        ],
+        "primary_section": "8.2",
+        "question_type": "Stationary points and area by integration",
+        "command_words": [
+          "Find",
+          "show that",
+          "Use algebraic integration to find"
+        ],
+        "cognitive_level": "AO3",
+        "tagged_at": "2026-03-23",
+        "tagger": "gemini-2.5-flash"
+      }
     },
     {
       "qnum": 8,
@@ -802,7 +898,22 @@
         }
       ],
       "answer": null,
-      "meta": {}
+      "meta": {
+        "sections": [
+          "4.4",
+          "1.1"
+        ],
+        "primary_section": "4.4",
+        "question_type": "Geometric series proof and application",
+        "command_words": [
+          "Prove",
+          "Show that",
+          "Calculate"
+        ],
+        "cognitive_level": "AO2",
+        "tagged_at": "2026-03-23",
+        "tagger": "gemini-2.5-flash"
+      }
     },
     {
       "qnum": 9,
@@ -901,7 +1012,23 @@
         }
       ],
       "answer": null,
-      "meta": {}
+      "meta": {
+        "sections": [
+          "5.2",
+          "5.3",
+          "1.1"
+        ],
+        "primary_section": "5.2",
+        "question_type": "Logarithmic equations, identities and domain restrictions",
+        "command_words": [
+          "Solve",
+          "prove",
+          "write down"
+        ],
+        "cognitive_level": "AO2",
+        "tagged_at": "2026-03-23",
+        "tagger": "gemini-2.5-flash"
+      }
     }
   ]
 }

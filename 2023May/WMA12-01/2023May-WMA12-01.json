@@ -59,7 +59,20 @@
         "type": "number",
         "decimalPlaces": 3
       },
-      "meta": {}
+      "meta": {
+        "sections": [
+          "8.3"
+        ],
+        "primary_section": "8.3",
+        "question_type": "Trapezium rule approximation",
+        "command_words": [
+          "Use",
+          "Find"
+        ],
+        "cognitive_level": "AO1",
+        "tagged_at": "2026-03-23",
+        "tagger": "gemini-2.5-flash"
+      }
     },
     {
       "qnum": 2,
@@ -133,7 +146,20 @@
         }
       ],
       "answer": null,
-      "meta": {}
+      "meta": {
+        "sections": [
+          "2.1"
+        ],
+        "primary_section": "2.1",
+        "question_type": "Factor theorem and showing real roots of a cubic",
+        "command_words": [
+          "Use",
+          "Show that"
+        ],
+        "cognitive_level": "AO2",
+        "tagged_at": "2026-03-23",
+        "tagger": "gemini-2.5-flash"
+      }
     },
     {
       "qnum": 3,
@@ -214,7 +240,19 @@
         }
       ],
       "answer": null,
-      "meta": {}
+      "meta": {
+        "sections": [
+          "3.1"
+        ],
+        "primary_section": "3.1",
+        "question_type": "Circle equation and tangent equation",
+        "command_words": [
+          "Find"
+        ],
+        "cognitive_level": "AO2",
+        "tagged_at": "2026-03-23",
+        "tagger": "gemini-2.5-flash"
+      }
     },
     {
       "qnum": 4,
@@ -300,7 +338,19 @@
         }
       ],
       "answer": null,
-      "meta": {}
+      "meta": {
+        "sections": [
+          "4.5"
+        ],
+        "primary_section": "4.5",
+        "question_type": "Binomial expansion and finding coefficients",
+        "command_words": [
+          "Find"
+        ],
+        "cognitive_level": "AO2",
+        "tagged_at": "2026-03-23",
+        "tagger": "gemini-2.5-flash"
+      }
     },
     {
       "qnum": 5,
@@ -325,7 +375,21 @@
       "answer": {
         "type": "expression"
       },
-      "meta": {}
+      "meta": {
+        "sections": [
+          "5.3",
+          "5.2"
+        ],
+        "primary_section": "5.3",
+        "question_type": "Solving logarithmic equations using log laws",
+        "command_words": [
+          "Use",
+          "Solve"
+        ],
+        "cognitive_level": "AO2",
+        "tagged_at": "2026-03-23",
+        "tagger": "gemini-2.5-flash"
+      }
     },
     {
       "qnum": 6,
@@ -436,7 +500,22 @@
         }
       ],
       "answer": null,
-      "meta": {}
+      "meta": {
+        "sections": [
+          "4.4",
+          "5.3"
+        ],
+        "primary_section": "4.4",
+        "question_type": "Geometric series modelling and finding N using logs",
+        "command_words": [
+          "Show that",
+          "Predict",
+          "Calculate"
+        ],
+        "cognitive_level": "AO3",
+        "tagged_at": "2026-03-23",
+        "tagger": "gemini-2.5-flash"
+      }
     },
     {
       "qnum": 7,
@@ -534,7 +613,21 @@
         }
       ],
       "answer": null,
-      "meta": {}
+      "meta": {
+        "sections": [
+          "7.1"
+        ],
+        "primary_section": "7.1",
+        "question_type": "Optimisation using differentiation and second derivative test",
+        "command_words": [
+          "Use calculus to show",
+          "Find",
+          "Use further calculus to prove"
+        ],
+        "cognitive_level": "AO3",
+        "tagged_at": "2026-03-23",
+        "tagger": "gemini-2.5-flash"
+      }
     },
     {
       "qnum": 8,
@@ -596,7 +689,20 @@
         }
       ],
       "answer": null,
-      "meta": {}
+      "meta": {
+        "sections": [
+          "1.3",
+          "1.2"
+        ],
+        "primary_section": "1.3",
+        "question_type": "Proof by counter-example and by exhaustion",
+        "command_words": [
+          "Prove"
+        ],
+        "cognitive_level": "AO2",
+        "tagged_at": "2026-03-23",
+        "tagger": "gemini-2.5-flash"
+      }
     },
     {
       "qnum": 9,
@@ -685,7 +791,21 @@
         }
       ],
       "answer": null,
-      "meta": {}
+      "meta": {
+        "sections": [
+          "6.2",
+          "6.1"
+        ],
+        "primary_section": "6.2",
+        "question_type": "Solving trigonometric equations using identities",
+        "command_words": [
+          "Show that",
+          "Solve"
+        ],
+        "cognitive_level": "AO2",
+        "tagged_at": "2026-03-23",
+        "tagger": "gemini-2.5-flash"
+      }
     },
     {
       "qnum": 10,
@@ -810,7 +930,21 @@
         }
       ],
       "answer": null,
-      "meta": {}
+      "meta": {
+        "sections": [
+          "8.2",
+          "8.1"
+        ],
+        "primary_section": "8.2",
+        "question_type": "Integration, definite integrals, and area between curves",
+        "command_words": [
+          "Show that",
+          "Find"
+        ],
+        "cognitive_level": "AO3",
+        "tagged_at": "2026-03-23",
+        "tagger": "gemini-2.5-flash"
+      }
     },
     {
       "qnum": 11,
@@ -912,7 +1046,20 @@
         }
       ],
       "answer": null,
-      "meta": {}
+      "meta": {
+        "sections": [
+          "4.1"
+        ],
+        "primary_section": "4.1",
+        "question_type": "Recurrence relations and solving for constants",
+        "command_words": [
+          "Find",
+          "Show that"
+        ],
+        "cognitive_level": "AO2",
+        "tagged_at": "2026-03-23",
+        "tagger": "gemini-2.5-flash"
+      }
     }
   ]
 }

@@ -70,7 +70,19 @@
         }
       ],
       "answer": null,
-      "meta": {}
+      "meta": {
+        "sections": [
+          "4.1"
+        ],
+        "primary_section": "4.1",
+        "question_type": "recurrence relations, sum of sequence terms",
+        "command_words": [
+          "find"
+        ],
+        "cognitive_level": "AO1",
+        "tagged_at": "2026-03-23",
+        "tagger": "gemini-2.5-flash"
+      }
     },
     {
       "qnum": 2,
@@ -136,7 +148,21 @@
         }
       ],
       "answer": null,
-      "meta": {}
+      "meta": {
+        "sections": [
+          "8.3",
+          "8.1"
+        ],
+        "primary_section": "8.3",
+        "question_type": "trapezium rule, properties of integrals",
+        "command_words": [
+          "find",
+          "Use"
+        ],
+        "cognitive_level": "AO2",
+        "tagged_at": "2026-03-23",
+        "tagger": "gemini-2.5-flash"
+      }
     },
     {
       "qnum": 3,
@@ -187,7 +213,19 @@
         }
       ],
       "answer": null,
-      "meta": {}
+      "meta": {
+        "sections": [
+          "3.1"
+        ],
+        "primary_section": "3.1",
+        "question_type": "circle properties, nearest point to origin",
+        "command_words": [
+          "Find"
+        ],
+        "cognitive_level": "AO2",
+        "tagged_at": "2026-03-23",
+        "tagger": "gemini-2.5-flash"
+      }
     },
     {
       "qnum": 4,
@@ -237,7 +275,19 @@
         }
       ],
       "answer": null,
-      "meta": {}
+      "meta": {
+        "sections": [
+          "4.5"
+        ],
+        "primary_section": "4.5",
+        "question_type": "binomial expansion, finding specific coefficient",
+        "command_words": [
+          "Find"
+        ],
+        "cognitive_level": "AO2",
+        "tagged_at": "2026-03-23",
+        "tagger": "gemini-2.5-flash"
+      }
     },
     {
       "qnum": 5,
@@ -302,7 +352,21 @@
         }
       ],
       "answer": null,
-      "meta": {}
+      "meta": {
+        "sections": [
+          "6.2",
+          "1.1"
+        ],
+        "primary_section": "6.2",
+        "question_type": "trigonometric modelling, solving trig equations",
+        "command_words": [
+          "Show that",
+          "Find"
+        ],
+        "cognitive_level": "AO3",
+        "tagged_at": "2026-03-23",
+        "tagger": "gemini-2.5-flash"
+      }
     },
     {
       "qnum": 6,
@@ -392,7 +456,22 @@
         }
       ],
       "answer": null,
-      "meta": {}
+      "meta": {
+        "sections": [
+          "2.1",
+          "7.1",
+          "1.1"
+        ],
+        "primary_section": "2.1",
+        "question_type": "factor/remainder theorems, decreasing function",
+        "command_words": [
+          "show that",
+          "find"
+        ],
+        "cognitive_level": "AO2",
+        "tagged_at": "2026-03-23",
+        "tagger": "gemini-2.5-flash"
+      }
     },
     {
       "qnum": 7,
@@ -465,7 +544,21 @@
         }
       ],
       "answer": null,
-      "meta": {}
+      "meta": {
+        "sections": [
+          "6.2",
+          "6.1"
+        ],
+        "primary_section": "6.2",
+        "question_type": "solving trigonometric equations using identities",
+        "command_words": [
+          "Solve",
+          "find"
+        ],
+        "cognitive_level": "AO2",
+        "tagged_at": "2026-03-23",
+        "tagger": "gemini-2.5-flash"
+      }
     },
     {
       "qnum": 8,
@@ -587,7 +680,22 @@
         }
       ],
       "answer": null,
-      "meta": {}
+      "meta": {
+        "sections": [
+          "4.2",
+          "4.4",
+          "1.1"
+        ],
+        "primary_section": "4.2",
+        "question_type": "arithmetic and geometric series, convergence",
+        "command_words": [
+          "Show that",
+          "Find"
+        ],
+        "cognitive_level": "AO2",
+        "tagged_at": "2026-03-23",
+        "tagger": "gemini-2.5-flash"
+      }
     },
     {
       "qnum": 9,
@@ -666,7 +774,23 @@
         }
       ],
       "answer": null,
-      "meta": {}
+      "meta": {
+        "sections": [
+          "5.3",
+          "5.2",
+          "2.1"
+        ],
+        "primary_section": "5.3",
+        "question_type": "solving logarithmic equations, solving cubics",
+        "command_words": [
+          "verify",
+          "show that",
+          "solve"
+        ],
+        "cognitive_level": "AO2",
+        "tagged_at": "2026-03-23",
+        "tagger": "gemini-2.5-flash"
+      }
     },
     {
       "qnum": 10,
@@ -745,7 +869,21 @@
         }
       ],
       "answer": null,
-      "meta": {}
+      "meta": {
+        "sections": [
+          "7.1",
+          "8.2"
+        ],
+        "primary_section": "7.1",
+        "question_type": "stationary points, area under curve",
+        "command_words": [
+          "Find",
+          "Calculate"
+        ],
+        "cognitive_level": "AO2",
+        "tagged_at": "2026-03-23",
+        "tagger": "gemini-2.5-flash"
+      }
     }
   ]
 }

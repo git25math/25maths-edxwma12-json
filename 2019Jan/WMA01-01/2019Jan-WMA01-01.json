@@ -33,7 +33,19 @@
       "answer": {
         "type": "expression"
       },
-      "meta": {}
+      "meta": {
+        "sections": [
+          "P1"
+        ],
+        "primary_section": "P1",
+        "question_type": "equation of a straight line",
+        "command_words": [
+          "Find"
+        ],
+        "cognitive_level": "AO1",
+        "tagged_at": "2026-03-23",
+        "tagger": "manual"
+      }
     },
     {
       "qnum": 2,
@@ -95,7 +107,20 @@
         }
       ],
       "answer": null,
-      "meta": {}
+      "meta": {
+        "sections": [
+          "5.1",
+          "5.2"
+        ],
+        "primary_section": "5.2",
+        "question_type": "expressing exponentials in terms of y",
+        "command_words": [
+          "express"
+        ],
+        "cognitive_level": "AO2",
+        "tagged_at": "2026-03-23",
+        "tagger": "manual"
+      }
     },
     {
       "qnum": 3,
@@ -141,7 +166,19 @@
       "answer": {
         "type": "expression"
       },
-      "meta": {}
+      "meta": {
+        "sections": [
+          "7.1"
+        ],
+        "primary_section": "7.1",
+        "question_type": "differentiation and finding dy/dx",
+        "command_words": [
+          "Find"
+        ],
+        "cognitive_level": "AO1",
+        "tagged_at": "2026-03-23",
+        "tagger": "manual"
+      }
     },
     {
       "qnum": 4,
@@ -215,7 +252,19 @@
         }
       ],
       "answer": null,
-      "meta": {}
+      "meta": {
+        "sections": [
+          "4.1"
+        ],
+        "primary_section": "4.1",
+        "question_type": "Recurrence relation and summation",
+        "command_words": [
+          "Find"
+        ],
+        "cognitive_level": "AO1",
+        "tagged_at": "2026-03-23",
+        "tagger": "gemini-2.5-flash"
+      }
     },
     {
       "qnum": 5,
@@ -277,7 +326,20 @@
         }
       ],
       "answer": null,
-      "meta": {}
+      "meta": {
+        "sections": [
+          "4.5"
+        ],
+        "primary_section": "4.5",
+        "question_type": "Binomial expansion and approximation",
+        "command_words": [
+          "Use",
+          "Find"
+        ],
+        "cognitive_level": "AO2",
+        "tagged_at": "2026-03-23",
+        "tagger": "gemini-2.5-flash"
+      }
     },
     {
       "qnum": 6,
@@ -325,7 +387,23 @@
         }
       ],
       "answer": null,
-      "meta": {}
+      "meta": {
+        "sections": [
+          "8.3",
+          "6.1"
+        ],
+        "primary_section": "8.3",
+        "question_type": "Trapezium rule, trigonometric graph sketching",
+        "command_words": [
+          "Sketch",
+          "Show",
+          "Use",
+          "Find"
+        ],
+        "cognitive_level": "AO1",
+        "tagged_at": "2026-03-23",
+        "tagger": "gemini-2.5-flash"
+      }
     },
     {
       "qnum": 7,
@@ -350,7 +428,19 @@
       "answer": {
         "type": "expression"
       },
-      "meta": {}
+      "meta": {
+        "sections": [
+          "P1"
+        ],
+        "primary_section": "P1",
+        "question_type": "discriminant and no real roots inequality",
+        "command_words": [
+          "Find"
+        ],
+        "cognitive_level": "AO2",
+        "tagged_at": "2026-03-23",
+        "tagger": "manual"
+      }
     },
     {
       "qnum": 8,
@@ -382,7 +472,19 @@
       "answer": {
         "type": "none"
       },
-      "meta": {}
+      "meta": {
+        "sections": [
+          "8.1"
+        ],
+        "primary_section": "8.1",
+        "question_type": "Evaluating definite integral to form an equation",
+        "command_words": [
+          "Show that"
+        ],
+        "cognitive_level": "AO2",
+        "tagged_at": "2026-03-23",
+        "tagger": "gemini-2.5-flash"
+      }
     },
     {
       "qnum": 9,
@@ -466,7 +568,19 @@
         }
       ],
       "answer": null,
-      "meta": {}
+      "meta": {
+        "sections": [
+          "3.1"
+        ],
+        "primary_section": "3.1",
+        "question_type": "Circle properties, tangent equation",
+        "command_words": [
+          "Find"
+        ],
+        "cognitive_level": "AO1",
+        "tagged_at": "2026-03-23",
+        "tagger": "gemini-2.5-flash"
+      }
     },
     {
       "qnum": 10,
@@ -572,7 +686,20 @@
         }
       ],
       "answer": null,
-      "meta": {}
+      "meta": {
+        "sections": [
+          "8.2"
+        ],
+        "primary_section": "8.2",
+        "question_type": "area using integration in context",
+        "command_words": [
+          "Find",
+          "Show that"
+        ],
+        "cognitive_level": "AO3",
+        "tagged_at": "2026-03-23",
+        "tagger": "manual"
+      }
     },
     {
       "qnum": 11,
@@ -641,7 +768,21 @@
         }
       ],
       "answer": null,
-      "meta": {}
+      "meta": {
+        "sections": [
+          "5.3",
+          "5.2"
+        ],
+        "primary_section": "5.3",
+        "question_type": "Solving logarithmic equations",
+        "command_words": [
+          "Solve",
+          "Express"
+        ],
+        "cognitive_level": "AO1",
+        "tagged_at": "2026-03-23",
+        "tagger": "gemini-2.5-flash"
+      }
     },
     {
       "qnum": 12,
@@ -745,7 +886,21 @@
         }
       ],
       "answer": null,
-      "meta": {}
+      "meta": {
+        "sections": [
+          "4.4",
+          "4.2",
+          "5.3"
+        ],
+        "primary_section": "4.4",
+        "question_type": "Problem-solving with geometric and arithmetic series",
+        "command_words": [
+          "Find"
+        ],
+        "cognitive_level": "AO3",
+        "tagged_at": "2026-03-23",
+        "tagger": "gemini-2.5-flash"
+      }
     },
     {
       "qnum": 13,
@@ -879,7 +1034,23 @@
         }
       ],
       "answer": null,
-      "meta": {}
+      "meta": {
+        "sections": [
+          "2.1",
+          "1.1"
+        ],
+        "primary_section": "2.1",
+        "question_type": "Factor theorem, polynomial factorization, proving number of roots",
+        "command_words": [
+          "Show that",
+          "Write",
+          "Use",
+          "Prove"
+        ],
+        "cognitive_level": "AO2",
+        "tagged_at": "2026-03-23",
+        "tagger": "gemini-2.5-flash"
+      }
     },
     {
       "qnum": 14,
@@ -991,7 +1162,22 @@
         }
       ],
       "answer": null,
-      "meta": {}
+      "meta": {
+        "sections": [
+          "6.2",
+          "6.1"
+        ],
+        "primary_section": "6.2",
+        "question_type": "Solving trigonometric equations using identities",
+        "command_words": [
+          "Solve",
+          "Show that",
+          "Hence solve"
+        ],
+        "cognitive_level": "AO2",
+        "tagged_at": "2026-03-23",
+        "tagger": "gemini-2.5-flash"
+      }
     },
     {
       "qnum": 15,
@@ -1068,7 +1254,20 @@
         }
       ],
       "answer": null,
-      "meta": {}
+      "meta": {
+        "sections": [
+          "8.2"
+        ],
+        "primary_section": "8.2",
+        "question_type": "Finding intersection points, area bounded by line and curve",
+        "command_words": [
+          "Use algebra to find",
+          "Use calculus to find"
+        ],
+        "cognitive_level": "AO2",
+        "tagged_at": "2026-03-23",
+        "tagger": "gemini-2.5-flash"
+      }
     },
     {
       "qnum": 16,
@@ -1224,7 +1423,22 @@
         }
       ],
       "answer": null,
-      "meta": {}
+      "meta": {
+        "sections": [
+          "7.1"
+        ],
+        "primary_section": "7.1",
+        "question_type": "Optimization problem (surface area minimization) using calculus",
+        "command_words": [
+          "Show that",
+          "Use calculus to find",
+          "Justify",
+          "Find"
+        ],
+        "cognitive_level": "AO3",
+        "tagged_at": "2026-03-23",
+        "tagger": "gemini-2.5-flash"
+      }
     }
   ]
 }

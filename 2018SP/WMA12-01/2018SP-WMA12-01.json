@@ -87,7 +87,21 @@
         }
       ],
       "answer": null,
-      "meta": {}
+      "meta": {
+        "sections": [
+          "2.1",
+          "1.1"
+        ],
+        "primary_section": "2.1",
+        "question_type": "Factor and remainder theorem, simultaneous equations",
+        "command_words": [
+          "Show that",
+          "Find"
+        ],
+        "cognitive_level": "AO2",
+        "tagged_at": "2026-03-23",
+        "tagger": "gemini-2.5-flash"
+      }
     },
     {
       "qnum": 2,
@@ -159,7 +173,20 @@
         }
       ],
       "answer": null,
-      "meta": {}
+      "meta": {
+        "sections": [
+          "4.4",
+          "5.3"
+        ],
+        "primary_section": "4.4",
+        "question_type": "Geometric series, sum to infinity, finding N",
+        "command_words": [
+          "Find"
+        ],
+        "cognitive_level": "AO2",
+        "tagged_at": "2026-03-23",
+        "tagger": "gemini-2.5-flash"
+      }
     },
     {
       "qnum": 3,
@@ -253,7 +280,23 @@
         }
       ],
       "answer": null,
-      "meta": {}
+      "meta": {
+        "sections": [
+          "8.3",
+          "5.1"
+        ],
+        "primary_section": "8.3",
+        "question_type": "Trapezium rule for integral approximation",
+        "command_words": [
+          "Complete",
+          "Use",
+          "Find",
+          "Explain"
+        ],
+        "cognitive_level": "AO1",
+        "tagged_at": "2026-03-23",
+        "tagger": "gemini-2.5-flash"
+      }
     },
     {
       "qnum": 4,
@@ -272,7 +315,19 @@
       "answer": {
         "type": "none"
       },
-      "meta": {}
+      "meta": {
+        "sections": [
+          "1.2"
+        ],
+        "primary_section": "1.2",
+        "question_type": "Proof by exhaustion for divisibility",
+        "command_words": [
+          "Prove"
+        ],
+        "cognitive_level": "AO2",
+        "tagged_at": "2026-03-23",
+        "tagger": "gemini-2.5-flash"
+      }
     },
     {
       "qnum": 5,
@@ -365,7 +420,21 @@
         }
       ],
       "answer": null,
-      "meta": {}
+      "meta": {
+        "sections": [
+          "4.2",
+          "1.1"
+        ],
+        "primary_section": "4.2",
+        "question_type": "Arithmetic series proof and application",
+        "command_words": [
+          "Prove",
+          "Find"
+        ],
+        "cognitive_level": "AO3",
+        "tagged_at": "2026-03-23",
+        "tagger": "gemini-2.5-flash"
+      }
     },
     {
       "qnum": 6,
@@ -436,7 +505,21 @@
         }
       ],
       "answer": null,
-      "meta": {}
+      "meta": {
+        "sections": [
+          "5.3",
+          "5.2"
+        ],
+        "primary_section": "5.3",
+        "question_type": "Solving logarithmic equations and manipulation",
+        "command_words": [
+          "Find",
+          "Express"
+        ],
+        "cognitive_level": "AO1",
+        "tagged_at": "2026-03-23",
+        "tagger": "gemini-2.5-flash"
+      }
     },
     {
       "qnum": 7,
@@ -564,7 +647,20 @@
         }
       ],
       "answer": null,
-      "meta": {}
+      "meta": {
+        "sections": [
+          "3.1"
+        ],
+        "primary_section": "3.1",
+        "question_type": "Circle properties, intersections, tangent length",
+        "command_words": [
+          "Find",
+          "Show that"
+        ],
+        "cognitive_level": "AO2",
+        "tagged_at": "2026-03-23",
+        "tagger": "gemini-2.5-flash"
+      }
     },
     {
       "qnum": 8,
@@ -665,7 +761,21 @@
         }
       ],
       "answer": null,
-      "meta": {}
+      "meta": {
+        "sections": [
+          "8.2"
+        ],
+        "primary_section": "8.2",
+        "question_type": "Intersection points, area between curves",
+        "command_words": [
+          "Verify",
+          "Use algebra to find",
+          "Use calculus to find"
+        ],
+        "cognitive_level": "AO1",
+        "tagged_at": "2026-03-23",
+        "tagger": "gemini-2.5-flash"
+      }
     },
     {
       "qnum": 9,
@@ -759,7 +869,21 @@
         }
       ],
       "answer": null,
-      "meta": {}
+      "meta": {
+        "sections": [
+          "6.2",
+          "6.1"
+        ],
+        "primary_section": "6.2",
+        "question_type": "Solving trigonometric equations",
+        "command_words": [
+          "Solve",
+          "Find"
+        ],
+        "cognitive_level": "AO1",
+        "tagged_at": "2026-03-23",
+        "tagger": "gemini-2.5-flash"
+      }
     }
   ]
 }

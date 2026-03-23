@@ -64,7 +64,20 @@
         }
       ],
       "answer": null,
-      "meta": {}
+      "meta": {
+        "sections": [
+          "4.5"
+        ],
+        "primary_section": "4.5",
+        "question_type": "Binomial expansion for positive integer n",
+        "command_words": [
+          "Find",
+          "Hence find"
+        ],
+        "cognitive_level": "AO2",
+        "tagged_at": "2026-03-23",
+        "tagger": "gemini-2.5-flash"
+      }
     },
     {
       "qnum": 2,
@@ -115,7 +128,21 @@
         }
       ],
       "answer": null,
-      "meta": {}
+      "meta": {
+        "sections": [
+          "8.3"
+        ],
+        "primary_section": "8.3",
+        "question_type": "Trapezium rule for numerical integration",
+        "command_words": [
+          "Complete",
+          "Use",
+          "find"
+        ],
+        "cognitive_level": "AO1",
+        "tagged_at": "2026-03-23",
+        "tagger": "gemini-2.5-flash"
+      }
     },
     {
       "qnum": 3,
@@ -211,7 +238,23 @@
         }
       ],
       "answer": null,
-      "meta": {}
+      "meta": {
+        "sections": [
+          "2.1",
+          "7.1"
+        ],
+        "primary_section": "2.1",
+        "question_type": "Factor and remainder theorems, finding stationary points",
+        "command_words": [
+          "Use",
+          "show that",
+          "find",
+          "Hence find"
+        ],
+        "cognitive_level": "AO2",
+        "tagged_at": "2026-03-23",
+        "tagger": "gemini-2.5-flash"
+      }
     },
     {
       "qnum": 4,
@@ -293,7 +336,20 @@
         }
       ],
       "answer": null,
-      "meta": {}
+      "meta": {
+        "sections": [
+          "3.1"
+        ],
+        "primary_section": "3.1",
+        "question_type": "Circle equation, properties, and tangent",
+        "command_words": [
+          "Find",
+          "Hence find"
+        ],
+        "cognitive_level": "AO2",
+        "tagged_at": "2026-03-23",
+        "tagger": "gemini-2.5-flash"
+      }
     },
     {
       "qnum": 5,
@@ -408,7 +464,23 @@
         }
       ],
       "answer": null,
-      "meta": {}
+      "meta": {
+        "sections": [
+          "4.2"
+        ],
+        "primary_section": "4.2",
+        "question_type": "Arithmetic sequences and series problem-solving",
+        "command_words": [
+          "Find",
+          "Form",
+          "Show that",
+          "Solve",
+          "State"
+        ],
+        "cognitive_level": "AO3",
+        "tagged_at": "2026-03-23",
+        "tagger": "gemini-2.5-flash"
+      }
     },
     {
       "qnum": 6,
@@ -498,7 +570,21 @@
         }
       ],
       "answer": null,
-      "meta": {}
+      "meta": {
+        "sections": [
+          "8.2"
+        ],
+        "primary_section": "8.2",
+        "question_type": "Area between curves using definite integration",
+        "command_words": [
+          "Find",
+          "Use",
+          "find"
+        ],
+        "cognitive_level": "AO2",
+        "tagged_at": "2026-03-23",
+        "tagger": "gemini-2.5-flash"
+      }
     },
     {
       "qnum": 7,
@@ -568,7 +654,21 @@
         }
       ],
       "answer": null,
-      "meta": {}
+      "meta": {
+        "sections": [
+          "6.2",
+          "6.1"
+        ],
+        "primary_section": "6.2",
+        "question_type": "Trigonometric identities and solving equations",
+        "command_words": [
+          "Show that",
+          "Solve"
+        ],
+        "cognitive_level": "AO2",
+        "tagged_at": "2026-03-23",
+        "tagger": "gemini-2.5-flash"
+      }
     },
     {
       "qnum": 8,
@@ -635,7 +735,22 @@
         }
       ],
       "answer": null,
-      "meta": {}
+      "meta": {
+        "sections": [
+          "4.4",
+          "1.1"
+        ],
+        "primary_section": "4.4",
+        "question_type": "Proof and application of geometric series formulas",
+        "command_words": [
+          "Prove",
+          "Find",
+          "Hence find"
+        ],
+        "cognitive_level": "AO2",
+        "tagged_at": "2026-03-23",
+        "tagger": "gemini-2.5-flash"
+      }
     },
     {
       "qnum": 9,
@@ -717,7 +832,22 @@
         }
       ],
       "answer": null,
-      "meta": {}
+      "meta": {
+        "sections": [
+          "5.3",
+          "5.2"
+        ],
+        "primary_section": "5.3",
+        "question_type": "Solving logarithmic equations and manipulating expressions",
+        "command_words": [
+          "Find",
+          "show that",
+          "Hence find"
+        ],
+        "cognitive_level": "AO2",
+        "tagged_at": "2026-03-23",
+        "tagger": "gemini-2.5-flash"
+      }
     }
   ]
 }

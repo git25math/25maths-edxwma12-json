@@ -1,0 +1,3279 @@
+{
+  "results": [
+    {
+      "id": "2018SP-WMA12-01-Q1",
+      "sections": [
+        "2.1",
+        "1.1"
+      ],
+      "primary_section": "2.1",
+      "question_type": "Factor and remainder theorem, simultaneous equations",
+      "command_words": [
+        "Show that",
+        "Find"
+      ],
+      "cognitive_level": "AO2"
+    },
+    {
+      "id": "2018SP-WMA12-01-Q2",
+      "sections": [
+        "4.4",
+        "5.3"
+      ],
+      "primary_section": "4.4",
+      "question_type": "Geometric series, sum to infinity, finding N",
+      "command_words": [
+        "Find"
+      ],
+      "cognitive_level": "AO2"
+    },
+    {
+      "id": "2018SP-WMA12-01-Q3",
+      "sections": [
+        "8.3",
+        "5.1"
+      ],
+      "primary_section": "8.3",
+      "question_type": "Trapezium rule for integral approximation",
+      "command_words": [
+        "Complete",
+        "Use",
+        "Find",
+        "Explain"
+      ],
+      "cognitive_level": "AO1"
+    },
+    {
+      "id": "2018SP-WMA12-01-Q4",
+      "sections": [
+        "1.2"
+      ],
+      "primary_section": "1.2",
+      "question_type": "Proof by exhaustion for divisibility",
+      "command_words": [
+        "Prove"
+      ],
+      "cognitive_level": "AO2"
+    },
+    {
+      "id": "2018SP-WMA12-01-Q5",
+      "sections": [
+        "4.2",
+        "1.1"
+      ],
+      "primary_section": "4.2",
+      "question_type": "Arithmetic series proof and application",
+      "command_words": [
+        "Prove",
+        "Find"
+      ],
+      "cognitive_level": "AO3"
+    },
+    {
+      "id": "2018SP-WMA12-01-Q6",
+      "sections": [
+        "5.3",
+        "5.2"
+      ],
+      "primary_section": "5.3",
+      "question_type": "Solving logarithmic equations and manipulation",
+      "command_words": [
+        "Find",
+        "Express"
+      ],
+      "cognitive_level": "AO1"
+    },
+    {
+      "id": "2018SP-WMA12-01-Q7",
+      "sections": [
+        "3.1"
+      ],
+      "primary_section": "3.1",
+      "question_type": "Circle properties, intersections, tangent length",
+      "command_words": [
+        "Find",
+        "Show that"
+      ],
+      "cognitive_level": "AO2"
+    },
+    {
+      "id": "2018SP-WMA12-01-Q8",
+      "sections": [
+        "8.2"
+      ],
+      "primary_section": "8.2",
+      "question_type": "Intersection points, area between curves",
+      "command_words": [
+        "Verify",
+        "Use algebra to find",
+        "Use calculus to find"
+      ],
+      "cognitive_level": "AO1"
+    },
+    {
+      "id": "2018SP-WMA12-01-Q9",
+      "sections": [
+        "6.2",
+        "6.1"
+      ],
+      "primary_section": "6.2",
+      "question_type": "Solving trigonometric equations",
+      "command_words": [
+        "Solve",
+        "Find"
+      ],
+      "cognitive_level": "AO1"
+    },
+    {
+      "id": "2019Jan-WMA01-01-Q4",
+      "sections": [
+        "4.1"
+      ],
+      "primary_section": "4.1",
+      "question_type": "Recurrence relation and summation",
+      "command_words": [
+        "Find"
+      ],
+      "cognitive_level": "AO1"
+    },
+    {
+      "id": "2019Jan-WMA01-01-Q5",
+      "sections": [
+        "4.5"
+      ],
+      "primary_section": "4.5",
+      "question_type": "Binomial expansion and approximation",
+      "command_words": [
+        "Use",
+        "Find"
+      ],
+      "cognitive_level": "AO2"
+    },
+    {
+      "id": "2019Jan-WMA01-01-Q6",
+      "sections": [
+        "8.3",
+        "6.1"
+      ],
+      "primary_section": "8.3",
+      "question_type": "Trapezium rule, trigonometric graph sketching",
+      "command_words": [
+        "Sketch",
+        "Show",
+        "Use",
+        "Find"
+      ],
+      "cognitive_level": "AO1"
+    },
+    {
+      "id": "2019Jan-WMA01-01-Q8",
+      "sections": [
+        "8.1"
+      ],
+      "primary_section": "8.1",
+      "question_type": "Evaluating definite integral to form an equation",
+      "command_words": [
+        "Show that"
+      ],
+      "cognitive_level": "AO2"
+    },
+    {
+      "id": "2019Jan-WMA01-01-Q9",
+      "sections": [
+        "3.1"
+      ],
+      "primary_section": "3.1",
+      "question_type": "Circle properties, tangent equation",
+      "command_words": [
+        "Find"
+      ],
+      "cognitive_level": "AO1"
+    },
+    {
+      "id": "2019Jan-WMA01-01-Q11",
+      "sections": [
+        "5.3",
+        "5.2"
+      ],
+      "primary_section": "5.3",
+      "question_type": "Solving logarithmic equations",
+      "command_words": [
+        "Solve",
+        "Express"
+      ],
+      "cognitive_level": "AO1"
+    },
+    {
+      "id": "2019Jan-WMA01-01-Q12",
+      "sections": [
+        "4.4",
+        "4.2",
+        "5.3"
+      ],
+      "primary_section": "4.4",
+      "question_type": "Problem-solving with geometric and arithmetic series",
+      "command_words": [
+        "Find"
+      ],
+      "cognitive_level": "AO3"
+    },
+    {
+      "id": "2019Jan-WMA01-01-Q13",
+      "sections": [
+        "2.1",
+        "1.1"
+      ],
+      "primary_section": "2.1",
+      "question_type": "Factor theorem, polynomial factorization, proving number of roots",
+      "command_words": [
+        "Show that",
+        "Write",
+        "Use",
+        "Prove"
+      ],
+      "cognitive_level": "AO2"
+    },
+    {
+      "id": "2019Jan-WMA01-01-Q14",
+      "sections": [
+        "6.2",
+        "6.1"
+      ],
+      "primary_section": "6.2",
+      "question_type": "Solving trigonometric equations using identities",
+      "command_words": [
+        "Solve",
+        "Show that",
+        "Hence solve"
+      ],
+      "cognitive_level": "AO2"
+    },
+    {
+      "id": "2019Jan-WMA01-01-Q15",
+      "sections": [
+        "8.2"
+      ],
+      "primary_section": "8.2",
+      "question_type": "Finding intersection points, area bounded by line and curve",
+      "command_words": [
+        "Use algebra to find",
+        "Use calculus to find"
+      ],
+      "cognitive_level": "AO2"
+    },
+    {
+      "id": "2019Jan-WMA01-01-Q16",
+      "sections": [
+        "7.1"
+      ],
+      "primary_section": "7.1",
+      "question_type": "Optimization problem (surface area minimization) using calculus",
+      "command_words": [
+        "Show that",
+        "Use calculus to find",
+        "Justify",
+        "Find"
+      ],
+      "cognitive_level": "AO3"
+    },
+    {
+      "id": "2019May-WMA12-01-Q1",
+      "sections": [
+        "4.1",
+        "4.3"
+      ],
+      "primary_section": "4.1",
+      "question_type": "Recurrence relation, periodic sequence, summation",
+      "command_words": [
+        "Find"
+      ],
+      "cognitive_level": "AO2"
+    },
+    {
+      "id": "2019May-WMA12-01-Q2",
+      "sections": [
+        "3.1"
+      ],
+      "primary_section": "3.1",
+      "question_type": "Circle properties, tangent equation",
+      "command_words": [
+        "Find"
+      ],
+      "cognitive_level": "AO1"
+    },
+    {
+      "id": "2019May-WMA12-01-Q3",
+      "sections": [
+        "1.1",
+        "1.3"
+      ],
+      "primary_section": "1.1",
+      "question_type": "Algebraic proof and disproof by counter-example",
+      "command_words": [
+        "Use algebra to prove",
+        "Show that"
+      ],
+      "cognitive_level": "AO2"
+    },
+    {
+      "id": "2019May-WMA12-01-Q4",
+      "sections": [
+        "4.5"
+      ],
+      "primary_section": "4.5",
+      "question_type": "Binomial expansion, combining expansions",
+      "command_words": [
+        "Find",
+        "Show"
+      ],
+      "cognitive_level": "AO2"
+    },
+    {
+      "id": "2019May-WMA12-01-Q5",
+      "sections": [
+        "7.1"
+      ],
+      "primary_section": "7.1",
+      "question_type": "Optimization problem (profit maximization) using calculus",
+      "command_words": [
+        "Find",
+        "Justify"
+      ],
+      "cognitive_level": "AO3"
+    },
+    {
+      "id": "2019May-WMA12-01-Q6",
+      "sections": [
+        "2.1"
+      ],
+      "primary_section": "2.1",
+      "question_type": "Factor theorem, polynomial factorization, solving cubic",
+      "command_words": [
+        "Show that",
+        "Using algebra... factorise",
+        "Solve"
+      ],
+      "cognitive_level": "AO1"
+    },
+    {
+      "id": "2019May-WMA12-01-Q7",
+      "sections": [
+        "4.2",
+        "4.4"
+      ],
+      "primary_section": "4.2",
+      "question_type": "Modelling salary increase with arithmetic and geometric series",
+      "command_words": [
+        "Determine",
+        "Calculate"
+      ],
+      "cognitive_level": "AO3"
+    },
+    {
+      "id": "2019May-WMA12-01-Q8",
+      "sections": [
+        "5.3",
+        "5.2"
+      ],
+      "primary_section": "5.3",
+      "question_type": "Solving exponential and logarithmic equations",
+      "command_words": [
+        "Find",
+        "Solve"
+      ],
+      "cognitive_level": "AO1"
+    },
+    {
+      "id": "2019May-WMA12-01-Q9",
+      "sections": [
+        "6.1",
+        "6.2"
+      ],
+      "primary_section": "6.1",
+      "question_type": "Proving trig identity, solving trig equations",
+      "command_words": [
+        "Show that",
+        "Solve"
+      ],
+      "cognitive_level": "AO2"
+    },
+    {
+      "id": "2019May-WMA12-01-Q10",
+      "sections": [
+        "8.1",
+        "7.1"
+      ],
+      "primary_section": "8.1",
+      "question_type": "Increasing function interval, definite integrals, integral properties",
+      "command_words": [
+        "Using calculus, find",
+        "Show that",
+        "State",
+        "Find"
+      ],
+      "cognitive_level": "AO2"
+    },
+    {
+      "id": "2019Oct-WMA12-01-Q1",
+      "sections": [
+        "7.1"
+      ],
+      "primary_section": "7.1",
+      "question_type": "Stationary points and increasing intervals",
+      "command_words": [
+        "Find"
+      ],
+      "cognitive_level": "AO1"
+    },
+    {
+      "id": "2019Oct-WMA12-01-Q2",
+      "sections": [
+        "4.4"
+      ],
+      "primary_section": "4.4",
+      "question_type": "Modelling population and donations with geometric series",
+      "command_words": [
+        "Find"
+      ],
+      "cognitive_level": "AO3"
+    },
+    {
+      "id": "2019Oct-WMA12-01-Q3",
+      "sections": [
+        "4.5"
+      ],
+      "primary_section": "4.5",
+      "question_type": "Binomial expansion, finding independent term",
+      "command_words": [
+        "Find"
+      ],
+      "cognitive_level": "AO2"
+    },
+    {
+      "id": "2019Oct-WMA12-01-Q4",
+      "sections": [
+        "2.1"
+      ],
+      "primary_section": "2.1",
+      "question_type": "Remainder and factor theorem, polynomial factorization",
+      "command_words": [
+        "State",
+        "Show that",
+        "Using algebra... factorise"
+      ],
+      "cognitive_level": "AO1"
+    },
+    {
+      "id": "2019Oct-WMA12-01-Q5",
+      "sections": [
+        "8.3",
+        "5.1",
+        "8.1"
+      ],
+      "primary_section": "8.3",
+      "question_type": "Sketching exponential graph, trapezium rule, integral properties",
+      "command_words": [
+        "Sketch",
+        "Obtain an estimate",
+        "Estimate"
+      ],
+      "cognitive_level": "AO2"
+    },
+    {
+      "id": "2019Oct-WMA12-01-Q6",
+      "sections": [
+        "3.1"
+      ],
+      "primary_section": "3.1",
+      "question_type": "Circle properties, tangent perpendicular to radius",
+      "command_words": [
+        "Find"
+      ],
+      "cognitive_level": "AO2"
+    },
+    {
+      "id": "2019Oct-WMA12-01-Q7",
+      "sections": [
+        "5.2",
+        "4.4"
+      ],
+      "primary_section": "5.2",
+      "question_type": "Manipulating logarithmic expressions, geometric series with logs",
+      "command_words": [
+        "Find"
+      ],
+      "cognitive_level": "AO2"
+    },
+    {
+      "id": "2019Oct-WMA12-01-Q8",
+      "sections": [
+        "8.2",
+        "8.1"
+      ],
+      "primary_section": "8.2",
+      "question_type": "Area under a curve, definite integral property",
+      "command_words": [
+        "Find"
+      ],
+      "cognitive_level": "AO2"
+    },
+    {
+      "id": "2019Oct-WMA12-01-Q9",
+      "sections": [
+        "6.2",
+        "6.1"
+      ],
+      "primary_section": "6.2",
+      "question_type": "Solving trig equations, proving trig identity",
+      "command_words": [
+        "Solve",
+        "Show that",
+        "Find"
+      ],
+      "cognitive_level": "AO2"
+    },
+    {
+      "id": "2019Oct-WMA12-01-Q10",
+      "sections": [
+        "7.1",
+        "1.1"
+      ],
+      "primary_section": "7.1",
+      "question_type": "Finding polynomial coefficients, proving no turning points",
+      "command_words": [
+        "Find",
+        "Prove"
+      ],
+      "cognitive_level": "AO2"
+    },
+    {
+      "id": "2020Jan-WMA12-01-Q1",
+      "sections": [
+        "8.3",
+        "5.2",
+        "8.1"
+      ],
+      "primary_section": "8.3",
+      "question_type": "Trapezium rule, integral properties using log rules",
+      "command_words": [
+        "Obtain an estimate"
+      ],
+      "cognitive_level": "AO2"
+    },
+    {
+      "id": "2020Jan-WMA12-01-Q2",
+      "sections": [
+        "4.5"
+      ],
+      "primary_section": "4.5",
+      "question_type": "Binomial expansion, finding independent term",
+      "command_words": [
+        "Find",
+        "Hence find"
+      ],
+      "cognitive_level": "AO2"
+    },
+    {
+      "id": "2020Jan-WMA12-01-Q3",
+      "sections": [
+        "2.1",
+        "6.2"
+      ],
+      "primary_section": "2.1",
+      "question_type": "Factor theorem, polynomial factorization, solving trig equation",
+      "command_words": [
+        "Use... to show that",
+        "Hence... write",
+        "Solve"
+      ],
+      "cognitive_level": "AO2"
+    },
+    {
+      "id": "2020Jan-WMA12-01-Q4",
+      "sections": [
+        "8.2"
+      ],
+      "primary_section": "8.2",
+      "question_type": "Area bounded by curve, y-axis, and horizontal line",
+      "command_words": [
+        "Find"
+      ],
+      "cognitive_level": "AO2"
+    },
+    {
+      "id": "2020Jan-WMA12-01-Q5",
+      "sections": [
+        "4.4",
+        "5.3"
+      ],
+      "primary_section": "4.4",
+      "question_type": "Modelling population growth with geometric sequence",
+      "command_words": [
+        "Find"
+      ],
+      "cognitive_level": "AO3"
+    },
+    {
+      "id": "2020Jan-WMA12-01-Q6",
+      "sections": [
+        "3.1"
+      ],
+      "primary_section": "3.1",
+      "question_type": "Circle properties, tangents and chords",
+      "command_words": [
+        "Find"
+      ],
+      "cognitive_level": "AO2"
+    },
+    {
+      "id": "2020Jan-WMA12-01-Q7",
+      "sections": [
+        "6.2",
+        "6.1"
+      ],
+      "primary_section": "6.2",
+      "question_type": "Solving trigonometric equations using identities",
+      "command_words": [
+        "Show that",
+        "Hence solve"
+      ],
+      "cognitive_level": "AO2"
+    },
+    {
+      "id": "2020Jan-WMA12-01-Q8",
+      "sections": [
+        "4.2",
+        "1.1"
+      ],
+      "primary_section": "4.2",
+      "question_type": "Proof and application of arithmetic series formulas",
+      "command_words": [
+        "Prove",
+        "Find"
+      ],
+      "cognitive_level": "AO2"
+    },
+    {
+      "id": "2020Jan-WMA12-01-Q9",
+      "sections": [
+        "5.3",
+        "5.1",
+        "5.2"
+      ],
+      "primary_section": "5.3",
+      "question_type": "Sketching exponential graphs and solving exponential equations",
+      "command_words": [
+        "Sketch",
+        "Show that"
+      ],
+      "cognitive_level": "AO2"
+    },
+    {
+      "id": "2020Jan-WMA12-01-Q10",
+      "sections": [
+        "7.1"
+      ],
+      "primary_section": "7.1",
+      "question_type": "Stationary points, differentiation, nature of stationary points",
+      "command_words": [
+        "Show that",
+        "Determine",
+        "Justifying",
+        "Find"
+      ],
+      "cognitive_level": "AO2"
+    },
+    {
+      "id": "2020Oct-WMA12-01-Q1",
+      "sections": [
+        "4.5"
+      ],
+      "primary_section": "4.5",
+      "question_type": "Binomial expansion for positive integer n",
+      "command_words": [
+        "Find",
+        "Hence find"
+      ],
+      "cognitive_level": "AO2"
+    },
+    {
+      "id": "2020Oct-WMA12-01-Q2",
+      "sections": [
+        "8.3"
+      ],
+      "primary_section": "8.3",
+      "question_type": "Trapezium rule for numerical integration",
+      "command_words": [
+        "Complete",
+        "Use",
+        "find"
+      ],
+      "cognitive_level": "AO1"
+    },
+    {
+      "id": "2020Oct-WMA12-01-Q3",
+      "sections": [
+        "2.1",
+        "7.1"
+      ],
+      "primary_section": "2.1",
+      "question_type": "Factor and remainder theorems, finding stationary points",
+      "command_words": [
+        "Use",
+        "show that",
+        "find",
+        "Hence find"
+      ],
+      "cognitive_level": "AO2"
+    },
+    {
+      "id": "2020Oct-WMA12-01-Q4",
+      "sections": [
+        "3.1"
+      ],
+      "primary_section": "3.1",
+      "question_type": "Circle equation, properties, and tangent",
+      "command_words": [
+        "Find",
+        "Hence find"
+      ],
+      "cognitive_level": "AO2"
+    },
+    {
+      "id": "2020Oct-WMA12-01-Q5",
+      "sections": [
+        "4.2"
+      ],
+      "primary_section": "4.2",
+      "question_type": "Arithmetic sequences and series problem-solving",
+      "command_words": [
+        "Find",
+        "Form",
+        "Show that",
+        "Solve",
+        "State"
+      ],
+      "cognitive_level": "AO3"
+    },
+    {
+      "id": "2020Oct-WMA12-01-Q6",
+      "sections": [
+        "8.2"
+      ],
+      "primary_section": "8.2",
+      "question_type": "Area between curves using definite integration",
+      "command_words": [
+        "Find",
+        "Use",
+        "find"
+      ],
+      "cognitive_level": "AO2"
+    },
+    {
+      "id": "2020Oct-WMA12-01-Q7",
+      "sections": [
+        "6.2",
+        "6.1"
+      ],
+      "primary_section": "6.2",
+      "question_type": "Trigonometric identities and solving equations",
+      "command_words": [
+        "Show that",
+        "Solve"
+      ],
+      "cognitive_level": "AO2"
+    },
+    {
+      "id": "2020Oct-WMA12-01-Q8",
+      "sections": [
+        "4.4",
+        "1.1"
+      ],
+      "primary_section": "4.4",
+      "question_type": "Proof and application of geometric series formulas",
+      "command_words": [
+        "Prove",
+        "Find",
+        "Hence find"
+      ],
+      "cognitive_level": "AO2"
+    },
+    {
+      "id": "2020Oct-WMA12-01-Q9",
+      "sections": [
+        "5.3",
+        "5.2"
+      ],
+      "primary_section": "5.3",
+      "question_type": "Solving logarithmic equations and manipulating expressions",
+      "command_words": [
+        "Find",
+        "show that",
+        "Hence find"
+      ],
+      "cognitive_level": "AO2"
+    },
+    {
+      "id": "2021Jan-WMA12-01-Q1",
+      "sections": [
+        "2.1"
+      ],
+      "primary_section": "2.1",
+      "question_type": "Remainder theorem application",
+      "command_words": [
+        "Show that",
+        "Find"
+      ],
+      "cognitive_level": "AO2"
+    },
+    {
+      "id": "2021Jan-WMA12-01-Q2",
+      "sections": [
+        "7.1"
+      ],
+      "primary_section": "7.1",
+      "question_type": "Stationary points and their nature using calculus",
+      "command_words": [
+        "Find",
+        "Justify"
+      ],
+      "cognitive_level": "AO2"
+    },
+    {
+      "id": "2021Jan-WMA12-01-Q3",
+      "sections": [
+        "5.3",
+        "5.2"
+      ],
+      "primary_section": "5.3",
+      "question_type": "Solving exponential and logarithmic equations",
+      "command_words": [
+        "Solve"
+      ],
+      "cognitive_level": "AO2"
+    },
+    {
+      "id": "2021Jan-WMA12-01-Q4",
+      "sections": [
+        "4.5"
+      ],
+      "primary_section": "4.5",
+      "question_type": "Binomial expansion and finding coefficients",
+      "command_words": [
+        "Find"
+      ],
+      "cognitive_level": "AO2"
+    },
+    {
+      "id": "2021Jan-WMA12-01-Q5",
+      "sections": [
+        "1.1",
+        "1.3"
+      ],
+      "primary_section": "1.1",
+      "question_type": "Algebraic proof and disproof by counter-example",
+      "command_words": [
+        "Prove",
+        "Show that"
+      ],
+      "cognitive_level": "AO2"
+    },
+    {
+      "id": "2021Jan-WMA12-01-Q6",
+      "sections": [
+        "6.2",
+        "6.1"
+      ],
+      "primary_section": "6.2",
+      "question_type": "Trigonometric identities and solving equations",
+      "command_words": [
+        "Show that",
+        "Hence solve"
+      ],
+      "cognitive_level": "AO2"
+    },
+    {
+      "id": "2021Jan-WMA12-01-Q7",
+      "sections": [
+        "8.3"
+      ],
+      "primary_section": "8.3",
+      "question_type": "Trapezium rule for numerical integration in context",
+      "command_words": [
+        "Use",
+        "complete",
+        "find"
+      ],
+      "cognitive_level": "AO1"
+    },
+    {
+      "id": "2021Jan-WMA12-01-Q8",
+      "sections": [
+        "4.1"
+      ],
+      "primary_section": "4.1",
+      "question_type": "Recurrence relations and sequence terms",
+      "command_words": [
+        "Find"
+      ],
+      "cognitive_level": "AO2"
+    },
+    {
+      "id": "2021Jan-WMA12-01-Q9",
+      "sections": [
+        "3.1"
+      ],
+      "primary_section": "3.1",
+      "question_type": "Circle equation, properties, and tangent",
+      "command_words": [
+        "Find",
+        "show that",
+        "hence find",
+        "calculate"
+      ],
+      "cognitive_level": "AO3"
+    },
+    {
+      "id": "2021Jan-WMA12-01-Q10",
+      "sections": [
+        "4.2",
+        "4.4"
+      ],
+      "primary_section": "4.2",
+      "question_type": "Arithmetic and geometric sequences in a practical context",
+      "command_words": [
+        "Calculate",
+        "find"
+      ],
+      "cognitive_level": "AO3"
+    },
+    {
+      "id": "2021May-WMA12-01-Q1",
+      "sections": [],
+      "primary_section": "",
+      "question_type": "Question content not provided",
+      "command_words": [],
+      "cognitive_level": ""
+    },
+    {
+      "id": "2021May-WMA12-01-Q2",
+      "sections": [
+        "5.3",
+        "5.1"
+      ],
+      "primary_section": "5.3",
+      "question_type": "Sketching exponential graphs and solving exponential equations",
+      "command_words": [
+        "Sketch",
+        "Find"
+      ],
+      "cognitive_level": "AO2"
+    },
+    {
+      "id": "2021May-WMA12-01-Q3",
+      "sections": [
+        "1.2",
+        "1.1"
+      ],
+      "primary_section": "1.2",
+      "question_type": "Proof by exhaustion and algebraic proof",
+      "command_words": [
+        "Prove",
+        "Show"
+      ],
+      "cognitive_level": "AO2"
+    },
+    {
+      "id": "2021May-WMA12-01-Q4",
+      "sections": [
+        "4.5"
+      ],
+      "primary_section": "4.5",
+      "question_type": "Binomial expansion and approximation",
+      "command_words": [
+        "Find",
+        "Use",
+        "State"
+      ],
+      "cognitive_level": "AO2"
+    },
+    {
+      "id": "2021May-WMA12-01-Q5",
+      "sections": [
+        "8.2",
+        "8.3",
+        "8.1"
+      ],
+      "primary_section": "8.2",
+      "question_type": "Trapezium rule and area between curves using integration",
+      "command_words": [
+        "Using",
+        "find",
+        "Find",
+        "Use"
+      ],
+      "cognitive_level": "AO3"
+    },
+    {
+      "id": "2021May-WMA12-01-Q6",
+      "sections": [
+        "3.1"
+      ],
+      "primary_section": "3.1",
+      "question_type": "Circle properties, tangents and area of a triangle",
+      "command_words": [
+        "find"
+      ],
+      "cognitive_level": "AO3"
+    },
+    {
+      "id": "2021May-WMA12-01-Q7",
+      "sections": [
+        "5.3",
+        "5.2",
+        "2.1"
+      ],
+      "primary_section": "5.3",
+      "question_type": "Solving logarithmic equations leading to cubic equations",
+      "command_words": [
+        "show that",
+        "Hence",
+        "solve"
+      ],
+      "cognitive_level": "AO2"
+    },
+    {
+      "id": "2021May-WMA12-01-Q8",
+      "sections": [
+        "6.2",
+        "6.1"
+      ],
+      "primary_section": "6.2",
+      "question_type": "Solving trigonometric equations using identities",
+      "command_words": [
+        "Solve",
+        "Show that",
+        "Hence solve"
+      ],
+      "cognitive_level": "AO2"
+    },
+    {
+      "id": "2021May-WMA12-01-Q9",
+      "sections": [
+        "7.1"
+      ],
+      "primary_section": "7.1",
+      "question_type": "Optimisation problem using differentiation",
+      "command_words": [
+        "show that",
+        "Use",
+        "Justify"
+      ],
+      "cognitive_level": "AO3"
+    },
+    {
+      "id": "2021Oct-WMA12-01-Q1",
+      "sections": [
+        "4.5"
+      ],
+      "primary_section": "4.5",
+      "question_type": "Binomial expansion with unknown constants",
+      "command_words": [
+        "Find"
+      ],
+      "cognitive_level": "AO2"
+    },
+    {
+      "id": "2021Oct-WMA12-01-Q2",
+      "sections": [
+        "4.1"
+      ],
+      "primary_section": "4.1",
+      "question_type": "Recurrence relations and sequence sums",
+      "command_words": [
+        "Find"
+      ],
+      "cognitive_level": "AO2"
+    },
+    {
+      "id": "2021Oct-WMA12-01-Q3",
+      "sections": [
+        "8.3"
+      ],
+      "primary_section": "8.3",
+      "question_type": "Trapezium rule for numerical integration, including explanation",
+      "command_words": [
+        "Use",
+        "show that",
+        "Explain",
+        "estimate"
+      ],
+      "cognitive_level": "AO2"
+    },
+    {
+      "id": "2021Oct-WMA12-01-Q4",
+      "sections": [
+        "2.1"
+      ],
+      "primary_section": "2.1",
+      "question_type": "Factor and remainder theorems, polynomial factorization",
+      "command_words": [
+        "State",
+        "Use",
+        "show that",
+        "Hence"
+      ],
+      "cognitive_level": "AO2"
+    },
+    {
+      "id": "2021Oct-WMA12-01-Q5",
+      "sections": [
+        "4.2"
+      ],
+      "primary_section": "4.2",
+      "question_type": "Arithmetic sequences and series problem-solving",
+      "command_words": [
+        "Find",
+        "Show that",
+        "State"
+      ],
+      "cognitive_level": "AO2"
+    },
+    {
+      "id": "2021Oct-WMA12-01-Q6",
+      "sections": [
+        "3.1"
+      ],
+      "primary_section": "3.1",
+      "question_type": "Circle properties and equations (missing context)",
+      "command_words": [
+        "Find",
+        "State"
+      ],
+      "cognitive_level": "AO3"
+    },
+    {
+      "id": "2021Oct-WMA12-01-Q7",
+      "sections": [
+        "4.4",
+        "5.3"
+      ],
+      "primary_section": "4.4",
+      "question_type": "Geometric sequences and series, including inequalities and solving for common ratio",
+      "command_words": [
+        "Find",
+        "show that",
+        "Write down",
+        "Hence",
+        "state",
+        "find"
+      ],
+      "cognitive_level": "AO2"
+    },
+    {
+      "id": "2021Oct-WMA12-01-Q8",
+      "sections": [
+        "7.1",
+        "8.2"
+      ],
+      "primary_section": "7.1",
+      "question_type": "Stationary points, increasing/decreasing functions, and area under curve",
+      "command_words": [
+        "show that",
+        "Determine",
+        "Find"
+      ],
+      "cognitive_level": "AO3"
+    },
+    {
+      "id": "2021Oct-WMA12-01-Q9",
+      "sections": [
+        "1.1",
+        "1.3"
+      ],
+      "primary_section": "1.1",
+      "question_type": "Algebraic proof and disproof by counter-example",
+      "command_words": [
+        "Prove"
+      ],
+      "cognitive_level": "AO2"
+    },
+    {
+      "id": "2021Oct-WMA12-01-Q10",
+      "sections": [
+        "6.2",
+        "6.1"
+      ],
+      "primary_section": "6.2",
+      "question_type": "Solving trigonometric equations, including those requiring identities",
+      "command_words": [
+        "Solve"
+      ],
+      "cognitive_level": "AO2"
+    },
+    {
+      "id": "2022Jan-WMA12-01-Q1",
+      "sections": [
+        "8.3",
+        "8.1"
+      ],
+      "primary_section": "8.3",
+      "question_type": "Trapezium rule and properties of definite integrals",
+      "command_words": [
+        "obtain",
+        "estimate"
+      ],
+      "cognitive_level": "AO2"
+    },
+    {
+      "id": "2022Jan-WMA12-01-Q2",
+      "sections": [
+        "7.1"
+      ],
+      "primary_section": "7.1",
+      "question_type": "Stationary points and their nature using calculus",
+      "command_words": [
+        "Find",
+        "Hence find",
+        "Determine"
+      ],
+      "cognitive_level": "AO2"
+    },
+    {
+      "id": "2022Jan-WMA12-01-Q3",
+      "sections": [
+        "4.5"
+      ],
+      "primary_section": "4.5",
+      "question_type": "Binomial expansion and finding unknown constants from coefficients",
+      "command_words": [
+        "Find"
+      ],
+      "cognitive_level": "AO2"
+    },
+    {
+      "id": "2022Jan-WMA12-01-Q4",
+      "sections": [
+        "5.3",
+        "5.2"
+      ],
+      "primary_section": "5.3",
+      "question_type": "Solving logarithmic equations",
+      "command_words": [
+        "Solve"
+      ],
+      "cognitive_level": "AO2"
+    },
+    {
+      "id": "2022Jan-WMA12-01-Q5",
+      "sections": [
+        "2.1"
+      ],
+      "primary_section": "2.1",
+      "question_type": "Factor and remainder theorems, polynomial factorization",
+      "command_words": [
+        "show that",
+        "Find",
+        "Hence find"
+      ],
+      "cognitive_level": "AO2"
+    },
+    {
+      "id": "2022Jan-WMA12-01-Q6",
+      "sections": [
+        "3.1"
+      ],
+      "primary_section": "3.1",
+      "question_type": "Circle properties, equation, and tangents",
+      "command_words": [
+        "Show that",
+        "Find"
+      ],
+      "cognitive_level": "AO3"
+    },
+    {
+      "id": "2022Jan-WMA12-01-Q7",
+      "sections": [
+        "6.2",
+        "6.1"
+      ],
+      "primary_section": "6.2",
+      "question_type": "Solving trigonometric equations, including those requiring identities",
+      "command_words": [
+        "Solve"
+      ],
+      "cognitive_level": "AO2"
+    },
+    {
+      "id": "2022Jan-WMA12-01-Q8",
+      "sections": [
+        "4.4",
+        "5.3"
+      ],
+      "primary_section": "4.4",
+      "question_type": "Geometric sequences and series problem-solving",
+      "command_words": [
+        "Show that",
+        "Find"
+      ],
+      "cognitive_level": "AO3"
+    },
+    {
+      "id": "2022Jan-WMA12-01-Q9",
+      "sections": [
+        "8.2"
+      ],
+      "primary_section": "8.2",
+      "question_type": "Area between curves using definite integration",
+      "command_words": [
+        "Find",
+        "Show that"
+      ],
+      "cognitive_level": "AO3"
+    },
+    {
+      "id": "2022Jan-WMA12-01-Q10",
+      "sections": [
+        "1.3",
+        "1.2"
+      ],
+      "primary_section": "1.3",
+      "question_type": "Proof by counter-example and by exhaustion",
+      "command_words": [
+        "Prove",
+        "Use"
+      ],
+      "cognitive_level": "AO2"
+    },
+    {
+      "id": "2022May-WMA12-01-Q1",
+      "sections": [
+        "4.5"
+      ],
+      "primary_section": "4.5",
+      "question_type": "Binomial expansion of (a+bx)^n",
+      "command_words": [
+        "Find"
+      ],
+      "cognitive_level": "AO1"
+    },
+    {
+      "id": "2022May-WMA12-01-Q2",
+      "sections": [
+        "8.3",
+        "8.1"
+      ],
+      "primary_section": "8.3",
+      "question_type": "Trapezium rule for integral approximation",
+      "command_words": [
+        "Complete",
+        "Use",
+        "Find"
+      ],
+      "cognitive_level": "AO2"
+    },
+    {
+      "id": "2022May-WMA12-01-Q3",
+      "sections": [
+        "1.3",
+        "3.1"
+      ],
+      "primary_section": "3.1",
+      "question_type": "Disproof by counter-example and circle properties",
+      "command_words": [
+        "Show that",
+        "Prove"
+      ],
+      "cognitive_level": "AO2"
+    },
+    {
+      "id": "2022May-WMA12-01-Q4",
+      "sections": [
+        "5.3",
+        "5.2"
+      ],
+      "primary_section": "5.3",
+      "question_type": "Solving simultaneous equations with logarithms",
+      "command_words": [
+        "Solve"
+      ],
+      "cognitive_level": "AO2"
+    },
+    {
+      "id": "2022May-WMA12-01-Q5",
+      "sections": [
+        "6.2",
+        "6.1"
+      ],
+      "primary_section": "6.2",
+      "question_type": "Solving trigonometric equations using identities",
+      "command_words": [
+        "Solve"
+      ],
+      "cognitive_level": "AO2"
+    },
+    {
+      "id": "2022May-WMA12-01-Q6",
+      "sections": [
+        "4.4"
+      ],
+      "primary_section": "4.4",
+      "question_type": "Properties of geometric sequences and sum to infinity",
+      "command_words": [
+        "Show that",
+        "Find"
+      ],
+      "cognitive_level": "AO2"
+    },
+    {
+      "id": "2022May-WMA12-01-Q7",
+      "sections": [
+        "2.1"
+      ],
+      "primary_section": "2.1",
+      "question_type": "Factor and remainder theorem application",
+      "command_words": [
+        "Find"
+      ],
+      "cognitive_level": "AO1"
+    },
+    {
+      "id": "2022May-WMA12-01-Q8",
+      "sections": [
+        "7.1"
+      ],
+      "primary_section": "7.1",
+      "question_type": "Finding stationary points using differentiation",
+      "command_words": [
+        "Find"
+      ],
+      "cognitive_level": "AO2"
+    },
+    {
+      "id": "2022May-WMA12-01-Q9",
+      "sections": [
+        "5.3",
+        "5.1"
+      ],
+      "primary_section": "5.3",
+      "question_type": "Exponential modelling and solving exponential equations",
+      "command_words": [
+        "Sketch",
+        "Show that",
+        "Calculate",
+        "Use algebra to calculate"
+      ],
+      "cognitive_level": "AO3"
+    },
+    {
+      "id": "2022May-WMA12-01-Q10",
+      "sections": [
+        "3.1"
+      ],
+      "primary_section": "3.1",
+      "question_type": "Circle properties, tangents and intersection with line",
+      "command_words": [
+        "Show that",
+        "Find"
+      ],
+      "cognitive_level": "AO3"
+    },
+    {
+      "id": "2022Oct-WMA12-01-Q1",
+      "sections": [
+        "1.2"
+      ],
+      "primary_section": "1.2",
+      "question_type": "Proof by exhaustion for even/odd properties",
+      "command_words": [
+        "Prove"
+      ],
+      "cognitive_level": "AO2"
+    },
+    {
+      "id": "2022Oct-WMA12-01-Q2",
+      "sections": [
+        "4.5",
+        "2.1",
+        "7.1"
+      ],
+      "primary_section": "4.5",
+      "question_type": "Remainder theorem, binomial expansion and gradient",
+      "command_words": [
+        "Show that",
+        "Find"
+      ],
+      "cognitive_level": "AO2"
+    },
+    {
+      "id": "2022Oct-WMA12-01-Q3",
+      "sections": [
+        "4.3",
+        "4.1"
+      ],
+      "primary_section": "4.3",
+      "question_type": "Evaluating terms and summing a periodic sequence",
+      "command_words": [
+        "Find"
+      ],
+      "cognitive_level": "AO2"
+    },
+    {
+      "id": "2022Oct-WMA12-01-Q4",
+      "sections": [
+        "5.3",
+        "5.2"
+      ],
+      "primary_section": "5.3",
+      "question_type": "Logarithmic modelling and solving for variables",
+      "command_words": [
+        "Show that",
+        "Find"
+      ],
+      "cognitive_level": "AO3"
+    },
+    {
+      "id": "2022Oct-WMA12-01-Q5",
+      "sections": [
+        "6.2",
+        "6.1"
+      ],
+      "primary_section": "6.2",
+      "question_type": "Solving trigonometric equations using identities",
+      "command_words": [
+        "Show that",
+        "Solve"
+      ],
+      "cognitive_level": "AO2"
+    },
+    {
+      "id": "2022Oct-WMA12-01-Q6",
+      "sections": [
+        "8.3",
+        "8.2"
+      ],
+      "primary_section": "8.3",
+      "question_type": "Trapezium rule for integral approximation and area",
+      "command_words": [
+        "Use",
+        "Find",
+        "Calculate"
+      ],
+      "cognitive_level": "AO2"
+    },
+    {
+      "id": "2022Oct-WMA12-01-Q7",
+      "sections": [
+        "7.1",
+        "2.1"
+      ],
+      "primary_section": "7.1",
+      "question_type": "Finding stationary points and solving cubic equation",
+      "command_words": [
+        "Write",
+        "Show that",
+        "Find"
+      ],
+      "cognitive_level": "AO3"
+    },
+    {
+      "id": "2022Oct-WMA12-01-Q8",
+      "sections": [
+        "4.4"
+      ],
+      "primary_section": "4.4",
+      "question_type": "Geometric sequences and sum to infinity",
+      "command_words": [
+        "Show that",
+        "Find"
+      ],
+      "cognitive_level": "AO2"
+    },
+    {
+      "id": "2022Oct-WMA12-01-Q9",
+      "sections": [
+        "8.2",
+        "7.1",
+        "3.1"
+      ],
+      "primary_section": "8.2",
+      "question_type": "Differentiation, circle equation, tangent, and area",
+      "command_words": [
+        "Find",
+        "Show that"
+      ],
+      "cognitive_level": "AO3"
+    },
+    {
+      "id": "2022Oct-WMA12-01-Q10",
+      "sections": [
+        "5.2",
+        "5.3"
+      ],
+      "primary_section": "5.2",
+      "question_type": "Logarithm manipulation and solving exponential equations",
+      "command_words": [
+        "Find",
+        "Solve"
+      ],
+      "cognitive_level": "AO2"
+    },
+    {
+      "id": "2023Jan-WMA12-01-Q1",
+      "sections": [
+        "8.3",
+        "8.1"
+      ],
+      "primary_section": "8.3",
+      "question_type": "Trapezium rule and integral transformations",
+      "command_words": [
+        "Obtain"
+      ],
+      "cognitive_level": "AO2"
+    },
+    {
+      "id": "2023Jan-WMA12-01-Q2",
+      "sections": [
+        "7.1"
+      ],
+      "primary_section": "7.1",
+      "question_type": "Optimisation using differentiation and second derivative test",
+      "command_words": [
+        "Show that",
+        "Find"
+      ],
+      "cognitive_level": "AO3"
+    },
+    {
+      "id": "2023Jan-WMA12-01-Q3",
+      "sections": [
+        "4.5",
+        "4.2"
+      ],
+      "primary_section": "4.5",
+      "question_type": "Binomial expansion and arithmetic progression of coefficients",
+      "command_words": [
+        "Find"
+      ],
+      "cognitive_level": "AO3"
+    },
+    {
+      "id": "2023Jan-WMA12-01-Q4",
+      "sections": [
+        "5.3",
+        "5.2"
+      ],
+      "primary_section": "5.3",
+      "question_type": "Solving logarithmic equations and expressing variables",
+      "command_words": [
+        "Solve",
+        "Find"
+      ],
+      "cognitive_level": "AO2"
+    },
+    {
+      "id": "2023Jan-WMA12-01-Q5",
+      "sections": [
+        "2.1"
+      ],
+      "primary_section": "2.1",
+      "question_type": "Factor and remainder theorem with polynomial division",
+      "command_words": [
+        "Show that",
+        "Find"
+      ],
+      "cognitive_level": "AO2"
+    },
+    {
+      "id": "2023Jan-WMA12-01-Q6",
+      "sections": [
+        "3.1"
+      ],
+      "primary_section": "3.1",
+      "question_type": "Circle properties, tangents, and normals",
+      "command_words": [
+        "Find"
+      ],
+      "cognitive_level": "AO2"
+    },
+    {
+      "id": "2023Jan-WMA12-01-Q7",
+      "sections": [
+        "4.4",
+        "5.3"
+      ],
+      "primary_section": "4.4",
+      "question_type": "Geometric sequences, sum to infinity, and finding N",
+      "command_words": [
+        "Show that",
+        "Find"
+      ],
+      "cognitive_level": "AO3"
+    },
+    {
+      "id": "2023Jan-WMA12-01-Q8",
+      "sections": [
+        "6.2",
+        "6.1"
+      ],
+      "primary_section": "6.2",
+      "question_type": "Solving complex trigonometric equations in given ranges",
+      "command_words": [
+        "Solve"
+      ],
+      "cognitive_level": "AO2"
+    },
+    {
+      "id": "2023Jan-WMA12-01-Q9",
+      "sections": [
+        "8.2",
+        "8.1"
+      ],
+      "primary_section": "8.2",
+      "question_type": "Area between curves/lines using integration",
+      "command_words": [
+        "Write down",
+        "Find",
+        "Use algebraic integration to find"
+      ],
+      "cognitive_level": "AO3"
+    },
+    {
+      "id": "2023Jan-WMA12-01-Q10",
+      "sections": [
+        "1.2"
+      ],
+      "primary_section": "1.2",
+      "question_type": "Completing a proof by exhaustion",
+      "command_words": [],
+      "cognitive_level": "AO2"
+    },
+    {
+      "id": "2023May-WMA12-01-Q1",
+      "sections": [
+        "8.3"
+      ],
+      "primary_section": "8.3",
+      "question_type": "Trapezium rule approximation",
+      "command_words": [
+        "Use",
+        "Find"
+      ],
+      "cognitive_level": "AO1"
+    },
+    {
+      "id": "2023May-WMA12-01-Q2",
+      "sections": [
+        "2.1"
+      ],
+      "primary_section": "2.1",
+      "question_type": "Factor theorem and showing real roots of a cubic",
+      "command_words": [
+        "Use",
+        "Show that"
+      ],
+      "cognitive_level": "AO2"
+    },
+    {
+      "id": "2023May-WMA12-01-Q3",
+      "sections": [
+        "3.1"
+      ],
+      "primary_section": "3.1",
+      "question_type": "Circle equation and tangent equation",
+      "command_words": [
+        "Find"
+      ],
+      "cognitive_level": "AO2"
+    },
+    {
+      "id": "2023May-WMA12-01-Q4",
+      "sections": [
+        "4.5"
+      ],
+      "primary_section": "4.5",
+      "question_type": "Binomial expansion and finding coefficients",
+      "command_words": [
+        "Find"
+      ],
+      "cognitive_level": "AO2"
+    },
+    {
+      "id": "2023May-WMA12-01-Q5",
+      "sections": [
+        "5.3",
+        "5.2"
+      ],
+      "primary_section": "5.3",
+      "question_type": "Solving logarithmic equations using log laws",
+      "command_words": [
+        "Use",
+        "Solve"
+      ],
+      "cognitive_level": "AO2"
+    },
+    {
+      "id": "2023May-WMA12-01-Q6",
+      "sections": [
+        "4.4",
+        "5.3"
+      ],
+      "primary_section": "4.4",
+      "question_type": "Geometric series modelling and finding N using logs",
+      "command_words": [
+        "Show that",
+        "Predict",
+        "Calculate"
+      ],
+      "cognitive_level": "AO3"
+    },
+    {
+      "id": "2023May-WMA12-01-Q7",
+      "sections": [
+        "7.1"
+      ],
+      "primary_section": "7.1",
+      "question_type": "Optimisation using differentiation and second derivative test",
+      "command_words": [
+        "Use calculus to show",
+        "Find",
+        "Use further calculus to prove"
+      ],
+      "cognitive_level": "AO3"
+    },
+    {
+      "id": "2023May-WMA12-01-Q8",
+      "sections": [
+        "1.3",
+        "1.2"
+      ],
+      "primary_section": "1.3",
+      "question_type": "Proof by counter-example and by exhaustion",
+      "command_words": [
+        "Prove"
+      ],
+      "cognitive_level": "AO2"
+    },
+    {
+      "id": "2023May-WMA12-01-Q9",
+      "sections": [
+        "6.2",
+        "6.1"
+      ],
+      "primary_section": "6.2",
+      "question_type": "Solving trigonometric equations using identities",
+      "command_words": [
+        "Show that",
+        "Solve"
+      ],
+      "cognitive_level": "AO2"
+    },
+    {
+      "id": "2023May-WMA12-01-Q10",
+      "sections": [
+        "8.2",
+        "8.1"
+      ],
+      "primary_section": "8.2",
+      "question_type": "Integration, definite integrals, and area between curves",
+      "command_words": [
+        "Show that",
+        "Find"
+      ],
+      "cognitive_level": "AO3"
+    },
+    {
+      "id": "2023May-WMA12-01-Q11",
+      "sections": [
+        "4.1"
+      ],
+      "primary_section": "4.1",
+      "question_type": "Recurrence relations and solving for constants",
+      "command_words": [
+        "Find",
+        "Show that"
+      ],
+      "cognitive_level": "AO2"
+    },
+    {
+      "id": "2023Oct-WMA12-01-Q1",
+      "sections": [
+        "1.2"
+      ],
+      "primary_section": "1.2",
+      "question_type": "Proof by exhaustion for divisibility",
+      "command_words": [
+        "Prove"
+      ],
+      "cognitive_level": "AO2"
+    },
+    {
+      "id": "2023Oct-WMA12-01-Q2",
+      "sections": [
+        "4.1",
+        "4.3"
+      ],
+      "primary_section": "4.1",
+      "question_type": "Recurrence relation and sum of terms",
+      "command_words": [
+        "Find"
+      ],
+      "cognitive_level": "AO2"
+    },
+    {
+      "id": "2023Oct-WMA12-01-Q3",
+      "sections": [
+        "6.2",
+        "6.1"
+      ],
+      "primary_section": "6.2",
+      "question_type": "Solving trigonometric equations and transformations",
+      "command_words": [
+        "Solve",
+        "Find"
+      ],
+      "cognitive_level": "AO2"
+    },
+    {
+      "id": "2023Oct-WMA12-01-Q4",
+      "sections": [
+        "2.1"
+      ],
+      "primary_section": "2.1",
+      "question_type": "Factor and remainder theorem with full factorisation",
+      "command_words": [
+        "Show that",
+        "Find"
+      ],
+      "cognitive_level": "AO2"
+    },
+    {
+      "id": "2023Oct-WMA12-01-Q5",
+      "sections": [
+        "5.3",
+        "5.2"
+      ],
+      "primary_section": "5.3",
+      "question_type": "Solving exponential and logarithmic equations",
+      "command_words": [
+        "Solve",
+        "Find"
+      ],
+      "cognitive_level": "AO2"
+    },
+    {
+      "id": "2023Oct-WMA12-01-Q6",
+      "sections": [
+        "8.3",
+        "8.2"
+      ],
+      "primary_section": "8.3",
+      "question_type": "Trapezium rule for area estimation and application",
+      "command_words": [
+        "Use",
+        "Estimate",
+        "State"
+      ],
+      "cognitive_level": "AO3"
+    },
+    {
+      "id": "2023Oct-WMA12-01-Q7",
+      "sections": [
+        "3.1",
+        "1.1",
+        "7.1"
+      ],
+      "primary_section": "3.1",
+      "question_type": "equation of circle, tangent to circle",
+      "command_words": [
+        "show that",
+        "find"
+      ],
+      "cognitive_level": "AO2"
+    },
+    {
+      "id": "2023Oct-WMA12-01-Q8",
+      "sections": [
+        "4.2",
+        "1.1"
+      ],
+      "primary_section": "4.2",
+      "question_type": "arithmetic sequences and series problem",
+      "command_words": [
+        "find",
+        "show that",
+        "state"
+      ],
+      "cognitive_level": "AO2"
+    },
+    {
+      "id": "2023Oct-WMA12-01-Q9",
+      "sections": [
+        "7.1",
+        "8.2",
+        "8.1"
+      ],
+      "primary_section": "7.1",
+      "question_type": "differentiation, area by integration",
+      "command_words": [
+        "Find"
+      ],
+      "cognitive_level": "AO2"
+    },
+    {
+      "id": "2023Oct-WMA12-01-Q10",
+      "sections": [
+        "4.5",
+        "4.4",
+        "6.2"
+      ],
+      "primary_section": "4.5",
+      "question_type": "binomial, geometric series, trigonometric equations",
+      "command_words": [
+        "Find",
+        "Show that"
+      ],
+      "cognitive_level": "AO3"
+    },
+    {
+      "id": "2024Jan-WMA12-01-Q1",
+      "sections": [
+        "2.1"
+      ],
+      "primary_section": "2.1",
+      "question_type": "remainder theorem application",
+      "command_words": [
+        "find"
+      ],
+      "cognitive_level": "AO1"
+    },
+    {
+      "id": "2024Jan-WMA12-01-Q2",
+      "sections": [
+        "4.5"
+      ],
+      "primary_section": "4.5",
+      "question_type": "binomial expansion, finding coefficient",
+      "command_words": [
+        "Find"
+      ],
+      "cognitive_level": "AO1"
+    },
+    {
+      "id": "2024Jan-WMA12-01-Q3",
+      "sections": [
+        "3.1"
+      ],
+      "primary_section": "3.1",
+      "question_type": "equation of circle, properties of chords",
+      "command_words": [
+        "Find"
+      ],
+      "cognitive_level": "AO2"
+    },
+    {
+      "id": "2024Jan-WMA12-01-Q4",
+      "sections": [
+        "8.3",
+        "5.1",
+        "8.1"
+      ],
+      "primary_section": "8.3",
+      "question_type": "exponential graphs, trapezium rule, integration",
+      "command_words": [
+        "Sketch",
+        "show",
+        "find",
+        "using"
+      ],
+      "cognitive_level": "AO2"
+    },
+    {
+      "id": "2024Jan-WMA12-01-Q5",
+      "sections": [
+        "4.4"
+      ],
+      "primary_section": "4.4",
+      "question_type": "sum of geometric series",
+      "command_words": [
+        "Find"
+      ],
+      "cognitive_level": "AO1"
+    },
+    {
+      "id": "2024Jan-WMA12-01-Q6",
+      "sections": [
+        "5.2",
+        "1.1"
+      ],
+      "primary_section": "5.2",
+      "question_type": "laws of logarithms, algebraic manipulation",
+      "command_words": [
+        "show that"
+      ],
+      "cognitive_level": "AO2"
+    },
+    {
+      "id": "2024Jan-WMA12-01-Q7",
+      "sections": [
+        "4.2",
+        "4.4"
+      ],
+      "primary_section": "4.2",
+      "question_type": "arithmetic and geometric sequences/series modelling",
+      "command_words": [
+        "find",
+        "calculate"
+      ],
+      "cognitive_level": "AO3"
+    },
+    {
+      "id": "2024Jan-WMA12-01-Q8",
+      "sections": [
+        "1.3",
+        "1.2"
+      ],
+      "primary_section": "1.3",
+      "question_type": "proof by counter-example and exhaustion",
+      "command_words": [
+        "Use",
+        "show that",
+        "prove"
+      ],
+      "cognitive_level": "AO2"
+    },
+    {
+      "id": "2024Jan-WMA12-01-Q9",
+      "sections": [
+        "6.2",
+        "6.1"
+      ],
+      "primary_section": "6.2",
+      "question_type": "solving trigonometric equations using identities",
+      "command_words": [
+        "Solve"
+      ],
+      "cognitive_level": "AO2"
+    },
+    {
+      "id": "2024Jan-WMA12-01-Q10",
+      "sections": [
+        "7.1",
+        "8.2",
+        "1.1"
+      ],
+      "primary_section": "7.1",
+      "question_type": "stationary points, area between curve and line",
+      "command_words": [
+        "Use calculus",
+        "show that",
+        "find"
+      ],
+      "cognitive_level": "AO2"
+    },
+    {
+      "id": "2024May-WMA12-01-Q1",
+      "sections": [
+        "4.5"
+      ],
+      "primary_section": "4.5",
+      "question_type": "binomial expansion, finding specific coefficient",
+      "command_words": [
+        "Find"
+      ],
+      "cognitive_level": "AO2"
+    },
+    {
+      "id": "2024May-WMA12-01-Q2",
+      "sections": [
+        "4.2"
+      ],
+      "primary_section": "4.2",
+      "question_type": "arithmetic series, solving inequality for sum",
+      "command_words": [
+        "find"
+      ],
+      "cognitive_level": "AO2"
+    },
+    {
+      "id": "2024May-WMA12-01-Q3",
+      "sections": [
+        "5.3",
+        "5.2"
+      ],
+      "primary_section": "5.3",
+      "question_type": "solving logarithmic equations, laws of logarithms",
+      "command_words": [
+        "solve",
+        "find"
+      ],
+      "cognitive_level": "AO2"
+    },
+    {
+      "id": "2024May-WMA12-01-Q4",
+      "sections": [
+        "2.1",
+        "1.1"
+      ],
+      "primary_section": "2.1",
+      "question_type": "factor/remainder theorems, polynomial factorisation",
+      "command_words": [
+        "State",
+        "show that",
+        "fully factorise",
+        "find"
+      ],
+      "cognitive_level": "AO2"
+    },
+    {
+      "id": "2024May-WMA12-01-Q5",
+      "sections": [
+        "1.1",
+        "1.3"
+      ],
+      "primary_section": "1.1",
+      "question_type": "algebraic proof, disproof by counter-example",
+      "command_words": [
+        "prove",
+        "show that"
+      ],
+      "cognitive_level": "AO2"
+    },
+    {
+      "id": "2024May-WMA12-01-Q6",
+      "sections": [
+        "8.3",
+        "5.1",
+        "8.1"
+      ],
+      "primary_section": "8.3",
+      "question_type": "exponential graphs, trapezium rule, integration",
+      "command_words": [
+        "Sketch",
+        "show",
+        "obtain an estimate",
+        "find"
+      ],
+      "cognitive_level": "AO2"
+    },
+    {
+      "id": "2024May-WMA12-01-Q7",
+      "sections": [
+        "3.1",
+        "1.1"
+      ],
+      "primary_section": "3.1",
+      "question_type": "circle properties, proving non-intersection",
+      "command_words": [
+        "Find",
+        "Prove"
+      ],
+      "cognitive_level": "AO2"
+    },
+    {
+      "id": "2024May-WMA12-01-Q8",
+      "sections": [
+        "6.2",
+        "6.1"
+      ],
+      "primary_section": "6.2",
+      "question_type": "solving trigonometric equations using identities",
+      "command_words": [
+        "Solve"
+      ],
+      "cognitive_level": "AO2"
+    },
+    {
+      "id": "2024May-WMA12-01-Q9",
+      "sections": [
+        "7.1",
+        "8.2"
+      ],
+      "primary_section": "7.1",
+      "question_type": "stationary points, area under curve",
+      "command_words": [
+        "Find"
+      ],
+      "cognitive_level": "AO2"
+    },
+    {
+      "id": "2024May-WMA12-01-Q10",
+      "sections": [
+        "4.4",
+        "5.1",
+        "5.3"
+      ],
+      "primary_section": "4.4",
+      "question_type": "modelling with sequences and exponential functions",
+      "command_words": [
+        "Find",
+        "Give",
+        "Calculate"
+      ],
+      "cognitive_level": "AO3"
+    },
+    {
+      "id": "2024May-WMA12-01R-Q1",
+      "sections": [
+        "4.1"
+      ],
+      "primary_section": "4.1",
+      "question_type": "recurrence relations, sum of sequence terms",
+      "command_words": [
+        "find"
+      ],
+      "cognitive_level": "AO1"
+    },
+    {
+      "id": "2024May-WMA12-01R-Q2",
+      "sections": [
+        "8.3",
+        "8.1"
+      ],
+      "primary_section": "8.3",
+      "question_type": "trapezium rule, properties of integrals",
+      "command_words": [
+        "find",
+        "Use"
+      ],
+      "cognitive_level": "AO2"
+    },
+    {
+      "id": "2024May-WMA12-01R-Q3",
+      "sections": [
+        "3.1"
+      ],
+      "primary_section": "3.1",
+      "question_type": "circle properties, nearest point to origin",
+      "command_words": [
+        "Find"
+      ],
+      "cognitive_level": "AO2"
+    },
+    {
+      "id": "2024May-WMA12-01R-Q4",
+      "sections": [
+        "4.5"
+      ],
+      "primary_section": "4.5",
+      "question_type": "binomial expansion, finding specific coefficient",
+      "command_words": [
+        "Find"
+      ],
+      "cognitive_level": "AO2"
+    },
+    {
+      "id": "2024May-WMA12-01R-Q5",
+      "sections": [
+        "6.2",
+        "1.1"
+      ],
+      "primary_section": "6.2",
+      "question_type": "trigonometric modelling, solving trig equations",
+      "command_words": [
+        "Show that",
+        "Find"
+      ],
+      "cognitive_level": "AO3"
+    },
+    {
+      "id": "2024May-WMA12-01R-Q6",
+      "sections": [
+        "2.1",
+        "7.1",
+        "1.1"
+      ],
+      "primary_section": "2.1",
+      "question_type": "factor/remainder theorems, decreasing function",
+      "command_words": [
+        "show that",
+        "find"
+      ],
+      "cognitive_level": "AO2"
+    },
+    {
+      "id": "2024May-WMA12-01R-Q7",
+      "sections": [
+        "6.2",
+        "6.1"
+      ],
+      "primary_section": "6.2",
+      "question_type": "solving trigonometric equations using identities",
+      "command_words": [
+        "Solve",
+        "find"
+      ],
+      "cognitive_level": "AO2"
+    },
+    {
+      "id": "2024May-WMA12-01R-Q8",
+      "sections": [
+        "4.2",
+        "4.4",
+        "1.1"
+      ],
+      "primary_section": "4.2",
+      "question_type": "arithmetic and geometric series, convergence",
+      "command_words": [
+        "Show that",
+        "Find"
+      ],
+      "cognitive_level": "AO2"
+    },
+    {
+      "id": "2024May-WMA12-01R-Q9",
+      "sections": [
+        "5.3",
+        "5.2",
+        "2.1"
+      ],
+      "primary_section": "5.3",
+      "question_type": "solving logarithmic equations, solving cubics",
+      "command_words": [
+        "verify",
+        "show that",
+        "solve"
+      ],
+      "cognitive_level": "AO2"
+    },
+    {
+      "id": "2024May-WMA12-01R-Q10",
+      "sections": [
+        "7.1",
+        "8.2"
+      ],
+      "primary_section": "7.1",
+      "question_type": "stationary points, area under curve",
+      "command_words": [
+        "Find",
+        "Calculate"
+      ],
+      "cognitive_level": "AO2"
+    },
+    {
+      "id": "2024Oct-WMA12-01-Q1",
+      "sections": [
+        "8.3",
+        "8.1"
+      ],
+      "primary_section": "8.3",
+      "question_type": "trapezium rule application, properties of integrals",
+      "command_words": [
+        "find",
+        "estimate",
+        "Using"
+      ],
+      "cognitive_level": "AO2"
+    },
+    {
+      "id": "2024Oct-WMA12-01-Q2",
+      "sections": [
+        "4.1",
+        "1.1"
+      ],
+      "primary_section": "4.1",
+      "question_type": "recurrence relations, sum of periodic sequence",
+      "command_words": [
+        "Show that",
+        "find"
+      ],
+      "cognitive_level": "AO2"
+    },
+    {
+      "id": "2024Oct-WMA12-01-Q3",
+      "sections": [
+        "2.1",
+        "1.1"
+      ],
+      "primary_section": "2.1",
+      "question_type": "remainder/factor theorems, polynomial division",
+      "command_words": [
+        "show that",
+        "find"
+      ],
+      "cognitive_level": "AO2"
+    },
+    {
+      "id": "2024Oct-WMA12-01-Q4",
+      "sections": [
+        "7.1"
+      ],
+      "primary_section": "7.1",
+      "question_type": "differentiation, stationary points, nature",
+      "command_words": [
+        "Find",
+        "Determine",
+        "State"
+      ],
+      "cognitive_level": "AO2"
+    },
+    {
+      "id": "2024Oct-WMA12-01-Q5",
+      "sections": [
+        "4.5"
+      ],
+      "primary_section": "4.5",
+      "question_type": "binomial expansion, finding constant term",
+      "command_words": [
+        "Find",
+        "Give"
+      ],
+      "cognitive_level": "AO2"
+    },
+    {
+      "id": "2024Oct-WMA12-01-Q6",
+      "sections": [
+        "5.3",
+        "5.2"
+      ],
+      "primary_section": "5.3",
+      "question_type": "solving logarithmic equations",
+      "command_words": [
+        "solve"
+      ],
+      "cognitive_level": "AO2"
+    },
+    {
+      "id": "2024Oct-WMA12-01-Q7",
+      "sections": [
+        "4.2",
+        "4.4",
+        "1.1"
+      ],
+      "primary_section": "4.2",
+      "question_type": "modelling with arithmetic and geometric sequences",
+      "command_words": [
+        "Show that",
+        "Find",
+        "use",
+        "calculate"
+      ],
+      "cognitive_level": "AO3"
+    },
+    {
+      "id": "2024Oct-WMA12-01-Q8",
+      "sections": [
+        "8.2",
+        "8.1"
+      ],
+      "primary_section": "8.2",
+      "question_type": "area between curves, intersection points",
+      "command_words": [
+        "Use algebra",
+        "find"
+      ],
+      "cognitive_level": "AO2"
+    },
+    {
+      "id": "2024Oct-WMA12-01-Q9",
+      "sections": [
+        "6.1",
+        "6.2",
+        "1.1"
+      ],
+      "primary_section": "6.1",
+      "question_type": "trigonometric identities, solving trig equations",
+      "command_words": [
+        "Show that",
+        "Solve"
+      ],
+      "cognitive_level": "AO2"
+    },
+    {
+      "id": "2024Oct-WMA12-01-Q10",
+      "sections": [
+        "3.1",
+        "1.1"
+      ],
+      "primary_section": "3.1",
+      "question_type": "circle properties, tangent to circle",
+      "command_words": [
+        "find",
+        "show that"
+      ],
+      "cognitive_level": "AO2"
+    },
+    {
+      "id": "2024Oct-WMA12-01-Q11",
+      "sections": [
+        "1.3",
+        "1.2"
+      ],
+      "primary_section": "1.3",
+      "question_type": "proof by counter-example and exhaustion",
+      "command_words": [
+        "Prove",
+        "Use"
+      ],
+      "cognitive_level": "AO2"
+    },
+    {
+      "id": "2025Jan-WMA12-01-Q1",
+      "sections": [
+        "4.2"
+      ],
+      "primary_section": "4.2",
+      "question_type": "arithmetic series, number of terms and sum",
+      "command_words": [
+        "Find"
+      ],
+      "cognitive_level": "AO1"
+    },
+    {
+      "id": "2025Jan-WMA12-01-Q2",
+      "sections": [
+        "4.5"
+      ],
+      "primary_section": "4.5",
+      "question_type": "binomial expansion, using for approximation",
+      "command_words": [
+        "Find",
+        "State"
+      ],
+      "cognitive_level": "AO2"
+    },
+    {
+      "id": "2025Jan-WMA12-01-Q3",
+      "sections": [
+        "7.1",
+        "1.1"
+      ],
+      "primary_section": "7.1",
+      "question_type": "optimisation, stationary points, second derivative",
+      "command_words": [
+        "show that",
+        "Use calculus",
+        "Find"
+      ],
+      "cognitive_level": "AO3"
+    },
+    {
+      "id": "2025Jan-WMA12-01-Q4",
+      "sections": [
+        "4.4"
+      ],
+      "primary_section": "4.4",
+      "question_type": "geometric series, common ratio and first term",
+      "command_words": [
+        "find"
+      ],
+      "cognitive_level": "AO2"
+    },
+    {
+      "id": "2025Jan-WMA12-01-Q5",
+      "sections": [
+        "2.1",
+        "1.1"
+      ],
+      "primary_section": "2.1",
+      "question_type": "factor/remainder theorems, polynomial factorisation",
+      "command_words": [
+        "show that",
+        "find",
+        "fully factorise"
+      ],
+      "cognitive_level": "AO2"
+    },
+    {
+      "id": "2025Jan-WMA12-01-Q6",
+      "sections": [
+        "3.1"
+      ],
+      "primary_section": "3.1",
+      "question_type": "Circle properties and equation",
+      "command_words": [
+        "find"
+      ],
+      "cognitive_level": "AO1"
+    },
+    {
+      "id": "2025Jan-WMA12-01-Q7",
+      "sections": [
+        "8.3",
+        "5.2",
+        "5.3"
+      ],
+      "primary_section": "8.3",
+      "question_type": "Trapezium rule and solving logarithmic equations",
+      "command_words": [
+        "show that",
+        "find"
+      ],
+      "cognitive_level": "AO2"
+    },
+    {
+      "id": "2025Jan-WMA12-01-Q8",
+      "sections": [
+        "1.1",
+        "1.3"
+      ],
+      "primary_section": "1.1",
+      "question_type": "Proof by counter-example and algebraic deduction",
+      "command_words": [
+        "show",
+        "prove"
+      ],
+      "cognitive_level": "AO2"
+    },
+    {
+      "id": "2025Jan-WMA12-01-Q9",
+      "sections": [
+        "8.2",
+        "7.1"
+      ],
+      "primary_section": "8.2",
+      "question_type": "Stationary points and area by integration",
+      "command_words": [
+        "find",
+        "use algebra to find"
+      ],
+      "cognitive_level": "AO3"
+    },
+    {
+      "id": "2025Jan-WMA12-01-Q10",
+      "sections": [
+        "6.2",
+        "6.1"
+      ],
+      "primary_section": "6.2",
+      "question_type": "Proving trigonometric identities and solving equations",
+      "command_words": [
+        "show that",
+        "solve"
+      ],
+      "cognitive_level": "AO2"
+    },
+    {
+      "id": "2025May-WMA12-01-Q1",
+      "sections": [
+        "4.5"
+      ],
+      "primary_section": "4.5",
+      "question_type": "Binomial expansion and coefficient finding",
+      "command_words": [
+        "Find"
+      ],
+      "cognitive_level": "AO1"
+    },
+    {
+      "id": "2025May-WMA12-01-Q2",
+      "sections": [
+        "3.1"
+      ],
+      "primary_section": "3.1",
+      "question_type": "Equation of circle and geometric properties",
+      "command_words": [
+        "Find"
+      ],
+      "cognitive_level": "AO2"
+    },
+    {
+      "id": "2025May-WMA12-01-Q3",
+      "sections": [
+        "8.2"
+      ],
+      "primary_section": "8.2",
+      "question_type": "Area between curve and line",
+      "command_words": [
+        "find"
+      ],
+      "cognitive_level": "AO1"
+    },
+    {
+      "id": "2025May-WMA12-01-Q4",
+      "sections": [
+        "2.1"
+      ],
+      "primary_section": "2.1",
+      "question_type": "Factor, remainder theorems and algebraic division",
+      "command_words": [
+        "show that",
+        "find"
+      ],
+      "cognitive_level": "AO2"
+    },
+    {
+      "id": "2025May-WMA12-01-Q5",
+      "sections": [
+        "8.3",
+        "5.1"
+      ],
+      "primary_section": "8.3",
+      "question_type": "Trapezium rule for exponential functions",
+      "command_words": [
+        "obtain an estimate"
+      ],
+      "cognitive_level": "AO2"
+    },
+    {
+      "id": "2025May-WMA12-01-Q6",
+      "sections": [
+        "5.3",
+        "5.2"
+      ],
+      "primary_section": "5.3",
+      "question_type": "Solving logarithmic and exponential equations",
+      "command_words": [
+        "Solve",
+        "Find"
+      ],
+      "cognitive_level": "AO2"
+    },
+    {
+      "id": "2025May-WMA12-01-Q7",
+      "sections": [
+        "4.4",
+        "4.2",
+        "5.3"
+      ],
+      "primary_section": "4.4",
+      "question_type": "Geometric and arithmetic series problems",
+      "command_words": [
+        "Find",
+        "use algebra to find"
+      ],
+      "cognitive_level": "AO2"
+    },
+    {
+      "id": "2025May-WMA12-01-Q8",
+      "sections": [
+        "6.2",
+        "6.1"
+      ],
+      "primary_section": "6.2",
+      "question_type": "Solving trigonometric equations using identities",
+      "command_words": [
+        "Solve"
+      ],
+      "cognitive_level": "AO1"
+    },
+    {
+      "id": "2025May-WMA12-01-Q9",
+      "sections": [
+        "7.1",
+        "1.1"
+      ],
+      "primary_section": "7.1",
+      "question_type": "Optimization of surface area using calculus",
+      "command_words": [
+        "show that",
+        "find",
+        "Justify"
+      ],
+      "cognitive_level": "AO3"
+    },
+    {
+      "id": "2025May-WMA12-01-Q10",
+      "sections": [
+        "1.2",
+        "1.1"
+      ],
+      "primary_section": "1.2",
+      "question_type": "Proof by exhaustion for divisibility",
+      "command_words": [
+        "Prove"
+      ],
+      "cognitive_level": "AO2"
+    },
+    {
+      "id": "2025May-WMA12-01A-Q1",
+      "sections": [
+        "1.2",
+        "1.1"
+      ],
+      "primary_section": "1.2",
+      "question_type": "Proof by exhaustion for product of integers",
+      "command_words": [
+        "prove"
+      ],
+      "cognitive_level": "AO2"
+    },
+    {
+      "id": "2025May-WMA12-01A-Q2",
+      "sections": [
+        "4.4"
+      ],
+      "primary_section": "4.4",
+      "question_type": "Geometric series sum and common ratio",
+      "command_words": [
+        "show that",
+        "find"
+      ],
+      "cognitive_level": "AO2"
+    },
+    {
+      "id": "2025May-WMA12-01A-Q3",
+      "sections": [
+        "2.1"
+      ],
+      "primary_section": "2.1",
+      "question_type": "Factor, remainder theorems and algebraic division",
+      "command_words": [
+        "Deduce",
+        "show that",
+        "find"
+      ],
+      "cognitive_level": "AO2"
+    },
+    {
+      "id": "2025May-WMA12-01A-Q4",
+      "sections": [
+        "8.3",
+        "5.2",
+        "5.3"
+      ],
+      "primary_section": "8.3",
+      "question_type": "Trapezium rule for logarithmic function and solving equations",
+      "command_words": [
+        "Find",
+        "Use",
+        "explain"
+      ],
+      "cognitive_level": "AO2"
+    },
+    {
+      "id": "2025May-WMA12-01A-Q5",
+      "sections": [
+        "4.3",
+        "4.1"
+      ],
+      "primary_section": "4.3",
+      "question_type": "Periodic sequence defined by recurrence relation",
+      "command_words": [
+        "Show that",
+        "Find"
+      ],
+      "cognitive_level": "AO2"
+    },
+    {
+      "id": "2025May-WMA12-01A-Q6",
+      "sections": [
+        "6.2",
+        "6.1"
+      ],
+      "primary_section": "6.2",
+      "question_type": "Trigonometric functions and solving equations in context",
+      "command_words": [
+        "Find"
+      ],
+      "cognitive_level": "AO3"
+    },
+    {
+      "id": "2025May-WMA12-01A-Q7",
+      "sections": [
+        "4.5"
+      ],
+      "primary_section": "4.5",
+      "question_type": "Binomial expansion with unknown constants",
+      "command_words": [
+        "set up and solve",
+        "Find"
+      ],
+      "cognitive_level": "AO2"
+    },
+    {
+      "id": "2025May-WMA12-01A-Q8",
+      "sections": [
+        "8.1",
+        "7.1",
+        "2.1"
+      ],
+      "primary_section": "8.1",
+      "question_type": "Differentiation, integration, and factor theorem",
+      "command_words": [
+        "deduce",
+        "state",
+        "Find"
+      ],
+      "cognitive_level": "AO3"
+    },
+    {
+      "id": "2025May-WMA12-01A-Q9",
+      "sections": [
+        "3.1"
+      ],
+      "primary_section": "3.1",
+      "question_type": "Sketching and finding equation of circle",
+      "command_words": [
+        "Sketch",
+        "Find"
+      ],
+      "cognitive_level": "AO2"
+    },
+    {
+      "id": "2025May-WMA12-01A-Q10",
+      "sections": [
+        "8.2",
+        "7.1"
+      ],
+      "primary_section": "8.2",
+      "question_type": "Stationary points and area by integration",
+      "command_words": [
+        "Show",
+        "Find"
+      ],
+      "cognitive_level": "AO3"
+    },
+    {
+      "id": "2025Oct-WMA12-01-Q1",
+      "sections": [
+        "4.2"
+      ],
+      "primary_section": "4.2",
+      "question_type": "Arithmetic series term and sum",
+      "command_words": [
+        "Find"
+      ],
+      "cognitive_level": "AO1"
+    },
+    {
+      "id": "2025Oct-WMA12-01-Q2",
+      "sections": [
+        "4.5"
+      ],
+      "primary_section": "4.5",
+      "question_type": "Binomial expansion coefficients",
+      "command_words": [
+        "Find"
+      ],
+      "cognitive_level": "AO1"
+    },
+    {
+      "id": "2025Oct-WMA12-01-Q3",
+      "sections": [
+        "8.3",
+        "5.3"
+      ],
+      "primary_section": "8.3",
+      "question_type": "Trapezium rule and solving exponential equations",
+      "command_words": [
+        "Use logarithms to find",
+        "Use the trapezium rule",
+        "Use your answer to estimate"
+      ],
+      "cognitive_level": "AO2"
+    },
+    {
+      "id": "2025Oct-WMA12-01-Q4",
+      "sections": [
+        "2.1",
+        "1.1",
+        "7.1"
+      ],
+      "primary_section": "2.1",
+      "question_type": "Polynomials: factor theorem, roots, decreasing function",
+      "command_words": [
+        "Find",
+        "Use the factor theorem to show that",
+        "Prove",
+        "Find the range of values"
+      ],
+      "cognitive_level": "AO3"
+    },
+    {
+      "id": "2025Oct-WMA12-01-Q5",
+      "sections": [
+        "6.2",
+        "6.1"
+      ],
+      "primary_section": "6.2",
+      "question_type": "Solving trigonometric equations using identities",
+      "command_words": [
+        "Solve"
+      ],
+      "cognitive_level": "AO2"
+    },
+    {
+      "id": "2025Oct-WMA12-01-Q6",
+      "sections": [
+        "3.1"
+      ],
+      "primary_section": "3.1",
+      "question_type": "Circle equations and properties (touching circles)",
+      "command_words": [
+        "find"
+      ],
+      "cognitive_level": "AO2"
+    },
+    {
+      "id": "2025Oct-WMA12-01-Q7",
+      "sections": [
+        "8.2",
+        "7.1"
+      ],
+      "primary_section": "8.2",
+      "question_type": "Stationary points and area by integration",
+      "command_words": [
+        "Find",
+        "show that",
+        "Use algebraic integration to find"
+      ],
+      "cognitive_level": "AO3"
+    },
+    {
+      "id": "2025Oct-WMA12-01-Q8",
+      "sections": [
+        "4.4",
+        "1.1"
+      ],
+      "primary_section": "4.4",
+      "question_type": "Geometric series proof and application",
+      "command_words": [
+        "Prove",
+        "Show that",
+        "Calculate"
+      ],
+      "cognitive_level": "AO2"
+    },
+    {
+      "id": "2025Oct-WMA12-01-Q9",
+      "sections": [
+        "5.2",
+        "5.3",
+        "1.1"
+      ],
+      "primary_section": "5.2",
+      "question_type": "Logarithmic equations, identities and domain restrictions",
+      "command_words": [
+        "Solve",
+        "prove",
+        "write down"
+      ],
+      "cognitive_level": "AO2"
+    },
+    {
+      "id": "2025Oct-WMA12-01A-Q1",
+      "sections": [
+        "4.4",
+        "4.1"
+      ],
+      "primary_section": "4.4",
+      "question_type": "Recurrence relations and geometric sequence properties",
+      "command_words": [
+        "Write down",
+        "find"
+      ],
+      "cognitive_level": "AO2"
+    },
+    {
+      "id": "2025Oct-WMA12-01A-Q2",
+      "sections": [
+        "4.5"
+      ],
+      "primary_section": "4.5",
+      "question_type": "Binomial expansion of algebraic expression",
+      "command_words": [
+        "Find"
+      ],
+      "cognitive_level": "AO1"
+    },
+    {
+      "id": "2025Oct-WMA12-01A-Q3",
+      "sections": [
+        "8.3"
+      ],
+      "primary_section": "8.3",
+      "question_type": "Trapezium rule and linearity of integration",
+      "command_words": [
+        "Use the trapezium rule to find",
+        "Use your answer to estimate"
+      ],
+      "cognitive_level": "AO2"
+    },
+    {
+      "id": "2025Oct-WMA12-01A-Q4",
+      "sections": [
+        "2.1",
+        "1.1"
+      ],
+      "primary_section": "2.1",
+      "question_type": "Factor theorem, polynomial factorization, proving roots",
+      "command_words": [
+        "show that",
+        "find",
+        "write",
+        "show that"
+      ],
+      "cognitive_level": "AO3"
+    },
+    {
+      "id": "2025Oct-WMA12-01A-Q5",
+      "sections": [
+        "5.2",
+        "5.3"
+      ],
+      "primary_section": "5.2",
+      "question_type": "Laws of logarithms and solving equations",
+      "command_words": [
+        "find",
+        "Solve"
+      ],
+      "cognitive_level": "AO2"
+    },
+    {
+      "id": "2025Oct-WMA12-01A-Q6",
+      "sections": [
+        "3.1"
+      ],
+      "primary_section": "3.1",
+      "question_type": "Equation of circle and geometric constraints",
+      "command_words": [
+        "Find"
+      ],
+      "cognitive_level": "AO2"
+    },
+    {
+      "id": "2025Oct-WMA12-01A-Q7",
+      "sections": [
+        "6.2"
+      ],
+      "primary_section": "6.2",
+      "question_type": "Solving trigonometric equations in degrees and radians",
+      "command_words": [
+        "giving your answers"
+      ],
+      "cognitive_level": "AO1"
+    },
+    {
+      "id": "2025Oct-WMA12-01A-Q8",
+      "sections": [
+        "8.2"
+      ],
+      "primary_section": "8.2",
+      "question_type": "Area under curve and graph transformations",
+      "command_words": [
+        "Find"
+      ],
+      "cognitive_level": "AO2"
+    },
+    {
+      "id": "2025Oct-WMA12-01A-Q9",
+      "sections": [
+        "7.1",
+        "4.2"
+      ],
+      "primary_section": "7.1",
+      "question_type": "Optimization using calculus and arithmetic series",
+      "command_words": [
+        "find",
+        "state"
+      ],
+      "cognitive_level": "AO3"
+    },
+    {
+      "id": "2025Oct-WMA12-01A-Q10",
+      "sections": [
+        "7.1",
+        "1.1"
+      ],
+      "primary_section": "7.1",
+      "question_type": "Optimization of perimeter using calculus",
+      "command_words": [
+        "show that",
+        "Use calculus to find",
+        "Justify"
+      ],
+      "cognitive_level": "AO3"
+    }
+  ]
+}

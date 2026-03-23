@@ -63,7 +63,19 @@
       "answer": {
         "type": "none"
       },
-      "meta": {}
+      "meta": {
+        "sections": [
+          "1.2"
+        ],
+        "primary_section": "1.2",
+        "question_type": "Proof by exhaustion for divisibility",
+        "command_words": [
+          "Prove"
+        ],
+        "cognitive_level": "AO2",
+        "tagged_at": "2026-03-23",
+        "tagger": "gemini-2.5-flash"
+      }
     },
     {
       "qnum": 2,
@@ -128,7 +140,20 @@
         }
       ],
       "answer": null,
-      "meta": {}
+      "meta": {
+        "sections": [
+          "4.1",
+          "4.3"
+        ],
+        "primary_section": "4.1",
+        "question_type": "Recurrence relation and sum of terms",
+        "command_words": [
+          "Find"
+        ],
+        "cognitive_level": "AO2",
+        "tagged_at": "2026-03-23",
+        "tagger": "gemini-2.5-flash"
+      }
     },
     {
       "qnum": 3,
@@ -214,7 +239,21 @@
         }
       ],
       "answer": null,
-      "meta": {}
+      "meta": {
+        "sections": [
+          "6.2",
+          "6.1"
+        ],
+        "primary_section": "6.2",
+        "question_type": "Solving trigonometric equations and transformations",
+        "command_words": [
+          "Solve",
+          "Find"
+        ],
+        "cognitive_level": "AO2",
+        "tagged_at": "2026-03-23",
+        "tagger": "gemini-2.5-flash"
+      }
     },
     {
       "qnum": 4,
@@ -357,7 +396,20 @@
         }
       ],
       "answer": null,
-      "meta": {}
+      "meta": {
+        "sections": [
+          "2.1"
+        ],
+        "primary_section": "2.1",
+        "question_type": "Factor and remainder theorem with full factorisation",
+        "command_words": [
+          "Show that",
+          "Find"
+        ],
+        "cognitive_level": "AO2",
+        "tagged_at": "2026-03-23",
+        "tagger": "gemini-2.5-flash"
+      }
     },
     {
       "qnum": 5,
@@ -436,7 +488,21 @@
         }
       ],
       "answer": null,
-      "meta": {}
+      "meta": {
+        "sections": [
+          "5.3",
+          "5.2"
+        ],
+        "primary_section": "5.3",
+        "question_type": "Solving exponential and logarithmic equations",
+        "command_words": [
+          "Solve",
+          "Find"
+        ],
+        "cognitive_level": "AO2",
+        "tagged_at": "2026-03-23",
+        "tagger": "gemini-2.5-flash"
+      }
     },
     {
       "qnum": 6,
@@ -547,7 +613,22 @@
         }
       ],
       "answer": null,
-      "meta": {}
+      "meta": {
+        "sections": [
+          "8.3",
+          "8.2"
+        ],
+        "primary_section": "8.3",
+        "question_type": "Trapezium rule for area estimation and application",
+        "command_words": [
+          "Use",
+          "Estimate",
+          "State"
+        ],
+        "cognitive_level": "AO3",
+        "tagged_at": "2026-03-23",
+        "tagger": "gemini-2.5-flash"
+      }
     },
     {
       "qnum": 7,
@@ -661,7 +742,22 @@
         }
       ],
       "answer": null,
-      "meta": {}
+      "meta": {
+        "sections": [
+          "3.1",
+          "1.1",
+          "7.1"
+        ],
+        "primary_section": "3.1",
+        "question_type": "equation of circle, tangent to circle",
+        "command_words": [
+          "show that",
+          "find"
+        ],
+        "cognitive_level": "AO2",
+        "tagged_at": "2026-03-23",
+        "tagger": "gemini-2.5-flash"
+      }
     },
     {
       "qnum": 8,
@@ -806,7 +902,22 @@
         }
       ],
       "answer": null,
-      "meta": {}
+      "meta": {
+        "sections": [
+          "4.2",
+          "1.1"
+        ],
+        "primary_section": "4.2",
+        "question_type": "arithmetic sequences and series problem",
+        "command_words": [
+          "find",
+          "show that",
+          "state"
+        ],
+        "cognitive_level": "AO2",
+        "tagged_at": "2026-03-23",
+        "tagger": "gemini-2.5-flash"
+      }
     },
     {
       "qnum": 9,
@@ -906,7 +1017,21 @@
         }
       ],
       "answer": null,
-      "meta": {}
+      "meta": {
+        "sections": [
+          "7.1",
+          "8.2",
+          "8.1"
+        ],
+        "primary_section": "7.1",
+        "question_type": "differentiation, area by integration",
+        "command_words": [
+          "Find"
+        ],
+        "cognitive_level": "AO2",
+        "tagged_at": "2026-03-23",
+        "tagger": "gemini-2.5-flash"
+      }
     },
     {
       "qnum": 10,
@@ -1037,7 +1162,22 @@
         }
       ],
       "answer": null,
-      "meta": {}
+      "meta": {
+        "sections": [
+          "4.5",
+          "4.4",
+          "6.2"
+        ],
+        "primary_section": "4.5",
+        "question_type": "binomial, geometric series, trigonometric equations",
+        "command_words": [
+          "Find",
+          "Show that"
+        ],
+        "cognitive_level": "AO3",
+        "tagged_at": "2026-03-23",
+        "tagger": "gemini-2.5-flash"
+      }
     }
   ]
 }

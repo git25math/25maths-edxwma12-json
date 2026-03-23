@@ -1,0 +1,1710 @@
+[
+  {
+    "id": "2018SP-WMA12-01-Q1",
+    "paper": "2018SP-WMA12-01",
+    "qnum": 1,
+    "marks": 7,
+    "full_text": "$$f(x) = x^4 + x^3 + 2x^2 + ax + b$$ where $a$ and $b$ are constants. When $f(x)$ is divided by $(x – 1)$, the remainder is 7 (a) Show that $a + b = 3$ (b) When $f(x)$ is divided by $(x + 2)$, the remainder is –8 Find the value of $a$ and the value of $b$"
+  },
+  {
+    "id": "2018SP-WMA12-01-Q2",
+    "paper": "2018SP-WMA12-01",
+    "qnum": 2,
+    "marks": 8,
+    "full_text": "The first term of a geometric series is 20 and the common ratio is $\\frac{7}{8}$. The sum to infinity of the series is $S_\\infty$ (a) Find the value of $S_\\infty$ (b) The sum to $N$ terms of the series is $S_N$ Find, to 1 decimal place, the value of $S_{12}$ (c) Find the smallest value of $N$, for which $S_\\infty – S_N < 0.5$"
+  },
+  {
+    "id": "2018SP-WMA12-01-Q3",
+    "paper": "2018SP-WMA12-01",
+    "qnum": 3,
+    "marks": 7,
+    "full_text": "$$y = \\frac{3^x}{x+1}$$ (a) Complete the table below, giving the values of $y$ to 3 decimal places. \\begin{tabular}{|c|c|c|c|c|c|} \\hline x & 0 & 0.25 & 0.5 & 0.75 & 1 \\\\ \\hline y & 1 & 1.251 & 2 & & \\\\ \\hline \\end{tabular} (b) Use the trapezium rule with all the values of $y$ from your table to find an approximation for the value of $$\\int_0^1 \\frac{3^x}{x+1} \\,\\mathrm{d}x$$ You must show clearly how you obtained your answer. (c) Explain how the trapezium rule could be used to obtain a more accurate estimate for the value of $$\\int_0^1 \\frac{3^x}{x+1} \\,\\mathrm{d}x$$"
+  },
+  {
+    "id": "2018SP-WMA12-01-Q4",
+    "paper": "2018SP-WMA12-01",
+    "qnum": 4,
+    "marks": 4,
+    "full_text": "Given $n \\in \\mathbb{N}$, prove, by exhaustion, that $n^2 + 2$ is not divisible by 4."
+  },
+  {
+    "id": "2018SP-WMA12-01-Q5",
+    "paper": "2018SP-WMA12-01",
+    "qnum": 5,
+    "marks": 11,
+    "full_text": "An arithmetic series has first term $a$ and common difference $d$. (a) Prove that the sum of the first $n$ terms of the series is $$\\frac{1}{2} n[2a + (n – 1)d]$$ (b) A company, which is making 200 mobile phones each week, plans to increase its production. The number of mobile phones produced is to be increased by 20 each week from 200 in week 1 to 220 in week 2, to 240 in week 3 and so on, until it is producing 600 in week $N$. Find the value of $N$ (c) The company then plans to continue to make 600 mobile phones each week. Find the total number of mobile phones that will be made in the first 52 weeks starting from and including week 1."
+  },
+  {
+    "id": "2018SP-WMA12-01-Q6",
+    "paper": "2018SP-WMA12-01",
+    "qnum": 6,
+    "marks": 7,
+    "full_text": "(i) Find the exact value of $x$ for which $$\\log_2(2x) = \\log_2(5x + 4) – 3$$ giving your answers in terms of $\\pi$ (ii) Given that $$\\log_a y + 3\\log_a 2 = 5$$ express $y$ in terms of $a$. Give your answer in its simplest form."
+  },
+  {
+    "id": "2018SP-WMA12-01-Q7",
+    "paper": "2018SP-WMA12-01",
+    "qnum": 7,
+    "marks": 10,
+    "full_text": "[Figure 1] The circle with equation $$x^2 + y^2 – 20x – 16y + 139 = 0$$ had centre $C$ and radius $r$. (a) Find the coordinates of $C$. (b) Show that $r = 5$ (c) The line with equation $x = 13$ crosses the circle at the points $P$ and $Q$ as shown in Figure 1. Find the $y$ coordinate of $P$ and the $y$ coordinate of $Q$. (d) A tangent to the circle from $O$ touches the circle at point $X$. Find, in surd form, the length $OX$."
+  },
+  {
+    "id": "2018SP-WMA12-01-Q8",
+    "paper": "2018SP-WMA12-01",
+    "qnum": 8,
+    "marks": 12,
+    "full_text": "[Figure 2] Figure 2 shows a sketch of part of the curves $C_1$ and $C_2$ with equations $C_1: y = 10x – x^2 – 8 \\quad x \\ge 0$ $C_2: y = x^3 \\quad x \\ge 0$ The curves $C_1$ and $C_2$ intersect at the points $A$ and $B$. (a) Verify that the point $A$ has coordinates $(1, 1)$ (b) Use algebra to find the coordinates of the point $B$ (c) The finite region $R$ is bounded by $C_1$ and $C_2$ Use calculus to find the exact area of $R$"
+  },
+  {
+    "id": "2018SP-WMA12-01-Q9",
+    "paper": "2018SP-WMA12-01",
+    "qnum": 9,
+    "marks": 9,
+    "full_text": "(i) Solve, for $0 \\le \\theta < \\pi$, the equation $$\\sin 3\\theta - \\sqrt{3}\\cos3\\theta = 0$$ giving your answers in terms of $\\pi$ (ii)(a) find $\\cos x$ in terms of $k$ (ii)(b) When $k = 3$, find the values of $x$ in the range $0 \\le x < 360^\\circ$"
+  },
+  {
+    "id": "2019Jan-WMA01-01-Q1",
+    "paper": "2019Jan-WMA01-01",
+    "qnum": 1,
+    "marks": 3,
+    "full_text": "A line l passes through the points A (5, –2) and B (1, 10). Find the equation of l, writing your answer in the form y = mx + c where m and c are constants."
+  },
+  {
+    "id": "2019Jan-WMA01-01-Q2",
+    "paper": "2019Jan-WMA01-01",
+    "qnum": 2,
+    "marks": 4,
+    "full_text": "Given $y = 2^x$ , express each of the following in terms of y. Write each expression in its simplest form. (a) $2^{2x}$ (b) $2^{x + 3}$ (c) $\frac{1}{4^{2-3x}}$"
+  },
+  {
+    "id": "2019Jan-WMA01-01-Q3",
+    "paper": "2019Jan-WMA01-01",
+    "qnum": 3,
+    "marks": 4,
+    "full_text": "A curve has equation $$y = \frac{x^2 - 6}{4\\sqrt{x}} + 2, \\quad x \neq 0$$ Find the gradient of the curve at the point P($\\sqrt{2}$, 2). Write your answer in the form a $\\sqrt{2}$, where a is a constant. (Solutions based entirely on graphical or numerical methods are not acceptable.)"
+  },
+  {
+    "id": "2019Jan-WMA01-01-Q4",
+    "paper": "2019Jan-WMA01-01",
+    "qnum": 4,
+    "marks": 6,
+    "full_text": "A sequence is defined by $$u_1 = k, \text{ where k is a constant}$$ $$u_{n + 1} = 4u_n - 3, \\quad n \\ge 1$$ (a) Find u2 and u3 in terms of k, simplifying your answers as appropriate. (b) Given $$\\sum_{n=1}^{3} u_n = 18$$ find k."
+  },
+  {
+    "id": "2019Jan-WMA01-01-Q5",
+    "paper": "2019Jan-WMA01-01",
+    "qnum": 5,
+    "marks": 7,
+    "full_text": "(a) Use the binomial theorem to find the first 4 terms, in ascending powers of x, of the expansion of $$\\left(1 - \frac{x}{2}\right)^8$$ Give each term in its simplest form. (b) Use the answer to part (a) to find an approximate value to $0.98^8$ Write your answer in the form $\frac{a}{b}$ where a and b are integers."
+  },
+  {
+    "id": "2019Jan-WMA01-01-Q6",
+    "paper": "2019Jan-WMA01-01",
+    "qnum": 6,
+    "marks": 7,
+    "full_text": "(a) Sketch the graph of $y = \frac{1}{2} + \\cos x, \\quad 0 \\le x \\le \\pi$ Show on your sketch the coordinates of the points where your graph meets the coordinate axes. (b) Use the trapezium rule, with 6 strips of equal width, to find an approximate value for $\\int_0^\\pi \\left(\frac{1}{2} + \\cos x\right) dx$"
+  },
+  {
+    "id": "2019Jan-WMA01-01-Q7",
+    "paper": "2019Jan-WMA01-01",
+    "qnum": 7,
+    "marks": 5,
+    "full_text": "The equation $2x^2 + 5px + p = 0$, where p is a constant, has no real roots. Find the set of possible values for p."
+  },
+  {
+    "id": "2019Jan-WMA01-01-Q8",
+    "paper": "2019Jan-WMA01-01",
+    "qnum": 8,
+    "marks": 5,
+    "full_text": "Given k > 3 and $$\\int_3^k (3x^2 - 20x + 7) dx = 6$$ show that $k^3 - 10k^2 - 7k - 6 = 0$"
+  },
+  {
+    "id": "2019Jan-WMA01-01-Q9",
+    "paper": "2019Jan-WMA01-01",
+    "qnum": 9,
+    "marks": 8,
+    "full_text": "The circle C has equation $$x^2 + y^2 + 10x - 6y + 9 = 0$$ (a) Find the coordinates of the centre of C. (b) Find the radius of C. (c) The point P (–2, 7) lies on C. Find an equation of the tangent to C at the point P. Write your answer in the form ax + by + c = 0, where a, b and c are integers."
+  },
+  {
+    "id": "2019Jan-WMA01-01-Q10",
+    "paper": "2019Jan-WMA01-01",
+    "qnum": 10,
+    "marks": 11,
+    "full_text": "[Figure] Figure 1 shows the design for a shop sign ABCDA. The sign consists of a triangle AOD joined to a sector of a circle DOBCD with radius 1.8 m and centre O. The points A, B and O lie on a straight line. Given that AD = 3.9 m and angle BOD is 0.84 radians, (a) calculate the size of angle DAO, giving your answer in radians to 3 decimal places. (b) Show that, to one decimal place, the length of AO is 4.9 m. (c) Find, in m2, the area of the shop sign, giving your answer to one decimal place. (d) Find, in m, the perimeter of the shop sign, giving your answer to one decimal place."
+  },
+  {
+    "id": "2019Jan-WMA01-01-Q11",
+    "paper": "2019Jan-WMA01-01",
+    "qnum": 11,
+    "marks": 8,
+    "full_text": "(i) Given that x is a positive real number, solve the equation $$\\log_x 324 = 4$$ writing your answer as a simplified surd. (ii) Given that $$\\log_a(5y - 1) - \\log_a(2y) = 3 \\quad y > 0.8, \\quad 0 < a < 1$$ express y in terms of a."
+  },
+  {
+    "id": "2019Jan-WMA01-01-Q12",
+    "paper": "2019Jan-WMA01-01",
+    "qnum": 12,
+    "marks": 9,
+    "full_text": "Karen is going to raise money for a charity. She aims to cycle a total distance of 1000 km over a number of days. On day one she cycles 25 km. She increases the distance that she cycles each day by 10% of the distance cycled on the previous day, until she reaches the total distance of 1000 km. She reaches the total distance of 1000 km on day N, where N is a positive integer. (a) Find the value of N. (b) On day one, 50 people donated money to the charity. Each day, 20 more people donated to the charity than did so on the previous day, so that 70 people donated money on day two, 90 people donated money on day three, and so on. Find the number of people who donated to the charity on day fifteen. (c) Each day, the donation given by each person was £5 Find the total amount of money donated by the end of day fifteen."
+  },
+  {
+    "id": "2019Jan-WMA01-01-Q13",
+    "paper": "2019Jan-WMA01-01",
+    "qnum": 13,
+    "marks": 10,
+    "full_text": "$$f (x) = 3x^3 + 3x^2 + cx + 12, \text{ where c is a constant}$$ Given that (x + 3) is a factor of f (x), (a) show that c = –14 (b) Write f (x) in the form $$f (x) = (x + 3) Q(x)$$ where Q(x) is a quadratic function. (c) Use the answer to part (b) to prove that the equation f (x) = 0 has only one real solution. (d) [Figure] Figure 2 shows a sketch of the curve with equation $y = f(x), x \\in \\mathbb{R}$. On separate diagrams sketch the curve with equation (i) y = f (3x) (ii) y = – f (x) On each diagram show clearly the coordinates of the points where the curve crosses the coordinate axes."
+  },
+  {
+    "id": "2019Jan-WMA01-01-Q14",
+    "paper": "2019Jan-WMA01-01",
+    "qnum": 14,
+    "marks": 11,
+    "full_text": "In this question solutions based entirely on graphical or numerical methods are not acceptable. (i) Solve, for $-180^\\circ \\le x < 180^\\circ$, the equation $$\\sin(x + 60^\\circ) = -0.4$$ giving your answers, in degrees, to one decimal place. (ii)(a) Show that the equation $$2\\sin\theta - \tan\theta = 3\\cos\theta$$ can be written in the form $3\\cos^2\theta - 2\\sin\theta\\cos\theta + \\sin\theta = 0$. (ii)(b) Hence solve, for $0 \\le \theta \\le 360^\\circ$, the equation $$2\\sin\theta - \tan\theta = 3\\cos\theta$$ showing each stage of your working and giving your answers, in degrees, to one decimal place."
+  },
+  {
+    "id": "2019Jan-WMA01-01-Q15",
+    "paper": "2019Jan-WMA01-01",
+    "qnum": 15,
+    "marks": 11,
+    "full_text": "[Figure] Figure 3 The straight line l with equation $y = 5 - 3x$ cuts the curve C, with equation $y = 20x - 12x^2$, at the points P and Q, as shown in Figure 3. (a) Use algebra to find the exact coordinates of the points P and Q. (b) The finite region R, shown shaded in Figure 3, is bounded by the line l, the x-axis and the curve C. Use calculus to find the exact area of R."
+  },
+  {
+    "id": "2019Jan-WMA01-01-Q16",
+    "paper": "2019Jan-WMA01-01",
+    "qnum": 16,
+    "marks": 16,
+    "full_text": "[Figure] Figure 4 shows the design for a container in the shape of a hollow triangular prism. The container is open at the top, which is labelled ABCD. The sides of the container, ABFE and DCFE, are rectangles. The ends of the container, ADE and BCF, are congruent right-angled triangles, as shown in Figure 4. The ends of the container are vertical and the edge EF is horizontal. The edges AE, DE and EF have lengths 4x metres, 3x metres and l metres respectively. Given that the container has a capacity of 0.75 m3 and is made of material of negligible thickness, (a) show that the internal surface area of the container, S m2, is given by $$S = \frac{12}{x} + 7.8x^2$$ (b) Use calculus to find the value of x, for which S is a minimum. Give your answer to 3 significant figures. (c) Justify that the value of x found in part (b) gives a minimum value for S. (d) Using the value of x found in part (b), find to 2 decimal places, (i) the length of the edge AD, (ii) the length of the edge CD."
+  },
+  {
+    "id": "2019May-WMA12-01-Q1",
+    "paper": "2019May-WMA12-01",
+    "qnum": 1,
+    "marks": 4,
+    "full_text": "A sequence $a_1, a_2, a_3, \\dots$ is defined by $a_{n+1} = 4 - a_n$ $a_1 = 3$ (a) Find the value of (i) $a_2$ (ii) $a_{107}$ (b) $\\sum_{n=1}^{200} (2a_n - 1)$"
+  },
+  {
+    "id": "2019May-WMA12-01-Q2",
+    "paper": "2019May-WMA12-01",
+    "qnum": 2,
+    "marks": 7,
+    "full_text": "A circle $C$ has equation $x^2 + y^2 + 4x - 10y - 21 = 0$ (a) Find (i) the coordinates of the centre of $C$, (ii) the exact value of the radius of $C$. (b) Find the equation of the tangent to $C$ at $P$, writing your answer in the form $y = mx + c$, where $m$ and $c$ are constants to be found."
+  },
+  {
+    "id": "2019May-WMA12-01-Q3",
+    "paper": "2019May-WMA12-01",
+    "qnum": 3,
+    "marks": 4,
+    "full_text": "(i) Use algebra to prove that for all real values of $x$ $(x-4)^2 \\ge 2x-9$ (ii) Show that the following statement is untrue. $2^n + 1$ is a prime number for all values of $n, n \\in \\mathbb{N}$"
+  },
+  {
+    "id": "2019May-WMA12-01-Q4",
+    "paper": "2019May-WMA12-01",
+    "qnum": 4,
+    "marks": 7,
+    "full_text": "(a) Find the first four terms, in ascending powers of $x$, of the binomial expansion of $(2 - \\frac{1}{4}x)^6$ (b) Given that $x$ is small, so higher powers of $x$ may be ignored, show $(2 - \\frac{1}{4}x)^6 + (2 + \\frac{1}{4}x)^6 = a + bx^2$ where $a$ and $b$ are constants to be found."
+  },
+  {
+    "id": "2019May-WMA12-01-Q5",
+    "paper": "2019May-WMA12-01",
+    "qnum": 5,
+    "marks": 8,
+    "full_text": "A company makes a particular type of watch. The annual profit made by the company from sales of these watches is modelled by the equation $P = 12x - x^\\frac{3}{2} - 120$ where $P$ is the annual profit measured in thousands of pounds and $\\pounds x$ is the selling price of the watch. According to this model, (a) find, using calculus, the maximum possible annual profit. (b) Justify, also using calculus, that the profit you have found is a maximum."
+  },
+  {
+    "id": "2019May-WMA12-01-Q6",
+    "paper": "2019May-WMA12-01",
+    "qnum": 6,
+    "marks": 8,
+    "full_text": "$f(x) = kx^3 - 15x^2 - 32x - 12$ where $k$ is a constant (a) show that $k=9$ (b) Using algebra and showing each step of your working, fully factorise $f(x)$. (c) giving your answers to one decimal place."
+  },
+  {
+    "id": "2019May-WMA12-01-Q7",
+    "paper": "2019May-WMA12-01",
+    "qnum": 7,
+    "marks": 9,
+    "full_text": "Kim starts working for a company. \\textbullet In year 1 her annual salary will be $\\pounds 16\\,200$ \\textbullet In year 10 her annual salary is predicted to be $\\pounds 31\\,500$ Model $A$ assumes that her annual salary will increase by the same amount each year. (a) According to model $A$, determine Kim's annual salary in year 2. (b) According to model $B$, determine Kim's annual salary in year 2. Give your answer to the nearest $\\pounds 10$ (c) Calculate, according to the two models, the difference between the total amounts that Kim is predicted to earn from year 1 to year 10 inclusive. Give your answer to the nearest $\\pounds 10$"
+  },
+  {
+    "id": "2019May-WMA12-01-Q8",
+    "paper": "2019May-WMA12-01",
+    "qnum": 8,
+    "marks": 9,
+    "full_text": "(i) Find the exact solution of the equation $8^{2x+1} = 6$ giving your answer in the form $a + b\\log_3 3$, where $a$ and $b$ are constants to be found. (ii) Using the laws of logarithms, solve $\\log_3(7 - 2y) = 2\\log_3(y+1) - 1$"
+  },
+  {
+    "id": "2019May-WMA12-01-Q9",
+    "paper": "2019May-WMA12-01",
+    "qnum": 9,
+    "marks": 8,
+    "full_text": "(a) Show that the equation $\\cos\\theta - 1 = 4\\sin\\theta\\tan\\theta$ can be written in the form $5\\cos^2\\theta - \\cos\\theta - 4 = 0$ (b) $\\cos 2x - 1 = 4\\sin 2x\\tan 2x$ giving your answers, where appropriate, to 2 decimal places."
+  },
+  {
+    "id": "2019May-WMA12-01-Q10",
+    "paper": "2019May-WMA12-01",
+    "qnum": 10,
+    "marks": 11,
+    "full_text": "[Figure] shows a sketch of part of the curve $C$ with equation $y = f(x)$ where $f(x) = \\frac{36}{x^2} + 2x - 13, \\quad x > 0$ (a) Using calculus, find the range of values of $x$ for which $f(x)$ is increasing. (b) show that $\\int_2^6 (\\frac{36}{x^2} + 2x - 13) \\mathrm{d}x = 0$ (c) (i) state the value of $\\int_6^2 (\\frac{36}{x^2} + 2x - 13) \\mathrm{d}x$ (ii) find the value of the constant $k$ such that $\\int_2^6 (\\frac{36}{x^2} + 2x + k) \\mathrm{d}x = 0$"
+  },
+  {
+    "id": "2019Oct-WMA12-01-Q1",
+    "paper": "2019Oct-WMA12-01",
+    "qnum": 1,
+    "marks": 6,
+    "full_text": "A curve C has equation $y = 2x^2(x - 3)$ (a) Find, using calculus, the $x$ coordinates of the stationary points of C. (b) Hence find the values of $x$ for which $y$ is increasing."
+  },
+  {
+    "id": "2019Oct-WMA12-01-Q2",
+    "paper": "2019Oct-WMA12-01",
+    "qnum": 2,
+    "marks": 6,
+    "full_text": "The adult population of a town at the start of 2010 is 25000. A model predicts that the adult population will increase by 3% each year, so that the number of adults in the population at the start of each year following 2010 will form a geometric sequence. (a) Find, according to the model, the adult population of the town at the start of 2015. (b) It is also modelled that every member of the adult population gives £5 to local charity at the start of each year. Find, according to these models, the total amount of money that would be given to local charity by the adult population of the town from 2010 to 2020 inclusive. Give your answer to the nearest £1000."
+  },
+  {
+    "id": "2019Oct-WMA12-01-Q3",
+    "paper": "2019Oct-WMA12-01",
+    "qnum": 3,
+    "marks": 6,
+    "full_text": "(a) Find the first 3 terms, in ascending powers of $x$, in the binomial expansion of $\\left(4 + \\frac{1}{2}x\\right)^{12}$ giving each coefficient in its simplest form. (b) Find the term independent of $x$ in the expansion of $\\left(x^2 + \\frac{5}{x}\\right)\\left(4 + \\frac{1}{2}x\\right)^{12}$"
+  },
+  {
+    "id": "2019Oct-WMA12-01-Q4",
+    "paper": "2019Oct-WMA12-01",
+    "qnum": 4,
+    "marks": 8,
+    "full_text": "$f(x) = (x - 2)(x^2 + x + a) - 12$ where $a$ is a constant (a) State the remainder when $f(x)$ is divided by $(x - 2)$ (b) Given that $(x - 3)$ is a factor of $f(x)$ show that $a = -10$ (c) Using algebra and showing each step of your working, fully factorise $f(x)$"
+  },
+  {
+    "id": "2019Oct-WMA12-01-Q5",
+    "paper": "2019Oct-WMA12-01",
+    "qnum": 5,
+    "marks": 7,
+    "full_text": "(a) Given $a > 0$, sketch the curve with equation $y = a^x$ showing the coordinates of the point at which the curve crosses the $y$-axis. (b) \\begin{tabular}{|c|c|c|c|c|c|} \\hline x & 2 & 2.5 & 3 & 3.5 & 4 \\\\ \\hline y & 5.25 & 6.12 & 7.25 & 8.71 & 10.5 \\\\ \\hline \\end{tabular} The table above shows corresponding values of $x$ and $y$ for $y = x^2 + \\left(\\frac{1}{2}\\right)^x$ The values of $y$ are given to 3 significant figures as appropriate. Using the trapezium rule with all the values of $y$ in the given table obtain an estimate for $\\int_2^4 \\left(x^2 + \\left(\\frac{1}{2}\\right)^x\\right) \\mathrm{d}x$ (c) Using your answer to part (b) and making your method clear, estimate $\\int_2^4 \\left(3x^2 + 2\\left(\\frac{1}{2}\\right)^x\\right) \\mathrm{d}x$"
+  },
+  {
+    "id": "2019Oct-WMA12-01-Q6",
+    "paper": "2019Oct-WMA12-01",
+    "qnum": 6,
+    "marks": 7,
+    "full_text": "[Figure 1] Figure 1 shows a sketch of a circle C with centre $N(4, -2)$ The line $l$ with equation $y = \\frac{1}{2}x$ is a tangent to C at the point P. Find (a) the equation of line PN in the form $y = mx + c$, where $m$ and $c$ are constants (b) the equation of C."
+  },
+  {
+    "id": "2019Oct-WMA12-01-Q7",
+    "paper": "2019Oct-WMA12-01",
+    "qnum": 7,
+    "marks": 7,
+    "full_text": "Given $\\log_a b = k$, find, in simplest form in terms of $k$ (i) $\\log_a \\left(\\frac{a}{b}\\right)$ (ii) $\\frac{\\log_a a^2 b^3}{\\log_a b}$ (iii) $\\sum_{n=1}^{50} (\\log_b a)^n$"
+  },
+  {
+    "id": "2019Oct-WMA12-01-Q8",
+    "paper": "2019Oct-WMA12-01",
+    "qnum": 8,
+    "marks": 9,
+    "full_text": "Solutions relying on calculator technology are not acceptable in this question. [Figure 2] Figure 2 shows a sketch of part of a curve with equation $y = \\frac{8}{x^2} - 2x$, $x > 0$ The region R, shown shaded in Figure 2, is bounded by the curve, the line with equation $x = 1$, the $x$-axis and the line with equation $x = 2$ (i) Find the exact area of R. (ii) Find the value of the constant $k$ such that $\\int_1^2 \\left(\\frac{55}{x^2} - 3x + k\\right) \\mathrm{d}x = 6$"
+  },
+  {
+    "id": "2019Oct-WMA12-01-Q9",
+    "paper": "2019Oct-WMA12-01",
+    "qnum": 9,
+    "marks": 12,
+    "full_text": "Solutions based entirely on graphical or numerical methods are not acceptable in this question. (i) Solve, for $0 \\le \\theta < 360^\\circ$, the equation $2 \\sin (\\theta - 30^\\circ) = 1$ giving your answers to one decimal place. (ii)(a) Show that $2 \\cos \\alpha = \\sin^2 \\alpha$ (ii)(b) Given that $\\pi < \\alpha < \\frac{3\\pi}{2}$ find, showing all working, the value of $\\alpha$ to 3 decimal places."
+  },
+  {
+    "id": "2019Oct-WMA12-01-Q10",
+    "paper": "2019Oct-WMA12-01",
+    "qnum": 10,
+    "marks": 7,
+    "full_text": "The curve C has equation $y = ax^3 - x^2 + x + b$ where $a$ and $b$ are constants. Given that (a) find the value of $a$ and the value of $b$. (b) Prove that C has no turning points."
+  },
+  {
+    "id": "2020Jan-WMA12-01-Q1",
+    "paper": "2020Jan-WMA12-01",
+    "qnum": 1,
+    "marks": 7,
+    "full_text": "The table below shows corresponding values of x and y for $y = \\log_2 (2x)$ The values of y are given to 2 decimal places as appropriate. \\begin{tabular}{|c|c|c|c|c|c|}\n\\hline\nx & 2 & 5 & 8 & 11 & 14 \\\\\n\\hline\ny & 2 & 3.32 & 4 & 4.46 & 4.81 \\\\\n\\hline\n\\end{tabular} Using the trapezium rule with all the values of y in the given table, (a) obtain an estimate for $$ \\int_2^{14} \\log_2(2x) \\, \\mathrm{d}x $$ giving your answer to one decimal place. (b)(i) $$ \\int_2^{14} \\log_2(4x) \\, \\mathrm{d}x $$ (b)(ii) $$ \\int_2^{14} \\log_2 \\left(\\frac{x}{2}\\right) \\, \\mathrm{d}x $$"
+  },
+  {
+    "id": "2020Jan-WMA12-01-Q2",
+    "paper": "2020Jan-WMA12-01",
+    "qnum": 2,
+    "marks": 7,
+    "full_text": "One of the terms in the binomial expansion of $(3 + ax)^6$, where $a$ is a constant, is $540x^4$ (a) Find the possible values of $a$. (b) Hence find the term independent of $x$ in the expansion of $$ \\left(\\frac{1}{81} + \\frac{1}{3x}\\right)(3+ax)^6 $$"
+  },
+  {
+    "id": "2020Jan-WMA12-01-Q3",
+    "paper": "2020Jan-WMA12-01",
+    "qnum": 3,
+    "marks": 8,
+    "full_text": "$f(x) = 6x^3 + 17x^2 + 4x - 12$ (a) Use the factor theorem to show that $(2x + 3)$ is a factor of $f(x)$. (b) Hence, using algebra, write $f(x)$ as a product of three linear factors. (c) Solve, for $0 < \\theta < 2\\pi$, the equation $$ 6\\tan^3\\theta + 17\\tan^2\\theta + 4\\tan\\theta - 12 = 0 $$ giving your answers to 3 significant figures."
+  },
+  {
+    "id": "2020Jan-WMA12-01-Q4",
+    "paper": "2020Jan-WMA12-01",
+    "qnum": 4,
+    "marks": 6,
+    "full_text": "[Figure] Figure 1 shows a sketch of the curve with equation $y = 2x^2 + 7$, $x \\ge 0$ The finite region R, shown shaded in Figure 1, is bounded by the curve, the $y$-axis and the line with equation $y = 17$ Find the exact area of R."
+  },
+  {
+    "id": "2020Jan-WMA12-01-Q5",
+    "paper": "2020Jan-WMA12-01",
+    "qnum": 5,
+    "marks": 8,
+    "full_text": "In this question you must show all stages of your working. Solutions relying on calculator technology are not acceptable. A colony of bees is being studied. The number of bees in the colony at the start of the study was 30 000 Three years after the start of the study, the number of bees in the colony is 34 000 A model predicts that the number of bees in the colony will increase by $p\\%$ each year, so that the number of bees in the colony at the end of each year of study forms a geometric sequence. Assuming the model, (a) find the value of $p$, giving your answer to 2 decimal places. (b) According to the model, at the end of $N$ years of study the number of bees in the colony exceeds 75 000 Find, showing all steps in your working, the smallest integer value of $N$."
+  },
+  {
+    "id": "2020Jan-WMA12-01-Q6",
+    "paper": "2020Jan-WMA12-01",
+    "qnum": 6,
+    "marks": 8,
+    "full_text": "The circle C has equation $x^2 + y^2 + 6x - 4y - 14 = 0$ (a)(i) the coordinates of the centre of C, (a)(ii) the exact radius of C. (b) The line with equation $y = k$, where $k$ is a constant, is a tangent to C. Find the possible values of $k$. (c) The line with equation $y = p$, where $p$ is a negative constant, is a chord of C. Given that the length of this chord is 4 units, find the value of $p$."
+  },
+  {
+    "id": "2020Jan-WMA12-01-Q7",
+    "paper": "2020Jan-WMA12-01",
+    "qnum": 7,
+    "marks": 7,
+    "full_text": "(a) Show that the equation $8\\tan\\theta = 3\\cos\\theta$ may be rewritten in the form $3\\sin^2\\theta + 8\\sin\\theta - 3 = 0$ (b) Hence solve, for $0 \\le x \\le 90^\\circ$, the equation $8\\tan(2x) = 3\\cos(2x)$ giving your answers to 2 decimal places."
+  },
+  {
+    "id": "2020Jan-WMA12-01-Q8",
+    "paper": "2020Jan-WMA12-01",
+    "qnum": 8,
+    "marks": 7,
+    "full_text": "(i) An arithmetic series has first term $a$ and common difference $d$. Prove that the sum to $n$ terms of this series is $$ \\frac{n}{2}\\{2a + (n-1)d\\} $$ (ii)(a) $u_5$ (ii)(b) $$ \\sum_{n=1}^{59} u_n $$"
+  },
+  {
+    "id": "2020Jan-WMA12-01-Q9",
+    "paper": "2020Jan-WMA12-01",
+    "qnum": 9,
+    "marks": 7,
+    "full_text": "(a) Sketch the curve with equation $y = 3 \\times 4^x$ showing the coordinates of any points of intersection with the coordinate axes. (b) The curve with equation $y = 6^{1-x}$ meets the curve with equation $y = 3 \\times 4^x$ at the point P. Show that the $x$ coordinate of P is $$ \\frac{\\log_{10} 2}{\\log_{10} 24} $$"
+  },
+  {
+    "id": "2020Jan-WMA12-01-Q10",
+    "paper": "2020Jan-WMA12-01",
+    "qnum": 10,
+    "marks": 10,
+    "full_text": "A curve C has equation $$ y = \\frac{4}{x} - 9x + kx^3 \\quad x > 0 $$ where $k$ is a constant. The point P with $x$ coordinate $\\frac{1}{2}$ lies on C. Given that P is a stationary point of C, (a) show that $k = -\\frac{3}{2}$ (b) Determine the nature of the stationary point at P, justifying your answer. (c) The curve C has a second stationary point. Using algebra, find the $x$ coordinate of this second stationary point."
+  },
+  {
+    "id": "2020Oct-WMA12-01-Q1",
+    "paper": "2020Oct-WMA12-01",
+    "qnum": 1,
+    "marks": 7,
+    "full_text": "(a) Find the first 4 terms, in ascending powers of x, of the binomial expansion of $$ \\left(2 - \\frac{x}{4}\\right)^{10} $$ giving each term in its simplest form. (b) Hence find the constant term in the series expansion of $$ \\left(3 - \\frac{1}{x}\\right) \\left(2 - \\frac{x}{4}\\right)^{10} $$"
+  },
+  {
+    "id": "2020Oct-WMA12-01-Q2",
+    "paper": "2020Oct-WMA12-01",
+    "qnum": 2,
+    "marks": 4,
+    "full_text": "$$ y = \\frac{2}{x(5+3x^2)} $$ (a) Complete the table below, giving the values of y to 3 decimal places. \\begin{tabular}{|c|c|c|c|c|c|}\n\\hline\nx & –0.25 & 0 & 0.25 & 0.5 & 0.75 \\\\\n\\hline\ny & 0.462 & & 0.653 & 0.698 & \\\\\n\\hline\n\\end{tabular} (b) Use the trapezium rule, with all the values of y from the completed table, to find an approximate value for $$ \\int_{-0.25}^{0.75} \\frac{2}{x(5+3x^2)} \\, dx $$"
+  },
+  {
+    "id": "2020Oct-WMA12-01-Q3",
+    "paper": "2020Oct-WMA12-01",
+    "qnum": 3,
+    "marks": 10,
+    "full_text": "$$ \\text{f}(x) = ax^3 - x^2 + bx + 4 $$ where a and b are constants. When f(x) is divided by $(x + 4)$, the remainder is –108 (a) Use the remainder theorem to show that $$ 16a + b = 24 $$ (b) Given also that $(2x – 1)$ is a factor of f(x), find the value of a and the value of b. (c) Find f′(x). (d) Hence find the exact coordinates of the stationary points of the curve with equation $y = \\text{f}(x)$."
+  },
+  {
+    "id": "2020Oct-WMA12-01-Q4",
+    "paper": "2020Oct-WMA12-01",
+    "qnum": 4,
+    "marks": 9,
+    "full_text": "The points P and Q have coordinates $(–11, 6)$ and $(–3, 12)$ respectively. Given that PQ is a diameter of the circle C, (a)(i) find the coordinates of the centre of C, (a)(ii) find the radius of C. (b) Hence find an equation of C. (c) Find an equation of the tangent to C at the point Q giving your answer in the form $ax + by + c = 0$ where a, b and c are integers to be found."
+  },
+  {
+    "id": "2020Oct-WMA12-01-Q5",
+    "paper": "2020Oct-WMA12-01",
+    "qnum": 5,
+    "marks": 11,
+    "full_text": "Ben is saving for the deposit for a house over a period of 60 months. Ben saves £100 in the first month and in each subsequent month, he saves £5 more than the previous month, so that he saves £105 in the second month, £110 in the third month, and so on, forming an arithmetic sequence. (a) Find the amount Ben saves in the 40th month. (b) Find the total amount Ben saves over the 60‑month period. (c) Lina is also saving for a deposit for a house. Lina saves £600 in the first month and in each subsequent month, she saves £10 less than the previous month, so that she saves £590 in the second month, £580 in the third month, and so on, forming an arithmetic sequence. Given that, after n months, Lina will have saved exactly £18 200 for her deposit, form an equation in n and show that it can be written as $$ n^2 – 121n + 3640 = 0 $$ (d) Solve the equation in part (c). (e) State, with a reason, which of the solutions to the equation in part (c) is not a sensible value for n."
+  },
+  {
+    "id": "2020Oct-WMA12-01-Q6",
+    "paper": "2020Oct-WMA12-01",
+    "qnum": 6,
+    "marks": 9,
+    "full_text": "[Figure] Figure 1 shows a sketch of part of the curves C1 and C2 with equations C1 : $y = x^3 – 6x + 9$ $x \\ge 0$ C2 : $y = –2x^2 + 7x – 1$ $x \\ge 0$ The curves C1 and C2 intersect at the points A and B as shown in Figure 1. The point A has coordinates $(1, 4)$. Using algebra and showing all steps of your working, (a) find the coordinates of the point B. (b) The finite region R, shown shaded in Figure 1, is bounded by C1 and C2 Use algebraic integration to find the exact area of R."
+  },
+  {
+    "id": "2020Oct-WMA12-01-Q7",
+    "paper": "2020Oct-WMA12-01",
+    "qnum": 7,
+    "marks": 7,
+    "full_text": "(i) Show that $$ \\tan \\theta + \\frac{1}{\\tan \\theta} \\equiv \\frac{1}{\\sin \\theta \\cos \\theta} $$ $\\theta \\ne \\frac{n\\pi}{2}$ $n \\in \\mathbb{Z}$ (ii) Solve, for $0 \\le x < 90^\\circ$, the equation $$ 3\\cos^2 (2x + 10^\\circ) = 1 $$ giving your answers in degrees to one decimal place. (Solutions based entirely on graphical or numerical methods are not acceptable.)"
+  },
+  {
+    "id": "2020Oct-WMA12-01-Q8",
+    "paper": "2020Oct-WMA12-01",
+    "qnum": 8,
+    "marks": 8,
+    "full_text": "A geometric series has first term a and common ratio r. (a) Prove that the sum of the first n terms of this series is given by $$ S_n = \\frac{a(r^n - 1)}{r - 1} $$ (b) The second term of a geometric series is –320 and the fifth term is $\\frac{512}{25}$ Find the value of the common ratio. (c) Hence find the sum of the first 13 terms of the series, giving your answer to 2 decimal places."
+  },
+  {
+    "id": "2020Oct-WMA12-01-Q9",
+    "paper": "2020Oct-WMA12-01",
+    "qnum": 9,
+    "marks": 10,
+    "full_text": "(i) Find the exact value of x for which $$ \\log_3(x + 5) – 4 = \\log_3(2x – 1) $$ (ii)(a) show that $$ y = \\frac{0.75}{\\log_2 3 + 2} $$ (ii)(b) Hence find the value of y, giving your answer to 3 decimal places."
+  },
+  {
+    "id": "2021Jan-WMA12-01-Q1",
+    "paper": "2021Jan-WMA12-01",
+    "qnum": 1,
+    "marks": 6,
+    "full_text": "$$f(x) = x^4 + ax^3 - 3x^2 + bx + 5$$ where $a$ and $b$ are constants. When $f(x)$ is divided by $(x + 1)$, the remainder is $4$ (a) Show that $a + b = -1$ (b) When $f(x)$ is divided by $(x - 2)$, the remainder is $-23$ Find the value of $a$ and the value of $b$."
+  },
+  {
+    "id": "2021Jan-WMA12-01-Q2",
+    "paper": "2021Jan-WMA12-01",
+    "qnum": 2,
+    "marks": 7,
+    "full_text": "A curve has equation $$y = x^3 - x^2 - 16x + 2$$ (a) Using calculus, find the $x$ coordinates of the stationary points of the curve. (b) Justify, by further calculus, the nature of all of the stationary points of the curve."
+  },
+  {
+    "id": "2021Jan-WMA12-01-Q3",
+    "paper": "2021Jan-WMA12-01",
+    "qnum": 3,
+    "marks": 8,
+    "full_text": "(i) Solve $$7^{x+2} = 3$$ giving your answer in the form $x = \\log_7 a$ where $a$ is a rational number in its simplest form. (ii) Using the laws of logarithms, solve $$1 + \\log_2 y + \\log_2 (y + 4) = \\log_2 (5 - y)$$"
+  },
+  {
+    "id": "2021Jan-WMA12-01-Q4",
+    "paper": "2021Jan-WMA12-01",
+    "qnum": 4,
+    "marks": 8,
+    "full_text": "(a) Find the first three terms, in ascending powers of $x$, of the binomial expansion of $$(2 + px)^6$$ where $p$ is a constant. Give each term in simplest form. (b) Given that in the expansion of $$\\left(3 - \\frac{1}{2}x\\right)(2 + px)^6$$ the coefficient of $x^2$ is $-\\frac{3}{4}$ find the possible values of $p$."
+  },
+  {
+    "id": "2021Jan-WMA12-01-Q5",
+    "paper": "2021Jan-WMA12-01",
+    "qnum": 5,
+    "marks": 4,
+    "full_text": "(i) Use algebra to prove that for all $x \\ge 0$ $$3x + 1 \\ge 2\\sqrt{3x}$$ (ii) Show that the following statement is not true. \"The sum of three consecutive prime numbers is always a multiple of 5\""
+  },
+  {
+    "id": "2021Jan-WMA12-01-Q6",
+    "paper": "2021Jan-WMA12-01",
+    "qnum": 6,
+    "marks": 8,
+    "full_text": "(a) Show that the equation $$\\frac{3\\sin\\theta \\cos\\theta}{2\\sin\\theta - 1} = 5\\tan\\theta \\quad \\quad \\quad \\sin\\theta \\ne \\frac{1}{2}$$ can be written in the form $$3\\sin^3\\theta + 10\\sin^2\\theta - 8\\sin\\theta = 0$$ (b) Hence solve, for $-\\frac{\\pi}{4} < x < \\frac{\\pi}{4}$ $$\\frac{3\\sin 2x \\cos 2x}{2\\sin 2x - 1} = 5\\tan 2x$$ giving your answers to 3 decimal places where appropriate."
+  },
+  {
+    "id": "2021Jan-WMA12-01-Q7",
+    "paper": "2021Jan-WMA12-01",
+    "qnum": 7,
+    "marks": 6,
+    "full_text": "[Figure] Solar panels are installed on the roof of a building. The power, $P$, produced on a particular day, in kW, can be modelled by the equation $$P = 0.95 + 2^{t-12} + 2^{12-t} - (t - 12)^2 \\quad \\quad \\quad 8.5 \\le t \\le 15.2$$ where $t$ is the time in hours after midnight. The graph of $P$ against $t$ is shown in Figure 1. A table of values of $t$ and $P$ is shown below, with the values of $P$ given to 4 significant figures where appropriate. \\begin{tabular}{|l|c|c|c|c|c|}\n\\hline\nTime, $t$ \\newline (hours) & 10 & 10.5 & 11 & 11.5 & 12 \\\\\n\\hline\nPower, $P$ \\newline (kW) & 1.882 & 2.45 & 2.95 &  &  \\\\\n\\hline\n\\end{tabular} (a) Use the given equation to complete the table, giving the values of $P$ to 4 significant figures where appropriate. (b) The amount of energy, in kWh, produced between 10:00 and 12:00 can be found by calculating the area of region $R$, shown shaded in Figure 1. Use the trapezium rule, with all the values of $P$ in the completed table, to find an estimate for the amount of energy produced between 10:00 and 12:00. Give your answer to 2 decimal places."
+  },
+  {
+    "id": "2021Jan-WMA12-01-Q8",
+    "paper": "2021Jan-WMA12-01",
+    "qnum": 8,
+    "marks": 7,
+    "full_text": "A sequence $a_1, a_2, a_3, \\dots$ is defined by $$a_{n+1} = 2(a_n + 3)^2 - 7$$ $$a_1 = p - 3$$ where $p$ is a constant. (a) Find an expression for $a_2$ in terms of $p$, giving your answer in simplest form. (b) Given that $$\\sum_{n=1}^3 a_n = p + 15$$ find the possible values of $a_2$"
+  },
+  {
+    "id": "2021Jan-WMA12-01-Q9",
+    "paper": "2021Jan-WMA12-01",
+    "qnum": 9,
+    "marks": 10,
+    "full_text": "A circle $C$ has equation $$(x - k)^2 + (y - 2k)^2 = k + 7$$ where $k$ is a positive constant. (a)(i) the coordinates of the centre of $C$, (a)(ii) the radius of $C$. (b)(i) show that $5k^2 - 17k + 6 = 0$ (b)(ii) hence find the possible values of $k$. (c) The tangent to the circle at $P$ intersects the $x$-axis at point $T$. Given that $k < 2$ calculate the exact area of triangle $OPT$."
+  },
+  {
+    "id": "2021Jan-WMA12-01-Q10",
+    "paper": "2021Jan-WMA12-01",
+    "qnum": 10,
+    "marks": 11,
+    "full_text": "In this question you must show detailed reasoning. Owen wants to train for 12 weeks in preparation for running a marathon. During the 12-week period he will run every Sunday and every Wednesday. He considers two different 12-week training plans. In training plan A, he will increase the distance he runs each Sunday by the same amount. (a) Calculate the distance he will run on Sunday in week 5 under training plan A. (b) In training plan B, he will increase the distance he runs each Sunday by the same percentage. Calculate the distance he will run on Sunday in week 5 under training plan B. Give your answer in km to one decimal place. (c)(i) find the maximum value of $x$, if he uses training plan A, (c)(ii) find the maximum value of $x$, if he uses training plan B."
+  },
+  {
+    "id": "2021May-WMA12-01-Q1",
+    "paper": "2021May-WMA12-01",
+    "qnum": 1,
+    "marks": 7,
+    "full_text": "The content for Question 1 was on a preceding page and is not provided in the given text."
+  },
+  {
+    "id": "2021May-WMA12-01-Q2",
+    "paper": "2021May-WMA12-01",
+    "qnum": 2,
+    "marks": 8,
+    "full_text": "[Figure] Figure 1 shows a sketch of the curve with equation $y = 4^x$ A copy of Figure 1, labelled Diagram 1, is shown on the next page. (a) On Diagram 1, sketch the curve with equation (b) The curve with equation $y = 2^x$ meets the curve with equation $y = 4^{x – 6}$ at the point P. Using algebra, find the exact coordinates of P."
+  },
+  {
+    "id": "2021May-WMA12-01-Q3",
+    "paper": "2021May-WMA12-01",
+    "qnum": 3,
+    "marks": 5,
+    "full_text": "(i) Prove that for all single digit prime numbers, p, $p^3 + p$ is a multiple of 10 (ii) Show, using algebra, that for $n \\in \\mathbb{N}$ $(n + 1)^3 – n^3$ is not a multiple of 3"
+  },
+  {
+    "id": "2021May-WMA12-01-Q4",
+    "paper": "2021May-WMA12-01",
+    "qnum": 4,
+    "marks": 8,
+    "full_text": "(a) Find, in ascending powers of x, up to and including the term in $x^3$, the binomial expansion of $$\\left(2 + \\frac{x}{8}\\right)^{13}$$ fully simplifying each coefficient. (b) Use the answer to part (a) to find an approximation for $2.0125^{13}$ Give your answer to 3 decimal places. (c) Without calculating $2.0125^{13}$ state, with a reason, whether the answer to part (b) is an overestimate or an underestimate."
+  },
+  {
+    "id": "2021May-WMA12-01-Q5",
+    "paper": "2021May-WMA12-01",
+    "qnum": 5,
+    "marks": 10,
+    "full_text": "[Figure] Figure 2 shows a sketch of part of the graph of the curves C1 and C2 The curves intersect when $x = 2.5$ and when $x = 4$ A table of values for some points on the curve C1 is shown below, with y values given to 3 decimal places as appropriate. \\begin{tabular}{|c|ccccccc|}\n\\hline\nx & 2.5 & 2.75 & 3 & 3.25 & 3.5 & 3.75 & 4 \\\\\n\\hline\ny & 5.453 & 7.764 & 9.375 & 9.964 & 9.367 & 7.626 & 5 \\\\\n\\hline\n\\end{tabular} (a) Using the trapezium rule with all the values of y in the table, find, to 2 decimal places, an estimate for the area bounded by the curve C1, the line with equation $x = 2.5$, the x-axis and the line with equation $x = 4$ (b) The curve C2 has equation $$y = \\frac{3}{2}x^3 - 3x^2 + 9x \\quad x > 0$$ Find $$\\int \\left(\\frac{3}{2}x^3 - 3x^2 + 9x\\right) \\text{d}x$$ (c) The region R, shown shaded in Figure 2, is bounded by the curves C1 and C2 Use the answers to part (a) and part (b) to find, to one decimal place, an estimate for the area of the region R."
+  },
+  {
+    "id": "2021May-WMA12-01-Q6",
+    "paper": "2021May-WMA12-01",
+    "qnum": 6,
+    "marks": 7,
+    "full_text": "A circle has equation $x^2 – 6x + y^2 + 8y + k = 0$ where k is a positive constant. Given that the x-axis is a tangent to this circle, (a) find the value of k. (b) The circle meets the coordinate axes at the points R, S and T. Find the exact area of the triangle RST."
+  },
+  {
+    "id": "2021May-WMA12-01-Q7",
+    "paper": "2021May-WMA12-01",
+    "qnum": 7,
+    "marks": 10,
+    "full_text": "(a) Given that $3\\log_3(2x – 1) = 2 + \\log_3(14x – 25)$ show that $2x^3 – 3x^2 – 30x + 56 = 0$ (b) Show that –4 is a root of this cubic equation. (c) Hence, using algebra and showing each step of your working, solve $3\\log_3(2x – 1) = 2 + \\log_3(14x – 25)$"
+  },
+  {
+    "id": "2021May-WMA12-01-Q8",
+    "paper": "2021May-WMA12-01",
+    "qnum": 8,
+    "marks": 10,
+    "full_text": "In this question you must show all stages of your working. Solutions relying entirely on calculator technology are not acceptable. (i) Solve, for $0 < \\theta < 360°$, the equation $3\\sin (\\theta + 30°) = 7\\cos (\\theta + 30°)$ giving your answers to one decimal place. (ii)(a) Show that the equation $3\\sin^3 x = 5\\sin x – 7\\sin x \\cos x$ can be written in the form $\\sin x (a \\cos 2 x + b \\cos x + c) = 0$ where a, b and c are constants to be found. (ii)(b) Hence solve for $-\\frac{\\pi}{2} \\le x \\le \\frac{\\pi}{2}$ the equation $3\\sin^3 x = 5\\sin x – 7\\sin x \\cos x$"
+  },
+  {
+    "id": "2021May-WMA12-01-Q9",
+    "paper": "2021May-WMA12-01",
+    "qnum": 9,
+    "marks": 10,
+    "full_text": "[Figure] Figure 3 shows a sketch of a square based, open top box. The height of the box is h cm, and the base edges each have length l cm. Given that the volume of the box is $250 000 cm^3$ (a) show that the external surface area, S cm2, of the box is given by $$S = \\frac{250000}{h} + 2000\\sqrt{h}$$ (b) Use algebraic differentiation to show that S has a stationary point when $h = 250\\sqrt[k]{}$ where k is a rational constant to be found. (c) Justify by further differentiation that this value of h gives the minimum external surface area of the box."
+  },
+  {
+    "id": "2021Oct-WMA12-01-Q1",
+    "paper": "2021Oct-WMA12-01",
+    "qnum": 1,
+    "marks": 6,
+    "full_text": "The first three terms, in ascending powers of x, of the binomial expansion of $(1 + kx)^{16}$ are $1, -4x$ and $px^2$ where k and p are constants. (a) Find, in simplest form, (b) Using the value of k found in part (a), find the term in $x^2$ in the expansion of $g(x)$, where $g(x) = 2 + \\frac{1}{16}(1+kx)^{16}$."
+  },
+  {
+    "id": "2021Oct-WMA12-01-Q2",
+    "paper": "2021Oct-WMA12-01",
+    "qnum": 2,
+    "marks": 5,
+    "full_text": "A sequence is defined by $u_1 = 6$ $u_{n+1} = ku_n + 3$ where k is a positive constant. (a) Find, in terms of k, an expression for $u_3$ (b) Given that $\\sum_{n=1}^{3} u_n = 117$ find the value of k."
+  },
+  {
+    "id": "2021Oct-WMA12-01-Q3",
+    "paper": "2021Oct-WMA12-01",
+    "qnum": 3,
+    "marks": 8,
+    "full_text": "[Figure] Figure 1 shows a sketch of part of the curve with equation $y = \\log_{10} x$ The region R, shown shaded in Figure 1, is bounded by the curve, the line with equation $x = 2$, the x-axis and the line with equation $x = 14$ (a) Using the trapezium rule with four strips of equal width, show that the area of R is approximately 10.10 (b) Explain how the trapezium rule could be used to obtain a more accurate estimate for the area of R. (c) Using the answer to part (a) and making your method clear, estimate the value of"
+  },
+  {
+    "id": "2021Oct-WMA12-01-Q4",
+    "paper": "2021Oct-WMA12-01",
+    "qnum": 4,
+    "marks": 8,
+    "full_text": "$f(x) = (x^2 - 2)(2x - 3) - 21$ (a) State the value of the remainder when $f(x)$ is divided by $(2x - 3)$ (b) Use the factor theorem to show that $(x - 3)$ is a factor of $f(x)$ (c) Hence,"
+  },
+  {
+    "id": "2021Oct-WMA12-01-Q5",
+    "paper": "2021Oct-WMA12-01",
+    "qnum": 5,
+    "marks": 6,
+    "full_text": "A company that owned a silver mine and so on, forming an arithmetic sequence. (a) Find the mass of silver extracted in year 14 (b) After a total of 7770 tonnes of silver was extracted, the company stopped mining. Given that this occurred at the end of year N, show that $N^2 - 65N + 1036 = 0$ (c) Hence, state the value of N."
+  },
+  {
+    "id": "2021Oct-WMA12-01-Q6",
+    "paper": "2021Oct-WMA12-01",
+    "qnum": 6,
+    "marks": 8,
+    "full_text": "(i)(a) Find the coordinates of the centre of $C_1$ (i)(b) State the possible range in values for k. (ii) The point $P(p, 0)$, the point $Q(-2, 10)$ and the point $R(8, -14)$ lie on a different circle, $C_2$ Given that find the exact value of p."
+  },
+  {
+    "id": "2021Oct-WMA12-01-Q7",
+    "paper": "2021Oct-WMA12-01",
+    "qnum": 7,
+    "marks": 10,
+    "full_text": "(i) A geometric sequence has first term 4 and common ratio 6 Given that the nth term is greater than $10^{100}$, find the minimum possible value of n. (ii)(a) show that $25r^2 - 25r - 6 = 0$ (ii)(b) Write down the solutions of $25r^2 - 25r - 6 = 0$ (ii)(c) Hence, state the value of r, giving a reason for your answer, (ii)(d) find the sum of the first 4 terms of the series."
+  },
+  {
+    "id": "2021Oct-WMA12-01-Q8",
+    "paper": "2021Oct-WMA12-01",
+    "qnum": 8,
+    "marks": 10,
+    "full_text": "In this question you must show all stages of your working. Solutions relying entirely on calculator technology are not acceptable. [Figure] Figure 2 shows a sketch of part of the curve C with equation $y = \\frac{4}{3} x^3 - 11x^2 + kx$ where k is a constant The point M is the maximum turning point of C and is shown in Figure 2. Given that the x coordinate of M is 2 (a) show that $k = 28$ (b) Determine the range of values of x for which y is increasing. (c) The line l passes through M and is parallel to the x-axis. The region R, shown shaded in Figure 2, is bounded by the curve C, the line l and the y-axis. Find, by algebraic integration, the exact area of R."
+  },
+  {
+    "id": "2021Oct-WMA12-01-Q9",
+    "paper": "2021Oct-WMA12-01",
+    "qnum": 9,
+    "marks": 4,
+    "full_text": "(a) Prove that for all positive values of x and y, $\\frac{x}{y} + \\frac{y}{x} \\ge 2$ (b) Prove by counter-example that this inequality does not hold when x and y are both negative."
+  },
+  {
+    "id": "2021Oct-WMA12-01-Q10",
+    "paper": "2021Oct-WMA12-01",
+    "qnum": 10,
+    "marks": 10,
+    "full_text": "In this question you must show all stages of your working. Solutions relying entirely on calculator technology are not acceptable. (i) Solve, for $-\\frac{\\pi}{2} < x < \\frac{\\pi}{2}$ $\\tan^2 \\left(2x + \\frac{\\pi}{4}\\right) = 3$ (ii) Solve, for $0 < \\theta < 360^\\circ$ $(2\\sin\\theta - \\cos\\theta)^2 = 1$ giving your answers, as appropriate, to one decimal place."
+  },
+  {
+    "id": "2022Jan-WMA12-01-Q1",
+    "paper": "2022Jan-WMA12-01",
+    "qnum": 1,
+    "marks": 7,
+    "full_text": "The table below shows corresponding values of x and y for $$y = \frac{25}{x} - x$$ The values of y are given to 3 decimal places. \\begin{tabular}{|c|c|c|c|c|c|}\n\\hline\nx & 5 & 5.5 & 6 & 6.5 & 7 \\\\\n\\hline\ny & 6.792 & 6.298 & 5.858 & 5.466 & 5.113 \\\\\n\\hline\n\\end{tabular} Using the trapezium rule with all the values of y in the given table, (a) obtain an estimate for $$\\int_5^7 \frac{25}{x} - x \\, \\mathrm{d}x$$ giving your answer to 2 decimal places. (b)(i) $$\\int_5^7 \frac{26}{x} - x \\, \\mathrm{d}x$$ (b)(ii) $$\\int_5^7 \\left( \\frac{25}{x} - x \\right) + 3 \\, \\mathrm{d}x$$"
+  },
+  {
+    "id": "2022Jan-WMA12-01-Q2",
+    "paper": "2022Jan-WMA12-01",
+    "qnum": 2,
+    "marks": 8,
+    "full_text": "In this question you must show all stages of your working. Solutions relying entirely on calculator technology are not acceptable. The curve C has equation $$y = 27x^{\\frac{1}{2}} - x^{\\frac{3}{2}} - 20$$ $x > 0$ (a) Find $\\frac{\\mathrm{d}y}{\\mathrm{d}x}$, giving each term in simplest form. (b) Hence find the coordinates of the stationary point of C. (c) Find $\\frac{\\mathrm{d}^2y}{\\mathrm{d}x^2}$ and hence determine the nature of the stationary point of C."
+  },
+  {
+    "id": "2022Jan-WMA12-01-Q3",
+    "paper": "2022Jan-WMA12-01",
+    "qnum": 3,
+    "marks": 7,
+    "full_text": "(a) Find the first 4 terms, in ascending powers of x, of the binomial expansion of $$\\left(2 - \\frac{kx}{8}\\right)^4$$ where k is a non‑zero constant. Give each term in simplest form. (b) f(x) = $(5 - 3x) \\left(2 - \\frac{kx}{8}\\right)^4$ In the expansion of f(x), the constant term is 3 times the coefficient of x. Find the value of k."
+  },
+  {
+    "id": "2022Jan-WMA12-01-Q4",
+    "paper": "2022Jan-WMA12-01",
+    "qnum": 4,
+    "marks": 5,
+    "full_text": "Using the laws of logarithms, solve $$\\log_3 (32 - 12x) = 2 \\log_3 (1 - x) + 3$$"
+  },
+  {
+    "id": "2022Jan-WMA12-01-Q5",
+    "paper": "2022Jan-WMA12-01",
+    "qnum": 5,
+    "marks": 8,
+    "full_text": "f(x) = $3x^3 + Ax^2 + Bx - 10$ where A and B are integers. Given that (a) show that $$11A + 9B = 83$$ (b) Given also that (3x – 2) is a factor of f(x), find the value of A and the value of B. (c) Hence find the quadratic expression g(x) such that $$f(x) = (3x - 2)\\,\\mathrm{g}(x)$$"
+  },
+  {
+    "id": "2022Jan-WMA12-01-Q6",
+    "paper": "2022Jan-WMA12-01",
+    "qnum": 6,
+    "marks": 8,
+    "full_text": "[Figure] The points P(23, 14), Q(15, –30) and R(–7, –26) lie on the circle C, as shown in Figure 1. (a) Show that angle PQR = 90° (b)(i) the centre of C, (b)(ii) the radius of C. (c) Given that the point S lies on C such that the distance QS is greatest, find an equation of the tangent to C at S, giving your answer in the form $ax + by + c = 0$, where a, b and c are integers to be found."
+  },
+  {
+    "id": "2022Jan-WMA12-01-Q7",
+    "paper": "2022Jan-WMA12-01",
+    "qnum": 7,
+    "marks": 8,
+    "full_text": "In this question you must show all stages of your working. Solutions relying entirely on calculator technology are not acceptable. (i) Solve, for –90° < x < 90°, the equation $$3 \\sin (2x - 15^\\circ) = \\cos (2x - 15^\\circ)$$ giving your answers to one decimal place. (ii) Solve, for $0 < \\theta < 2\\pi$, the equation $$4 \\sin^2 \\theta + 8 \\cos \\theta = 3$$ giving your answers to 3 significant figures."
+  },
+  {
+    "id": "2022Jan-WMA12-01-Q8",
+    "paper": "2022Jan-WMA12-01",
+    "qnum": 8,
+    "marks": 9,
+    "full_text": "A metal post is repeatedly hit in order to drive it into the ground. Given that (a) show that the post is driven an additional 62 mm into the ground with the 20th hit. (b) Find the total distance that the post has been driven into the ground after 20 hits. (c) Given that for each subsequent hit after the 20th hit find the value of r, giving your answer to 3 decimal places. (d) After a total of N hits, the post will have been driven more than 3 m into the ground. Find, showing all steps in your working, the smallest possible value of N."
+  },
+  {
+    "id": "2022Jan-WMA12-01-Q9",
+    "paper": "2022Jan-WMA12-01",
+    "qnum": 9,
+    "marks": 10,
+    "full_text": "[Figure] Figure 2 shows The line and the curve intersect at the origin O and at the point P. (a) Find, in terms of m, the coordinates of P. (b) The region R1, shown shaded in Figure 2, is bounded by C and l. Show that the area of R1 is $$\\frac{1}{6}(1-m)^3$$ (c) The region R2, also shown shaded in Figure 2, is bounded by C, the x‑axis and l. Given that the area of R1 is equal to the area of R2 find the exact value of m."
+  },
+  {
+    "id": "2022Jan-WMA12-01-Q10",
+    "paper": "2022Jan-WMA12-01",
+    "qnum": 10,
+    "marks": 5,
+    "full_text": "(i) Prove by counter example that the statement “if p is a prime number then $2p + 1$ is also a prime number” is not true. (ii) Use proof by exhaustion to prove that if n is an integer then $$5n^2 + n + 12$$ is always even."
+  },
+  {
+    "id": "2022May-WMA12-01-Q1",
+    "paper": "2022May-WMA12-01",
+    "qnum": 1,
+    "marks": 4,
+    "full_text": "Find the first four terms, in ascending powers of x, of the binomial expansion of $$\\left(2 + \\frac{x}{8}\\right)^{10}$$ Give each coefficient as an integer."
+  },
+  {
+    "id": "2022May-WMA12-01-Q2",
+    "paper": "2022May-WMA12-01",
+    "qnum": 2,
+    "marks": 8,
+    "full_text": "[Figure] Figure 1 shows the graph of $y = 1 - \\log_{10}(\\sin x)$ $0 < x < \\pi$ where x is in radians. The table below shows some values of x and y for this graph, with values of y given to 3 decimal places. \\begin{tabular}{|c|c|c|c|c|c|c|}\n\\hline\nx & 0.5 & 1 & 1.5 & 2 & 2.5 & 3 \\\\\n\\hline\ny & 1.319 & 1.001 & 1.223 & 1.850 & & \\\\\n\\hline\n\\end{tabular} (a) Complete the table above, giving values of y to 3 decimal places. (b) Use the trapezium rule with all the y values in the completed table to find, to 2 decimal places, an estimate for $$\\int_{0.5}^3 (1 - \\log_{10}(\\sin x)) \\, \\mathrm{d}x$$ (c) Use your answer to part (b) to find an estimate for $$\\int_{0.5}^3 (3 + \\log_{10}(\\sin x)) \\, \\mathrm{d}x$$"
+  },
+  {
+    "id": "2022May-WMA12-01-Q3",
+    "paper": "2022May-WMA12-01",
+    "qnum": 3,
+    "marks": 7,
+    "full_text": "(i) Show that the following statement is false: “$(n + 1)^3 - n^3$ is prime for all $n \\in \\mathbb{N}$” (ii) Given that the points $A(1, 0)$, $B(3, -10)$ and $C(7, -6)$ lie on a circle, prove that AB is a diameter of this circle."
+  },
+  {
+    "id": "2022May-WMA12-01-Q4",
+    "paper": "2022May-WMA12-01",
+    "qnum": 4,
+    "marks": 6,
+    "full_text": "In this question you must show all stages of your working. Give your answers in fully simplified surd form. Given that a and b are positive constants, solve the simultaneous equations $a - b = 8$ $\\log_4 a + \\log_4 b = 3$"
+  },
+  {
+    "id": "2022May-WMA12-01-Q5",
+    "paper": "2022May-WMA12-01",
+    "qnum": 5,
+    "marks": 6,
+    "full_text": "In this question you must show all stages of your working. Solutions relying entirely on calculator technology are not acceptable. Solve, for $-180^{\\circ} < \\theta \\le 180^{\\circ}$, the equation $3 \\tan (\\theta + 43^{\\circ}) = 2 \\cos (\\theta + 43^{\\circ})$"
+  },
+  {
+    "id": "2022May-WMA12-01-Q6",
+    "paper": "2022May-WMA12-01",
+    "qnum": 6,
+    "marks": 8,
+    "full_text": "In a geometric sequence $u_1, u_2, u_3, \\dots$ (a) Show that r satisfies $3r^2 - 4r - 4 = 0$ (b) Given that the geometric sequence has a sum to infinity, find $u_1$ (c) find $S_\\infty$"
+  },
+  {
+    "id": "2022May-WMA12-01-Q7",
+    "paper": "2022May-WMA12-01",
+    "qnum": 7,
+    "marks": 7,
+    "full_text": "$f(x) = Ax^3 + 6x^2 - 4x + B$ where A and B are constants. Given that find the value of A and the value of B."
+  },
+  {
+    "id": "2022May-WMA12-01-Q8",
+    "paper": "2022May-WMA12-01",
+    "qnum": 8,
+    "marks": 8,
+    "full_text": "In this question you must show all stages of your working. Solutions relying entirely on calculator technology are not acceptable. A curve has equation $$y = 256x^4 - 304x - 35 + \\frac{27}{2x} \\quad x \\neq 0$$ (a) Find $\\frac{\\mathrm{d}y}{\\mathrm{d}x}$ (b) Hence find the coordinates of the stationary points of the curve."
+  },
+  {
+    "id": "2022May-WMA12-01-Q9",
+    "paper": "2022May-WMA12-01",
+    "qnum": 9,
+    "marks": 9,
+    "full_text": "A scientist is using carbon-14 dating to determine the age of some wooden items. The equation for carbon-14 dating an item is given by $N = k\\lambda^t$ where (a) Sketch the graph of N against t for k = 1 (b) Given that it takes 5700 years for the amount of carbon-14 to reduce to half its initial value, show that the value of the constant $\\lambda$ is 0.999878 to 6 decimal places. (c) Given that Item A calculate, to 3 significant figures, how much carbon-14 the equation predicts is currently in Item A. (d) Item B is known to have initially had 25 grams of carbon-14 present, but only 18 grams now remain. Use algebra to calculate the age of Item B to the nearest 100 years."
+  },
+  {
+    "id": "2022May-WMA12-01-Q10",
+    "paper": "2022May-WMA12-01",
+    "qnum": 10,
+    "marks": 12,
+    "full_text": "The circle C has centre $X(3, 5)$ and radius r The line l has equation $y = 2x + k$, where k is a constant. (a) Show that l and C intersect when $5x^2 + (4k - 26)x + k^2 - 10k + 34 - r^2 = 0$ (b) Given that l is a tangent to C, show that $5r^2 = (k + p)^2$, where p is a constant to be found. (c) [Figure] The line l as shown in Figure 2. Given that $AB = 2r$ find the value of k"
+  },
+  {
+    "id": "2022Oct-WMA12-01-Q1",
+    "paper": "2022Oct-WMA12-01",
+    "qnum": 1,
+    "marks": 3,
+    "full_text": "Given that a, b and c are integers greater than 0 such that Prove, by exhaustion, that the product of a, b and c is always even. You may use the table below to illustrate your answer. You may not need to use all rows of this table. \\begin{tabular}{|c|c|c|c|}\\hline a & b & c & \\\\ \\hline 1 & & & \\\\ \\hline 2 & & & \\\\ \\hline\\end{tabular}"
+  },
+  {
+    "id": "2022Oct-WMA12-01-Q2",
+    "paper": "2022Oct-WMA12-01",
+    "qnum": 2,
+    "marks": 7,
+    "full_text": "A curve C has equation  $y = f(x)$  where $f(x) = (2 – kx)^5$ and k is a constant. Given that when $f(x)$ is divided by  $(4x – 5)$  the remainder is $\\frac{243}{32}$ (a) show that  $k = \\frac{2}{5}$ (b) Find the first three terms, in ascending powers of x, of the binomial expansion of $(2 - \\frac{2}{5}x)^5$ giving each term in simplest form. (c) Using the solution to part (b) and making your method clear, find the gradient of C at the point where  $x = 0$"
+  },
+  {
+    "id": "2022Oct-WMA12-01-Q3",
+    "paper": "2022Oct-WMA12-01",
+    "qnum": 3,
+    "marks": 7,
+    "full_text": "A sequence $a_1, a_2, a_3, \\dots$ is defined by $a_n = \\cos^2 \\left(\\frac{n\\pi}{3}\\right)$ Find the exact values of (a)(i) $a_1$ (a)(ii) $a_2$ (a)(iii) $a_3$ (b) Hence find the exact value of $\\sum_{n=1}^{50} \\left(2 + \\cos^2 \\left(\\frac{n\\pi}{3}\\right)\\right)$ You must make your method clear."
+  },
+  {
+    "id": "2022Oct-WMA12-01-Q4",
+    "paper": "2022Oct-WMA12-01",
+    "qnum": 4,
+    "marks": 8,
+    "full_text": "The weight of a baby mammal is monitored over a 16‑month period. The weight of the mammal, $w$ kg, is given by $w = \\log_a(t + 5) – \\log_a4$ $2 \\le t \\le 18$ where t is the age of the mammal in months and a is a constant. Given that the weight of the mammal was 10 kg when  $t = 3$ (a) show that  $a = 1.072$  correct to 3 decimal places. (b) Using  $a = 1.072$ find an equation for t in terms of w (c) find the value of t when $w = 15$, giving your answer to 3 significant figures."
+  },
+  {
+    "id": "2022Oct-WMA12-01-Q5",
+    "paper": "2022Oct-WMA12-01",
+    "qnum": 5,
+    "marks": 8,
+    "full_text": "In this question you must show detailed reasoning. Solutions relying entirely on calculator technology are not acceptable. (a) Show that the equation $(3 \\cos \\theta – \\tan \\theta)\\cos \\theta = 2$ can be written as $3 \\sin^2 \\theta + \\sin \\theta – 1 = 0$ (b) Hence solve for   $-\\frac{\\pi}{2} \\le x \\le \\frac{\\pi}{2}$ $(3 \\cos 2x – \\tan 2x)\\cos 2x = 2$"
+  },
+  {
+    "id": "2022Oct-WMA12-01-Q6",
+    "paper": "2022Oct-WMA12-01",
+    "qnum": 6,
+    "marks": 7,
+    "full_text": "The curve $C_1$ has equation  $y = f(x)$. A table of values of x and y for  $y = f(x)$ is shown below, with the y values rounded to 4 decimal places where appropriate. \\begin{tabular}{|c|c|c|c|c|c|}\\hline x & 0 & 0.5 & 1 & 1.5 & 2 \\\\ \\hline y & 3 & 2.6833 & 2.4 & 2.1466 & 1.92 \\\\ \\hline\\end{tabular} (a) Use the trapezium rule with all the values of y in the table to find an approximation for $\\int_0^2 f(x) \\,dx$ giving your answer to 3 decimal places. (b) [Figure] The region R, shown shaded in Figure 1, is bounded by The region R forms part of the design for a logo shown in Figure 2. The design consists of the shaded region R inside a rectangle of width 2 and height 3 Using calculus and the answer to part (a), calculate an estimate for the percentage of the logo which is shaded."
+  },
+  {
+    "id": "2022Oct-WMA12-01-Q7",
+    "paper": "2022Oct-WMA12-01",
+    "qnum": 7,
+    "marks": 9,
+    "full_text": "The curve C has equation $y = \\frac{x^{\\frac{9}{2}} - 12x^{\\frac{7}{2}} + 7x^{\\frac{5}{2}} - 14x^{\\frac{3}{2}} + 13x^{\\frac{1}{2}}}{3x^{\\frac{1}{2}}}$ $x > 0$ (a) Write the equation of C in the form $y = ax^{\\frac{7}{2}} + bx^{\\frac{5}{2}} + cx^{\\frac{3}{2}} + dx^{\\frac{1}{2}}$ where a, b, c and d are fully simplified constants. (b) The curve C has three turning points. Using calculus, show that the x coordinates of the three turning points satisfy the equation $2x^3 – 10x^2 + 13x – 5 = 0$ (c) Given that the x coordinate of one of the turning points is 1 find, using algebra, the exact x coordinates of the other two turning points. (Solutions based entirely on calculator technology are not acceptable.)"
+  },
+  {
+    "id": "2022Oct-WMA12-01-Q8",
+    "paper": "2022Oct-WMA12-01",
+    "qnum": 8,
+    "marks": 7,
+    "full_text": "A geometric sequence has first term a and common ratio r Given that  $S_\\infty = 3a$ (a) show that  $r = \\frac{2}{3}$ (b) Given also that $u_2 – u_4 = 16$ where $u_k$ is the kth term of this sequence, find the value of $S_{10}$ giving your answer to one decimal place."
+  },
+  {
+    "id": "2022Oct-WMA12-01-Q9",
+    "paper": "2022Oct-WMA12-01",
+    "qnum": 9,
+    "marks": 12,
+    "full_text": "In this question you must show detailed reasoning. Solutions relying entirely on calculator technology are not acceptable. [Figure] Figure 3 shows The point T is the minimum turning point of $C_1$ Using Figure 3 and calculus, (a) find the coordinates of T (b) The curve $C_1$ intersects the circle $C_2$ at the point A with x coordinate 2 Find an equation of the circle $C_2$ (c) The line l shown in Figure 3, is the tangent to circle $C_2$ at A Show that an equation of l is $y = \\frac{1}{3}x + \\frac{22}{3}$ (d) The region R, shown shaded in Figure 3, is bounded by $C_1$, l and the y‑axis. Find the exact area of R."
+  },
+  {
+    "id": "2022Oct-WMA12-01-Q10",
+    "paper": "2022Oct-WMA12-01",
+    "qnum": 10,
+    "marks": 7,
+    "full_text": "Given  $a = \\log_2 3$ (i)(a) $\\log_2 9$ (i)(b) $\\log_2 \\left(\\frac{3}{16}\\right)$ (ii) Solve $3^x \\times 2^{x + 4} = 6$ giving your answer, in simplest form, in terms of a."
+  },
+  {
+    "id": "2023Jan-WMA12-01-Q1",
+    "paper": "2023Jan-WMA12-01",
+    "qnum": 1,
+    "marks": 6,
+    "full_text": "Figure 1 shows a sketch of part of the curve with equation $y = \\text{f}(x)$ The table below shows some corresponding values of $x$ and $y$ for this curve. The values of $y$ are given to 3 decimal places. \\begin{tabular}{|c|c|c|c|c|c|}\\hline x & –1 & –0.5 & 0 & 0.5 & 1 \\\\ \\hline y & 2.287 & 4.470 & 6.719 & 7.291 & 2.834 \\\\ \\hline\\end{tabular} Using the trapezium rule with all the values of $y$ in the given table, (a) obtain an estimate for $\\int_{-1}^{1} \\text{f}(x) \\, \\text{d}x$ giving your answer to 2 decimal places. (b)(i) $\\int_{-1}^{1} (\\text{f}(x) - 2) \\, \\text{d}x$ (b)(ii) $\\int_{-1}^{1} \\text{f}(x - 2) \\, \\text{d}x$"
+  },
+  {
+    "id": "2023Jan-WMA12-01-Q2",
+    "paper": "2023Jan-WMA12-01",
+    "qnum": 2,
+    "marks": 9,
+    "full_text": "In this question you must show all stages of your working.\\newline Solutions based entirely on calculator technology are not acceptable. [Figure] A brick is in the shape of a cuboid with width $x\\,\\text{cm}$, length $3x\\,\\text{cm}$ and height $h\\,\\text{cm}$, as shown in Figure 2. The volume of the brick is $972\\,\\text{cm}^3$ (a) Show that the surface area of the brick, $S\\,\\text{cm}^2$, is given by $$S = 6x^2 + \\frac{2592}{x}$$ (b) Find $\\frac{\\text{d}S}{\\text{d}x}$ (c) Hence find the value of $x$ for which $S$ is stationary. (d) Find $\\frac{\\text{d}^2S}{\\text{d}x^2}$ and hence show that the value of $x$ found in part (c) gives the minimum value of $S$. (e) Hence find the minimum surface area of the brick."
+  },
+  {
+    "id": "2023Jan-WMA12-01-Q3",
+    "paper": "2023Jan-WMA12-01",
+    "qnum": 3,
+    "marks": 7,
+    "full_text": "$\\text{f}(x) = \\left(kx + \\frac{8}{x}\\right)^7$ where $k$ is a non‑zero constant (a) Find the first 4 terms, in ascending powers of $x$, of the binomial expansion of $\\text{f}(x)$. \\newline Give each term in simplest form. (b) Given that, in the binomial expansion of $\\text{f}(x)$, the coefficients of $x$, $x^2$ and $x^3$ are the first 3 terms of an arithmetic progression,\\newline find, using algebra, the possible values of $k$. \\newline (Solutions relying entirely on calculator technology are not acceptable.)"
+  },
+  {
+    "id": "2023Jan-WMA12-01-Q4",
+    "paper": "2023Jan-WMA12-01",
+    "qnum": 4,
+    "marks": 6,
+    "full_text": "(i) Using the laws of logarithms, solve $\\log_3(4x) + 2 = \\log_3(5x + 7)$ (ii) Given that $$\\sum_{r=1}^2 \\log_a(r) = \\log_y(y) \\quad \\text{and} \\quad \\sum_{r=1}^2 \\log_a(r) = \\log_y(a)$$ $y > 1, a > 1, y \\neq a$ find $y$ in terms of $a$, giving your answer in simplest form."
+  },
+  {
+    "id": "2023Jan-WMA12-01-Q5",
+    "paper": "2023Jan-WMA12-01",
+    "qnum": 5,
+    "marks": 9,
+    "full_text": "$\\text{f}(x) = x^3 + (p + 3) x^2 – x + q$\\newline where $p$ and $q$ are constants and $p > 0$ Given that $(x – 3)$ is a factor of $\\text{f}(x)$ (a) show that $$9p + q = –51$$ (b) Given also that when $\\text{f}(x)$ is divided by $(x + p)$ the remainder is 9,\\newline show that $$3p^2 + p + q – 9 = 0$$ (c) Hence find the value of $p$ and the value of $q$. (d) Hence find a quadratic expression $\\text{g}(x)$ such that $$\\text{f}(x) = (x – 3)\\,\\text{g}(x)$$"
+  },
+  {
+    "id": "2023Jan-WMA12-01-Q6",
+    "paper": "2023Jan-WMA12-01",
+    "qnum": 6,
+    "marks": 10,
+    "full_text": "The circle C has equation $x^2 + y^2 + 8x – 4y = 0$ (a)(i) the coordinates of the centre of C, (a)(ii) the exact radius of C. (b) The point P lies on C.\\newline Given that the tangent to C at P has equation $x + 2y + 10 = 0$\\newline find the coordinates of P (c) Find the equation of the normal to C at P, giving your answer in the form $y = mx + c$ where $m$ and $c$ are integers to be found."
+  },
+  {
+    "id": "2023Jan-WMA12-01-Q7",
+    "paper": "2023Jan-WMA12-01",
+    "qnum": 7,
+    "marks": 7,
+    "full_text": "A geometric sequence has first term $a$ and common ratio $r$, where $r > 0$ Given that (a) show that $r = 0.8$ (b) Hence find the value of $a$. (c) Given that the sum of the first $n$ terms of this sequence is greater than 156,\\newline find the smallest possible value of $n$. \\newline (Solutions based entirely on graphical or numerical methods are not acceptable.)"
+  },
+  {
+    "id": "2023Jan-WMA12-01-Q8",
+    "paper": "2023Jan-WMA12-01",
+    "qnum": 8,
+    "marks": 9,
+    "full_text": "In this question you must show all stages of your working.\\newline Solutions based entirely on calculator technology are not acceptable. (i) Solve, for $–2\\pi < x < \\pi$, the equation $$5\\,\\sin\\,(3x + 0.1) + 2 = 0$$ giving your answers, in radians, to 2 decimal places. (ii) Solve, for $0 < \\theta < 360^\\circ$, the equation $$2\\,\\tan\\,\\theta\\,\\sin \\theta = 5 + \\cos\\,\\theta$$ giving your answers, in degrees, to one decimal place."
+  },
+  {
+    "id": "2023Jan-WMA12-01-Q9",
+    "paper": "2023Jan-WMA12-01",
+    "qnum": 9,
+    "marks": 8,
+    "full_text": "In this question you must show all stages of your working.\\newline Solutions based entirely on calculator technology are not acceptable. [Figure] Figure 3 shows The curve C intersects the $y$‑axis at the point D. (a) Write down the coordinates of D. (b) The curve C intersects the line $l$ at the points E and F, as shown in Figure 3.\\newline Find the $x$ coordinate of E and the $x$ coordinate of F. (c) Shown shaded in Figure 3 is Given that $\\frac{\\text{area of R1}}{\\text{area of R2}} = k$, where $k$ is a constant,\\newline use algebraic integration to find the exact value of $k$, giving your answer as a simplified fraction."
+  },
+  {
+    "id": "2023Jan-WMA12-01-Q10",
+    "paper": "2023Jan-WMA12-01",
+    "qnum": 10,
+    "marks": 4,
+    "full_text": "A student was asked to prove by exhaustion that\\newline if $n$ is an integer then $2n^2 + n + 1$ is not divisible by 3 The start of the student’s proof is shown in the box below. Consider the case when $n = 3k$\\newline $2n^2 + n + 1 = 18k^2 + 3k + 1 = 3(6k^2 + k) + 1$\\newline which is not divisible by 3"
+  },
+  {
+    "id": "2023May-WMA12-01-Q1",
+    "paper": "2023May-WMA12-01",
+    "qnum": 1,
+    "marks": 3,
+    "full_text": "The continuous curve C has equation $y = f(x)$. A table of values of x and y for $y = f(x)$ is shown below. \\begin{tabular}{|c|c|c|c|c|c|c|}\n\\hline\nx & 4.0 & 4.2 & 4.4 & 4.6 & 4.8 & 5.0 \\\\\n\\hline\ny & 9.2 & 8.4556 & 3.8512 & 5.0342 & 7.8297 & 8.6 \\\\\n\\hline\n\\end{tabular} Use the trapezium rule with all the values of y in the table to find an approximation for $$\\int_{4}^{5}f(x)\\,dx$$ giving your answer to 3 decimal places."
+  },
+  {
+    "id": "2023May-WMA12-01-Q2",
+    "paper": "2023May-WMA12-01",
+    "qnum": 2,
+    "marks": 6,
+    "full_text": "In this question you must show all stages of your working. Solutions relying on calculator technology are not acceptable. $$f(x) = 4x^3 – 8x^2 + 5x + a$$ where a is a constant. Given that $(2x – 3)$ is a factor of f(x), (a) use the factor theorem to show that $a = –3$ (b) Hence show that the equation $f(x) = 0$ has only one real root."
+  },
+  {
+    "id": "2023May-WMA12-01-Q3",
+    "paper": "2023May-WMA12-01",
+    "qnum": 3,
+    "marks": 7,
+    "full_text": "A circle C has centre (2, 5) Given that the point P(8, –3) lies on C (a)(i) find the radius of C (a)(ii) find an equation for C (b) Find the equation of the tangent to C at P giving your answer in the form $ax + by + c = 0$ where a, b and c are integers to be found."
+  },
+  {
+    "id": "2023May-WMA12-01-Q4",
+    "paper": "2023May-WMA12-01",
+    "qnum": 4,
+    "marks": 7,
+    "full_text": "The binomial expansion, in ascending powers of x, of $$(3 + px)^5$$ where p is a constant, can be written in the form $A + Bx + Cx^2 + Dx^3 ...$ where A, B, C and D are constants. (a) Find the value of A (b) Given that find"
+  },
+  {
+    "id": "2023May-WMA12-01-Q5",
+    "paper": "2023May-WMA12-01",
+    "qnum": 5,
+    "marks": 5,
+    "full_text": "Use the laws of logarithms to solve $$\\log_2\\,(16x) + \\log_2\\,(x + 1) = 3 + \\log_2\\,(x + 6)$$"
+  },
+  {
+    "id": "2023May-WMA12-01-Q6",
+    "paper": "2023May-WMA12-01",
+    "qnum": 6,
+    "marks": 9,
+    "full_text": "In this question you must show all stages of your working. Solutions relying entirely on calculator technology are not acceptable. A software developer released an app to download. The numbers of downloads of the app each month, in thousands, for the first three months after the app was released were $2k – 15 \\quad k \\quad k + 4$ where k is a constant. Given that the numbers of downloads each month are modelled as a geometric series, (a) show that $k^2 – 7k – 60 = 0$ (b) predict the number of downloads in the 4th month. (c) The total number of all downloads of the app is predicted to exceed 3 million for the first time in the Nth month. Calculate the value of N according to the model."
+  },
+  {
+    "id": "2023May-WMA12-01-Q7",
+    "paper": "2023May-WMA12-01",
+    "qnum": 7,
+    "marks": 8,
+    "full_text": "The height of a river above a fixed point on the riverbed was monitored over a 7‑day period. The height of the river, H metres, t days after monitoring began, was given by $$H = \\frac{t}{20} (20 + 6t – t^2) + 17$$ $0 \\le t \\le 7$ Given that H has a stationary value at $t = \\alpha$ (a) use calculus to show that $\\alpha$ satisfies the equation $$5\\alpha^2 – 18\\alpha – 20 = 0$$ (b) Hence find the value of $\\alpha$, giving your answer to 3 decimal places. (c) Use further calculus to prove that H is a maximum at this value of $\\alpha$."
+  },
+  {
+    "id": "2023May-WMA12-01-Q8",
+    "paper": "2023May-WMA12-01",
+    "qnum": 8,
+    "marks": 5,
+    "full_text": "(i) A student writes the following statement: “When a and b are consecutive prime numbers, $a^2 + b^2$ is never a multiple of 10” Prove by counter example that this statement is not true. (ii) Given that x and y are even integers greater than 0 and less than 6, prove by exhaustion, that $1 < x^2 – \\frac{xy}{4} < 15$"
+  },
+  {
+    "id": "2023May-WMA12-01-Q9",
+    "paper": "2023May-WMA12-01",
+    "qnum": 9,
+    "marks": 7,
+    "full_text": "In this question you must show all stages of your working. Solutions relying entirely on calculator technology are not acceptable. (a) Show that $3\\,\\cos\\,\\theta\\,(\\tan\\,\\theta \\sin\\,\\theta + 3) = 11 – 5\\cos\\,\\theta$ may be written as $3\\,\\cos^2\\,\\theta\\,– 14\\,\\cos\\,\\theta + 8 = 0$ (b) Hence solve, for $0 < x < 360°$ $3\\,\\cos\\,2x\\,(\\tan\\,2x \\sin\\,2x + 3) = 11 – 5\\cos\\,2x$ giving your answers to one decimal place."
+  },
+  {
+    "id": "2023May-WMA12-01-Q10",
+    "paper": "2023May-WMA12-01",
+    "qnum": 10,
+    "marks": 10,
+    "full_text": "The curve C has equation $$y = \\left(x - \\frac{k}{x}\\right)^2 \\quad x > 0$$ where k is a positive constant. (a) Show that $$\\int_{1}^{16}\\left(x - \\frac{k}{x}\\right)^2\\,dx = ak^2 + bk + 2046$$ where a and b are integers to be found. (b) [Figure] Figure 1 shows a sketch of the curve C and the line l. Given that l intersects C at the point A(1, 9) and at the point B(16, q) where q is a constant, show that $k = 4$ (c) The region R, shown shaded in Figure 1, is bounded by C and l Using the answers to parts (a) and (b), find the area of region R"
+  },
+  {
+    "id": "2023May-WMA12-01-Q11",
+    "paper": "2023May-WMA12-01",
+    "qnum": 11,
+    "marks": 8,
+    "full_text": "A sequence $u_1, u_2, u_3, ...$ is defined by $u_{n+1} = b – au_n$ $u_1 = 3$ where a and b are constants. (a) Find, in terms of a and b, (b) Given show that $$a^2 – 5a – 66 = 0$$ (c) Hence find the larger possible value of $u_2$"
+  },
+  {
+    "id": "2023Oct-WMA12-01-Q1",
+    "paper": "2023Oct-WMA12-01",
+    "qnum": 1,
+    "marks": 3,
+    "full_text": "Given that a, b and c are integers greater than 0 such that prove, by exhaustion, that the product abc is always a multiple of 4 You may use the table below to illustrate your answer. \\begin{tabular}{|l|l|l|l|}\n\\hline\na & b & c & abc \\\\\n\\hline\n\\end{tabular} You may not need to use all rows of this table."
+  },
+  {
+    "id": "2023Oct-WMA12-01-Q2",
+    "paper": "2023Oct-WMA12-01",
+    "qnum": 2,
+    "marks": 5,
+    "full_text": "A sequence $u_1, u_2, u_3, \\dots$ is defined by $u_1 = 3$ $u_{n+1} = 2 - \\frac{4}{u_n}$ (a) Find the value of $u_2$, the value of $u_3$ and the value of $u_4$ (b) Find the value of $\\sum_{r=1}^{100} u_r$"
+  },
+  {
+    "id": "2023Oct-WMA12-01-Q3",
+    "paper": "2023Oct-WMA12-01",
+    "qnum": 3,
+    "marks": 7,
+    "full_text": "In this question you must show all stages of your working. Solutions relying entirely on calculator technology are not acceptable. (a) Solve, for $0 < \\theta \\le 360^\\circ$ the equation $2\\tan\\theta + 3\\sin\\theta = 0$ giving your answers, as appropriate, to one decimal place. (b) Hence, or otherwise, find the smallest positive solution of $2\\tan(2x + 40^\\circ) + 3\\sin(2x + 40^\\circ) = 0$ giving your answer to one decimal place."
+  },
+  {
+    "id": "2023Oct-WMA12-01-Q4",
+    "paper": "2023Oct-WMA12-01",
+    "qnum": 4,
+    "marks": 9,
+    "full_text": "In this question you must show all stages of your working. Solutions relying on calculator technology are not acceptable. $f(x) = 4x^3 + ax^2 - 29x + b$ where a and b are constants. Given that $(2x + 1)$ is a factor of $f(x)$, (a) show that $a + 4b = -56$ (b) Given also that when $f(x)$ is divided by $(x - 2)$ the remainder is $-25$ find a second simplified equation linking a and b. (c)(i) find the value of a and the value of b, (c)(ii) fully factorise $f(x)$."
+  },
+  {
+    "id": "2023Oct-WMA12-01-Q5",
+    "paper": "2023Oct-WMA12-01",
+    "qnum": 5,
+    "marks": 6,
+    "full_text": "In this question you must show all stages of your working. Solutions relying entirely on calculator technology are not acceptable. (i) Solve $3^a = 70$ giving the answer to 3 decimal places. (ii) Find the exact value of b such that $4 + 3\\log_3 b = \\log_3 5b$"
+  },
+  {
+    "id": "2023Oct-WMA12-01-Q6",
+    "paper": "2023Oct-WMA12-01",
+    "qnum": 6,
+    "marks": 6,
+    "full_text": "[Figure 1] A river is being studied. At one particular place, the river is 15 m wide. The depth, y metres, of the river is measured at a point x metres from one side of the river. Figure 1 shows a plot of the cross-section of the river and the coordinate values (x, y) (a) Use the trapezium rule with all the y values given in Figure 1 to estimate the cross-sectional area of the river. (b) The water in the river is modelled as flowing at a constant speed of 1.5 m s$^{-1}$ across the whole of the cross-section. Use the model and the answer to part (a) to estimate the volume of water flowing through this section of the river each minute, giving your answer in m$^3$ to 2 significant figures. (c) Assuming the model, state, giving a reason for your answer, whether your answer for part (b) is an overestimate or an underestimate of the true volume of water flowing through this section of the river each minute."
+  },
+  {
+    "id": "2023Oct-WMA12-01-Q7",
+    "paper": "2023Oct-WMA12-01",
+    "qnum": 7,
+    "marks": 8,
+    "full_text": "[Figure 2] Figure 2 shows a sketch of Given that l is the tangent to C at the point N, (a) show that an equation for the straight line passing through X and N is $2x + 5y + 7 = 0$ (b)(i) the coordinates of N, (b)(ii) an equation for C."
+  },
+  {
+    "id": "2023Oct-WMA12-01-Q8",
+    "paper": "2023Oct-WMA12-01",
+    "qnum": 8,
+    "marks": 7,
+    "full_text": "In a large theatre there are n rows of seats, where n is a constant. The number of seats in the first row is a, where a is a constant. In each subsequent row there are 4 more seats than in the previous row so that Given that the total number of seats in the first 10 rows is 360 (a) find the value of a. (b) Given also that the total number of seats in the n rows is 2146 show that $n^2 + 8n - 1073 = 0$ (c)(i) state the number of rows of seats in the theatre, (c)(ii) find the maximum number of seats in any one row."
+  },
+  {
+    "id": "2023Oct-WMA12-01-Q9",
+    "paper": "2023Oct-WMA12-01",
+    "qnum": 9,
+    "marks": 12,
+    "full_text": "[Figure 3] In this question you must show all stages of your working. Solutions relying entirely on calculator technology are not acceptable. Figure 3 shows a sketch of part of the curve C with equation $y = \\frac{2}{3}x^3 - 9x^2 + 13x$, $x \\ge 0$ (a) Find, using calculus, the range of values of x for which y is increasing. (b) The point P lies on C and has coordinates (9, 40). The line l is the tangent to C at the point P. The finite region R, shown shaded in Figure 3, is bounded by the curve C, the line l, the x-axis and the y-axis. Find, using calculus, the exact area of R."
+  },
+  {
+    "id": "2023Oct-WMA12-01-Q10",
+    "paper": "2023Oct-WMA12-01",
+    "qnum": 10,
+    "marks": 12,
+    "full_text": "(i)(a) Find, in ascending powers of x, the 2nd, 3rd and 5th terms of the binomial expansion of $(3 + 2x)^6$ (i)(b) For a particular value of x, these three terms form consecutive terms in a geometric series. Find this value of x. (ii)(a) Show that $5\\cos^2\\theta - 16\\cos\\theta + 3 = 0$ (ii)(b) Hence find the exact value of the 2nd term in the series."
+  },
+  {
+    "id": "2024Jan-WMA12-01-Q1",
+    "paper": "2024Jan-WMA12-01",
+    "qnum": 1,
+    "marks": 3,
+    "full_text": "$$f(x) = ax^3 + 3x^2 – 8x + 2$$ where $a$ is a constant Given that when f(x) is divided by $(x – 2)$ the remainder is 3, find the value of $a$."
+  },
+  {
+    "id": "2024Jan-WMA12-01-Q2",
+    "paper": "2024Jan-WMA12-01",
+    "qnum": 2,
+    "marks": 3,
+    "full_text": "Find the coefficient of the term in $x^7$ of the binomial expansion of $$\\left(x^3 - \\frac{8}{4x}\\right)^{12}$$ giving your answer in simplest form."
+  },
+  {
+    "id": "2024Jan-WMA12-01-Q3",
+    "paper": "2024Jan-WMA12-01",
+    "qnum": 3,
+    "marks": 6,
+    "full_text": "The circle C (a) Find an equation for C. (b) The points M and N lie on C such that MN is a chord of C. Given that MN find an equation for the line passing through points M and N."
+  },
+  {
+    "id": "2024Jan-WMA12-01-Q4",
+    "paper": "2024Jan-WMA12-01",
+    "qnum": 4,
+    "marks": 9,
+    "full_text": "(a) Sketch the curve with equation $$y = a^{-x + 4}$$ where $a$ is a constant and $a > 1$ On your sketch show (b) \\begin{tabular}{|c|c|c|c|c|c|c|} \\hline x & –4 & –1.5 & 1 & 3.5 & 6 & 8.5 \\\\ \\hline y & 13 & 6.280 & 4.577 & 4.146 & 4.037 & 4.009 \\\\ \\hline \\end{tabular} The table above shows corresponding values of x and y for $y = \\frac{3}{x} + \\frac{4}{x^2} + \\frac{1}{2}$ The values of y are given to four significant figures, as appropriate. Using the trapezium rule with all the values of y in the table, find an approximate value for $$\\int_{1.5}^{8.5} \\left(\\frac{3}{x} + \\frac{4}{x^2} + \\frac{1}{2}\\right) \\mathrm{d}x$$ giving your answer to two significant figures. (c)(i) $$\\int_{1.5}^{8.5} \\left(\\frac{3}{x} + \\frac{4}{x^2}\\right) \\mathrm{d}x$$ (c)(ii) $$\\int_{1.5}^{8.5} \\left(\\frac{1}{2x} + \\frac{1}{x^2} + 4\\right) \\mathrm{d}x$$"
+  },
+  {
+    "id": "2024Jan-WMA12-01-Q5",
+    "paper": "2024Jan-WMA12-01",
+    "qnum": 5,
+    "marks": 8,
+    "full_text": "(i) Find the value of $$\\sum_{r=0}^6 0.25^r$$ (ii)"
+  },
+  {
+    "id": "2024Jan-WMA12-01-Q6",
+    "paper": "2024Jan-WMA12-01",
+    "qnum": 6,
+    "marks": 8,
+    "full_text": "(a) Given that $$\\log_4 (2x+3) = \\log_4 (x-2) + \\frac{1}{2}\\log_4 x$$ show that $x^3 + 6x^2 + x – 4 = 0$ (b)"
+  },
+  {
+    "id": "2024Jan-WMA12-01-Q7",
+    "paper": "2024Jan-WMA12-01",
+    "qnum": 7,
+    "marks": 9,
+    "full_text": "Wheat is grown on a farm. Model A assumes that the amount of wheat produced on the farm will increase by the \nsame amount each year. (a) Using model A, find the amount of wheat produced on the farm in year 4. \nGive your answer to the nearest 10 tonnes. (b) Model B assumes that the amount of wheat produced on the farm will increase by the \nsame percentage each year. Using model B, find the amount of wheat produced on the farm in year 2. \nGive your answer to the nearest 10 tonnes. (c) Calculate, according to the two models, the difference between the total amounts of \nwheat predicted to be produced on the farm from year 1 to year 12 inclusive. \nGive your answer to the nearest 10 tonnes."
+  },
+  {
+    "id": "2024Jan-WMA12-01-Q8",
+    "paper": "2024Jan-WMA12-01",
+    "qnum": 8,
+    "marks": 6,
+    "full_text": "(i) Use a counter example to show that the following statement is false\n“$n^2 + 3n + 1$ is prime for all $n \\in \\mathbb{N}$” (ii) Use algebra to prove by exhaustion that for all $n \\in \\mathbb{N}$\n“$n^2 – 2$ is not a multiple of 4”"
+  },
+  {
+    "id": "2024Jan-WMA12-01-Q9",
+    "paper": "2024Jan-WMA12-01",
+    "qnum": 9,
+    "marks": 14,
+    "full_text": "In this question you must show detailed reasoning. Solutions relying entirely on calculator technology are not acceptable. (i) Solve, for $0 \\le x < 360^\\circ$, the equation $$\\sin x \\tan x = 5$$ giving your answers to one decimal place. (ii)"
+  },
+  {
+    "id": "2024Jan-WMA12-01-Q10",
+    "paper": "2024Jan-WMA12-01",
+    "qnum": 10,
+    "marks": 9,
+    "full_text": "In this question you must show detailed reasoning. Solutions relying entirely on calculator technology are not acceptable. [Figure] Figure 2 shows a sketch of the curve with equation $$y = \\frac{1}{2}x^2 - \\frac{1458}{x} + 74 \\quad x > 0$$ The point P is the only stationary point on the curve. (a) Use calculus to show that the x coordinate of P is 9 (b) The line l passes through the point P and is parallel to the x-axis. The region R, shown shaded in Figure 2, is bounded by the curve, the line l and the  \nline with equation $x = 4$ Use algebraic integration to find the exact area of R."
+  },
+  {
+    "id": "2024May-WMA12-01-Q1",
+    "paper": "2024May-WMA12-01",
+    "qnum": 1,
+    "marks": 5,
+    "full_text": "(a) Find the first four terms, in ascending powers of x, of the binomial expansion of $$(1 - \\frac{1}{6}x)^9$$ giving each term in simplest form. (b) Hence find the coefficient of $x^3$ in the expansion of $$(3 + \\frac{1}{x}) (1 - \\frac{1}{6}x)^9$$ giving the answer in simplest form."
+  },
+  {
+    "id": "2024May-WMA12-01-Q2",
+    "paper": "2024May-WMA12-01",
+    "qnum": 2,
+    "marks": 7,
+    "full_text": "In this question you must show all stages of your working. Solutions relying entirely on calculator technology are not acceptable. In an arithmetic series, For this series, (a) find the value of the first term and the value of the common difference. (b) Hence find the smallest value of n for which $$S_n > 8000$$"
+  },
+  {
+    "id": "2024May-WMA12-01-Q3",
+    "paper": "2024May-WMA12-01",
+    "qnum": 3,
+    "marks": 6,
+    "full_text": "In this question you must show all stages of your working. Solutions relying entirely on calculator technology are not acceptable. (i) Using the laws of logarithms, solve $$2\\log_2 (2 – x) = 4 + \\log_2 (x + 10)$$ (ii) Find the value of $$\\log_a a^6$$ where a is a positive constant greater than 1"
+  },
+  {
+    "id": "2024May-WMA12-01-Q4",
+    "paper": "2024May-WMA12-01",
+    "qnum": 4,
+    "marks": 8,
+    "full_text": "$$f(x) = (x – 2)(2x^2 + 5x + k) + 21$$ where k is a constant. (a) State the remainder when $f(x)$ is divided by $(x – 2)$ (b) Given that $(2x – 1)$ is a factor of $f(x)$ show that $k = 11$ (c)(i) fully factorise $f(x)$, (c)(ii) find the number of real solutions of the equation $$f(x) = 0$$ giving a reason for your answer."
+  },
+  {
+    "id": "2024May-WMA12-01-Q5",
+    "paper": "2024May-WMA12-01",
+    "qnum": 5,
+    "marks": 6,
+    "full_text": "In this question you must show detailed reasoning. (a) Given that x and y are positive numbers such that $$(x – y)^3 > x^3 – y^3$$ prove that $$y > x$$ (b) Using a counter example, show that the result in part (a) is not true for all real numbers."
+  },
+  {
+    "id": "2024May-WMA12-01-Q6",
+    "paper": "2024May-WMA12-01",
+    "qnum": 6,
+    "marks": 9,
+    "full_text": "(a) Sketch the curve with equation $$y = a^x + 4$$ where a is a positive constant greater than 1 On your sketch, show (b) \\begin{tabular}{|c|c|c|c|c|c|c|}\n\\hline\nx & 2 & 2.3 & 2.6 & 2.9 & 3.2 & 3.5 \\\\\n\\hline\ny & 0 & 0.3246 & 0.8629 & 1.6643 & 2.7896 & 4.3137 \\\\\n\\hline\n\\end{tabular} The table shows corresponding values of x and y for $$y = 2^x – 2x$$ with the values of y given to 4 decimal places as appropriate. Using the trapezium rule with all the values of y in the given table, obtain an estimate for $$\\int_{2}^{3.5} (2^x - 2x) \\, dx$$ , giving your answer to 2 decimal places. (c)(i) $$\\int_{2}^{3.5} 2^x \\, dx$$ (c)(ii) $$\\int_{2}^{3.5} (4 \\cdot 2^x - 1) \\, dx$$"
+  },
+  {
+    "id": "2024May-WMA12-01-Q7",
+    "paper": "2024May-WMA12-01",
+    "qnum": 7,
+    "marks": 6,
+    "full_text": "The circle C1 has equation $$x^2 + y^2 + 8x – 10y = 29$$ (a)(i) Find the coordinates of the centre of C1 (a)(ii) Find the exact value of the radius of C1 (b) In part (b) you must show detailed reasoning. The circle C2 has equation $$(x – 5)^2 + (y + 8)^2 = 52$$ Prove that the circles C1 and C2 neither touch nor intersect."
+  },
+  {
+    "id": "2024May-WMA12-01-Q8",
+    "paper": "2024May-WMA12-01",
+    "qnum": 8,
+    "marks": 12,
+    "full_text": "In this question you must show all stages of your working. Solutions relying entirely on calculator technology are not acceptable. (i) Solve, for $0 < x \\le \\pi$, the equation $$5\\sin x \\tan x + 13 = \\cos x$$ giving your answer in radians to 3 significant figures. (ii)(a) find all possible values for k, giving each answer to 2 decimal places. (ii)(b) Given further that $0 < k < 10$ find the maximum temperature inside the greenhouse, (ii)(c) find the time of day at which this maximum temperature occurs. Give your answer to the nearest minute."
+  },
+  {
+    "id": "2024May-WMA12-01-Q9",
+    "paper": "2024May-WMA12-01",
+    "qnum": 9,
+    "marks": 8,
+    "full_text": "[Figure] Figure 1 is a sketch of the curve C with equation $$y = 2x^{\\frac{3}{2}} (4 – x) \\quad x \\ge 0$$ The point P is the stationary point of C. (a) Find, using calculus, the x coordinate of P. (b) The region R1, shown shaded in Figure 1, is bounded by C and the x‑axis. The region R2, also shown shaded in Figure 1, is bounded by C, the x‑axis and the line with equation $x = k$, where k is a constant. Given that the area of R1 is equal to the area of R2 find, using calculus, the exact value of k."
+  },
+  {
+    "id": "2024May-WMA12-01-Q10",
+    "paper": "2024May-WMA12-01",
+    "qnum": 10,
+    "marks": 8,
+    "full_text": "In this question you must show all stages of your working. Solutions relying entirely on calculator technology are not acceptable. The number of dormice and the number of voles on an island are being monitored. Initially there are 2000 dormice on the island. A model predicts that the number of dormice will increase by 3% each year, so that the numbers of dormice on the island at the end of each year form a geometric sequence. (a) Find, according to the model, the number of dormice on the island 6 years after monitoring began. Give your answer to 3 significant figures. (b) The number of voles on the island is being monitored over the same period of time. Given that find the equation of this model in the form $$N = ab^t$$ where N is the number of voles, t years after monitoring began and a and b are constants. Give the value of a and the value of b to 2 significant figures. (c) When $t = T$, the number of dormice on the island is equal to the number of voles on the island. Find, according to the models, the value of T, giving your answer to one decimal place."
+  },
+  {
+    "id": "2024May-WMA12-01R-Q1",
+    "paper": "2024May-WMA12-01R",
+    "qnum": 1,
+    "marks": 5,
+    "full_text": "The sequence $u_1, u_2, u_3, \\dots$ satisfies $$u_{n+2} = 3u_{n+1} - 2u_n$$ Given that (a) find the value of $u_2$ (b) find $\\sum_{r=1}^{4} u_r$"
+  },
+  {
+    "id": "2024May-WMA12-01R-Q2",
+    "paper": "2024May-WMA12-01R",
+    "qnum": 2,
+    "marks": 5,
+    "full_text": "The table shows corresponding values of $x$ and $y$ for a continuous curve with equation $y = \\text{f}(x)$ between $x = -4$ and $x = 5$, where $a$ is a constant. \\begin{tabular}{|c|c|c|c|c|c|c|c|}\n\\hline\nx & -4 & -2.5 & -1 & 0.5 & 2 & 3.5 & 5 \\\\\n\\hline\ny & 4.16 & 2.91 & a & 1.73 & 1.37 & 1.43 & 2.28 \\\\\n\\hline\n\\end{tabular} The trapezium rule is used with all the $y$ values in the table to find an approximation for $$\\int_{-4}^{5} \\text{f}(x) \\, \\text{d}x$$ Given that the value of this approximation is 19.3 (a) find the value of the constant $a$ to 3 significant figures. (b) Use the given answer of 19.3 to find an approximate value for $$\\int_{-4}^{5} 2\\text{f}(x) + 3 \\, \\text{d}x$$"
+  },
+  {
+    "id": "2024May-WMA12-01R-Q3",
+    "paper": "2024May-WMA12-01R",
+    "qnum": 3,
+    "marks": 5,
+    "full_text": "A circle has equation $$x^2 + y^2 + 8x - 14y - 79 = 0$$ (a) Find (b) Given that P is the point on the circle that is nearest the origin O, find the exact length of OP"
+  },
+  {
+    "id": "2024May-WMA12-01R-Q4",
+    "paper": "2024May-WMA12-01R",
+    "qnum": 4,
+    "marks": 7,
+    "full_text": "(a) Find the first 4 terms, in ascending powers of $x$, of the binomial expansion of $$\\left(3 - \\frac{x}{2}\\right)^6$$ giving each coefficient in simplest form. (b) Hence find the coefficient of $x^2$ in the expansion of $$\\left(2 + \\frac{1}{x}\\right)^2 \\left(3 - \\frac{x}{2}\\right)^6$$"
+  },
+  {
+    "id": "2024May-WMA12-01R-Q5",
+    "paper": "2024May-WMA12-01R",
+    "qnum": 5,
+    "marks": 6,
+    "full_text": "In this question you must show all stages of your working. Solutions relying entirely on calculator technology are not acceptable. The depth of water, $D$ metres, in a harbour on a particular day is given by the equation $$D = 8 + 5\\sin\\left(\\frac{\\pi t}{6}\\right) \\quad 0 \\le t < 24$$ where $t$ is the number of hours after midnight. (a) Show that the depth of water in the harbour at 2 am is just over 4 metres. (b) Find, to the nearest minute, the first time after midday when the depth of water in the harbour is exactly 6 metres."
+  },
+  {
+    "id": "2024May-WMA12-01R-Q6",
+    "paper": "2024May-WMA12-01R",
+    "qnum": 6,
+    "marks": 9,
+    "full_text": "$$\\text{f}(x) = 4x^3 + px^2 + 8x + q$$ where $p$ and $q$ are constants. Given that (a)(i) show that $p = 10$ (a)(ii) find the value of $q$. (b) Hence find the range of values of $x$ for which $\\text{f}(x)$ is decreasing. (Solutions based entirely on calculator technology are not acceptable.)"
+  },
+  {
+    "id": "2024May-WMA12-01R-Q7",
+    "paper": "2024May-WMA12-01R",
+    "qnum": 7,
+    "marks": 7,
+    "full_text": "In this question you must show all stages of your working. Solutions relying entirely on calculator technology are not acceptable. (i) Solve, for $0 \\le x < 2\\pi$, the equation $$3\\sin x \\tan x = 11 + \\cos x$$ giving the answers in radians to 3 decimal places. (ii) Given that find, in simplest form, the exact value of $\\tan \\theta$"
+  },
+  {
+    "id": "2024May-WMA12-01R-Q8",
+    "paper": "2024May-WMA12-01R",
+    "qnum": 8,
+    "marks": 13,
+    "full_text": "(i)(a) In an arithmetic series the first term is $a$ and the common difference is $d$. Show that $$S_n = \\frac{n}{2}(2a + (n-1)d)$$ (i)(b) Hence find $$900 + 892 + 884 + \\dots + 500$$ (ii)(a) show that $$2k^2 - 11k - 40 = 0$$ (ii)(b) Given also that this series is convergent, find the value of $S_\\infty$"
+  },
+  {
+    "id": "2024May-WMA12-01R-Q9",
+    "paper": "2024May-WMA12-01R",
+    "qnum": 9,
+    "marks": 9,
+    "full_text": "Given that $$3\\log_2(t + 4) - 2\\log_2(t - 2) = 7$$ (a) verify that $t = 4$ is a solution of the above equation, (b) show that $$t^3 - 116t^2 + 560t - 448 = 0$$ (c) Hence, using algebra and showing your working, solve $$3\\log_2(t + 4) - 2\\log_2(t - 2) = 7$$ giving each answer in simplest form. (Solutions based entirely on calculator technology are not acceptable.)"
+  },
+  {
+    "id": "2024May-WMA12-01R-Q10",
+    "paper": "2024May-WMA12-01R",
+    "qnum": 10,
+    "marks": 9,
+    "full_text": "[Figure] In this question you must show all stages of your working. Solutions relying entirely on calculator technology are not acceptable. Figure 1 shows a sketch of part of the curve C with equation $$y = \\frac{9}{2x^2} - x \\quad x > 0$$ The point P is the stationary point on C. (a) Find, using calculus, the $x$ coordinate of P. (b) The finite region R, shown shaded in Figure 1, is bounded by the curve C, the x-axis and the line with equation $x = 1$ Using calculus, calculate the exact area of R."
+  },
+  {
+    "id": "2024Oct-WMA12-01-Q1",
+    "paper": "2024Oct-WMA12-01",
+    "qnum": 1,
+    "marks": 5,
+    "full_text": "A continuous curve has equation $y = \\text{f}(x)$. A table of values of x and y for $y = \\text{f}(x)$ is shown below. \\begin{tabular}{|c|c|c|c|c|c|}\n\\hline\nx & 0.5 & 1.75 & 3 & 4.25 & 5.5 \\\\\n\\hline\ny & 3.479 & 6.101 & 7.448 & 6.823 & 5.182 \\\\\n\\hline\n\\end{tabular} Using the trapezium rule with all the values of y in the given table, (a) find an estimate for $\\int_{0.5}^{5.5} \\text{f}(x) \\, \\text{d}x$ giving your answer to one decimal place. (b) Using your answer to part (a) and making your method clear, estimate $\\int_{0.5}^{5.5} (4\\text{f}(x) - x) \\, \\text{d}x$"
+  },
+  {
+    "id": "2024Oct-WMA12-01-Q2",
+    "paper": "2024Oct-WMA12-01",
+    "qnum": 2,
+    "marks": 7,
+    "full_text": "A sequence of numbers $u_1, u_2, u_3, \\dots$ is defined by $u_1 = 7$ $u_{n+1} = (-1)^n u_n + k$ where k is a constant. (a) Show that $u_5 = 7$ (b) Given that $\\sum_{r=1}^{30} u_r = 4$, find the value of k. (c) Hence find the value of $\\sum_{r=1}^{150} u_r$"
+  },
+  {
+    "id": "2024Oct-WMA12-01-Q3",
+    "paper": "2024Oct-WMA12-01",
+    "qnum": 3,
+    "marks": 7,
+    "full_text": "$\\text{f}(x) = 2x^3 - x^2 + Ax + B$ where A and B are integers. Given that when f (x) is divided by $(x + 3)$ the remainder is 55 (a) show that $3A - B = -118$ (b) Given also that $(2x - 5)$ is a factor of f (x), find the value of A and the value of B. (c) Hence find the quotient when f (x) is divided by $(x - 7)$"
+  },
+  {
+    "id": "2024Oct-WMA12-01-Q4",
+    "paper": "2024Oct-WMA12-01",
+    "qnum": 4,
+    "marks": 7,
+    "full_text": "In this question you must show all stages of your working. Solutions relying entirely on calculator technology are not acceptable. The curve C has equation $y = 4x^{\\frac{1}{2}} - 9x^{-\\frac{1}{2}} + 3x^0$ $x > 0$ (a) Find $\\frac{\\text{d}y}{\\text{d}x}$ giving each term in simplest form. (b) Hence find the x coordinate of the stationary point of C. (c)(i) Find $\\frac{\\text{d}^2y}{\\text{d}x^2}$ giving each term in simplest form. (c)(ii) Hence determine the nature of the stationary point of C, giving a reason for your\\xa0answer. (d) State the range of values of x for which y is decreasing."
+  },
+  {
+    "id": "2024Oct-WMA12-01-Q5",
+    "paper": "2024Oct-WMA12-01",
+    "qnum": 5,
+    "marks": 7,
+    "full_text": "(a) Find, in terms of a, the first 3 terms, in ascending powers of x, of the binomial\\xa0expansion of $(2 + ax)^6$ where a is a non‑zero constant. Give each term in simplest form. (b) $\\text{f}(x) = \\left(3 - \\frac{1}{2x^2}\\right)(2 + ax)^6$ Given that the constant term in the expansion of f (x) is 576, find the value of a."
+  },
+  {
+    "id": "2024Oct-WMA12-01-Q6",
+    "paper": "2024Oct-WMA12-01",
+    "qnum": 6,
+    "marks": 5,
+    "full_text": "In this question you must show all stages of your working. Solutions relying entirely on calculator technology are not acceptable. Using the laws of logarithms, solve $\\log_4(12 - 2x) = 2 + 2\\log_4(x + 1)$"
+  },
+  {
+    "id": "2024Oct-WMA12-01-Q7",
+    "paper": "2024Oct-WMA12-01",
+    "qnum": 7,
+    "marks": 6,
+    "full_text": "Jem pays money into a savings scheme, A, over a period of 300 months. Jem pays £20 into scheme A in month 1, £20.50 in month 2, £21 in month 3 and so on, so that the amounts Jem pays each month form an arithmetic sequence. (a) Show that Jem pays £69.50 into scheme A in month 100 (b) Find the total amount that Jem pays into scheme A over the period of 300 months. (c) Kim pays money into a different savings scheme, B, over the same period of\\xa0300\\xa0months. In a model, the amounts Kim pays into scheme B increase by the same percentage each\\xa0month, so that the amounts Kim pays each month form a geometric sequence. Given that Kim pays use the model to calculate, to the nearest £10, the difference between the total\\xa0amount paid into scheme A and the total amount paid into scheme B over the period\\xa0of 300 months."
+  },
+  {
+    "id": "2024Oct-WMA12-01-Q8",
+    "paper": "2024Oct-WMA12-01",
+    "qnum": 8,
+    "marks": 8,
+    "full_text": "In this question you must show all stages of your working. Solutions relying entirely on calculator technology are not acceptable. [Figure] Figure 1 shows a sketch of part of the curve C1 with equation $y = x^2 + 3$ $x > 0$ and part of the curve C2 with equation $y = \\frac{13}{x^2} + 9$ $x > 0$ The curves C1 and C2 intersect at the points P and Q as shown in Figure 1. (a) Use algebra to find the x coordinate of P and the x coordinate of Q. (b) The finite region R, shown shaded in Figure 1, is bounded by C1 and C2 Use algebraic integration to find the exact area of R."
+  },
+  {
+    "id": "2024Oct-WMA12-01-Q9",
+    "paper": "2024Oct-WMA12-01",
+    "qnum": 9,
+    "marks": 7,
+    "full_text": "In this question you must show detailed reasoning. Solutions relying entirely on calculator technology are not acceptable. (a) Show that the equation $2\\tan\\theta = 3\\cos\\theta$ can be written as $3\\sin^2\\theta + 2\\sin\\theta - 3 = 0$ (b) Hence solve, for $-\\pi < x < \\pi$, the equation $2\\tan\\left(2x - \\frac{\\pi}{3}\\right) = 3\\cos\\left(2x - \\frac{\\pi}{3}\\right)$ giving your answers to 3 significant figures."
+  },
+  {
+    "id": "2024Oct-WMA12-01-Q10",
+    "paper": "2024Oct-WMA12-01",
+    "qnum": 10,
+    "marks": 10,
+    "full_text": "The circle C has equation $x^2 + y^2 + 4x - 30y + 209 = 0$ (a)(i) the coordinates of the centre of C, (a)(ii) the exact value of the radius of C. (b) The line L has equation $y = mx + 1$, where m is a constant. Given that L is the tangent to C at the point P, show that $2m^2 - 7m - 22 = 0$ (c) Hence find the possible pairs of coordinates of P."
+  },
+  {
+    "id": "2024Oct-WMA12-01-Q11",
+    "paper": "2024Oct-WMA12-01",
+    "qnum": 11,
+    "marks": 6,
+    "full_text": "(i) Prove by counter example that the statement “If n is a prime number then $3^n + 2$ is also a prime number.” is false. (ii) Use proof by exhaustion to prove that if m is an integer that is not divisible\\xa0by\\xa03, then $m^2 - 1$ is divisible by 3"
+  },
+  {
+    "id": "2025Jan-WMA12-01-Q1",
+    "paper": "2025Jan-WMA12-01",
+    "qnum": 1,
+    "marks": 4,
+    "full_text": "The arithmetic series S is given by $$S = 2 + 5 + 8 + 11 + ......... + 254$$ Find (a) the number of terms in the series, (b) the sum of the series."
+  },
+  {
+    "id": "2025Jan-WMA12-01-Q2",
+    "paper": "2025Jan-WMA12-01",
+    "qnum": 2,
+    "marks": 5,
+    "full_text": "(a) Find the first 4 terms, in ascending powers of x, of the binomial expansion of $$(2 – 5x)^8$$ giving each term in simplest form. (b) This expansion is to be used to find an approximation for $2.05^8$ State the value of x that should be used. (There is no need to carry out this calculation.)"
+  },
+  {
+    "id": "2025Jan-WMA12-01-Q3",
+    "paper": "2025Jan-WMA12-01",
+    "qnum": 3,
+    "marks": 10,
+    "full_text": "[Figure] Figure 1 shows an open‑topped container used for holding water. The container is in the shape of a cuboid and is made of sheet metal. The base of the container is a rectangle $3x$ metres by $x$ metres. The height of the container is $y$ metres as shown in Figure 1. Given that the capacity of the container is $120\\text{m}^3$ (a) show that the area $A\\text{m}^2$ of the sheet metal used to make the container is given by $$A = Px^2 + \\frac{Q}{x}$$ where P and Q are positive constants to be found. (b) Use calculus to find the value of x for which A has a stationary value, giving your answer to 3 significant figures. (c) Find $\\frac{\\text{d}^2A}{\\text{d}x^2}$ and hence show that the value of x found in part (b) gives the minimum value of A."
+  },
+  {
+    "id": "2025Jan-WMA12-01-Q4",
+    "paper": "2025Jan-WMA12-01",
+    "qnum": 4,
+    "marks": 6,
+    "full_text": "In this question you must show all stages of your working. Solutions relying entirely on calculator technology are not acceptable. Given that, in a particular geometric series, find, for this series, (a) the common ratio, (b) the first term."
+  },
+  {
+    "id": "2025Jan-WMA12-01-Q5",
+    "paper": "2025Jan-WMA12-01",
+    "qnum": 5,
+    "marks": 9,
+    "full_text": "$$f(x) = 3x^3 + ax^2 – 10x + b$$ where a and b are constants. Given that $(3x – 4)$ is a factor of $f(x)$, (a) show that $16a + 9b = 56$ (b) Given further that when f(x) is divided by $(x – 2)$ the remainder is b, find the value of a and the value of b. (c) Hence, using algebra, fully factorise $f(x)$."
+  },
+  {
+    "id": "2025Jan-WMA12-01-Q6",
+    "paper": "2025Jan-WMA12-01",
+    "qnum": 6,
+    "marks": 8,
+    "full_text": "[Figure] The point A (–1, 2) and the point B (11, 6) both lie on a circle with centre P. The point M is the midpoint of AB. Given that the line l passes through M and P, as shown in Figure 2, (a) find an equation for l, giving your answer in the form $y = mx + c$, where m and c are constants. (b) Given that P has coordinates (7, k), where k is a constant, find the value of k, (c) find an equation for the circle."
+  },
+  {
+    "id": "2025Jan-WMA12-01-Q7",
+    "paper": "2025Jan-WMA12-01",
+    "qnum": 7,
+    "marks": 8,
+    "full_text": "In this question you must show all stages of your working. Solutions relying entirely on calculator technology are not acceptable. (i) The table below shows values of x and y, where $y = \\log_{10}(x + 5)$, for x values between –1 and 4 \\begin{tabular}{|c|c|c|c|c|c|c|} \\hline x & –1 & 0 & 1 & 2 & 3 & 4 \\\\ \\hline y = log10 (x + 5) & log10 4 & log10 5 & log10 6 & log10 7 & log10 8 & log10 9 \\\\ \\hline \\end{tabular} Using the trapezium rule with all the y values in the given table, show that $$\\int_{-1}^{4} \\log_{10}(x+5) \\text{d}x \\approx \\frac{1}{2} \\left( \\log_{10}4 + \\log_{10}9 + k \\right)$$ where k is an integer to be found. (ii) Find the value of a such that $$2\\log_a 5 + \\log_a 25 = \\frac{1}{5}$$"
+  },
+  {
+    "id": "2025Jan-WMA12-01-Q8",
+    "paper": "2025Jan-WMA12-01",
+    "qnum": 8,
+    "marks": 5,
+    "full_text": "(i) A student states “If x and y are irrational numbers, $x \\neq y$, then xy is also irrational.” Show, by counter example, that this statement is not always true. (ii) Prove, using algebra, that for all odd integers n, the value of the expression $$n^3 + 3n + 2$$ is always even but never a multiple of 4"
+  },
+  {
+    "id": "2025Jan-WMA12-01-Q9",
+    "paper": "2025Jan-WMA12-01",
+    "qnum": 9,
+    "marks": 12,
+    "full_text": "[Figure] In this question you must show all stages of your working. Solutions relying entirely on calculator technology are not acceptable. Figure 3 shows a sketch of part of the curve with equation $$y = x^2 - 9x + 5 \\sqrt{x}, \\quad x \\ge 0$$ The curve has a turning point at the point M, as shown in Figure 3. (a) Using calculus, find the coordinates of M. (b) The curve crosses the x‑axis at the point P, as shown in Figure 3. Use algebra to find the x coordinate of P. (c) The finite region R, shown shaded in Figure 3, is bounded by the curve, the line through M parallel to the x‑axis and the line through P parallel to the y‑axis. Use algebraic integration to find the area of R, giving your answer to one decimal place."
+  },
+  {
+    "id": "2025Jan-WMA12-01-Q10",
+    "paper": "2025Jan-WMA12-01",
+    "qnum": 10,
+    "marks": 8,
+    "full_text": "In this question you must show all stages of your working. Solutions relying entirely on calculator technology are not acceptable. (a) Show that $$\\frac{2\\cos^2 x + 3\\tan x \\sin x}{\\tan x + \\sin x} \\equiv 2\\cos x$$ (b) Hence solve, for $0 < x < 2\\pi$, the equation $$\\frac{2\\cos^2 x + 3\\tan x \\sin x}{\\tan x + \\sin x} = 4\\sin x - 5$$ giving your answers to 3 significant figures."
+  },
+  {
+    "id": "2025May-WMA12-01-Q1",
+    "paper": "2025May-WMA12-01",
+    "qnum": 1,
+    "marks": 6,
+    "full_text": "(a) Find the first 4 terms, in ascending powers of x, of the binomial expansion of $(1 – 4x)^7$ giving each term in simplest form. (b) In the series expansion of $(5 + kx) (1 – 4x)^7$ where k is a constant the coefficient of the term in $x^2$ is 1316 Use the answer to part (a) to find the value of k."
+  },
+  {
+    "id": "2025May-WMA12-01-Q2",
+    "paper": "2025May-WMA12-01",
+    "qnum": 2,
+    "marks": 7,
+    "full_text": "The line joining the points $(–2, 5)$ and $(4, 15)$ is the diameter of a circle C. (a) Find an equation for C. (b) Hence find the exact coordinates of the point on C that is nearest the x-axis."
+  },
+  {
+    "id": "2025May-WMA12-01-Q3",
+    "paper": "2025May-WMA12-01",
+    "qnum": 3,
+    "marks": 5,
+    "full_text": "[Figure] In this question you must show all stages of your working. Solutions relying entirely on calculator technology are not acceptable. Figure 1 shows a sketch of the curve C with equation $$y = 3x + \frac{16}{2x} – 8      x > 0$$ The points P $(1, 11)$ and Q $(4, 5)$ lie on C and are shown in Figure 1. The region R, shown shaded in Figure 1, is bounded by C and line segment PQ. Use algebraic integration to find the area of R."
+  },
+  {
+    "id": "2025May-WMA12-01-Q4",
+    "paper": "2025May-WMA12-01",
+    "qnum": 4,
+    "marks": 9,
+    "full_text": "The function f (x) is defined by $$f (x) = ax^3 + bx^2 + 5x – 3$$ where a and b are constants. Given that $(x + 3)$ is a factor of f (x), (a) show that $$b = 3a + 2$$ (b) Given further that when f (x) is divided by $(2x – 1)$ the remainder is $\\frac{7}{4}$ find the value of a and the value of b. (c) Using algebra, find the quotient and the remainder when f (x) is divided by $(x – 2)$"
+  },
+  {
+    "id": "2025May-WMA12-01-Q5",
+    "paper": "2025May-WMA12-01",
+    "qnum": 5,
+    "marks": 6,
+    "full_text": "\\begin{tabular}{|c|c|c|c|c|c|c|c|} \\hline x & –2 & –0.5 & 1 & 2.5 & 4 & 5.5 & 7 \\\\ \\hline y & 12 & 4.243 & 1.5 & 0.530 & 0.188 & 0.066 & 0.023 \\\\ \\hline \\end{tabular} The table above shows corresponding values of x and y for $$y = 3 \\left(\\frac{1}{2}\\right)^x$$ The values of y are given to 3 decimal places as appropriate. (a) Using the trapezium rule with all the values of y in the given table, obtain an estimate for $$\\int_{2}^{7} 3 \\left(\\frac{1}{2}\\right)^x \\, \\mathrm{d}x$$ giving the answer to one decimal place. (b)(i) $$\\int_{2}^{7} 2 \\left(\\frac{1}{2}\\right)^x \\, \\mathrm{d}x$$ (b)(ii) $$\\int_{2}^{7} \\left(2 \\left(\\frac{1}{2}\\right)^x + 2\\right) \\, \\mathrm{d}x$$"
+  },
+  {
+    "id": "2025May-WMA12-01-Q6",
+    "paper": "2025May-WMA12-01",
+    "qnum": 6,
+    "marks": 10,
+    "full_text": "In this question you must show all stages of your working. Solutions relying on calculator technology are not acceptable. (i) Solve $$2\\log_2 (4 – x) = 3 + \\log_2 \\left(\\frac{11}{2}x\\right)$$ giving the answers in radians in the form kπ, where k is a rational constant to be found. (ii) The curves C1 and C2 with equations $$y = 3^{2x + 1}      \\text{and}      y = 6 \\times 3^x$$ meet at the point P. Find the exact coordinates of P, writing your answer in the form $(\\log_3 a, b)$ where a and b are integers."
+  },
+  {
+    "id": "2025May-WMA12-01-Q7",
+    "paper": "2025May-WMA12-01",
+    "qnum": 7,
+    "marks": 9,
+    "full_text": "In this question you must show all stages of your working. Solutions relying entirely on calculator technology are not acceptable. (i)(a) Find the sum to infinity of this series. (i)(b) Given that the k th term of this series is less than 0.0005 use algebra to find the smallest possible value of k. (ii) An arithmetic series begins $850 + 843 + 836 + \\dots$ Given that the sum of the first n terms of this series is $S_n$ find the greatest possible value of $S_n$"
+  },
+  {
+    "id": "2025May-WMA12-01-Q8",
+    "paper": "2025May-WMA12-01",
+    "qnum": 8,
+    "marks": 8,
+    "full_text": "In this question you must show all stages of your working. Solutions relying entirely on calculator technology are not acceptable. (i) Solve, for $0 \\le x < \\pi$, the equation $$3 \\tan \\left(2x + \\frac{3}{5}\\pi\\right) = 1$$ giving the answers in radians in the form kπ, where k is a rational constant to be found. (ii) Solve, for $0 \\le \\theta < 360^\\circ$, the equation $$5 \\sin \\theta \\tan \\theta = \\cos \\theta + 4$$ giving your answers, in degrees, to one decimal place."
+  },
+  {
+    "id": "2025May-WMA12-01-Q9",
+    "paper": "2025May-WMA12-01",
+    "qnum": 9,
+    "marks": 11,
+    "full_text": "[Figure] Figure 2 shows a sketch of an open container. The sides CDEF and ABFE are rectangles. The ends ADE and BCF are congruent (identical) right-angled triangles. The container is made from metal of negligible thickness. Given that and the capacity of the container is $12 \\text{m}^3$ (a) show that the area of metal used to make the container, $S \\text{m}^2$, is given by $$S = Px^2 + \\frac{Q}{x}$$ where P and Q are positive integers to be found. (b) Given that x can vary, use algebraic calculus to find the minimum value of S, giving your answer to one decimal place. (c) Justify that the value of S found in part (b) is a minimum."
+  },
+  {
+    "id": "2025May-WMA12-01-Q10",
+    "paper": "2025May-WMA12-01",
+    "qnum": 10,
+    "marks": 4,
+    "full_text": "In this question you must show detailed reasoning. Use algebra to prove by exhaustion that, for all positive integers m that are not multiples of 3, the value of $$m^2 + 3m + 2$$ is always a multiple of 3"
+  },
+  {
+    "id": "2025May-WMA12-01A-Q1",
+    "paper": "2025May-WMA12-01A",
+    "qnum": 1,
+    "marks": 3,
+    "full_text": "Given that a, b and c are positive integers such that prove, by exhaustion, that the product abc is always a multiple of 6 You may use the table below to illustrate your answer. You may not need to use all rows of this table. \\begin{tabular}{|l|l|l|l|}\n\\hline\na & b & c & abc \\\\\n\\hline\n & & & \\\\\n & & & \\\\\n & & & \\\\\n & & & \\\\\n & & & \\\\\n & & & \\\\\n & & & \\\\\n & & & \\\\\n & & & \\\\\n & & & \\\\\n & & & \\\\\n & & & \\\\\n & & & \\\\\n & & & \\\\\n & & & \\\\\n & & & \\\\\n & & & \\\\\n & & & \\\\\n & & & \\\\\n\\hline\n\\end{tabular}"
+  },
+  {
+    "id": "2025May-WMA12-01A-Q2",
+    "paper": "2025May-WMA12-01A",
+    "qnum": 2,
+    "marks": 6,
+    "full_text": "A geometric series has first term a and common ratio r. Given that (a) show that $r = -\\frac{1}{2}$ (b) find the sum to infinity of the series."
+  },
+  {
+    "id": "2025May-WMA12-01A-Q3",
+    "paper": "2025May-WMA12-01A",
+    "qnum": 3,
+    "marks": 7,
+    "full_text": "$f(x) = (3x^2 – 4x – 5)(x – k) – 5$ where k is a constant. (a) Deduce the value of the remainder when $f(x)$ is divided by $(x – k)$ (b) Given that the remainder when $f(x)$ is divided by $(x + 2)$ is 25 show that the value of k is –4 (c) Hence find the quotient and remainder when $f(x)$ is divided by $(3x – 1)$"
+  },
+  {
+    "id": "2025May-WMA12-01A-Q4",
+    "paper": "2025May-WMA12-01A",
+    "qnum": 4,
+    "marks": 9,
+    "full_text": "[Figure] Figure 1 shows a sketch of part of the curve with equation $y = \\log_3(x + 1) – \\log_3 x$ The point P(a, 4) lies on the curve. (a) Find the exact value of the constant a. (Solutions relying on calculator technology are not acceptable.) (b) Use the trapezium rule with 4 strips of equal width to estimate the value of $$\\int_1^5 (\\log_3(x+1) - \\log_3 x) \\, dx$$ giving the answer in the form $\\log_3 k$, where k is a constant to be found. (c) Explain how the trapezium rule could be used to obtain a more accurate estimate for $$\\int_1^5 (\\log_3(x+1) - \\log_3 x) \\, dx$$"
+  },
+  {
+    "id": "2025May-WMA12-01A-Q5",
+    "paper": "2025May-WMA12-01A",
+    "qnum": 5,
+    "marks": 7,
+    "full_text": "In this question you must show all stages of your working. Solutions relying on calculator technology are not acceptable. The sequence $u_1, u_2, u_3, ...$ is defined by $$u_{n+1} = \\frac{1}{1-u_n}$$ $u_1 = 4$ (a) Show that this is a periodic sequence of order 3 (b) Find the value of $$\\sum_{n=1}^{180} u_n$$"
+  },
+  {
+    "id": "2025May-WMA12-01A-Q6",
+    "paper": "2025May-WMA12-01A",
+    "qnum": 6,
+    "marks": 12,
+    "full_text": "In this question you must show all stages of your working. Solutions relying on calculator technology are not acceptable. (i)(a) $\\sin \\theta$ (i)(b) $\\tan \\theta$ giving the answers as fully simplified surds where appropriate. (ii)(a) Find the minimum height of sea water on the harbour wall. (ii)(b) Find the exact time of day when this minimum height first occurs. (ii)(c) When t = T, as shown in Figure 2, a boat enters the harbour when the height of sea water on the harbour wall is 3.5 m. Use Figure 2 and the given equation to find the value of T to 2 decimal places."
+  },
+  {
+    "id": "2025May-WMA12-01A-Q7",
+    "paper": "2025May-WMA12-01A",
+    "qnum": 7,
+    "marks": 8,
+    "full_text": "In this question you must show all stages of your working. Solutions relying entirely on calculator technology are not acceptable. The binomial expansion, in ascending powers of x, of $(1 + kx)^n$ is $1 – 24x + 270x^2 + px^3 + ...$ where k and p are constants and n is an integer greater than 1 (a) Use this information to set up and solve two simultaneous equations to find the value of k and the value of n. (b) Hence find the value of p."
+  },
+  {
+    "id": "2025May-WMA12-01A-Q8",
+    "paper": "2025May-WMA12-01A",
+    "qnum": 8,
+    "marks": 9,
+    "full_text": "In this question you must show all stages of your working. Solutions relying entirely on calculator technology are not acceptable. A curve C has equation $y = f(x)$ where $f(x)$ is a polynomial in x. Given $f'(x) = 2(3x – 2)(x + 5)$ (a) deduce the range of values of x for which y is decreasing. (b) Given further that C cuts the x‑axis at $\\frac{7}{2}$ state a factor of $f(x)$, giving the answer in the form $(Ax + B)$ where A and B are integers. (c) Hence find an expression for $f(x)$ in a fully factorised form."
+  },
+  {
+    "id": "2025May-WMA12-01A-Q9",
+    "paper": "2025May-WMA12-01A",
+    "qnum": 9,
+    "marks": 5,
+    "full_text": "The circle C (a) On Diagram 1, sketch a graph of C. [Figure] (b) Find an equation for C."
+  },
+  {
+    "id": "2025May-WMA12-01A-Q10",
+    "paper": "2025May-WMA12-01A",
+    "qnum": 10,
+    "marks": 9,
+    "full_text": "[Figure] In this question you must show all stages of your working. Solutions relying entirely on calculator technology are not acceptable. Figure 3 shows a sketch of the curve C with equation $$y = 2x^2 - \\frac{64}{3x}\\qquad x > 0$$ The point P, shown in Figure 3, is the stationary point on C. (a) Show, using calculus, that the x coordinate of P is 4 (b) The point Q lies on C and has x coordinate 2 The line segments MQ and NP, shown in Figure 3, are parallel to the x‑axis. The region R, shown shaded in Figure 3, is bounded by C, the y‑axis and line segments MQ and NP. Use algebraic integration to find the exact area of R. You must make your method clear."
+  },
+  {
+    "id": "2025Oct-WMA12-01-Q1",
+    "paper": "2025Oct-WMA12-01",
+    "qnum": 1,
+    "marks": 4,
+    "full_text": "An arithmetic series starts $78 + 75 + 72 + ...$ Find (a) the 18th term in the series, (b) the sum of the first 100 terms of the series."
+  },
+  {
+    "id": "2025Oct-WMA12-01-Q2",
+    "paper": "2025Oct-WMA12-01",
+    "qnum": 2,
+    "marks": 6,
+    "full_text": "The first 4 terms, in ascending powers of x, in the binomial expansion of $(1 + px)^{10}$ are $1 + 15x + qx^2+ rx^3$ where p, q and r are constants. Find the value of p, the value of q and the value of r."
+  },
+  {
+    "id": "2025Oct-WMA12-01-Q3",
+    "paper": "2025Oct-WMA12-01",
+    "qnum": 3,
+    "marks": 7,
+    "full_text": "[Figure] In this question you must show all stages of your working. Solutions relying entirely on calculator technology are not acceptable. Figure 1 shows a sketch of the curve with equation $y = 3 \\times 2^{-x}$ The point P(k, 300 000) lies on the curve. (a) Use logarithms to find the value of k to 2 decimal places. (b)(i) Use the trapezium rule, with all the values of y from the table, to find an approximate value, to 2 decimal places, for $$\\int_{0.5}^{7} 3 \\times 2^{-x} \\, dx$$ (b)(ii) Use your answer to part (b)(i) to estimate $$\\int_{0.5}^{7} 2^{-x} \\, dx$$"
+  },
+  {
+    "id": "2025Oct-WMA12-01-Q4",
+    "paper": "2025Oct-WMA12-01",
+    "qnum": 4,
+    "marks": 12,
+    "full_text": "In this question you must show all stages of your working. Solutions relying on calculator technology are not acceptable. f(x) = $4x^3 + 13x^2 – 10x + 8$ (a)(i) Find Q(x). (a)(ii) Find R. (b)(i) Use the factor theorem to show that (x + 4) is a factor of f(x). (b)(ii) Hence prove, using algebra, that the equation f(x) = 0 has only one real solution. (c) Find the range of values of x for which f(x) is decreasing."
+  },
+  {
+    "id": "2025Oct-WMA12-01-Q5",
+    "paper": "2025Oct-WMA12-01",
+    "qnum": 5,
+    "marks": 9,
+    "full_text": "In this question you must show all stages of your working. Solutions relying entirely on calculator technology are not acceptable. (i) Solve, for $0 < \\theta \\le 360°$, the equation $4 \\tan \\theta + 5 \\sin \\theta = 0$ giving any non‑exact answers to one decimal place. (ii) Solve, for $0 < x < \\pi$, the equation $$\\frac{\\sin x}{\\cos x} = 5 \\cos x$$ giving the answers, in radians, to 3 significant figures."
+  },
+  {
+    "id": "2025Oct-WMA12-01-Q6",
+    "paper": "2025Oct-WMA12-01",
+    "qnum": 6,
+    "marks": 9,
+    "full_text": "[Figure] The points A(–2, 18) and B(14, 6) lie on a circle C1 as shown in Figure 2. Given that AB is a diameter of the circle C1 (a) find an equation for C1 making your method clear. (b) A circle C2 has its centre at the origin. Given that circles C1 and C2 touch, find possible equations for C2"
+  },
+  {
+    "id": "2025Oct-WMA12-01-Q7",
+    "paper": "2025Oct-WMA12-01",
+    "qnum": 7,
+    "marks": 10,
+    "full_text": "[Figure] In this question you must show all stages of your working. Solutions relying entirely on calculator technology are not acceptable. Figure 3 shows a sketch of part of the curve C with equation $$y = \\frac{3}{2} x^{\\frac{5}{2}} - \\frac{1}{2} kx^2 - 28x + 44 \\quad x \\ge 0$$ where k is a positive constant. (a) Find $\\frac{dy}{dx}$ in simplest form. (b) The point T, shown in Figure 3, is a minimum stationary point on C. Given that the x coordinate of T is 9 show that k = 6 (c) The line through T parallel to the x‑axis meets the y‑axis at the point N. The finite region R, shown shaded in Figure 3, is bounded by C, the y‑axis and the line segment NT. Use algebraic integration to find the area of R, giving the answer to 3 significant figures."
+  },
+  {
+    "id": "2025Oct-WMA12-01-Q8",
+    "paper": "2025Oct-WMA12-01",
+    "qnum": 8,
+    "marks": 8,
+    "full_text": "(i) A geometric series has first term a and common ratio r. Prove that the sum of the first n terms of this series $S_n$ is given by $$S_n = \\frac{a(1 - r^n)}{1 - r}$$ (ii)(a) Show that the amount of the liquid in the barrel at the end of 6 years is approximately 91 litres. (ii)(b) At the start of each year a new barrel is filled with 150 litres of the liquid so that, at the end of 40 years, there are 40 barrels containing the liquid. Calculate the total amount of the liquid, to the nearest litre, in the 40 barrels at the end of 40 years."
+  },
+  {
+    "id": "2025Oct-WMA12-01-Q9",
+    "paper": "2025Oct-WMA12-01",
+    "qnum": 9,
+    "marks": 10,
+    "full_text": "In this question you must show detailed reasoning. Solutions relying on calculator technology are not acceptable. (i) Solve $2\\log_3(4x + 5) – \\log_3(x + 3) = 2$ (ii)(a) prove that $a = \\frac{b}{b - 1}$ (ii)(b) Hence write down the full restriction on the value of b, giving a reason for your answer."
+  },
+  {
+    "id": "2025Oct-WMA12-01A-Q1",
+    "paper": "2025Oct-WMA12-01A",
+    "qnum": 1,
+    "marks": 5,
+    "full_text": "In this question you must show all stages of your working. Solutions relying on calculator technology are not acceptable. A sequence $u_1, u_2, u_3, \\dots$ is defined by $$ u_1 = 8 $$ $$ u_{n+1} = u_n + k $$ where $k$ is a constant. (a) Write down expressions for $u_2$ and $u_3$ in terms of $k$. (b) find the possible values of $k$."
+  },
+  {
+    "id": "2025Oct-WMA12-01A-Q2",
+    "paper": "2025Oct-WMA12-01A",
+    "qnum": 2,
+    "marks": 4,
+    "full_text": "Find the first 3 terms in ascending powers of $x$ of $$ \\left(2 - \\frac{x}{2}\\right)^6 $$ giving each term in its simplest form."
+  },
+  {
+    "id": "2025Oct-WMA12-01A-Q3",
+    "paper": "2025Oct-WMA12-01A",
+    "qnum": 3,
+    "marks": 6,
+    "full_text": "[Figure] Figure 1 shows a sketch of part of the graph of $y = \\frac{12}{x^2} + 2 \\quad x \\ge 2$ The table below gives values of $y$ rounded to 3 decimal places. \\begin{tabular}{|c|c|c|c|c|}\n\\hline\nx & 2 & 5 & 8 & 11 \\\\\n\\hline\ny & 8.485 & 2.502 & 1.524 & 1.100 \\\\\n\\hline\n\\end{tabular} (a) Use the trapezium rule with all the values of $y$ from the table to find an approximate value, to 2 decimal places, for $$ \\int_2^{11} \\left(\\frac{12}{x^2} + 2\\right) \\, dx $$ (b) Use your answer to part (a) to estimate a value for $$ \\int_2^{11} \\left(\\frac{1}{6x^2} + 2\\right) \\, dx $$"
+  },
+  {
+    "id": "2025Oct-WMA12-01A-Q4",
+    "paper": "2025Oct-WMA12-01A",
+    "qnum": 4,
+    "marks": 9,
+    "full_text": "In this question you must show all stages of your working. Solutions relying on calculator technology are not acceptable. $$ \\text{f}(x) = 13 + 3x + (x + 2)(x + k)^2 $$ where $k$ is a constant Given that $(x + 3)$ is a factor of f$(x)$, (a)(i) show that a possible value of $k$ is 5 (a)(ii) find the other possible value of $k$. (b)(i) write f$(x)$ as the product of two algebraic factors (b)(ii) show that the equation f$(x) = 0$ has only one real solution."
+  },
+  {
+    "id": "2025Oct-WMA12-01A-Q5",
+    "paper": "2025Oct-WMA12-01A",
+    "qnum": 5,
+    "marks": 8,
+    "full_text": "In this question you must show all stages of your working. Solutions relying on calculator technology are not acceptable. (i) find, in its simplest form, an expression for $x$ in terms of $a$. (ii) Solve the equation $$ (\\log_5 y)^2 - 7(\\log_5 y) + 12 = 0 $$ showing each step of your working."
+  },
+  {
+    "id": "2025Oct-WMA12-01A-Q6",
+    "paper": "2025Oct-WMA12-01A",
+    "qnum": 6,
+    "marks": 8,
+    "full_text": "A circle C has equation $x^2 + y^2 - 6x - 14y + k = 0$ where $k$ is constant. (a) Find the coordinates of the centre of C. (b) Find the radius of C when $k = -32$ (c) Find the range of values of $k$ for which C lies completely within the first quadrant."
+  },
+  {
+    "id": "2025Oct-WMA12-01A-Q7",
+    "paper": "2025Oct-WMA12-01A",
+    "qnum": 7,
+    "marks": 9,
+    "full_text": "In this question you must show all stages of your working. Solutions relying entirely on calculator technology are not acceptable. (i) giving your answers, in degrees, to one decimal place. (ii) giving your answers, in radians, to 3 decimal places."
+  },
+  {
+    "id": "2025Oct-WMA12-01A-Q8",
+    "paper": "2025Oct-WMA12-01A",
+    "qnum": 8,
+    "marks": 7,
+    "full_text": "A curve has equation $y = (x + 2)^2(4 – x)$ The finite region R is bounded by the curve and the $x$-axis. (a) Using algebraic integration and showing each step of your working, find the exact area of R. (b) Using the answer to part (a) and explaining your reasoning, find the area of the finite region bounded by the curve with equation $y = \\frac{1}{2}(x + 6)^2(2 – x)$ and the x-axis."
+  },
+  {
+    "id": "2025Oct-WMA12-01A-Q9",
+    "paper": "2025Oct-WMA12-01A",
+    "qnum": 9,
+    "marks": 9,
+    "full_text": "In this question you must show all stages of your working. Solutions relying entirely on calculator technology are not acceptable. (i) find the maximum speed of the car in second gear, giving your answer, in $\\text{km}\\,\\text{h}^{-1}$, to one decimal place. (ii)(a) find the maximum value of $S_n$ (ii)(b) Hence or otherwise state the smallest value of $N$ such that $S_N < 0$"
+  },
+  {
+    "id": "2025Oct-WMA12-01A-Q10",
+    "paper": "2025Oct-WMA12-01A",
+    "qnum": 10,
+    "marks": 10,
+    "full_text": "In this question you must show all stages of your working. Solutions relying entirely on calculator technology are not acceptable. [Figure] Figure 2 shows the plan view of the design for a stage at a trade fair. The shape of the stage ABCDEFA, consists of a rectangle ACDF joined to two congruent sectors of circles. ABC is a sector of a circle centre A and FDE is a sector of a circle centre F. Given that AC = $2r$ metres, CD = $r$ metres, angle DFE = $\\theta$ radians and the area of the stage is $30\\,\\text{m}^2$, (a) show that the perimeter, $P$ metres, of the stage, is given by $$ P = 4r + \\frac{30}{r} $$ (b) Use calculus to find the minimum value for $P$, giving your answer in the form $a \\sqrt{b}$, where $a$ and $b$ are integers to be found. (c) Justify that the value of $P$ found in part (b) is the minimum."
+  }
+]

@@ -29,7 +29,21 @@
         "lines": 10,
         "template": "___________________________________________________________________________"
       },
-      "meta": {}
+      "meta": {
+        "sections": [
+          "4.2",
+          "1.1"
+        ],
+        "primary_section": "4.2",
+        "question_type": "arithmetic series and proof of sum formula",
+        "command_words": [
+          "Show that",
+          "Find"
+        ],
+        "cognitive_level": "AO2",
+        "tagged_at": "2026-03-23",
+        "tagger": "manual"
+      }
     },
     {
       "qnum": 2,
@@ -95,7 +109,21 @@
         }
       ],
       "answer": null,
-      "meta": {}
+      "meta": {
+        "sections": [
+          "5.3",
+          "5.1"
+        ],
+        "primary_section": "5.3",
+        "question_type": "Sketching exponential graphs and solving exponential equations",
+        "command_words": [
+          "Sketch",
+          "Find"
+        ],
+        "cognitive_level": "AO2",
+        "tagged_at": "2026-03-23",
+        "tagger": "gemini-2.5-flash"
+      }
     },
     {
       "qnum": 3,
@@ -145,7 +173,21 @@
         }
       ],
       "answer": null,
-      "meta": {}
+      "meta": {
+        "sections": [
+          "1.2",
+          "1.1"
+        ],
+        "primary_section": "1.2",
+        "question_type": "Proof by exhaustion and algebraic proof",
+        "command_words": [
+          "Prove",
+          "Show"
+        ],
+        "cognitive_level": "AO2",
+        "tagged_at": "2026-03-23",
+        "tagger": "gemini-2.5-flash"
+      }
     },
     {
       "qnum": 4,
@@ -251,7 +293,21 @@
         }
       ],
       "answer": null,
-      "meta": {}
+      "meta": {
+        "sections": [
+          "4.5"
+        ],
+        "primary_section": "4.5",
+        "question_type": "Binomial expansion and approximation",
+        "command_words": [
+          "Find",
+          "Use",
+          "State"
+        ],
+        "cognitive_level": "AO2",
+        "tagged_at": "2026-03-23",
+        "tagger": "gemini-2.5-flash"
+      }
     },
     {
       "qnum": 5,
@@ -376,7 +432,24 @@
         }
       ],
       "answer": null,
-      "meta": {}
+      "meta": {
+        "sections": [
+          "8.2",
+          "8.3",
+          "8.1"
+        ],
+        "primary_section": "8.2",
+        "question_type": "Trapezium rule and area between curves using integration",
+        "command_words": [
+          "Using",
+          "find",
+          "Find",
+          "Use"
+        ],
+        "cognitive_level": "AO3",
+        "tagged_at": "2026-03-23",
+        "tagger": "gemini-2.5-flash"
+      }
     },
     {
       "qnum": 6,
@@ -452,7 +525,19 @@
         }
       ],
       "answer": null,
-      "meta": {}
+      "meta": {
+        "sections": [
+          "3.1"
+        ],
+        "primary_section": "3.1",
+        "question_type": "Circle properties, tangents and area of a triangle",
+        "command_words": [
+          "find"
+        ],
+        "cognitive_level": "AO3",
+        "tagged_at": "2026-03-23",
+        "tagger": "gemini-2.5-flash"
+      }
     },
     {
       "qnum": 7,
@@ -540,7 +625,23 @@
         }
       ],
       "answer": null,
-      "meta": {}
+      "meta": {
+        "sections": [
+          "5.3",
+          "5.2",
+          "2.1"
+        ],
+        "primary_section": "5.3",
+        "question_type": "Solving logarithmic equations leading to cubic equations",
+        "command_words": [
+          "show that",
+          "Hence",
+          "solve"
+        ],
+        "cognitive_level": "AO2",
+        "tagged_at": "2026-03-23",
+        "tagger": "gemini-2.5-flash"
+      }
     },
     {
       "qnum": 8,
@@ -669,7 +770,22 @@
         }
       ],
       "answer": null,
-      "meta": {}
+      "meta": {
+        "sections": [
+          "6.2",
+          "6.1"
+        ],
+        "primary_section": "6.2",
+        "question_type": "Solving trigonometric equations using identities",
+        "command_words": [
+          "Solve",
+          "Show that",
+          "Hence solve"
+        ],
+        "cognitive_level": "AO2",
+        "tagged_at": "2026-03-23",
+        "tagger": "gemini-2.5-flash"
+      }
     },
     {
       "qnum": 9,
@@ -762,7 +878,21 @@
         }
       ],
       "answer": null,
-      "meta": {}
+      "meta": {
+        "sections": [
+          "7.1"
+        ],
+        "primary_section": "7.1",
+        "question_type": "Optimisation problem using differentiation",
+        "command_words": [
+          "show that",
+          "Use",
+          "Justify"
+        ],
+        "cognitive_level": "AO3",
+        "tagged_at": "2026-03-23",
+        "tagger": "gemini-2.5-flash"
+      }
     }
   ]
 }

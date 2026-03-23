@@ -101,7 +101,21 @@
         }
       ],
       "answer": null,
-      "meta": {}
+      "meta": {
+        "sections": [
+          "8.3",
+          "5.2",
+          "8.1"
+        ],
+        "primary_section": "8.3",
+        "question_type": "Trapezium rule, integral properties using log rules",
+        "command_words": [
+          "Obtain an estimate"
+        ],
+        "cognitive_level": "AO2",
+        "tagged_at": "2026-03-23",
+        "tagger": "gemini-2.5-flash"
+      }
     },
     {
       "qnum": 2,
@@ -147,7 +161,20 @@
         }
       ],
       "answer": null,
-      "meta": {}
+      "meta": {
+        "sections": [
+          "4.5"
+        ],
+        "primary_section": "4.5",
+        "question_type": "Binomial expansion, finding independent term",
+        "command_words": [
+          "Find",
+          "Hence find"
+        ],
+        "cognitive_level": "AO2",
+        "tagged_at": "2026-03-23",
+        "tagger": "gemini-2.5-flash"
+      }
     },
     {
       "qnum": 3,
@@ -209,7 +236,22 @@
         }
       ],
       "answer": null,
-      "meta": {}
+      "meta": {
+        "sections": [
+          "2.1",
+          "6.2"
+        ],
+        "primary_section": "2.1",
+        "question_type": "Factor theorem, polynomial factorization, solving trig equation",
+        "command_words": [
+          "Use... to show that",
+          "Hence... write",
+          "Solve"
+        ],
+        "cognitive_level": "AO2",
+        "tagged_at": "2026-03-23",
+        "tagger": "gemini-2.5-flash"
+      }
     },
     {
       "qnum": 4,
@@ -248,7 +290,19 @@
       "answer": {
         "type": "expression"
       },
-      "meta": {}
+      "meta": {
+        "sections": [
+          "8.2"
+        ],
+        "primary_section": "8.2",
+        "question_type": "Area bounded by curve, y-axis, and horizontal line",
+        "command_words": [
+          "Find"
+        ],
+        "cognitive_level": "AO2",
+        "tagged_at": "2026-03-23",
+        "tagger": "gemini-2.5-flash"
+      }
     },
     {
       "qnum": 5,
@@ -336,7 +390,20 @@
         }
       ],
       "answer": null,
-      "meta": {}
+      "meta": {
+        "sections": [
+          "4.4",
+          "5.3"
+        ],
+        "primary_section": "4.4",
+        "question_type": "Modelling population growth with geometric sequence",
+        "command_words": [
+          "Find"
+        ],
+        "cognitive_level": "AO3",
+        "tagged_at": "2026-03-23",
+        "tagger": "gemini-2.5-flash"
+      }
     },
     {
       "qnum": 6,
@@ -449,7 +516,19 @@
         }
       ],
       "answer": null,
-      "meta": {}
+      "meta": {
+        "sections": [
+          "3.1"
+        ],
+        "primary_section": "3.1",
+        "question_type": "Circle properties, tangents and chords",
+        "command_words": [
+          "Find"
+        ],
+        "cognitive_level": "AO2",
+        "tagged_at": "2026-03-23",
+        "tagger": "gemini-2.5-flash"
+      }
     },
     {
       "qnum": 7,
@@ -490,7 +569,21 @@
         }
       ],
       "answer": null,
-      "meta": {}
+      "meta": {
+        "sections": [
+          "6.2",
+          "6.1"
+        ],
+        "primary_section": "6.2",
+        "question_type": "Solving trigonometric equations using identities",
+        "command_words": [
+          "Show that",
+          "Hence solve"
+        ],
+        "cognitive_level": "AO2",
+        "tagged_at": "2026-03-23",
+        "tagger": "gemini-2.5-flash"
+      }
     },
     {
       "qnum": 8,
@@ -574,7 +667,21 @@
         }
       ],
       "answer": null,
-      "meta": {}
+      "meta": {
+        "sections": [
+          "4.2",
+          "1.1"
+        ],
+        "primary_section": "4.2",
+        "question_type": "Proof and application of arithmetic series formulas",
+        "command_words": [
+          "Prove",
+          "Find"
+        ],
+        "cognitive_level": "AO2",
+        "tagged_at": "2026-03-23",
+        "tagger": "gemini-2.5-flash"
+      }
     },
     {
       "qnum": 9,
@@ -622,7 +729,22 @@
         }
       ],
       "answer": null,
-      "meta": {}
+      "meta": {
+        "sections": [
+          "5.3",
+          "5.1",
+          "5.2"
+        ],
+        "primary_section": "5.3",
+        "question_type": "Sketching exponential graphs and solving exponential equations",
+        "command_words": [
+          "Sketch",
+          "Show that"
+        ],
+        "cognitive_level": "AO2",
+        "tagged_at": "2026-03-23",
+        "tagger": "gemini-2.5-flash"
+      }
     },
     {
       "qnum": 10,
@@ -722,7 +844,22 @@
         }
       ],
       "answer": null,
-      "meta": {}
+      "meta": {
+        "sections": [
+          "7.1"
+        ],
+        "primary_section": "7.1",
+        "question_type": "Stationary points, differentiation, nature of stationary points",
+        "command_words": [
+          "Show that",
+          "Determine",
+          "Justifying",
+          "Find"
+        ],
+        "cognitive_level": "AO2",
+        "tagged_at": "2026-03-23",
+        "tagger": "gemini-2.5-flash"
+      }
     }
   ]
 }

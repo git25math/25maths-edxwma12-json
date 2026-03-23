@@ -64,7 +64,20 @@
         }
       ],
       "answer": null,
-      "meta": {}
+      "meta": {
+        "sections": [
+          "4.1",
+          "4.3"
+        ],
+        "primary_section": "4.1",
+        "question_type": "Recurrence relation, periodic sequence, summation",
+        "command_words": [
+          "Find"
+        ],
+        "cognitive_level": "AO2",
+        "tagged_at": "2026-03-23",
+        "tagger": "gemini-2.5-flash"
+      }
     },
     {
       "qnum": 2,
@@ -119,7 +132,19 @@
         }
       ],
       "answer": null,
-      "meta": {}
+      "meta": {
+        "sections": [
+          "3.1"
+        ],
+        "primary_section": "3.1",
+        "question_type": "Circle properties, tangent equation",
+        "command_words": [
+          "Find"
+        ],
+        "cognitive_level": "AO1",
+        "tagged_at": "2026-03-23",
+        "tagger": "gemini-2.5-flash"
+      }
     },
     {
       "qnum": 3,
@@ -162,7 +187,21 @@
         }
       ],
       "answer": null,
-      "meta": {}
+      "meta": {
+        "sections": [
+          "1.1",
+          "1.3"
+        ],
+        "primary_section": "1.1",
+        "question_type": "Algebraic proof and disproof by counter-example",
+        "command_words": [
+          "Use algebra to prove",
+          "Show that"
+        ],
+        "cognitive_level": "AO2",
+        "tagged_at": "2026-03-23",
+        "tagger": "gemini-2.5-flash"
+      }
     },
     {
       "qnum": 4,
@@ -209,7 +248,20 @@
         }
       ],
       "answer": null,
-      "meta": {}
+      "meta": {
+        "sections": [
+          "4.5"
+        ],
+        "primary_section": "4.5",
+        "question_type": "Binomial expansion, combining expansions",
+        "command_words": [
+          "Find",
+          "Show"
+        ],
+        "cognitive_level": "AO2",
+        "tagged_at": "2026-03-23",
+        "tagger": "gemini-2.5-flash"
+      }
     },
     {
       "qnum": 5,
@@ -265,7 +317,20 @@
         }
       ],
       "answer": null,
-      "meta": {}
+      "meta": {
+        "sections": [
+          "7.1"
+        ],
+        "primary_section": "7.1",
+        "question_type": "Optimization problem (profit maximization) using calculus",
+        "command_words": [
+          "Find",
+          "Justify"
+        ],
+        "cognitive_level": "AO3",
+        "tagged_at": "2026-03-23",
+        "tagger": "gemini-2.5-flash"
+      }
     },
     {
       "qnum": 6,
@@ -325,7 +390,21 @@
         }
       ],
       "answer": null,
-      "meta": {}
+      "meta": {
+        "sections": [
+          "2.1"
+        ],
+        "primary_section": "2.1",
+        "question_type": "Factor theorem, polynomial factorization, solving cubic",
+        "command_words": [
+          "Show that",
+          "Using algebra... factorise",
+          "Solve"
+        ],
+        "cognitive_level": "AO1",
+        "tagged_at": "2026-03-23",
+        "tagger": "gemini-2.5-flash"
+      }
     },
     {
       "qnum": 7,
@@ -393,7 +472,21 @@
         }
       ],
       "answer": null,
-      "meta": {}
+      "meta": {
+        "sections": [
+          "4.2",
+          "4.4"
+        ],
+        "primary_section": "4.2",
+        "question_type": "Modelling salary increase with arithmetic and geometric series",
+        "command_words": [
+          "Determine",
+          "Calculate"
+        ],
+        "cognitive_level": "AO3",
+        "tagged_at": "2026-03-23",
+        "tagger": "gemini-2.5-flash"
+      }
     },
     {
       "qnum": 8,
@@ -440,7 +533,21 @@
         }
       ],
       "answer": null,
-      "meta": {}
+      "meta": {
+        "sections": [
+          "5.3",
+          "5.2"
+        ],
+        "primary_section": "5.3",
+        "question_type": "Solving exponential and logarithmic equations",
+        "command_words": [
+          "Find",
+          "Solve"
+        ],
+        "cognitive_level": "AO1",
+        "tagged_at": "2026-03-23",
+        "tagger": "gemini-2.5-flash"
+      }
     },
     {
       "qnum": 9,
@@ -494,7 +601,21 @@
         }
       ],
       "answer": null,
-      "meta": {}
+      "meta": {
+        "sections": [
+          "6.1",
+          "6.2"
+        ],
+        "primary_section": "6.1",
+        "question_type": "Proving trig identity, solving trig equations",
+        "command_words": [
+          "Show that",
+          "Solve"
+        ],
+        "cognitive_level": "AO2",
+        "tagged_at": "2026-03-23",
+        "tagger": "gemini-2.5-flash"
+      }
     },
     {
       "qnum": 10,
@@ -567,7 +688,23 @@
         }
       ],
       "answer": null,
-      "meta": {}
+      "meta": {
+        "sections": [
+          "8.1",
+          "7.1"
+        ],
+        "primary_section": "8.1",
+        "question_type": "Increasing function interval, definite integrals, integral properties",
+        "command_words": [
+          "Using calculus, find",
+          "Show that",
+          "State",
+          "Find"
+        ],
+        "cognitive_level": "AO2",
+        "tagged_at": "2026-03-23",
+        "tagger": "gemini-2.5-flash"
+      }
     }
   ]
 }

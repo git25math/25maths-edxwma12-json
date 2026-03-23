@@ -73,7 +73,19 @@
         }
       ],
       "answer": null,
-      "meta": {}
+      "meta": {
+        "sections": [
+          "4.5"
+        ],
+        "primary_section": "4.5",
+        "question_type": "Binomial expansion with unknown constants",
+        "command_words": [
+          "Find"
+        ],
+        "cognitive_level": "AO2",
+        "tagged_at": "2026-03-23",
+        "tagger": "gemini-2.5-flash"
+      }
     },
     {
       "qnum": 2,
@@ -149,7 +161,19 @@
         }
       ],
       "answer": null,
-      "meta": {}
+      "meta": {
+        "sections": [
+          "4.1"
+        ],
+        "primary_section": "4.1",
+        "question_type": "Recurrence relations and sequence sums",
+        "command_words": [
+          "Find"
+        ],
+        "cognitive_level": "AO2",
+        "tagged_at": "2026-03-23",
+        "tagger": "gemini-2.5-flash"
+      }
     },
     {
       "qnum": 3,
@@ -232,7 +256,22 @@
         }
       ],
       "answer": null,
-      "meta": {}
+      "meta": {
+        "sections": [
+          "8.3"
+        ],
+        "primary_section": "8.3",
+        "question_type": "Trapezium rule for numerical integration, including explanation",
+        "command_words": [
+          "Use",
+          "show that",
+          "Explain",
+          "estimate"
+        ],
+        "cognitive_level": "AO2",
+        "tagged_at": "2026-03-23",
+        "tagger": "gemini-2.5-flash"
+      }
     },
     {
       "qnum": 4,
@@ -293,7 +332,22 @@
         }
       ],
       "answer": null,
-      "meta": {}
+      "meta": {
+        "sections": [
+          "2.1"
+        ],
+        "primary_section": "2.1",
+        "question_type": "Factor and remainder theorems, polynomial factorization",
+        "command_words": [
+          "State",
+          "Use",
+          "show that",
+          "Hence"
+        ],
+        "cognitive_level": "AO2",
+        "tagged_at": "2026-03-23",
+        "tagger": "gemini-2.5-flash"
+      }
     },
     {
       "qnum": 5,
@@ -385,7 +439,21 @@
         }
       ],
       "answer": null,
-      "meta": {}
+      "meta": {
+        "sections": [
+          "4.2"
+        ],
+        "primary_section": "4.2",
+        "question_type": "Arithmetic sequences and series problem-solving",
+        "command_words": [
+          "Find",
+          "Show that",
+          "State"
+        ],
+        "cognitive_level": "AO2",
+        "tagged_at": "2026-03-23",
+        "tagger": "gemini-2.5-flash"
+      }
     },
     {
       "qnum": 6,
@@ -485,7 +553,20 @@
         }
       ],
       "answer": null,
-      "meta": {}
+      "meta": {
+        "sections": [
+          "3.1"
+        ],
+        "primary_section": "3.1",
+        "question_type": "Circle properties and equations (missing context)",
+        "command_words": [
+          "Find",
+          "State"
+        ],
+        "cognitive_level": "AO3",
+        "tagged_at": "2026-03-23",
+        "tagger": "gemini-2.5-flash"
+      }
     },
     {
       "qnum": 7,
@@ -631,7 +712,25 @@
         }
       ],
       "answer": null,
-      "meta": {}
+      "meta": {
+        "sections": [
+          "4.4",
+          "5.3"
+        ],
+        "primary_section": "4.4",
+        "question_type": "Geometric sequences and series, including inequalities and solving for common ratio",
+        "command_words": [
+          "Find",
+          "show that",
+          "Write down",
+          "Hence",
+          "state",
+          "find"
+        ],
+        "cognitive_level": "AO2",
+        "tagged_at": "2026-03-23",
+        "tagger": "gemini-2.5-flash"
+      }
     },
     {
       "qnum": 8,
@@ -752,7 +851,22 @@
         }
       ],
       "answer": null,
-      "meta": {}
+      "meta": {
+        "sections": [
+          "7.1",
+          "8.2"
+        ],
+        "primary_section": "7.1",
+        "question_type": "Stationary points, increasing/decreasing functions, and area under curve",
+        "command_words": [
+          "show that",
+          "Determine",
+          "Find"
+        ],
+        "cognitive_level": "AO3",
+        "tagged_at": "2026-03-23",
+        "tagger": "gemini-2.5-flash"
+      }
     },
     {
       "qnum": 9,
@@ -812,7 +926,20 @@
         }
       ],
       "answer": null,
-      "meta": {}
+      "meta": {
+        "sections": [
+          "1.1",
+          "1.3"
+        ],
+        "primary_section": "1.1",
+        "question_type": "Algebraic proof and disproof by counter-example",
+        "command_words": [
+          "Prove"
+        ],
+        "cognitive_level": "AO2",
+        "tagged_at": "2026-03-23",
+        "tagger": "gemini-2.5-flash"
+      }
     },
     {
       "qnum": 10,
@@ -888,7 +1015,20 @@
         }
       ],
       "answer": null,
-      "meta": {}
+      "meta": {
+        "sections": [
+          "6.2",
+          "6.1"
+        ],
+        "primary_section": "6.2",
+        "question_type": "Solving trigonometric equations, including those requiring identities",
+        "command_words": [
+          "Solve"
+        ],
+        "cognitive_level": "AO2",
+        "tagged_at": "2026-03-23",
+        "tagger": "gemini-2.5-flash"
+      }
     }
   ]
 }

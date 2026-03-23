@@ -97,7 +97,21 @@
         }
       ],
       "answer": null,
-      "meta": {}
+      "meta": {
+        "sections": [
+          "4.4",
+          "4.1"
+        ],
+        "primary_section": "4.4",
+        "question_type": "Recurrence relations and geometric sequence properties",
+        "command_words": [
+          "Write down",
+          "find"
+        ],
+        "cognitive_level": "AO2",
+        "tagged_at": "2026-03-23",
+        "tagger": "gemini-2.5-flash"
+      }
     },
     {
       "qnum": 2,
@@ -130,7 +144,19 @@
       "answer": {
         "type": "expression"
       },
-      "meta": {}
+      "meta": {
+        "sections": [
+          "4.5"
+        ],
+        "primary_section": "4.5",
+        "question_type": "Binomial expansion of algebraic expression",
+        "command_words": [
+          "Find"
+        ],
+        "cognitive_level": "AO1",
+        "tagged_at": "2026-03-23",
+        "tagger": "gemini-2.5-flash"
+      }
     },
     {
       "qnum": 3,
@@ -213,7 +239,20 @@
         }
       ],
       "answer": null,
-      "meta": {}
+      "meta": {
+        "sections": [
+          "8.3"
+        ],
+        "primary_section": "8.3",
+        "question_type": "Trapezium rule and linearity of integration",
+        "command_words": [
+          "Use the trapezium rule to find",
+          "Use your answer to estimate"
+        ],
+        "cognitive_level": "AO2",
+        "tagged_at": "2026-03-23",
+        "tagger": "gemini-2.5-flash"
+      }
     },
     {
       "qnum": 4,
@@ -345,7 +384,23 @@
         }
       ],
       "answer": null,
-      "meta": {}
+      "meta": {
+        "sections": [
+          "2.1",
+          "1.1"
+        ],
+        "primary_section": "2.1",
+        "question_type": "Factor theorem, polynomial factorization, proving roots",
+        "command_words": [
+          "show that",
+          "find",
+          "write",
+          "show that"
+        ],
+        "cognitive_level": "AO3",
+        "tagged_at": "2026-03-23",
+        "tagger": "gemini-2.5-flash"
+      }
     },
     {
       "qnum": 5,
@@ -434,7 +489,21 @@
         }
       ],
       "answer": null,
-      "meta": {}
+      "meta": {
+        "sections": [
+          "5.2",
+          "5.3"
+        ],
+        "primary_section": "5.2",
+        "question_type": "Laws of logarithms and solving equations",
+        "command_words": [
+          "find",
+          "Solve"
+        ],
+        "cognitive_level": "AO2",
+        "tagged_at": "2026-03-23",
+        "tagger": "gemini-2.5-flash"
+      }
     },
     {
       "qnum": 6,
@@ -500,7 +569,19 @@
         }
       ],
       "answer": null,
-      "meta": {}
+      "meta": {
+        "sections": [
+          "3.1"
+        ],
+        "primary_section": "3.1",
+        "question_type": "Equation of circle and geometric constraints",
+        "command_words": [
+          "Find"
+        ],
+        "cognitive_level": "AO2",
+        "tagged_at": "2026-03-23",
+        "tagger": "gemini-2.5-flash"
+      }
     },
     {
       "qnum": 7,
@@ -581,7 +662,19 @@
         }
       ],
       "answer": null,
-      "meta": {}
+      "meta": {
+        "sections": [
+          "6.2"
+        ],
+        "primary_section": "6.2",
+        "question_type": "Solving trigonometric equations in degrees and radians",
+        "command_words": [
+          "giving your answers"
+        ],
+        "cognitive_level": "AO1",
+        "tagged_at": "2026-03-23",
+        "tagger": "gemini-2.5-flash"
+      }
     },
     {
       "qnum": 8,
@@ -636,7 +729,19 @@
         }
       ],
       "answer": null,
-      "meta": {}
+      "meta": {
+        "sections": [
+          "8.2"
+        ],
+        "primary_section": "8.2",
+        "question_type": "Area under curve and graph transformations",
+        "command_words": [
+          "Find"
+        ],
+        "cognitive_level": "AO2",
+        "tagged_at": "2026-03-23",
+        "tagger": "gemini-2.5-flash"
+      }
     },
     {
       "qnum": 9,
@@ -744,7 +849,21 @@
         }
       ],
       "answer": null,
-      "meta": {}
+      "meta": {
+        "sections": [
+          "7.1",
+          "4.2"
+        ],
+        "primary_section": "7.1",
+        "question_type": "Optimization using calculus and arithmetic series",
+        "command_words": [
+          "find",
+          "state"
+        ],
+        "cognitive_level": "AO3",
+        "tagged_at": "2026-03-23",
+        "tagger": "gemini-2.5-flash"
+      }
     },
     {
       "qnum": 10,
@@ -851,7 +970,22 @@
         }
       ],
       "answer": null,
-      "meta": {}
+      "meta": {
+        "sections": [
+          "7.1",
+          "1.1"
+        ],
+        "primary_section": "7.1",
+        "question_type": "Optimization of perimeter using calculus",
+        "command_words": [
+          "show that",
+          "Use calculus to find",
+          "Justify"
+        ],
+        "cognitive_level": "AO3",
+        "tagged_at": "2026-03-23",
+        "tagger": "gemini-2.5-flash"
+      }
     }
   ]
 }
