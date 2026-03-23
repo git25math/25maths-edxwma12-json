@@ -1,17 +1,36 @@
 {
-  "version": "1.0.0",
+  "version": "2.0.0",
   "syllabus": "Edexcel IAL Pure Mathematics 2 (WMA12)",
   "board": "edx",
   "code": "WMA12",
   "level": "IAL",
+  "specIssue": 3,
+  "specDate": "April 2019",
   "firstTeaching": "September 2018",
-  "firstExam": "January 2019",
+  "firstExam": "June 2019",
   "totalTeachingHours": 60,
+  "prerequisites": "A knowledge of the specification for P1 and its associated formulae is assumed and may be tested.",
+  "unitDescription": "Proof; algebra and functions; coordinate geometry in the (x, y) plane; sequences and series; exponentials and logarithms; trigonometry; differentiation; integration.",
   "paperFormat": {
     "duration": 90,
     "totalMarks": 75,
     "calculatorAllowed": true,
-    "questionCount": "8-10"
+    "questionCount": "8-10",
+    "formulaBooklet": "Mathematical Formulae and Statistical Tables provided"
+  },
+  "formulaeToKnow": {
+    "lawsOfLogarithms": [
+      "$\\log_a x + \\log_a y \\equiv \\log_a(xy)$",
+      "$\\log_a x - \\log_a y \\equiv \\log_a\\left(\\frac{x}{y}\\right)$",
+      "$k\\log_a x \\equiv \\log_a(x^k)$"
+    ],
+    "trigonometry": [
+      "$\\sin^2 A + \\cos^2 A \\equiv 1$",
+      "$\\tan\\theta \\equiv \\frac{\\sin\\theta}{\\cos\\theta}$"
+    ],
+    "area": [
+      "area under a curve $= \\int_a^b y\\,\\mathrm{d}x$ ($y \\geq 0$)"
+    ]
   },
   "chapters": [
     {
@@ -23,11 +42,12 @@
       "sections": [
         {
           "id": "1.1",
-          "title": "Proof by deduction",
-          "title_zh": "演绎证明",
+          "title": "Structure of mathematical proof",
+          "title_zh": "数学证明的结构",
           "slug": "wma12-1-1",
           "specRef": "1.1",
           "content": "Understand and use the structure of mathematical proof, proceeding from given assumptions through a series of logical steps to a conclusion; use methods of proof stated below.",
+          "guidance": "",
           "keywords": ["proof", "assumptions", "deduction", "conjecture", "implies", "necessary", "sufficient", "converse", "therefore", "conclusion"]
         },
         {
@@ -36,7 +56,8 @@
           "title_zh": "穷举证明",
           "slug": "wma12-1-2",
           "specRef": "1.2",
-          "content": "Proof by exhaustion: verifying a statement by checking all possible cases.",
+          "content": "Proof by exhaustion.",
+          "guidance": "This involves trying all the options. Suppose x and y are odd integers less than 7. Prove that their sum is divisible by 2.",
           "keywords": ["exhaustion", "cases", "verification"]
         },
         {
@@ -45,7 +66,8 @@
           "title_zh": "反例否证",
           "slug": "wma12-1-3",
           "specRef": "1.3",
-          "content": "Disproof by counter-example: finding one example where the statement does not hold.",
+          "content": "Disproof by counter example.",
+          "guidance": "Disproof by counter example — show that the statement '$n^2 - n + 1$ is a prime number for all values of $n$' is untrue.",
           "keywords": ["counter-example", "disproof", "prediction"]
         }
       ]
@@ -59,12 +81,13 @@
       "sections": [
         {
           "id": "2.1",
-          "title": "Algebraic division and the factor and remainder theorems",
+          "title": "Algebraic division, factor and remainder theorems",
           "title_zh": "代数除法、因式定理与余式定理",
           "slug": "wma12-2-1",
           "specRef": "2.1",
-          "content": "Simple algebraic division; use of the factor theorem and remainder theorem. Division by (ax + b) or (ax - b). Fully factorise cubic expressions.",
-          "keywords": ["binomial", "coefficient", "polynomials", "factorisation", "quadratic", "cubic", "rational number", "factor", "expand", "remainder theorem", "factor theorem"]
+          "content": "Simple algebraic division; use of the Factor Theorem and the Remainder Theorem.",
+          "guidance": "Only division by $(ax + b)$ or $(ax - b)$ will be required. Students should know that if $f(x) = 0$ when $x = \\frac{b}{a}$, then $(ax - b)$ is a factor of $f(x)$. Students may be required to factorise cubic expressions such as $x^3 + 3x^2 - 4$ and $6x^3 + 11x^2 - x - 6$. Students should be familiar with the terms 'quotient' and 'remainder' and be able to determine the remainder when the polynomial $f(x)$ is divided by $(ax + b)$.",
+          "keywords": ["algebraic division", "factor theorem", "remainder theorem", "polynomial", "cubic", "factorisation", "quotient", "remainder"]
         }
       ]
     },
@@ -81,7 +104,8 @@
           "title_zh": "圆的方程",
           "slug": "wma12-3-1",
           "specRef": "3.1",
-          "content": "Coordinate geometry of the circle using the equation of a circle in the form $(x-a)^2 + (y-b)^2 = r^2$, including use of: (i) the angle in a semicircle is a right angle, (ii) the perpendicular from the centre to a chord bisects the chord, (iii) the perpendicularity of radius and tangent.",
+          "content": "Coordinate geometry of the circle using the equation of a circle in the form $(x - a)^2 + (y - b)^2 = r^2$ and including use of the following circle properties: (i) the angle in a semicircle is a right angle; (ii) the perpendicular from the centre to a chord bisects the chord; (iii) the perpendicularity of radius and tangent.",
+          "guidance": "Students should be able to find the radius and the coordinates of the centre of the circle, given the equation of the circle and vice versa.",
           "keywords": ["equation", "bisect", "centre", "chord", "circle", "circumcircle", "coefficient", "constant", "diameter", "gradient", "hypotenuse", "intercept", "Pythagoras", "radius", "right angle", "segment", "semicircle", "simultaneous", "tangent"]
         }
       ]
@@ -95,38 +119,52 @@
       "sections": [
         {
           "id": "4.1",
-          "title": "Recurrence relations and iterations",
-          "title_zh": "递推关系与迭代",
+          "title": "Sequences and recurrence relations",
+          "title_zh": "数列与递推关系",
           "slug": "wma12-4-1",
-          "specRef": "4.1, 4.3",
-          "content": "Sequences including those given by a formula for the nth term and those generated by a simple relation of the form $x_{n+1} = f(x_n)$. Increasing sequences, decreasing sequences and periodic sequences.",
-          "keywords": ["sequence", "recurrence", "iteration", "periodic", "increasing", "decreasing"]
+          "specRef": "4.1",
+          "content": "Sequences, including those given by a formula for the $n$th term and those generated by a simple relation of the form $x_{n+1} = f(x_n)$.",
+          "guidance": "",
+          "keywords": ["sequence", "recurrence", "iteration", "nth term"]
         },
         {
           "id": "4.2",
-          "title": "Arithmetic and geometric sequences and series",
-          "title_zh": "等差与等比数列及级数",
+          "title": "Arithmetic sequences and series",
+          "title_zh": "等差数列与级数",
           "slug": "wma12-4-2",
-          "specRef": "4.2, 4.4",
-          "content": "Understand and work with arithmetic sequences and series, including the formulae for the nth term and the sum of a finite arithmetic series; the sum of the first n natural numbers. Understand and work with geometric sequences and series including the formulae for the nth term and the sum of a finite geometric series; the sum to infinity of a convergent geometric series, including the use of $|r| < 1$.",
-          "keywords": ["arithmetic progression", "common difference", "geometric progression", "common ratio", "nth term", "sum to n terms", "sum to infinity", "convergent", "divergent", "limit"]
+          "specRef": "4.2",
+          "content": "Understand and work with arithmetic sequences and series, including the formula for the $n$th term and the sum of a finite arithmetic series; the sum of the first $n$ natural numbers. Understanding of $\\sum$ notation will be expected.",
+          "guidance": "The proof of the sum formula should be known.",
+          "keywords": ["arithmetic progression", "common difference", "sum formula", "sigma notation"]
         },
         {
           "id": "4.3",
-          "title": "Sigma notation",
-          "title_zh": "求和符号",
+          "title": "Increasing, decreasing and periodic sequences",
+          "title_zh": "递增、递减与周期数列",
           "slug": "wma12-4-3",
-          "specRef": "4.2",
-          "content": "Use of sigma notation for sums of arithmetic and geometric series.",
-          "keywords": ["sigma", "summation notation", "series"]
+          "specRef": "4.3",
+          "content": "Increasing sequences, decreasing sequences and periodic sequences.",
+          "guidance": "",
+          "keywords": ["increasing", "decreasing", "periodic", "convergent", "divergent"]
         },
         {
           "id": "4.4",
-          "title": "The binomial expansion",
-          "title_zh": "二项式展开",
+          "title": "Geometric sequences and series",
+          "title_zh": "等比数列与级数",
           "slug": "wma12-4-4",
+          "specRef": "4.4",
+          "content": "Understand and work with geometric sequences and series, including the formulae for the $n$th term and the sum of a finite geometric series; the sum to infinity of a convergent geometric series, including the use of $|r| < 1$.",
+          "guidance": "Given the sum of a series students should be able to use logs to find the value of $n$. The proof of the sum formula for a finite series should be known. The sum to infinity may be expressed as $S_\\infty$.",
+          "keywords": ["geometric progression", "common ratio", "sum to infinity", "convergent", "limit"]
+        },
+        {
+          "id": "4.5",
+          "title": "Binomial expansion",
+          "title_zh": "二项式展开",
+          "slug": "wma12-4-5",
           "specRef": "4.5",
-          "content": "Binomial expansion of $(a + bx)^n$ for positive integer $n$. Finding coefficients, using expansions to evaluate numbers raised to a power.",
+          "content": "Binomial expansion of $(a + bx)^n$ for positive integer $n$.",
+          "guidance": "The notations $n!$, $\\binom{n}{r}$ and $^nC_r$ may be used.",
           "keywords": ["binomial", "expansion", "Pascal's triangle", "coefficient", "factorial", "nCr"]
         }
       ]
@@ -140,12 +178,13 @@
       "sections": [
         {
           "id": "5.1",
-          "title": "Exponential functions and graphs",
-          "title_zh": "指数函数与图像",
+          "title": "Exponential functions",
+          "title_zh": "指数函数",
           "slug": "wma12-5-1",
           "specRef": "5.1",
-          "content": "$y = a^x$ and its graph, where $a$ is positive.",
-          "keywords": ["exponential", "exponent", "power", "base", "initial", "rate of change"]
+          "content": "$y = a^x$ and its graph.",
+          "guidance": "$a > 0$, $a \\neq 1$.",
+          "keywords": ["exponential", "exponent", "power", "base", "graph"]
         },
         {
           "id": "5.2",
@@ -153,7 +192,8 @@
           "title_zh": "对数法则",
           "slug": "wma12-5-2",
           "specRef": "5.2",
-          "content": "Laws of logarithms: $\\log_a(xy) = \\log_a x + \\log_a y$, $\\log_a(x/y) = \\log_a x - \\log_a y$, $\\log_a x^k = k\\log_a x$, $\\log_a a = 1$.",
+          "content": "Laws of logarithms: $\\log_a(xy) \\equiv \\log_a x + \\log_a y$, $\\log_a\\left(\\frac{x}{y}\\right) \\equiv \\log_a x - \\log_a y$, $\\log_a(x^k) \\equiv k\\log_a x$, $\\log_a\\left(\\frac{1}{x}\\right) \\equiv -\\log_a x$, $\\log_a a = 1$, where $a, x, y > 0$, $a \\neq 1$.",
+          "guidance": "",
           "keywords": ["logarithm", "log laws", "change of base"]
         },
         {
@@ -163,7 +203,8 @@
           "slug": "wma12-5-3",
           "specRef": "5.3",
           "content": "The solution of equations of the form $a^x = b$.",
-          "keywords": ["exponential equation", "logarithmic equation", "compound interest"]
+          "guidance": "Students may use the change of base formula.",
+          "keywords": ["exponential equation", "logarithmic equation"]
         }
       ]
     },
@@ -181,7 +222,8 @@
           "slug": "wma12-6-1",
           "specRef": "6.1",
           "content": "Knowledge and use of $\\tan\\theta = \\frac{\\sin\\theta}{\\cos\\theta}$ and $\\sin^2\\theta + \\cos^2\\theta = 1$.",
-          "keywords": ["sine", "cosine", "tangent", "identity", "unit circle", "special angles", "symmetry"]
+          "guidance": "",
+          "keywords": ["sine", "cosine", "tangent", "identity", "unit circle"]
         },
         {
           "id": "6.2",
@@ -189,8 +231,9 @@
           "title_zh": "三角方程求解",
           "slug": "wma12-6-2",
           "specRef": "6.2",
-          "content": "Solution of simple trigonometric equations in a given interval. Including quadratic trigonometric equations and equations involving multiple angles.",
-          "keywords": ["trigonometric equation", "interval", "period", "amplitude", "CAST diagram", "inverse", "angle of elevation", "angle of depression"]
+          "content": "Solution of simple trigonometric equations in a given interval.",
+          "guidance": "Students should be able to solve equations such as $\\sin\\left(x + \\frac{\\pi}{2}\\right) = \\frac{3}{4}$ for $0 < x < 2\\pi$, $\\cos(x + 30°) = \\frac{1}{2}$ for $-180° < x < 180°$, $\\tan 2x = 1$ for $90° < x < 270°$, $6\\cos^2 x + \\sin x - 5 = 0$ for $0 \\leq x < 360°$, $\\sin^2\\left(x + \\frac{\\pi}{6}\\right) = \\frac{1}{2}$ for $-\\pi \\leq x < \\pi$.",
+          "keywords": ["trigonometric equation", "interval", "CAST diagram", "quadratic trigonometric"]
         }
       ]
     },
@@ -207,8 +250,9 @@
           "title_zh": "极值与驻点",
           "slug": "wma12-7-1",
           "specRef": "7.1",
-          "content": "Applications of differentiation to maxima and minima and stationary points, increasing and decreasing functions. Use of second derivative to determine the nature of stationary points.",
-          "keywords": ["differentiation", "derivative", "rate of change", "increasing", "decreasing", "stationary point", "maximum", "minimum", "calculus"]
+          "content": "Applications of differentiation to maxima and minima and stationary points, increasing and decreasing functions.",
+          "guidance": "To include applications to curve sketching. Maxima and minima problems may be set in the context of a practical problem.",
+          "keywords": ["differentiation", "derivative", "stationary point", "maximum", "minimum", "increasing", "decreasing", "curve sketching", "second derivative"]
         }
       ]
     },
@@ -225,8 +269,9 @@
           "title_zh": "定积分",
           "slug": "wma12-8-1",
           "specRef": "8.1",
-          "content": "Evaluation of definite integrals. Finding areas bounded by curves and lines.",
-          "keywords": ["calculus", "integrate", "definite", "indefinite", "constant", "evaluate"]
+          "content": "Evaluation of definite integrals.",
+          "guidance": "",
+          "keywords": ["definite integral", "evaluate", "limits"]
         },
         {
           "id": "8.2",
@@ -234,8 +279,9 @@
           "title_zh": "曲线下面积",
           "slug": "wma12-8-2",
           "specRef": "8.2",
-          "content": "Interpretation of the definite integral as the area under a curve. Areas between curves and lines, including consideration of regions above and below the x-axis.",
-          "keywords": ["area", "intersection", "curve", "bounded region"]
+          "content": "Interpretation of the definite integral as the area under a curve.",
+          "guidance": "Students will be expected to be able to evaluate the area of a region bounded by a curve and given straight lines. For example, find the finite area bounded by the curve $y = 6x - x^2$ and the line $y = 2x$. $\\int x\\,\\mathrm{d}y$ will not be required. Students will be expected to be able to evaluate the area of a region bounded by two curves.",
+          "keywords": ["area", "bounded region", "intersection", "curve"]
         },
         {
           "id": "8.3",
@@ -243,10 +289,28 @@
           "title_zh": "梯形法则",
           "slug": "wma12-8-3",
           "specRef": "8.3",
-          "content": "Approximation of area under a curve using the trapezium rule. Understanding when the trapezium rule gives an overestimate or an underestimate.",
+          "content": "Approximation of area under a curve using the trapezium rule.",
+          "guidance": "For example, use the trapezium rule to approximate $\\int_0^1 \\sqrt{2x+1}\\,\\mathrm{d}x$ using four strips. Use of increasing number of trapezia to improve accuracy and an estimate of the error may be required.",
           "keywords": ["trapezium rule", "numerical integration", "approximation", "overestimate", "underestimate", "strips"]
         }
       ]
     }
-  ]
+  ],
+  "assessmentObjectives": {
+    "AO1": {
+      "description": "Use and apply standard techniques",
+      "weight": "50-60%",
+      "detail": "Students should be able to: select and correctly carry out routine procedures; accurately recall facts, terminology and definitions."
+    },
+    "AO2": {
+      "description": "Reason, interpret and communicate mathematically",
+      "weight": "25-30%",
+      "detail": "Students should be able to: construct rigorous mathematical arguments; make deductions and inferences; assess the validity of mathematical arguments; explain their reasoning; use mathematical language and notation correctly."
+    },
+    "AO3": {
+      "description": "Solve problems within mathematics and in other contexts",
+      "weight": "10-20%",
+      "detail": "Students should be able to: translate problems in mathematical and non-mathematical contexts into mathematical processes; interpret solutions to problems in their original context; evaluate methods used and results obtained."
+    }
+  }
 }
