@@ -1,0 +1,956 @@
+{
+  "v": "1.0",
+  "paper": "2022Oct-WMA12-01",
+  "board": "edx",
+  "code": "WMA12",
+  "year": 2022,
+  "session": "Oct",
+  "paperNum": "01",
+  "type": "ial-p2",
+  "totalMarks": 75,
+  "time": 90,
+  "questions": [
+    {
+      "qnum": 1,
+      "marks": 3,
+      "stem": [
+        {
+          "type": "text",
+          "content": "Given that a, b and c are integers greater than 0 such that"
+        },
+        {
+          "type": "list",
+          "style": "bullet",
+          "items": [
+            "c = b + 2",
+            "a + b + c = 10"
+          ]
+        },
+        {
+          "type": "text",
+          "content": "Prove, by exhaustion, that the product of a, b and c is always even."
+        },
+        {
+          "type": "newline"
+        },
+        {
+          "type": "text",
+          "content": "You may use the table below to illustrate your answer."
+        },
+        {
+          "type": "newline"
+        },
+        {
+          "type": "text",
+          "content": "You may not need to use all rows of this table."
+        },
+        {
+          "type": "table",
+          "content": "\\begin{tabular}{|c|c|c|c|}\\hline a & b & c & \\\\ \\hline 1 & & & \\\\ \\hline 2 & & & \\\\ \\hline\\end{tabular}"
+        },
+        {
+          "type": "space",
+          "lines": 15
+        }
+      ],
+      "parts": [],
+      "answer": {
+        "type": "none"
+      },
+      "meta": {}
+    },
+    {
+      "qnum": 2,
+      "marks": 7,
+      "stem": [
+        {
+          "type": "text",
+          "content": "A curve C has equation  $y = f(x)$  where"
+        },
+        {
+          "type": "newline"
+        },
+        {
+          "type": "text",
+          "content": "$f(x) = (2 – kx)^5$"
+        },
+        {
+          "type": "newline"
+        },
+        {
+          "type": "text",
+          "content": "and k is a constant."
+        },
+        {
+          "type": "newline"
+        },
+        {
+          "type": "text",
+          "content": "Given that when $f(x)$ is divided by  $(4x – 5)$  the remainder is $\\frac{243}{32}$"
+        }
+      ],
+      "parts": [
+        {
+          "label": "(a)",
+          "marks": 2,
+          "content": [
+            {
+              "type": "text",
+              "content": "show that  $k = \\frac{2}{5}$"
+            }
+          ],
+          "answer": {
+            "type": "none"
+          }
+        },
+        {
+          "label": "(b)",
+          "marks": 3,
+          "content": [
+            {
+              "type": "text",
+              "content": "Find the first three terms, in ascending powers of x, of the binomial expansion of"
+            },
+            {
+              "type": "newline"
+            },
+            {
+              "type": "text",
+              "content": "$(2 - \\frac{2}{5}x)^5$"
+            },
+            {
+              "type": "newline"
+            },
+            {
+              "type": "text",
+              "content": "giving each term in simplest form."
+            }
+          ],
+          "answer": {
+            "type": "expression"
+          }
+        },
+        {
+          "label": "(c)",
+          "marks": 2,
+          "content": [
+            {
+              "type": "text",
+              "content": "Using the solution to part (b) and making your method clear,"
+            },
+            {
+              "type": "newline"
+            },
+            {
+              "type": "text",
+              "content": "find the gradient of C at the point where  $x = 0$"
+            }
+          ],
+          "answer": {
+            "type": "number"
+          }
+        }
+      ],
+      "answer": null,
+      "meta": {}
+    },
+    {
+      "qnum": 3,
+      "marks": 7,
+      "stem": [
+        {
+          "type": "text",
+          "content": "A sequence $a_1, a_2, a_3, \\dots$ is defined by"
+        },
+        {
+          "type": "newline"
+        },
+        {
+          "type": "text",
+          "content": "$a_n = \\cos^2 \\left(\\frac{n\\pi}{3}\\right)$"
+        },
+        {
+          "type": "newline"
+        },
+        {
+          "type": "text",
+          "content": "Find the exact values of"
+        }
+      ],
+      "parts": [
+        {
+          "label": "(a)",
+          "marks": 3,
+          "content": [],
+          "subparts": [
+            {
+              "label": "(i)",
+              "marks": 1,
+              "content": [
+                {
+                  "type": "text",
+                  "content": "$a_1$"
+                }
+              ],
+              "answer": {
+                "type": "expression"
+              }
+            },
+            {
+              "label": "(ii)",
+              "marks": 1,
+              "content": [
+                {
+                  "type": "text",
+                  "content": "$a_2$"
+                }
+              ],
+              "answer": {
+                "type": "expression"
+              }
+            },
+            {
+              "label": "(iii)",
+              "marks": 1,
+              "content": [
+                {
+                  "type": "text",
+                  "content": "$a_3$"
+                }
+              ],
+              "answer": {
+                "type": "expression"
+              }
+            }
+          ],
+          "answer": null
+        },
+        {
+          "label": "(b)",
+          "marks": 4,
+          "content": [
+            {
+              "type": "text",
+              "content": "Hence find the exact value of"
+            },
+            {
+              "type": "newline"
+            },
+            {
+              "type": "text",
+              "content": "$\\sum_{n=1}^{50} \\left(2 + \\cos^2 \\left(\\frac{n\\pi}{3}\\right)\\right)$"
+            },
+            {
+              "type": "newline"
+            },
+            {
+              "type": "text",
+              "content": "You must make your method clear."
+            }
+          ],
+          "answer": {
+            "type": "expression"
+          }
+        }
+      ],
+      "answer": null,
+      "meta": {}
+    },
+    {
+      "qnum": 4,
+      "marks": 8,
+      "stem": [
+        {
+          "type": "text",
+          "content": "The weight of a baby mammal is monitored over a 16‑month period."
+        },
+        {
+          "type": "newline"
+        },
+        {
+          "type": "text",
+          "content": "The weight of the mammal, $w$ kg, is given by"
+        },
+        {
+          "type": "newline"
+        },
+        {
+          "type": "text",
+          "content": "$w = \\log_a(t + 5) – \\log_a4$"
+        },
+        {
+          "type": "newline"
+        },
+        {
+          "type": "text",
+          "content": "$2 \\le t \\le 18$"
+        },
+        {
+          "type": "newline"
+        },
+        {
+          "type": "text",
+          "content": "where t is the age of the mammal in months and a is a constant."
+        },
+        {
+          "type": "newline"
+        },
+        {
+          "type": "text",
+          "content": "Given that the weight of the mammal was 10 kg when  $t = 3$"
+        }
+      ],
+      "parts": [
+        {
+          "label": "(a)",
+          "marks": 3,
+          "content": [
+            {
+              "type": "text",
+              "content": "show that  $a = 1.072$  correct to 3 decimal places."
+            }
+          ],
+          "answer": {
+            "type": "none"
+          }
+        },
+        {
+          "label": "(b)",
+          "marks": 3,
+          "content": [
+            {
+              "type": "text",
+              "content": "Using  $a = 1.072$"
+            },
+            {
+              "type": "newline"
+            },
+            {
+              "type": "text",
+              "content": "find an equation for t in terms of w"
+            }
+          ],
+          "answer": {
+            "type": "expression"
+          }
+        },
+        {
+          "label": "(c)",
+          "marks": 2,
+          "content": [
+            {
+              "type": "text",
+              "content": "find the value of t when $w = 15$, giving your answer to 3 significant figures."
+            }
+          ],
+          "answer": {
+            "type": "number"
+          }
+        }
+      ],
+      "answer": null,
+      "meta": {}
+    },
+    {
+      "qnum": 5,
+      "marks": 8,
+      "stem": [
+        {
+          "type": "text",
+          "content": "In this question you must show detailed reasoning."
+        },
+        {
+          "type": "newline"
+        },
+        {
+          "type": "text",
+          "content": "Solutions relying entirely on calculator technology are not acceptable."
+        }
+      ],
+      "parts": [
+        {
+          "label": "(a)",
+          "marks": 3,
+          "content": [
+            {
+              "type": "text",
+              "content": "Show that the equation"
+            },
+            {
+              "type": "newline"
+            },
+            {
+              "type": "text",
+              "content": "$(3 \\cos \\theta – \\tan \\theta)\\cos \\theta = 2$"
+            },
+            {
+              "type": "newline"
+            },
+            {
+              "type": "text",
+              "content": "can be written as"
+            },
+            {
+              "type": "newline"
+            },
+            {
+              "type": "text",
+              "content": "$3 \\sin^2 \\theta + \\sin \\theta – 1 = 0$"
+            }
+          ],
+          "answer": {
+            "type": "none"
+          }
+        },
+        {
+          "label": "(b)",
+          "marks": 5,
+          "content": [
+            {
+              "type": "text",
+              "content": "Hence solve for   $-\\frac{\\pi}{2} \\le x \\le \\frac{\\pi}{2}$"
+            },
+            {
+              "type": "newline"
+            },
+            {
+              "type": "text",
+              "content": "$(3 \\cos 2x – \\tan 2x)\\cos 2x = 2$"
+            }
+          ],
+          "answer": {
+            "type": "expression"
+          }
+        }
+      ],
+      "answer": null,
+      "meta": {}
+    },
+    {
+      "qnum": 6,
+      "marks": 7,
+      "stem": [
+        {
+          "type": "text",
+          "content": "The curve $C_1$ has equation  $y = f(x)$."
+        },
+        {
+          "type": "newline"
+        },
+        {
+          "type": "text",
+          "content": "A table of values of x and y for  $y = f(x)$ is shown below, with the y values rounded to"
+        },
+        {
+          "type": "newline"
+        },
+        {
+          "type": "text",
+          "content": "4 decimal places where appropriate."
+        },
+        {
+          "type": "table",
+          "content": "\\begin{tabular}{|c|c|c|c|c|c|}\\hline x & 0 & 0.5 & 1 & 1.5 & 2 \\\\ \\hline y & 3 & 2.6833 & 2.4 & 2.1466 & 1.92 \\\\ \\hline\\end{tabular}"
+        }
+      ],
+      "parts": [
+        {
+          "label": "(a)",
+          "marks": 3,
+          "content": [
+            {
+              "type": "text",
+              "content": "Use the trapezium rule with all the values of y in the table to find an"
+            },
+            {
+              "type": "newline"
+            },
+            {
+              "type": "text",
+              "content": "approximation for"
+            },
+            {
+              "type": "newline"
+            },
+            {
+              "type": "text",
+              "content": "$\\int_0^2 f(x) \\,dx$"
+            },
+            {
+              "type": "newline"
+            },
+            {
+              "type": "text",
+              "content": "giving your answer to 3 decimal places."
+            }
+          ],
+          "answer": {
+            "type": "number"
+          }
+        },
+        {
+          "label": "(b)",
+          "marks": 4,
+          "content": [
+            {
+              "type": "text",
+              "content": "[Figure]"
+            },
+            {
+              "type": "newline"
+            },
+            {
+              "type": "text",
+              "content": "The region R, shown shaded in Figure 1, is bounded by"
+            },
+            {
+              "type": "list",
+              "style": "bullet",
+              "items": [
+                "the curve $C_1$",
+                "the curve $C_2$ with equation  $y = 2 - \\frac{1}{4}x^2$",
+                "the line with equation  $x = 2$",
+                "the y‑axis"
+              ]
+            },
+            {
+              "type": "newline"
+            },
+            {
+              "type": "text",
+              "content": "The region R forms part of the design for a logo shown in Figure 2."
+            },
+            {
+              "type": "newline"
+            },
+            {
+              "type": "text",
+              "content": "The design consists of the shaded region R inside a rectangle of width 2 and height 3"
+            },
+            {
+              "type": "newline"
+            },
+            {
+              "type": "text",
+              "content": "Using calculus and the answer to part (a),"
+            },
+            {
+              "type": "newline"
+            },
+            {
+              "type": "text",
+              "content": "calculate an estimate for the percentage of the logo which is shaded."
+            }
+          ],
+          "answer": {
+            "type": "number"
+          }
+        }
+      ],
+      "answer": null,
+      "meta": {}
+    },
+    {
+      "qnum": 7,
+      "marks": 9,
+      "stem": [
+        {
+          "type": "text",
+          "content": "The curve C has equation"
+        },
+        {
+          "type": "newline"
+        },
+        {
+          "type": "text",
+          "content": "$y = \\frac{x^{\\frac{9}{2}} - 12x^{\\frac{7}{2}} + 7x^{\\frac{5}{2}} - 14x^{\\frac{3}{2}} + 13x^{\\frac{1}{2}}}{3x^{\\frac{1}{2}}}$"
+        },
+        {
+          "type": "newline"
+        },
+        {
+          "type": "text",
+          "content": "$x > 0$"
+        }
+      ],
+      "parts": [
+        {
+          "label": "(a)",
+          "marks": 3,
+          "content": [
+            {
+              "type": "text",
+              "content": "Write the equation of C in the form"
+            },
+            {
+              "type": "newline"
+            },
+            {
+              "type": "text",
+              "content": "$y = ax^{\\frac{7}{2}} + bx^{\\frac{5}{2}} + cx^{\\frac{3}{2}} + dx^{\\frac{1}{2}}$"
+            },
+            {
+              "type": "newline"
+            },
+            {
+              "type": "text",
+              "content": "where a, b, c and d are fully simplified constants."
+            }
+          ],
+          "answer": {
+            "type": "expression"
+          }
+        },
+        {
+          "label": "(b)",
+          "marks": 3,
+          "content": [
+            {
+              "type": "text",
+              "content": "The curve C has three turning points."
+            },
+            {
+              "type": "newline"
+            },
+            {
+              "type": "text",
+              "content": "Using calculus,"
+            },
+            {
+              "type": "newline"
+            },
+            {
+              "type": "text",
+              "content": "show that the x coordinates of the three turning points satisfy the equation"
+            },
+            {
+              "type": "newline"
+            },
+            {
+              "type": "text",
+              "content": "$2x^3 – 10x^2 + 13x – 5 = 0$"
+            }
+          ],
+          "answer": {
+            "type": "none"
+          }
+        },
+        {
+          "label": "(c)",
+          "marks": 3,
+          "content": [
+            {
+              "type": "text",
+              "content": "Given that the x coordinate of one of the turning points is 1"
+            },
+            {
+              "type": "newline"
+            },
+            {
+              "type": "text",
+              "content": "find, using algebra, the exact x coordinates of the other two turning points."
+            },
+            {
+              "type": "newline"
+            },
+            {
+              "type": "text",
+              "content": "(Solutions based entirely on calculator technology are not acceptable.)"
+            }
+          ],
+          "answer": {
+            "type": "expression"
+          }
+        }
+      ],
+      "answer": null,
+      "meta": {}
+    },
+    {
+      "qnum": 8,
+      "marks": 7,
+      "stem": [
+        {
+          "type": "text",
+          "content": "A geometric sequence has first term a and common ratio r"
+        },
+        {
+          "type": "newline"
+        },
+        {
+          "type": "text",
+          "content": "Given that  $S_\\infty = 3a$"
+        }
+      ],
+      "parts": [
+        {
+          "label": "(a)",
+          "marks": 2,
+          "content": [
+            {
+              "type": "text",
+              "content": "show that  $r = \\frac{2}{3}$"
+            }
+          ],
+          "answer": {
+            "type": "none"
+          }
+        },
+        {
+          "label": "(b)",
+          "marks": 5,
+          "content": [
+            {
+              "type": "text",
+              "content": "Given also that"
+            },
+            {
+              "type": "newline"
+            },
+            {
+              "type": "text",
+              "content": "$u_2 – u_4 = 16$"
+            },
+            {
+              "type": "newline"
+            },
+            {
+              "type": "text",
+              "content": "where $u_k$ is the kth term of this sequence,"
+            },
+            {
+              "type": "newline"
+            },
+            {
+              "type": "text",
+              "content": "find the value of $S_{10}$ giving your answer to one decimal place."
+            }
+          ],
+          "answer": {
+            "type": "number"
+          }
+        }
+      ],
+      "answer": null,
+      "meta": {}
+    },
+    {
+      "qnum": 9,
+      "marks": 12,
+      "stem": [
+        {
+          "type": "text",
+          "content": "In this question you must show detailed reasoning."
+        },
+        {
+          "type": "newline"
+        },
+        {
+          "type": "text",
+          "content": "Solutions relying entirely on calculator technology are not acceptable."
+        },
+        {
+          "type": "newline"
+        },
+        {
+          "type": "text",
+          "content": "[Figure]"
+        },
+        {
+          "type": "newline"
+        },
+        {
+          "type": "text",
+          "content": "Figure 3 shows"
+        },
+        {
+          "type": "list",
+          "style": "bullet",
+          "items": [
+            "the curve $C_1$ with equation  $y = x^3 – 5x^2 + 3x + 14$",
+            "the circle $C_2$ with centre T"
+          ]
+        },
+        {
+          "type": "newline"
+        },
+        {
+          "type": "text",
+          "content": "The point T is the minimum turning point of $C_1$"
+        },
+        {
+          "type": "newline"
+        },
+        {
+          "type": "text",
+          "content": "Using Figure 3 and calculus,"
+        }
+      ],
+      "parts": [
+        {
+          "label": "(a)",
+          "marks": 3,
+          "content": [
+            {
+              "type": "text",
+              "content": "find the coordinates of T"
+            }
+          ],
+          "answer": {
+            "type": "coordinate",
+            "fields": 2
+          }
+        },
+        {
+          "label": "(b)",
+          "marks": 3,
+          "content": [
+            {
+              "type": "text",
+              "content": "The curve $C_1$ intersects the circle $C_2$ at the point A with x coordinate 2"
+            },
+            {
+              "type": "newline"
+            },
+            {
+              "type": "text",
+              "content": "Find an equation of the circle $C_2$"
+            }
+          ],
+          "answer": {
+            "type": "expression"
+          }
+        },
+        {
+          "label": "(c)",
+          "marks": 3,
+          "content": [
+            {
+              "type": "text",
+              "content": "The line l shown in Figure 3, is the tangent to circle $C_2$ at A"
+            },
+            {
+              "type": "newline"
+            },
+            {
+              "type": "text",
+              "content": "Show that an equation of l is"
+            },
+            {
+              "type": "newline"
+            },
+            {
+              "type": "text",
+              "content": "$y = \\frac{1}{3}x + \\frac{22}{3}$"
+            }
+          ],
+          "answer": {
+            "type": "none"
+          }
+        },
+        {
+          "label": "(d)",
+          "marks": 3,
+          "content": [
+            {
+              "type": "text",
+              "content": "The region R, shown shaded in Figure 3, is bounded by $C_1$, l and the y‑axis."
+            },
+            {
+              "type": "newline"
+            },
+            {
+              "type": "text",
+              "content": "Find the exact area of R."
+            }
+          ],
+          "answer": {
+            "type": "expression"
+          }
+        }
+      ],
+      "answer": null,
+      "meta": {}
+    },
+    {
+      "qnum": 10,
+      "marks": 7,
+      "stem": [
+        {
+          "type": "text",
+          "content": "Given  $a = \\log_2 3$"
+        }
+      ],
+      "parts": [
+        {
+          "label": "(i)",
+          "marks": 3,
+          "content": [
+            {
+              "type": "text",
+              "content": "write, in simplest form, in terms of a,"
+            }
+          ],
+          "subparts": [
+            {
+              "label": "(a)",
+              "marks": 1,
+              "content": [
+                {
+                  "type": "text",
+                  "content": "$\\log_2 9$"
+                }
+              ],
+              "answer": {
+                "type": "expression"
+              }
+            },
+            {
+              "label": "(b)",
+              "marks": 2,
+              "content": [
+                {
+                  "type": "text",
+                  "content": "$\\log_2 \\left(\\frac{3}{16}\\right)$"
+                }
+              ],
+              "answer": {
+                "type": "expression"
+              }
+            }
+          ],
+          "answer": null
+        },
+        {
+          "label": "(ii)",
+          "marks": 4,
+          "content": [
+            {
+              "type": "text",
+              "content": "Solve"
+            },
+            {
+              "type": "newline"
+            },
+            {
+              "type": "text",
+              "content": "$3^x \\times 2^{x + 4} = 6$"
+            },
+            {
+              "type": "newline"
+            },
+            {
+              "type": "text",
+              "content": "giving your answer, in simplest form, in terms of a."
+            }
+          ],
+          "answer": {
+            "type": "expression"
+          }
+        }
+      ],
+      "answer": null,
+      "meta": {}
+    }
+  ]
+}

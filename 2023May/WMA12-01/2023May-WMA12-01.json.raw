@@ -1,0 +1,976 @@
+{
+  "v": "1.0",
+  "paper": "2023May-WMA12-01",
+  "board": "edx",
+  "code": "WMA12",
+  "year": 2023,
+  "session": "May",
+  "paperNum": "01",
+  "type": "ial-p2",
+  "totalMarks": 75,
+  "time": 90,
+  "questions": [
+    {
+      "qnum": 1,
+      "marks": 3,
+      "stem": [
+        {
+          "type": "text",
+          "content": "The continuous curve C has equation $y = f(x)$."
+        },
+        {
+          "type": "newline"
+        },
+        {
+          "type": "text",
+          "content": "A table of values of x and y for $y = f(x)$ is shown below."
+        },
+        {
+          "type": "table",
+          "content": "\\begin{tabular}{|c|c|c|c|c|c|c|}\n\\hline\nx & 4.0 & 4.2 & 4.4 & 4.6 & 4.8 & 5.0 \\\\\n\\hline\ny & 9.2 & 8.4556 & 3.8512 & 5.0342 & 7.8297 & 8.6 \\\\\n\\hline\n\\end{tabular}"
+        },
+        {
+          "type": "newline"
+        },
+        {
+          "type": "text",
+          "content": "Use the trapezium rule with all the values of y in the table to find an approximation for"
+        },
+        {
+          "type": "newline"
+        },
+        {
+          "type": "text",
+          "content": "$$\\int_{4}^{5}f(x)\\,dx$$"
+        },
+        {
+          "type": "newline"
+        },
+        {
+          "type": "text",
+          "content": "giving your answer to 3 decimal places."
+        },
+        {
+          "type": "space"
+        }
+      ],
+      "parts": [],
+      "answer": {
+        "type": "number",
+        "decimalPlaces": 3
+      },
+      "meta": {}
+    },
+    {
+      "qnum": 2,
+      "marks": 6,
+      "stem": [
+        {
+          "type": "text",
+          "content": "In this question you must show all stages of your working."
+        },
+        {
+          "type": "newline"
+        },
+        {
+          "type": "text",
+          "content": "Solutions relying on calculator technology are not acceptable."
+        },
+        {
+          "type": "newline"
+        },
+        {
+          "type": "text",
+          "content": "$$f(x) = 4x^3 – 8x^2 + 5x + a$$"
+        },
+        {
+          "type": "newline"
+        },
+        {
+          "type": "text",
+          "content": "where a is a constant."
+        },
+        {
+          "type": "newline"
+        },
+        {
+          "type": "text",
+          "content": "Given that $(2x – 3)$ is a factor of f(x),"
+        }
+      ],
+      "parts": [
+        {
+          "label": "(a)",
+          "marks": 2,
+          "content": [
+            {
+              "type": "text",
+              "content": "use the factor theorem to show that $a = –3$"
+            },
+            {
+              "type": "space"
+            }
+          ],
+          "answer": {
+            "type": "none"
+          }
+        },
+        {
+          "label": "(b)",
+          "marks": 4,
+          "content": [
+            {
+              "type": "text",
+              "content": "Hence show that the equation $f(x) = 0$ has only one real root."
+            },
+            {
+              "type": "space"
+            }
+          ],
+          "answer": {
+            "type": "none"
+          }
+        }
+      ],
+      "answer": null,
+      "meta": {}
+    },
+    {
+      "qnum": 3,
+      "marks": 7,
+      "stem": [
+        {
+          "type": "text",
+          "content": "A circle C has centre (2, 5)"
+        },
+        {
+          "type": "newline"
+        },
+        {
+          "type": "text",
+          "content": "Given that the point P(8, –3) lies on C"
+        }
+      ],
+      "parts": [
+        {
+          "label": "(a)",
+          "marks": 3,
+          "content": [],
+          "subparts": [
+            {
+              "label": "(i)",
+              "marks": null,
+              "content": [
+                {
+                  "type": "text",
+                  "content": "find the radius of C"
+                }
+              ],
+              "answer": {
+                "type": "number"
+              }
+            },
+            {
+              "label": "(ii)",
+              "marks": null,
+              "content": [
+                {
+                  "type": "text",
+                  "content": "find an equation for C"
+                },
+                {
+                  "type": "space"
+                }
+              ],
+              "answer": {
+                "type": "expression"
+              }
+            }
+          ],
+          "answer": null
+        },
+        {
+          "label": "(b)",
+          "marks": 4,
+          "content": [
+            {
+              "type": "text",
+              "content": "Find the equation of the tangent to C at P giving your answer in the form"
+            },
+            {
+              "type": "newline"
+            },
+            {
+              "type": "text",
+              "content": "$ax + by + c = 0$ where a, b and c are integers to be found."
+            },
+            {
+              "type": "space"
+            }
+          ],
+          "answer": {
+            "type": "expression"
+          }
+        }
+      ],
+      "answer": null,
+      "meta": {}
+    },
+    {
+      "qnum": 4,
+      "marks": 7,
+      "stem": [
+        {
+          "type": "text",
+          "content": "The binomial expansion, in ascending powers of x, of"
+        },
+        {
+          "type": "newline"
+        },
+        {
+          "type": "text",
+          "content": "$$(3 + px)^5$$"
+        },
+        {
+          "type": "newline"
+        },
+        {
+          "type": "text",
+          "content": "where p is a constant, can be written in the form"
+        },
+        {
+          "type": "newline"
+        },
+        {
+          "type": "text",
+          "content": "$A + Bx + Cx^2 + Dx^3 ...$"
+        },
+        {
+          "type": "newline"
+        },
+        {
+          "type": "text",
+          "content": "where A, B, C and D are constants."
+        }
+      ],
+      "parts": [
+        {
+          "label": "(a)",
+          "marks": 1,
+          "content": [
+            {
+              "type": "text",
+              "content": "Find the value of A"
+            },
+            {
+              "type": "space"
+            }
+          ],
+          "answer": {
+            "type": "number"
+          }
+        },
+        {
+          "label": "(b)",
+          "marks": 6,
+          "content": [
+            {
+              "type": "text",
+              "content": "Given that"
+            },
+            {
+              "type": "list",
+              "style": "bullet",
+              "items": [
+                "B = 18D",
+                "p < 0"
+              ]
+            },
+            {
+              "type": "newline"
+            },
+            {
+              "type": "text",
+              "content": "find"
+            }
+          ],
+          "subparts": [
+            {
+              "label": "(i)",
+              "marks": null,
+              "content": [
+                {
+                  "type": "text",
+                  "content": "the value of p"
+                }
+              ],
+              "answer": {
+                "type": "number"
+              }
+            },
+            {
+              "label": "(ii)",
+              "marks": null,
+              "content": [
+                {
+                  "type": "text",
+                  "content": "the value of C"
+                },
+                {
+                  "type": "space"
+                }
+              ],
+              "answer": {
+                "type": "number"
+              }
+            }
+          ],
+          "answer": null
+        }
+      ],
+      "answer": null,
+      "meta": {}
+    },
+    {
+      "qnum": 5,
+      "marks": 5,
+      "stem": [
+        {
+          "type": "text",
+          "content": "Use the laws of logarithms to solve"
+        },
+        {
+          "type": "newline"
+        },
+        {
+          "type": "text",
+          "content": "$$\\log_2\,(16x) + \log_2\,(x + 1) = 3 + \log_2\,(x + 6)$$"
+        },
+        {
+          "type": "space"
+        }
+      ],
+      "parts": [],
+      "answer": {
+        "type": "expression"
+      },
+      "meta": {}
+    },
+    {
+      "qnum": 6,
+      "marks": 9,
+      "stem": [
+        {
+          "type": "text",
+          "content": "In this question you must show all stages of your working."
+        },
+        {
+          "type": "newline"
+        },
+        {
+          "type": "text",
+          "content": "Solutions relying entirely on calculator technology are not acceptable."
+        },
+        {
+          "type": "newline"
+        },
+        {
+          "type": "text",
+          "content": "A software developer released an app to download."
+        },
+        {
+          "type": "newline"
+        },
+        {
+          "type": "text",
+          "content": "The numbers of downloads of the app each month, in thousands, for the first three months after the app was released were"
+        },
+        {
+          "type": "newline"
+        },
+        {
+          "type": "text",
+          "content": "$2k – 15 \\quad k \\quad k + 4$"
+        },
+        {
+          "type": "newline"
+        },
+        {
+          "type": "text",
+          "content": "where k is a constant."
+        },
+        {
+          "type": "newline"
+        },
+        {
+          "type": "text",
+          "content": "Given that the numbers of downloads each month are modelled as a geometric series,"
+        }
+      ],
+      "parts": [
+        {
+          "label": "(a)",
+          "marks": 2,
+          "content": [
+            {
+              "type": "text",
+              "content": "show that $k^2 – 7k – 60 = 0$"
+            },
+            {
+              "type": "space"
+            }
+          ],
+          "answer": {
+            "type": "none"
+          }
+        },
+        {
+          "label": "(b)",
+          "marks": 4,
+          "content": [
+            {
+              "type": "text",
+              "content": "predict the number of downloads in the 4th month."
+            },
+            {
+              "type": "space"
+            }
+          ],
+          "answer": {
+            "type": "number"
+          }
+        },
+        {
+          "label": "(c)",
+          "marks": 3,
+          "content": [
+            {
+              "type": "text",
+              "content": "The total number of all downloads of the app is predicted to exceed 3 million for the first time in the Nth month."
+            },
+            {
+              "type": "newline"
+            },
+            {
+              "type": "text",
+              "content": "Calculate the value of N according to the model."
+            },
+            {
+              "type": "space"
+            }
+          ],
+          "answer": {
+            "type": "number"
+          }
+        }
+      ],
+      "answer": null,
+      "meta": {}
+    },
+    {
+      "qnum": 7,
+      "marks": 8,
+      "stem": [
+        {
+          "type": "text",
+          "content": "The height of a river above a fixed point on the riverbed was monitored over a 7‑day period."
+        },
+        {
+          "type": "newline"
+        },
+        {
+          "type": "text",
+          "content": "The height of the river, H metres, t days after monitoring began, was given by"
+        },
+        {
+          "type": "newline"
+        },
+        {
+          "type": "text",
+          "content": "$$H = \\frac{t}{20} (20 + 6t – t^2) + 17$$"
+        },
+        {
+          "type": "newline"
+        },
+        {
+          "type": "text",
+          "content": "$0 \\le t \\le 7$"
+        },
+        {
+          "type": "newline"
+        },
+        {
+          "type": "text",
+          "content": "Given that H has a stationary value at $t = \\alpha$"
+        }
+      ],
+      "parts": [
+        {
+          "label": "(a)",
+          "marks": 5,
+          "content": [
+            {
+              "type": "text",
+              "content": "use calculus to show that $\\alpha$ satisfies the equation"
+            },
+            {
+              "type": "newline"
+            },
+            {
+              "type": "text",
+              "content": "$$5\\alpha^2 – 18\\alpha – 20 = 0$$"
+            },
+            {
+              "type": "space"
+            }
+          ],
+          "answer": {
+            "type": "none"
+          }
+        },
+        {
+          "label": "(b)",
+          "marks": 1,
+          "content": [
+            {
+              "type": "text",
+              "content": "Hence find the value of $\\alpha$, giving your answer to 3 decimal places."
+            },
+            {
+              "type": "space"
+            }
+          ],
+          "answer": {
+            "type": "number",
+            "decimalPlaces": 3
+          }
+        },
+        {
+          "label": "(c)",
+          "marks": 2,
+          "content": [
+            {
+              "type": "text",
+              "content": "Use further calculus to prove that H is a maximum at this value of $\\alpha$."
+            },
+            {
+              "type": "space"
+            }
+          ],
+          "answer": {
+            "type": "none"
+          }
+        }
+      ],
+      "answer": null,
+      "meta": {}
+    },
+    {
+      "qnum": 8,
+      "marks": 5,
+      "stem": [],
+      "parts": [
+        {
+          "label": "(i)",
+          "marks": 2,
+          "content": [
+            {
+              "type": "text",
+              "content": "A student writes the following statement:"
+            },
+            {
+              "type": "newline"
+            },
+            {
+              "type": "text",
+              "content": "“When a and b are consecutive prime numbers, $a^2 + b^2$ is never a multiple of 10”"
+            },
+            {
+              "type": "newline"
+            },
+            {
+              "type": "text",
+              "content": "Prove by counter example that this statement is not true."
+            },
+            {
+              "type": "space"
+            }
+          ],
+          "answer": {
+            "type": "none"
+          }
+        },
+        {
+          "label": "(ii)",
+          "marks": 3,
+          "content": [
+            {
+              "type": "text",
+              "content": "Given that x and y are even integers greater than 0 and less than 6, prove by exhaustion, that"
+            },
+            {
+              "type": "newline"
+            },
+            {
+              "type": "text",
+              "content": "$1 < x^2 – \\frac{xy}{4} < 15$"
+            },
+            {
+              "type": "space"
+            }
+          ],
+          "answer": {
+            "type": "none"
+          }
+        }
+      ],
+      "answer": null,
+      "meta": {}
+    },
+    {
+      "qnum": 9,
+      "marks": 7,
+      "stem": [
+        {
+          "type": "text",
+          "content": "In this question you must show all stages of your working."
+        },
+        {
+          "type": "newline"
+        },
+        {
+          "type": "text",
+          "content": "Solutions relying entirely on calculator technology are not acceptable."
+        }
+      ],
+      "parts": [
+        {
+          "label": "(a)",
+          "marks": 3,
+          "content": [
+            {
+              "type": "text",
+              "content": "Show that"
+            },
+            {
+              "type": "newline"
+            },
+            {
+              "type": "text",
+              "content": "$3\\,\\cos\\,\\theta\\,(\\tan\\,\\theta \\sin\\,\\theta + 3) = 11 – 5\\cos\\,\\theta$"
+            },
+            {
+              "type": "newline"
+            },
+            {
+              "type": "text",
+              "content": "may be written as"
+            },
+            {
+              "type": "newline"
+            },
+            {
+              "type": "text",
+              "content": "$3\\,\\cos^2\\,\\theta\\,– 14\\,\\cos\\,\\theta + 8 = 0$"
+            },
+            {
+              "type": "space"
+            }
+          ],
+          "answer": {
+            "type": "none"
+          }
+        },
+        {
+          "label": "(b)",
+          "marks": 4,
+          "content": [
+            {
+              "type": "text",
+              "content": "Hence solve, for $0 < x < 360°$"
+            },
+            {
+              "type": "newline"
+            },
+            {
+              "type": "text",
+              "content": "$3\\,\\cos\\,2x\\,(\\tan\\,2x \\sin\\,2x + 3) = 11 – 5\\cos\\,2x$"
+            },
+            {
+              "type": "newline"
+            },
+            {
+              "type": "text",
+              "content": "giving your answers to one decimal place."
+            },
+            {
+              "type": "space"
+            }
+          ],
+          "answer": {
+            "type": "expression",
+            "decimalPlaces": 1
+          }
+        }
+      ],
+      "answer": null,
+      "meta": {}
+    },
+    {
+      "qnum": 10,
+      "marks": 10,
+      "stem": [
+        {
+          "type": "text",
+          "content": "The curve C has equation"
+        },
+        {
+          "type": "newline"
+        },
+        {
+          "type": "text",
+          "content": "$$y = \\left(x - \\frac{k}{x}\\right)^2 \\quad x > 0$$"
+        },
+        {
+          "type": "newline"
+        },
+        {
+          "type": "text",
+          "content": "where k is a positive constant."
+        }
+      ],
+      "parts": [
+        {
+          "label": "(a)",
+          "marks": 5,
+          "content": [
+            {
+              "type": "text",
+              "content": "Show that"
+            },
+            {
+              "type": "newline"
+            },
+            {
+              "type": "text",
+              "content": "$$\\int_{1}^{16}\\left(x - \\frac{k}{x}\\right)^2\\,dx = ak^2 + bk + 2046$$"
+            },
+            {
+              "type": "newline"
+            },
+            {
+              "type": "text",
+              "content": "where a and b are integers to be found."
+            },
+            {
+              "type": "space"
+            }
+          ],
+          "answer": {
+            "type": "none"
+          }
+        },
+        {
+          "label": "(b)",
+          "marks": 2,
+          "content": [
+            {
+              "type": "text",
+              "content": "[Figure]"
+            },
+            {
+              "type": "newline"
+            },
+            {
+              "type": "text",
+              "content": "Figure 1 shows a sketch of the curve C and the line l."
+            },
+            {
+              "type": "newline"
+            },
+            {
+              "type": "text",
+              "content": "Given that l intersects C at the point A(1, 9) and at the point B(16, q) where q is a constant,"
+            },
+            {
+              "type": "newline"
+            },
+            {
+              "type": "text",
+              "content": "show that $k = 4$"
+            },
+            {
+              "type": "space"
+            }
+          ],
+          "answer": {
+            "type": "none"
+          }
+        },
+        {
+          "label": "(c)",
+          "marks": 3,
+          "content": [
+            {
+              "type": "text",
+              "content": "The region R, shown shaded in Figure 1, is bounded by C and l"
+            },
+            {
+              "type": "newline"
+            },
+            {
+              "type": "text",
+              "content": "Using the answers to parts (a) and (b),"
+            },
+            {
+              "type": "newline"
+            },
+            {
+              "type": "text",
+              "content": "find the area of region R"
+            },
+            {
+              "type": "space"
+            }
+          ],
+          "answer": {
+            "type": "number"
+          }
+        }
+      ],
+      "answer": null,
+      "meta": {}
+    },
+    {
+      "qnum": 11,
+      "marks": 8,
+      "stem": [
+        {
+          "type": "text",
+          "content": "A sequence $u_1, u_2, u_3, ...$ is defined by"
+        },
+        {
+          "type": "newline"
+        },
+        {
+          "type": "text",
+          "content": "$u_{n+1} = b – au_n$"
+        },
+        {
+          "type": "newline"
+        },
+        {
+          "type": "text",
+          "content": "$u_1 = 3$"
+        },
+        {
+          "type": "newline"
+        },
+        {
+          "type": "text",
+          "content": "where a and b are constants."
+        }
+      ],
+      "parts": [
+        {
+          "label": "(a)",
+          "marks": 2,
+          "content": [
+            {
+              "type": "text",
+              "content": "Find, in terms of a and b,"
+            }
+          ],
+          "subparts": [
+            {
+              "label": "(i)",
+              "marks": null,
+              "content": [
+                {
+                  "type": "text",
+                  "content": "$u_2$"
+                }
+              ],
+              "answer": {
+                "type": "expression"
+              }
+            },
+            {
+              "label": "(ii)",
+              "marks": null,
+              "content": [
+                {
+                  "type": "text",
+                  "content": "$u_3$"
+                },
+                {
+                  "type": "space"
+                }
+              ],
+              "answer": {
+                "type": "expression"
+              }
+            }
+          ],
+          "answer": null
+        },
+        {
+          "label": "(b)",
+          "marks": 3,
+          "content": [
+            {
+              "type": "text",
+              "content": "Given"
+            },
+            {
+              "type": "list",
+              "style": "bullet",
+              "items": [
+                "$u_n \\to \\frac{15}{3}$",
+                "$b = a + 9$"
+              ]
+            },
+            {
+              "type": "newline"
+            },
+            {
+              "type": "text",
+              "content": "show that"
+            },
+            {
+              "type": "newline"
+            },
+            {
+              "type": "text",
+              "content": "$$a^2 – 5a – 66 = 0$$"
+            },
+            {
+              "type": "space"
+            }
+          ],
+          "answer": {
+            "type": "none"
+          }
+        },
+        {
+          "label": "(c)",
+          "marks": 3,
+          "content": [
+            {
+              "type": "text",
+              "content": "Hence find the larger possible value of $u_2$"
+            },
+            {
+              "type": "space"
+            }
+          ],
+          "answer": {
+            "type": "number"
+          }
+        }
+      ],
+      "answer": null,
+      "meta": {}
+    }
+  ]
+}

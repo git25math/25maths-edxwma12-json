@@ -1,0 +1,935 @@
+{
+  "v": "1.0",
+  "paper": "2022Jan-WMA12-01",
+  "board": "edx",
+  "code": "WMA12",
+  "year": 2022,
+  "session": "Jan",
+  "paperNum": "01",
+  "type": "ial-p2",
+  "totalMarks": 75,
+  "time": 90,
+  "questions": [
+    {
+      "qnum": 1,
+      "marks": 7,
+      "stem": [
+        {
+          "type": "text",
+          "content": "The table below shows corresponding values of x and y for"
+        },
+        {
+          "type": "newline"
+        },
+        {
+          "type": "text",
+          "content": "$$y = \frac{25}{x} - x$$"
+        },
+        {
+          "type": "newline"
+        },
+        {
+          "type": "text",
+          "content": "The values of y are given to 3 decimal places."
+        },
+        {
+          "type": "table",
+          "content": "\\begin{tabular}{|c|c|c|c|c|c|}\n\\hline\nx & 5 & 5.5 & 6 & 6.5 & 7 \\\\\n\\hline\ny & 6.792 & 6.298 & 5.858 & 5.466 & 5.113 \\\\\n\\hline\n\\end{tabular}"
+        },
+        {
+          "type": "newline"
+        },
+        {
+          "type": "text",
+          "content": "Using the trapezium rule with all the values of y in the given table,"
+        }
+      ],
+      "parts": [
+        {
+          "label": "(a)",
+          "marks": 3,
+          "content": [
+            {
+              "type": "text",
+              "content": "obtain an estimate for"
+            },
+            {
+              "type": "newline"
+            },
+            {
+              "type": "text",
+              "content": "$$\\int_5^7 \frac{25}{x} - x \, \\mathrm{d}x$$"
+            },
+            {
+              "type": "newline"
+            },
+            {
+              "type": "text",
+              "content": "giving your answer to 2 decimal places."
+            },
+            {
+              "type": "space",
+              "height": "1cm"
+            }
+          ],
+          "answer": {
+            "type": "number",
+            "decimalPlaces": 2
+          }
+        },
+        {
+          "label": "(b)",
+          "marks": 4,
+          "content": [
+            {
+              "type": "text",
+              "content": "Using your answer to part (a) and making your method clear, estimate"
+            }
+          ],
+          "subparts": [
+            {
+              "label": "(i)",
+              "marks": 2,
+              "content": [
+                {
+                  "type": "text",
+                  "content": "$$\\int_5^7 \frac{26}{x} - x \, \\mathrm{d}x$$"
+                },
+                {
+                  "type": "space",
+                  "height": "1cm"
+                }
+              ],
+              "answer": {
+                "type": "number",
+                "decimalPlaces": 2
+              }
+            },
+            {
+              "label": "(ii)",
+              "marks": 2,
+              "content": [
+                {
+                  "type": "text",
+                  "content": "$$\\int_5^7 \\left( \\frac{25}{x} - x \\right) + 3 \, \\mathrm{d}x$$"
+                },
+                {
+                  "type": "space",
+                  "height": "1cm"
+                }
+              ],
+              "answer": {
+                "type": "number",
+                "decimalPlaces": 2
+              }
+            }
+          ],
+          "answer": null
+        }
+      ],
+      "answer": null,
+      "meta": {}
+    },
+    {
+      "qnum": 2,
+      "marks": 8,
+      "stem": [
+        {
+          "type": "text",
+          "content": "In this question you must show all stages of your working. Solutions relying entirely on calculator technology are not acceptable."
+        },
+        {
+          "type": "newline"
+        },
+        {
+          "type": "text",
+          "content": "The curve C has equation"
+        },
+        {
+          "type": "newline"
+        },
+        {
+          "type": "text",
+          "content": "$$y = 27x^{\\frac{1}{2}} - x^{\\frac{3}{2}} - 20$$"
+        },
+        {
+          "type": "newline"
+        },
+        {
+          "type": "text",
+          "content": "$x > 0$"
+        }
+      ],
+      "parts": [
+        {
+          "label": "(a)",
+          "marks": 2,
+          "content": [
+            {
+              "type": "text",
+              "content": "Find $\\frac{\\mathrm{d}y}{\\mathrm{d}x}$, giving each term in simplest form."
+            },
+            {
+              "type": "space",
+              "height": "1cm"
+            }
+          ],
+          "answer": {
+            "type": "expression"
+          }
+        },
+        {
+          "label": "(b)",
+          "marks": 4,
+          "content": [
+            {
+              "type": "text",
+              "content": "Hence find the coordinates of the stationary point of C."
+            },
+            {
+              "type": "space",
+              "height": "1cm"
+            }
+          ],
+          "answer": {
+            "type": "coordinate",
+            "fields": 2
+          }
+        },
+        {
+          "label": "(c)",
+          "marks": 2,
+          "content": [
+            {
+              "type": "text",
+              "content": "Find $\\frac{\\mathrm{d}^2y}{\\mathrm{d}x^2}$ and hence determine the nature of the stationary point of C."
+            },
+            {
+              "type": "space",
+              "height": "1cm"
+            }
+          ],
+          "answer": {
+            "type": "structured",
+            "answerBlocks": [
+              {
+                "type": "expression"
+              },
+              {
+                "type": "text"
+              }
+            ]
+          }
+        }
+      ],
+      "answer": null,
+      "meta": {}
+    },
+    {
+      "qnum": 3,
+      "marks": 7,
+      "stem": [],
+      "parts": [
+        {
+          "label": "(a)",
+          "marks": 4,
+          "content": [
+            {
+              "type": "text",
+              "content": "Find the first 4 terms, in ascending powers of x, of the binomial expansion of"
+            },
+            {
+              "type": "newline"
+            },
+            {
+              "type": "text",
+              "content": "$$\\left(2 - \\frac{kx}{8}\\right)^4$$"
+            },
+            {
+              "type": "newline"
+            },
+            {
+              "type": "text",
+              "content": "where k is a non‑zero constant. Give each term in simplest form."
+            },
+            {
+              "type": "space",
+              "height": "1cm"
+            }
+          ],
+          "answer": {
+            "type": "expression"
+          }
+        },
+        {
+          "label": "(b)",
+          "marks": 3,
+          "content": [
+            {
+              "type": "text",
+              "content": "f(x) = $(5 - 3x) \\left(2 - \\frac{kx}{8}\\right)^4$"
+            },
+            {
+              "type": "newline"
+            },
+            {
+              "type": "text",
+              "content": "In the expansion of f(x), the constant term is 3 times the coefficient of x."
+            },
+            {
+              "type": "newline"
+            },
+            {
+              "type": "text",
+              "content": "Find the value of k."
+            },
+            {
+              "type": "space",
+              "height": "1cm"
+            }
+          ],
+          "answer": {
+            "type": "number"
+          }
+        }
+      ],
+      "answer": null,
+      "meta": {}
+    },
+    {
+      "qnum": 4,
+      "marks": 5,
+      "stem": [
+        {
+          "type": "text",
+          "content": "Using the laws of logarithms, solve"
+        },
+        {
+          "type": "newline"
+        },
+        {
+          "type": "text",
+          "content": "$$\\log_3 (32 - 12x) = 2 \\log_3 (1 - x) + 3$$"
+        },
+        {
+          "type": "space",
+          "height": "1cm"
+        }
+      ],
+      "parts": [],
+      "answer": {
+        "type": "expression"
+      },
+      "meta": {}
+    },
+    {
+      "qnum": 5,
+      "marks": 8,
+      "stem": [
+        {
+          "type": "text",
+          "content": "f(x) = $3x^3 + Ax^2 + Bx - 10$"
+        },
+        {
+          "type": "newline"
+        },
+        {
+          "type": "text",
+          "content": "where A and B are integers."
+        },
+        {
+          "type": "newline"
+        },
+        {
+          "type": "text",
+          "content": "Given that"
+        },
+        {
+          "type": "list",
+          "style": "bullet",
+          "items": [
+            "when f(x) is divided by (x – 1) the remainder is k",
+            "when f(x) is divided by (x + 1) the remainder is –10k",
+            "k is a constant"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "label": "(a)",
+          "marks": 3,
+          "content": [
+            {
+              "type": "text",
+              "content": "show that"
+            },
+            {
+              "type": "newline"
+            },
+            {
+              "type": "text",
+              "content": "$$11A + 9B = 83$$"
+            },
+            {
+              "type": "space",
+              "height": "1cm"
+            }
+          ],
+          "answer": {
+            "type": "none"
+          }
+        },
+        {
+          "label": "(b)",
+          "marks": 3,
+          "content": [
+            {
+              "type": "text",
+              "content": "Given also that (3x – 2) is a factor of f(x),"
+            },
+            {
+              "type": "newline"
+            },
+            {
+              "type": "text",
+              "content": "find the value of A and the value of B."
+            },
+            {
+              "type": "space",
+              "height": "1cm"
+            }
+          ],
+          "answer": {
+            "type": "structured",
+            "answerBlocks": [
+              {
+                "type": "number",
+                "prefix": "A = "
+              },
+              {
+                "type": "number",
+                "prefix": "B = "
+              }
+            ]
+          }
+        },
+        {
+          "label": "(c)",
+          "marks": 2,
+          "content": [
+            {
+              "type": "text",
+              "content": "Hence find the quadratic expression g(x) such that"
+            },
+            {
+              "type": "newline"
+            },
+            {
+              "type": "text",
+              "content": "$$f(x) = (3x - 2)\\,\\mathrm{g}(x)$$"
+            },
+            {
+              "type": "space",
+              "height": "1cm"
+            }
+          ],
+          "answer": {
+            "type": "expression"
+          }
+        }
+      ],
+      "answer": null,
+      "meta": {}
+    },
+    {
+      "qnum": 6,
+      "marks": 8,
+      "stem": [
+        {
+          "type": "text",
+          "content": "[Figure]"
+        },
+        {
+          "type": "newline"
+        },
+        {
+          "type": "text",
+          "content": "The points P(23, 14), Q(15, –30) and R(–7, –26) lie on the circle C, as shown in Figure 1."
+        }
+      ],
+      "parts": [
+        {
+          "label": "(a)",
+          "marks": 2,
+          "content": [
+            {
+              "type": "text",
+              "content": "Show that angle PQR = 90°"
+            },
+            {
+              "type": "space",
+              "height": "1cm"
+            }
+          ],
+          "answer": {
+            "type": "none"
+          }
+        },
+        {
+          "label": "(b)",
+          "marks": 3,
+          "content": [
+            {
+              "type": "text",
+              "content": "Hence, or otherwise, find"
+            }
+          ],
+          "subparts": [
+            {
+              "label": "(i)",
+              "marks": 2,
+              "content": [
+                {
+                  "type": "text",
+                  "content": "the centre of C,"
+                },
+                {
+                  "type": "space",
+                  "height": "1cm"
+                }
+              ],
+              "answer": {
+                "type": "coordinate",
+                "fields": 2
+              }
+            },
+            {
+              "label": "(ii)",
+              "marks": 1,
+              "content": [
+                {
+                  "type": "text",
+                  "content": "the radius of C."
+                },
+                {
+                  "type": "space",
+                  "height": "1cm"
+                }
+              ],
+              "answer": {
+                "type": "number"
+              }
+            }
+          ],
+          "answer": null
+        },
+        {
+          "label": "(c)",
+          "marks": 3,
+          "content": [
+            {
+              "type": "text",
+              "content": "Given that the point S lies on C such that the distance QS is greatest,"
+            },
+            {
+              "type": "newline"
+            },
+            {
+              "type": "text",
+              "content": "find an equation of the tangent to C at S, giving your answer in the form $ax + by + c = 0$, where a, b and c are integers to be found."
+            },
+            {
+              "type": "space",
+              "height": "1cm"
+            }
+          ],
+          "answer": {
+            "type": "expression"
+          }
+        }
+      ],
+      "answer": null,
+      "meta": {}
+    },
+    {
+      "qnum": 7,
+      "marks": 8,
+      "stem": [
+        {
+          "type": "text",
+          "content": "In this question you must show all stages of your working. Solutions relying entirely on calculator technology are not acceptable."
+        }
+      ],
+      "parts": [
+        {
+          "label": "(i)",
+          "marks": 4,
+          "content": [
+            {
+              "type": "text",
+              "content": "Solve, for –90° < x < 90°, the equation"
+            },
+            {
+              "type": "newline"
+            },
+            {
+              "type": "text",
+              "content": "$$3 \\sin (2x - 15^\\circ) = \\cos (2x - 15^\\circ)$$"
+            },
+            {
+              "type": "newline"
+            },
+            {
+              "type": "text",
+              "content": "giving your answers to one decimal place."
+            },
+            {
+              "type": "space",
+              "height": "1cm"
+            }
+          ],
+          "answer": {
+            "type": "expression"
+          }
+        },
+        {
+          "label": "(ii)",
+          "marks": 4,
+          "content": [
+            {
+              "type": "text",
+              "content": "Solve, for $0 < \\theta < 2\\pi$, the equation"
+            },
+            {
+              "type": "newline"
+            },
+            {
+              "type": "text",
+              "content": "$$4 \\sin^2 \\theta + 8 \\cos \\theta = 3$$"
+            },
+            {
+              "type": "newline"
+            },
+            {
+              "type": "text",
+              "content": "giving your answers to 3 significant figures."
+            },
+            {
+              "type": "space",
+              "height": "1cm"
+            }
+          ],
+          "answer": {
+            "type": "expression"
+          }
+        }
+      ],
+      "answer": null,
+      "meta": {}
+    },
+    {
+      "qnum": 8,
+      "marks": 9,
+      "stem": [
+        {
+          "type": "text",
+          "content": "A metal post is repeatedly hit in order to drive it into the ground."
+        },
+        {
+          "type": "newline"
+        },
+        {
+          "type": "text",
+          "content": "Given that"
+        },
+        {
+          "type": "list",
+          "style": "bullet",
+          "items": [
+            "on the 1st hit, the post is driven 100 mm into the ground",
+            "on the 2nd hit, the post is driven an additional 98 mm into the ground",
+            "on the 3rd hit, the post is driven an additional 96 mm into the ground",
+            "the additional distances the post travels on each subsequent hit form an arithmetic sequence"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "label": "(a)",
+          "marks": 1,
+          "content": [
+            {
+              "type": "text",
+              "content": "show that the post is driven an additional 62 mm into the ground with the 20th hit."
+            },
+            {
+              "type": "space",
+              "height": "1cm"
+            }
+          ],
+          "answer": {
+            "type": "none"
+          }
+        },
+        {
+          "label": "(b)",
+          "marks": 2,
+          "content": [
+            {
+              "type": "text",
+              "content": "Find the total distance that the post has been driven into the ground after 20 hits."
+            },
+            {
+              "type": "space",
+              "height": "1cm"
+            }
+          ],
+          "answer": {
+            "type": "number",
+            "suffix": "mm"
+          }
+        },
+        {
+          "label": "(c)",
+          "marks": 2,
+          "content": [
+            {
+              "type": "text",
+              "content": "Given that for each subsequent hit after the 20th hit"
+            },
+            {
+              "type": "list",
+              "style": "bullet",
+              "items": [
+                "the additional distances the post travels form a geometric sequence with common ratio r",
+                "on the 22nd hit, the post is driven an additional 60 mm into the ground"
+              ]
+            },
+            {
+              "type": "text",
+              "content": "find the value of r, giving your answer to 3 decimal places."
+            },
+            {
+              "type": "space",
+              "height": "1cm"
+            }
+          ],
+          "answer": {
+            "type": "number",
+            "decimalPlaces": 3
+          }
+        },
+        {
+          "label": "(d)",
+          "marks": 4,
+          "content": [
+            {
+              "type": "text",
+              "content": "After a total of N hits, the post will have been driven more than 3 m into the ground."
+            },
+            {
+              "type": "newline"
+            },
+            {
+              "type": "text",
+              "content": "Find, showing all steps in your working, the smallest possible value of N."
+            },
+            {
+              "type": "space",
+              "height": "1cm"
+            }
+          ],
+          "answer": {
+            "type": "number"
+          }
+        }
+      ],
+      "answer": null,
+      "meta": {}
+    },
+    {
+      "qnum": 9,
+      "marks": 10,
+      "stem": [
+        {
+          "type": "text",
+          "content": "[Figure]"
+        },
+        {
+          "type": "newline"
+        },
+        {
+          "type": "text",
+          "content": "Figure 2 shows"
+        },
+        {
+          "type": "list",
+          "style": "bullet",
+          "items": [
+            "the curve C with equation $y = x - x^2$",
+            "the line l with equation $y = mx$, where m is a constant and $0 < m < 1$"
+          ]
+        },
+        {
+          "type": "text",
+          "content": "The line and the curve intersect at the origin O and at the point P."
+        }
+      ],
+      "parts": [
+        {
+          "label": "(a)",
+          "marks": 2,
+          "content": [
+            {
+              "type": "text",
+              "content": "Find, in terms of m, the coordinates of P."
+            },
+            {
+              "type": "space",
+              "height": "1cm"
+            }
+          ],
+          "answer": {
+            "type": "coordinate",
+            "fields": 2
+          }
+        },
+        {
+          "label": "(b)",
+          "marks": 5,
+          "content": [
+            {
+              "type": "text",
+              "content": "The region R1, shown shaded in Figure 2, is bounded by C and l."
+            },
+            {
+              "type": "newline"
+            },
+            {
+              "type": "text",
+              "content": "Show that the area of R1 is"
+            },
+            {
+              "type": "newline"
+            },
+            {
+              "type": "text",
+              "content": "$$\\frac{1}{6}(1-m)^3$$"
+            },
+            {
+              "type": "space",
+              "height": "1cm"
+            }
+          ],
+          "answer": {
+            "type": "none"
+          }
+        },
+        {
+          "label": "(c)",
+          "marks": 3,
+          "content": [
+            {
+              "type": "text",
+              "content": "The region R2, also shown shaded in Figure 2, is bounded by C, the x‑axis and l."
+            },
+            {
+              "type": "newline"
+            },
+            {
+              "type": "text",
+              "content": "Given that the area of R1 is equal to the area of R2"
+            },
+            {
+              "type": "newline"
+            },
+            {
+              "type": "text",
+              "content": "find the exact value of m."
+            },
+            {
+              "type": "space",
+              "height": "1cm"
+            }
+          ],
+          "answer": {
+            "type": "expression"
+          }
+        }
+      ],
+      "answer": null,
+      "meta": {}
+    },
+    {
+      "qnum": 10,
+      "marks": 5,
+      "stem": [],
+      "parts": [
+        {
+          "label": "(i)",
+          "marks": 1,
+          "content": [
+            {
+              "type": "text",
+              "content": "Prove by counter example that the statement"
+            },
+            {
+              "type": "newline"
+            },
+            {
+              "type": "text",
+              "content": "“if p is a prime number then $2p + 1$ is also a prime number”"
+            },
+            {
+              "type": "newline"
+            },
+            {
+              "type": "text",
+              "content": "is not true."
+            },
+            {
+              "type": "space",
+              "height": "1cm"
+            }
+          ],
+          "answer": {
+            "type": "none"
+          }
+        },
+        {
+          "label": "(ii)",
+          "marks": 4,
+          "content": [
+            {
+              "type": "text",
+              "content": "Use proof by exhaustion to prove that if n is an integer then"
+            },
+            {
+              "type": "newline"
+            },
+            {
+              "type": "text",
+              "content": "$$5n^2 + n + 12$$"
+            },
+            {
+              "type": "newline"
+            },
+            {
+              "type": "text",
+              "content": "is always even."
+            },
+            {
+              "type": "space",
+              "height": "1cm"
+            }
+          ],
+          "answer": {
+            "type": "none"
+          }
+        }
+      ],
+      "answer": null,
+      "meta": {}
+    }
+  ]
+}

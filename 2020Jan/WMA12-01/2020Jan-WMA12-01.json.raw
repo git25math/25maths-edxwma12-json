@@ -1,0 +1,728 @@
+{
+  "v": "1.0",
+  "paper": "2020Jan-WMA12-01",
+  "board": "edx",
+  "code": "WMA12",
+  "year": 2020,
+  "session": "Jan",
+  "paperNum": "01",
+  "type": "ial-p2",
+  "totalMarks": 75,
+  "time": 90,
+  "questions": [
+    {
+      "qnum": 1,
+      "marks": 7,
+      "stem": [
+        {
+          "type": "text",
+          "content": "The table below shows corresponding values of x and y for $y = \\log_2 (2x)$"
+        },
+        {
+          "type": "newline"
+        },
+        {
+          "type": "text",
+          "content": "The values of y are given to 2 decimal places as appropriate."
+        },
+        {
+          "type": "table",
+          "content": "\\begin{tabular}{|c|c|c|c|c|c|}\n\\hline\nx & 2 & 5 & 8 & 11 & 14 \\\\\n\\hline\ny & 2 & 3.32 & 4 & 4.46 & 4.81 \\\\\n\\hline\n\\end{tabular}"
+        },
+        {
+          "type": "newline"
+        },
+        {
+          "type": "text",
+          "content": "Using the trapezium rule with all the values of y in the given table,"
+        }
+      ],
+      "parts": [
+        {
+          "label": "(a)",
+          "marks": 3,
+          "content": [
+            {
+              "type": "text",
+              "content": "obtain an estimate for $$ \\int_2^{14} \\log_2(2x) \\, \\mathrm{d}x $$ giving your answer to one decimal place."
+            },
+            {
+              "type": "space"
+            }
+          ],
+          "answer": {
+            "type": "number"
+          }
+        },
+        {
+          "label": "(b)",
+          "marks": 4,
+          "content": [
+            {
+              "type": "text",
+              "content": "Using your answer to part (a) and making your method clear, estimate"
+            }
+          ],
+          "subparts": [
+            {
+              "label": "(i)",
+              "marks": 2,
+              "content": [
+                {
+                  "type": "text",
+                  "content": "$$ \\int_2^{14} \\log_2(4x) \\, \\mathrm{d}x $$"
+                },
+                {
+                  "type": "space"
+                }
+              ],
+              "answer": {
+                "type": "number"
+              }
+            },
+            {
+              "label": "(ii)",
+              "marks": 2,
+              "content": [
+                {
+                  "type": "text",
+                  "content": "$$ \\int_2^{14} \\log_2 \\left(\\frac{x}{2}\\right) \\, \\mathrm{d}x $$"
+                },
+                {
+                  "type": "space"
+                }
+              ],
+              "answer": {
+                "type": "number"
+              }
+            }
+          ],
+          "answer": null
+        }
+      ],
+      "answer": null,
+      "meta": {}
+    },
+    {
+      "qnum": 2,
+      "marks": 7,
+      "stem": [
+        {
+          "type": "text",
+          "content": "One of the terms in the binomial expansion of $(3 + ax)^6$, where $a$ is a constant, is $540x^4$"
+        }
+      ],
+      "parts": [
+        {
+          "label": "(a)",
+          "marks": 4,
+          "content": [
+            {
+              "type": "text",
+              "content": "Find the possible values of $a$."
+            },
+            {
+              "type": "space"
+            }
+          ],
+          "answer": {
+            "type": "expression"
+          }
+        },
+        {
+          "label": "(b)",
+          "marks": 3,
+          "content": [
+            {
+              "type": "text",
+              "content": "Hence find the term independent of $x$ in the expansion of $$ \\left(\\frac{1}{81} + \\frac{1}{3x}\\right)(3+ax)^6 $$"
+            },
+            {
+              "type": "space"
+            }
+          ],
+          "answer": {
+            "type": "expression"
+          }
+        }
+      ],
+      "answer": null,
+      "meta": {}
+    },
+    {
+      "qnum": 3,
+      "marks": 8,
+      "stem": [
+        {
+          "type": "text",
+          "content": "$f(x) = 6x^3 + 17x^2 + 4x - 12$"
+        }
+      ],
+      "parts": [
+        {
+          "label": "(a)",
+          "marks": 2,
+          "content": [
+            {
+              "type": "text",
+              "content": "Use the factor theorem to show that $(2x + 3)$ is a factor of $f(x)$."
+            },
+            {
+              "type": "space"
+            }
+          ],
+          "answer": {
+            "type": "none"
+          }
+        },
+        {
+          "label": "(b)",
+          "marks": 4,
+          "content": [
+            {
+              "type": "text",
+              "content": "Hence, using algebra, write $f(x)$ as a product of three linear factors."
+            },
+            {
+              "type": "space"
+            }
+          ],
+          "answer": {
+            "type": "expression"
+          }
+        },
+        {
+          "label": "(c)",
+          "marks": 2,
+          "content": [
+            {
+              "type": "text",
+              "content": "Solve, for $0 < \\theta < 2\\pi$, the equation $$ 6\\tan^3\\theta + 17\\tan^2\\theta + 4\\tan\\theta - 12 = 0 $$ giving your answers to 3 significant figures."
+            },
+            {
+              "type": "space"
+            }
+          ],
+          "answer": {
+            "type": "expression"
+          }
+        }
+      ],
+      "answer": null,
+      "meta": {}
+    },
+    {
+      "qnum": 4,
+      "marks": 6,
+      "stem": [
+        {
+          "type": "text",
+          "content": "[Figure]"
+        },
+        {
+          "type": "newline"
+        },
+        {
+          "type": "text",
+          "content": "Figure 1 shows a sketch of the curve with equation $y = 2x^2 + 7$, $x \\ge 0$"
+        },
+        {
+          "type": "newline"
+        },
+        {
+          "type": "text",
+          "content": "The finite region R, shown shaded in Figure 1, is bounded by the curve, the $y$-axis and the line with equation $y = 17$"
+        },
+        {
+          "type": "newline"
+        },
+        {
+          "type": "text",
+          "content": "Find the exact area of R."
+        },
+        {
+          "type": "space"
+        }
+      ],
+      "parts": [],
+      "answer": {
+        "type": "expression"
+      },
+      "meta": {}
+    },
+    {
+      "qnum": 5,
+      "marks": 8,
+      "stem": [
+        {
+          "type": "text",
+          "content": "In this question you must show all stages of your working. Solutions relying on calculator technology are not acceptable."
+        },
+        {
+          "type": "newline"
+        },
+        {
+          "type": "text",
+          "content": "A colony of bees is being studied."
+        },
+        {
+          "type": "newline"
+        },
+        {
+          "type": "text",
+          "content": "The number of bees in the colony at the start of the study was 30 000"
+        },
+        {
+          "type": "newline"
+        },
+        {
+          "type": "text",
+          "content": "Three years after the start of the study, the number of bees in the colony is 34 000"
+        },
+        {
+          "type": "newline"
+        },
+        {
+          "type": "text",
+          "content": "A model predicts that the number of bees in the colony will increase by $p\\%$ each year, so that the number of bees in the colony at the end of each year of study forms a geometric sequence."
+        },
+        {
+          "type": "newline"
+        },
+        {
+          "type": "text",
+          "content": "Assuming the model,"
+        }
+      ],
+      "parts": [
+        {
+          "label": "(a)",
+          "marks": 3,
+          "content": [
+            {
+              "type": "text",
+              "content": "find the value of $p$, giving your answer to 2 decimal places."
+            },
+            {
+              "type": "space"
+            }
+          ],
+          "answer": {
+            "type": "number"
+          }
+        },
+        {
+          "label": "(b)",
+          "marks": 5,
+          "content": [
+            {
+              "type": "text",
+              "content": "According to the model, at the end of $N$ years of study the number of bees in the colony exceeds 75 000"
+            },
+            {
+              "type": "newline"
+            },
+            {
+              "type": "text",
+              "content": "Find, showing all steps in your working, the smallest integer value of $N$."
+            },
+            {
+              "type": "space"
+            }
+          ],
+          "answer": {
+            "type": "number"
+          }
+        }
+      ],
+      "answer": null,
+      "meta": {}
+    },
+    {
+      "qnum": 6,
+      "marks": 8,
+      "stem": [
+        {
+          "type": "text",
+          "content": "The circle C has equation $x^2 + y^2 + 6x - 4y - 14 = 0$"
+        }
+      ],
+      "parts": [
+        {
+          "label": "(a)",
+          "marks": 3,
+          "content": [
+            {
+              "type": "text",
+              "content": "Find"
+            }
+          ],
+          "subparts": [
+            {
+              "label": "(i)",
+              "marks": 1,
+              "content": [
+                {
+                  "type": "text",
+                  "content": "the coordinates of the centre of C,"
+                },
+                {
+                  "type": "space"
+                }
+              ],
+              "answer": {
+                "type": "coordinate",
+                "fields": 2
+              }
+            },
+            {
+              "label": "(ii)",
+              "marks": 2,
+              "content": [
+                {
+                  "type": "text",
+                  "content": "the exact radius of C."
+                },
+                {
+                  "type": "space"
+                }
+              ],
+              "answer": {
+                "type": "expression"
+              }
+            }
+          ],
+          "answer": null
+        },
+        {
+          "label": "(b)",
+          "marks": 2,
+          "content": [
+            {
+              "type": "text",
+              "content": "The line with equation $y = k$, where $k$ is a constant, is a tangent to C."
+            },
+            {
+              "type": "newline"
+            },
+            {
+              "type": "text",
+              "content": "Find the possible values of $k$."
+            },
+            {
+              "type": "space"
+            }
+          ],
+          "answer": {
+            "type": "expression"
+          }
+        },
+        {
+          "label": "(c)",
+          "marks": 3,
+          "content": [
+            {
+              "type": "text",
+              "content": "The line with equation $y = p$, where $p$ is a negative constant, is a chord of C."
+            },
+            {
+              "type": "newline"
+            },
+            {
+              "type": "text",
+              "content": "Given that the length of this chord is 4 units,"
+            },
+            {
+              "type": "newline"
+            },
+            {
+              "type": "text",
+              "content": "find the value of $p$."
+            },
+            {
+              "type": "space"
+            }
+          ],
+          "answer": {
+            "type": "number"
+          }
+        }
+      ],
+      "answer": null,
+      "meta": {}
+    },
+    {
+      "qnum": 7,
+      "marks": 7,
+      "stem": [],
+      "parts": [
+        {
+          "label": "(a)",
+          "marks": 3,
+          "content": [
+            {
+              "type": "text",
+              "content": "Show that the equation $8\\tan\\theta = 3\\cos\\theta$ may be rewritten in the form $3\\sin^2\\theta + 8\\sin\\theta - 3 = 0$"
+            },
+            {
+              "type": "space"
+            }
+          ],
+          "answer": {
+            "type": "none"
+          }
+        },
+        {
+          "label": "(b)",
+          "marks": 4,
+          "content": [
+            {
+              "type": "text",
+              "content": "Hence solve, for $0 \\le x \\le 90^\\circ$, the equation $8\\tan(2x) = 3\\cos(2x)$ giving your answers to 2 decimal places."
+            },
+            {
+              "type": "space"
+            }
+          ],
+          "answer": {
+            "type": "expression"
+          }
+        }
+      ],
+      "answer": null,
+      "meta": {}
+    },
+    {
+      "qnum": 8,
+      "marks": 7,
+      "stem": [],
+      "parts": [
+        {
+          "label": "(i)",
+          "marks": 3,
+          "content": [
+            {
+              "type": "text",
+              "content": "An arithmetic series has first term $a$ and common difference $d$."
+            },
+            {
+              "type": "newline"
+            },
+            {
+              "type": "text",
+              "content": "Prove that the sum to $n$ terms of this series is $$ \\frac{n}{2}\\{2a + (n-1)d\\} $$"
+            },
+            {
+              "type": "space"
+            }
+          ],
+          "answer": {
+            "type": "none"
+          }
+        },
+        {
+          "label": "(ii)",
+          "marks": 4,
+          "content": [
+            {
+              "type": "text",
+              "content": "A sequence $u_1, u_2, u_3,\\dots$ is given by $u_n = 5n + 3(-1)^n$"
+            },
+            {
+              "type": "newline"
+            },
+            {
+              "type": "text",
+              "content": "Find the value of"
+            }
+          ],
+          "subparts": [
+            {
+              "label": "(a)",
+              "marks": 1,
+              "content": [
+                {
+                  "type": "text",
+                  "content": "$u_5$"
+                },
+                {
+                  "type": "space"
+                }
+              ],
+              "answer": {
+                "type": "number"
+              }
+            },
+            {
+              "label": "(b)",
+              "marks": 3,
+              "content": [
+                {
+                  "type": "text",
+                  "content": "$$ \\sum_{n=1}^{59} u_n $$"
+                },
+                {
+                  "type": "space"
+                }
+              ],
+              "answer": {
+                "type": "number"
+              }
+            }
+          ],
+          "answer": null
+        }
+      ],
+      "answer": null,
+      "meta": {}
+    },
+    {
+      "qnum": 9,
+      "marks": 7,
+      "stem": [],
+      "parts": [
+        {
+          "label": "(a)",
+          "marks": 2,
+          "content": [
+            {
+              "type": "text",
+              "content": "Sketch the curve with equation $y = 3 \\times 4^x$ showing the coordinates of any points of intersection with the coordinate axes."
+            },
+            {
+              "type": "space"
+            }
+          ],
+          "answer": {
+            "type": "none"
+          }
+        },
+        {
+          "label": "(b)",
+          "marks": 5,
+          "content": [
+            {
+              "type": "text",
+              "content": "The curve with equation $y = 6^{1-x}$ meets the curve with equation $y = 3 \\times 4^x$ at the point P."
+            },
+            {
+              "type": "newline"
+            },
+            {
+              "type": "text",
+              "content": "Show that the $x$ coordinate of P is $$ \\frac{\\log_{10} 2}{\\log_{10} 24} $$"
+            },
+            {
+              "type": "space"
+            }
+          ],
+          "answer": {
+            "type": "none"
+          }
+        }
+      ],
+      "answer": null,
+      "meta": {}
+    },
+    {
+      "qnum": 10,
+      "marks": 10,
+      "stem": [
+        {
+          "type": "text",
+          "content": "A curve C has equation $$ y = \\frac{4}{x} - 9x + kx^3 \\quad x > 0 $$ where $k$ is a constant."
+        },
+        {
+          "type": "newline"
+        },
+        {
+          "type": "text",
+          "content": "The point P with $x$ coordinate $\\frac{1}{2}$ lies on C."
+        },
+        {
+          "type": "newline"
+        },
+        {
+          "type": "text",
+          "content": "Given that P is a stationary point of C,"
+        }
+      ],
+      "parts": [
+        {
+          "label": "(a)",
+          "marks": 4,
+          "content": [
+            {
+              "type": "text",
+              "content": "show that $k = -\\frac{3}{2}$"
+            },
+            {
+              "type": "space"
+            }
+          ],
+          "answer": {
+            "type": "none"
+          }
+        },
+        {
+          "label": "(b)",
+          "marks": 2,
+          "content": [
+            {
+              "type": "text",
+              "content": "Determine the nature of the stationary point at P, justifying your answer."
+            },
+            {
+              "type": "space"
+            }
+          ],
+          "answer": {
+            "type": "structured",
+            "answerBlocks": [
+              {
+                "type": "text",
+                "content": "Nature: "
+              },
+              {
+                "type": "expression"
+              },
+              {
+                "type": "text",
+                "content": "Justification: "
+              },
+              {
+                "type": "multiline",
+                "lines": 2
+              }
+            ]
+          }
+        },
+        {
+          "label": "(c)",
+          "marks": 4,
+          "content": [
+            {
+              "type": "text",
+              "content": "The curve C has a second stationary point."
+            },
+            {
+              "type": "newline"
+            },
+            {
+              "type": "text",
+              "content": "Using algebra, find the $x$ coordinate of this second stationary point."
+            },
+            {
+              "type": "space"
+            }
+          ],
+          "answer": {
+            "type": "expression"
+          }
+        }
+      ],
+      "answer": null,
+      "meta": {}
+    }
+  ]
+}

@@ -1,0 +1,723 @@
+{
+  "v": "1.0",
+  "paper": "2020Oct-WMA12-01",
+  "board": "edx",
+  "code": "WMA12",
+  "year": 2020,
+  "session": "Oct",
+  "paperNum": "01",
+  "type": "ial-p2",
+  "totalMarks": 75,
+  "time": 90,
+  "questions": [
+    {
+      "qnum": 1,
+      "marks": 7,
+      "stem": [],
+      "parts": [
+        {
+          "label": "(a)",
+          "marks": 4,
+          "content": [
+            {
+              "type": "text",
+              "content": "Find the first 4 terms, in ascending powers of x, of the binomial expansion of"
+            },
+            {
+              "type": "newline"
+            },
+            {
+              "type": "text",
+              "content": "$$ \\left(2 - \\frac{x}{4}\\right)^{10} $$"
+            },
+            {
+              "type": "newline"
+            },
+            {
+              "type": "text",
+              "content": "giving each term in its simplest form."
+            }
+          ],
+          "answer": {
+            "type": "expression"
+          }
+        },
+        {
+          "label": "(b)",
+          "marks": 3,
+          "content": [
+            {
+              "type": "text",
+              "content": "Hence find the constant term in the series expansion of"
+            },
+            {
+              "type": "newline"
+            },
+            {
+              "type": "text",
+              "content": "$$ \\left(3 - \\frac{1}{x}\\right) \\left(2 - \\frac{x}{4}\\right)^{10} $$"
+            }
+          ],
+          "answer": {
+            "type": "expression"
+          }
+        }
+      ],
+      "answer": null,
+      "meta": {}
+    },
+    {
+      "qnum": 2,
+      "marks": 4,
+      "stem": [
+        {
+          "type": "text",
+          "content": "$$ y = \\frac{2}{x(5+3x^2)} $$"
+        }
+      ],
+      "parts": [
+        {
+          "label": "(a)",
+          "marks": 1,
+          "content": [
+            {
+              "type": "text",
+              "content": "Complete the table below, giving the values of y to 3 decimal places."
+            },
+            {
+              "type": "table",
+              "content": "\\begin{tabular}{|c|c|c|c|c|c|}\n\\hline\nx & –0.25 & 0 & 0.25 & 0.5 & 0.75 \\\\\n\\hline\ny & 0.462 & & 0.653 & 0.698 & \\\\\n\\hline\n\\end{tabular}"
+            }
+          ],
+          "answer": {
+            "type": "table_input"
+          }
+        },
+        {
+          "label": "(b)",
+          "marks": 3,
+          "content": [
+            {
+              "type": "text",
+              "content": "Use the trapezium rule, with all the values of y from the completed table, to find an approximate value for"
+            },
+            {
+              "type": "newline"
+            },
+            {
+              "type": "text",
+              "content": "$$ \\int_{-0.25}^{0.75} \\frac{2}{x(5+3x^2)} \\, dx $$"
+            }
+          ],
+          "answer": {
+            "type": "number"
+          }
+        }
+      ],
+      "answer": null,
+      "meta": {}
+    },
+    {
+      "qnum": 3,
+      "marks": 10,
+      "stem": [
+        {
+          "type": "text",
+          "content": "$$ \\text{f}(x) = ax^3 - x^2 + bx + 4 $$"
+        },
+        {
+          "type": "newline"
+        },
+        {
+          "type": "text",
+          "content": "where a and b are constants."
+        },
+        {
+          "type": "newline"
+        },
+        {
+          "type": "text",
+          "content": "When f(x) is divided by $(x + 4)$, the remainder is –108"
+        }
+      ],
+      "parts": [
+        {
+          "label": "(a)",
+          "marks": 2,
+          "content": [
+            {
+              "type": "text",
+              "content": "Use the remainder theorem to show that"
+            },
+            {
+              "type": "newline"
+            },
+            {
+              "type": "text",
+              "content": "$$ 16a + b = 24 $$"
+            }
+          ],
+          "answer": {
+            "type": "none"
+          }
+        },
+        {
+          "label": "(b)",
+          "marks": 3,
+          "content": [
+            {
+              "type": "text",
+              "content": "Given also that $(2x – 1)$ is a factor of f(x),"
+            },
+            {
+              "type": "newline"
+            },
+            {
+              "type": "text",
+              "content": "find the value of a and the value of b."
+            }
+          ],
+          "answer": {
+            "type": "expression"
+          }
+        },
+        {
+          "label": "(c)",
+          "marks": 1,
+          "content": [
+            {
+              "type": "text",
+              "content": "Find f′(x)."
+            }
+          ],
+          "answer": {
+            "type": "expression"
+          }
+        },
+        {
+          "label": "(d)",
+          "marks": 4,
+          "content": [
+            {
+              "type": "text",
+              "content": "Hence find the exact coordinates of the stationary points of the curve with equation $y = \\text{f}(x)$."
+            }
+          ],
+          "answer": {
+            "type": "multiline",
+            "lines": 2,
+            "template": "(x, y)"
+          }
+        }
+      ],
+      "answer": null,
+      "meta": {}
+    },
+    {
+      "qnum": 4,
+      "marks": 9,
+      "stem": [
+        {
+          "type": "text",
+          "content": "The points P and Q have coordinates $(–11, 6)$ and $(–3, 12)$ respectively."
+        },
+        {
+          "type": "newline"
+        },
+        {
+          "type": "text",
+          "content": "Given that PQ is a diameter of the circle C,"
+        }
+      ],
+      "parts": [
+        {
+          "label": "(a)",
+          "marks": 4,
+          "content": [],
+          "subparts": [
+            {
+              "label": "(i)",
+              "marks": 2,
+              "content": [
+                {
+                  "type": "text",
+                  "content": "find the coordinates of the centre of C,"
+                }
+              ],
+              "answer": {
+                "type": "coordinate",
+                "fields": 2
+              }
+            },
+            {
+              "label": "(ii)",
+              "marks": 2,
+              "content": [
+                {
+                  "type": "text",
+                  "content": "find the radius of C."
+                }
+              ],
+              "answer": {
+                "type": "expression"
+              }
+            }
+          ],
+          "answer": null
+        },
+        {
+          "label": "(b)",
+          "marks": 2,
+          "content": [
+            {
+              "type": "text",
+              "content": "Hence find an equation of C."
+            }
+          ],
+          "answer": {
+            "type": "expression"
+          }
+        },
+        {
+          "label": "(c)",
+          "marks": 3,
+          "content": [
+            {
+              "type": "text",
+              "content": "Find an equation of the tangent to C at the point Q giving your answer in the form $ax + by + c = 0$ where a, b and c are integers to be found."
+            }
+          ],
+          "answer": {
+            "type": "expression"
+          }
+        }
+      ],
+      "answer": null,
+      "meta": {}
+    },
+    {
+      "qnum": 5,
+      "marks": 11,
+      "stem": [
+        {
+          "type": "text",
+          "content": "Ben is saving for the deposit for a house over a period of 60 months."
+        },
+        {
+          "type": "newline"
+        },
+        {
+          "type": "text",
+          "content": "Ben saves £100 in the first month and in each subsequent month, he saves £5 more than the previous month, so that he saves £105 in the second month, £110 in the third month, and so on, forming an arithmetic sequence."
+        }
+      ],
+      "parts": [
+        {
+          "label": "(a)",
+          "marks": 2,
+          "content": [
+            {
+              "type": "text",
+              "content": "Find the amount Ben saves in the 40th month."
+            }
+          ],
+          "answer": {
+            "type": "number"
+          }
+        },
+        {
+          "label": "(b)",
+          "marks": 3,
+          "content": [
+            {
+              "type": "text",
+              "content": "Find the total amount Ben saves over the 60‑month period."
+            }
+          ],
+          "answer": {
+            "type": "number"
+          }
+        },
+        {
+          "label": "(c)",
+          "marks": 3,
+          "content": [
+            {
+              "type": "text",
+              "content": "Lina is also saving for a deposit for a house."
+            },
+            {
+              "type": "newline"
+            },
+            {
+              "type": "text",
+              "content": "Lina saves £600 in the first month and in each subsequent month, she saves £10 less than the previous month, so that she saves £590 in the second month, £580 in the third month, and so on, forming an arithmetic sequence."
+            },
+            {
+              "type": "newline"
+            },
+            {
+              "type": "text",
+              "content": "Given that, after n months, Lina will have saved exactly £18 200 for her deposit,"
+            },
+            {
+              "type": "newline"
+            },
+            {
+              "type": "text",
+              "content": "form an equation in n and show that it can be written as"
+            },
+            {
+              "type": "newline"
+            },
+            {
+              "type": "text",
+              "content": "$$ n^2 – 121n + 3640 = 0 $$"
+            }
+          ],
+          "answer": {
+            "type": "none"
+          }
+        },
+        {
+          "label": "(d)",
+          "marks": 2,
+          "content": [
+            {
+              "type": "text",
+              "content": "Solve the equation in part (c)."
+            }
+          ],
+          "answer": {
+            "type": "expression"
+          }
+        },
+        {
+          "label": "(e)",
+          "marks": 1,
+          "content": [
+            {
+              "type": "text",
+              "content": "State, with a reason, which of the solutions to the equation in part (c) is not a sensible value for n."
+            }
+          ],
+          "answer": {
+            "type": "multiline",
+            "lines": 2
+          }
+        }
+      ],
+      "answer": null,
+      "meta": {}
+    },
+    {
+      "qnum": 6,
+      "marks": 9,
+      "stem": [
+        {
+          "type": "text",
+          "content": "[Figure]"
+        },
+        {
+          "type": "newline"
+        },
+        {
+          "type": "text",
+          "content": "Figure 1 shows a sketch of part of the curves C1 and C2 with equations"
+        },
+        {
+          "type": "newline"
+        },
+        {
+          "type": "text",
+          "content": "C1 : $y = x^3 – 6x + 9$ $x \\ge 0$"
+        },
+        {
+          "type": "newline"
+        },
+        {
+          "type": "text",
+          "content": "C2 : $y = –2x^2 + 7x – 1$ $x \\ge 0$"
+        },
+        {
+          "type": "newline"
+        },
+        {
+          "type": "text",
+          "content": "The curves C1 and C2 intersect at the points A and B as shown in Figure 1."
+        },
+        {
+          "type": "newline"
+        },
+        {
+          "type": "text",
+          "content": "The point A has coordinates $(1, 4)$."
+        },
+        {
+          "type": "newline"
+        },
+        {
+          "type": "text",
+          "content": "Using algebra and showing all steps of your working,"
+        }
+      ],
+      "parts": [
+        {
+          "label": "(a)",
+          "marks": 4,
+          "content": [
+            {
+              "type": "text",
+              "content": "find the coordinates of the point B."
+            }
+          ],
+          "answer": {
+            "type": "coordinate",
+            "fields": 2
+          }
+        },
+        {
+          "label": "(b)",
+          "marks": 5,
+          "content": [
+            {
+              "type": "text",
+              "content": "The finite region R, shown shaded in Figure 1, is bounded by C1 and C2"
+            },
+            {
+              "type": "newline"
+            },
+            {
+              "type": "text",
+              "content": "Use algebraic integration to find the exact area of R."
+            }
+          ],
+          "answer": {
+            "type": "expression"
+          }
+        }
+      ],
+      "answer": null,
+      "meta": {}
+    },
+    {
+      "qnum": 7,
+      "marks": 7,
+      "stem": [],
+      "parts": [
+        {
+          "label": "(i)",
+          "marks": 3,
+          "content": [
+            {
+              "type": "text",
+              "content": "Show that"
+            },
+            {
+              "type": "newline"
+            },
+            {
+              "type": "text",
+              "content": "$$ \\tan \\theta + \\frac{1}{\\tan \\theta} \\equiv \\frac{1}{\\sin \\theta \\cos \\theta} $$"
+            },
+            {
+              "type": "newline"
+            },
+            {
+              "type": "text",
+              "content": "$\\theta \\ne \\frac{n\\pi}{2}$ $n \\in \\mathbb{Z}$"
+            }
+          ],
+          "answer": {
+            "type": "none"
+          }
+        },
+        {
+          "label": "(ii)",
+          "marks": 4,
+          "content": [
+            {
+              "type": "text",
+              "content": "Solve, for $0 \\le x < 90^\\circ$, the equation"
+            },
+            {
+              "type": "newline"
+            },
+            {
+              "type": "text",
+              "content": "$$ 3\\cos^2 (2x + 10^\\circ) = 1 $$"
+            },
+            {
+              "type": "newline"
+            },
+            {
+              "type": "text",
+              "content": "giving your answers in degrees to one decimal place."
+            },
+            {
+              "type": "newline"
+            },
+            {
+              "type": "text",
+              "content": "(Solutions based entirely on graphical or numerical methods are not acceptable.)"
+            }
+          ],
+          "answer": {
+            "type": "expression"
+          }
+        }
+      ],
+      "answer": null,
+      "meta": {}
+    },
+    {
+      "qnum": 8,
+      "marks": 8,
+      "stem": [
+        {
+          "type": "text",
+          "content": "A geometric series has first term a and common ratio r."
+        }
+      ],
+      "parts": [
+        {
+          "label": "(a)",
+          "marks": 3,
+          "content": [
+            {
+              "type": "text",
+              "content": "Prove that the sum of the first n terms of this series is given by"
+            },
+            {
+              "type": "newline"
+            },
+            {
+              "type": "text",
+              "content": "$$ S_n = \\frac{a(r^n - 1)}{r - 1} $$"
+            }
+          ],
+          "answer": {
+            "type": "none"
+          }
+        },
+        {
+          "label": "(b)",
+          "marks": 2,
+          "content": [
+            {
+              "type": "text",
+              "content": "The second term of a geometric series is –320 and the fifth term is $\\frac{512}{25}$"
+            },
+            {
+              "type": "newline"
+            },
+            {
+              "type": "text",
+              "content": "Find the value of the common ratio."
+            }
+          ],
+          "answer": {
+            "type": "expression"
+          }
+        },
+        {
+          "label": "(c)",
+          "marks": 3,
+          "content": [
+            {
+              "type": "text",
+              "content": "Hence find the sum of the first 13 terms of the series, giving your answer to 2 decimal places."
+            }
+          ],
+          "answer": {
+            "type": "number"
+          }
+        }
+      ],
+      "answer": null,
+      "meta": {}
+    },
+    {
+      "qnum": 9,
+      "marks": 10,
+      "stem": [],
+      "parts": [
+        {
+          "label": "(i)",
+          "marks": 4,
+          "content": [
+            {
+              "type": "text",
+              "content": "Find the exact value of x for which"
+            },
+            {
+              "type": "newline"
+            },
+            {
+              "type": "text",
+              "content": "$$ \\log_3(x + 5) – 4 = \\log_3(2x – 1) $$"
+            }
+          ],
+          "answer": {
+            "type": "expression"
+          }
+        },
+        {
+          "label": "(ii)",
+          "marks": 6,
+          "content": [
+            {
+              "type": "text",
+              "content": "Given that"
+            },
+            {
+              "type": "newline"
+            },
+            {
+              "type": "text",
+              "content": "$$ 3^{y+3} \\times 2^{1-2y} = 108 $$"
+            }
+          ],
+          "subparts": [
+            {
+              "label": "(a)",
+              "marks": 4,
+              "content": [
+                {
+                  "type": "text",
+                  "content": "show that"
+                },
+                {
+                  "type": "newline"
+                },
+                {
+                  "type": "text",
+                  "content": "$$ y = \\frac{0.75}{\\log_2 3 + 2} $$"
+                }
+              ],
+              "answer": {
+                "type": "none"
+              }
+            },
+            {
+              "label": "(b)",
+              "marks": 2,
+              "content": [
+                {
+                  "type": "text",
+                  "content": "Hence find the value of y, giving your answer to 3 decimal places."
+                }
+              ],
+              "answer": {
+                "type": "number"
+              }
+            }
+          ],
+          "answer": null
+        }
+      ],
+      "answer": null,
+      "meta": {}
+    }
+  ]
+}

@@ -1,0 +1,709 @@
+{
+  "v": "1.0",
+  "paper": "2019Oct-WMA12-01",
+  "board": "edx",
+  "code": "WMA12",
+  "year": 2019,
+  "session": "Oct",
+  "paperNum": "01",
+  "type": "ial-p2",
+  "totalMarks": 75,
+  "time": 90,
+  "questions": [
+    {
+      "qnum": 1,
+      "marks": 6,
+      "stem": [
+        {
+          "type": "text",
+          "content": "A curve C has equation $y = 2x^2(x - 3)$"
+        }
+      ],
+      "parts": [
+        {
+          "label": "(a)",
+          "marks": 4,
+          "content": [
+            {
+              "type": "text",
+              "content": "Find, using calculus, the $x$ coordinates of the stationary points of C."
+            }
+          ],
+          "answer": {
+            "type": "expression"
+          },
+          "meta": {}
+        },
+        {
+          "label": "(b)",
+          "marks": 2,
+          "content": [
+            {
+              "type": "text",
+              "content": "Hence find the values of $x$ for which $y$ is increasing."
+            }
+          ],
+          "answer": {
+            "type": "expression"
+          },
+          "meta": {}
+        }
+      ],
+      "answer": null,
+      "meta": {}
+    },
+    {
+      "qnum": 2,
+      "marks": 6,
+      "stem": [
+        {
+          "type": "text",
+          "content": "The adult population of a town at the start of 2010 is 25000."
+        },
+        {
+          "type": "newline"
+        },
+        {
+          "type": "text",
+          "content": "A model predicts that the adult population will increase by 3% each year, so that the number of adults in the population at the start of each year following 2010 will form a geometric sequence."
+        }
+      ],
+      "parts": [
+        {
+          "label": "(a)",
+          "marks": 3,
+          "content": [
+            {
+              "type": "text",
+              "content": "Find, according to the model, the adult population of the town at the start of 2015."
+            }
+          ],
+          "answer": {
+            "type": "number"
+          },
+          "meta": {}
+        },
+        {
+          "label": "(b)",
+          "marks": 3,
+          "content": [
+            {
+              "type": "text",
+              "content": "It is also modelled that every member of the adult population gives £5 to local charity at the start of each year."
+            },
+            {
+              "type": "newline"
+            },
+            {
+              "type": "text",
+              "content": "Find, according to these models, the total amount of money that would be given to local charity by the adult population of the town from 2010 to 2020 inclusive. Give your answer to the nearest £1000."
+            }
+          ],
+          "answer": {
+            "type": "number",
+            "prefix": "£"
+          },
+          "meta": {}
+        }
+      ],
+      "answer": null,
+      "meta": {}
+    },
+    {
+      "qnum": 3,
+      "marks": 6,
+      "stem": [],
+      "parts": [
+        {
+          "label": "(a)",
+          "marks": 3,
+          "content": [
+            {
+              "type": "text",
+              "content": "Find the first 3 terms, in ascending powers of $x$, in the binomial expansion of"
+            },
+            {
+              "type": "newline"
+            },
+            {
+              "type": "text",
+              "content": "$\\left(4 + \\frac{1}{2}x\\right)^{12}$"
+            },
+            {
+              "type": "newline"
+            },
+            {
+              "type": "text",
+              "content": "giving each coefficient in its simplest form."
+            }
+          ],
+          "answer": {
+            "type": "expression"
+          },
+          "meta": {}
+        },
+        {
+          "label": "(b)",
+          "marks": 3,
+          "content": [
+            {
+              "type": "text",
+              "content": "Find the term independent of $x$ in the expansion of"
+            },
+            {
+              "type": "newline"
+            },
+            {
+              "type": "text",
+              "content": "$\\left(x^2 + \\frac{5}{x}\\right)\\left(4 + \\frac{1}{2}x\\right)^{12}$"
+            }
+          ],
+          "answer": {
+            "type": "number"
+          },
+          "meta": {}
+        }
+      ],
+      "answer": null,
+      "meta": {}
+    },
+    {
+      "qnum": 4,
+      "marks": 8,
+      "stem": [
+        {
+          "type": "text",
+          "content": "$f(x) = (x - 2)(x^2 + x + a) - 12$ where $a$ is a constant"
+        }
+      ],
+      "parts": [
+        {
+          "label": "(a)",
+          "marks": 1,
+          "content": [
+            {
+              "type": "text",
+              "content": "State the remainder when $f(x)$ is divided by $(x - 2)$"
+            }
+          ],
+          "answer": {
+            "type": "number"
+          },
+          "meta": {}
+        },
+        {
+          "label": "(b)",
+          "marks": 2,
+          "content": [
+            {
+              "type": "text",
+              "content": "Given that $(x - 3)$ is a factor of $f(x)$"
+            },
+            {
+              "type": "newline"
+            },
+            {
+              "type": "text",
+              "content": "show that $a = -10$"
+            }
+          ],
+          "answer": {
+            "type": "none"
+          },
+          "meta": {}
+        },
+        {
+          "label": "(c)",
+          "marks": 5,
+          "content": [
+            {
+              "type": "text",
+              "content": "Using algebra and showing each step of your working, fully factorise $f(x)$"
+            }
+          ],
+          "answer": {
+            "type": "expression"
+          },
+          "meta": {}
+        }
+      ],
+      "answer": null,
+      "meta": {}
+    },
+    {
+      "qnum": 5,
+      "marks": 7,
+      "stem": [],
+      "parts": [
+        {
+          "label": "(a)",
+          "marks": 2,
+          "content": [
+            {
+              "type": "text",
+              "content": "Given $a > 0$, sketch the curve with equation"
+            },
+            {
+              "type": "newline"
+            },
+            {
+              "type": "text",
+              "content": "$y = a^x$"
+            },
+            {
+              "type": "newline"
+            },
+            {
+              "type": "text",
+              "content": "showing the coordinates of the point at which the curve crosses the $y$-axis."
+            }
+          ],
+          "answer": {
+            "type": "none"
+          },
+          "meta": {}
+        },
+        {
+          "label": "(b)",
+          "marks": 3,
+          "content": [
+            {
+              "type": "table",
+              "content": "\\begin{tabular}{|c|c|c|c|c|c|} \\hline x & 2 & 2.5 & 3 & 3.5 & 4 \\\\ \\hline y & 5.25 & 6.12 & 7.25 & 8.71 & 10.5 \\\\ \\hline \\end{tabular}"
+            },
+            {
+              "type": "newline"
+            },
+            {
+              "type": "text",
+              "content": "The table above shows corresponding values of $x$ and $y$ for $y = x^2 + \\left(\\frac{1}{2}\\right)^x$"
+            },
+            {
+              "type": "newline"
+            },
+            {
+              "type": "text",
+              "content": "The values of $y$ are given to 3 significant figures as appropriate."
+            },
+            {
+              "type": "newline"
+            },
+            {
+              "type": "text",
+              "content": "Using the trapezium rule with all the values of $y$ in the given table"
+            },
+            {
+              "type": "newline"
+            },
+            {
+              "type": "text",
+              "content": "obtain an estimate for $\\int_2^4 \\left(x^2 + \\left(\\frac{1}{2}\\right)^x\\right) \\mathrm{d}x$"
+            }
+          ],
+          "answer": {
+            "type": "number"
+          },
+          "meta": {}
+        },
+        {
+          "label": "(c)",
+          "marks": 2,
+          "content": [
+            {
+              "type": "text",
+              "content": "Using your answer to part (b) and making your method clear, estimate"
+            },
+            {
+              "type": "newline"
+            },
+            {
+              "type": "text",
+              "content": "$\\int_2^4 \\left(3x^2 + 2\\left(\\frac{1}{2}\\right)^x\\right) \\mathrm{d}x$"
+            }
+          ],
+          "answer": {
+            "type": "number"
+          },
+          "meta": {}
+        }
+      ],
+      "answer": null,
+      "meta": {}
+    },
+    {
+      "qnum": 6,
+      "marks": 7,
+      "stem": [
+        {
+          "type": "text",
+          "content": "[Figure 1]"
+        },
+        {
+          "type": "newline"
+        },
+        {
+          "type": "text",
+          "content": "Figure 1 shows a sketch of a circle C with centre $N(4, -2)$"
+        },
+        {
+          "type": "newline"
+        },
+        {
+          "type": "text",
+          "content": "The line $l$ with equation $y = \\frac{1}{2}x$ is a tangent to C at the point P."
+        },
+        {
+          "type": "newline"
+        },
+        {
+          "type": "text",
+          "content": "Find"
+        }
+      ],
+      "parts": [
+        {
+          "label": "(a)",
+          "marks": 2,
+          "content": [
+            {
+              "type": "text",
+              "content": "the equation of line PN in the form $y = mx + c$, where $m$ and $c$ are constants"
+            }
+          ],
+          "answer": {
+            "type": "expression"
+          },
+          "meta": {}
+        },
+        {
+          "label": "(b)",
+          "marks": 5,
+          "content": [
+            {
+              "type": "text",
+              "content": "the equation of C."
+            }
+          ],
+          "answer": {
+            "type": "expression"
+          },
+          "meta": {}
+        }
+      ],
+      "answer": null,
+      "meta": {}
+    },
+    {
+      "qnum": 7,
+      "marks": 7,
+      "stem": [
+        {
+          "type": "text",
+          "content": "Given $\\log_a b = k$, find, in simplest form in terms of $k$"
+        }
+      ],
+      "parts": [
+        {
+          "label": "(i)",
+          "marks": 2,
+          "content": [
+            {
+              "type": "text",
+              "content": "$\\log_a \\left(\\frac{a}{b}\\right)$"
+            }
+          ],
+          "answer": {
+            "type": "expression"
+          },
+          "meta": {}
+        },
+        {
+          "label": "(ii)",
+          "marks": 2,
+          "content": [
+            {
+              "type": "text",
+              "content": "$\\frac{\\log_a a^2 b^3}{\\log_a b}$"
+            }
+          ],
+          "answer": {
+            "type": "expression"
+          },
+          "meta": {}
+        },
+        {
+          "label": "(iii)",
+          "marks": 3,
+          "content": [
+            {
+              "type": "text",
+              "content": "$\\sum_{n=1}^{50} (\\log_b a)^n$"
+            }
+          ],
+          "answer": {
+            "type": "expression"
+          },
+          "meta": {}
+        }
+      ],
+      "answer": null,
+      "meta": {}
+    },
+    {
+      "qnum": 8,
+      "marks": 9,
+      "stem": [
+        {
+          "type": "text",
+          "content": "Solutions relying on calculator technology are not acceptable in this question."
+        },
+        {
+          "type": "newline"
+        },
+        {
+          "type": "text",
+          "content": "[Figure 2]"
+        },
+        {
+          "type": "newline"
+        },
+        {
+          "type": "text",
+          "content": "Figure 2 shows a sketch of part of a curve with equation"
+        },
+        {
+          "type": "newline"
+        },
+        {
+          "type": "text",
+          "content": "$y = \\frac{8}{x^2} - 2x$, $x > 0$"
+        },
+        {
+          "type": "newline"
+        },
+        {
+          "type": "text",
+          "content": "The region R, shown shaded in Figure 2, is bounded by the curve, the line with equation $x = 1$, the $x$-axis and the line with equation $x = 2$"
+        }
+      ],
+      "parts": [
+        {
+          "label": "(i)",
+          "marks": 5,
+          "content": [
+            {
+              "type": "text",
+              "content": "Find the exact area of R."
+            }
+          ],
+          "answer": {
+            "type": "expression"
+          },
+          "meta": {}
+        },
+        {
+          "label": "(ii)",
+          "marks": 4,
+          "content": [
+            {
+              "type": "text",
+              "content": "Find the value of the constant $k$ such that $\\int_1^2 \\left(\\frac{55}{x^2} - 3x + k\\right) \\mathrm{d}x = 6$"
+            }
+          ],
+          "answer": {
+            "type": "number"
+          },
+          "meta": {}
+        }
+      ],
+      "answer": null,
+      "meta": {}
+    },
+    {
+      "qnum": 9,
+      "marks": 12,
+      "stem": [
+        {
+          "type": "text",
+          "content": "Solutions based entirely on graphical or numerical methods are not acceptable in this question."
+        }
+      ],
+      "parts": [
+        {
+          "label": "(i)",
+          "marks": 4,
+          "content": [
+            {
+              "type": "text",
+              "content": "Solve, for $0 \\le \\theta < 360^\\circ$, the equation"
+            },
+            {
+              "type": "newline"
+            },
+            {
+              "type": "text",
+              "content": "$2 \\sin (\\theta - 30^\\circ) = 1$"
+            },
+            {
+              "type": "newline"
+            },
+            {
+              "type": "text",
+              "content": "giving your answers to one decimal place."
+            }
+          ],
+          "answer": {
+            "type": "expression"
+          },
+          "meta": {}
+        },
+        {
+          "label": "(ii)",
+          "marks": 8,
+          "content": [
+            {
+              "type": "text",
+              "content": "The first three terms of an arithmetic sequence are"
+            },
+            {
+              "type": "newline"
+            },
+            {
+              "type": "text",
+              "content": "$\\sin \\alpha$, $\\frac{1}{\\tan\\alpha}$ and $2 \\sin \\alpha$"
+            },
+            {
+              "type": "newline"
+            },
+            {
+              "type": "text",
+              "content": "where $\\alpha$ is a constant."
+            }
+          ],
+          "subparts": [
+            {
+              "label": "(a)",
+              "marks": 3,
+              "content": [
+                {
+                  "type": "text",
+                  "content": "Show that $2 \\cos \\alpha = \\sin^2 \\alpha$"
+                }
+              ],
+              "answer": {
+                "type": "none"
+              },
+              "meta": {}
+            },
+            {
+              "label": "(b)",
+              "marks": 5,
+              "content": [
+                {
+                  "type": "text",
+                  "content": "Given that $\\pi < \\alpha < \\frac{3\\pi}{2}$"
+                },
+                {
+                  "type": "newline"
+                },
+                {
+                  "type": "text",
+                  "content": "find, showing all working, the value of $\\alpha$ to 3 decimal places."
+                }
+              ],
+              "answer": {
+                "type": "number"
+              },
+              "meta": {}
+            }
+          ],
+          "answer": null,
+          "meta": {}
+        }
+      ],
+      "answer": null,
+      "meta": {}
+    },
+    {
+      "qnum": 10,
+      "marks": 7,
+      "stem": [
+        {
+          "type": "text",
+          "content": "The curve C has equation"
+        },
+        {
+          "type": "newline"
+        },
+        {
+          "type": "text",
+          "content": "$y = ax^3 - x^2 + x + b$"
+        },
+        {
+          "type": "newline"
+        },
+        {
+          "type": "text",
+          "content": "where $a$ and $b$ are constants."
+        },
+        {
+          "type": "newline"
+        },
+        {
+          "type": "text",
+          "content": "Given that"
+        },
+        {
+          "type": "list",
+          "style": "bullet",
+          "items": [
+            "the point $(2, 10)$ lies on C",
+            "the gradient of the curve at $(2, 10)$ is 19"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "label": "(a)",
+          "marks": 4,
+          "content": [
+            {
+              "type": "text",
+              "content": "find the value of $a$ and the value of $b$."
+            }
+          ],
+          "answer": {
+            "type": "structured",
+            "answerBlocks": [
+              {
+                "type": "expression",
+                "prefix": "$a = $"
+              },
+              {
+                "type": "expression",
+                "prefix": "$b = $"
+              }
+            ]
+          },
+          "meta": {}
+        },
+        {
+          "label": "(b)",
+          "marks": 3,
+          "content": [
+            {
+              "type": "text",
+              "content": "Prove that C has no turning points."
+            }
+          ],
+          "answer": {
+            "type": "none"
+          },
+          "meta": {}
+        }
+      ],
+      "answer": null,
+      "meta": {}
+    }
+  ]
+}

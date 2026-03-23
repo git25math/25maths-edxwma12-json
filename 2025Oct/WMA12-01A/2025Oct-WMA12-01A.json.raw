@@ -1,0 +1,857 @@
+{
+  "v": "1.0",
+  "paper": "2025Oct-WMA12-01A",
+  "board": "edx",
+  "code": "WMA12",
+  "year": 2025,
+  "session": "Oct",
+  "paperNum": "01",
+  "type": "ial-p2",
+  "totalMarks": 75,
+  "time": 90,
+  "questions": [
+    {
+      "qnum": 1,
+      "marks": 5,
+      "stem": [
+        {
+          "type": "text",
+          "content": "In this question you must show all stages of your working."
+        },
+        {
+          "type": "newline"
+        },
+        {
+          "type": "text",
+          "content": "Solutions relying on calculator technology are not acceptable."
+        },
+        {
+          "type": "newline"
+        },
+        {
+          "type": "text",
+          "content": "A sequence $u_1, u_2, u_3, \\dots$ is defined by"
+        },
+        {
+          "type": "newline"
+        },
+        {
+          "type": "text",
+          "content": "$$ u_1 = 8 $$"
+        },
+        {
+          "type": "newline"
+        },
+        {
+          "type": "text",
+          "content": "$$ u_{n+1} = u_n + k $$"
+        },
+        {
+          "type": "newline"
+        },
+        {
+          "type": "text",
+          "content": "where $k$ is a constant."
+        }
+      ],
+      "parts": [
+        {
+          "label": "(a)",
+          "marks": 2,
+          "content": [
+            {
+              "type": "text",
+              "content": "Write down expressions for $u_2$ and $u_3$ in terms of $k$."
+            },
+            {
+              "type": "space",
+              "height": "1cm"
+            }
+          ],
+          "answer": {
+            "type": "expression"
+          }
+        },
+        {
+          "label": "(b)",
+          "marks": 3,
+          "stem": [
+            {
+              "type": "text",
+              "content": "Given that $u_3 = 6$"
+            }
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "find the possible values of $k$."
+            },
+            {
+              "type": "space",
+              "height": "1cm"
+            }
+          ],
+          "answer": {
+            "type": "expression"
+          }
+        }
+      ],
+      "answer": null,
+      "meta": {}
+    },
+    {
+      "qnum": 2,
+      "marks": 4,
+      "stem": [
+        {
+          "type": "text",
+          "content": "Find the first 3 terms in ascending powers of $x$ of"
+        },
+        {
+          "type": "newline"
+        },
+        {
+          "type": "text",
+          "content": "$$ \\left(2 - \\frac{x}{2}\\right)^6 $$"
+        },
+        {
+          "type": "newline"
+        },
+        {
+          "type": "text",
+          "content": "giving each term in its simplest form."
+        },
+        {
+          "type": "space",
+          "height": "1cm"
+        }
+      ],
+      "parts": [],
+      "answer": {
+        "type": "expression"
+      },
+      "meta": {}
+    },
+    {
+      "qnum": 3,
+      "marks": 6,
+      "stem": [
+        {
+          "type": "text",
+          "content": "[Figure]"
+        },
+        {
+          "type": "newline"
+        },
+        {
+          "type": "text",
+          "content": "Figure 1 shows a sketch of part of the graph of $y = \\frac{12}{x^2} + 2 \\quad x \\ge 2$"
+        },
+        {
+          "type": "newline"
+        },
+        {
+          "type": "text",
+          "content": "The table below gives values of $y$ rounded to 3 decimal places."
+        },
+        {
+          "type": "newline"
+        },
+        {
+          "type": "table",
+          "content": "\\begin{tabular}{|c|c|c|c|c|}\n\\hline\nx & 2 & 5 & 8 & 11 \\\\\n\\hline\ny & 8.485 & 2.502 & 1.524 & 1.100 \\\\\n\\hline\n\\end{tabular}"
+        }
+      ],
+      "parts": [
+        {
+          "label": "(a)",
+          "marks": 3,
+          "content": [
+            {
+              "type": "text",
+              "content": "Use the trapezium rule with all the values of $y$ from the table to find an approximate value, to 2 decimal places, for"
+            },
+            {
+              "type": "newline"
+            },
+            {
+              "type": "text",
+              "content": "$$ \\int_2^{11} \\left(\\frac{12}{x^2} + 2\\right) \\, dx $$"
+            },
+            {
+              "type": "space",
+              "height": "1cm"
+            }
+          ],
+          "answer": {
+            "type": "number"
+          }
+        },
+        {
+          "label": "(b)",
+          "marks": 3,
+          "content": [
+            {
+              "type": "text",
+              "content": "Use your answer to part (a) to estimate a value for"
+            },
+            {
+              "type": "newline"
+            },
+            {
+              "type": "text",
+              "content": "$$ \\int_2^{11} \\left(\\frac{1}{6x^2} + 2\\right) \\, dx $$"
+            },
+            {
+              "type": "space",
+              "height": "1cm"
+            }
+          ],
+          "answer": {
+            "type": "number"
+          }
+        }
+      ],
+      "answer": null,
+      "meta": {}
+    },
+    {
+      "qnum": 4,
+      "marks": 9,
+      "stem": [
+        {
+          "type": "text",
+          "content": "In this question you must show all stages of your working."
+        },
+        {
+          "type": "newline"
+        },
+        {
+          "type": "text",
+          "content": "Solutions relying on calculator technology are not acceptable."
+        },
+        {
+          "type": "newline"
+        },
+        {
+          "type": "text",
+          "content": "$$ \\text{f}(x) = 13 + 3x + (x + 2)(x + k)^2 $$"
+        },
+        {
+          "type": "newline"
+        },
+        {
+          "type": "text",
+          "content": "where $k$ is a constant"
+        },
+        {
+          "type": "newline"
+        },
+        {
+          "type": "text",
+          "content": "Given that $(x + 3)$ is a factor of f$(x)$,"
+        }
+      ],
+      "parts": [
+        {
+          "label": "(a)",
+          "marks": 3,
+          "content": [],
+          "subparts": [
+            {
+              "label": "(i)",
+              "marks": 2,
+              "content": [
+                {
+                  "type": "text",
+                  "content": "show that a possible value of $k$ is 5"
+                },
+                {
+                  "type": "space",
+                  "height": "1cm"
+                }
+              ],
+              "answer": {
+                "type": "none"
+              }
+            },
+            {
+              "label": "(ii)",
+              "marks": 1,
+              "content": [
+                {
+                  "type": "text",
+                  "content": "find the other possible value of $k$."
+                },
+                {
+                  "type": "space",
+                  "height": "1cm"
+                }
+              ],
+              "answer": {
+                "type": "number"
+              }
+            }
+          ],
+          "answer": null
+        },
+        {
+          "label": "(b)",
+          "marks": 6,
+          "stem": [
+            {
+              "type": "text",
+              "content": "Given that $k = 5$"
+            }
+          ],
+          "content": [],
+          "subparts": [
+            {
+              "label": "(i)",
+              "marks": 3,
+              "content": [
+                {
+                  "type": "text",
+                  "content": "write f$(x)$ as the product of two algebraic factors"
+                },
+                {
+                  "type": "space",
+                  "height": "1cm"
+                }
+              ],
+              "answer": {
+                "type": "expression"
+              }
+            },
+            {
+              "label": "(ii)",
+              "marks": 3,
+              "content": [
+                {
+                  "type": "text",
+                  "content": "show that the equation f$(x) = 0$ has only one real solution."
+                },
+                {
+                  "type": "space",
+                  "height": "1cm"
+                }
+              ],
+              "answer": {
+                "type": "none"
+              }
+            }
+          ],
+          "answer": null
+        }
+      ],
+      "answer": null,
+      "meta": {}
+    },
+    {
+      "qnum": 5,
+      "marks": 8,
+      "stem": [
+        {
+          "type": "text",
+          "content": "In this question you must show all stages of your working."
+        },
+        {
+          "type": "newline"
+        },
+        {
+          "type": "text",
+          "content": "Solutions relying on calculator technology are not acceptable."
+        }
+      ],
+      "parts": [
+        {
+          "label": "(i)",
+          "marks": 4,
+          "stem": [
+            {
+              "type": "text",
+              "content": "Given that"
+            },
+            {
+              "type": "newline"
+            },
+            {
+              "type": "text",
+              "content": "$$ \\log_a x + \\log_a 3 = \\log_a 27 - 1 $$"
+            },
+            {
+              "type": "newline"
+            },
+            {
+              "type": "text",
+              "content": "where $a$ is a positive constant"
+            }
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "find, in its simplest form, an expression for $x$ in terms of $a$."
+            },
+            {
+              "type": "space",
+              "height": "1cm"
+            }
+          ],
+          "answer": {
+            "type": "expression"
+          }
+        },
+        {
+          "label": "(ii)",
+          "marks": 4,
+          "content": [
+            {
+              "type": "text",
+              "content": "Solve the equation"
+            },
+            {
+              "type": "newline"
+            },
+            {
+              "type": "text",
+              "content": "$$ (\\log_5 y)^2 - 7(\\log_5 y) + 12 = 0 $$"
+            },
+            {
+              "type": "newline"
+            },
+            {
+              "type": "text",
+              "content": "showing each step of your working."
+            },
+            {
+              "type": "space",
+              "height": "1cm"
+            }
+          ],
+          "answer": {
+            "type": "expression"
+          }
+        }
+      ],
+      "answer": null,
+      "meta": {}
+    },
+    {
+      "qnum": 6,
+      "marks": 8,
+      "stem": [
+        {
+          "type": "text",
+          "content": "A circle C has equation $x^2 + y^2 - 6x - 14y + k = 0$ where $k$ is constant."
+        }
+      ],
+      "parts": [
+        {
+          "label": "(a)",
+          "marks": 2,
+          "content": [
+            {
+              "type": "text",
+              "content": "Find the coordinates of the centre of C."
+            },
+            {
+              "type": "space",
+              "height": "1cm"
+            }
+          ],
+          "answer": {
+            "type": "coordinate",
+            "fields": 2
+          }
+        },
+        {
+          "label": "(b)",
+          "marks": 2,
+          "content": [
+            {
+              "type": "text",
+              "content": "Find the radius of C when $k = -32$"
+            },
+            {
+              "type": "space",
+              "height": "1cm"
+            }
+          ],
+          "answer": {
+            "type": "number"
+          }
+        },
+        {
+          "label": "(c)",
+          "marks": 4,
+          "content": [
+            {
+              "type": "text",
+              "content": "Find the range of values of $k$ for which C lies completely within the first quadrant."
+            },
+            {
+              "type": "space",
+              "height": "1cm"
+            }
+          ],
+          "answer": {
+            "type": "expression"
+          }
+        }
+      ],
+      "answer": null,
+      "meta": {}
+    },
+    {
+      "qnum": 7,
+      "marks": 9,
+      "stem": [
+        {
+          "type": "text",
+          "content": "In this question you must show all stages of your working."
+        },
+        {
+          "type": "newline"
+        },
+        {
+          "type": "text",
+          "content": "Solutions relying entirely on calculator technology are not acceptable."
+        }
+      ],
+      "parts": [
+        {
+          "label": "(i)",
+          "marks": 4,
+          "stem": [
+            {
+              "type": "text",
+              "content": "Solve, for $0 \\le \\theta < 180^\\circ$, the equation"
+            },
+            {
+              "type": "newline"
+            },
+            {
+              "type": "text",
+              "content": "$$ 7 \\sin 2\\theta = 5 \\cos 2\\theta $$"
+            }
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "giving your answers, in degrees, to one decimal place."
+            },
+            {
+              "type": "space",
+              "height": "1cm"
+            }
+          ],
+          "answer": {
+            "type": "expression"
+          }
+        },
+        {
+          "label": "(ii)",
+          "marks": 5,
+          "stem": [
+            {
+              "type": "text",
+              "content": "Solve, for $0 \\le x < 2\\pi$, the equation"
+            },
+            {
+              "type": "newline"
+            },
+            {
+              "type": "text",
+              "content": "$$ 24 \\tan x = 5 \\cos x $$"
+            }
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "giving your answers, in radians, to 3 decimal places."
+            },
+            {
+              "type": "space",
+              "height": "1cm"
+            }
+          ],
+          "answer": {
+            "type": "expression"
+          }
+        }
+      ],
+      "answer": null,
+      "meta": {}
+    },
+    {
+      "qnum": 8,
+      "marks": 7,
+      "stem": [
+        {
+          "type": "text",
+          "content": "A curve has equation $y = (x + 2)^2(4 – x)$"
+        },
+        {
+          "type": "newline"
+        },
+        {
+          "type": "text",
+          "content": "The finite region R is bounded by the curve and the $x$-axis."
+        }
+      ],
+      "parts": [
+        {
+          "label": "(a)",
+          "marks": 5,
+          "content": [
+            {
+              "type": "text",
+              "content": "Using algebraic integration and showing each step of your working, find the exact area of R."
+            },
+            {
+              "type": "space",
+              "height": "1cm"
+            }
+          ],
+          "answer": {
+            "type": "number"
+          }
+        },
+        {
+          "label": "(b)",
+          "marks": 2,
+          "content": [
+            {
+              "type": "text",
+              "content": "Using the answer to part (a) and explaining your reasoning, find the area of the finite region bounded by the curve with equation $y = \\frac{1}{2}(x + 6)^2(2 – x)$ and the x-axis."
+            },
+            {
+              "type": "space",
+              "height": "1cm"
+            }
+          ],
+          "answer": {
+            "type": "number"
+          }
+        }
+      ],
+      "answer": null,
+      "meta": {}
+    },
+    {
+      "qnum": 9,
+      "marks": 9,
+      "stem": [
+        {
+          "type": "text",
+          "content": "In this question you must show all stages of your working."
+        },
+        {
+          "type": "newline"
+        },
+        {
+          "type": "text",
+          "content": "Solutions relying entirely on calculator technology are not acceptable."
+        }
+      ],
+      "parts": [
+        {
+          "label": "(i)",
+          "marks": 4,
+          "stem": [
+            {
+              "type": "text",
+              "content": "A car has five gears. Given that"
+            },
+            {
+              "type": "list",
+              "style": "bullet",
+              "items": [
+                "the maximum speed of the car in first gear is $22\\,\\text{km}\\,\\text{h}^{-1}$",
+                "the maximum speed in each successive gear forms a geometric sequence",
+                "the maximum speed of the car in fifth gear is $130\\,\\text{km}\\,\\text{h}^{-1}$"
+              ]
+            }
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "find the maximum speed of the car in second gear, giving your answer, in $\\text{km}\\,\\text{h}^{-1}$, to one decimal place."
+            },
+            {
+              "type": "space",
+              "height": "1cm"
+            }
+          ],
+          "answer": {
+            "type": "number"
+          }
+        },
+        {
+          "label": "(ii)",
+          "marks": 5,
+          "stem": [
+            {
+              "type": "text",
+              "content": "The first two terms of an arithmetic sequence are 208 and 207.2"
+            },
+            {
+              "type": "newline"
+            },
+            {
+              "type": "text",
+              "content": "Given that $S_n$ is the sum to $n$ terms,"
+            }
+          ],
+          "content": [],
+          "subparts": [
+            {
+              "label": "(a)",
+              "marks": 4,
+              "content": [
+                {
+                  "type": "text",
+                  "content": "find the maximum value of $S_n$"
+                },
+                {
+                  "type": "space",
+                  "height": "1cm"
+                }
+              ],
+              "answer": {
+                "type": "number"
+              }
+            },
+            {
+              "label": "(b)",
+              "marks": 1,
+              "content": [
+                {
+                  "type": "text",
+                  "content": "Hence or otherwise state the smallest value of $N$ such that $S_N < 0$"
+                },
+                {
+                  "type": "space",
+                  "height": "1cm"
+                }
+              ],
+              "answer": {
+                "type": "number"
+              }
+            }
+          ],
+          "answer": null
+        }
+      ],
+      "answer": null,
+      "meta": {}
+    },
+    {
+      "qnum": 10,
+      "marks": 10,
+      "stem": [
+        {
+          "type": "text",
+          "content": "In this question you must show all stages of your working."
+        },
+        {
+          "type": "newline"
+        },
+        {
+          "type": "text",
+          "content": "Solutions relying entirely on calculator technology are not acceptable."
+        },
+        {
+          "type": "newline"
+        },
+        {
+          "type": "text",
+          "content": "[Figure]"
+        },
+        {
+          "type": "newline"
+        },
+        {
+          "type": "text",
+          "content": "Figure 2 shows the plan view of the design for a stage at a trade fair."
+        },
+        {
+          "type": "newline"
+        },
+        {
+          "type": "text",
+          "content": "The shape of the stage ABCDEFA, consists of a rectangle ACDF joined to two congruent sectors of circles. ABC is a sector of a circle centre A and FDE is a sector of a circle centre F."
+        },
+        {
+          "type": "newline"
+        },
+        {
+          "type": "text",
+          "content": "Given that AC = $2r$ metres, CD = $r$ metres, angle DFE = $\\theta$ radians and the area of the stage is $30\\,\\text{m}^2$,"
+        }
+      ],
+      "parts": [
+        {
+          "label": "(a)",
+          "marks": 4,
+          "content": [
+            {
+              "type": "text",
+              "content": "show that the perimeter, $P$ metres, of the stage, is given by"
+            },
+            {
+              "type": "newline"
+            },
+            {
+              "type": "text",
+              "content": "$$ P = 4r + \\frac{30}{r} $$"
+            },
+            {
+              "type": "space",
+              "height": "1cm"
+            }
+          ],
+          "answer": {
+            "type": "none"
+          }
+        },
+        {
+          "label": "(b)",
+          "marks": 4,
+          "content": [
+            {
+              "type": "text",
+              "content": "Use calculus to find the minimum value for $P$, giving your answer in the form $a \\sqrt{b}$, where $a$ and $b$ are integers to be found."
+            },
+            {
+              "type": "space",
+              "height": "1cm"
+            }
+          ],
+          "answer": {
+            "type": "expression"
+          }
+        },
+        {
+          "label": "(c)",
+          "marks": 2,
+          "content": [
+            {
+              "type": "text",
+              "content": "Justify that the value of $P$ found in part (b) is the minimum."
+            },
+            {
+              "type": "space",
+              "height": "1cm"
+            }
+          ],
+          "answer": {
+            "type": "none"
+          }
+        }
+      ],
+      "answer": null,
+      "meta": {}
+    }
+  ]
+}

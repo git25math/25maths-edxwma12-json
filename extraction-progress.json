@@ -1,0 +1,130 @@
+{
+  "stats": {
+    "total": 24,
+    "extracted": 24,
+    "validated": 0,
+    "failed": 0
+  },
+  "papers": {
+    "2018SP-WMA12-01": {
+      "status": "extracted",
+      "extracted_at": "2026-03-23T06:55:16",
+      "error": ""
+    },
+    "2019Jan-WMA01-01": {
+      "status": "extracted",
+      "extracted_at": "2026-03-23T06:56:17",
+      "error": ""
+    },
+    "2019May-WMA12-01": {
+      "status": "extracted",
+      "extracted_at": "2026-03-23T15:20:00",
+      "error": ""
+    },
+    "2019Oct-WMA12-01": {
+      "status": "extracted",
+      "extracted_at": "2026-03-23T06:57:01",
+      "error": ""
+    },
+    "2020Jan-WMA12-01": {
+      "status": "extracted",
+      "extracted_at": "2026-03-23T06:57:38",
+      "error": ""
+    },
+    "2020Oct-WMA12-01": {
+      "status": "extracted",
+      "extracted_at": "2026-03-23T06:58:19",
+      "error": ""
+    },
+    "2021Jan-WMA12-01": {
+      "status": "extracted",
+      "extracted_at": "2026-03-23T06:59:07",
+      "error": ""
+    },
+    "2021May-WMA12-01": {
+      "status": "extracted",
+      "extracted_at": "2026-03-23T06:59:46",
+      "error": ""
+    },
+    "2021Oct-WMA12-01": {
+      "status": "extracted",
+      "extracted_at": "2026-03-23T07:00:31",
+      "error": ""
+    },
+    "2022Jan-WMA12-01": {
+      "status": "extracted",
+      "extracted_at": "2026-03-23T07:01:18",
+      "error": ""
+    },
+    "2022May-WMA12-01": {
+      "status": "extracted",
+      "extracted_at": "2026-03-23T07:01:59",
+      "error": ""
+    },
+    "2022Oct-WMA12-01": {
+      "status": "extracted",
+      "extracted_at": "2026-03-23T07:03:04",
+      "error": ""
+    },
+    "2023Jan-WMA12-01": {
+      "status": "extracted",
+      "extracted_at": "2026-03-23T07:04:15",
+      "error": ""
+    },
+    "2023May-WMA12-01": {
+      "status": "extracted",
+      "extracted_at": "2026-03-23T07:05:03",
+      "error": ""
+    },
+    "2023Oct-WMA12-01": {
+      "status": "extracted",
+      "extracted_at": "2026-03-23T07:05:47",
+      "error": ""
+    },
+    "2024Jan-WMA12-01": {
+      "status": "extracted",
+      "extracted_at": "2026-03-23T07:06:46",
+      "error": ""
+    },
+    "2024May-WMA12-01": {
+      "status": "extracted",
+      "extracted_at": "2026-03-23T07:14:51",
+      "error": ""
+    },
+    "2024May-WMA12-01R": {
+      "status": "extracted",
+      "extracted_at": "2026-03-23T07:07:34",
+      "error": ""
+    },
+    "2024Oct-WMA12-01": {
+      "status": "extracted",
+      "extracted_at": "2026-03-23T07:08:50",
+      "error": ""
+    },
+    "2025Jan-WMA12-01": {
+      "status": "extracted",
+      "extracted_at": "2026-03-23T07:09:31",
+      "error": ""
+    },
+    "2025May-WMA12-01": {
+      "status": "extracted",
+      "extracted_at": "2026-03-23T07:10:18",
+      "error": ""
+    },
+    "2025May-WMA12-01A": {
+      "status": "extracted",
+      "extracted_at": "2026-03-23T07:11:29",
+      "error": ""
+    },
+    "2025Oct-WMA12-01": {
+      "status": "extracted",
+      "extracted_at": "2026-03-23T07:12:10",
+      "error": ""
+    },
+    "2025Oct-WMA12-01A": {
+      "status": "extracted",
+      "extracted_at": "2026-03-23T07:13:03",
+      "error": ""
+    }
+  }
+}

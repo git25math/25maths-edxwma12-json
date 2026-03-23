@@ -1,0 +1,953 @@
+{
+  "v": "1.0",
+  "paper": "2025May-WMA12-01A",
+  "board": "edx",
+  "code": "WMA12",
+  "year": 2025,
+  "session": "May",
+  "paperNum": "01",
+  "type": "ial-p2",
+  "totalMarks": 75,
+  "time": 90,
+  "questions": [
+    {
+      "qnum": 1,
+      "marks": 3,
+      "stem": [
+        {
+          "type": "text",
+          "content": "Given that a, b and c are positive integers such that"
+        },
+        {
+          "type": "list",
+          "style": "bullet",
+          "items": [
+            "$c = a^2 – 1$",
+            "$a + b + c = 20$"
+          ]
+        },
+        {
+          "type": "newline"
+        },
+        {
+          "type": "text",
+          "content": "prove, by exhaustion, that the product abc is always a multiple of 6"
+        },
+        {
+          "type": "newline"
+        },
+        {
+          "type": "text",
+          "content": "You may use the table below to illustrate your answer."
+        },
+        {
+          "type": "newline"
+        },
+        {
+          "type": "text",
+          "content": "You may not need to use all rows of this table."
+        },
+        {
+          "type": "table",
+          "content": "\\begin{tabular}{|l|l|l|l|}\n\\hline\na & b & c & abc \\\\\n\\hline\n & & & \\\\\n & & & \\\\\n & & & \\\\\n & & & \\\\\n & & & \\\\\n & & & \\\\\n & & & \\\\\n & & & \\\\\n & & & \\\\\n & & & \\\\\n & & & \\\\\n & & & \\\\\n & & & \\\\\n & & & \\\\\n & & & \\\\\n & & & \\\\\n & & & \\\\\n & & & \\\\\n & & & \\\\\n\\hline\n\\end{tabular}"
+        }
+      ],
+      "parts": [],
+      "answer": {
+        "type": "none"
+      },
+      "meta": {}
+    },
+    {
+      "qnum": 2,
+      "marks": 6,
+      "stem": [
+        {
+          "type": "text",
+          "content": "A geometric series has first term a and common ratio r."
+        },
+        {
+          "type": "newline"
+        },
+        {
+          "type": "text",
+          "content": "Given that"
+        },
+        {
+          "type": "list",
+          "style": "bullet",
+          "items": [
+            "the third term in the series is 64",
+            "the sixth term in the series is –8"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "label": "(a)",
+          "marks": 2,
+          "content": [
+            {
+              "type": "text",
+              "content": "show that $r = -\\frac{1}{2}$"
+            },
+            {
+              "type": "space",
+              "height": "1cm"
+            }
+          ],
+          "answer": {
+            "type": "none"
+          }
+        },
+        {
+          "label": "(b)",
+          "marks": 4,
+          "content": [
+            {
+              "type": "text",
+              "content": "find the sum to infinity of the series."
+            },
+            {
+              "type": "space",
+              "height": "3cm"
+            }
+          ],
+          "answer": {
+            "type": "number"
+          }
+        }
+      ],
+      "answer": null,
+      "meta": {}
+    },
+    {
+      "qnum": 3,
+      "marks": 7,
+      "stem": [
+        {
+          "type": "text",
+          "content": "$f(x) = (3x^2 – 4x – 5)(x – k) – 5$"
+        },
+        {
+          "type": "newline"
+        },
+        {
+          "type": "text",
+          "content": "where k is a constant."
+        }
+      ],
+      "parts": [
+        {
+          "label": "(a)",
+          "marks": 1,
+          "content": [
+            {
+              "type": "text",
+              "content": "Deduce the value of the remainder when $f(x)$ is divided by $(x – k)$"
+            },
+            {
+              "type": "space",
+              "height": "1cm"
+            }
+          ],
+          "answer": {
+            "type": "number"
+          }
+        },
+        {
+          "label": "(b)",
+          "marks": 2,
+          "content": [
+            {
+              "type": "text",
+              "content": "Given that the remainder when $f(x)$ is divided by $(x + 2)$ is 25"
+            },
+            {
+              "type": "newline"
+            },
+            {
+              "type": "text",
+              "content": "show that the value of k is –4"
+            },
+            {
+              "type": "space",
+              "height": "1cm"
+            }
+          ],
+          "answer": {
+            "type": "none"
+          }
+        },
+        {
+          "label": "(c)",
+          "marks": 4,
+          "content": [
+            {
+              "type": "text",
+              "content": "Hence find the quotient and remainder when $f(x)$ is divided by $(3x – 1)$"
+            },
+            {
+              "type": "space",
+              "height": "3cm"
+            }
+          ],
+          "answer": {
+            "type": "structured",
+            "answerBlocks": [
+              {
+                "type": "expression",
+                "prefix": "Quotient = "
+              },
+              {
+                "type": "expression",
+                "prefix": "Remainder = "
+              }
+            ]
+          }
+        }
+      ],
+      "answer": null,
+      "meta": {}
+    },
+    {
+      "qnum": 4,
+      "marks": 9,
+      "stem": [
+        {
+          "type": "text",
+          "content": "[Figure]"
+        },
+        {
+          "type": "newline"
+        },
+        {
+          "type": "text",
+          "content": "Figure 1 shows a sketch of part of the curve with equation"
+        },
+        {
+          "type": "newline"
+        },
+        {
+          "type": "text",
+          "content": "$y = \\log_3(x + 1) – \\log_3 x$"
+        },
+        {
+          "type": "newline"
+        },
+        {
+          "type": "text",
+          "content": "The point P(a, 4) lies on the curve."
+        }
+      ],
+      "parts": [
+        {
+          "label": "(a)",
+          "marks": 4,
+          "content": [
+            {
+              "type": "text",
+              "content": "Find the exact value of the constant a."
+            },
+            {
+              "type": "text",
+              "content": "(Solutions relying on calculator technology are not acceptable.)"
+            },
+            {
+              "type": "space",
+              "height": "2cm"
+            }
+          ],
+          "answer": {
+            "type": "number"
+          }
+        },
+        {
+          "label": "(b)",
+          "marks": 4,
+          "content": [
+            {
+              "type": "text",
+              "content": "Use the trapezium rule with 4 strips of equal width to estimate the value of"
+            },
+            {
+              "type": "newline"
+            },
+            {
+              "type": "text",
+              "content": "$$\\int_1^5 (\\log_3(x+1) - \\log_3 x) \\, dx$$"
+            },
+            {
+              "type": "newline"
+            },
+            {
+              "type": "text",
+              "content": "giving the answer in the form $\\log_3 k$, where k is a constant to be found."
+            },
+            {
+              "type": "space",
+              "height": "3cm"
+            }
+          ],
+          "answer": {
+            "type": "expression",
+            "prefix": "$\\log_3 k = $"
+          }
+        },
+        {
+          "label": "(c)",
+          "marks": 1,
+          "content": [
+            {
+              "type": "text",
+              "content": "Explain how the trapezium rule could be used to obtain a more accurate estimate for"
+            },
+            {
+              "type": "newline"
+            },
+            {
+              "type": "text",
+              "content": "$$\\int_1^5 (\\log_3(x+1) - \\log_3 x) \\, dx$$"
+            },
+            {
+              "type": "space",
+              "height": "1cm"
+            }
+          ],
+          "answer": {
+            "type": "multiline",
+            "lines": 2
+          }
+        }
+      ],
+      "answer": null,
+      "meta": {}
+    },
+    {
+      "qnum": 5,
+      "marks": 7,
+      "stem": [
+        {
+          "type": "text",
+          "content": "In this question you must show all stages of your working."
+        },
+        {
+          "type": "newline"
+        },
+        {
+          "type": "text",
+          "content": "Solutions relying on calculator technology are not acceptable."
+        },
+        {
+          "type": "newline"
+        },
+        {
+          "type": "text",
+          "content": "The sequence $u_1, u_2, u_3, ...$ is defined by"
+        },
+        {
+          "type": "newline"
+        },
+        {
+          "type": "text",
+          "content": "$$u_{n+1} = \\frac{1}{1-u_n}$$"
+        },
+        {
+          "type": "newline"
+        },
+        {
+          "type": "text",
+          "content": "$u_1 = 4$"
+        }
+      ],
+      "parts": [
+        {
+          "label": "(a)",
+          "marks": 3,
+          "content": [
+            {
+              "type": "text",
+              "content": "Show that this is a periodic sequence of order 3"
+            },
+            {
+              "type": "space",
+              "height": "2cm"
+            }
+          ],
+          "answer": {
+            "type": "none"
+          }
+        },
+        {
+          "label": "(b)",
+          "marks": 4,
+          "content": [
+            {
+              "type": "text",
+              "content": "Find the value of"
+            },
+            {
+              "type": "newline"
+            },
+            {
+              "type": "text",
+              "content": "$$\\sum_{n=1}^{180} u_n$$"
+            },
+            {
+              "type": "space",
+              "height": "3cm"
+            }
+          ],
+          "answer": {
+            "type": "number"
+          }
+        }
+      ],
+      "answer": null,
+      "meta": {}
+    },
+    {
+      "qnum": 6,
+      "marks": 12,
+      "stem": [
+        {
+          "type": "text",
+          "content": "In this question you must show all stages of your working."
+        },
+        {
+          "type": "newline"
+        },
+        {
+          "type": "text",
+          "content": "Solutions relying on calculator technology are not acceptable."
+        }
+      ],
+      "parts": [
+        {
+          "label": "(i)",
+          "marks": 4,
+          "content": [
+            {
+              "type": "text",
+              "content": "Given that $\\theta$ is measured in degrees and"
+            },
+            {
+              "type": "list",
+              "style": "bullet",
+              "items": [
+                "$\\cos \\theta = \\frac{1}{5}$",
+                "$180^{\\circ} < \\theta < 360^{\\circ}$"
+              ]
+            },
+            {
+              "type": "newline"
+            },
+            {
+              "type": "text",
+              "content": "use trigonometric identities to find the exact value of"
+            }
+          ],
+          "subparts": [
+            {
+              "label": "(a)",
+              "marks": 2,
+              "content": [
+                {
+                  "type": "text",
+                  "content": "$\\sin \\theta$"
+                },
+                {
+                  "type": "space",
+                  "height": "1cm"
+                }
+              ],
+              "answer": {
+                "type": "expression"
+              }
+            },
+            {
+              "label": "(b)",
+              "marks": 2,
+              "content": [
+                {
+                  "type": "text",
+                  "content": "$\\tan \\theta$"
+                },
+                {
+                  "type": "newline"
+                },
+                {
+                  "type": "text",
+                  "content": "giving the answers as fully simplified surds where appropriate."
+                },
+                {
+                  "type": "space",
+                  "height": "1cm"
+                }
+              ],
+              "answer": {
+                "type": "expression"
+              }
+            }
+          ],
+          "answer": null
+        },
+        {
+          "label": "(ii)",
+          "marks": 8,
+          "content": [
+            {
+              "type": "text",
+              "content": "[Figure]"
+            },
+            {
+              "type": "newline"
+            },
+            {
+              "type": "text",
+              "content": "The height of sea water, h metres, on a harbour wall, t hours after midnight on a particular day is given by"
+            },
+            {
+              "type": "newline"
+            },
+            {
+              "type": "text",
+              "content": "$h = 4 + 3 \\cos(30t – 40)^{\\circ}\\qquad 0 \\le t < 24$"
+            },
+            {
+              "type": "newline"
+            },
+            {
+              "type": "text",
+              "content": "A sketch of h against t is shown in Figure 2."
+            }
+          ],
+          "subparts": [
+            {
+              "label": "(a)",
+              "marks": 1,
+              "content": [
+                {
+                  "type": "text",
+                  "content": "Find the minimum height of sea water on the harbour wall."
+                },
+                {
+                  "type": "space",
+                  "height": "1cm"
+                }
+              ],
+              "answer": {
+                "type": "number"
+              }
+            },
+            {
+              "label": "(b)",
+              "marks": 3,
+              "content": [
+                {
+                  "type": "text",
+                  "content": "Find the exact time of day when this minimum height first occurs."
+                },
+                {
+                  "type": "space",
+                  "height": "2cm"
+                }
+              ],
+              "answer": {
+                "type": "expression"
+              }
+            },
+            {
+              "label": "(c)",
+              "marks": 4,
+              "content": [
+                {
+                  "type": "text",
+                  "content": "When t = T, as shown in Figure 2, a boat enters the harbour when the height of sea water on the harbour wall is 3.5 m."
+                },
+                {
+                  "type": "newline"
+                },
+                {
+                  "type": "text",
+                  "content": "Use Figure 2 and the given equation to find the value of T to 2 decimal places."
+                },
+                {
+                  "type": "space",
+                  "height": "3cm"
+                }
+              ],
+              "answer": {
+                "type": "number"
+              }
+            }
+          ],
+          "answer": null
+        }
+      ],
+      "answer": null,
+      "meta": {}
+    },
+    {
+      "qnum": 7,
+      "marks": 8,
+      "stem": [
+        {
+          "type": "text",
+          "content": "In this question you must show all stages of your working."
+        },
+        {
+          "type": "newline"
+        },
+        {
+          "type": "text",
+          "content": "Solutions relying entirely on calculator technology are not acceptable."
+        },
+        {
+          "type": "newline"
+        },
+        {
+          "type": "text",
+          "content": "The binomial expansion, in ascending powers of x, of $(1 + kx)^n$ is"
+        },
+        {
+          "type": "newline"
+        },
+        {
+          "type": "text",
+          "content": "$1 – 24x + 270x^2 + px^3 + ...$"
+        },
+        {
+          "type": "newline"
+        },
+        {
+          "type": "text",
+          "content": "where k and p are constants and n is an integer greater than 1"
+        }
+      ],
+      "parts": [
+        {
+          "label": "(a)",
+          "marks": 6,
+          "content": [
+            {
+              "type": "text",
+              "content": "Use this information to set up and solve two simultaneous equations to find the value of k and the value of n."
+            },
+            {
+              "type": "space",
+              "height": "4cm"
+            }
+          ],
+          "answer": {
+            "type": "structured",
+            "answerBlocks": [
+              {
+                "type": "expression",
+                "prefix": "k = "
+              },
+              {
+                "type": "expression",
+                "prefix": "n = "
+              }
+            ]
+          }
+        },
+        {
+          "label": "(b)",
+          "marks": 2,
+          "content": [
+            {
+              "type": "text",
+              "content": "Hence find the value of p."
+            },
+            {
+              "type": "space",
+              "height": "2cm"
+            }
+          ],
+          "answer": {
+            "type": "number"
+          }
+        }
+      ],
+      "answer": null,
+      "meta": {}
+    },
+    {
+      "qnum": 8,
+      "marks": 9,
+      "stem": [
+        {
+          "type": "text",
+          "content": "In this question you must show all stages of your working."
+        },
+        {
+          "type": "newline"
+        },
+        {
+          "type": "text",
+          "content": "Solutions relying entirely on calculator technology are not acceptable."
+        },
+        {
+          "type": "newline"
+        },
+        {
+          "type": "text",
+          "content": "A curve C has equation $y = f(x)$ where $f(x)$ is a polynomial in x."
+        },
+        {
+          "type": "newline"
+        },
+        {
+          "type": "text",
+          "content": "Given"
+        },
+        {
+          "type": "newline"
+        },
+        {
+          "type": "text",
+          "content": "$f'(x) = 2(3x – 2)(x + 5)$"
+        }
+      ],
+      "parts": [
+        {
+          "label": "(a)",
+          "marks": 2,
+          "content": [
+            {
+              "type": "text",
+              "content": "deduce the range of values of x for which y is decreasing."
+            },
+            {
+              "type": "space",
+              "height": "1cm"
+            }
+          ],
+          "answer": {
+            "type": "expression"
+          }
+        },
+        {
+          "label": "(b)",
+          "marks": 1,
+          "content": [
+            {
+              "type": "text",
+              "content": "Given further that C cuts the x‑axis at $\\frac{7}{2}$"
+            },
+            {
+              "type": "newline"
+            },
+            {
+              "type": "text",
+              "content": "state a factor of $f(x)$, giving the answer in the form $(Ax + B)$ where A and B are integers."
+            },
+            {
+              "type": "space",
+              "height": "1cm"
+            }
+          ],
+          "answer": {
+            "type": "expression"
+          }
+        },
+        {
+          "label": "(c)",
+          "marks": 6,
+          "content": [
+            {
+              "type": "text",
+              "content": "Hence find an expression for $f(x)$ in a fully factorised form."
+            },
+            {
+              "type": "space",
+              "height": "4cm"
+            }
+          ],
+          "answer": {
+            "type": "expression"
+          }
+        }
+      ],
+      "answer": null,
+      "meta": {}
+    },
+    {
+      "qnum": 9,
+      "marks": 5,
+      "stem": [
+        {
+          "type": "text",
+          "content": "The circle C"
+        },
+        {
+          "type": "list",
+          "style": "bullet",
+          "items": [
+            "has a centre which lies on the x‑axis",
+            "touches the y‑axis",
+            "passes through the point (5, 6)"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "label": "(a)",
+          "marks": 1,
+          "content": [
+            {
+              "type": "text",
+              "content": "On Diagram 1, sketch a graph of C."
+            },
+            {
+              "type": "newline"
+            },
+            {
+              "type": "text",
+              "content": "[Figure]"
+            },
+            {
+              "type": "space",
+              "height": "1cm"
+            }
+          ],
+          "answer": {
+            "type": "none"
+          }
+        },
+        {
+          "label": "(b)",
+          "marks": 4,
+          "content": [
+            {
+              "type": "text",
+              "content": "Find an equation for C."
+            },
+            {
+              "type": "space",
+              "height": "3cm"
+            }
+          ],
+          "answer": {
+            "type": "expression"
+          }
+        }
+      ],
+      "answer": null,
+      "meta": {}
+    },
+    {
+      "qnum": 10,
+      "marks": 9,
+      "stem": [
+        {
+          "type": "text",
+          "content": "[Figure]"
+        },
+        {
+          "type": "newline"
+        },
+        {
+          "type": "text",
+          "content": "In this question you must show all stages of your working."
+        },
+        {
+          "type": "newline"
+        },
+        {
+          "type": "text",
+          "content": "Solutions relying entirely on calculator technology are not acceptable."
+        },
+        {
+          "type": "newline"
+        },
+        {
+          "type": "text",
+          "content": "Figure 3 shows a sketch of the curve C with equation"
+        },
+        {
+          "type": "newline"
+        },
+        {
+          "type": "text",
+          "content": "$$y = 2x^2 - \\frac{64}{3x}\\qquad x > 0$$"
+        },
+        {
+          "type": "newline"
+        },
+        {
+          "type": "text",
+          "content": "The point P, shown in Figure 3, is the stationary point on C."
+        }
+      ],
+      "parts": [
+        {
+          "label": "(a)",
+          "marks": 4,
+          "content": [
+            {
+              "type": "text",
+              "content": "Show, using calculus, that the x coordinate of P is 4"
+            },
+            {
+              "type": "space",
+              "height": "2cm"
+            }
+          ],
+          "answer": {
+            "type": "none"
+          }
+        },
+        {
+          "label": "(b)",
+          "marks": 5,
+          "content": [
+            {
+              "type": "text",
+              "content": "The point Q lies on C and has x coordinate 2"
+            },
+            {
+              "type": "newline"
+            },
+            {
+              "type": "text",
+              "content": "The line segments MQ and NP, shown in Figure 3, are parallel to the x‑axis."
+            },
+            {
+              "type": "newline"
+            },
+            {
+              "type": "text",
+              "content": "The region R, shown shaded in Figure 3, is bounded by C, the y‑axis and line segments MQ and NP."
+            },
+            {
+              "type": "newline"
+            },
+            {
+              "type": "text",
+              "content": "Use algebraic integration to find the exact area of R."
+            },
+            {
+              "type": "newline"
+            },
+            {
+              "type": "text",
+              "content": "You must make your method clear."
+            },
+            {
+              "type": "space",
+              "height": "4cm"
+            }
+          ],
+          "answer": {
+            "type": "number"
+          }
+        }
+      ],
+      "answer": null,
+      "meta": {}
+    }
+  ]
+}

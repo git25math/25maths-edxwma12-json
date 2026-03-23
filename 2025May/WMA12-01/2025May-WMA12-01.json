@@ -1,0 +1,955 @@
+{
+  "v": "1.0",
+  "paper": "2025May-WMA12-01",
+  "board": "edx",
+  "code": "WMA12",
+  "year": 2025,
+  "session": "May",
+  "paperNum": "01",
+  "type": "ial-p2",
+  "totalMarks": 75,
+  "time": 90,
+  "questions": [
+    {
+      "qnum": 1,
+      "marks": 6,
+      "stem": [],
+      "parts": [
+        {
+          "label": "(a)",
+          "marks": 4,
+          "content": [
+            {
+              "type": "text",
+              "content": "Find the first 4 terms, in ascending powers of x, of the binomial expansion of"
+            },
+            {
+              "type": "newline"
+            },
+            {
+              "type": "text",
+              "content": "$(1 – 4x)^7$"
+            },
+            {
+              "type": "newline"
+            },
+            {
+              "type": "text",
+              "content": "giving each term in simplest form."
+            },
+            {
+              "type": "space",
+              "height": "1cm"
+            }
+          ],
+          "answer": {
+            "type": "expression"
+          }
+        },
+        {
+          "label": "(b)",
+          "marks": 2,
+          "content": [
+            {
+              "type": "text",
+              "content": "In the series expansion of"
+            },
+            {
+              "type": "newline"
+            },
+            {
+              "type": "text",
+              "content": "$(5 + kx) (1 – 4x)^7$"
+            },
+            {
+              "type": "newline"
+            },
+            {
+              "type": "text",
+              "content": "where k is a constant"
+            },
+            {
+              "type": "newline"
+            },
+            {
+              "type": "text",
+              "content": "the coefficient of the term in $x^2$ is 1316"
+            },
+            {
+              "type": "newline"
+            },
+            {
+              "type": "text",
+              "content": "Use the answer to part (a) to find the value of k."
+            },
+            {
+              "type": "space",
+              "height": "1cm"
+            }
+          ],
+          "answer": {
+            "type": "number"
+          }
+        }
+      ],
+      "answer": null,
+      "meta": {}
+    },
+    {
+      "qnum": 2,
+      "marks": 7,
+      "stem": [
+        {
+          "type": "text",
+          "content": "The line joining the points $(–2, 5)$ and $(4, 15)$ is the diameter of a circle C."
+        },
+        {
+          "type": "space",
+          "height": "1cm"
+        }
+      ],
+      "parts": [
+        {
+          "label": "(a)",
+          "marks": 5,
+          "content": [
+            {
+              "type": "text",
+              "content": "Find an equation for C."
+            },
+            {
+              "type": "space",
+              "height": "1cm"
+            }
+          ],
+          "answer": {
+            "type": "expression"
+          }
+        },
+        {
+          "label": "(b)",
+          "marks": 2,
+          "content": [
+            {
+              "type": "text",
+              "content": "Hence find the exact coordinates of the point on C that is nearest the x-axis."
+            },
+            {
+              "type": "space",
+              "height": "1cm"
+            }
+          ],
+          "answer": {
+            "type": "coordinate",
+            "fields": 2
+          }
+        }
+      ],
+      "answer": null,
+      "meta": {}
+    },
+    {
+      "qnum": 3,
+      "marks": 5,
+      "stem": [
+        {
+          "type": "text",
+          "content": "[Figure]"
+        },
+        {
+          "type": "newline"
+        },
+        {
+          "type": "text",
+          "content": "In this question you must show all stages of your working."
+        },
+        {
+          "type": "newline"
+        },
+        {
+          "type": "text",
+          "content": "Solutions relying entirely on calculator technology are not acceptable."
+        },
+        {
+          "type": "newline"
+        },
+        {
+          "type": "text",
+          "content": "Figure 1 shows a sketch of the curve C with equation"
+        },
+        {
+          "type": "newline"
+        },
+        {
+          "type": "text",
+          "content": "$$y = 3x + \frac{16}{2x} – 8      x > 0$$"
+        },
+        {
+          "type": "newline"
+        },
+        {
+          "type": "text",
+          "content": "The points P $(1, 11)$ and Q $(4, 5)$ lie on C and are shown in Figure 1."
+        },
+        {
+          "type": "newline"
+        },
+        {
+          "type": "text",
+          "content": "The region R, shown shaded in Figure 1, is bounded by C and line segment PQ."
+        },
+        {
+          "type": "newline"
+        },
+        {
+          "type": "text",
+          "content": "Use algebraic integration to find the area of R."
+        },
+        {
+          "type": "space",
+          "height": "1cm"
+        }
+      ],
+      "parts": [],
+      "answer": {
+        "type": "number"
+      },
+      "meta": {}
+    },
+    {
+      "qnum": 4,
+      "marks": 9,
+      "stem": [
+        {
+          "type": "text",
+          "content": "The function f (x) is defined by"
+        },
+        {
+          "type": "newline"
+        },
+        {
+          "type": "text",
+          "content": "$$f (x) = ax^3 + bx^2 + 5x – 3$$"
+        },
+        {
+          "type": "newline"
+        },
+        {
+          "type": "text",
+          "content": "where a and b are constants."
+        },
+        {
+          "type": "newline"
+        },
+        {
+          "type": "text",
+          "content": "Given that $(x + 3)$ is a factor of f (x),"
+        },
+        {
+          "type": "space",
+          "height": "1cm"
+        }
+      ],
+      "parts": [
+        {
+          "label": "(a)",
+          "marks": 2,
+          "content": [
+            {
+              "type": "text",
+              "content": "show that"
+            },
+            {
+              "type": "newline"
+            },
+            {
+              "type": "text",
+              "content": "$$b = 3a + 2$$"
+            },
+            {
+              "type": "space",
+              "height": "1cm"
+            }
+          ],
+          "answer": {
+            "type": "none"
+          }
+        },
+        {
+          "label": "(b)",
+          "marks": 4,
+          "content": [
+            {
+              "type": "text",
+              "content": "Given further that when f (x) is divided by $(2x – 1)$ the remainder is $\\frac{7}{4}$"
+            },
+            {
+              "type": "newline"
+            },
+            {
+              "type": "text",
+              "content": "find the value of a and the value of b."
+            },
+            {
+              "type": "space",
+              "height": "1cm"
+            }
+          ],
+          "answer": {
+            "type": "structured",
+            "answerBlocks": [
+              {
+                "type": "expression",
+                "prefix": "a = "
+              },
+              {
+                "type": "expression",
+                "prefix": "b = "
+              }
+            ]
+          }
+        },
+        {
+          "label": "(c)",
+          "marks": 3,
+          "content": [
+            {
+              "type": "text",
+              "content": "Using algebra, find the quotient and the remainder when f (x) is divided by $(x – 2)$"
+            },
+            {
+              "type": "space",
+              "height": "1cm"
+            }
+          ],
+          "answer": {
+            "type": "structured",
+            "answerBlocks": [
+              {
+                "type": "expression",
+                "prefix": "Quotient = "
+              },
+              {
+                "type": "expression",
+                "prefix": "Remainder = "
+              }
+            ]
+          }
+        }
+      ],
+      "answer": null,
+      "meta": {}
+    },
+    {
+      "qnum": 5,
+      "marks": 6,
+      "stem": [
+        {
+          "type": "table",
+          "content": "\\begin{tabular}{|c|c|c|c|c|c|c|c|} \\hline x & –2 & –0.5 & 1 & 2.5 & 4 & 5.5 & 7 \\\\ \\hline y & 12 & 4.243 & 1.5 & 0.530 & 0.188 & 0.066 & 0.023 \\\\ \\hline \\end{tabular}"
+        },
+        {
+          "type": "newline"
+        },
+        {
+          "type": "text",
+          "content": "The table above shows corresponding values of x and y for"
+        },
+        {
+          "type": "newline"
+        },
+        {
+          "type": "text",
+          "content": "$$y = 3 \\left(\\frac{1}{2}\\right)^x$$"
+        },
+        {
+          "type": "newline"
+        },
+        {
+          "type": "text",
+          "content": "The values of y are given to 3 decimal places as appropriate."
+        },
+        {
+          "type": "space",
+          "height": "1cm"
+        }
+      ],
+      "parts": [
+        {
+          "label": "(a)",
+          "marks": 3,
+          "content": [
+            {
+              "type": "text",
+              "content": "Using the trapezium rule with all the values of y in the given table, obtain an estimate for"
+            },
+            {
+              "type": "newline"
+            },
+            {
+              "type": "text",
+              "content": "$$\\int_{2}^{7} 3 \\left(\\frac{1}{2}\\right)^x \\, \\mathrm{d}x$$"
+            },
+            {
+              "type": "newline"
+            },
+            {
+              "type": "text",
+              "content": "giving the answer to one decimal place."
+            },
+            {
+              "type": "space",
+              "height": "1cm"
+            }
+          ],
+          "answer": {
+            "type": "number"
+          }
+        },
+        {
+          "label": "(b)",
+          "marks": 3,
+          "content": [
+            {
+              "type": "text",
+              "content": "Using the answer to part (a) and making your method clear, estimate"
+            }
+          ],
+          "subparts": [
+            {
+              "label": "(i)",
+              "marks": 2,
+              "content": [
+                {
+                  "type": "text",
+                  "content": "$$\\int_{2}^{7} 2 \\left(\\frac{1}{2}\\right)^x \\, \\mathrm{d}x$$"
+                },
+                {
+                  "type": "space",
+                  "height": "1cm"
+                }
+              ],
+              "answer": {
+                "type": "number"
+              }
+            },
+            {
+              "label": "(ii)",
+              "marks": 1,
+              "content": [
+                {
+                  "type": "text",
+                  "content": "$$\\int_{2}^{7} \\left(2 \\left(\\frac{1}{2}\\right)^x + 2\\right) \\, \\mathrm{d}x$$"
+                },
+                {
+                  "type": "space",
+                  "height": "1cm"
+                }
+              ],
+              "answer": {
+                "type": "number"
+              }
+            }
+          ],
+          "answer": null
+        }
+      ],
+      "answer": null,
+      "meta": {}
+    },
+    {
+      "qnum": 6,
+      "marks": 10,
+      "stem": [
+        {
+          "type": "text",
+          "content": "In this question you must show all stages of your working."
+        },
+        {
+          "type": "newline"
+        },
+        {
+          "type": "text",
+          "content": "Solutions relying on calculator technology are not acceptable."
+        },
+        {
+          "type": "space",
+          "height": "1cm"
+        }
+      ],
+      "parts": [
+        {
+          "label": "(i)",
+          "marks": 5,
+          "content": [
+            {
+              "type": "text",
+              "content": "Solve"
+            },
+            {
+              "type": "newline"
+            },
+            {
+              "type": "text",
+              "content": "$$2\\log_2 (4 – x) = 3 + \\log_2 \\left(\\frac{11}{2}x\\right)$$"
+            },
+            {
+              "type": "newline"
+            },
+            {
+              "type": "text",
+              "content": "giving the answers in radians in the form kπ, where k is a rational constant to be found."
+            },
+            {
+              "type": "space",
+              "height": "1cm"
+            }
+          ],
+          "answer": {
+            "type": "expression"
+          }
+        },
+        {
+          "label": "(ii)",
+          "marks": 5,
+          "content": [
+            {
+              "type": "text",
+              "content": "The curves C1 and C2 with equations"
+            },
+            {
+              "type": "newline"
+            },
+            {
+              "type": "text",
+              "content": "$$y = 3^{2x + 1}      \\text{and}      y = 6 \\times 3^x$$"
+            },
+            {
+              "type": "newline"
+            },
+            {
+              "type": "text",
+              "content": "meet at the point P."
+            },
+            {
+              "type": "newline"
+            },
+            {
+              "type": "text",
+              "content": "Find the exact coordinates of P, writing your answer in the form $(\\log_3 a, b)$ where a and b are integers."
+            },
+            {
+              "type": "space",
+              "height": "1cm"
+            }
+          ],
+          "answer": {
+            "type": "coordinate",
+            "fields": 2
+          }
+        }
+      ],
+      "answer": null,
+      "meta": {}
+    },
+    {
+      "qnum": 7,
+      "marks": 9,
+      "stem": [
+        {
+          "type": "text",
+          "content": "In this question you must show all stages of your working."
+        },
+        {
+          "type": "newline"
+        },
+        {
+          "type": "text",
+          "content": "Solutions relying entirely on calculator technology are not acceptable."
+        },
+        {
+          "type": "space",
+          "height": "1cm"
+        }
+      ],
+      "parts": [
+        {
+          "label": "(i)",
+          "marks": 5,
+          "content": [
+            {
+              "type": "text",
+              "content": "A geometric series begins"
+            },
+            {
+              "type": "newline"
+            },
+            {
+              "type": "text",
+              "content": "$10 + 8 + 6.4 + \\dots$"
+            }
+          ],
+          "subparts": [
+            {
+              "label": "(a)",
+              "marks": 2,
+              "content": [
+                {
+                  "type": "text",
+                  "content": "Find the sum to infinity of this series."
+                },
+                {
+                  "type": "space",
+                  "height": "1cm"
+                }
+              ],
+              "answer": {
+                "type": "number"
+              }
+            },
+            {
+              "label": "(b)",
+              "marks": 3,
+              "content": [
+                {
+                  "type": "text",
+                  "content": "Given that the k th term of this series is less than 0.0005"
+                },
+                {
+                  "type": "newline"
+                },
+                {
+                  "type": "text",
+                  "content": "use algebra to find the smallest possible value of k."
+                },
+                {
+                  "type": "space",
+                  "height": "1cm"
+                }
+              ],
+              "answer": {
+                "type": "number"
+              }
+            }
+          ],
+          "answer": null
+        },
+        {
+          "label": "(ii)",
+          "marks": 4,
+          "content": [
+            {
+              "type": "text",
+              "content": "An arithmetic series begins"
+            },
+            {
+              "type": "newline"
+            },
+            {
+              "type": "text",
+              "content": "$850 + 843 + 836 + \\dots$"
+            },
+            {
+              "type": "newline"
+            },
+            {
+              "type": "text",
+              "content": "Given that the sum of the first n terms of this series is $S_n$"
+            },
+            {
+              "type": "newline"
+            },
+            {
+              "type": "text",
+              "content": "find the greatest possible value of $S_n$"
+            },
+            {
+              "type": "space",
+              "height": "1cm"
+            }
+          ],
+          "answer": {
+            "type": "number"
+          }
+        }
+      ],
+      "answer": null,
+      "meta": {}
+    },
+    {
+      "qnum": 8,
+      "marks": 8,
+      "stem": [
+        {
+          "type": "text",
+          "content": "In this question you must show all stages of your working."
+        },
+        {
+          "type": "newline"
+        },
+        {
+          "type": "text",
+          "content": "Solutions relying entirely on calculator technology are not acceptable."
+        },
+        {
+          "type": "space",
+          "height": "1cm"
+        }
+      ],
+      "parts": [
+        {
+          "label": "(i)",
+          "marks": 3,
+          "content": [
+            {
+              "type": "text",
+              "content": "Solve, for $0 \\le x < \\pi$, the equation"
+            },
+            {
+              "type": "newline"
+            },
+            {
+              "type": "text",
+              "content": "$$3 \\tan \\left(2x + \\frac{3}{5}\\pi\\right) = 1$$"
+            },
+            {
+              "type": "newline"
+            },
+            {
+              "type": "text",
+              "content": "giving the answers in radians in the form kπ, where k is a rational constant to be found."
+            },
+            {
+              "type": "space",
+              "height": "1cm"
+            }
+          ],
+          "answer": {
+            "type": "expression"
+          }
+        },
+        {
+          "label": "(ii)",
+          "marks": 5,
+          "content": [
+            {
+              "type": "text",
+              "content": "Solve, for $0 \\le \\theta < 360^\\circ$, the equation"
+            },
+            {
+              "type": "newline"
+            },
+            {
+              "type": "text",
+              "content": "$$5 \\sin \\theta \\tan \\theta = \\cos \\theta + 4$$"
+            },
+            {
+              "type": "newline"
+            },
+            {
+              "type": "text",
+              "content": "giving your answers, in degrees, to one decimal place."
+            },
+            {
+              "type": "space",
+              "height": "1cm"
+            }
+          ],
+          "answer": {
+            "type": "expression"
+          }
+        }
+      ],
+      "answer": null,
+      "meta": {}
+    },
+    {
+      "qnum": 9,
+      "marks": 11,
+      "stem": [
+        {
+          "type": "text",
+          "content": "[Figure]"
+        },
+        {
+          "type": "newline"
+        },
+        {
+          "type": "text",
+          "content": "Figure 2 shows a sketch of an open container."
+        },
+        {
+          "type": "newline"
+        },
+        {
+          "type": "text",
+          "content": "The sides CDEF and ABFE are rectangles."
+        },
+        {
+          "type": "newline"
+        },
+        {
+          "type": "text",
+          "content": "The ends ADE and BCF are congruent (identical) right-angled triangles."
+        },
+        {
+          "type": "newline"
+        },
+        {
+          "type": "text",
+          "content": "The container is made from metal of negligible thickness."
+        },
+        {
+          "type": "newline"
+        },
+        {
+          "type": "text",
+          "content": "Given that"
+        },
+        {
+          "type": "list",
+          "style": "bullet",
+          "items": [
+            "AE = BF = 3x metres",
+            "DE = CF = 2x metres",
+            "AB = DC = EF = L metres"
+          ]
+        },
+        {
+          "type": "newline"
+        },
+        {
+          "type": "text",
+          "content": "and the capacity of the container is $12 \\text{m}^3$"
+        },
+        {
+          "type": "space",
+          "height": "1cm"
+        }
+      ],
+      "parts": [
+        {
+          "label": "(a)",
+          "marks": 4,
+          "content": [
+            {
+              "type": "text",
+              "content": "show that the area of metal used to make the container, $S \\text{m}^2$, is given by"
+            },
+            {
+              "type": "newline"
+            },
+            {
+              "type": "text",
+              "content": "$$S = Px^2 + \\frac{Q}{x}$$"
+            },
+            {
+              "type": "newline"
+            },
+            {
+              "type": "text",
+              "content": "where P and Q are positive integers to be found."
+            },
+            {
+              "type": "space",
+              "height": "1cm"
+            }
+          ],
+          "answer": {
+            "type": "none"
+          }
+        },
+        {
+          "label": "(b)",
+          "marks": 5,
+          "content": [
+            {
+              "type": "text",
+              "content": "Given that x can vary,"
+            },
+            {
+              "type": "newline"
+            },
+            {
+              "type": "text",
+              "content": "use algebraic calculus to find the minimum value of S, giving your answer to one decimal place."
+            },
+            {
+              "type": "space",
+              "height": "1cm"
+            }
+          ],
+          "answer": {
+            "type": "number"
+          }
+        },
+        {
+          "label": "(c)",
+          "marks": 2,
+          "content": [
+            {
+              "type": "text",
+              "content": "Justify that the value of S found in part (b) is a minimum."
+            },
+            {
+              "type": "space",
+              "height": "1cm"
+            }
+          ],
+          "answer": {
+            "type": "none"
+          }
+        }
+      ],
+      "answer": null,
+      "meta": {}
+    },
+    {
+      "qnum": 10,
+      "marks": 4,
+      "stem": [
+        {
+          "type": "text",
+          "content": "In this question you must show detailed reasoning."
+        },
+        {
+          "type": "newline"
+        },
+        {
+          "type": "text",
+          "content": "Use algebra to prove by exhaustion that,"
+        },
+        {
+          "type": "newline"
+        },
+        {
+          "type": "text",
+          "content": "for all positive integers m that are not multiples of 3, the value of"
+        },
+        {
+          "type": "newline"
+        },
+        {
+          "type": "text",
+          "content": "$$m^2 + 3m + 2$$"
+        },
+        {
+          "type": "newline"
+        },
+        {
+          "type": "text",
+          "content": "is always a multiple of 3"
+        },
+        {
+          "type": "space",
+          "height": "1cm"
+        }
+      ],
+      "parts": [],
+      "answer": {
+        "type": "none"
+      },
+      "meta": {}
+    }
+  ]
+}

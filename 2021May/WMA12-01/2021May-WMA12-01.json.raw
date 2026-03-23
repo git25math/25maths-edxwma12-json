@@ -1,0 +1,796 @@
+{
+  "v": "1.0",
+  "paper": "2021May-WMA12-01",
+  "board": "edx",
+  "code": "WMA12",
+  "year": 2021,
+  "session": "May",
+  "paperNum": "01",
+  "type": "ial-p2",
+  "totalMarks": 75,
+  "time": 90,
+  "questions": [
+    {
+      "qnum": 1,
+      "marks": 7,
+      "stem": [
+        {
+          "type": "text",
+          "content": "The content for Question 1 was on a preceding page and is not provided in the given text."
+        },
+        {
+          "type": "space",
+          "height": "1cm"
+        }
+      ],
+      "parts": [],
+      "answer": {
+        "type": "multiline",
+        "lines": 10,
+        "template": "___________________________________________________________________________"
+      },
+      "meta": {}
+    },
+    {
+      "qnum": 2,
+      "marks": 8,
+      "stem": [
+        {
+          "type": "text",
+          "content": "[Figure]"
+        },
+        {
+          "type": "newline"
+        },
+        {
+          "type": "text",
+          "content": "Figure 1 shows a sketch of the curve with equation $y = 4^x$"
+        },
+        {
+          "type": "newline"
+        },
+        {
+          "type": "text",
+          "content": "A copy of Figure 1, labelled Diagram 1, is shown on the next page."
+        }
+      ],
+      "parts": [
+        {
+          "label": "(a)",
+          "marks": 4,
+          "content": [
+            {
+              "type": "text",
+              "content": "On Diagram 1, sketch the curve with equation"
+            }
+          ],
+          "subparts": [
+            {
+              "label": "(i)",
+              "marks": 0,
+              "content": [
+                {
+                  "type": "text",
+                  "content": "$y = 2^x$"
+                }
+              ],
+              "answer": {
+                "type": "none"
+              }
+            },
+            {
+              "label": "(ii)",
+              "marks": 0,
+              "content": [
+                {
+                  "type": "text",
+                  "content": "$y = 4^{x – 6}$"
+                }
+              ],
+              "answer": {
+                "type": "none"
+              }
+            }
+          ],
+          "answer": {
+            "type": "none"
+          }
+        },
+        {
+          "label": "(b)",
+          "marks": 4,
+          "content": [
+            {
+              "type": "text",
+              "content": "The curve with equation $y = 2^x$ meets the curve with equation $y = 4^{x – 6}$ at the point P."
+            },
+            {
+              "type": "newline"
+            },
+            {
+              "type": "text",
+              "content": "Using algebra, find the exact coordinates of P."
+            },
+            {
+              "type": "space",
+              "height": "4cm"
+            }
+          ],
+          "answer": {
+            "type": "coordinate",
+            "fields": 2
+          }
+        }
+      ],
+      "answer": null,
+      "meta": {}
+    },
+    {
+      "qnum": 3,
+      "marks": 5,
+      "stem": [],
+      "parts": [
+        {
+          "label": "(i)",
+          "marks": 2,
+          "content": [
+            {
+              "type": "text",
+              "content": "Prove that for all single digit prime numbers, p, $p^3 + p$ is a multiple of 10"
+            },
+            {
+              "type": "space",
+              "height": "2cm"
+            }
+          ],
+          "answer": {
+            "type": "none"
+          }
+        },
+        {
+          "label": "(ii)",
+          "marks": 3,
+          "content": [
+            {
+              "type": "text",
+              "content": "Show, using algebra, that for $n \\in \\mathbb{N}$"
+            },
+            {
+              "type": "newline"
+            },
+            {
+              "type": "text",
+              "content": "$(n + 1)^3 – n^3$ is not a multiple of 3"
+            },
+            {
+              "type": "space",
+              "height": "4cm"
+            }
+          ],
+          "answer": {
+            "type": "none"
+          }
+        }
+      ],
+      "answer": null,
+      "meta": {}
+    },
+    {
+      "qnum": 4,
+      "marks": 8,
+      "stem": [],
+      "parts": [
+        {
+          "label": "(a)",
+          "marks": 4,
+          "content": [
+            {
+              "type": "text",
+              "content": "Find, in ascending powers of x, up to and including the term in $x^3$, the binomial expansion of"
+            },
+            {
+              "type": "newline"
+            },
+            {
+              "type": "text",
+              "content": "$$\\left(2 + \\frac{x}{8}\\right)^{13}$$"
+            },
+            {
+              "type": "newline"
+            },
+            {
+              "type": "text",
+              "content": "fully simplifying each coefficient."
+            },
+            {
+              "type": "space",
+              "height": "4cm"
+            }
+          ],
+          "answer": {
+            "type": "expression"
+          }
+        },
+        {
+          "label": "(b)",
+          "marks": 3,
+          "content": [
+            {
+              "type": "text",
+              "content": "Use the answer to part (a) to find an approximation for $2.0125^{13}$"
+            },
+            {
+              "type": "newline"
+            },
+            {
+              "type": "text",
+              "content": "Give your answer to 3 decimal places."
+            },
+            {
+              "type": "space",
+              "height": "2cm"
+            }
+          ],
+          "answer": {
+            "type": "number"
+          }
+        },
+        {
+          "label": "(c)",
+          "marks": 1,
+          "content": [
+            {
+              "type": "text",
+              "content": "Without calculating $2.0125^{13}$"
+            },
+            {
+              "type": "newline"
+            },
+            {
+              "type": "text",
+              "content": "state, with a reason, whether the answer to part (b) is an overestimate or an underestimate."
+            },
+            {
+              "type": "space",
+              "height": "2cm"
+            }
+          ],
+          "answer": {
+            "type": "structured",
+            "answerBlocks": [
+              {
+                "type": "text",
+                "content": "Statement:"
+              },
+              {
+                "type": "multiline",
+                "lines": 1
+              },
+              {
+                "type": "text",
+                "content": "Reason:"
+              },
+              {
+                "type": "multiline",
+                "lines": 1
+              }
+            ]
+          }
+        }
+      ],
+      "answer": null,
+      "meta": {}
+    },
+    {
+      "qnum": 5,
+      "marks": 10,
+      "stem": [
+        {
+          "type": "text",
+          "content": "[Figure]"
+        },
+        {
+          "type": "newline"
+        },
+        {
+          "type": "text",
+          "content": "Figure 2 shows a sketch of part of the graph of the curves C1 and C2"
+        },
+        {
+          "type": "newline"
+        },
+        {
+          "type": "text",
+          "content": "The curves intersect when $x = 2.5$ and when $x = 4$"
+        },
+        {
+          "type": "newline"
+        },
+        {
+          "type": "text",
+          "content": "A table of values for some points on the curve C1 is shown below, with y values given to 3 decimal places as appropriate."
+        },
+        {
+          "type": "table",
+          "content": "\\begin{tabular}{|c|ccccccc|}\n\\hline\nx & 2.5 & 2.75 & 3 & 3.25 & 3.5 & 3.75 & 4 \\\\\n\\hline\ny & 5.453 & 7.764 & 9.375 & 9.964 & 9.367 & 7.626 & 5 \\\\\n\\hline\n\\end{tabular}"
+        }
+      ],
+      "parts": [
+        {
+          "label": "(a)",
+          "marks": 4,
+          "content": [
+            {
+              "type": "text",
+              "content": "Using the trapezium rule with all the values of y in the table,"
+            },
+            {
+              "type": "newline"
+            },
+            {
+              "type": "text",
+              "content": "find, to 2 decimal places, an estimate for the area bounded by the curve C1, the line with equation $x = 2.5$, the x-axis and the line with equation $x = 4$"
+            },
+            {
+              "type": "space",
+              "height": "4cm"
+            }
+          ],
+          "answer": {
+            "type": "number"
+          }
+        },
+        {
+          "label": "(b)",
+          "marks": 3,
+          "content": [
+            {
+              "type": "text",
+              "content": "The curve C2 has equation"
+            },
+            {
+              "type": "newline"
+            },
+            {
+              "type": "text",
+              "content": "$$y = \\frac{3}{2}x^3 - 3x^2 + 9x \\quad x > 0$$"
+            },
+            {
+              "type": "newline"
+            },
+            {
+              "type": "text",
+              "content": "Find"
+            },
+            {
+              "type": "newline"
+            },
+            {
+              "type": "text",
+              "content": "$$\\int \\left(\\frac{3}{2}x^3 - 3x^2 + 9x\\right) \\text{d}x$$"
+            },
+            {
+              "type": "space",
+              "height": "3cm"
+            }
+          ],
+          "answer": {
+            "type": "expression"
+          }
+        },
+        {
+          "label": "(c)",
+          "marks": 3,
+          "content": [
+            {
+              "type": "text",
+              "content": "The region R, shown shaded in Figure 2, is bounded by the curves C1 and C2"
+            },
+            {
+              "type": "newline"
+            },
+            {
+              "type": "text",
+              "content": "Use the answers to part (a) and part (b) to find, to one decimal place, an estimate for the area of the region R."
+            },
+            {
+              "type": "space",
+              "height": "3cm"
+            }
+          ],
+          "answer": {
+            "type": "number"
+          }
+        }
+      ],
+      "answer": null,
+      "meta": {}
+    },
+    {
+      "qnum": 6,
+      "marks": 7,
+      "stem": [
+        {
+          "type": "text",
+          "content": "A circle has equation"
+        },
+        {
+          "type": "newline"
+        },
+        {
+          "type": "text",
+          "content": "$x^2 – 6x + y^2 + 8y + k = 0$"
+        },
+        {
+          "type": "newline"
+        },
+        {
+          "type": "text",
+          "content": "where k is a positive constant."
+        },
+        {
+          "type": "newline"
+        },
+        {
+          "type": "text",
+          "content": "Given that the x-axis is a tangent to this circle,"
+        }
+      ],
+      "parts": [
+        {
+          "label": "(a)",
+          "marks": 3,
+          "content": [
+            {
+              "type": "text",
+              "content": "find the value of k."
+            },
+            {
+              "type": "space",
+              "height": "3cm"
+            }
+          ],
+          "answer": {
+            "type": "number"
+          }
+        },
+        {
+          "label": "(b)",
+          "marks": 4,
+          "content": [
+            {
+              "type": "text",
+              "content": "The circle meets the coordinate axes at the points R, S and T."
+            },
+            {
+              "type": "newline"
+            },
+            {
+              "type": "text",
+              "content": "Find the exact area of the triangle RST."
+            },
+            {
+              "type": "space",
+              "height": "4cm"
+            }
+          ],
+          "answer": {
+            "type": "number"
+          }
+        }
+      ],
+      "answer": null,
+      "meta": {}
+    },
+    {
+      "qnum": 7,
+      "marks": 10,
+      "stem": [],
+      "parts": [
+        {
+          "label": "(a)",
+          "marks": 4,
+          "content": [
+            {
+              "type": "text",
+              "content": "Given that"
+            },
+            {
+              "type": "newline"
+            },
+            {
+              "type": "text",
+              "content": "$3\\log_3(2x – 1) = 2 + \\log_3(14x – 25)$"
+            },
+            {
+              "type": "newline"
+            },
+            {
+              "type": "text",
+              "content": "show that"
+            },
+            {
+              "type": "newline"
+            },
+            {
+              "type": "text",
+              "content": "$2x^3 – 3x^2 – 30x + 56 = 0$"
+            },
+            {
+              "type": "space",
+              "height": "4cm"
+            }
+          ],
+          "answer": {
+            "type": "none"
+          }
+        },
+        {
+          "label": "(b)",
+          "marks": 2,
+          "content": [
+            {
+              "type": "text",
+              "content": "Show that –4 is a root of this cubic equation."
+            },
+            {
+              "type": "space",
+              "height": "2cm"
+            }
+          ],
+          "answer": {
+            "type": "none"
+          }
+        },
+        {
+          "label": "(c)",
+          "marks": 4,
+          "content": [
+            {
+              "type": "text",
+              "content": "Hence, using algebra and showing each step of your working, solve"
+            },
+            {
+              "type": "newline"
+            },
+            {
+              "type": "text",
+              "content": "$3\\log_3(2x – 1) = 2 + \\log_3(14x – 25)$"
+            },
+            {
+              "type": "space",
+              "height": "4cm"
+            }
+          ],
+          "answer": {
+            "type": "expression"
+          }
+        }
+      ],
+      "answer": null,
+      "meta": {}
+    },
+    {
+      "qnum": 8,
+      "marks": 10,
+      "stem": [
+        {
+          "type": "text",
+          "content": "In this question you must show all stages of your working."
+        },
+        {
+          "type": "newline"
+        },
+        {
+          "type": "text",
+          "content": "Solutions relying entirely on calculator technology are not acceptable."
+        }
+      ],
+      "parts": [
+        {
+          "label": "(i)",
+          "marks": 4,
+          "content": [
+            {
+              "type": "text",
+              "content": "Solve, for $0 < \\theta < 360°$, the equation"
+            },
+            {
+              "type": "newline"
+            },
+            {
+              "type": "text",
+              "content": "$3\\sin (\\theta + 30°) = 7\\cos (\\theta + 30°)$"
+            },
+            {
+              "type": "newline"
+            },
+            {
+              "type": "text",
+              "content": "giving your answers to one decimal place."
+            },
+            {
+              "type": "space",
+              "height": "4cm"
+            }
+          ],
+          "answer": {
+            "type": "expression"
+          }
+        },
+        {
+          "label": "(ii)",
+          "marks": 6,
+          "content": [],
+          "subparts": [
+            {
+              "label": "(a)",
+              "marks": 3,
+              "content": [
+                {
+                  "type": "text",
+                  "content": "Show that the equation"
+                },
+                {
+                  "type": "newline"
+                },
+                {
+                  "type": "text",
+                  "content": "$3\\sin^3 x = 5\\sin x – 7\\sin x \\cos x$"
+                },
+                {
+                  "type": "newline"
+                },
+                {
+                  "type": "text",
+                  "content": "can be written in the form"
+                },
+                {
+                  "type": "newline"
+                },
+                {
+                  "type": "text",
+                  "content": "$\\sin x (a \\cos 2 x + b \\cos x + c) = 0$"
+                },
+                {
+                  "type": "newline"
+                },
+                {
+                  "type": "text",
+                  "content": "where a, b and c are constants to be found."
+                },
+                {
+                  "type": "space",
+                  "height": "4cm"
+                }
+              ],
+              "answer": {
+                "type": "none"
+              }
+            },
+            {
+              "label": "(b)",
+              "marks": 3,
+              "content": [
+                {
+                  "type": "text",
+                  "content": "Hence solve for $-\\frac{\\pi}{2} \\le x \\le \\frac{\\pi}{2}$ the equation"
+                },
+                {
+                  "type": "newline"
+                },
+                {
+                  "type": "text",
+                  "content": "$3\\sin^3 x = 5\\sin x – 7\\sin x \\cos x$"
+                },
+                {
+                  "type": "space",
+                  "height": "4cm"
+                }
+              ],
+              "answer": {
+                "type": "expression"
+              }
+            }
+          ],
+          "answer": null
+        }
+      ],
+      "answer": null,
+      "meta": {}
+    },
+    {
+      "qnum": 9,
+      "marks": 10,
+      "stem": [
+        {
+          "type": "text",
+          "content": "[Figure]"
+        },
+        {
+          "type": "newline"
+        },
+        {
+          "type": "text",
+          "content": "Figure 3 shows a sketch of a square based, open top box."
+        },
+        {
+          "type": "newline"
+        },
+        {
+          "type": "text",
+          "content": "The height of the box is h cm, and the base edges each have length l cm."
+        },
+        {
+          "type": "newline"
+        },
+        {
+          "type": "text",
+          "content": "Given that the volume of the box is $250 000 cm^3$"
+        }
+      ],
+      "parts": [
+        {
+          "label": "(a)",
+          "marks": 3,
+          "content": [
+            {
+              "type": "text",
+              "content": "show that the external surface area, S cm2, of the box is given by"
+            },
+            {
+              "type": "newline"
+            },
+            {
+              "type": "text",
+              "content": "$$S = \\frac{250000}{h} + 2000\\sqrt{h}$$"
+            },
+            {
+              "type": "space",
+              "height": "3cm"
+            }
+          ],
+          "answer": {
+            "type": "none"
+          }
+        },
+        {
+          "label": "(b)",
+          "marks": 5,
+          "content": [
+            {
+              "type": "text",
+              "content": "Use algebraic differentiation to show that S has a stationary point when $h = 250\\sqrt[k]{}$ where k is a rational constant to be found."
+            },
+            {
+              "type": "space",
+              "height": "5cm"
+            }
+          ],
+          "answer": {
+            "type": "none"
+          }
+        },
+        {
+          "label": "(c)",
+          "marks": 2,
+          "content": [
+            {
+              "type": "text",
+              "content": "Justify by further differentiation that this value of h gives the minimum external surface area of the box."
+            },
+            {
+              "type": "space",
+              "height": "2cm"
+            }
+          ],
+          "answer": {
+            "type": "none"
+          }
+        }
+      ],
+      "answer": null,
+      "meta": {}
+    }
+  ]
+}

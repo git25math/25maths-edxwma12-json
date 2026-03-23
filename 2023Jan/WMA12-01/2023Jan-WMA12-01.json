@@ -1,0 +1,879 @@
+{
+  "v": "1.0",
+  "paper": "2023Jan-WMA12-01",
+  "board": "edx",
+  "code": "WMA12",
+  "year": 2023,
+  "session": "Jan",
+  "paperNum": "01",
+  "type": "ial-p2",
+  "totalMarks": 75,
+  "time": 90,
+  "questions": [
+    {
+      "qnum": 1,
+      "marks": 6,
+      "stem": [
+        {
+          "type": "text",
+          "content": "Figure 1 shows a sketch of part of the curve with equation $y = \\text{f}(x)$"
+        },
+        {
+          "type": "newline"
+        },
+        {
+          "type": "text",
+          "content": "The table below shows some corresponding values of $x$ and $y$ for this curve."
+        },
+        {
+          "type": "newline"
+        },
+        {
+          "type": "text",
+          "content": "The values of $y$ are given to 3 decimal places."
+        },
+        {
+          "type": "table",
+          "content": "\\begin{tabular}{|c|c|c|c|c|c|}\\hline x & –1 & –0.5 & 0 & 0.5 & 1 \\\\ \\hline y & 2.287 & 4.470 & 6.719 & 7.291 & 2.834 \\\\ \\hline\\end{tabular}"
+        },
+        {
+          "type": "newline"
+        },
+        {
+          "type": "text",
+          "content": "Using the trapezium rule with all the values of $y$ in the given table,"
+        }
+      ],
+      "parts": [
+        {
+          "label": "(a)",
+          "marks": 3,
+          "content": [
+            {
+              "type": "text",
+              "content": "obtain an estimate for $\\int_{-1}^{1} \\text{f}(x) \\, \\text{d}x$"
+            },
+            {
+              "type": "newline"
+            },
+            {
+              "type": "text",
+              "content": "giving your answer to 2 decimal places."
+            },
+            {
+              "type": "space",
+              "height": "1cm"
+            }
+          ],
+          "answer": {
+            "type": "number",
+            "decimalPlaces": 2
+          }
+        },
+        {
+          "label": "(b)",
+          "marks": 3,
+          "content": [
+            {
+              "type": "text",
+              "content": "Use your answer to part (a) to estimate"
+            }
+          ],
+          "subparts": [
+            {
+              "label": "(i)",
+              "marks": 1,
+              "content": [
+                {
+                  "type": "text",
+                  "content": "$\\int_{-1}^{1} (\\text{f}(x) - 2) \\, \\text{d}x$"
+                },
+                {
+                  "type": "space",
+                  "height": "1cm"
+                }
+              ],
+              "answer": {
+                "type": "number",
+                "decimalPlaces": 2
+              }
+            },
+            {
+              "label": "(ii)",
+              "marks": 2,
+              "content": [
+                {
+                  "type": "text",
+                  "content": "$\\int_{-1}^{1} \\text{f}(x - 2) \\, \\text{d}x$"
+                },
+                {
+                  "type": "space",
+                  "height": "1cm"
+                }
+              ],
+              "answer": {
+                "type": "number",
+                "decimalPlaces": 2
+              }
+            }
+          ],
+          "answer": null
+        }
+      ],
+      "meta": {}
+    },
+    {
+      "qnum": 2,
+      "marks": 9,
+      "stem": [
+        {
+          "type": "text",
+          "content": "In this question you must show all stages of your working.\\newline Solutions based entirely on calculator technology are not acceptable."
+        },
+        {
+          "type": "newline"
+        },
+        {
+          "type": "text",
+          "content": "[Figure]"
+        },
+        {
+          "type": "newline"
+        },
+        {
+          "type": "text",
+          "content": "A brick is in the shape of a cuboid with width $x\\,\\text{cm}$, length $3x\\,\\text{cm}$ and height $h\\,\\text{cm}$, as shown in Figure 2."
+        },
+        {
+          "type": "newline"
+        },
+        {
+          "type": "text",
+          "content": "The volume of the brick is $972\\,\\text{cm}^3$"
+        }
+      ],
+      "parts": [
+        {
+          "label": "(a)",
+          "marks": 3,
+          "content": [
+            {
+              "type": "text",
+              "content": "Show that the surface area of the brick, $S\\,\\text{cm}^2$, is given by"
+            },
+            {
+              "type": "newline"
+            },
+            {
+              "type": "text",
+              "content": "$$S = 6x^2 + \\frac{2592}{x}$$"
+            },
+            {
+              "type": "space",
+              "height": "1cm"
+            }
+          ],
+          "answer": {
+            "type": "none"
+          }
+        },
+        {
+          "label": "(b)",
+          "marks": 1,
+          "content": [
+            {
+              "type": "text",
+              "content": "Find $\\frac{\\text{d}S}{\\text{d}x}$"
+            },
+            {
+              "type": "space",
+              "height": "1cm"
+            }
+          ],
+          "answer": {
+            "type": "expression"
+          }
+        },
+        {
+          "label": "(c)",
+          "marks": 2,
+          "content": [
+            {
+              "type": "text",
+              "content": "Hence find the value of $x$ for which $S$ is stationary."
+            },
+            {
+              "type": "space",
+              "height": "1cm"
+            }
+          ],
+          "answer": {
+            "type": "number"
+          }
+        },
+        {
+          "label": "(d)",
+          "marks": 2,
+          "content": [
+            {
+              "type": "text",
+              "content": "Find $\\frac{\\text{d}^2S}{\\text{d}x^2}$ and hence show that the value of $x$ found in part (c) gives the minimum value of $S$."
+            },
+            {
+              "type": "space",
+              "height": "1cm"
+            }
+          ],
+          "answer": {
+            "type": "none"
+          }
+        },
+        {
+          "label": "(e)",
+          "marks": 1,
+          "content": [
+            {
+              "type": "text",
+              "content": "Hence find the minimum surface area of the brick."
+            },
+            {
+              "type": "space",
+              "height": "1cm"
+            }
+          ],
+          "answer": {
+            "type": "number"
+          }
+        }
+      ],
+      "answer": null,
+      "meta": {}
+    },
+    {
+      "qnum": 3,
+      "marks": 7,
+      "stem": [
+        {
+          "type": "text",
+          "content": "$\\text{f}(x) = \\left(kx + \\frac{8}{x}\\right)^7$ where $k$ is a non‑zero constant"
+        }
+      ],
+      "parts": [
+        {
+          "label": "(a)",
+          "marks": 4,
+          "content": [
+            {
+              "type": "text",
+              "content": "Find the first 4 terms, in ascending powers of $x$, of the binomial expansion of $\\text{f}(x)$. \\newline Give each term in simplest form."
+            },
+            {
+              "type": "space",
+              "height": "1cm"
+            }
+          ],
+          "answer": {
+            "type": "expression"
+          }
+        },
+        {
+          "label": "(b)",
+          "marks": 3,
+          "content": [
+            {
+              "type": "text",
+              "content": "Given that, in the binomial expansion of $\\text{f}(x)$, the coefficients of $x$, $x^2$ and $x^3$ are the first 3 terms of an arithmetic progression,\\newline find, using algebra, the possible values of $k$. \\newline (Solutions relying entirely on calculator technology are not acceptable.)"
+            },
+            {
+              "type": "space",
+              "height": "1cm"
+            }
+          ],
+          "answer": {
+            "type": "expression"
+          }
+        }
+      ],
+      "answer": null,
+      "meta": {}
+    },
+    {
+      "qnum": 4,
+      "marks": 6,
+      "stem": [],
+      "parts": [
+        {
+          "label": "(i)",
+          "marks": 3,
+          "content": [
+            {
+              "type": "text",
+              "content": "Using the laws of logarithms, solve $\\log_3(4x) + 2 = \\log_3(5x + 7)$"
+            },
+            {
+              "type": "space",
+              "height": "1cm"
+            }
+          ],
+          "answer": {
+            "type": "number"
+          }
+        },
+        {
+          "label": "(ii)",
+          "marks": 3,
+          "content": [
+            {
+              "type": "text",
+              "content": "Given that"
+            },
+            {
+              "type": "newline"
+            },
+            {
+              "type": "text",
+              "content": "$$\\sum_{r=1}^2 \\log_a(r) = \\log_y(y) \\quad \\text{and} \\quad \\sum_{r=1}^2 \\log_a(r) = \\log_y(a)$$"
+            },
+            {
+              "type": "newline"
+            },
+            {
+              "type": "text",
+              "content": "$y > 1, a > 1, y \\neq a$"
+            },
+            {
+              "type": "newline"
+            },
+            {
+              "type": "text",
+              "content": "find $y$ in terms of $a$, giving your answer in simplest form."
+            },
+            {
+              "type": "space",
+              "height": "1cm"
+            }
+          ],
+          "answer": {
+            "type": "expression"
+          }
+        }
+      ],
+      "answer": null,
+      "meta": {}
+    },
+    {
+      "qnum": 5,
+      "marks": 9,
+      "stem": [
+        {
+          "type": "text",
+          "content": "$\\text{f}(x) = x^3 + (p + 3) x^2 – x + q$\\newline where $p$ and $q$ are constants and $p > 0$"
+        },
+        {
+          "type": "newline"
+        },
+        {
+          "type": "text",
+          "content": "Given that $(x – 3)$ is a factor of $\\text{f}(x)$"
+        }
+      ],
+      "parts": [
+        {
+          "label": "(a)",
+          "marks": 2,
+          "content": [
+            {
+              "type": "text",
+              "content": "show that"
+            },
+            {
+              "type": "newline"
+            },
+            {
+              "type": "text",
+              "content": "$$9p + q = –51$$"
+            },
+            {
+              "type": "space",
+              "height": "1cm"
+            }
+          ],
+          "answer": {
+            "type": "none"
+          }
+        },
+        {
+          "label": "(b)",
+          "marks": 2,
+          "content": [
+            {
+              "type": "text",
+              "content": "Given also that when $\\text{f}(x)$ is divided by $(x + p)$ the remainder is 9,\\newline show that"
+            },
+            {
+              "type": "newline"
+            },
+            {
+              "type": "text",
+              "content": "$$3p^2 + p + q – 9 = 0$$"
+            },
+            {
+              "type": "space",
+              "height": "1cm"
+            }
+          ],
+          "answer": {
+            "type": "none"
+          }
+        },
+        {
+          "label": "(c)",
+          "marks": 3,
+          "content": [
+            {
+              "type": "text",
+              "content": "Hence find the value of $p$ and the value of $q$."
+            },
+            {
+              "type": "space",
+              "height": "1cm"
+            }
+          ],
+          "answer": {
+            "type": "structured",
+            "answerBlocks": [
+              {
+                "type": "expression",
+                "prefix": "p = "
+              },
+              {
+                "type": "expression",
+                "prefix": "q = "
+              }
+            ]
+          }
+        },
+        {
+          "label": "(d)",
+          "marks": 2,
+          "content": [
+            {
+              "type": "text",
+              "content": "Hence find a quadratic expression $\\text{g}(x)$ such that"
+            },
+            {
+              "type": "newline"
+            },
+            {
+              "type": "text",
+              "content": "$$\\text{f}(x) = (x – 3)\\,\\text{g}(x)$$"
+            },
+            {
+              "type": "space",
+              "height": "1cm"
+            }
+          ],
+          "answer": {
+            "type": "expression"
+          }
+        }
+      ],
+      "answer": null,
+      "meta": {}
+    },
+    {
+      "qnum": 6,
+      "marks": 10,
+      "stem": [
+        {
+          "type": "text",
+          "content": "The circle C has equation $x^2 + y^2 + 8x – 4y = 0$"
+        }
+      ],
+      "parts": [
+        {
+          "label": "(a)",
+          "marks": 3,
+          "content": [
+            {
+              "type": "text",
+              "content": "Find"
+            }
+          ],
+          "subparts": [
+            {
+              "label": "(i)",
+              "marks": 1,
+              "content": [
+                {
+                  "type": "text",
+                  "content": "the coordinates of the centre of C,"
+                },
+                {
+                  "type": "space",
+                  "height": "1cm"
+                }
+              ],
+              "answer": {
+                "type": "coordinate",
+                "fields": 2
+              }
+            },
+            {
+              "label": "(ii)",
+              "marks": 2,
+              "content": [
+                {
+                  "type": "text",
+                  "content": "the exact radius of C."
+                },
+                {
+                  "type": "space",
+                  "height": "1cm"
+                }
+              ],
+              "answer": {
+                "type": "expression"
+              }
+            }
+          ],
+          "answer": null
+        },
+        {
+          "label": "(b)",
+          "marks": 4,
+          "content": [
+            {
+              "type": "text",
+              "content": "The point P lies on C.\\newline Given that the tangent to C at P has equation $x + 2y + 10 = 0$\\newline find the coordinates of P"
+            },
+            {
+              "type": "space",
+              "height": "1cm"
+            }
+          ],
+          "answer": {
+            "type": "coordinate",
+            "fields": 2
+          }
+        },
+        {
+          "label": "(c)",
+          "marks": 3,
+          "content": [
+            {
+              "type": "text",
+              "content": "Find the equation of the normal to C at P, giving your answer in the form $y = mx + c$ where $m$ and $c$ are integers to be found."
+            },
+            {
+              "type": "space",
+              "height": "1cm"
+            }
+          ],
+          "answer": {
+            "type": "expression"
+          }
+        }
+      ],
+      "answer": null,
+      "meta": {}
+    },
+    {
+      "qnum": 7,
+      "marks": 7,
+      "stem": [
+        {
+          "type": "text",
+          "content": "A geometric sequence has first term $a$ and common ratio $r$, where $r > 0$"
+        },
+        {
+          "type": "newline"
+        },
+        {
+          "type": "text",
+          "content": "Given that"
+        },
+        {
+          "type": "list",
+          "style": "bullet",
+          "items": [
+            "the 3rd term is 20",
+            "the 5th term is 12.8"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "label": "(a)",
+          "marks": 1,
+          "content": [
+            {
+              "type": "text",
+              "content": "show that $r = 0.8$"
+            },
+            {
+              "type": "space",
+              "height": "1cm"
+            }
+          ],
+          "answer": {
+            "type": "none"
+          }
+        },
+        {
+          "label": "(b)",
+          "marks": 2,
+          "content": [
+            {
+              "type": "text",
+              "content": "Hence find the value of $a$."
+            },
+            {
+              "type": "space",
+              "height": "1cm"
+            }
+          ],
+          "answer": {
+            "type": "number"
+          }
+        },
+        {
+          "label": "(c)",
+          "marks": 4,
+          "content": [
+            {
+              "type": "text",
+              "content": "Given that the sum of the first $n$ terms of this sequence is greater than 156,\\newline find the smallest possible value of $n$. \\newline (Solutions based entirely on graphical or numerical methods are not acceptable.)"
+            },
+            {
+              "type": "space",
+              "height": "1cm"
+            }
+          ],
+          "answer": {
+            "type": "number"
+          }
+        }
+      ],
+      "answer": null,
+      "meta": {}
+    },
+    {
+      "qnum": 8,
+      "marks": 9,
+      "stem": [
+        {
+          "type": "text",
+          "content": "In this question you must show all stages of your working.\\newline Solutions based entirely on calculator technology are not acceptable."
+        }
+      ],
+      "parts": [
+        {
+          "label": "(i)",
+          "marks": 4,
+          "content": [
+            {
+              "type": "text",
+              "content": "Solve, for $–2\\pi < x < \\pi$, the equation"
+            },
+            {
+              "type": "newline"
+            },
+            {
+              "type": "text",
+              "content": "$$5\\,\\sin\\,(3x + 0.1) + 2 = 0$$"
+            },
+            {
+              "type": "newline"
+            },
+            {
+              "type": "text",
+              "content": "giving your answers, in radians, to 2 decimal places."
+            },
+            {
+              "type": "space",
+              "height": "1cm"
+            }
+          ],
+          "answer": {
+            "type": "expression"
+          }
+        },
+        {
+          "label": "(ii)",
+          "marks": 5,
+          "content": [
+            {
+              "type": "text",
+              "content": "Solve, for $0 < \\theta < 360^\\circ$, the equation"
+            },
+            {
+              "type": "newline"
+            },
+            {
+              "type": "text",
+              "content": "$$2\\,\\tan\\,\\theta\\,\\sin \\theta = 5 + \\cos\\,\\theta$$"
+            },
+            {
+              "type": "newline"
+            },
+            {
+              "type": "text",
+              "content": "giving your answers, in degrees, to one decimal place."
+            },
+            {
+              "type": "space",
+              "height": "1cm"
+            }
+          ],
+          "answer": {
+            "type": "expression"
+          }
+        }
+      ],
+      "answer": null,
+      "meta": {}
+    },
+    {
+      "qnum": 9,
+      "marks": 8,
+      "stem": [
+        {
+          "type": "text",
+          "content": "In this question you must show all stages of your working.\\newline Solutions based entirely on calculator technology are not acceptable."
+        },
+        {
+          "type": "newline"
+        },
+        {
+          "type": "text",
+          "content": "[Figure]"
+        },
+        {
+          "type": "newline"
+        },
+        {
+          "type": "text",
+          "content": "Figure 3 shows"
+        },
+        {
+          "type": "list",
+          "style": "bullet",
+          "items": [
+            "the curve C with equation $y = x^2 – 4x + 5$",
+            "the line $l$ with equation $y = 2$"
+          ]
+        },
+        {
+          "type": "newline"
+        },
+        {
+          "type": "text",
+          "content": "The curve C intersects the $y$‑axis at the point D."
+        }
+      ],
+      "parts": [
+        {
+          "label": "(a)",
+          "marks": 1,
+          "content": [
+            {
+              "type": "text",
+              "content": "Write down the coordinates of D."
+            },
+            {
+              "type": "space",
+              "height": "1cm"
+            }
+          ],
+          "answer": {
+            "type": "coordinate",
+            "fields": 2
+          }
+        },
+        {
+          "label": "(b)",
+          "marks": 2,
+          "content": [
+            {
+              "type": "text",
+              "content": "The curve C intersects the line $l$ at the points E and F, as shown in Figure 3.\\newline Find the $x$ coordinate of E and the $x$ coordinate of F."
+            },
+            {
+              "type": "space",
+              "height": "1cm"
+            }
+          ],
+          "answer": {
+            "type": "expression"
+          }
+        },
+        {
+          "label": "(c)",
+          "marks": 5,
+          "content": [
+            {
+              "type": "text",
+              "content": "Shown shaded in Figure 3 is"
+            },
+            {
+              "type": "list",
+              "style": "bullet",
+              "items": [
+                "the region R1 which is bounded by C, $l$ and the $y$‑axis",
+                "the region R2 which is bounded by C and the line segments EF and DF"
+              ]
+            },
+            {
+              "type": "newline"
+            },
+            {
+              "type": "text",
+              "content": "Given that $\\frac{\\text{area of R1}}{\\text{area of R2}} = k$, where $k$ is a constant,\\newline use algebraic integration to find the exact value of $k$, giving your answer as a simplified fraction."
+            },
+            {
+              "type": "space",
+              "height": "1cm"
+            }
+          ],
+          "answer": {
+            "type": "expression"
+          }
+        }
+      ],
+      "answer": null,
+      "meta": {}
+    },
+    {
+      "qnum": 10,
+      "marks": 4,
+      "stem": [
+        {
+          "type": "text",
+          "content": "A student was asked to prove by exhaustion that\\newline if $n$ is an integer then $2n^2 + n + 1$ is not divisible by 3"
+        },
+        {
+          "type": "newline"
+        },
+        {
+          "type": "text",
+          "content": "The start of the student’s proof is shown in the box below."
+        },
+        {
+          "type": "newline"
+        },
+        {
+          "type": "text",
+          "content": "Consider the case when $n = 3k$\\newline $2n^2 + n + 1 = 18k^2 + 3k + 1 = 3(6k^2 + k) + 1$\\newline which is not divisible by 3"
+        }
+      ],
+      "parts": [],
+      "answer": {
+        "type": "multiline",
+        "lines": 10,
+        "template": "Complete this proof."
+      },
+      "meta": {}
+    }
+  ]
+}

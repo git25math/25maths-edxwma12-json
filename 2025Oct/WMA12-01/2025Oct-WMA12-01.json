@@ -1,0 +1,907 @@
+{
+  "v": "1.0",
+  "paper": "2025Oct-WMA12-01",
+  "board": "edx",
+  "code": "WMA12",
+  "year": 2025,
+  "session": "Oct",
+  "paperNum": "01",
+  "type": "ial-p2",
+  "totalMarks": 75,
+  "time": 90,
+  "questions": [
+    {
+      "qnum": 1,
+      "marks": 4,
+      "stem": [
+        {
+          "type": "text",
+          "content": "An arithmetic series starts"
+        },
+        {
+          "type": "newline"
+        },
+        {
+          "type": "text",
+          "content": "$78 + 75 + 72 + ...$"
+        },
+        {
+          "type": "newline"
+        },
+        {
+          "type": "text",
+          "content": "Find"
+        }
+      ],
+      "parts": [
+        {
+          "label": "(a)",
+          "marks": 2,
+          "content": [
+            {
+              "type": "text",
+              "content": "the 18th term in the series,"
+            },
+            {
+              "type": "space",
+              "height": "4cm"
+            }
+          ],
+          "answer": {
+            "type": "number"
+          }
+        },
+        {
+          "label": "(b)",
+          "marks": 2,
+          "content": [
+            {
+              "type": "text",
+              "content": "the sum of the first 100 terms of the series."
+            },
+            {
+              "type": "space",
+              "height": "10cm"
+            }
+          ],
+          "answer": {
+            "type": "number"
+          }
+        }
+      ],
+      "answer": null,
+      "meta": {}
+    },
+    {
+      "qnum": 2,
+      "marks": 6,
+      "stem": [
+        {
+          "type": "text",
+          "content": "The first 4 terms, in ascending powers of x, in the binomial expansion of"
+        },
+        {
+          "type": "newline"
+        },
+        {
+          "type": "text",
+          "content": "$(1 + px)^{10}$"
+        },
+        {
+          "type": "newline"
+        },
+        {
+          "type": "text",
+          "content": "are"
+        },
+        {
+          "type": "newline"
+        },
+        {
+          "type": "text",
+          "content": "$1 + 15x + qx^2+ rx^3$"
+        },
+        {
+          "type": "newline"
+        },
+        {
+          "type": "text",
+          "content": "where p, q and r are constants."
+        },
+        {
+          "type": "newline"
+        },
+        {
+          "type": "text",
+          "content": "Find the value of p, the value of q and the value of r."
+        },
+        {
+          "type": "space",
+          "height": "15cm"
+        }
+      ],
+      "parts": [],
+      "answer": {
+        "type": "structured",
+        "answerBlocks": [
+          {
+            "type": "expression",
+            "prefix": "p = "
+          },
+          {
+            "type": "expression",
+            "prefix": "q = "
+          },
+          {
+            "type": "expression",
+            "prefix": "r = "
+          }
+        ]
+      },
+      "meta": {}
+    },
+    {
+      "qnum": 3,
+      "marks": 7,
+      "stem": [
+        {
+          "type": "text",
+          "content": "[Figure]"
+        },
+        {
+          "type": "newline"
+        },
+        {
+          "type": "text",
+          "content": "In this question you must show all stages of your working."
+        },
+        {
+          "type": "newline"
+        },
+        {
+          "type": "text",
+          "content": "Solutions relying entirely on calculator technology are not acceptable."
+        },
+        {
+          "type": "newline"
+        },
+        {
+          "type": "text",
+          "content": "Figure 1 shows a sketch of the curve with equation $y = 3 \\times 2^{-x}$"
+        },
+        {
+          "type": "newline"
+        },
+        {
+          "type": "text",
+          "content": "The point P(k, 300 000) lies on the curve."
+        }
+      ],
+      "parts": [
+        {
+          "label": "(a)",
+          "marks": 2,
+          "content": [
+            {
+              "type": "text",
+              "content": "Use logarithms to find the value of k to 2 decimal places."
+            },
+            {
+              "type": "space",
+              "height": "4cm"
+            }
+          ],
+          "answer": {
+            "type": "number"
+          }
+        },
+        {
+          "label": "(b)",
+          "marks": 5,
+          "content": [
+            {
+              "type": "table",
+              "content": "\\begin{tabular}{|c|c|c|c|c|c|c|}\n\\hline\nx & –0.5 & 1 & 2.5 & 4.0 & 5.5 & 7 \\\\\n\\hline\ny & 4.243 & 1.5 & 0.530 & 0.188 & 0.066 & 0.023 \\\\\n\\hline\n\\end{tabular}"
+            },
+            {
+              "type": "newline"
+            },
+            {
+              "type": "text",
+              "content": "The table shows corresponding values of x and y for $y = 3 \\times 2^{-x}$"
+            },
+            {
+              "type": "newline"
+            },
+            {
+              "type": "text",
+              "content": "The values of y are given to 3 decimal places where appropriate."
+            }
+          ],
+          "subparts": [
+            {
+              "label": "(i)",
+              "marks": 3,
+              "content": [
+                {
+                  "type": "text",
+                  "content": "Use the trapezium rule, with all the values of y from the table, to find an approximate value, to 2 decimal places, for"
+                },
+                {
+                  "type": "newline"
+                },
+                {
+                  "type": "text",
+                  "content": "$$\\int_{0.5}^{7} 3 \\times 2^{-x} \\, dx$$"
+                },
+                {
+                  "type": "space",
+                  "height": "6cm"
+                }
+              ],
+              "answer": {
+                "type": "number"
+              }
+            },
+            {
+              "label": "(ii)",
+              "marks": 2,
+              "content": [
+                {
+                  "type": "text",
+                  "content": "Use your answer to part (b)(i) to estimate"
+                },
+                {
+                  "type": "newline"
+                },
+                {
+                  "type": "text",
+                  "content": "$$\\int_{0.5}^{7} 2^{-x} \\, dx$$"
+                },
+                {
+                  "type": "space",
+                  "height": "6cm"
+                }
+              ],
+              "answer": {
+                "type": "number"
+              }
+            }
+          ],
+          "answer": null
+        }
+      ],
+      "answer": null,
+      "meta": {}
+    },
+    {
+      "qnum": 4,
+      "marks": 12,
+      "stem": [
+        {
+          "type": "text",
+          "content": "In this question you must show all stages of your working."
+        },
+        {
+          "type": "newline"
+        },
+        {
+          "type": "text",
+          "content": "Solutions relying on calculator technology are not acceptable."
+        },
+        {
+          "type": "newline"
+        },
+        {
+          "type": "text",
+          "content": "f(x) = $4x^3 + 13x^2 – 10x + 8$"
+        }
+      ],
+      "parts": [
+        {
+          "label": "(a)",
+          "marks": 4,
+          "content": [
+            {
+              "type": "text",
+              "content": "When f(x) is divided by (x – 2) the remainder is R and the quotient is Q(x)."
+            }
+          ],
+          "subparts": [
+            {
+              "label": "(i)",
+              "marks": 2,
+              "content": [
+                {
+                  "type": "text",
+                  "content": "Find Q(x)."
+                },
+                {
+                  "type": "space",
+                  "height": "4cm"
+                }
+              ],
+              "answer": {
+                "type": "expression"
+              }
+            },
+            {
+              "label": "(ii)",
+              "marks": 2,
+              "content": [
+                {
+                  "type": "text",
+                  "content": "Find R."
+                },
+                {
+                  "type": "space",
+                  "height": "4cm"
+                }
+              ],
+              "answer": {
+                "type": "number"
+              }
+            }
+          ],
+          "answer": null
+        },
+        {
+          "label": "(b)",
+          "marks": 5,
+          "content": [],
+          "subparts": [
+            {
+              "label": "(i)",
+              "marks": 2,
+              "content": [
+                {
+                  "type": "text",
+                  "content": "Use the factor theorem to show that (x + 4) is a factor of f(x)."
+                },
+                {
+                  "type": "space",
+                  "height": "4cm"
+                }
+              ],
+              "answer": {
+                "type": "none"
+              }
+            },
+            {
+              "label": "(ii)",
+              "marks": 3,
+              "content": [
+                {
+                  "type": "text",
+                  "content": "Hence prove, using algebra, that the equation f(x) = 0 has only one real solution."
+                },
+                {
+                  "type": "space",
+                  "height": "6cm"
+                }
+              ],
+              "answer": {
+                "type": "none"
+              }
+            }
+          ],
+          "answer": null
+        },
+        {
+          "label": "(c)",
+          "marks": 3,
+          "content": [
+            {
+              "type": "text",
+              "content": "Find the range of values of x for which f(x) is decreasing."
+            },
+            {
+              "type": "space",
+              "height": "8cm"
+            }
+          ],
+          "answer": {
+            "type": "expression"
+          }
+        }
+      ],
+      "answer": null,
+      "meta": {}
+    },
+    {
+      "qnum": 5,
+      "marks": 9,
+      "stem": [
+        {
+          "type": "text",
+          "content": "In this question you must show all stages of your working."
+        },
+        {
+          "type": "newline"
+        },
+        {
+          "type": "text",
+          "content": "Solutions relying entirely on calculator technology are not acceptable."
+        }
+      ],
+      "parts": [
+        {
+          "label": "(i)",
+          "marks": 5,
+          "content": [
+            {
+              "type": "text",
+              "content": "Solve, for $0 < \\theta \\le 360°$, the equation"
+            },
+            {
+              "type": "newline"
+            },
+            {
+              "type": "text",
+              "content": "$4 \\tan \\theta + 5 \\sin \\theta = 0$"
+            },
+            {
+              "type": "newline"
+            },
+            {
+              "type": "text",
+              "content": "giving any non‑exact answers to one decimal place."
+            },
+            {
+              "type": "space",
+              "height": "10cm"
+            }
+          ],
+          "answer": {
+            "type": "expression"
+          }
+        },
+        {
+          "label": "(ii)",
+          "marks": 4,
+          "content": [
+            {
+              "type": "text",
+              "content": "Solve, for $0 < x < \\pi$, the equation"
+            },
+            {
+              "type": "newline"
+            },
+            {
+              "type": "text",
+              "content": "$$\\frac{\\sin x}{\\cos x} = 5 \\cos x$$"
+            },
+            {
+              "type": "newline"
+            },
+            {
+              "type": "text",
+              "content": "giving the answers, in radians, to 3 significant figures."
+            },
+            {
+              "type": "space",
+              "height": "10cm"
+            }
+          ],
+          "answer": {
+            "type": "expression"
+          }
+        }
+      ],
+      "answer": null,
+      "meta": {}
+    },
+    {
+      "qnum": 6,
+      "marks": 9,
+      "stem": [
+        {
+          "type": "text",
+          "content": "[Figure]"
+        },
+        {
+          "type": "newline"
+        },
+        {
+          "type": "text",
+          "content": "The points A(–2, 18) and B(14, 6) lie on a circle C1 as shown in Figure 2."
+        },
+        {
+          "type": "newline"
+        },
+        {
+          "type": "text",
+          "content": "Given that AB is a diameter of the circle C1"
+        }
+      ],
+      "parts": [
+        {
+          "label": "(a)",
+          "marks": 5,
+          "content": [
+            {
+              "type": "text",
+              "content": "find an equation for C1 making your method clear."
+            },
+            {
+              "type": "space",
+              "height": "10cm"
+            }
+          ],
+          "answer": {
+            "type": "expression"
+          }
+        },
+        {
+          "label": "(b)",
+          "marks": 4,
+          "content": [
+            {
+              "type": "text",
+              "content": "A circle C2 has its centre at the origin."
+            },
+            {
+              "type": "newline"
+            },
+            {
+              "type": "text",
+              "content": "Given that circles C1 and C2 touch,"
+            },
+            {
+              "type": "newline"
+            },
+            {
+              "type": "text",
+              "content": "find possible equations for C2"
+            },
+            {
+              "type": "space",
+              "height": "10cm"
+            }
+          ],
+          "answer": {
+            "type": "expression"
+          }
+        }
+      ],
+      "answer": null,
+      "meta": {}
+    },
+    {
+      "qnum": 7,
+      "marks": 10,
+      "stem": [
+        {
+          "type": "text",
+          "content": "[Figure]"
+        },
+        {
+          "type": "newline"
+        },
+        {
+          "type": "text",
+          "content": "In this question you must show all stages of your working."
+        },
+        {
+          "type": "newline"
+        },
+        {
+          "type": "text",
+          "content": "Solutions relying entirely on calculator technology are not acceptable."
+        },
+        {
+          "type": "newline"
+        },
+        {
+          "type": "text",
+          "content": "Figure 3 shows a sketch of part of the curve C with equation"
+        },
+        {
+          "type": "newline"
+        },
+        {
+          "type": "text",
+          "content": "$$y = \\frac{3}{2} x^{\\frac{5}{2}} - \\frac{1}{2} kx^2 - 28x + 44 \\quad x \\ge 0$$"
+        },
+        {
+          "type": "newline"
+        },
+        {
+          "type": "text",
+          "content": "where k is a positive constant."
+        }
+      ],
+      "parts": [
+        {
+          "label": "(a)",
+          "marks": 2,
+          "content": [
+            {
+              "type": "text",
+              "content": "Find $\\frac{dy}{dx}$ in simplest form."
+            },
+            {
+              "type": "space",
+              "height": "4cm"
+            }
+          ],
+          "answer": {
+            "type": "expression"
+          }
+        },
+        {
+          "label": "(b)",
+          "marks": 2,
+          "content": [
+            {
+              "type": "text",
+              "content": "The point T, shown in Figure 3, is a minimum stationary point on C."
+            },
+            {
+              "type": "newline"
+            },
+            {
+              "type": "text",
+              "content": "Given that the x coordinate of T is 9"
+            },
+            {
+              "type": "newline"
+            },
+            {
+              "type": "text",
+              "content": "show that k = 6"
+            },
+            {
+              "type": "space",
+              "height": "4cm"
+            }
+          ],
+          "answer": {
+            "type": "none"
+          }
+        },
+        {
+          "label": "(c)",
+          "marks": 6,
+          "content": [
+            {
+              "type": "text",
+              "content": "The line through T parallel to the x‑axis meets the y‑axis at the point N."
+            },
+            {
+              "type": "newline"
+            },
+            {
+              "type": "text",
+              "content": "The finite region R, shown shaded in Figure 3, is bounded by C, the y‑axis and the line segment NT."
+            },
+            {
+              "type": "newline"
+            },
+            {
+              "type": "text",
+              "content": "Use algebraic integration to find the area of R, giving the answer to 3 significant figures."
+            },
+            {
+              "type": "space",
+              "height": "10cm"
+            }
+          ],
+          "answer": {
+            "type": "number"
+          }
+        }
+      ],
+      "answer": null,
+      "meta": {}
+    },
+    {
+      "qnum": 8,
+      "marks": 8,
+      "stem": [],
+      "parts": [
+        {
+          "label": "(i)",
+          "marks": 3,
+          "content": [
+            {
+              "type": "text",
+              "content": "A geometric series has first term a and common ratio r."
+            },
+            {
+              "type": "newline"
+            },
+            {
+              "type": "text",
+              "content": "Prove that the sum of the first n terms of this series $S_n$ is given by"
+            },
+            {
+              "type": "newline"
+            },
+            {
+              "type": "text",
+              "content": "$$S_n = \\frac{a(1 - r^n)}{1 - r}$$"
+            },
+            {
+              "type": "space",
+              "height": "6cm"
+            }
+          ],
+          "answer": {
+            "type": "none"
+          }
+        },
+        {
+          "label": "(ii)",
+          "marks": 5,
+          "content": [
+            {
+              "type": "text",
+              "content": "A liquid is to be stored in a barrel."
+            },
+            {
+              "type": "newline"
+            },
+            {
+              "type": "text",
+              "content": "Due to evaporation, the volume of the liquid in the barrel at the end of each year is 8% less than the volume of the liquid in the barrel at the start of the year."
+            },
+            {
+              "type": "newline"
+            },
+            {
+              "type": "text",
+              "content": "At the start of the first year, the barrel is filled with 150 litres of the liquid."
+            }
+          ],
+          "subparts": [
+            {
+              "label": "(a)",
+              "marks": 2,
+              "content": [
+                {
+                  "type": "text",
+                  "content": "Show that the amount of the liquid in the barrel at the end of 6 years is approximately 91 litres."
+                },
+                {
+                  "type": "space",
+                  "height": "4cm"
+                }
+              ],
+              "answer": {
+                "type": "none"
+              }
+            },
+            {
+              "label": "(b)",
+              "marks": 3,
+              "content": [
+                {
+                  "type": "text",
+                  "content": "At the start of each year a new barrel is filled with 150 litres of the liquid so that, at the end of 40 years, there are 40 barrels containing the liquid."
+                },
+                {
+                  "type": "newline"
+                },
+                {
+                  "type": "text",
+                  "content": "Calculate the total amount of the liquid, to the nearest litre, in the 40 barrels at the end of 40 years."
+                },
+                {
+                  "type": "space",
+                  "height": "8cm"
+                }
+              ],
+              "answer": {
+                "type": "number",
+                "suffix": " litres"
+              }
+            }
+          ],
+          "answer": null
+        }
+      ],
+      "answer": null,
+      "meta": {}
+    },
+    {
+      "qnum": 9,
+      "marks": 10,
+      "stem": [
+        {
+          "type": "text",
+          "content": "In this question you must show detailed reasoning."
+        },
+        {
+          "type": "newline"
+        },
+        {
+          "type": "text",
+          "content": "Solutions relying on calculator technology are not acceptable."
+        }
+      ],
+      "parts": [
+        {
+          "label": "(i)",
+          "marks": 5,
+          "content": [
+            {
+              "type": "text",
+              "content": "Solve"
+            },
+            {
+              "type": "newline"
+            },
+            {
+              "type": "text",
+              "content": "$2\\log_3(4x + 5) – \\log_3(x + 3) = 2$"
+            },
+            {
+              "type": "space",
+              "height": "10cm"
+            }
+          ],
+          "answer": {
+            "type": "number"
+          }
+        },
+        {
+          "label": "(ii)",
+          "marks": 5,
+          "content": [
+            {
+              "type": "text",
+              "content": "Given that $a > 0$, $b > 0$ and"
+            },
+            {
+              "type": "newline"
+            },
+            {
+              "type": "text",
+              "content": "$\\log_{10} a + \\log_{10} b = \\log_{10}(a + b)$"
+            }
+          ],
+          "subparts": [
+            {
+              "label": "(a)",
+              "marks": 3,
+              "content": [
+                {
+                  "type": "text",
+                  "content": "prove that $a = \\frac{b}{b - 1}$"
+                },
+                {
+                  "type": "space",
+                  "height": "6cm"
+                }
+              ],
+              "answer": {
+                "type": "none"
+              }
+            },
+            {
+              "label": "(b)",
+              "marks": 2,
+              "content": [
+                {
+                  "type": "text",
+                  "content": "Hence write down the full restriction on the value of b, giving a reason for your answer."
+                },
+                {
+                  "type": "space",
+                  "height": "6cm"
+                }
+              ],
+              "answer": {
+                "type": "expression"
+              }
+            }
+          ],
+          "answer": null
+        }
+      ],
+      "answer": null,
+      "meta": {}
+    }
+  ]
+}

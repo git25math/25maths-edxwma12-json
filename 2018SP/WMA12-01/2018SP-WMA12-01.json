@@ -1,0 +1,765 @@
+{
+  "v": "1.0",
+  "paper": "2018SP-WMA12-01",
+  "board": "edx",
+  "code": "WMA12",
+  "year": 2018,
+  "session": "SP",
+  "paperNum": "01",
+  "type": "ial-p2",
+  "totalMarks": 75,
+  "time": 90,
+  "questions": [
+    {
+      "qnum": 1,
+      "marks": 7,
+      "stem": [
+        {
+          "type": "text",
+          "content": "$$f(x) = x^4 + x^3 + 2x^2 + ax + b$$"
+        },
+        {
+          "type": "newline"
+        },
+        {
+          "type": "text",
+          "content": "where $a$ and $b$ are constants."
+        },
+        {
+          "type": "newline"
+        },
+        {
+          "type": "text",
+          "content": "When $f(x)$ is divided by $(x – 1)$, the remainder is 7"
+        }
+      ],
+      "parts": [
+        {
+          "label": "(a)",
+          "marks": 2,
+          "content": [
+            {
+              "type": "text",
+              "content": "Show that $a + b = 3$"
+            },
+            {
+              "type": "space",
+              "height": "4cm"
+            }
+          ],
+          "answer": {
+            "type": "none"
+          }
+        },
+        {
+          "label": "(b)",
+          "marks": 5,
+          "content": [
+            {
+              "type": "text",
+              "content": "When $f(x)$ is divided by $(x + 2)$, the remainder is –8"
+            },
+            {
+              "type": "newline"
+            },
+            {
+              "type": "text",
+              "content": "Find the value of $a$ and the value of $b$"
+            },
+            {
+              "type": "space",
+              "height": "8cm"
+            }
+          ],
+          "answer": {
+            "type": "structured",
+            "answerBlocks": [
+              {
+                "type": "expression",
+                "prefix": "$a = $"
+              },
+              {
+                "type": "expression",
+                "prefix": "$b = $"
+              }
+            ]
+          }
+        }
+      ],
+      "answer": null,
+      "meta": {}
+    },
+    {
+      "qnum": 2,
+      "marks": 8,
+      "stem": [
+        {
+          "type": "text",
+          "content": "The first term of a geometric series is 20 and the common ratio is $\\frac{7}{8}$. The sum to infinity of the series is $S_\\infty$"
+        }
+      ],
+      "parts": [
+        {
+          "label": "(a)",
+          "marks": 2,
+          "content": [
+            {
+              "type": "text",
+              "content": "Find the value of $S_\\infty$"
+            },
+            {
+              "type": "space",
+              "height": "2cm"
+            }
+          ],
+          "answer": {
+            "type": "number"
+          }
+        },
+        {
+          "label": "(b)",
+          "marks": 2,
+          "content": [
+            {
+              "type": "text",
+              "content": "The sum to $N$ terms of the series is $S_N$"
+            },
+            {
+              "type": "newline"
+            },
+            {
+              "type": "text",
+              "content": "Find, to 1 decimal place, the value of $S_{12}$"
+            },
+            {
+              "type": "space",
+              "height": "2cm"
+            }
+          ],
+          "answer": {
+            "type": "number"
+          }
+        },
+        {
+          "label": "(c)",
+          "marks": 4,
+          "content": [
+            {
+              "type": "text",
+              "content": "Find the smallest value of $N$, for which $S_\\infty – S_N < 0.5$"
+            },
+            {
+              "type": "space",
+              "height": "6cm"
+            }
+          ],
+          "answer": {
+            "type": "number"
+          }
+        }
+      ],
+      "answer": null,
+      "meta": {}
+    },
+    {
+      "qnum": 3,
+      "marks": 7,
+      "stem": [
+        {
+          "type": "text",
+          "content": "$$y = \\frac{3^x}{x+1}$$"
+        }
+      ],
+      "parts": [
+        {
+          "label": "(a)",
+          "marks": 2,
+          "content": [
+            {
+              "type": "text",
+              "content": "Complete the table below, giving the values of $y$ to 3 decimal places."
+            },
+            {
+              "type": "newline"
+            },
+            {
+              "type": "table",
+              "content": "\\begin{tabular}{|c|c|c|c|c|c|} \\hline x & 0 & 0.25 & 0.5 & 0.75 & 1 \\\\ \\hline y & 1 & 1.251 & 2 & & \\\\ \\hline \\end{tabular}"
+            },
+            {
+              "type": "space",
+              "height": "1cm"
+            }
+          ],
+          "answer": {
+            "type": "table_input"
+          }
+        },
+        {
+          "label": "(b)",
+          "marks": 4,
+          "content": [
+            {
+              "type": "text",
+              "content": "Use the trapezium rule with all the values of $y$ from your table to find an approximation for the value of"
+            },
+            {
+              "type": "newline"
+            },
+            {
+              "type": "text",
+              "content": "$$\\int_0^1 \\frac{3^x}{x+1} \\,\\mathrm{d}x$$"
+            },
+            {
+              "type": "newline"
+            },
+            {
+              "type": "text",
+              "content": "You must show clearly how you obtained your answer."
+            },
+            {
+              "type": "space",
+              "height": "6cm"
+            }
+          ],
+          "answer": {
+            "type": "number"
+          }
+        },
+        {
+          "label": "(c)",
+          "marks": 1,
+          "content": [
+            {
+              "type": "text",
+              "content": "Explain how the trapezium rule could be used to obtain a more accurate estimate for the value of"
+            },
+            {
+              "type": "newline"
+            },
+            {
+              "type": "text",
+              "content": "$$\\int_0^1 \\frac{3^x}{x+1} \\,\\mathrm{d}x$$"
+            },
+            {
+              "type": "space",
+              "height": "2cm"
+            }
+          ],
+          "answer": {
+            "type": "multiline",
+            "lines": 2
+          }
+        }
+      ],
+      "answer": null,
+      "meta": {}
+    },
+    {
+      "qnum": 4,
+      "marks": 4,
+      "stem": [
+        {
+          "type": "text",
+          "content": "Given $n \\in \\mathbb{N}$, prove, by exhaustion, that $n^2 + 2$ is not divisible by 4."
+        },
+        {
+          "type": "space",
+          "height": "10cm"
+        }
+      ],
+      "parts": [],
+      "answer": {
+        "type": "none"
+      },
+      "meta": {}
+    },
+    {
+      "qnum": 5,
+      "marks": 11,
+      "stem": [
+        {
+          "type": "text",
+          "content": "An arithmetic series has first term $a$ and common difference $d$."
+        }
+      ],
+      "parts": [
+        {
+          "label": "(a)",
+          "marks": 4,
+          "content": [
+            {
+              "type": "text",
+              "content": "Prove that the sum of the first $n$ terms of the series is"
+            },
+            {
+              "type": "newline"
+            },
+            {
+              "type": "text",
+              "content": "$$\\frac{1}{2} n[2a + (n – 1)d]$$"
+            },
+            {
+              "type": "space",
+              "height": "6cm"
+            }
+          ],
+          "answer": {
+            "type": "none"
+          }
+        },
+        {
+          "label": "(b)",
+          "marks": 2,
+          "content": [
+            {
+              "type": "text",
+              "content": "A company, which is making 200 mobile phones each week, plans to increase its production."
+            },
+            {
+              "type": "newline"
+            },
+            {
+              "type": "text",
+              "content": "The number of mobile phones produced is to be increased by 20 each week from 200 in week 1 to 220 in week 2, to 240 in week 3 and so on, until it is producing 600 in week $N$."
+            },
+            {
+              "type": "newline"
+            },
+            {
+              "type": "text",
+              "content": "Find the value of $N$"
+            },
+            {
+              "type": "space",
+              "height": "2cm"
+            }
+          ],
+          "answer": {
+            "type": "number"
+          }
+        },
+        {
+          "label": "(c)",
+          "marks": 5,
+          "content": [
+            {
+              "type": "text",
+              "content": "The company then plans to continue to make 600 mobile phones each week."
+            },
+            {
+              "type": "newline"
+            },
+            {
+              "type": "text",
+              "content": "Find the total number of mobile phones that will be made in the first 52 weeks starting from and including week 1."
+            },
+            {
+              "type": "space",
+              "height": "6cm"
+            }
+          ],
+          "answer": {
+            "type": "number"
+          }
+        }
+      ],
+      "answer": null,
+      "meta": {}
+    },
+    {
+      "qnum": 6,
+      "marks": 7,
+      "stem": [],
+      "parts": [
+        {
+          "label": "(i)",
+          "marks": 4,
+          "content": [
+            {
+              "type": "text",
+              "content": "Find the exact value of $x$ for which"
+            },
+            {
+              "type": "newline"
+            },
+            {
+              "type": "text",
+              "content": "$$\\log_2(2x) = \\log_2(5x + 4) – 3$$"
+            },
+            {
+              "type": "newline"
+            },
+            {
+              "type": "text",
+              "content": "giving your answers in terms of $\\pi$"
+            },
+            {
+              "type": "space",
+              "height": "6cm"
+            }
+          ],
+          "answer": {
+            "type": "expression"
+          }
+        },
+        {
+          "label": "(ii)",
+          "marks": 3,
+          "content": [
+            {
+              "type": "text",
+              "content": "Given that"
+            },
+            {
+              "type": "newline"
+            },
+            {
+              "type": "text",
+              "content": "$$\\log_a y + 3\\log_a 2 = 5$$"
+            },
+            {
+              "type": "newline"
+            },
+            {
+              "type": "text",
+              "content": "express $y$ in terms of $a$. Give your answer in its simplest form."
+            },
+            {
+              "type": "space",
+              "height": "4cm"
+            }
+          ],
+          "answer": {
+            "type": "expression"
+          }
+        }
+      ],
+      "answer": null,
+      "meta": {}
+    },
+    {
+      "qnum": 7,
+      "marks": 10,
+      "stem": [
+        {
+          "type": "text",
+          "content": "[Figure 1]"
+        },
+        {
+          "type": "newline"
+        },
+        {
+          "type": "text",
+          "content": "The circle with equation"
+        },
+        {
+          "type": "newline"
+        },
+        {
+          "type": "text",
+          "content": "$$x^2 + y^2 – 20x – 16y + 139 = 0$$"
+        },
+        {
+          "type": "newline"
+        },
+        {
+          "type": "text",
+          "content": "had centre $C$ and radius $r$."
+        }
+      ],
+      "parts": [
+        {
+          "label": "(a)",
+          "marks": 2,
+          "content": [
+            {
+              "type": "text",
+              "content": "Find the coordinates of $C$."
+            },
+            {
+              "type": "space",
+              "height": "2cm"
+            }
+          ],
+          "answer": {
+            "type": "coordinate",
+            "fields": 2
+          }
+        },
+        {
+          "label": "(b)",
+          "marks": 2,
+          "content": [
+            {
+              "type": "text",
+              "content": "Show that $r = 5$"
+            },
+            {
+              "type": "space",
+              "height": "2cm"
+            }
+          ],
+          "answer": {
+            "type": "none"
+          }
+        },
+        {
+          "label": "(c)",
+          "marks": 3,
+          "content": [
+            {
+              "type": "text",
+              "content": "The line with equation $x = 13$ crosses the circle at the points $P$ and $Q$ as shown in Figure 1."
+            },
+            {
+              "type": "newline"
+            },
+            {
+              "type": "text",
+              "content": "Find the $y$ coordinate of $P$ and the $y$ coordinate of $Q$."
+            },
+            {
+              "type": "space",
+              "height": "4cm"
+            }
+          ],
+          "answer": {
+            "type": "structured",
+            "answerBlocks": [
+              {
+                "type": "expression",
+                "prefix": "$P: y = $"
+              },
+              {
+                "type": "expression",
+                "prefix": "$Q: y = $"
+              }
+            ]
+          }
+        },
+        {
+          "label": "(d)",
+          "marks": 3,
+          "content": [
+            {
+              "type": "text",
+              "content": "A tangent to the circle from $O$ touches the circle at point $X$."
+            },
+            {
+              "type": "newline"
+            },
+            {
+              "type": "text",
+              "content": "Find, in surd form, the length $OX$."
+            },
+            {
+              "type": "space",
+              "height": "4cm"
+            }
+          ],
+          "answer": {
+            "type": "expression"
+          }
+        }
+      ],
+      "answer": null,
+      "meta": {}
+    },
+    {
+      "qnum": 8,
+      "marks": 12,
+      "stem": [
+        {
+          "type": "text",
+          "content": "[Figure 2]"
+        },
+        {
+          "type": "newline"
+        },
+        {
+          "type": "text",
+          "content": "Figure 2 shows a sketch of part of the curves $C_1$ and $C_2$ with equations"
+        },
+        {
+          "type": "newline"
+        },
+        {
+          "type": "text",
+          "content": "$C_1: y = 10x – x^2 – 8 \\quad x \\ge 0$"
+        },
+        {
+          "type": "newline"
+        },
+        {
+          "type": "text",
+          "content": "$C_2: y = x^3 \\quad x \\ge 0$"
+        },
+        {
+          "type": "newline"
+        },
+        {
+          "type": "text",
+          "content": "The curves $C_1$ and $C_2$ intersect at the points $A$ and $B$."
+        }
+      ],
+      "parts": [
+        {
+          "label": "(a)",
+          "marks": 1,
+          "content": [
+            {
+              "type": "text",
+              "content": "Verify that the point $A$ has coordinates $(1, 1)$"
+            },
+            {
+              "type": "space",
+              "height": "2cm"
+            }
+          ],
+          "answer": {
+            "type": "none"
+          }
+        },
+        {
+          "label": "(b)",
+          "marks": 6,
+          "content": [
+            {
+              "type": "text",
+              "content": "Use algebra to find the coordinates of the point $B$"
+            },
+            {
+              "type": "space",
+              "height": "8cm"
+            }
+          ],
+          "answer": {
+            "type": "coordinate",
+            "fields": 2
+          }
+        },
+        {
+          "label": "(c)",
+          "marks": 5,
+          "content": [
+            {
+              "type": "text",
+              "content": "The finite region $R$ is bounded by $C_1$ and $C_2$"
+            },
+            {
+              "type": "newline"
+            },
+            {
+              "type": "text",
+              "content": "Use calculus to find the exact area of $R$"
+            },
+            {
+              "type": "space",
+              "height": "8cm"
+            }
+          ],
+          "answer": {
+            "type": "expression"
+          }
+        }
+      ],
+      "answer": null,
+      "meta": {}
+    },
+    {
+      "qnum": 9,
+      "marks": 9,
+      "stem": [],
+      "parts": [
+        {
+          "label": "(i)",
+          "marks": 3,
+          "content": [
+            {
+              "type": "text",
+              "content": "Solve, for $0 \\le \\theta < \\pi$, the equation"
+            },
+            {
+              "type": "newline"
+            },
+            {
+              "type": "text",
+              "content": "$$\\sin 3\\theta - \\sqrt{3}\\cos3\\theta = 0$$"
+            },
+            {
+              "type": "newline"
+            },
+            {
+              "type": "text",
+              "content": "giving your answers in terms of $\\pi$"
+            },
+            {
+              "type": "space",
+              "height": "4cm"
+            }
+          ],
+          "answer": {
+            "type": "expression"
+          }
+        },
+        {
+          "label": "(ii)",
+          "marks": 6,
+          "content": [
+            {
+              "type": "text",
+              "content": "Given that"
+            },
+            {
+              "type": "newline"
+            },
+            {
+              "type": "text",
+              "content": "$$4\\sin^2x + \\cos x = k, \\quad 0 \\le k \\le 3$$"
+            }
+          ],
+          "subparts": [
+            {
+              "label": "(a)",
+              "marks": 3,
+              "content": [
+                {
+                  "type": "text",
+                  "content": "find $\\cos x$ in terms of $k$"
+                },
+                {
+                  "type": "space",
+                  "height": "4cm"
+                }
+              ],
+              "answer": {
+                "type": "expression"
+              }
+            },
+            {
+              "label": "(b)",
+              "marks": 3,
+              "content": [
+                {
+                  "type": "text",
+                  "content": "When $k = 3$, find the values of $x$ in the range $0 \\le x < 360^\\circ$"
+                },
+                {
+                  "type": "space",
+                  "height": "4cm"
+                }
+              ],
+              "answer": {
+                "type": "expression"
+              }
+            }
+          ],
+          "answer": null
+        }
+      ],
+      "answer": null,
+      "meta": {}
+    }
+  ]
+}

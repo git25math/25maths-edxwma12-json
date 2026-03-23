@@ -1,0 +1,907 @@
+{
+  "v": "1.0",
+  "paper": "2021Jan-WMA12-01",
+  "board": "edx",
+  "code": "WMA12",
+  "year": 2021,
+  "session": "Jan",
+  "paperNum": "01",
+  "type": "ial-p2",
+  "totalMarks": 75,
+  "time": 90,
+  "questions": [
+    {
+      "qnum": 1,
+      "marks": 6,
+      "stem": [
+        {
+          "type": "text",
+          "content": "$$f(x) = x^4 + ax^3 - 3x^2 + bx + 5$$"
+        },
+        {
+          "type": "newline"
+        },
+        {
+          "type": "text",
+          "content": "where $a$ and $b$ are constants."
+        },
+        {
+          "type": "newline"
+        },
+        {
+          "type": "text",
+          "content": "When $f(x)$ is divided by $(x + 1)$, the remainder is $4$"
+        }
+      ],
+      "parts": [
+        {
+          "label": "(a)",
+          "marks": 2,
+          "content": [
+            {
+              "type": "text",
+              "content": "Show that $a + b = -1$"
+            },
+            {
+              "type": "space",
+              "height": "1cm"
+            }
+          ],
+          "answer": {
+            "type": "none"
+          }
+        },
+        {
+          "label": "(b)",
+          "marks": 4,
+          "content": [
+            {
+              "type": "text",
+              "content": "When $f(x)$ is divided by $(x - 2)$, the remainder is $-23$"
+            },
+            {
+              "type": "newline"
+            },
+            {
+              "type": "text",
+              "content": "Find the value of $a$ and the value of $b$."
+            },
+            {
+              "type": "space",
+              "height": "1cm"
+            }
+          ],
+          "answer": {
+            "type": "multiline",
+            "lines": 2
+          }
+        }
+      ],
+      "answer": null,
+      "meta": {}
+    },
+    {
+      "qnum": 2,
+      "marks": 7,
+      "stem": [
+        {
+          "type": "text",
+          "content": "A curve has equation"
+        },
+        {
+          "type": "newline"
+        },
+        {
+          "type": "text",
+          "content": "$$y = x^3 - x^2 - 16x + 2$$"
+        }
+      ],
+      "parts": [
+        {
+          "label": "(a)",
+          "marks": 4,
+          "content": [
+            {
+              "type": "text",
+              "content": "Using calculus, find the $x$ coordinates of the stationary points of the curve."
+            },
+            {
+              "type": "space",
+              "height": "1cm"
+            }
+          ],
+          "answer": {
+            "type": "expression"
+          }
+        },
+        {
+          "label": "(b)",
+          "marks": 3,
+          "content": [
+            {
+              "type": "text",
+              "content": "Justify, by further calculus, the nature of all of the stationary points of the curve."
+            },
+            {
+              "type": "space",
+              "height": "1cm"
+            }
+          ],
+          "answer": {
+            "type": "none"
+          }
+        }
+      ],
+      "answer": null,
+      "meta": {}
+    },
+    {
+      "qnum": 3,
+      "marks": 8,
+      "stem": [],
+      "parts": [
+        {
+          "label": "(i)",
+          "marks": 3,
+          "content": [
+            {
+              "type": "text",
+              "content": "Solve"
+            },
+            {
+              "type": "newline"
+            },
+            {
+              "type": "text",
+              "content": "$$7^{x+2} = 3$$"
+            },
+            {
+              "type": "newline"
+            },
+            {
+              "type": "text",
+              "content": "giving your answer in the form $x = \\log_7 a$ where $a$ is a rational number in its simplest form."
+            },
+            {
+              "type": "space",
+              "height": "1cm"
+            }
+          ],
+          "answer": {
+            "type": "expression"
+          }
+        },
+        {
+          "label": "(ii)",
+          "marks": 5,
+          "content": [
+            {
+              "type": "text",
+              "content": "Using the laws of logarithms, solve"
+            },
+            {
+              "type": "newline"
+            },
+            {
+              "type": "text",
+              "content": "$$1 + \\log_2 y + \\log_2 (y + 4) = \\log_2 (5 - y)$$"
+            },
+            {
+              "type": "space",
+              "height": "1cm"
+            }
+          ],
+          "answer": {
+            "type": "expression"
+          }
+        }
+      ],
+      "answer": null,
+      "meta": {}
+    },
+    {
+      "qnum": 4,
+      "marks": 8,
+      "stem": [],
+      "parts": [
+        {
+          "label": "(a)",
+          "marks": 4,
+          "content": [
+            {
+              "type": "text",
+              "content": "Find the first three terms, in ascending powers of $x$, of the binomial expansion of"
+            },
+            {
+              "type": "newline"
+            },
+            {
+              "type": "text",
+              "content": "$$(2 + px)^6$$"
+            },
+            {
+              "type": "newline"
+            },
+            {
+              "type": "text",
+              "content": "where $p$ is a constant. Give each term in simplest form."
+            },
+            {
+              "type": "space",
+              "height": "1cm"
+            }
+          ],
+          "answer": {
+            "type": "expression"
+          }
+        },
+        {
+          "label": "(b)",
+          "marks": 4,
+          "content": [
+            {
+              "type": "text",
+              "content": "Given that in the expansion of"
+            },
+            {
+              "type": "newline"
+            },
+            {
+              "type": "text",
+              "content": "$$\\left(3 - \\frac{1}{2}x\\right)(2 + px)^6$$"
+            },
+            {
+              "type": "newline"
+            },
+            {
+              "type": "text",
+              "content": "the coefficient of $x^2$ is $-\\frac{3}{4}$"
+            },
+            {
+              "type": "newline"
+            },
+            {
+              "type": "text",
+              "content": "find the possible values of $p$."
+            },
+            {
+              "type": "space",
+              "height": "1cm"
+            }
+          ],
+          "answer": {
+            "type": "expression"
+          }
+        }
+      ],
+      "answer": null,
+      "meta": {}
+    },
+    {
+      "qnum": 5,
+      "marks": 4,
+      "stem": [],
+      "parts": [
+        {
+          "label": "(i)",
+          "marks": 3,
+          "content": [
+            {
+              "type": "text",
+              "content": "Use algebra to prove that for all $x \\ge 0$"
+            },
+            {
+              "type": "newline"
+            },
+            {
+              "type": "text",
+              "content": "$$3x + 1 \\ge 2\\sqrt{3x}$$"
+            },
+            {
+              "type": "space",
+              "height": "1cm"
+            }
+          ],
+          "answer": {
+            "type": "none"
+          }
+        },
+        {
+          "label": "(ii)",
+          "marks": 1,
+          "content": [
+            {
+              "type": "text",
+              "content": "Show that the following statement is not true."
+            },
+            {
+              "type": "newline"
+            },
+            {
+              "type": "text",
+              "content": "\"The sum of three consecutive prime numbers is always a multiple of 5\""
+            },
+            {
+              "type": "space",
+              "height": "1cm"
+            }
+          ],
+          "answer": {
+            "type": "none"
+          }
+        }
+      ],
+      "answer": null,
+      "meta": {}
+    },
+    {
+      "qnum": 6,
+      "marks": 8,
+      "stem": [],
+      "parts": [
+        {
+          "label": "(a)",
+          "marks": 4,
+          "content": [
+            {
+              "type": "text",
+              "content": "Show that the equation"
+            },
+            {
+              "type": "newline"
+            },
+            {
+              "type": "text",
+              "content": "$$\\frac{3\\sin\\theta \\cos\\theta}{2\\sin\\theta - 1} = 5\\tan\\theta \\quad \\quad \\quad \\sin\\theta \\ne \\frac{1}{2}$$"
+            },
+            {
+              "type": "newline"
+            },
+            {
+              "type": "text",
+              "content": "can be written in the form"
+            },
+            {
+              "type": "newline"
+            },
+            {
+              "type": "text",
+              "content": "$$3\\sin^3\\theta + 10\\sin^2\\theta - 8\\sin\\theta = 0$$"
+            },
+            {
+              "type": "space",
+              "height": "1cm"
+            }
+          ],
+          "answer": {
+            "type": "none"
+          }
+        },
+        {
+          "label": "(b)",
+          "marks": 4,
+          "content": [
+            {
+              "type": "text",
+              "content": "Hence solve, for $-\\frac{\\pi}{4} < x < \\frac{\\pi}{4}$"
+            },
+            {
+              "type": "newline"
+            },
+            {
+              "type": "text",
+              "content": "$$\\frac{3\\sin 2x \\cos 2x}{2\\sin 2x - 1} = 5\\tan 2x$$"
+            },
+            {
+              "type": "newline"
+            },
+            {
+              "type": "text",
+              "content": "giving your answers to 3 decimal places where appropriate."
+            },
+            {
+              "type": "space",
+              "height": "1cm"
+            }
+          ],
+          "answer": {
+            "type": "expression"
+          }
+        }
+      ],
+      "answer": null,
+      "meta": {}
+    },
+    {
+      "qnum": 7,
+      "marks": 6,
+      "stem": [
+        {
+          "type": "text",
+          "content": "[Figure]"
+        },
+        {
+          "type": "newline"
+        },
+        {
+          "type": "text",
+          "content": "Solar panels are installed on the roof of a building."
+        },
+        {
+          "type": "newline"
+        },
+        {
+          "type": "text",
+          "content": "The power, $P$, produced on a particular day, in kW, can be modelled by the equation"
+        },
+        {
+          "type": "newline"
+        },
+        {
+          "type": "text",
+          "content": "$$P = 0.95 + 2^{t-12} + 2^{12-t} - (t - 12)^2 \\quad \\quad \\quad 8.5 \\le t \\le 15.2$$"
+        },
+        {
+          "type": "newline"
+        },
+        {
+          "type": "text",
+          "content": "where $t$ is the time in hours after midnight. The graph of $P$ against $t$ is shown in Figure 1."
+        },
+        {
+          "type": "newline"
+        },
+        {
+          "type": "text",
+          "content": "A table of values of $t$ and $P$ is shown below, with the values of $P$ given to 4 significant figures where appropriate."
+        },
+        {
+          "type": "table",
+          "content": "\\begin{tabular}{|l|c|c|c|c|c|}\n\\hline\nTime, $t$ \\newline (hours) & 10 & 10.5 & 11 & 11.5 & 12 \\\\\n\\hline\nPower, $P$ \\newline (kW) & 1.882 & 2.45 & 2.95 &  &  \\\\\n\\hline\n\\end{tabular}"
+        }
+      ],
+      "parts": [
+        {
+          "label": "(a)",
+          "marks": 2,
+          "content": [
+            {
+              "type": "text",
+              "content": "Use the given equation to complete the table, giving the values of $P$ to 4 significant figures where appropriate."
+            },
+            {
+              "type": "space",
+              "height": "1cm"
+            }
+          ],
+          "answer": {
+            "type": "table_input"
+          }
+        },
+        {
+          "label": "(b)",
+          "marks": 4,
+          "content": [
+            {
+              "type": "text",
+              "content": "The amount of energy, in kWh, produced between 10:00 and 12:00 can be found by calculating the area of region $R$, shown shaded in Figure 1."
+            },
+            {
+              "type": "newline"
+            },
+            {
+              "type": "text",
+              "content": "Use the trapezium rule, with all the values of $P$ in the completed table, to find an estimate for the amount of energy produced between 10:00 and 12:00. Give your answer to 2 decimal places."
+            },
+            {
+              "type": "space",
+              "height": "1cm"
+            }
+          ],
+          "answer": {
+            "type": "number"
+          }
+        }
+      ],
+      "answer": null,
+      "meta": {}
+    },
+    {
+      "qnum": 8,
+      "marks": 7,
+      "stem": [
+        {
+          "type": "text",
+          "content": "A sequence $a_1, a_2, a_3, \\dots$ is defined by"
+        },
+        {
+          "type": "newline"
+        },
+        {
+          "type": "text",
+          "content": "$$a_{n+1} = 2(a_n + 3)^2 - 7$$"
+        },
+        {
+          "type": "newline"
+        },
+        {
+          "type": "text",
+          "content": "$$a_1 = p - 3$$"
+        },
+        {
+          "type": "newline"
+        },
+        {
+          "type": "text",
+          "content": "where $p$ is a constant."
+        }
+      ],
+      "parts": [
+        {
+          "label": "(a)",
+          "marks": 1,
+          "content": [
+            {
+              "type": "text",
+              "content": "Find an expression for $a_2$ in terms of $p$, giving your answer in simplest form."
+            },
+            {
+              "type": "space",
+              "height": "1cm"
+            }
+          ],
+          "answer": {
+            "type": "expression"
+          }
+        },
+        {
+          "label": "(b)",
+          "marks": 6,
+          "content": [
+            {
+              "type": "text",
+              "content": "Given that"
+            },
+            {
+              "type": "newline"
+            },
+            {
+              "type": "text",
+              "content": "$$\\sum_{n=1}^3 a_n = p + 15$$"
+            },
+            {
+              "type": "newline"
+            },
+            {
+              "type": "text",
+              "content": "find the possible values of $a_2$"
+            },
+            {
+              "type": "space",
+              "height": "1cm"
+            }
+          ],
+          "answer": {
+            "type": "expression"
+          }
+        }
+      ],
+      "answer": null,
+      "meta": {}
+    },
+    {
+      "qnum": 9,
+      "marks": 10,
+      "stem": [
+        {
+          "type": "text",
+          "content": "A circle $C$ has equation"
+        },
+        {
+          "type": "newline"
+        },
+        {
+          "type": "text",
+          "content": "$$(x - k)^2 + (y - 2k)^2 = k + 7$$"
+        },
+        {
+          "type": "newline"
+        },
+        {
+          "type": "text",
+          "content": "where $k$ is a positive constant."
+        }
+      ],
+      "parts": [
+        {
+          "label": "(a)",
+          "marks": 2,
+          "content": [
+            {
+              "type": "text",
+              "content": "Write down, in terms of $k$,"
+            }
+          ],
+          "subparts": [
+            {
+              "label": "(i)",
+              "marks": 1,
+              "content": [
+                {
+                  "type": "text",
+                  "content": "the coordinates of the centre of $C$,"
+                },
+                {
+                  "type": "space",
+                  "height": "1cm"
+                }
+              ],
+              "answer": {
+                "type": "coordinate",
+                "fields": 2
+              }
+            },
+            {
+              "label": "(ii)",
+              "marks": 1,
+              "content": [
+                {
+                  "type": "text",
+                  "content": "the radius of $C$."
+                },
+                {
+                  "type": "space",
+                  "height": "1cm"
+                }
+              ],
+              "answer": {
+                "type": "expression"
+              }
+            }
+          ],
+          "answer": null
+        },
+        {
+          "label": "(b)",
+          "marks": 3,
+          "content": [
+            {
+              "type": "text",
+              "content": "Given that the point $P(2, 3)$ lies on $C$"
+            }
+          ],
+          "subparts": [
+            {
+              "label": "(i)",
+              "marks": 1,
+              "content": [
+                {
+                  "type": "text",
+                  "content": "show that $5k^2 - 17k + 6 = 0$"
+                },
+                {
+                  "type": "space",
+                  "height": "1cm"
+                }
+              ],
+              "answer": {
+                "type": "none"
+              }
+            },
+            {
+              "label": "(ii)",
+              "marks": 2,
+              "content": [
+                {
+                  "type": "text",
+                  "content": "hence find the possible values of $k$."
+                },
+                {
+                  "type": "space",
+                  "height": "1cm"
+                }
+              ],
+              "answer": {
+                "type": "expression"
+              }
+            }
+          ],
+          "answer": null
+        },
+        {
+          "label": "(c)",
+          "marks": 5,
+          "content": [
+            {
+              "type": "text",
+              "content": "The tangent to the circle at $P$ intersects the $x$-axis at point $T$."
+            },
+            {
+              "type": "newline"
+            },
+            {
+              "type": "text",
+              "content": "Given that $k < 2$"
+            },
+            {
+              "type": "newline"
+            },
+            {
+              "type": "text",
+              "content": "calculate the exact area of triangle $OPT$."
+            },
+            {
+              "type": "space",
+              "height": "1cm"
+            }
+          ],
+          "answer": {
+            "type": "expression"
+          }
+        }
+      ],
+      "answer": null,
+      "meta": {}
+    },
+    {
+      "qnum": 10,
+      "marks": 11,
+      "stem": [
+        {
+          "type": "text",
+          "content": "In this question you must show detailed reasoning."
+        },
+        {
+          "type": "newline"
+        },
+        {
+          "type": "text",
+          "content": "Owen wants to train for 12 weeks in preparation for running a marathon."
+        },
+        {
+          "type": "newline"
+        },
+        {
+          "type": "text",
+          "content": "During the 12-week period he will run every Sunday and every Wednesday."
+        },
+        {
+          "type": "list",
+          "style": "bullet",
+          "items": [
+            "On Sunday in week 1 he will run 15 km",
+            "On Sunday in week 12 he will run 37 km"
+          ]
+        },
+        {
+          "type": "newline"
+        },
+        {
+          "type": "text",
+          "content": "He considers two different 12-week training plans."
+        },
+        {
+          "type": "newline"
+        },
+        {
+          "type": "text",
+          "content": "In training plan A, he will increase the distance he runs each Sunday by the same amount."
+        }
+      ],
+      "parts": [
+        {
+          "label": "(a)",
+          "marks": 3,
+          "content": [
+            {
+              "type": "text",
+              "content": "Calculate the distance he will run on Sunday in week 5 under training plan A."
+            },
+            {
+              "type": "space",
+              "height": "1cm"
+            }
+          ],
+          "answer": {
+            "type": "number"
+          }
+        },
+        {
+          "label": "(b)",
+          "marks": 3,
+          "content": [
+            {
+              "type": "text",
+              "content": "In training plan B, he will increase the distance he runs each Sunday by the same percentage."
+            },
+            {
+              "type": "newline"
+            },
+            {
+              "type": "text",
+              "content": "Calculate the distance he will run on Sunday in week 5 under training plan B."
+            },
+            {
+              "type": "newline"
+            },
+            {
+              "type": "text",
+              "content": "Give your answer in km to one decimal place."
+            },
+            {
+              "type": "space",
+              "height": "1cm"
+            }
+          ],
+          "answer": {
+            "type": "number"
+          }
+        },
+        {
+          "label": "(c)",
+          "marks": 5,
+          "content": [
+            {
+              "type": "text",
+              "content": "Owen will also run a fixed distance, $x$ km, each Wednesday over the 12-week period."
+            },
+            {
+              "type": "newline"
+            },
+            {
+              "type": "text",
+              "content": "Given that"
+            },
+            {
+              "type": "list",
+              "style": "bullet",
+              "items": [
+                "$x$ is an integer",
+                "the total distance that Owen will run on Sundays and Wednesdays over the 12 weeks will not exceed 360 km"
+              ]
+            }
+          ],
+          "subparts": [
+            {
+              "label": "(i)",
+              "marks": 2,
+              "content": [
+                {
+                  "type": "text",
+                  "content": "find the maximum value of $x$, if he uses training plan A,"
+                },
+                {
+                  "type": "space",
+                  "height": "1cm"
+                }
+              ],
+              "answer": {
+                "type": "number"
+              }
+            },
+            {
+              "label": "(ii)",
+              "marks": 3,
+              "content": [
+                {
+                  "type": "text",
+                  "content": "find the maximum value of $x$, if he uses training plan B."
+                },
+                {
+                  "type": "space",
+                  "height": "1cm"
+                }
+              ],
+              "answer": {
+                "type": "number"
+              }
+            }
+          ],
+          "answer": null
+        }
+      ],
+      "answer": null,
+      "meta": {}
+    }
+  ]
+}

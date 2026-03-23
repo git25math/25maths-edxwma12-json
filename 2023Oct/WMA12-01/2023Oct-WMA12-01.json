@@ -1,0 +1,1043 @@
+{
+  "v": "1.0",
+  "paper": "2023Oct-WMA12-01",
+  "board": "edx",
+  "code": "WMA12",
+  "year": 2023,
+  "session": "Oct",
+  "paperNum": "01",
+  "type": "ial-p2",
+  "totalMarks": 75,
+  "time": 90,
+  "questions": [
+    {
+      "qnum": 1,
+      "marks": 3,
+      "stem": [
+        {
+          "type": "text",
+          "content": "Given that a, b and c are integers greater than 0 such that"
+        },
+        {
+          "type": "list",
+          "style": "bullet",
+          "items": [
+            "$c = 3a + 1$",
+            "$a + b + c = 15$"
+          ]
+        },
+        {
+          "type": "newline"
+        },
+        {
+          "type": "text",
+          "content": "prove, by exhaustion, that the product abc is always a multiple of 4"
+        },
+        {
+          "type": "newline"
+        },
+        {
+          "type": "text",
+          "content": "You may use the table below to illustrate your answer."
+        },
+        {
+          "type": "newline"
+        },
+        {
+          "type": "table",
+          "content": "\\begin{tabular}{|l|l|l|l|}\n\\hline\na & b & c & abc \\\\\n\\hline\n\\end{tabular}"
+        },
+        {
+          "type": "newline"
+        },
+        {
+          "type": "text",
+          "content": "You may not need to use all rows of this table."
+        },
+        {
+          "type": "space",
+          "height": "1cm"
+        }
+      ],
+      "parts": [],
+      "answer": {
+        "type": "none"
+      },
+      "meta": {}
+    },
+    {
+      "qnum": 2,
+      "marks": 5,
+      "stem": [
+        {
+          "type": "text",
+          "content": "A sequence $u_1, u_2, u_3, \\dots$ is defined by"
+        },
+        {
+          "type": "newline"
+        },
+        {
+          "type": "text",
+          "content": "$u_1 = 3$"
+        },
+        {
+          "type": "newline"
+        },
+        {
+          "type": "text",
+          "content": "$u_{n+1} = 2 - \\frac{4}{u_n}$"
+        },
+        {
+          "type": "newline"
+        }
+      ],
+      "parts": [
+        {
+          "label": "(a)",
+          "marks": 3,
+          "content": [
+            {
+              "type": "text",
+              "content": "Find the value of $u_2$, the value of $u_3$ and the value of $u_4$"
+            },
+            {
+              "type": "space",
+              "height": "1cm"
+            }
+          ],
+          "answer": {
+            "type": "expression"
+          }
+        },
+        {
+          "label": "(b)",
+          "marks": 2,
+          "content": [
+            {
+              "type": "text",
+              "content": "Find the value of $\\sum_{r=1}^{100} u_r$"
+            },
+            {
+              "type": "space",
+              "height": "1cm"
+            }
+          ],
+          "answer": {
+            "type": "number"
+          }
+        }
+      ],
+      "answer": null,
+      "meta": {}
+    },
+    {
+      "qnum": 3,
+      "marks": 7,
+      "stem": [
+        {
+          "type": "text",
+          "content": "In this question you must show all stages of your working."
+        },
+        {
+          "type": "newline"
+        },
+        {
+          "type": "text",
+          "content": "Solutions relying entirely on calculator technology are not acceptable."
+        },
+        {
+          "type": "newline"
+        }
+      ],
+      "parts": [
+        {
+          "label": "(a)",
+          "marks": 5,
+          "content": [
+            {
+              "type": "text",
+              "content": "Solve, for $0 < \\theta \\le 360^\\circ$ the equation"
+            },
+            {
+              "type": "newline"
+            },
+            {
+              "type": "text",
+              "content": "$2\\tan\\theta + 3\\sin\\theta = 0$"
+            },
+            {
+              "type": "newline"
+            },
+            {
+              "type": "text",
+              "content": "giving your answers, as appropriate, to one decimal place."
+            },
+            {
+              "type": "space",
+              "height": "1cm"
+            }
+          ],
+          "answer": {
+            "type": "expression"
+          }
+        },
+        {
+          "label": "(b)",
+          "marks": 2,
+          "content": [
+            {
+              "type": "text",
+              "content": "Hence, or otherwise, find the smallest positive solution of"
+            },
+            {
+              "type": "newline"
+            },
+            {
+              "type": "text",
+              "content": "$2\\tan(2x + 40^\\circ) + 3\\sin(2x + 40^\\circ) = 0$"
+            },
+            {
+              "type": "newline"
+            },
+            {
+              "type": "text",
+              "content": "giving your answer to one decimal place."
+            },
+            {
+              "type": "space",
+              "height": "1cm"
+            }
+          ],
+          "answer": {
+            "type": "number"
+          }
+        }
+      ],
+      "answer": null,
+      "meta": {}
+    },
+    {
+      "qnum": 4,
+      "marks": 9,
+      "stem": [
+        {
+          "type": "text",
+          "content": "In this question you must show all stages of your working."
+        },
+        {
+          "type": "newline"
+        },
+        {
+          "type": "text",
+          "content": "Solutions relying on calculator technology are not acceptable."
+        },
+        {
+          "type": "newline"
+        },
+        {
+          "type": "text",
+          "content": "$f(x) = 4x^3 + ax^2 - 29x + b$"
+        },
+        {
+          "type": "newline"
+        },
+        {
+          "type": "text",
+          "content": "where a and b are constants."
+        },
+        {
+          "type": "newline"
+        },
+        {
+          "type": "text",
+          "content": "Given that $(2x + 1)$ is a factor of $f(x)$,"
+        },
+        {
+          "type": "newline"
+        }
+      ],
+      "parts": [
+        {
+          "label": "(a)",
+          "marks": 2,
+          "content": [
+            {
+              "type": "text",
+              "content": "show that"
+            },
+            {
+              "type": "newline"
+            },
+            {
+              "type": "text",
+              "content": "$a + 4b = -56$"
+            },
+            {
+              "type": "space",
+              "height": "1cm"
+            }
+          ],
+          "answer": {
+            "type": "none"
+          }
+        },
+        {
+          "label": "(b)",
+          "marks": 2,
+          "content": [
+            {
+              "type": "text",
+              "content": "Given also that when $f(x)$ is divided by $(x - 2)$ the remainder is $-25$"
+            },
+            {
+              "type": "newline"
+            },
+            {
+              "type": "text",
+              "content": "find a second simplified equation linking a and b."
+            },
+            {
+              "type": "space",
+              "height": "1cm"
+            }
+          ],
+          "answer": {
+            "type": "expression"
+          }
+        },
+        {
+          "label": "(c)",
+          "marks": 5,
+          "content": [
+            {
+              "type": "text",
+              "content": "Hence, using algebra and showing your working,"
+            },
+            {
+              "type": "newline"
+            }
+          ],
+          "subparts": [
+            {
+              "label": "(i)",
+              "marks": 2,
+              "content": [
+                {
+                  "type": "text",
+                  "content": "find the value of a and the value of b,"
+                },
+                {
+                  "type": "space",
+                  "height": "1cm"
+                }
+              ],
+              "answer": {
+                "type": "expression"
+              }
+            },
+            {
+              "label": "(ii)",
+              "marks": 3,
+              "content": [
+                {
+                  "type": "text",
+                  "content": "fully factorise $f(x)$."
+                },
+                {
+                  "type": "space",
+                  "height": "1cm"
+                }
+              ],
+              "answer": {
+                "type": "expression"
+              }
+            }
+          ],
+          "answer": null
+        }
+      ],
+      "answer": null,
+      "meta": {}
+    },
+    {
+      "qnum": 5,
+      "marks": 6,
+      "stem": [
+        {
+          "type": "text",
+          "content": "In this question you must show all stages of your working."
+        },
+        {
+          "type": "newline"
+        },
+        {
+          "type": "text",
+          "content": "Solutions relying entirely on calculator technology are not acceptable."
+        },
+        {
+          "type": "newline"
+        }
+      ],
+      "parts": [
+        {
+          "label": "(i)",
+          "marks": 2,
+          "content": [
+            {
+              "type": "text",
+              "content": "Solve"
+            },
+            {
+              "type": "newline"
+            },
+            {
+              "type": "text",
+              "content": "$3^a = 70$"
+            },
+            {
+              "type": "newline"
+            },
+            {
+              "type": "text",
+              "content": "giving the answer to 3 decimal places."
+            },
+            {
+              "type": "space",
+              "height": "1cm"
+            }
+          ],
+          "answer": {
+            "type": "number"
+          }
+        },
+        {
+          "label": "(ii)",
+          "marks": 4,
+          "content": [
+            {
+              "type": "text",
+              "content": "Find the exact value of b such that"
+            },
+            {
+              "type": "newline"
+            },
+            {
+              "type": "text",
+              "content": "$4 + 3\\log_3 b = \\log_3 5b$"
+            },
+            {
+              "type": "space",
+              "height": "1cm"
+            }
+          ],
+          "answer": {
+            "type": "number"
+          }
+        }
+      ],
+      "answer": null,
+      "meta": {}
+    },
+    {
+      "qnum": 6,
+      "marks": 6,
+      "stem": [
+        {
+          "type": "text",
+          "content": "[Figure 1]"
+        },
+        {
+          "type": "newline"
+        },
+        {
+          "type": "text",
+          "content": "A river is being studied."
+        },
+        {
+          "type": "newline"
+        },
+        {
+          "type": "text",
+          "content": "At one particular place, the river is 15 m wide."
+        },
+        {
+          "type": "newline"
+        },
+        {
+          "type": "text",
+          "content": "The depth, y metres, of the river is measured at a point x metres from one side of the river."
+        },
+        {
+          "type": "newline"
+        },
+        {
+          "type": "text",
+          "content": "Figure 1 shows a plot of the cross-section of the river and the coordinate values (x, y)"
+        },
+        {
+          "type": "newline"
+        }
+      ],
+      "parts": [
+        {
+          "label": "(a)",
+          "marks": 3,
+          "content": [
+            {
+              "type": "text",
+              "content": "Use the trapezium rule with all the y values given in Figure 1 to estimate the cross-sectional area of the river."
+            },
+            {
+              "type": "space",
+              "height": "1cm"
+            }
+          ],
+          "answer": {
+            "type": "number"
+          }
+        },
+        {
+          "label": "(b)",
+          "marks": 2,
+          "content": [
+            {
+              "type": "text",
+              "content": "The water in the river is modelled as flowing at a constant speed of 1.5 m s$^{-1}$ across the whole of the cross-section."
+            },
+            {
+              "type": "newline"
+            },
+            {
+              "type": "text",
+              "content": "Use the model and the answer to part (a) to estimate the volume of water flowing through this section of the river each minute, giving your answer in m$^3$ to 2 significant figures."
+            },
+            {
+              "type": "space",
+              "height": "1cm"
+            }
+          ],
+          "answer": {
+            "type": "number"
+          }
+        },
+        {
+          "label": "(c)",
+          "marks": 1,
+          "content": [
+            {
+              "type": "text",
+              "content": "Assuming the model,"
+            },
+            {
+              "type": "newline"
+            },
+            {
+              "type": "text",
+              "content": "state, giving a reason for your answer, whether your answer for part (b) is an overestimate or an underestimate of the true volume of water flowing through this section of the river each minute."
+            },
+            {
+              "type": "space",
+              "height": "1cm"
+            }
+          ],
+          "answer": {
+            "type": "multiline",
+            "lines": 2
+          }
+        }
+      ],
+      "answer": null,
+      "meta": {}
+    },
+    {
+      "qnum": 7,
+      "marks": 8,
+      "stem": [
+        {
+          "type": "text",
+          "content": "[Figure 2]"
+        },
+        {
+          "type": "newline"
+        },
+        {
+          "type": "text",
+          "content": "Figure 2 shows a sketch of"
+        },
+        {
+          "type": "list",
+          "style": "bullet",
+          "items": [
+            "the circle C with centre $X(4, -3)$",
+            "the line l with equation $y = \\frac{5}{2}x - \\frac{55}{2}$"
+          ]
+        },
+        {
+          "type": "newline"
+        },
+        {
+          "type": "text",
+          "content": "Given that l is the tangent to C at the point N,"
+        },
+        {
+          "type": "newline"
+        }
+      ],
+      "parts": [
+        {
+          "label": "(a)",
+          "marks": 3,
+          "content": [
+            {
+              "type": "text",
+              "content": "show that an equation for the straight line passing through X and N is"
+            },
+            {
+              "type": "newline"
+            },
+            {
+              "type": "text",
+              "content": "$2x + 5y + 7 = 0$"
+            },
+            {
+              "type": "space",
+              "height": "1cm"
+            }
+          ],
+          "answer": {
+            "type": "none"
+          }
+        },
+        {
+          "label": "(b)",
+          "marks": 5,
+          "content": [
+            {
+              "type": "text",
+              "content": "Hence find"
+            },
+            {
+              "type": "newline"
+            }
+          ],
+          "subparts": [
+            {
+              "label": "(i)",
+              "marks": 2,
+              "content": [
+                {
+                  "type": "text",
+                  "content": "the coordinates of N,"
+                },
+                {
+                  "type": "space",
+                  "height": "1cm"
+                }
+              ],
+              "answer": {
+                "type": "coordinate",
+                "fields": 2
+              }
+            },
+            {
+              "label": "(ii)",
+              "marks": 3,
+              "content": [
+                {
+                  "type": "text",
+                  "content": "an equation for C."
+                },
+                {
+                  "type": "space",
+                  "height": "1cm"
+                }
+              ],
+              "answer": {
+                "type": "expression"
+              }
+            }
+          ],
+          "answer": null
+        }
+      ],
+      "answer": null,
+      "meta": {}
+    },
+    {
+      "qnum": 8,
+      "marks": 7,
+      "stem": [
+        {
+          "type": "text",
+          "content": "In a large theatre there are n rows of seats, where n is a constant."
+        },
+        {
+          "type": "newline"
+        },
+        {
+          "type": "text",
+          "content": "The number of seats in the first row is a, where a is a constant."
+        },
+        {
+          "type": "newline"
+        },
+        {
+          "type": "text",
+          "content": "In each subsequent row there are 4 more seats than in the previous row so that"
+        },
+        {
+          "type": "list",
+          "style": "bullet",
+          "items": [
+            "in the 2nd row there are $(a + 4)$ seats",
+            "in the 3rd row there are $(a + 8)$ seats",
+            "the number of seats in each row form an arithmetic sequence"
+          ]
+        },
+        {
+          "type": "newline"
+        },
+        {
+          "type": "text",
+          "content": "Given that the total number of seats in the first 10 rows is 360"
+        },
+        {
+          "type": "newline"
+        }
+      ],
+      "parts": [
+        {
+          "label": "(a)",
+          "marks": 2,
+          "content": [
+            {
+              "type": "text",
+              "content": "find the value of a."
+            },
+            {
+              "type": "space",
+              "height": "1cm"
+            }
+          ],
+          "answer": {
+            "type": "number"
+          }
+        },
+        {
+          "label": "(b)",
+          "marks": 2,
+          "content": [
+            {
+              "type": "text",
+              "content": "Given also that the total number of seats in the n rows is 2146"
+            },
+            {
+              "type": "newline"
+            },
+            {
+              "type": "text",
+              "content": "show that"
+            },
+            {
+              "type": "newline"
+            },
+            {
+              "type": "text",
+              "content": "$n^2 + 8n - 1073 = 0$"
+            },
+            {
+              "type": "space",
+              "height": "1cm"
+            }
+          ],
+          "answer": {
+            "type": "none"
+          }
+        },
+        {
+          "label": "(c)",
+          "marks": 3,
+          "content": [
+            {
+              "type": "text",
+              "content": "Hence"
+            },
+            {
+              "type": "newline"
+            }
+          ],
+          "subparts": [
+            {
+              "label": "(i)",
+              "marks": 1,
+              "content": [
+                {
+                  "type": "text",
+                  "content": "state the number of rows of seats in the theatre,"
+                },
+                {
+                  "type": "space",
+                  "height": "1cm"
+                }
+              ],
+              "answer": {
+                "type": "number"
+              }
+            },
+            {
+              "label": "(ii)",
+              "marks": 2,
+              "content": [
+                {
+                  "type": "text",
+                  "content": "find the maximum number of seats in any one row."
+                },
+                {
+                  "type": "space",
+                  "height": "1cm"
+                }
+              ],
+              "answer": {
+                "type": "number"
+              }
+            }
+          ],
+          "answer": null
+        }
+      ],
+      "answer": null,
+      "meta": {}
+    },
+    {
+      "qnum": 9,
+      "marks": 12,
+      "stem": [
+        {
+          "type": "text",
+          "content": "[Figure 3]"
+        },
+        {
+          "type": "newline"
+        },
+        {
+          "type": "text",
+          "content": "In this question you must show all stages of your working."
+        },
+        {
+          "type": "newline"
+        },
+        {
+          "type": "text",
+          "content": "Solutions relying entirely on calculator technology are not acceptable."
+        },
+        {
+          "type": "newline"
+        },
+        {
+          "type": "text",
+          "content": "Figure 3 shows a sketch of part of the curve C with equation"
+        },
+        {
+          "type": "newline"
+        },
+        {
+          "type": "text",
+          "content": "$y = \\frac{2}{3}x^3 - 9x^2 + 13x$, $x \\ge 0$"
+        },
+        {
+          "type": "newline"
+        }
+      ],
+      "parts": [
+        {
+          "label": "(a)",
+          "marks": 4,
+          "content": [
+            {
+              "type": "text",
+              "content": "Find, using calculus, the range of values of x for which y is increasing."
+            },
+            {
+              "type": "space",
+              "height": "1cm"
+            }
+          ],
+          "answer": {
+            "type": "expression"
+          }
+        },
+        {
+          "label": "(b)",
+          "marks": 8,
+          "content": [
+            {
+              "type": "text",
+              "content": "The point P lies on C and has coordinates (9, 40)."
+            },
+            {
+              "type": "newline"
+            },
+            {
+              "type": "text",
+              "content": "The line l is the tangent to C at the point P."
+            },
+            {
+              "type": "newline"
+            },
+            {
+              "type": "text",
+              "content": "The finite region R, shown shaded in Figure 3, is bounded by the curve C, the line l, the x-axis and the y-axis."
+            },
+            {
+              "type": "newline"
+            },
+            {
+              "type": "text",
+              "content": "Find, using calculus, the exact area of R."
+            },
+            {
+              "type": "space",
+              "height": "1cm"
+            }
+          ],
+          "answer": {
+            "type": "number"
+          }
+        }
+      ],
+      "answer": null,
+      "meta": {}
+    },
+    {
+      "qnum": 10,
+      "marks": 12,
+      "stem": [],
+      "parts": [
+        {
+          "label": "(i)",
+          "marks": 6,
+          "content": [],
+          "subparts": [
+            {
+              "label": "(a)",
+              "marks": 3,
+              "content": [
+                {
+                  "type": "text",
+                  "content": "Find, in ascending powers of x, the 2nd, 3rd and 5th terms of the binomial expansion of"
+                },
+                {
+                  "type": "newline"
+                },
+                {
+                  "type": "text",
+                  "content": "$(3 + 2x)^6$"
+                },
+                {
+                  "type": "space",
+                  "height": "1cm"
+                }
+              ],
+              "answer": {
+                "type": "expression"
+              }
+            },
+            {
+              "label": "(b)",
+              "marks": 3,
+              "content": [
+                {
+                  "type": "text",
+                  "content": "For a particular value of x, these three terms form consecutive terms in a geometric series."
+                },
+                {
+                  "type": "newline"
+                },
+                {
+                  "type": "text",
+                  "content": "Find this value of x."
+                },
+                {
+                  "type": "space",
+                  "height": "1cm"
+                }
+              ],
+              "answer": {
+                "type": "number"
+              }
+            }
+          ],
+          "answer": null
+        },
+        {
+          "label": "(ii)",
+          "marks": 6,
+          "content": [
+            {
+              "type": "text",
+              "content": "In a different geometric series,"
+            },
+            {
+              "type": "list",
+              "style": "bullet",
+              "items": [
+                "the first term is $\\sin^2\\theta$",
+                "the common ratio is $2\\cos\\theta$",
+                "the sum to infinity is $\\frac{8}{5}$"
+              ]
+            },
+            {
+              "type": "newline"
+            }
+          ],
+          "subparts": [
+            {
+              "label": "(a)",
+              "marks": 3,
+              "content": [
+                {
+                  "type": "text",
+                  "content": "Show that"
+                },
+                {
+                  "type": "newline"
+                },
+                {
+                  "type": "text",
+                  "content": "$5\\cos^2\\theta - 16\\cos\\theta + 3 = 0$"
+                },
+                {
+                  "type": "space",
+                  "height": "1cm"
+                }
+              ],
+              "answer": {
+                "type": "none"
+              }
+            },
+            {
+              "label": "(b)",
+              "marks": 3,
+              "content": [
+                {
+                  "type": "text",
+                  "content": "Hence find the exact value of the 2nd term in the series."
+                },
+                {
+                  "type": "space",
+                  "height": "1cm"
+                }
+              ],
+              "answer": {
+                "type": "number"
+              }
+            }
+          ],
+          "answer": null
+        }
+      ],
+      "answer": null,
+      "meta": {}
+    }
+  ]
+}

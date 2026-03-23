@@ -1,0 +1,795 @@
+{
+  "v": "1.0",
+  "paper": "2022May-WMA12-01",
+  "board": "edx",
+  "code": "WMA12",
+  "year": 2022,
+  "session": "May",
+  "paperNum": "01",
+  "type": "ial-p2",
+  "totalMarks": 75,
+  "time": 90,
+  "questions": [
+    {
+      "qnum": 1,
+      "marks": 4,
+      "stem": [
+        {
+          "type": "text",
+          "content": "Find the first four terms, in ascending powers of x, of the binomial expansion of"
+        },
+        {
+          "type": "newline"
+        },
+        {
+          "type": "text",
+          "content": "$$\\left(2 + \\frac{x}{8}\\right)^{10}$$"
+        },
+        {
+          "type": "newline"
+        },
+        {
+          "type": "text",
+          "content": "Give each coefficient as an integer."
+        },
+        {
+          "type": "space",
+          "height": "1cm"
+        }
+      ],
+      "parts": [],
+      "answer": {
+        "type": "expression"
+      },
+      "meta": {}
+    },
+    {
+      "qnum": 2,
+      "marks": 8,
+      "stem": [
+        {
+          "type": "text",
+          "content": "[Figure]"
+        },
+        {
+          "type": "newline"
+        },
+        {
+          "type": "text",
+          "content": "Figure 1 shows the graph of $y = 1 - \\log_{10}(\\sin x)$ $0 < x < \\pi$"
+        },
+        {
+          "type": "newline"
+        },
+        {
+          "type": "text",
+          "content": "where x is in radians."
+        },
+        {
+          "type": "newline"
+        },
+        {
+          "type": "text",
+          "content": "The table below shows some values of x and y for this graph, with values of y given to 3 decimal places."
+        },
+        {
+          "type": "table",
+          "content": "\\begin{tabular}{|c|c|c|c|c|c|c|}\n\\hline\nx & 0.5 & 1 & 1.5 & 2 & 2.5 & 3 \\\\\n\\hline\ny & 1.319 & 1.001 & 1.223 & 1.850 & & \\\\\n\\hline\n\\end{tabular}"
+        }
+      ],
+      "parts": [
+        {
+          "label": "(a)",
+          "marks": 2,
+          "content": [
+            {
+              "type": "text",
+              "content": "Complete the table above, giving values of y to 3 decimal places."
+            },
+            {
+              "type": "space",
+              "height": "1cm"
+            }
+          ],
+          "answer": {
+            "type": "structured",
+            "answerBlocks": [
+              {
+                "type": "number"
+              },
+              {
+                "type": "number"
+              }
+            ]
+          }
+        },
+        {
+          "label": "(b)",
+          "marks": 3,
+          "content": [
+            {
+              "type": "text",
+              "content": "Use the trapezium rule with all the y values in the completed table to find, to 2 decimal places, an estimate for"
+            },
+            {
+              "type": "newline"
+            },
+            {
+              "type": "text",
+              "content": "$$\\int_{0.5}^3 (1 - \\log_{10}(\\sin x)) \\, \\mathrm{d}x$$"
+            },
+            {
+              "type": "space",
+              "height": "1cm"
+            }
+          ],
+          "answer": {
+            "type": "number"
+          }
+        },
+        {
+          "label": "(c)",
+          "marks": 3,
+          "content": [
+            {
+              "type": "text",
+              "content": "Use your answer to part (b) to find an estimate for"
+            },
+            {
+              "type": "newline"
+            },
+            {
+              "type": "text",
+              "content": "$$\\int_{0.5}^3 (3 + \\log_{10}(\\sin x)) \\, \\mathrm{d}x$$"
+            },
+            {
+              "type": "space",
+              "height": "1cm"
+            }
+          ],
+          "answer": {
+            "type": "number"
+          }
+        }
+      ],
+      "answer": null,
+      "meta": {}
+    },
+    {
+      "qnum": 3,
+      "marks": 7,
+      "stem": [],
+      "parts": [
+        {
+          "label": "(i)",
+          "marks": 2,
+          "content": [
+            {
+              "type": "text",
+              "content": "Show that the following statement is false:"
+            },
+            {
+              "type": "newline"
+            },
+            {
+              "type": "text",
+              "content": "“$(n + 1)^3 - n^3$ is prime for all $n \\in \\mathbb{N}$”"
+            },
+            {
+              "type": "space",
+              "height": "1cm"
+            }
+          ],
+          "answer": {
+            "type": "none"
+          }
+        },
+        {
+          "label": "(ii)",
+          "marks": 5,
+          "content": [
+            {
+              "type": "text",
+              "content": "Given that the points $A(1, 0)$, $B(3, -10)$ and $C(7, -6)$ lie on a circle, prove that AB is a diameter of this circle."
+            },
+            {
+              "type": "space",
+              "height": "1cm"
+            }
+          ],
+          "answer": {
+            "type": "none"
+          }
+        }
+      ],
+      "answer": null,
+      "meta": {}
+    },
+    {
+      "qnum": 4,
+      "marks": 6,
+      "stem": [
+        {
+          "type": "text",
+          "content": "In this question you must show all stages of your working."
+        },
+        {
+          "type": "newline"
+        },
+        {
+          "type": "text",
+          "content": "Give your answers in fully simplified surd form."
+        },
+        {
+          "type": "newline"
+        },
+        {
+          "type": "text",
+          "content": "Given that a and b are positive constants, solve the simultaneous equations"
+        },
+        {
+          "type": "newline"
+        },
+        {
+          "type": "text",
+          "content": "$a - b = 8$"
+        },
+        {
+          "type": "newline"
+        },
+        {
+          "type": "text",
+          "content": "$\\log_4 a + \\log_4 b = 3$"
+        },
+        {
+          "type": "space",
+          "height": "1cm"
+        }
+      ],
+      "parts": [],
+      "answer": {
+        "type": "structured",
+        "answerBlocks": [
+          {
+            "type": "expression",
+            "prefix": "a ="
+          },
+          {
+            "type": "expression",
+            "prefix": "b ="
+          }
+        ]
+      },
+      "meta": {}
+    },
+    {
+      "qnum": 5,
+      "marks": 6,
+      "stem": [
+        {
+          "type": "text",
+          "content": "In this question you must show all stages of your working."
+        },
+        {
+          "type": "newline"
+        },
+        {
+          "type": "text",
+          "content": "Solutions relying entirely on calculator technology are not acceptable."
+        },
+        {
+          "type": "newline"
+        },
+        {
+          "type": "text",
+          "content": "Solve, for $-180^{\\circ} < \\theta \\le 180^{\\circ}$, the equation"
+        },
+        {
+          "type": "newline"
+        },
+        {
+          "type": "text",
+          "content": "$3 \\tan (\\theta + 43^{\\circ}) = 2 \\cos (\\theta + 43^{\\circ})$"
+        },
+        {
+          "type": "space",
+          "height": "1cm"
+        }
+      ],
+      "parts": [],
+      "answer": {
+        "type": "multiline",
+        "lines": 2,
+        "template": "$\\theta = \\dots^{\\circ}$"
+      },
+      "meta": {}
+    },
+    {
+      "qnum": 6,
+      "marks": 8,
+      "stem": [
+        {
+          "type": "text",
+          "content": "In a geometric sequence $u_1, u_2, u_3, \\dots$"
+        },
+        {
+          "type": "list",
+          "style": "bullet",
+          "items": [
+            "the common ratio is r",
+            "$u_2 + u_3 = 6$",
+            "$u_4 = 8$"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "label": "(a)",
+          "marks": 3,
+          "content": [
+            {
+              "type": "text",
+              "content": "Show that r satisfies"
+            },
+            {
+              "type": "newline"
+            },
+            {
+              "type": "text",
+              "content": "$3r^2 - 4r - 4 = 0$"
+            },
+            {
+              "type": "space",
+              "height": "1cm"
+            }
+          ],
+          "answer": {
+            "type": "none"
+          }
+        },
+        {
+          "label": "(b)",
+          "marks": 3,
+          "content": [
+            {
+              "type": "text",
+              "content": "Given that the geometric sequence has a sum to infinity,"
+            },
+            {
+              "type": "newline"
+            },
+            {
+              "type": "text",
+              "content": "find $u_1$"
+            },
+            {
+              "type": "space",
+              "height": "1cm"
+            }
+          ],
+          "answer": {
+            "type": "number"
+          }
+        },
+        {
+          "label": "(c)",
+          "marks": 2,
+          "content": [
+            {
+              "type": "text",
+              "content": "find $S_\\infty$"
+            },
+            {
+              "type": "space",
+              "height": "1cm"
+            }
+          ],
+          "answer": {
+            "type": "number"
+          }
+        }
+      ],
+      "answer": null,
+      "meta": {}
+    },
+    {
+      "qnum": 7,
+      "marks": 7,
+      "stem": [
+        {
+          "type": "text",
+          "content": "$f(x) = Ax^3 + 6x^2 - 4x + B$"
+        },
+        {
+          "type": "newline"
+        },
+        {
+          "type": "text",
+          "content": "where A and B are constants."
+        },
+        {
+          "type": "newline"
+        },
+        {
+          "type": "text",
+          "content": "Given that"
+        },
+        {
+          "type": "list",
+          "style": "bullet",
+          "items": [
+            "$(x + 2)$ is a factor of $f(x)$",
+            "$$\\int_3^5 f'(x) \\, \\mathrm{d}x = 176$$"
+          ]
+        },
+        {
+          "type": "newline"
+        },
+        {
+          "type": "text",
+          "content": "find the value of A and the value of B."
+        },
+        {
+          "type": "space",
+          "height": "1cm"
+        }
+      ],
+      "parts": [],
+      "answer": {
+        "type": "structured",
+        "answerBlocks": [
+          {
+            "type": "number",
+            "prefix": "A ="
+          },
+          {
+            "type": "number",
+            "prefix": "B ="
+          }
+        ]
+      },
+      "meta": {}
+    },
+    {
+      "qnum": 8,
+      "marks": 8,
+      "stem": [
+        {
+          "type": "text",
+          "content": "In this question you must show all stages of your working."
+        },
+        {
+          "type": "newline"
+        },
+        {
+          "type": "text",
+          "content": "Solutions relying entirely on calculator technology are not acceptable."
+        },
+        {
+          "type": "newline"
+        },
+        {
+          "type": "text",
+          "content": "A curve has equation"
+        },
+        {
+          "type": "newline"
+        },
+        {
+          "type": "text",
+          "content": "$$y = 256x^4 - 304x - 35 + \\frac{27}{2x} \\quad x \\neq 0$$"
+        }
+      ],
+      "parts": [
+        {
+          "label": "(a)",
+          "marks": 3,
+          "content": [
+            {
+              "type": "text",
+              "content": "Find $\\frac{\\mathrm{d}y}{\\mathrm{d}x}$"
+            },
+            {
+              "type": "space",
+              "height": "1cm"
+            }
+          ],
+          "answer": {
+            "type": "expression"
+          }
+        },
+        {
+          "label": "(b)",
+          "marks": 5,
+          "content": [
+            {
+              "type": "text",
+              "content": "Hence find the coordinates of the stationary points of the curve."
+            },
+            {
+              "type": "space",
+              "height": "1cm"
+            }
+          ],
+          "answer": {
+            "type": "multiline",
+            "lines": 2,
+            "template": "(..., ...)"
+          }
+        }
+      ],
+      "answer": null,
+      "meta": {}
+    },
+    {
+      "qnum": 9,
+      "marks": 9,
+      "stem": [
+        {
+          "type": "text",
+          "content": "A scientist is using carbon-14 dating to determine the age of some wooden items."
+        },
+        {
+          "type": "newline"
+        },
+        {
+          "type": "text",
+          "content": "The equation for carbon-14 dating an item is given by"
+        },
+        {
+          "type": "newline"
+        },
+        {
+          "type": "text",
+          "content": "$N = k\\lambda^t$"
+        },
+        {
+          "type": "newline"
+        },
+        {
+          "type": "text",
+          "content": "where"
+        },
+        {
+          "type": "list",
+          "style": "bullet",
+          "items": [
+            "N grams is the amount of carbon-14 currently present in the item",
+            "k grams was the initial amount of carbon-14 present in the item",
+            "t is the number of years since the item was made",
+            "$\\lambda$ is a constant, with $0 < \\lambda < 1$"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "label": "(a)",
+          "marks": 2,
+          "content": [
+            {
+              "type": "text",
+              "content": "Sketch the graph of N against t for k = 1"
+            },
+            {
+              "type": "space",
+              "height": "1cm"
+            }
+          ],
+          "answer": {
+            "type": "none"
+          }
+        },
+        {
+          "label": "(b)",
+          "marks": 2,
+          "content": [
+            {
+              "type": "text",
+              "content": "Given that it takes 5700 years for the amount of carbon-14 to reduce to half its initial value,"
+            },
+            {
+              "type": "newline"
+            },
+            {
+              "type": "text",
+              "content": "show that the value of the constant $\\lambda$ is 0.999878 to 6 decimal places."
+            },
+            {
+              "type": "space",
+              "height": "1cm"
+            }
+          ],
+          "answer": {
+            "type": "none"
+          }
+        },
+        {
+          "label": "(c)",
+          "marks": 2,
+          "content": [
+            {
+              "type": "text",
+              "content": "Given that Item A"
+            },
+            {
+              "type": "list",
+              "style": "bullet",
+              "items": [
+                "is known to have had 15 grams of carbon-14 present initially",
+                "is thought to be 3250 years old"
+              ]
+            },
+            {
+              "type": "newline"
+            },
+            {
+              "type": "text",
+              "content": "calculate, to 3 significant figures, how much carbon-14 the equation predicts is currently in Item A."
+            },
+            {
+              "type": "space",
+              "height": "1cm"
+            }
+          ],
+          "answer": {
+            "type": "number"
+          }
+        },
+        {
+          "label": "(d)",
+          "marks": 3,
+          "content": [
+            {
+              "type": "text",
+              "content": "Item B is known to have initially had 25 grams of carbon-14 present, but only 18 grams now remain."
+            },
+            {
+              "type": "newline"
+            },
+            {
+              "type": "text",
+              "content": "Use algebra to calculate the age of Item B to the nearest 100 years."
+            },
+            {
+              "type": "space",
+              "height": "1cm"
+            }
+          ],
+          "answer": {
+            "type": "number"
+          }
+        }
+      ],
+      "answer": null,
+      "meta": {}
+    },
+    {
+      "qnum": 10,
+      "marks": 12,
+      "stem": [
+        {
+          "type": "text",
+          "content": "The circle C has centre $X(3, 5)$ and radius r"
+        },
+        {
+          "type": "newline"
+        },
+        {
+          "type": "text",
+          "content": "The line l has equation $y = 2x + k$, where k is a constant."
+        }
+      ],
+      "parts": [
+        {
+          "label": "(a)",
+          "marks": 3,
+          "content": [
+            {
+              "type": "text",
+              "content": "Show that l and C intersect when"
+            },
+            {
+              "type": "newline"
+            },
+            {
+              "type": "text",
+              "content": "$5x^2 + (4k - 26)x + k^2 - 10k + 34 - r^2 = 0$"
+            },
+            {
+              "type": "space",
+              "height": "1cm"
+            }
+          ],
+          "answer": {
+            "type": "none"
+          }
+        },
+        {
+          "label": "(b)",
+          "marks": 3,
+          "content": [
+            {
+              "type": "text",
+              "content": "Given that l is a tangent to C,"
+            },
+            {
+              "type": "newline"
+            },
+            {
+              "type": "text",
+              "content": "show that $5r^2 = (k + p)^2$, where p is a constant to be found."
+            },
+            {
+              "type": "space",
+              "height": "1cm"
+            }
+          ],
+          "answer": {
+            "type": "structured",
+            "answerBlocks": [
+              {
+                "type": "number",
+                "prefix": "p ="
+              }
+            ]
+          }
+        },
+        {
+          "label": "(c)",
+          "marks": 6,
+          "content": [
+            {
+              "type": "text",
+              "content": "[Figure]"
+            },
+            {
+              "type": "newline"
+            },
+            {
+              "type": "text",
+              "content": "The line l"
+            },
+            {
+              "type": "list",
+              "style": "bullet",
+              "items": [
+                "cuts the y-axis at the point A",
+                "touches the circle C at the point B"
+              ]
+            },
+            {
+              "type": "newline"
+            },
+            {
+              "type": "text",
+              "content": "as shown in Figure 2."
+            },
+            {
+              "type": "newline"
+            },
+            {
+              "type": "text",
+              "content": "Given that $AB = 2r$"
+            },
+            {
+              "type": "newline"
+            },
+            {
+              "type": "text",
+              "content": "find the value of k"
+            },
+            {
+              "type": "space",
+              "height": "1cm"
+            }
+          ],
+          "answer": {
+            "type": "number"
+          }
+        }
+      ],
+      "answer": null,
+      "meta": {}
+    }
+  ]
+}

@@ -1,0 +1,1005 @@
+{
+  "v": "1.0",
+  "paper": "2024Oct-WMA12-01",
+  "board": "edx",
+  "code": "WMA12",
+  "year": 2024,
+  "session": "Oct",
+  "paperNum": "01",
+  "type": "ial-p2",
+  "totalMarks": 75,
+  "time": 90,
+  "questions": [
+    {
+      "qnum": 1,
+      "marks": 5,
+      "stem": [
+        {
+          "type": "text",
+          "content": "A continuous curve has equation $y = \\text{f}(x)$."
+        },
+        {
+          "type": "newline"
+        },
+        {
+          "type": "text",
+          "content": "A table of values of x and y for $y = \\text{f}(x)$ is shown below."
+        },
+        {
+          "type": "newline"
+        },
+        {
+          "type": "table",
+          "content": "\\begin{tabular}{|c|c|c|c|c|c|}\n\\hline\nx & 0.5 & 1.75 & 3 & 4.25 & 5.5 \\\\\n\\hline\ny & 3.479 & 6.101 & 7.448 & 6.823 & 5.182 \\\\\n\\hline\n\\end{tabular}"
+        },
+        {
+          "type": "newline"
+        },
+        {
+          "type": "text",
+          "content": "Using the trapezium rule with all the values of y in the given table,"
+        }
+      ],
+      "parts": [
+        {
+          "label": "(a)",
+          "marks": 3,
+          "content": [
+            {
+              "type": "text",
+              "content": "find an estimate for $\\int_{0.5}^{5.5} \\text{f}(x) \\, \\text{d}x$"
+            },
+            {
+              "type": "newline"
+            },
+            {
+              "type": "text",
+              "content": "giving your answer to one decimal place."
+            },
+            {
+              "type": "space"
+            }
+          ],
+          "answer": {
+            "type": "number"
+          }
+        },
+        {
+          "label": "(b)",
+          "marks": 2,
+          "content": [
+            {
+              "type": "text",
+              "content": "Using your answer to part (a) and making your method clear, estimate $\\int_{0.5}^{5.5} (4\\text{f}(x) - x) \\, \\text{d}x$"
+            },
+            {
+              "type": "space"
+            }
+          ],
+          "answer": {
+            "type": "number"
+          }
+        }
+      ],
+      "answer": null,
+      "meta": {}
+    },
+    {
+      "qnum": 2,
+      "marks": 7,
+      "stem": [
+        {
+          "type": "text",
+          "content": "A sequence of numbers $u_1, u_2, u_3, \\dots$ is defined by"
+        },
+        {
+          "type": "newline"
+        },
+        {
+          "type": "text",
+          "content": "$u_1 = 7$"
+        },
+        {
+          "type": "newline"
+        },
+        {
+          "type": "text",
+          "content": "$u_{n+1} = (-1)^n u_n + k$"
+        },
+        {
+          "type": "newline"
+        },
+        {
+          "type": "text",
+          "content": "where k is a constant."
+        }
+      ],
+      "parts": [
+        {
+          "label": "(a)",
+          "marks": 3,
+          "content": [
+            {
+              "type": "text",
+              "content": "Show that $u_5 = 7$"
+            },
+            {
+              "type": "space"
+            }
+          ],
+          "answer": {
+            "type": "none"
+          }
+        },
+        {
+          "label": "(b)",
+          "marks": 2,
+          "content": [
+            {
+              "type": "text",
+              "content": "Given that $\\sum_{r=1}^{30} u_r = 4$, find the value of k."
+            },
+            {
+              "type": "space"
+            }
+          ],
+          "answer": {
+            "type": "number"
+          }
+        },
+        {
+          "label": "(c)",
+          "marks": 2,
+          "content": [
+            {
+              "type": "text",
+              "content": "Hence find the value of $\\sum_{r=1}^{150} u_r$"
+            },
+            {
+              "type": "space"
+            }
+          ],
+          "answer": {
+            "type": "number"
+          }
+        }
+      ],
+      "answer": null,
+      "meta": {}
+    },
+    {
+      "qnum": 3,
+      "marks": 7,
+      "stem": [
+        {
+          "type": "text",
+          "content": "$\\text{f}(x) = 2x^3 - x^2 + Ax + B$"
+        },
+        {
+          "type": "newline"
+        },
+        {
+          "type": "text",
+          "content": "where A and B are integers."
+        },
+        {
+          "type": "newline"
+        },
+        {
+          "type": "text",
+          "content": "Given that when f (x) is divided by $(x + 3)$ the remainder is 55"
+        }
+      ],
+      "parts": [
+        {
+          "label": "(a)",
+          "marks": 2,
+          "content": [
+            {
+              "type": "text",
+              "content": "show that $3A - B = -118$"
+            },
+            {
+              "type": "space"
+            }
+          ],
+          "answer": {
+            "type": "none"
+          }
+        },
+        {
+          "label": "(b)",
+          "marks": 3,
+          "content": [
+            {
+              "type": "text",
+              "content": "Given also that $(2x - 5)$ is a factor of f (x), find the value of A and the value of B."
+            },
+            {
+              "type": "space"
+            }
+          ],
+          "answer": {
+            "type": "structured",
+            "answerBlocks": [
+              {
+                "type": "text",
+                "content": "A = "
+              },
+              {
+                "type": "number"
+              },
+              {
+                "type": "newline"
+              },
+              {
+                "type": "text",
+                "content": "B = "
+              },
+              {
+                "type": "number"
+              }
+            ]
+          }
+        },
+        {
+          "label": "(c)",
+          "marks": 2,
+          "content": [
+            {
+              "type": "text",
+              "content": "Hence find the quotient when f (x) is divided by $(x - 7)$"
+            },
+            {
+              "type": "space"
+            }
+          ],
+          "answer": {
+            "type": "expression"
+          }
+        }
+      ],
+      "answer": null,
+      "meta": {}
+    },
+    {
+      "qnum": 4,
+      "marks": 7,
+      "stem": [
+        {
+          "type": "text",
+          "content": "In this question you must show all stages of your working."
+        },
+        {
+          "type": "newline"
+        },
+        {
+          "type": "text",
+          "content": "Solutions relying entirely on calculator technology are not acceptable."
+        },
+        {
+          "type": "newline"
+        },
+        {
+          "type": "text",
+          "content": "The curve C has equation"
+        },
+        {
+          "type": "newline"
+        },
+        {
+          "type": "text",
+          "content": "$y = 4x^{\\frac{1}{2}} - 9x^{-\\frac{1}{2}} + 3x^0$"
+        },
+        {
+          "type": "newline"
+        },
+        {
+          "type": "text",
+          "content": "$x > 0$"
+        }
+      ],
+      "parts": [
+        {
+          "label": "(a)",
+          "marks": 2,
+          "content": [
+            {
+              "type": "text",
+              "content": "Find $\\frac{\\text{d}y}{\\text{d}x}$ giving each term in simplest form."
+            },
+            {
+              "type": "space"
+            }
+          ],
+          "answer": {
+            "type": "expression"
+          }
+        },
+        {
+          "label": "(b)",
+          "marks": 2,
+          "content": [
+            {
+              "type": "text",
+              "content": "Hence find the x coordinate of the stationary point of C."
+            },
+            {
+              "type": "space"
+            }
+          ],
+          "answer": {
+            "type": "number"
+          }
+        },
+        {
+          "label": "(c)",
+          "marks": 2,
+          "content": [],
+          "subparts": [
+            {
+              "label": "(i)",
+              "marks": null,
+              "content": [
+                {
+                  "type": "text",
+                  "content": "Find $\\frac{\\text{d}^2y}{\\text{d}x^2}$ giving each term in simplest form."
+                }
+              ],
+              "answer": {
+                "type": "expression"
+              }
+            },
+            {
+              "label": "(ii)",
+              "marks": null,
+              "content": [
+                {
+                  "type": "text",
+                  "content": "Hence determine the nature of the stationary point of C, giving a reason for your\\xa0answer."
+                },
+                {
+                  "type": "space"
+                }
+              ],
+              "answer": {
+                "type": "multiline",
+                "lines": 2
+              }
+            }
+          ],
+          "answer": null
+        },
+        {
+          "label": "(d)",
+          "marks": 1,
+          "content": [
+            {
+              "type": "text",
+              "content": "State the range of values of x for which y is decreasing."
+            },
+            {
+              "type": "space"
+            }
+          ],
+          "answer": {
+            "type": "expression"
+          }
+        }
+      ],
+      "answer": null,
+      "meta": {}
+    },
+    {
+      "qnum": 5,
+      "marks": 7,
+      "stem": [],
+      "parts": [
+        {
+          "label": "(a)",
+          "marks": 3,
+          "content": [
+            {
+              "type": "text",
+              "content": "Find, in terms of a, the first 3 terms, in ascending powers of x, of the binomial\\xa0expansion of"
+            },
+            {
+              "type": "newline"
+            },
+            {
+              "type": "text",
+              "content": "$(2 + ax)^6$"
+            },
+            {
+              "type": "newline"
+            },
+            {
+              "type": "text",
+              "content": "where a is a non‑zero constant. Give each term in simplest form."
+            },
+            {
+              "type": "space"
+            }
+          ],
+          "answer": {
+            "type": "expression"
+          }
+        },
+        {
+          "label": "(b)",
+          "marks": 4,
+          "content": [
+            {
+              "type": "text",
+              "content": "$\\text{f}(x) = \\left(3 - \\frac{1}{2x^2}\\right)(2 + ax)^6$"
+            },
+            {
+              "type": "newline"
+            },
+            {
+              "type": "text",
+              "content": "Given that the constant term in the expansion of f (x) is 576, find the value of a."
+            },
+            {
+              "type": "space"
+            }
+          ],
+          "answer": {
+            "type": "number"
+          }
+        }
+      ],
+      "answer": null,
+      "meta": {}
+    },
+    {
+      "qnum": 6,
+      "marks": 5,
+      "stem": [
+        {
+          "type": "text",
+          "content": "In this question you must show all stages of your working."
+        },
+        {
+          "type": "newline"
+        },
+        {
+          "type": "text",
+          "content": "Solutions relying entirely on calculator technology are not acceptable."
+        },
+        {
+          "type": "newline"
+        },
+        {
+          "type": "text",
+          "content": "Using the laws of logarithms, solve"
+        },
+        {
+          "type": "newline"
+        },
+        {
+          "type": "text",
+          "content": "$\\log_4(12 - 2x) = 2 + 2\\log_4(x + 1)$"
+        },
+        {
+          "type": "space"
+        }
+      ],
+      "parts": [],
+      "answer": {
+        "type": "number"
+      },
+      "meta": {}
+    },
+    {
+      "qnum": 7,
+      "marks": 6,
+      "stem": [
+        {
+          "type": "text",
+          "content": "Jem pays money into a savings scheme, A, over a period of 300 months."
+        },
+        {
+          "type": "newline"
+        },
+        {
+          "type": "text",
+          "content": "Jem pays £20 into scheme A in month 1, £20.50 in month 2, £21 in month 3 and so on, so that the amounts Jem pays each month form an arithmetic sequence."
+        }
+      ],
+      "parts": [
+        {
+          "label": "(a)",
+          "marks": 1,
+          "content": [
+            {
+              "type": "text",
+              "content": "Show that Jem pays £69.50 into scheme A in month 100"
+            },
+            {
+              "type": "space"
+            }
+          ],
+          "answer": {
+            "type": "none"
+          }
+        },
+        {
+          "label": "(b)",
+          "marks": 2,
+          "content": [
+            {
+              "type": "text",
+              "content": "Find the total amount that Jem pays into scheme A over the period of 300 months."
+            },
+            {
+              "type": "space"
+            }
+          ],
+          "answer": {
+            "type": "number",
+            "prefix": "£"
+          }
+        },
+        {
+          "label": "(c)",
+          "marks": 3,
+          "content": [
+            {
+              "type": "text",
+              "content": "Kim pays money into a different savings scheme, B, over the same period of\\xa0300\\xa0months."
+            },
+            {
+              "type": "newline"
+            },
+            {
+              "type": "text",
+              "content": "In a model, the amounts Kim pays into scheme B increase by the same percentage each\\xa0month, so that the amounts Kim pays each month form a geometric sequence."
+            },
+            {
+              "type": "newline"
+            },
+            {
+              "type": "text",
+              "content": "Given that Kim pays"
+            },
+            {
+              "type": "list",
+              "style": "bullet",
+              "items": [
+                "£20 into scheme B in month 1",
+                "£250 into scheme B in month 300"
+              ]
+            },
+            {
+              "type": "newline"
+            },
+            {
+              "type": "text",
+              "content": "use the model to calculate, to the nearest £10, the difference between the total\\xa0amount paid into scheme A and the total amount paid into scheme B over the period\\xa0of 300 months."
+            },
+            {
+              "type": "space"
+            }
+          ],
+          "answer": {
+            "type": "number",
+            "prefix": "£"
+          }
+        }
+      ],
+      "answer": null,
+      "meta": {}
+    },
+    {
+      "qnum": 8,
+      "marks": 8,
+      "stem": [
+        {
+          "type": "text",
+          "content": "In this question you must show all stages of your working."
+        },
+        {
+          "type": "newline"
+        },
+        {
+          "type": "text",
+          "content": "Solutions relying entirely on calculator technology are not acceptable."
+        },
+        {
+          "type": "newline"
+        },
+        {
+          "type": "text",
+          "content": "[Figure]"
+        },
+        {
+          "type": "newline"
+        },
+        {
+          "type": "text",
+          "content": "Figure 1 shows a sketch of part of the curve C1 with equation"
+        },
+        {
+          "type": "newline"
+        },
+        {
+          "type": "text",
+          "content": "$y = x^2 + 3$"
+        },
+        {
+          "type": "newline"
+        },
+        {
+          "type": "text",
+          "content": "$x > 0$"
+        },
+        {
+          "type": "newline"
+        },
+        {
+          "type": "text",
+          "content": "and part of the curve C2 with equation"
+        },
+        {
+          "type": "newline"
+        },
+        {
+          "type": "text",
+          "content": "$y = \\frac{13}{x^2} + 9$"
+        },
+        {
+          "type": "newline"
+        },
+        {
+          "type": "text",
+          "content": "$x > 0$"
+        },
+        {
+          "type": "newline"
+        },
+        {
+          "type": "text",
+          "content": "The curves C1 and C2 intersect at the points P and Q as shown in Figure 1."
+        }
+      ],
+      "parts": [
+        {
+          "label": "(a)",
+          "marks": 4,
+          "content": [
+            {
+              "type": "text",
+              "content": "Use algebra to find the x coordinate of P and the x coordinate of Q."
+            },
+            {
+              "type": "space"
+            }
+          ],
+          "answer": {
+            "type": "structured",
+            "answerBlocks": [
+              {
+                "type": "text",
+                "content": "x-coordinate of P = "
+              },
+              {
+                "type": "number"
+              },
+              {
+                "type": "newline"
+              },
+              {
+                "type": "text",
+                "content": "x-coordinate of Q = "
+              },
+              {
+                "type": "number"
+              }
+            ]
+          }
+        },
+        {
+          "label": "(b)",
+          "marks": 4,
+          "content": [
+            {
+              "type": "text",
+              "content": "The finite region R, shown shaded in Figure 1, is bounded by C1 and C2"
+            },
+            {
+              "type": "newline"
+            },
+            {
+              "type": "text",
+              "content": "Use algebraic integration to find the exact area of R."
+            },
+            {
+              "type": "space"
+            }
+          ],
+          "answer": {
+            "type": "expression"
+          }
+        }
+      ],
+      "answer": null,
+      "meta": {}
+    },
+    {
+      "qnum": 9,
+      "marks": 7,
+      "stem": [
+        {
+          "type": "text",
+          "content": "In this question you must show detailed reasoning."
+        },
+        {
+          "type": "newline"
+        },
+        {
+          "type": "text",
+          "content": "Solutions relying entirely on calculator technology are not acceptable."
+        }
+      ],
+      "parts": [
+        {
+          "label": "(a)",
+          "marks": 3,
+          "content": [
+            {
+              "type": "text",
+              "content": "Show that the equation"
+            },
+            {
+              "type": "newline"
+            },
+            {
+              "type": "text",
+              "content": "$2\\tan\\theta = 3\\cos\\theta$"
+            },
+            {
+              "type": "newline"
+            },
+            {
+              "type": "text",
+              "content": "can be written as"
+            },
+            {
+              "type": "newline"
+            },
+            {
+              "type": "text",
+              "content": "$3\\sin^2\\theta + 2\\sin\\theta - 3 = 0$"
+            },
+            {
+              "type": "space"
+            }
+          ],
+          "answer": {
+            "type": "none"
+          }
+        },
+        {
+          "label": "(b)",
+          "marks": 4,
+          "content": [
+            {
+              "type": "text",
+              "content": "Hence solve, for $-\\pi < x < \\pi$, the equation"
+            },
+            {
+              "type": "newline"
+            },
+            {
+              "type": "text",
+              "content": "$2\\tan\\left(2x - \\frac{\\pi}{3}\\right) = 3\\cos\\left(2x - \\frac{\\pi}{3}\\right)$"
+            },
+            {
+              "type": "newline"
+            },
+            {
+              "type": "text",
+              "content": "giving your answers to 3 significant figures."
+            },
+            {
+              "type": "space"
+            }
+          ],
+          "answer": {
+            "type": "expression"
+          }
+        }
+      ],
+      "answer": null,
+      "meta": {}
+    },
+    {
+      "qnum": 10,
+      "marks": 10,
+      "stem": [
+        {
+          "type": "text",
+          "content": "The circle C has equation"
+        },
+        {
+          "type": "newline"
+        },
+        {
+          "type": "text",
+          "content": "$x^2 + y^2 + 4x - 30y + 209 = 0$"
+        }
+      ],
+      "parts": [
+        {
+          "label": "(a)",
+          "marks": 3,
+          "content": [],
+          "subparts": [
+            {
+              "label": "(i)",
+              "marks": null,
+              "content": [
+                {
+                  "type": "text",
+                  "content": "the coordinates of the centre of C,"
+                }
+              ],
+              "answer": {
+                "type": "coordinate",
+                "fields": 2
+              }
+            },
+            {
+              "label": "(ii)",
+              "marks": null,
+              "content": [
+                {
+                  "type": "text",
+                  "content": "the exact value of the radius of C."
+                },
+                {
+                  "type": "space"
+                }
+              ],
+              "answer": {
+                "type": "expression"
+              }
+            }
+          ],
+          "answer": null
+        },
+        {
+          "label": "(b)",
+          "marks": 3,
+          "content": [
+            {
+              "type": "text",
+              "content": "The line L has equation $y = mx + 1$, where m is a constant."
+            },
+            {
+              "type": "newline"
+            },
+            {
+              "type": "text",
+              "content": "Given that L is the tangent to C at the point P, show that"
+            },
+            {
+              "type": "newline"
+            },
+            {
+              "type": "text",
+              "content": "$2m^2 - 7m - 22 = 0$"
+            },
+            {
+              "type": "space"
+            }
+          ],
+          "answer": {
+            "type": "none"
+          }
+        },
+        {
+          "label": "(c)",
+          "marks": 4,
+          "content": [
+            {
+              "type": "text",
+              "content": "Hence find the possible pairs of coordinates of P."
+            },
+            {
+              "type": "space"
+            }
+          ],
+          "answer": {
+            "type": "structured",
+            "answerBlocks": [
+              {
+                "type": "coordinate",
+                "fields": 2
+              },
+              {
+                "type": "newline"
+              },
+              {
+                "type": "coordinate",
+                "fields": 2
+              }
+            ]
+          }
+        }
+      ],
+      "answer": null,
+      "meta": {}
+    },
+    {
+      "qnum": 11,
+      "marks": 6,
+      "stem": [],
+      "parts": [
+        {
+          "label": "(i)",
+          "marks": 2,
+          "content": [
+            {
+              "type": "text",
+              "content": "Prove by counter example that the statement"
+            },
+            {
+              "type": "newline"
+            },
+            {
+              "type": "text",
+              "content": "“If n is a prime number then $3^n + 2$ is also a prime number.”"
+            },
+            {
+              "type": "newline"
+            },
+            {
+              "type": "text",
+              "content": "is false."
+            },
+            {
+              "type": "space"
+            }
+          ],
+          "answer": {
+            "type": "none"
+          }
+        },
+        {
+          "label": "(ii)",
+          "marks": 4,
+          "content": [
+            {
+              "type": "text",
+              "content": "Use proof by exhaustion to prove that if m is an integer that is not divisible\\xa0by\\xa03, then"
+            },
+            {
+              "type": "newline"
+            },
+            {
+              "type": "text",
+              "content": "$m^2 - 1$"
+            },
+            {
+              "type": "newline"
+            },
+            {
+              "type": "text",
+              "content": "is divisible by 3"
+            },
+            {
+              "type": "space"
+            }
+          ],
+          "answer": {
+            "type": "none"
+          }
+        }
+      ],
+      "answer": null,
+      "meta": {}
+    }
+  ]
+}

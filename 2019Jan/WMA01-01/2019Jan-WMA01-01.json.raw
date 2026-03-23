@@ -1,0 +1,1230 @@
+{
+  "v": "1.0",
+  "paper": "2019Jan-WMA01-01",
+  "board": "edx",
+  "code": "WMA12",
+  "year": 2019,
+  "session": "Jan",
+  "paperNum": "01",
+  "type": "ial-p2",
+  "totalMarks": 125,
+  "time": 90,
+  "questions": [
+    {
+      "qnum": 1,
+      "marks": 3,
+      "stem": [
+        {
+          "type": "text",
+          "content": "A line l passes through the points A (5, –2) and B (1, 10)."
+        },
+        {
+          "type": "newline"
+        },
+        {
+          "type": "text",
+          "content": "Find the equation of l, writing your answer in the form y = mx + c where m and c are constants."
+        },
+        {
+          "type": "space"
+        }
+      ],
+      "parts": [],
+      "answer": {
+        "type": "expression"
+      },
+      "meta": {}
+    },
+    {
+      "qnum": 2,
+      "marks": 4,
+      "stem": [
+        {
+          "type": "text",
+          "content": "Given $y = 2^x$ , express each of the following in terms of y. Write each expression in its simplest form."
+        }
+      ],
+      "parts": [
+        {
+          "label": "(a)",
+          "marks": 1,
+          "content": [
+            {
+              "type": "text",
+              "content": "$2^{2x}$"
+            },
+            {
+              "type": "space"
+            }
+          ],
+          "answer": {
+            "type": "expression"
+          }
+        },
+        {
+          "label": "(b)",
+          "marks": 1,
+          "content": [
+            {
+              "type": "text",
+              "content": "$2^{x + 3}$"
+            },
+            {
+              "type": "space"
+            }
+          ],
+          "answer": {
+            "type": "expression"
+          }
+        },
+        {
+          "label": "(c)",
+          "marks": 2,
+          "content": [
+            {
+              "type": "text",
+              "content": "$\frac{1}{4^{2-3x}}$"
+            },
+            {
+              "type": "space"
+            }
+          ],
+          "answer": {
+            "type": "expression"
+          }
+        }
+      ],
+      "answer": null,
+      "meta": {}
+    },
+    {
+      "qnum": 3,
+      "marks": 4,
+      "stem": [
+        {
+          "type": "text",
+          "content": "A curve has equation"
+        },
+        {
+          "type": "newline"
+        },
+        {
+          "type": "text",
+          "content": "$$y = \frac{x^2 - 6}{4\sqrt{x}} + 2, \quad x \neq 0$$"
+        },
+        {
+          "type": "newline"
+        },
+        {
+          "type": "text",
+          "content": "Find the gradient of the curve at the point P($\sqrt{2}$, 2)."
+        },
+        {
+          "type": "newline"
+        },
+        {
+          "type": "text",
+          "content": "Write your answer in the form a $\sqrt{2}$, where a is a constant."
+        },
+        {
+          "type": "newline"
+        },
+        {
+          "type": "text",
+          "content": "(Solutions based entirely on graphical or numerical methods are not acceptable.)"
+        },
+        {
+          "type": "space"
+        }
+      ],
+      "parts": [],
+      "answer": {
+        "type": "expression"
+      },
+      "meta": {}
+    },
+    {
+      "qnum": 4,
+      "marks": 6,
+      "stem": [
+        {
+          "type": "text",
+          "content": "A sequence is defined by"
+        },
+        {
+          "type": "newline"
+        },
+        {
+          "type": "text",
+          "content": "$$u_1 = k, \text{ where k is a constant}$$"
+        },
+        {
+          "type": "newline"
+        },
+        {
+          "type": "text",
+          "content": "$$u_{n + 1} = 4u_n - 3, \quad n \ge 1$$"
+        }
+      ],
+      "parts": [
+        {
+          "label": "(a)",
+          "marks": 3,
+          "content": [
+            {
+              "type": "text",
+              "content": "Find u2 and u3 in terms of k, simplifying your answers as appropriate."
+            },
+            {
+              "type": "space"
+            }
+          ],
+          "answer": {
+            "type": "expression"
+          }
+        },
+        {
+          "label": "(b)",
+          "marks": 3,
+          "content": [
+            {
+              "type": "text",
+              "content": "Given"
+            },
+            {
+              "type": "newline"
+            },
+            {
+              "type": "text",
+              "content": "$$\sum_{n=1}^{3} u_n = 18$$"
+            },
+            {
+              "type": "newline"
+            },
+            {
+              "type": "text",
+              "content": "find k."
+            },
+            {
+              "type": "space"
+            }
+          ],
+          "answer": {
+            "type": "number"
+          }
+        }
+      ],
+      "answer": null,
+      "meta": {}
+    },
+    {
+      "qnum": 5,
+      "marks": 7,
+      "stem": [],
+      "parts": [
+        {
+          "label": "(a)",
+          "marks": 4,
+          "content": [
+            {
+              "type": "text",
+              "content": "Use the binomial theorem to find the first 4 terms, in ascending powers of x, of the expansion of"
+            },
+            {
+              "type": "newline"
+            },
+            {
+              "type": "text",
+              "content": "$$\\left(1 - \frac{x}{2}\right)^8$$"
+            },
+            {
+              "type": "newline"
+            },
+            {
+              "type": "text",
+              "content": "Give each term in its simplest form."
+            },
+            {
+              "type": "space"
+            }
+          ],
+          "answer": {
+            "type": "expression"
+          }
+        },
+        {
+          "label": "(b)",
+          "marks": 3,
+          "content": [
+            {
+              "type": "text",
+              "content": "Use the answer to part (a) to find an approximate value to $0.98^8$"
+            },
+            {
+              "type": "newline"
+            },
+            {
+              "type": "text",
+              "content": "Write your answer in the form $\frac{a}{b}$ where a and b are integers."
+            },
+            {
+              "type": "space"
+            }
+          ],
+          "answer": {
+            "type": "expression"
+          }
+        }
+      ],
+      "answer": null,
+      "meta": {}
+    },
+    {
+      "qnum": 6,
+      "marks": 7,
+      "stem": [],
+      "parts": [
+        {
+          "label": "(a)",
+          "marks": 3,
+          "content": [
+            {
+              "type": "text",
+              "content": "Sketch the graph of $y = \frac{1}{2} + \cos x, \quad 0 \le x \le \pi$"
+            },
+            {
+              "type": "newline"
+            },
+            {
+              "type": "text",
+              "content": "Show on your sketch the coordinates of the points where your graph meets the coordinate axes."
+            },
+            {
+              "type": "space"
+            }
+          ],
+          "answer": {
+            "type": "none"
+          }
+        },
+        {
+          "label": "(b)",
+          "marks": 4,
+          "content": [
+            {
+              "type": "text",
+              "content": "Use the trapezium rule, with 6 strips of equal width, to find an approximate value for $\int_0^\pi \left(\frac{1}{2} + \cos x\right) dx$"
+            },
+            {
+              "type": "space"
+            }
+          ],
+          "answer": {
+            "type": "number"
+          }
+        }
+      ],
+      "answer": null,
+      "meta": {}
+    },
+    {
+      "qnum": 7,
+      "marks": 5,
+      "stem": [
+        {
+          "type": "text",
+          "content": "The equation $2x^2 + 5px + p = 0$, where p is a constant, has no real roots."
+        },
+        {
+          "type": "newline"
+        },
+        {
+          "type": "text",
+          "content": "Find the set of possible values for p."
+        },
+        {
+          "type": "space"
+        }
+      ],
+      "parts": [],
+      "answer": {
+        "type": "expression"
+      },
+      "meta": {}
+    },
+    {
+      "qnum": 8,
+      "marks": 5,
+      "stem": [
+        {
+          "type": "text",
+          "content": "Given k > 3 and"
+        },
+        {
+          "type": "newline"
+        },
+        {
+          "type": "text",
+          "content": "$$\int_3^k (3x^2 - 20x + 7) dx = 6$$"
+        },
+        {
+          "type": "newline"
+        },
+        {
+          "type": "text",
+          "content": "show that $k^3 - 10k^2 - 7k - 6 = 0$"
+        },
+        {
+          "type": "space"
+        }
+      ],
+      "parts": [],
+      "answer": {
+        "type": "none"
+      },
+      "meta": {}
+    },
+    {
+      "qnum": 9,
+      "marks": 8,
+      "stem": [
+        {
+          "type": "text",
+          "content": "The circle C has equation"
+        },
+        {
+          "type": "newline"
+        },
+        {
+          "type": "text",
+          "content": "$$x^2 + y^2 + 10x - 6y + 9 = 0$$"
+        }
+      ],
+      "parts": [
+        {
+          "label": "(a)",
+          "marks": 2,
+          "content": [
+            {
+              "type": "text",
+              "content": "Find the coordinates of the centre of C."
+            },
+            {
+              "type": "space"
+            }
+          ],
+          "answer": {
+            "type": "coordinate",
+            "fields": 2
+          }
+        },
+        {
+          "label": "(b)",
+          "marks": 2,
+          "content": [
+            {
+              "type": "text",
+              "content": "Find the radius of C."
+            },
+            {
+              "type": "space"
+            }
+          ],
+          "answer": {
+            "type": "number"
+          }
+        },
+        {
+          "label": "(c)",
+          "marks": 4,
+          "content": [
+            {
+              "type": "text",
+              "content": "The point P (–2, 7) lies on C."
+            },
+            {
+              "type": "newline"
+            },
+            {
+              "type": "text",
+              "content": "Find an equation of the tangent to C at the point P."
+            },
+            {
+              "type": "newline"
+            },
+            {
+              "type": "text",
+              "content": "Write your answer in the form ax + by + c = 0, where a, b and c are integers."
+            },
+            {
+              "type": "space"
+            }
+          ],
+          "answer": {
+            "type": "expression"
+          }
+        }
+      ],
+      "answer": null,
+      "meta": {}
+    },
+    {
+      "qnum": 10,
+      "marks": 11,
+      "stem": [
+        {
+          "type": "text",
+          "content": "[Figure]"
+        },
+        {
+          "type": "newline"
+        },
+        {
+          "type": "text",
+          "content": "Figure 1 shows the design for a shop sign ABCDA."
+        },
+        {
+          "type": "newline"
+        },
+        {
+          "type": "text",
+          "content": "The sign consists of a triangle AOD joined to a sector of a circle DOBCD with radius 1.8 m and centre O."
+        },
+        {
+          "type": "newline"
+        },
+        {
+          "type": "text",
+          "content": "The points A, B and O lie on a straight line."
+        },
+        {
+          "type": "newline"
+        },
+        {
+          "type": "text",
+          "content": "Given that AD = 3.9 m and angle BOD is 0.84 radians,"
+        }
+      ],
+      "parts": [
+        {
+          "label": "(a)",
+          "marks": 2,
+          "content": [
+            {
+              "type": "text",
+              "content": "calculate the size of angle DAO, giving your answer in radians to 3 decimal places."
+            },
+            {
+              "type": "space"
+            }
+          ],
+          "answer": {
+            "type": "number"
+          }
+        },
+        {
+          "label": "(b)",
+          "marks": 3,
+          "content": [
+            {
+              "type": "text",
+              "content": "Show that, to one decimal place, the length of AO is 4.9 m."
+            },
+            {
+              "type": "space"
+            }
+          ],
+          "answer": {
+            "type": "none"
+          }
+        },
+        {
+          "label": "(c)",
+          "marks": 3,
+          "content": [
+            {
+              "type": "text",
+              "content": "Find, in m2, the area of the shop sign, giving your answer to one decimal place."
+            },
+            {
+              "type": "space"
+            }
+          ],
+          "answer": {
+            "type": "number"
+          }
+        },
+        {
+          "label": "(d)",
+          "marks": 3,
+          "content": [
+            {
+              "type": "text",
+              "content": "Find, in m, the perimeter of the shop sign, giving your answer to one decimal place."
+            },
+            {
+              "type": "space"
+            }
+          ],
+          "answer": {
+            "type": "number"
+          }
+        }
+      ],
+      "answer": null,
+      "meta": {}
+    },
+    {
+      "qnum": 11,
+      "marks": 8,
+      "stem": [],
+      "parts": [
+        {
+          "label": "(i)",
+          "marks": 3,
+          "content": [
+            {
+              "type": "text",
+              "content": "Given that x is a positive real number, solve the equation"
+            },
+            {
+              "type": "newline"
+            },
+            {
+              "type": "text",
+              "content": "$$\log_x 324 = 4$$"
+            },
+            {
+              "type": "newline"
+            },
+            {
+              "type": "text",
+              "content": "writing your answer as a simplified surd."
+            },
+            {
+              "type": "space"
+            }
+          ],
+          "answer": {
+            "type": "expression"
+          }
+        },
+        {
+          "label": "(ii)",
+          "marks": 5,
+          "content": [
+            {
+              "type": "text",
+              "content": "Given that"
+            },
+            {
+              "type": "newline"
+            },
+            {
+              "type": "text",
+              "content": "$$\log_a(5y - 1) - \log_a(2y) = 3 \quad y > 0.8, \quad 0 < a < 1$$"
+            },
+            {
+              "type": "newline"
+            },
+            {
+              "type": "text",
+              "content": "express y in terms of a."
+            },
+            {
+              "type": "space"
+            }
+          ],
+          "answer": {
+            "type": "expression"
+          }
+        }
+      ],
+      "answer": null,
+      "meta": {}
+    },
+    {
+      "qnum": 12,
+      "marks": 9,
+      "stem": [
+        {
+          "type": "text",
+          "content": "Karen is going to raise money for a charity."
+        },
+        {
+          "type": "newline"
+        },
+        {
+          "type": "text",
+          "content": "She aims to cycle a total distance of 1000 km over a number of days."
+        },
+        {
+          "type": "newline"
+        },
+        {
+          "type": "text",
+          "content": "On day one she cycles 25 km."
+        },
+        {
+          "type": "newline"
+        },
+        {
+          "type": "text",
+          "content": "She increases the distance that she cycles each day by 10% of the distance cycled on the previous day, until she reaches the total distance of 1000 km."
+        },
+        {
+          "type": "newline"
+        },
+        {
+          "type": "text",
+          "content": "She reaches the total distance of 1000 km on day N, where N is a positive integer."
+        }
+      ],
+      "parts": [
+        {
+          "label": "(a)",
+          "marks": 4,
+          "content": [
+            {
+              "type": "text",
+              "content": "Find the value of N."
+            },
+            {
+              "type": "space"
+            }
+          ],
+          "answer": {
+            "type": "number"
+          }
+        },
+        {
+          "label": "(b)",
+          "marks": 2,
+          "content": [
+            {
+              "type": "text",
+              "content": "On day one, 50 people donated money to the charity. Each day, 20 more people donated to the charity than did so on the previous day, so that 70 people donated money on day two, 90 people donated money on day three, and so on."
+            },
+            {
+              "type": "newline"
+            },
+            {
+              "type": "text",
+              "content": "Find the number of people who donated to the charity on day fifteen."
+            },
+            {
+              "type": "space"
+            }
+          ],
+          "answer": {
+            "type": "number"
+          }
+        },
+        {
+          "label": "(c)",
+          "marks": 3,
+          "content": [
+            {
+              "type": "text",
+              "content": "Each day, the donation given by each person was £5"
+            },
+            {
+              "type": "newline"
+            },
+            {
+              "type": "text",
+              "content": "Find the total amount of money donated by the end of day fifteen."
+            },
+            {
+              "type": "space"
+            }
+          ],
+          "answer": {
+            "type": "number"
+          }
+        }
+      ],
+      "answer": null,
+      "meta": {}
+    },
+    {
+      "qnum": 13,
+      "marks": 10,
+      "stem": [
+        {
+          "type": "text",
+          "content": "$$f (x) = 3x^3 + 3x^2 + cx + 12, \text{ where c is a constant}$$"
+        },
+        {
+          "type": "newline"
+        },
+        {
+          "type": "text",
+          "content": "Given that (x + 3) is a factor of f (x),"
+        }
+      ],
+      "parts": [
+        {
+          "label": "(a)",
+          "marks": 2,
+          "content": [
+            {
+              "type": "text",
+              "content": "show that c = –14"
+            },
+            {
+              "type": "space"
+            }
+          ],
+          "answer": {
+            "type": "none"
+          }
+        },
+        {
+          "label": "(b)",
+          "marks": 2,
+          "content": [
+            {
+              "type": "text",
+              "content": "Write f (x) in the form"
+            },
+            {
+              "type": "newline"
+            },
+            {
+              "type": "text",
+              "content": "$$f (x) = (x + 3) Q(x)$$"
+            },
+            {
+              "type": "newline"
+            },
+            {
+              "type": "text",
+              "content": "where Q(x) is a quadratic function."
+            },
+            {
+              "type": "space"
+            }
+          ],
+          "answer": {
+            "type": "expression"
+          }
+        },
+        {
+          "label": "(c)",
+          "marks": 2,
+          "content": [
+            {
+              "type": "text",
+              "content": "Use the answer to part (b) to prove that the equation f (x) = 0 has only one real solution."
+            },
+            {
+              "type": "space"
+            }
+          ],
+          "answer": {
+            "type": "none"
+          }
+        },
+        {
+          "label": "(d)",
+          "marks": 4,
+          "content": [
+            {
+              "type": "text",
+              "content": "[Figure]"
+            },
+            {
+              "type": "newline"
+            },
+            {
+              "type": "text",
+              "content": "Figure 2 shows a sketch of the curve with equation $y = f(x), x \in \mathbb{R}$."
+            },
+            {
+              "type": "newline"
+            },
+            {
+              "type": "text",
+              "content": "On separate diagrams sketch the curve with equation"
+            },
+            {
+              "type": "newline"
+            },
+            {
+              "type": "text",
+              "content": "(i) y = f (3x)"
+            },
+            {
+              "type": "newline"
+            },
+            {
+              "type": "text",
+              "content": "(ii) y = – f (x)"
+            },
+            {
+              "type": "newline"
+            },
+            {
+              "type": "text",
+              "content": "On each diagram show clearly the coordinates of the points where the curve crosses the coordinate axes."
+            },
+            {
+              "type": "space"
+            }
+          ],
+          "answer": {
+            "type": "none"
+          }
+        }
+      ],
+      "answer": null,
+      "meta": {}
+    },
+    {
+      "qnum": 14,
+      "marks": 11,
+      "stem": [
+        {
+          "type": "text",
+          "content": "In this question solutions based entirely on graphical or numerical methods are not acceptable."
+        }
+      ],
+      "parts": [
+        {
+          "label": "(i)",
+          "marks": 4,
+          "content": [
+            {
+              "type": "text",
+              "content": "Solve, for $-180^\circ \le x < 180^\circ$, the equation"
+            },
+            {
+              "type": "newline"
+            },
+            {
+              "type": "text",
+              "content": "$$\sin(x + 60^\circ) = -0.4$$"
+            },
+            {
+              "type": "newline"
+            },
+            {
+              "type": "text",
+              "content": "giving your answers, in degrees, to one decimal place."
+            },
+            {
+              "type": "space"
+            }
+          ],
+          "answer": {
+            "type": "expression"
+          }
+        },
+        {
+          "label": "(ii)",
+          "marks": 7,
+          "content": [],
+          "subparts": [
+            {
+              "label": "(a)",
+              "marks": 3,
+              "content": [
+                {
+                  "type": "text",
+                  "content": "Show that the equation"
+                },
+                {
+                  "type": "newline"
+                },
+                {
+                  "type": "text",
+                  "content": "$$2\sin\theta - \tan\theta = 3\cos\theta$$"
+                },
+                {
+                  "type": "newline"
+                },
+                {
+                  "type": "text",
+                  "content": "can be written in the form $3\cos^2\theta - 2\sin\theta\cos\theta + \sin\theta = 0$."
+                },
+                {
+                  "type": "space"
+                }
+              ],
+              "answer": {
+                "type": "none"
+              }
+            },
+            {
+              "label": "(b)",
+              "marks": 4,
+              "content": [
+                {
+                  "type": "text",
+                  "content": "Hence solve, for $0 \le \theta \le 360^\circ$, the equation"
+                },
+                {
+                  "type": "newline"
+                },
+                {
+                  "type": "text",
+                  "content": "$$2\sin\theta - \tan\theta = 3\cos\theta$$"
+                },
+                {
+                  "type": "newline"
+                },
+                {
+                  "type": "text",
+                  "content": "showing each stage of your working and giving your answers, in degrees, to one decimal place."
+                },
+                {
+                  "type": "space"
+                }
+              ],
+              "answer": {
+                "type": "expression"
+              }
+            }
+          ],
+          "answer": null
+        }
+      ],
+      "answer": null,
+      "meta": {}
+    },
+    {
+      "qnum": 15,
+      "marks": 11,
+      "stem": [
+        {
+          "type": "text",
+          "content": "[Figure]"
+        },
+        {
+          "type": "newline"
+        },
+        {
+          "type": "text",
+          "content": "Figure 3"
+        },
+        {
+          "type": "newline"
+        },
+        {
+          "type": "text",
+          "content": "The straight line l with equation $y = 5 - 3x$ cuts the curve C, with equation $y = 20x - 12x^2$, at the points P and Q, as shown in Figure 3."
+        }
+      ],
+      "parts": [
+        {
+          "label": "(a)",
+          "marks": 5,
+          "content": [
+            {
+              "type": "text",
+              "content": "Use algebra to find the exact coordinates of the points P and Q."
+            },
+            {
+              "type": "space"
+            }
+          ],
+          "answer": {
+            "type": "structured",
+            "answerBlocks": [
+              {
+                "type": "coordinate",
+                "fields": 2
+              },
+              {
+                "type": "coordinate",
+                "fields": 2
+              }
+            ]
+          }
+        },
+        {
+          "label": "(b)",
+          "marks": 6,
+          "content": [
+            {
+              "type": "text",
+              "content": "The finite region R, shown shaded in Figure 3, is bounded by the line l, the x-axis and the curve C."
+            },
+            {
+              "type": "newline"
+            },
+            {
+              "type": "text",
+              "content": "Use calculus to find the exact area of R."
+            },
+            {
+              "type": "space"
+            }
+          ],
+          "answer": {
+            "type": "number"
+          }
+        }
+      ],
+      "answer": null,
+      "meta": {}
+    },
+    {
+      "qnum": 16,
+      "marks": 16,
+      "stem": [
+        {
+          "type": "text",
+          "content": "[Figure]"
+        },
+        {
+          "type": "newline"
+        },
+        {
+          "type": "text",
+          "content": "Figure 4 shows the design for a container in the shape of a hollow triangular prism."
+        },
+        {
+          "type": "newline"
+        },
+        {
+          "type": "text",
+          "content": "The container is open at the top, which is labelled ABCD."
+        },
+        {
+          "type": "newline"
+        },
+        {
+          "type": "text",
+          "content": "The sides of the container, ABFE and DCFE, are rectangles."
+        },
+        {
+          "type": "newline"
+        },
+        {
+          "type": "text",
+          "content": "The ends of the container, ADE and BCF, are congruent right-angled triangles, as shown in Figure 4."
+        },
+        {
+          "type": "newline"
+        },
+        {
+          "type": "text",
+          "content": "The ends of the container are vertical and the edge EF is horizontal."
+        },
+        {
+          "type": "newline"
+        },
+        {
+          "type": "text",
+          "content": "The edges AE, DE and EF have lengths 4x metres, 3x metres and l metres respectively."
+        },
+        {
+          "type": "newline"
+        },
+        {
+          "type": "text",
+          "content": "Given that the container has a capacity of 0.75 m3 and is made of material of negligible thickness,"
+        }
+      ],
+      "parts": [
+        {
+          "label": "(a)",
+          "marks": 5,
+          "content": [
+            {
+              "type": "text",
+              "content": "show that the internal surface area of the container, S m2, is given by"
+            },
+            {
+              "type": "newline"
+            },
+            {
+              "type": "text",
+              "content": "$$S = \frac{12}{x} + 7.8x^2$$"
+            },
+            {
+              "type": "space"
+            }
+          ],
+          "answer": {
+            "type": "none"
+          }
+        },
+        {
+          "label": "(b)",
+          "marks": 5,
+          "content": [
+            {
+              "type": "text",
+              "content": "Use calculus to find the value of x, for which S is a minimum. Give your answer to 3 significant figures."
+            },
+            {
+              "type": "space"
+            }
+          ],
+          "answer": {
+            "type": "number"
+          }
+        },
+        {
+          "label": "(c)",
+          "marks": 2,
+          "content": [
+            {
+              "type": "text",
+              "content": "Justify that the value of x found in part (b) gives a minimum value for S."
+            },
+            {
+              "type": "space"
+            }
+          ],
+          "answer": {
+            "type": "none"
+          }
+        },
+        {
+          "label": "(d)",
+          "marks": 4,
+          "content": [
+            {
+              "type": "text",
+              "content": "Using the value of x found in part (b), find to 2 decimal places,"
+            },
+            {
+              "type": "newline"
+            },
+            {
+              "type": "text",
+              "content": "(i) the length of the edge AD,"
+            },
+            {
+              "type": "newline"
+            },
+            {
+              "type": "text",
+              "content": "(ii) the length of the edge CD."
+            },
+            {
+              "type": "space"
+            }
+          ],
+          "answer": {
+            "type": "structured",
+            "answerBlocks": [
+              {
+                "type": "number"
+              },
+              {
+                "type": "number"
+              }
+            ]
+          }
+        }
+      ],
+      "answer": null,
+      "meta": {}
+    }
+  ]
+}

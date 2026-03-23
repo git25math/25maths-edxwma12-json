@@ -1,0 +1,1032 @@
+{
+  "v": "1.0",
+  "paper": "2024May-WMA12-01",
+  "board": "edx",
+  "code": "WMA12",
+  "year": 2024,
+  "session": "May",
+  "paperNum": "01",
+  "type": "ial-p2",
+  "totalMarks": 75,
+  "time": 90,
+  "questions": [
+    {
+      "qnum": 1,
+      "marks": 5,
+      "stem": [],
+      "parts": [
+        {
+          "label": "(a)",
+          "marks": 3,
+          "content": [
+            {
+              "type": "text",
+              "content": "Find the first four terms, in ascending powers of x, of the binomial expansion of"
+            },
+            {
+              "type": "text",
+              "content": "$$(1 - \\frac{1}{6}x)^9$$"
+            },
+            {
+              "type": "text",
+              "content": "giving each term in simplest form."
+            },
+            {
+              "type": "space",
+              "height": "1cm"
+            }
+          ],
+          "answer": {
+            "type": "expression"
+          }
+        },
+        {
+          "label": "(b)",
+          "marks": 2,
+          "content": [
+            {
+              "type": "text",
+              "content": "Hence find the coefficient of $x^3$ in the expansion of"
+            },
+            {
+              "type": "text",
+              "content": "$$(3 + \\frac{1}{x}) (1 - \\frac{1}{6}x)^9$$"
+            },
+            {
+              "type": "text",
+              "content": "giving the answer in simplest form."
+            },
+            {
+              "type": "space",
+              "height": "1cm"
+            }
+          ],
+          "answer": {
+            "type": "expression"
+          }
+        }
+      ],
+      "answer": null,
+      "meta": {}
+    },
+    {
+      "qnum": 2,
+      "marks": 7,
+      "stem": [
+        {
+          "type": "text",
+          "content": "In this question you must show all stages of your working."
+        },
+        {
+          "type": "newline"
+        },
+        {
+          "type": "text",
+          "content": "Solutions relying entirely on calculator technology are not acceptable."
+        },
+        {
+          "type": "newline"
+        },
+        {
+          "type": "text",
+          "content": "In an arithmetic series,"
+        },
+        {
+          "type": "list",
+          "style": "bullet",
+          "items": [
+            "the sixth term is 2",
+            "the sum of the first ten terms is –80"
+          ]
+        },
+        {
+          "type": "text",
+          "content": "For this series,"
+        }
+      ],
+      "parts": [
+        {
+          "label": "(a)",
+          "marks": 4,
+          "content": [
+            {
+              "type": "text",
+              "content": "find the value of the first term and the value of the common difference."
+            },
+            {
+              "type": "space",
+              "height": "1cm"
+            }
+          ],
+          "answer": {
+            "type": "structured",
+            "answerBlocks": [
+              {
+                "type": "expression",
+                "prefix": "First term = "
+              },
+              {
+                "type": "expression",
+                "prefix": "Common difference = "
+              }
+            ]
+          }
+        },
+        {
+          "label": "(b)",
+          "marks": 3,
+          "content": [
+            {
+              "type": "text",
+              "content": "Hence find the smallest value of n for which"
+            },
+            {
+              "type": "text",
+              "content": "$$S_n > 8000$$"
+            },
+            {
+              "type": "space",
+              "height": "1cm"
+            }
+          ],
+          "answer": {
+            "type": "number"
+          }
+        }
+      ],
+      "answer": null,
+      "meta": {}
+    },
+    {
+      "qnum": 3,
+      "marks": 6,
+      "stem": [
+        {
+          "type": "text",
+          "content": "In this question you must show all stages of your working."
+        },
+        {
+          "type": "newline"
+        },
+        {
+          "type": "text",
+          "content": "Solutions relying entirely on calculator technology are not acceptable."
+        }
+      ],
+      "parts": [
+        {
+          "label": "(i)",
+          "marks": 5,
+          "content": [
+            {
+              "type": "text",
+              "content": "Using the laws of logarithms, solve"
+            },
+            {
+              "type": "text",
+              "content": "$$2\\log_2 (2 – x) = 4 + \\log_2 (x + 10)$$"
+            },
+            {
+              "type": "space",
+              "height": "1cm"
+            }
+          ],
+          "answer": {
+            "type": "expression"
+          }
+        },
+        {
+          "label": "(ii)",
+          "marks": 1,
+          "content": [
+            {
+              "type": "text",
+              "content": "Find the value of"
+            },
+            {
+              "type": "text",
+              "content": "$$\\log_a a^6$$"
+            },
+            {
+              "type": "text",
+              "content": "where a is a positive constant greater than 1"
+            },
+            {
+              "type": "space",
+              "height": "1cm"
+            }
+          ],
+          "answer": {
+            "type": "number"
+          }
+        }
+      ],
+      "answer": null,
+      "meta": {}
+    },
+    {
+      "qnum": 4,
+      "marks": 8,
+      "stem": [
+        {
+          "type": "text",
+          "content": "$$f(x) = (x – 2)(2x^2 + 5x + k) + 21$$"
+        },
+        {
+          "type": "text",
+          "content": "where k is a constant."
+        }
+      ],
+      "parts": [
+        {
+          "label": "(a)",
+          "marks": 1,
+          "content": [
+            {
+              "type": "text",
+              "content": "State the remainder when $f(x)$ is divided by $(x – 2)$"
+            },
+            {
+              "type": "space",
+              "height": "1cm"
+            }
+          ],
+          "answer": {
+            "type": "number"
+          }
+        },
+        {
+          "label": "(b)",
+          "marks": 2,
+          "content": [
+            {
+              "type": "text",
+              "content": "Given that $(2x – 1)$ is a factor of $f(x)$"
+            },
+            {
+              "type": "newline"
+            },
+            {
+              "type": "text",
+              "content": "show that $k = 11$"
+            },
+            {
+              "type": "space",
+              "height": "1cm"
+            }
+          ],
+          "answer": {
+            "type": "none"
+          }
+        },
+        {
+          "label": "(c)",
+          "marks": 5,
+          "content": [
+            {
+              "type": "text",
+              "content": "Hence"
+            }
+          ],
+          "subparts": [
+            {
+              "label": "(i)",
+              "marks": 3,
+              "content": [
+                {
+                  "type": "text",
+                  "content": "fully factorise $f(x)$,"
+                },
+                {
+                  "type": "space",
+                  "height": "1cm"
+                }
+              ],
+              "answer": {
+                "type": "expression"
+              }
+            },
+            {
+              "label": "(ii)",
+              "marks": 2,
+              "content": [
+                {
+                  "type": "text",
+                  "content": "find the number of real solutions of the equation"
+                },
+                {
+                  "type": "text",
+                  "content": "$$f(x) = 0$$"
+                },
+                {
+                  "type": "text",
+                  "content": "giving a reason for your answer."
+                },
+                {
+                  "type": "space",
+                  "height": "1cm"
+                }
+              ],
+              "answer": {
+                "type": "structured",
+                "answerBlocks": [
+                  {
+                    "type": "number",
+                    "prefix": "Number of real solutions = "
+                  },
+                  {
+                    "type": "text",
+                    "content": "Reason: "
+                  }
+                ]
+              }
+            }
+          ],
+          "answer": null
+        }
+      ],
+      "answer": null,
+      "meta": {}
+    },
+    {
+      "qnum": 5,
+      "marks": 6,
+      "stem": [
+        {
+          "type": "text",
+          "content": "In this question you must show detailed reasoning."
+        }
+      ],
+      "parts": [
+        {
+          "label": "(a)",
+          "marks": 4,
+          "content": [
+            {
+              "type": "text",
+              "content": "Given that x and y are positive numbers such that"
+            },
+            {
+              "type": "text",
+              "content": "$$(x – y)^3 > x^3 – y^3$$"
+            },
+            {
+              "type": "text",
+              "content": "prove that"
+            },
+            {
+              "type": "text",
+              "content": "$$y > x$$"
+            },
+            {
+              "type": "space",
+              "height": "1cm"
+            }
+          ],
+          "answer": {
+            "type": "none"
+          }
+        },
+        {
+          "label": "(b)",
+          "marks": 2,
+          "content": [
+            {
+              "type": "text",
+              "content": "Using a counter example, show that the result in part (a) is not true for all real numbers."
+            },
+            {
+              "type": "space",
+              "height": "1cm"
+            }
+          ],
+          "answer": {
+            "type": "none"
+          }
+        }
+      ],
+      "answer": null,
+      "meta": {}
+    },
+    {
+      "qnum": 6,
+      "marks": 9,
+      "stem": [],
+      "parts": [
+        {
+          "label": "(a)",
+          "marks": 3,
+          "content": [
+            {
+              "type": "text",
+              "content": "Sketch the curve with equation"
+            },
+            {
+              "type": "text",
+              "content": "$$y = a^x + 4$$"
+            },
+            {
+              "type": "text",
+              "content": "where a is a positive constant greater than 1"
+            },
+            {
+              "type": "newline"
+            },
+            {
+              "type": "text",
+              "content": "On your sketch, show"
+            },
+            {
+              "type": "list",
+              "style": "bullet",
+              "items": [
+                "the coordinates of the point of intersection of the curve with the y‑axis",
+                "the equation of the asymptote of the curve"
+              ]
+            },
+            {
+              "type": "space",
+              "height": "1cm"
+            }
+          ],
+          "answer": {
+            "type": "none"
+          }
+        },
+        {
+          "label": "(b)",
+          "marks": 3,
+          "content": [
+            {
+              "type": "table",
+              "content": "\\begin{tabular}{|c|c|c|c|c|c|c|}\n\\hline\nx & 2 & 2.3 & 2.6 & 2.9 & 3.2 & 3.5 \\\\\n\\hline\ny & 0 & 0.3246 & 0.8629 & 1.6643 & 2.7896 & 4.3137 \\\\\n\\hline\n\\end{tabular}"
+            },
+            {
+              "type": "newline"
+            },
+            {
+              "type": "text",
+              "content": "The table shows corresponding values of x and y for"
+            },
+            {
+              "type": "text",
+              "content": "$$y = 2^x – 2x$$"
+            },
+            {
+              "type": "text",
+              "content": "with the values of y given to 4 decimal places as appropriate."
+            },
+            {
+              "type": "newline"
+            },
+            {
+              "type": "text",
+              "content": "Using the trapezium rule with all the values of y in the given table,"
+            },
+            {
+              "type": "newline"
+            },
+            {
+              "type": "text",
+              "content": "obtain an estimate for"
+            },
+            {
+              "type": "text",
+              "content": "$$\\int_{2}^{3.5} (2^x - 2x) \\, dx$$"
+            },
+            {
+              "type": "text",
+              "content": ", giving your answer to 2 decimal places."
+            },
+            {
+              "type": "space",
+              "height": "1cm"
+            }
+          ],
+          "answer": {
+            "type": "number",
+            "decimalPlaces": 2
+          }
+        },
+        {
+          "label": "(c)",
+          "marks": 3,
+          "content": [
+            {
+              "type": "text",
+              "content": "Using your answer to part (b) and making your method clear, estimate"
+            }
+          ],
+          "subparts": [
+            {
+              "label": "(i)",
+              "marks": 1,
+              "content": [
+                {
+                  "type": "text",
+                  "content": "$$\\int_{2}^{3.5} 2^x \\, dx$$"
+                },
+                {
+                  "type": "space",
+                  "height": "1cm"
+                }
+              ],
+              "answer": {
+                "type": "number"
+              }
+            },
+            {
+              "label": "(ii)",
+              "marks": 2,
+              "content": [
+                {
+                  "type": "text",
+                  "content": "$$\\int_{2}^{3.5} (4 \\cdot 2^x - 1) \\, dx$$"
+                },
+                {
+                  "type": "space",
+                  "height": "1cm"
+                }
+              ],
+              "answer": {
+                "type": "number"
+              }
+            }
+          ],
+          "answer": null
+        }
+      ],
+      "answer": null,
+      "meta": {}
+    },
+    {
+      "qnum": 7,
+      "marks": 6,
+      "stem": [
+        {
+          "type": "text",
+          "content": "The circle C1 has equation"
+        },
+        {
+          "type": "text",
+          "content": "$$x^2 + y^2 + 8x – 10y = 29$$"
+        }
+      ],
+      "parts": [
+        {
+          "label": "(a)",
+          "marks": 3,
+          "content": [],
+          "subparts": [
+            {
+              "label": "(i)",
+              "marks": 1,
+              "content": [
+                {
+                  "type": "text",
+                  "content": "Find the coordinates of the centre of C1"
+                },
+                {
+                  "type": "space",
+                  "height": "1cm"
+                }
+              ],
+              "answer": {
+                "type": "coordinate",
+                "fields": 2
+              }
+            },
+            {
+              "label": "(ii)",
+              "marks": 2,
+              "content": [
+                {
+                  "type": "text",
+                  "content": "Find the exact value of the radius of C1"
+                },
+                {
+                  "type": "space",
+                  "height": "1cm"
+                }
+              ],
+              "answer": {
+                "type": "expression"
+              }
+            }
+          ],
+          "answer": null
+        },
+        {
+          "label": "(b)",
+          "marks": 3,
+          "content": [
+            {
+              "type": "text",
+              "content": "In part (b) you must show detailed reasoning."
+            },
+            {
+              "type": "newline"
+            },
+            {
+              "type": "text",
+              "content": "The circle C2 has equation"
+            },
+            {
+              "type": "text",
+              "content": "$$(x – 5)^2 + (y + 8)^2 = 52$$"
+            },
+            {
+              "type": "text",
+              "content": "Prove that the circles C1 and C2 neither touch nor intersect."
+            },
+            {
+              "type": "space",
+              "height": "1cm"
+            }
+          ],
+          "answer": {
+            "type": "none"
+          }
+        }
+      ],
+      "answer": null,
+      "meta": {}
+    },
+    {
+      "qnum": 8,
+      "marks": 12,
+      "stem": [
+        {
+          "type": "text",
+          "content": "In this question you must show all stages of your working."
+        },
+        {
+          "type": "newline"
+        },
+        {
+          "type": "text",
+          "content": "Solutions relying entirely on calculator technology are not acceptable."
+        }
+      ],
+      "parts": [
+        {
+          "label": "(i)",
+          "marks": 5,
+          "content": [
+            {
+              "type": "text",
+              "content": "Solve, for $0 < x \\le \\pi$, the equation"
+            },
+            {
+              "type": "text",
+              "content": "$$5\\sin x \\tan x + 13 = \\cos x$$"
+            },
+            {
+              "type": "text",
+              "content": "giving your answer in radians to 3 significant figures."
+            },
+            {
+              "type": "space",
+              "height": "1cm"
+            }
+          ],
+          "answer": {
+            "type": "expression"
+          }
+        },
+        {
+          "label": "(ii)",
+          "marks": 7,
+          "content": [
+            {
+              "type": "text",
+              "content": "The temperature inside a greenhouse is monitored on one particular day."
+            },
+            {
+              "type": "newline"
+            },
+            {
+              "type": "text",
+              "content": "The temperature, $H^{\\circ}\\text{C}$, inside the greenhouse, t hours after midnight, is modelled by the equation"
+            },
+            {
+              "type": "text",
+              "content": "$$H = 10 + 12\\sin (kt + 18)^{\\circ} \\quad 0 \\le t < 24$$"
+            },
+            {
+              "type": "text",
+              "content": "where k is a constant."
+            },
+            {
+              "type": "newline"
+            },
+            {
+              "type": "text",
+              "content": "Use the equation of the model to answer parts (a) to (c)."
+            },
+            {
+              "type": "newline"
+            },
+            {
+              "type": "text",
+              "content": "Given that"
+            },
+            {
+              "type": "list",
+              "style": "bullet",
+              "items": [
+                "the temperature inside the greenhouse was $20^{\\circ}\\text{C}$ at 6 am",
+                "$0 < k < 20$"
+              ]
+            }
+          ],
+          "subparts": [
+            {
+              "label": "(a)",
+              "marks": 4,
+              "content": [
+                {
+                  "type": "text",
+                  "content": "find all possible values for k, giving each answer to 2 decimal places."
+                },
+                {
+                  "type": "space",
+                  "height": "1cm"
+                }
+              ],
+              "answer": {
+                "type": "expression"
+              }
+            },
+            {
+              "label": "(b)",
+              "marks": 1,
+              "content": [
+                {
+                  "type": "text",
+                  "content": "Given further that $0 < k < 10$"
+                },
+                {
+                  "type": "newline"
+                },
+                {
+                  "type": "text",
+                  "content": "find the maximum temperature inside the greenhouse,"
+                },
+                {
+                  "type": "space",
+                  "height": "1cm"
+                }
+              ],
+              "answer": {
+                "type": "number",
+                "suffix": "$\\text{°C}$"
+              }
+            },
+            {
+              "label": "(c)",
+              "marks": 2,
+              "content": [
+                {
+                  "type": "text",
+                  "content": "find the time of day at which this maximum temperature occurs."
+                },
+                {
+                  "type": "newline"
+                },
+                {
+                  "type": "text",
+                  "content": "Give your answer to the nearest minute."
+                },
+                {
+                  "type": "space",
+                  "height": "1cm"
+                }
+              ],
+              "answer": {
+                "type": "expression"
+              }
+            }
+          ],
+          "answer": null
+        }
+      ],
+      "answer": null,
+      "meta": {}
+    },
+    {
+      "qnum": 9,
+      "marks": 8,
+      "stem": [
+        {
+          "type": "text",
+          "content": "[Figure]"
+        },
+        {
+          "type": "newline"
+        },
+        {
+          "type": "text",
+          "content": "Figure 1 is a sketch of the curve C with equation"
+        },
+        {
+          "type": "text",
+          "content": "$$y = 2x^{\\frac{3}{2}} (4 – x) \\quad x \\ge 0$$"
+        },
+        {
+          "type": "text",
+          "content": "The point P is the stationary point of C."
+        }
+      ],
+      "parts": [
+        {
+          "label": "(a)",
+          "marks": 4,
+          "content": [
+            {
+              "type": "text",
+              "content": "Find, using calculus, the x coordinate of P."
+            },
+            {
+              "type": "space",
+              "height": "1cm"
+            }
+          ],
+          "answer": {
+            "type": "number"
+          }
+        },
+        {
+          "label": "(b)",
+          "marks": 4,
+          "content": [
+            {
+              "type": "text",
+              "content": "The region R1, shown shaded in Figure 1, is bounded by C and the x‑axis."
+            },
+            {
+              "type": "newline"
+            },
+            {
+              "type": "text",
+              "content": "The region R2, also shown shaded in Figure 1, is bounded by C, the x‑axis and the line with equation $x = k$, where k is a constant."
+            },
+            {
+              "type": "newline"
+            },
+            {
+              "type": "text",
+              "content": "Given that the area of R1 is equal to the area of R2"
+            },
+            {
+              "type": "newline"
+            },
+            {
+              "type": "text",
+              "content": "find, using calculus, the exact value of k."
+            },
+            {
+              "type": "space",
+              "height": "1cm"
+            }
+          ],
+          "answer": {
+            "type": "expression"
+          }
+        }
+      ],
+      "answer": null,
+      "meta": {}
+    },
+    {
+      "qnum": 10,
+      "marks": 8,
+      "stem": [
+        {
+          "type": "text",
+          "content": "In this question you must show all stages of your working."
+        },
+        {
+          "type": "newline"
+        },
+        {
+          "type": "text",
+          "content": "Solutions relying entirely on calculator technology are not acceptable."
+        },
+        {
+          "type": "newline"
+        },
+        {
+          "type": "text",
+          "content": "The number of dormice and the number of voles on an island are being monitored."
+        },
+        {
+          "type": "newline"
+        },
+        {
+          "type": "text",
+          "content": "Initially there are 2000 dormice on the island."
+        },
+        {
+          "type": "newline"
+        },
+        {
+          "type": "text",
+          "content": "A model predicts that the number of dormice will increase by 3% each year, so that the numbers of dormice on the island at the end of each year form a geometric sequence."
+        }
+      ],
+      "parts": [
+        {
+          "label": "(a)",
+          "marks": 2,
+          "content": [
+            {
+              "type": "text",
+              "content": "Find, according to the model, the number of dormice on the island 6 years after monitoring began. Give your answer to 3 significant figures."
+            },
+            {
+              "type": "space",
+              "height": "1cm"
+            }
+          ],
+          "answer": {
+            "type": "number",
+            "significantFigures": 3
+          }
+        },
+        {
+          "label": "(b)",
+          "marks": 3,
+          "content": [
+            {
+              "type": "text",
+              "content": "The number of voles on the island is being monitored over the same period of time."
+            },
+            {
+              "type": "newline"
+            },
+            {
+              "type": "text",
+              "content": "Given that"
+            },
+            {
+              "type": "list",
+              "style": "bullet",
+              "items": [
+                "4 years after monitoring began there were 3690 voles on the island",
+                "7 years after monitoring began there were 3470 voles on the island",
+                "the number of voles on the island at the end of each year is modelled as a geometric sequence"
+              ]
+            },
+            {
+              "type": "text",
+              "content": "find the equation of this model in the form"
+            },
+            {
+              "type": "text",
+              "content": "$$N = ab^t$$"
+            },
+            {
+              "type": "text",
+              "content": "where N is the number of voles, t years after monitoring began and a and b are constants. Give the value of a and the value of b to 2 significant figures."
+            },
+            {
+              "type": "space",
+              "height": "1cm"
+            }
+          ],
+          "answer": {
+            "type": "expression"
+          }
+        },
+        {
+          "label": "(c)",
+          "marks": 3,
+          "content": [
+            {
+              "type": "text",
+              "content": "When $t = T$, the number of dormice on the island is equal to the number of voles on the island."
+            },
+            {
+              "type": "newline"
+            },
+            {
+              "type": "text",
+              "content": "Find, according to the models, the value of T, giving your answer to one decimal place."
+            },
+            {
+              "type": "space",
+              "height": "1cm"
+            }
+          ],
+          "answer": {
+            "type": "number",
+            "decimalPlaces": 1
+          }
+        }
+      ],
+      "answer": null,
+      "meta": {}
+    }
+  ]
+}

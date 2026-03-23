@@ -1,0 +1,778 @@
+{
+  "v": "1.0",
+  "paper": "2024May-WMA12-01R",
+  "board": "edx",
+  "code": "WMA12",
+  "year": 2024,
+  "session": "May",
+  "paperNum": "01",
+  "type": "ial-p2",
+  "totalMarks": 75,
+  "time": 90,
+  "questions": [
+    {
+      "qnum": 1,
+      "marks": 5,
+      "stem": [
+        {
+          "type": "text",
+          "content": "The sequence $u_1, u_2, u_3, \\dots$ satisfies"
+        },
+        {
+          "type": "newline"
+        },
+        {
+          "type": "text",
+          "content": "$$u_{n+2} = 3u_{n+1} - 2u_n$$"
+        },
+        {
+          "type": "newline"
+        },
+        {
+          "type": "text",
+          "content": "Given that"
+        },
+        {
+          "type": "list",
+          "style": "bullet",
+          "items": [
+            "$u_1 = 7$",
+            "$u_3 = 4$"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "label": "(a)",
+          "marks": 2,
+          "content": [
+            {
+              "type": "text",
+              "content": "find the value of $u_2$"
+            }
+          ],
+          "answer": {
+            "type": "number"
+          }
+        },
+        {
+          "label": "(b)",
+          "marks": 3,
+          "content": [
+            {
+              "type": "text",
+              "content": "find $\\sum_{r=1}^{4} u_r$"
+            }
+          ],
+          "answer": {
+            "type": "number"
+          }
+        }
+      ],
+      "answer": null,
+      "meta": {}
+    },
+    {
+      "qnum": 2,
+      "marks": 5,
+      "stem": [
+        {
+          "type": "text",
+          "content": "The table shows corresponding values of $x$ and $y$ for a continuous curve with equation $y = \\text{f}(x)$ between $x = -4$ and $x = 5$, where $a$ is a constant."
+        },
+        {
+          "type": "table",
+          "content": "\\begin{tabular}{|c|c|c|c|c|c|c|c|}\n\\hline\nx & -4 & -2.5 & -1 & 0.5 & 2 & 3.5 & 5 \\\\\n\\hline\ny & 4.16 & 2.91 & a & 1.73 & 1.37 & 1.43 & 2.28 \\\\\n\\hline\n\\end{tabular}"
+        },
+        {
+          "type": "newline"
+        },
+        {
+          "type": "text",
+          "content": "The trapezium rule is used with all the $y$ values in the table to find an approximation for"
+        },
+        {
+          "type": "text",
+          "content": "$$\\int_{-4}^{5} \\text{f}(x) \\, \\text{d}x$$"
+        },
+        {
+          "type": "newline"
+        },
+        {
+          "type": "text",
+          "content": "Given that the value of this approximation is 19.3"
+        }
+      ],
+      "parts": [
+        {
+          "label": "(a)",
+          "marks": 3,
+          "content": [
+            {
+              "type": "text",
+              "content": "find the value of the constant $a$ to 3 significant figures."
+            }
+          ],
+          "answer": {
+            "type": "number"
+          }
+        },
+        {
+          "label": "(b)",
+          "marks": 2,
+          "content": [
+            {
+              "type": "text",
+              "content": "Use the given answer of 19.3 to find an approximate value for"
+            },
+            {
+              "type": "text",
+              "content": "$$\\int_{-4}^{5} 2\\text{f}(x) + 3 \\, \\text{d}x$$"
+            }
+          ],
+          "answer": {
+            "type": "number"
+          }
+        }
+      ],
+      "answer": null,
+      "meta": {}
+    },
+    {
+      "qnum": 3,
+      "marks": 5,
+      "stem": [
+        {
+          "type": "text",
+          "content": "A circle has equation"
+        },
+        {
+          "type": "text",
+          "content": "$$x^2 + y^2 + 8x - 14y - 79 = 0$$"
+        }
+      ],
+      "parts": [
+        {
+          "label": "(a)",
+          "marks": 3,
+          "content": [
+            {
+              "type": "text",
+              "content": "Find"
+            }
+          ],
+          "subparts": [
+            {
+              "label": "(i)",
+              "marks": null,
+              "content": [
+                {
+                  "type": "text",
+                  "content": "the coordinates of the centre of the circle,"
+                }
+              ],
+              "answer": {
+                "type": "coordinate",
+                "fields": 2
+              }
+            },
+            {
+              "label": "(ii)",
+              "marks": null,
+              "content": [
+                {
+                  "type": "text",
+                  "content": "the radius of the circle."
+                }
+              ],
+              "answer": {
+                "type": "expression"
+              }
+            }
+          ],
+          "answer": null
+        },
+        {
+          "label": "(b)",
+          "marks": 2,
+          "content": [
+            {
+              "type": "text",
+              "content": "Given that P is the point on the circle that is nearest the origin O,"
+            },
+            {
+              "type": "newline"
+            },
+            {
+              "type": "text",
+              "content": "find the exact length of OP"
+            }
+          ],
+          "answer": {
+            "type": "expression"
+          }
+        }
+      ],
+      "answer": null,
+      "meta": {}
+    },
+    {
+      "qnum": 4,
+      "marks": 7,
+      "stem": [],
+      "parts": [
+        {
+          "label": "(a)",
+          "marks": 4,
+          "content": [
+            {
+              "type": "text",
+              "content": "Find the first 4 terms, in ascending powers of $x$, of the binomial expansion of"
+            },
+            {
+              "type": "text",
+              "content": "$$\\left(3 - \\frac{x}{2}\\right)^6$$"
+            },
+            {
+              "type": "newline"
+            },
+            {
+              "type": "text",
+              "content": "giving each coefficient in simplest form."
+            }
+          ],
+          "answer": {
+            "type": "expression"
+          }
+        },
+        {
+          "label": "(b)",
+          "marks": 3,
+          "content": [
+            {
+              "type": "text",
+              "content": "Hence find the coefficient of $x^2$ in the expansion of"
+            },
+            {
+              "type": "text",
+              "content": "$$\\left(2 + \\frac{1}{x}\\right)^2 \\left(3 - \\frac{x}{2}\\right)^6$$"
+            }
+          ],
+          "answer": {
+            "type": "number"
+          }
+        }
+      ],
+      "answer": null,
+      "meta": {}
+    },
+    {
+      "qnum": 5,
+      "marks": 6,
+      "stem": [
+        {
+          "type": "text",
+          "content": "In this question you must show all stages of your working."
+        },
+        {
+          "type": "newline"
+        },
+        {
+          "type": "text",
+          "content": "Solutions relying entirely on calculator technology are not acceptable."
+        },
+        {
+          "type": "newline"
+        },
+        {
+          "type": "text",
+          "content": "The depth of water, $D$ metres, in a harbour on a particular day is given by the equation"
+        },
+        {
+          "type": "text",
+          "content": "$$D = 8 + 5\\sin\\left(\\frac{\\pi t}{6}\\right) \\quad 0 \\le t < 24$$"
+        },
+        {
+          "type": "newline"
+        },
+        {
+          "type": "text",
+          "content": "where $t$ is the number of hours after midnight."
+        }
+      ],
+      "parts": [
+        {
+          "label": "(a)",
+          "marks": 1,
+          "content": [
+            {
+              "type": "text",
+              "content": "Show that the depth of water in the harbour at 2 am is just over 4 metres."
+            }
+          ],
+          "answer": {
+            "type": "none"
+          }
+        },
+        {
+          "label": "(b)",
+          "marks": 5,
+          "content": [
+            {
+              "type": "text",
+              "content": "Find, to the nearest minute, the first time after midday when the depth of water in the harbour is exactly 6 metres."
+            }
+          ],
+          "answer": {
+            "type": "expression"
+          }
+        }
+      ],
+      "answer": null,
+      "meta": {}
+    },
+    {
+      "qnum": 6,
+      "marks": 9,
+      "stem": [
+        {
+          "type": "text",
+          "content": "$$\\text{f}(x) = 4x^3 + px^2 + 8x + q$$"
+        },
+        {
+          "type": "newline"
+        },
+        {
+          "type": "text",
+          "content": "where $p$ and $q$ are constants."
+        },
+        {
+          "type": "newline"
+        },
+        {
+          "type": "text",
+          "content": "Given that"
+        },
+        {
+          "type": "list",
+          "style": "bullet",
+          "items": [
+            "$(2x + 3)$ is a factor of $\\text{f}(x)$",
+            "$\\text{f}(x)$ has a remainder of $-5$ when divided by $(x + 2)$"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "label": "(a)",
+          "marks": 5,
+          "content": [],
+          "subparts": [
+            {
+              "label": "(i)",
+              "marks": null,
+              "content": [
+                {
+                  "type": "text",
+                  "content": "show that $p = 10$"
+                }
+              ],
+              "answer": {
+                "type": "none"
+              }
+            },
+            {
+              "label": "(ii)",
+              "marks": null,
+              "content": [
+                {
+                  "type": "text",
+                  "content": "find the value of $q$."
+                }
+              ],
+              "answer": {
+                "type": "number"
+              }
+            }
+          ],
+          "answer": null
+        },
+        {
+          "label": "(b)",
+          "marks": 4,
+          "content": [
+            {
+              "type": "text",
+              "content": "Hence find the range of values of $x$ for which $\\text{f}(x)$ is decreasing."
+            },
+            {
+              "type": "newline"
+            },
+            {
+              "type": "text",
+              "content": "(Solutions based entirely on calculator technology are not acceptable.)"
+            }
+          ],
+          "answer": {
+            "type": "expression"
+          }
+        }
+      ],
+      "answer": null,
+      "meta": {}
+    },
+    {
+      "qnum": 7,
+      "marks": 7,
+      "stem": [
+        {
+          "type": "text",
+          "content": "In this question you must show all stages of your working."
+        },
+        {
+          "type": "newline"
+        },
+        {
+          "type": "text",
+          "content": "Solutions relying entirely on calculator technology are not acceptable."
+        }
+      ],
+      "parts": [
+        {
+          "label": "(i)",
+          "marks": 5,
+          "content": [
+            {
+              "type": "text",
+              "content": "Solve, for $0 \\le x < 2\\pi$, the equation"
+            },
+            {
+              "type": "text",
+              "content": "$$3\\sin x \\tan x = 11 + \\cos x$$"
+            },
+            {
+              "type": "newline"
+            },
+            {
+              "type": "text",
+              "content": "giving the answers in radians to 3 decimal places."
+            }
+          ],
+          "answer": {
+            "type": "expression"
+          }
+        },
+        {
+          "label": "(ii)",
+          "marks": 2,
+          "content": [
+            {
+              "type": "text",
+              "content": "Given that"
+            },
+            {
+              "type": "list",
+              "style": "bullet",
+              "items": [
+                "$0 < \\theta < 90^\\circ$",
+                "$\\cos \\theta = \\frac{1}{3}$"
+              ]
+            },
+            {
+              "type": "newline"
+            },
+            {
+              "type": "text",
+              "content": "find, in simplest form, the exact value of $\\tan \\theta$"
+            }
+          ],
+          "answer": {
+            "type": "expression"
+          }
+        }
+      ],
+      "answer": null,
+      "meta": {}
+    },
+    {
+      "qnum": 8,
+      "marks": 13,
+      "stem": [],
+      "parts": [
+        {
+          "label": "(i)",
+          "marks": 6,
+          "content": [],
+          "subparts": [
+            {
+              "label": "(a)",
+              "marks": 3,
+              "content": [
+                {
+                  "type": "text",
+                  "content": "In an arithmetic series the first term is $a$ and the common difference is $d$."
+                },
+                {
+                  "type": "newline"
+                },
+                {
+                  "type": "text",
+                  "content": "Show that"
+                },
+                {
+                  "type": "text",
+                  "content": "$$S_n = \\frac{n}{2}(2a + (n-1)d)$$"
+                }
+              ],
+              "answer": {
+                "type": "none"
+              }
+            },
+            {
+              "label": "(b)",
+              "marks": 3,
+              "content": [
+                {
+                  "type": "text",
+                  "content": "Hence find"
+                },
+                {
+                  "type": "text",
+                  "content": "$$900 + 892 + 884 + \\dots + 500$$"
+                }
+              ],
+              "answer": {
+                "type": "number"
+              }
+            }
+          ],
+          "answer": null
+        },
+        {
+          "label": "(ii)",
+          "marks": 7,
+          "content": [
+            {
+              "type": "text",
+              "content": "Given that the first three terms of a geometric series are"
+            },
+            {
+              "type": "newline"
+            },
+            {
+              "type": "text",
+              "content": "$k + 4 \\quad k - 2 \\quad 11 - k$"
+            },
+            {
+              "type": "newline"
+            },
+            {
+              "type": "text",
+              "content": "where $k$ is a constant,"
+            }
+          ],
+          "subparts": [
+            {
+              "label": "(a)",
+              "marks": 3,
+              "content": [
+                {
+                  "type": "text",
+                  "content": "show that"
+                },
+                {
+                  "type": "text",
+                  "content": "$$2k^2 - 11k - 40 = 0$$"
+                }
+              ],
+              "answer": {
+                "type": "none"
+              }
+            },
+            {
+              "label": "(b)",
+              "marks": 4,
+              "content": [
+                {
+                  "type": "text",
+                  "content": "Given also that this series is convergent,"
+                },
+                {
+                  "type": "newline"
+                },
+                {
+                  "type": "text",
+                  "content": "find the value of $S_\\infty$"
+                }
+              ],
+              "answer": {
+                "type": "number"
+              }
+            }
+          ],
+          "answer": null
+        }
+      ],
+      "answer": null,
+      "meta": {}
+    },
+    {
+      "qnum": 9,
+      "marks": 9,
+      "stem": [
+        {
+          "type": "text",
+          "content": "Given that"
+        },
+        {
+          "type": "text",
+          "content": "$$3\\log_2(t + 4) - 2\\log_2(t - 2) = 7$$"
+        }
+      ],
+      "parts": [
+        {
+          "label": "(a)",
+          "marks": 2,
+          "content": [
+            {
+              "type": "text",
+              "content": "verify that $t = 4$ is a solution of the above equation,"
+            }
+          ],
+          "answer": {
+            "type": "none"
+          }
+        },
+        {
+          "label": "(b)",
+          "marks": 3,
+          "content": [
+            {
+              "type": "text",
+              "content": "show that"
+            },
+            {
+              "type": "text",
+              "content": "$$t^3 - 116t^2 + 560t - 448 = 0$$"
+            }
+          ],
+          "answer": {
+            "type": "none"
+          }
+        },
+        {
+          "label": "(c)",
+          "marks": 4,
+          "content": [
+            {
+              "type": "text",
+              "content": "Hence, using algebra and showing your working, solve"
+            },
+            {
+              "type": "text",
+              "content": "$$3\\log_2(t + 4) - 2\\log_2(t - 2) = 7$$"
+            },
+            {
+              "type": "newline"
+            },
+            {
+              "type": "text",
+              "content": "giving each answer in simplest form."
+            },
+            {
+              "type": "newline"
+            },
+            {
+              "type": "text",
+              "content": "(Solutions based entirely on calculator technology are not acceptable.)"
+            }
+          ],
+          "answer": {
+            "type": "expression"
+          }
+        }
+      ],
+      "answer": null,
+      "meta": {}
+    },
+    {
+      "qnum": 10,
+      "marks": 9,
+      "stem": [
+        {
+          "type": "text",
+          "content": "[Figure]"
+        },
+        {
+          "type": "newline"
+        },
+        {
+          "type": "text",
+          "content": "In this question you must show all stages of your working."
+        },
+        {
+          "type": "newline"
+        },
+        {
+          "type": "text",
+          "content": "Solutions relying entirely on calculator technology are not acceptable."
+        },
+        {
+          "type": "newline"
+        },
+        {
+          "type": "text",
+          "content": "Figure 1 shows a sketch of part of the curve C with equation"
+        },
+        {
+          "type": "text",
+          "content": "$$y = \\frac{9}{2x^2} - x \\quad x > 0$$"
+        },
+        {
+          "type": "newline"
+        },
+        {
+          "type": "text",
+          "content": "The point P is the stationary point on C."
+        }
+      ],
+      "parts": [
+        {
+          "label": "(a)",
+          "marks": 4,
+          "content": [
+            {
+              "type": "text",
+              "content": "Find, using calculus, the $x$ coordinate of P."
+            }
+          ],
+          "answer": {
+            "type": "number"
+          }
+        },
+        {
+          "label": "(b)",
+          "marks": 5,
+          "content": [
+            {
+              "type": "text",
+              "content": "The finite region R, shown shaded in Figure 1, is bounded by the curve C, the x-axis and the line with equation $x = 1$"
+            },
+            {
+              "type": "newline"
+            },
+            {
+              "type": "text",
+              "content": "Using calculus, calculate the exact area of R."
+            }
+          ],
+          "answer": {
+            "type": "expression"
+          }
+        }
+      ],
+      "answer": null,
+      "meta": {}
+    }
+  ]
+}
