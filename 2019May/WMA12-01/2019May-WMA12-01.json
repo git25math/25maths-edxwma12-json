@@ -14,28 +14,53 @@
       "qnum": 1,
       "marks": 4,
       "stem": [
-        "A sequence $a_1, a_2, a_3, \\dots$ is defined by",
-        "$a_{n+1} = 4 - a_n$",
-        "$a_1 = 3$"
+        {
+          "type": "text",
+          "content": "A sequence $a_1, a_2, a_3, \\dots$ is defined by"
+        },
+        {
+          "type": "text",
+          "content": "$a_{n+1} = 4 - a_n$"
+        },
+        {
+          "type": "text",
+          "content": "$a_1 = 3$"
+        }
       ],
       "parts": [
         {
           "label": "(a)",
           "marks": 2,
           "content": [
-            "Find the value of",
-            "(i) $a_2$",
-            "(ii) $a_{107}$"
+            {
+              "type": "text",
+              "content": "Find the value of"
+            },
+            {
+              "type": "text",
+              "content": "(i) $a_2$"
+            },
+            {
+              "type": "text",
+              "content": "(ii) $a_{107}$"
+            }
           ],
-          "answer": null
+          "answer": {
+            "type": "number"
+          }
         },
         {
           "label": "(b)",
           "marks": 2,
           "content": [
-            "$\\sum_{n=1}^{200} (2a_n - 1)$"
+            {
+              "type": "text",
+              "content": "$\\sum_{n=1}^{200} (2a_n - 1)$"
+            }
           ],
-          "answer": null
+          "answer": {
+            "type": "expression"
+          }
         }
       ],
       "answer": null,
@@ -45,19 +70,36 @@
       "qnum": 2,
       "marks": 7,
       "stem": [
-        "A circle $C$ has equation",
-        "$x^2 + y^2 + 4x - 10y - 21 = 0$"
+        {
+          "type": "text",
+          "content": "A circle $C$ has equation"
+        },
+        {
+          "type": "text",
+          "content": "$x^2 + y^2 + 4x - 10y - 21 = 0$"
+        }
       ],
       "parts": [
         {
           "label": "(a)",
           "marks": 3,
           "content": [
-            "Find",
-            "(i) the coordinates of the centre of $C$,",
-            "(ii) the exact value of the radius of $C$."
+            {
+              "type": "text",
+              "content": "Find"
+            },
+            {
+              "type": "text",
+              "content": "(i) the coordinates of the centre of $C$,"
+            },
+            {
+              "type": "text",
+              "content": "(ii) the exact value of the radius of $C$."
+            }
           ],
-          "answer": null
+          "answer": {
+            "type": "expression"
+          }
         },
         {
           "label": "(b)",
@@ -66,9 +108,14 @@
             "The point $P(5, 4)$ lies on $C$."
           ],
           "content": [
-            "Find the equation of the tangent to $C$ at $P$, writing your answer in the form $y = mx + c$, where $m$ and $c$ are constants to be found."
+            {
+              "type": "text",
+              "content": "Find the equation of the tangent to $C$ at $P$, writing your answer in the form $y = mx + c$, where $m$ and $c$ are constants to be found."
+            }
           ],
-          "answer": null
+          "answer": {
+            "type": "expression"
+          }
         }
       ],
       "answer": null,
@@ -83,19 +130,35 @@
           "label": "(i)",
           "marks": 3,
           "content": [
-            "Use algebra to prove that for all real values of $x$",
-            "$(x-4)^2 \\ge 2x-9$"
+            {
+              "type": "text",
+              "content": "Use algebra to prove that for all real values of $x$"
+            },
+            {
+              "type": "text",
+              "content": "$(x-4)^2 \\ge 2x-9$"
+            }
           ],
-          "answer": null
+          "answer": {
+            "type": "none"
+          }
         },
         {
           "label": "(ii)",
           "marks": 1,
           "content": [
-            "Show that the following statement is untrue.",
-            "$2^n + 1$ is a prime number for all values of $n, n \\in \\mathbb{N}$"
+            {
+              "type": "text",
+              "content": "Show that the following statement is untrue."
+            },
+            {
+              "type": "text",
+              "content": "$2^n + 1$ is a prime number for all values of $n, n \\in \\mathbb{N}$"
+            }
           ],
-          "answer": null
+          "answer": {
+            "type": "none"
+          }
         }
       ],
       "answer": null,
@@ -110,20 +173,39 @@
           "label": "(a)",
           "marks": 4,
           "content": [
-            "Find the first four terms, in ascending powers of $x$, of the binomial expansion of",
-            "$(2 - \\frac{1}{4}x)^6$"
+            {
+              "type": "text",
+              "content": "Find the first four terms, in ascending powers of $x$, of the binomial expansion of"
+            },
+            {
+              "type": "text",
+              "content": "$(2 - \\frac{1}{4}x)^6$"
+            }
           ],
-          "answer": null
+          "answer": {
+            "type": "expression"
+          }
         },
         {
           "label": "(b)",
           "marks": 3,
           "content": [
-            "Given that $x$ is small, so higher powers of $x$ may be ignored, show",
-            "$(2 - \\frac{1}{4}x)^6 + (2 + \\frac{1}{4}x)^6 = a + bx^2$",
-            "where $a$ and $b$ are constants to be found."
+            {
+              "type": "text",
+              "content": "Given that $x$ is small, so higher powers of $x$ may be ignored, show"
+            },
+            {
+              "type": "text",
+              "content": "$(2 - \\frac{1}{4}x)^6 + (2 + \\frac{1}{4}x)^6 = a + bx^2$"
+            },
+            {
+              "type": "text",
+              "content": "where $a$ and $b$ are constants to be found."
+            }
           ],
-          "answer": null
+          "answer": {
+            "type": "expression"
+          }
         }
       ],
       "answer": null,
@@ -133,28 +215,53 @@
       "qnum": 5,
       "marks": 8,
       "stem": [
-        "A company makes a particular type of watch.",
-        "The annual profit made by the company from sales of these watches is modelled by the equation",
-        "$P = 12x - x^\\frac{3}{2} - 120$",
-        "where $P$ is the annual profit measured in thousands of pounds and $\\pounds x$ is the selling price of the watch.",
-        "According to this model,"
+        {
+          "type": "text",
+          "content": "A company makes a particular type of watch."
+        },
+        {
+          "type": "text",
+          "content": "The annual profit made by the company from sales of these watches is modelled by the equation"
+        },
+        {
+          "type": "text",
+          "content": "$P = 12x - x^\\frac{3}{2} - 120$"
+        },
+        {
+          "type": "text",
+          "content": "where $P$ is the annual profit measured in thousands of pounds and $\\pounds x$ is the selling price of the watch."
+        },
+        {
+          "type": "text",
+          "content": "According to this model,"
+        }
       ],
       "parts": [
         {
           "label": "(a)",
           "marks": 6,
           "content": [
-            "find, using calculus, the maximum possible annual profit."
+            {
+              "type": "text",
+              "content": "find, using calculus, the maximum possible annual profit."
+            }
           ],
-          "answer": null
+          "answer": {
+            "type": "expression"
+          }
         },
         {
           "label": "(b)",
           "marks": 2,
           "content": [
-            "Justify, also using calculus, that the profit you have found is a maximum."
+            {
+              "type": "text",
+              "content": "Justify, also using calculus, that the profit you have found is a maximum."
+            }
           ],
-          "answer": null
+          "answer": {
+            "type": "none"
+          }
         }
       ],
       "answer": null,
@@ -164,7 +271,10 @@
       "qnum": 6,
       "marks": 8,
       "stem": [
-        "$f(x) = kx^3 - 15x^2 - 32x - 12$ where $k$ is a constant"
+        {
+          "type": "text",
+          "content": "$f(x) = kx^3 - 15x^2 - 32x - 12$ where $k$ is a constant"
+        }
       ],
       "parts": [
         {
@@ -174,17 +284,27 @@
             "Given $(x-3)$ is a factor of $f(x)$,"
           ],
           "content": [
-            "show that $k=9$"
+            {
+              "type": "text",
+              "content": "show that $k=9$"
+            }
           ],
-          "answer": null
+          "answer": {
+            "type": "none"
+          }
         },
         {
           "label": "(b)",
           "marks": 4,
           "content": [
-            "Using algebra and showing each step of your working, fully factorise $f(x)$."
+            {
+              "type": "text",
+              "content": "Using algebra and showing each step of your working, fully factorise $f(x)$."
+            }
           ],
-          "answer": null
+          "answer": {
+            "type": "expression"
+          }
         },
         {
           "label": "(c)",
@@ -194,9 +314,14 @@
             "$9\\cos^3\\theta - 15\\cos^2\\theta - 32\\cos\\theta - 12 = 0$"
           ],
           "content": [
-            "giving your answers to one decimal place."
+            {
+              "type": "text",
+              "content": "giving your answers to one decimal place."
+            }
           ],
-          "answer": null
+          "answer": {
+            "type": "expression"
+          }
         }
       ],
       "answer": null,
@@ -206,19 +331,36 @@
       "qnum": 7,
       "marks": 9,
       "stem": [
-        "Kim starts working for a company.",
-        "\\textbullet In year 1 her annual salary will be $\\pounds 16\\,200$",
-        "\\textbullet In year 10 her annual salary is predicted to be $\\pounds 31\\,500$",
-        "Model $A$ assumes that her annual salary will increase by the same amount each year."
+        {
+          "type": "text",
+          "content": "Kim starts working for a company."
+        },
+        {
+          "type": "text",
+          "content": "\\textbullet In year 1 her annual salary will be $\\pounds 16\\,200$"
+        },
+        {
+          "type": "text",
+          "content": "\\textbullet In year 10 her annual salary is predicted to be $\\pounds 31\\,500$"
+        },
+        {
+          "type": "text",
+          "content": "Model $A$ assumes that her annual salary will increase by the same amount each year."
+        }
       ],
       "parts": [
         {
           "label": "(a)",
           "marks": 3,
           "content": [
-            "According to model $A$, determine Kim's annual salary in year 2."
+            {
+              "type": "text",
+              "content": "According to model $A$, determine Kim's annual salary in year 2."
+            }
           ],
-          "answer": null
+          "answer": {
+            "type": "expression"
+          }
         },
         {
           "label": "(b)",
@@ -227,17 +369,27 @@
             "Model $B$ assumes that her annual salary will increase by the same percentage each year."
           ],
           "content": [
-            "According to model $B$, determine Kim's annual salary in year 2. Give your answer to the nearest $\\pounds 10$"
+            {
+              "type": "text",
+              "content": "According to model $B$, determine Kim's annual salary in year 2. Give your answer to the nearest $\\pounds 10$"
+            }
           ],
-          "answer": null
+          "answer": {
+            "type": "expression"
+          }
         },
         {
           "label": "(c)",
           "marks": 3,
           "content": [
-            "Calculate, according to the two models, the difference between the total amounts that Kim is predicted to earn from year 1 to year 10 inclusive. Give your answer to the nearest $\\pounds 10$"
+            {
+              "type": "text",
+              "content": "Calculate, according to the two models, the difference between the total amounts that Kim is predicted to earn from year 1 to year 10 inclusive. Give your answer to the nearest $\\pounds 10$"
+            }
           ],
-          "answer": null
+          "answer": {
+            "type": "number"
+          }
         }
       ],
       "answer": null,
@@ -252,20 +404,39 @@
           "label": "(i)",
           "marks": 4,
           "content": [
-            "Find the exact solution of the equation",
-            "$8^{2x+1} = 6$",
-            "giving your answer in the form $a + b\\log_3 3$, where $a$ and $b$ are constants to be found."
+            {
+              "type": "text",
+              "content": "Find the exact solution of the equation"
+            },
+            {
+              "type": "text",
+              "content": "$8^{2x+1} = 6$"
+            },
+            {
+              "type": "text",
+              "content": "giving your answer in the form $a + b\\log_3 3$, where $a$ and $b$ are constants to be found."
+            }
           ],
-          "answer": null
+          "answer": {
+            "type": "expression"
+          }
         },
         {
           "label": "(ii)",
           "marks": 5,
           "content": [
-            "Using the laws of logarithms, solve",
-            "$\\log_3(7 - 2y) = 2\\log_3(y+1) - 1$"
+            {
+              "type": "text",
+              "content": "Using the laws of logarithms, solve"
+            },
+            {
+              "type": "text",
+              "content": "$\\log_3(7 - 2y) = 2\\log_3(y+1) - 1$"
+            }
           ],
-          "answer": null
+          "answer": {
+            "type": "expression"
+          }
         }
       ],
       "answer": null,
@@ -280,12 +451,26 @@
           "label": "(a)",
           "marks": 4,
           "content": [
-            "Show that the equation",
-            "$\\cos\\theta - 1 = 4\\sin\\theta\\tan\\theta$",
-            "can be written in the form",
-            "$5\\cos^2\\theta - \\cos\\theta - 4 = 0$"
+            {
+              "type": "text",
+              "content": "Show that the equation"
+            },
+            {
+              "type": "text",
+              "content": "$\\cos\\theta - 1 = 4\\sin\\theta\\tan\\theta$"
+            },
+            {
+              "type": "text",
+              "content": "can be written in the form"
+            },
+            {
+              "type": "text",
+              "content": "$5\\cos^2\\theta - \\cos\\theta - 4 = 0$"
+            }
           ],
-          "answer": null
+          "answer": {
+            "type": "none"
+          }
         },
         {
           "label": "(b)",
@@ -294,10 +479,18 @@
             "Hence solve, for $0 \\le x < \\frac{\\pi}{2}$"
           ],
           "content": [
-            "$\\cos 2x - 1 = 4\\sin 2x\\tan 2x$",
-            "giving your answers, where appropriate, to 2 decimal places."
+            {
+              "type": "text",
+              "content": "$\\cos 2x - 1 = 4\\sin 2x\\tan 2x$"
+            },
+            {
+              "type": "text",
+              "content": "giving your answers, where appropriate, to 2 decimal places."
+            }
           ],
-          "answer": null
+          "answer": {
+            "type": "expression"
+          }
         }
       ],
       "answer": null,
@@ -307,27 +500,49 @@
       "qnum": 10,
       "marks": 11,
       "stem": [
-        "[Figure] shows a sketch of part of the curve $C$ with equation $y = f(x)$ where",
-        "$f(x) = \\frac{36}{x^2} + 2x - 13, \\quad x > 0$"
+        {
+          "type": "text",
+          "content": "[Figure] shows a sketch of part of the curve $C$ with equation $y = f(x)$ where"
+        },
+        {
+          "type": "text",
+          "content": "$f(x) = \\frac{36}{x^2} + 2x - 13, \\quad x > 0$"
+        }
       ],
       "parts": [
         {
           "label": "(a)",
           "marks": 4,
           "content": [
-            "Using calculus,",
-            "find the range of values of $x$ for which $f(x)$ is increasing."
+            {
+              "type": "text",
+              "content": "Using calculus,"
+            },
+            {
+              "type": "text",
+              "content": "find the range of values of $x$ for which $f(x)$ is increasing."
+            }
           ],
-          "answer": null
+          "answer": {
+            "type": "expression"
+          }
         },
         {
           "label": "(b)",
           "marks": 4,
           "content": [
-            "show that",
-            "$\\int_2^6 (\\frac{36}{x^2} + 2x - 13) \\mathrm{d}x = 0$"
+            {
+              "type": "text",
+              "content": "show that"
+            },
+            {
+              "type": "text",
+              "content": "$\\int_2^6 (\\frac{36}{x^2} + 2x - 13) \\mathrm{d}x = 0$"
+            }
           ],
-          "answer": null
+          "answer": {
+            "type": "none"
+          }
         },
         {
           "label": "(c)",
@@ -337,10 +552,18 @@
             "Given $\\int_2^6 (\\frac{36}{x^2} + 2x - 13) \\mathrm{d}x = -8$"
           ],
           "content": [
-            "(i) state the value of $\\int_6^2 (\\frac{36}{x^2} + 2x - 13) \\mathrm{d}x$",
-            "(ii) find the value of the constant $k$ such that $\\int_2^6 (\\frac{36}{x^2} + 2x + k) \\mathrm{d}x = 0$"
+            {
+              "type": "text",
+              "content": "(i) state the value of $\\int_6^2 (\\frac{36}{x^2} + 2x - 13) \\mathrm{d}x$"
+            },
+            {
+              "type": "text",
+              "content": "(ii) find the value of the constant $k$ such that $\\int_2^6 (\\frac{36}{x^2} + 2x + k) \\mathrm{d}x = 0$"
+            }
           ],
-          "answer": null
+          "answer": {
+            "type": "number"
+          }
         }
       ],
       "answer": null,

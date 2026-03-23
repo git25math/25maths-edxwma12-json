@@ -43,7 +43,9 @@
               "content": "Find, in simplest form,"
             }
           ],
-          "answer": null
+          "answer": {
+            "type": "expression"
+          }
         },
         {
           "label": "(b)",
@@ -224,7 +226,9 @@
               "content": "Using the answer to part (a) and making your method clear, estimate the value of"
             }
           ],
-          "answer": null
+          "answer": {
+            "type": "expression"
+          }
         }
       ],
       "answer": null,
@@ -283,7 +287,9 @@
               "content": "Hence,"
             }
           ],
-          "answer": null
+          "answer": {
+            "type": "expression"
+          }
         }
       ],
       "answer": null,

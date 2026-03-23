@@ -294,7 +294,9 @@
               "content": "find"
             }
           ],
-          "answer": null
+          "answer": {
+            "type": "expression"
+          }
         }
       ],
       "answer": null,
@@ -850,7 +852,9 @@
               "content": "Find, in terms of a and b,"
             }
           ],
-          "answer": null
+          "answer": {
+            "type": "expression"
+          }
         },
         {
           "label": "(b)",

@@ -406,7 +406,9 @@
               }
             }
           ],
-          "answer": null
+          "answer": {
+            "type": "expression"
+          }
         }
       ],
       "answer": null,
@@ -504,7 +506,9 @@
               }
             }
           ],
-          "answer": null
+          "answer": {
+            "type": "expression"
+          }
         }
       ],
       "answer": null,
@@ -774,7 +778,9 @@
               }
             }
           ],
-          "answer": null
+          "answer": {
+            "type": "none"
+          }
         }
       ],
       "answer": null,

@@ -161,7 +161,9 @@
               "content": "Find"
             }
           ],
-          "answer": null
+          "answer": {
+            "type": "expression"
+          }
         },
         {
           "label": "(b)",
