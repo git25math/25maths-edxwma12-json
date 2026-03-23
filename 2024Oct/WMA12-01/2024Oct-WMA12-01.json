@@ -339,7 +339,7 @@
           "subparts": [
             {
               "label": "(i)",
-              "marks": null,
+              "marks": 1,
               "content": [
                 {
                   "type": "text",
@@ -352,7 +352,7 @@
             },
             {
               "label": "(ii)",
-              "marks": null,
+              "marks": 1,
               "content": [
                 {
                   "type": "text",
@@ -838,7 +838,7 @@
           "subparts": [
             {
               "label": "(i)",
-              "marks": null,
+              "marks": 1,
               "content": [
                 {
                   "type": "text",
@@ -852,7 +852,7 @@
             },
             {
               "label": "(ii)",
-              "marks": null,
+              "marks": 2,
               "content": [
                 {
                   "type": "text",

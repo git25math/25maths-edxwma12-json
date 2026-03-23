@@ -159,7 +159,7 @@
           "subparts": [
             {
               "label": "(i)",
-              "marks": null,
+              "marks": 2,
               "content": [
                 {
                   "type": "text",
@@ -172,7 +172,7 @@
             },
             {
               "label": "(ii)",
-              "marks": null,
+              "marks": 1,
               "content": [
                 {
                   "type": "text",
@@ -292,37 +292,6 @@
             {
               "type": "text",
               "content": "find"
-            }
-          ],
-          "subparts": [
-            {
-              "label": "(i)",
-              "marks": null,
-              "content": [
-                {
-                  "type": "text",
-                  "content": "the value of p"
-                }
-              ],
-              "answer": {
-                "type": "number"
-              }
-            },
-            {
-              "label": "(ii)",
-              "marks": null,
-              "content": [
-                {
-                  "type": "text",
-                  "content": "the value of C"
-                },
-                {
-                  "type": "space"
-                }
-              ],
-              "answer": {
-                "type": "number"
-              }
             }
           ],
           "answer": null
@@ -879,37 +848,6 @@
             {
               "type": "text",
               "content": "Find, in terms of a and b,"
-            }
-          ],
-          "subparts": [
-            {
-              "label": "(i)",
-              "marks": null,
-              "content": [
-                {
-                  "type": "text",
-                  "content": "$u_2$"
-                }
-              ],
-              "answer": {
-                "type": "expression"
-              }
-            },
-            {
-              "label": "(ii)",
-              "marks": null,
-              "content": [
-                {
-                  "type": "text",
-                  "content": "$u_3$"
-                },
-                {
-                  "type": "space"
-                }
-              ],
-              "answer": {
-                "type": "expression"
-              }
             }
           ],
           "answer": null

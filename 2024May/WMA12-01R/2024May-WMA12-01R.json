@@ -161,35 +161,6 @@
               "content": "Find"
             }
           ],
-          "subparts": [
-            {
-              "label": "(i)",
-              "marks": null,
-              "content": [
-                {
-                  "type": "text",
-                  "content": "the coordinates of the centre of the circle,"
-                }
-              ],
-              "answer": {
-                "type": "coordinate",
-                "fields": 2
-              }
-            },
-            {
-              "label": "(ii)",
-              "marks": null,
-              "content": [
-                {
-                  "type": "text",
-                  "content": "the radius of the circle."
-                }
-              ],
-              "answer": {
-                "type": "expression"
-              }
-            }
-          ],
           "answer": null
         },
         {
@@ -370,7 +341,7 @@
           "subparts": [
             {
               "label": "(i)",
-              "marks": null,
+              "marks": 2,
               "content": [
                 {
                   "type": "text",
@@ -383,7 +354,7 @@
             },
             {
               "label": "(ii)",
-              "marks": null,
+              "marks": 3,
               "content": [
                 {
                   "type": "text",

@@ -64,34 +64,6 @@
               "content": "On Diagram 1, sketch the curve with equation"
             }
           ],
-          "subparts": [
-            {
-              "label": "(i)",
-              "marks": 0,
-              "content": [
-                {
-                  "type": "text",
-                  "content": "$y = 2^x$"
-                }
-              ],
-              "answer": {
-                "type": "none"
-              }
-            },
-            {
-              "label": "(ii)",
-              "marks": 0,
-              "content": [
-                {
-                  "type": "text",
-                  "content": "$y = 4^{x – 6}$"
-                }
-              ],
-              "answer": {
-                "type": "none"
-              }
-            }
-          ],
           "answer": {
             "type": "none"
           }

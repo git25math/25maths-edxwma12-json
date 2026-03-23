@@ -43,42 +43,6 @@
               "content": "Find, in simplest form,"
             }
           ],
-          "subparts": [
-            {
-              "label": "(i)",
-              "marks": null,
-              "content": [
-                {
-                  "type": "text",
-                  "content": "the value of k"
-                },
-                {
-                  "type": "space",
-                  "height": "1cm"
-                }
-              ],
-              "answer": {
-                "type": "number"
-              }
-            },
-            {
-              "label": "(ii)",
-              "marks": null,
-              "content": [
-                {
-                  "type": "text",
-                  "content": "the value of p"
-                },
-                {
-                  "type": "space",
-                  "height": "1cm"
-                }
-              ],
-              "answer": {
-                "type": "number"
-              }
-            }
-          ],
           "answer": null
         },
         {
@@ -260,42 +224,6 @@
               "content": "Using the answer to part (a) and making your method clear, estimate the value of"
             }
           ],
-          "subparts": [
-            {
-              "label": "(i)",
-              "marks": null,
-              "content": [
-                {
-                  "type": "text",
-                  "content": "$\\int_{2}^{14} \\log_{10} x \\, dx$"
-                },
-                {
-                  "type": "space",
-                  "height": "1cm"
-                }
-              ],
-              "answer": {
-                "type": "number"
-              }
-            },
-            {
-              "label": "(ii)",
-              "marks": null,
-              "content": [
-                {
-                  "type": "text",
-                  "content": "$\\int_{2}^{14} \\log_{10} (100x^3) \\, dx$"
-                },
-                {
-                  "type": "space",
-                  "height": "1cm"
-                }
-              ],
-              "answer": {
-                "type": "number"
-              }
-            }
-          ],
           "answer": null
         }
       ],
@@ -353,42 +281,6 @@
             {
               "type": "text",
               "content": "Hence,"
-            }
-          ],
-          "subparts": [
-            {
-              "label": "(i)",
-              "marks": null,
-              "content": [
-                {
-                  "type": "text",
-                  "content": "factorise $f(x)$"
-                },
-                {
-                  "type": "space",
-                  "height": "1cm"
-                }
-              ],
-              "answer": {
-                "type": "expression"
-              }
-            },
-            {
-              "label": "(ii)",
-              "marks": null,
-              "content": [
-                {
-                  "type": "text",
-                  "content": "show that the equation $f(x) = 0$ has only one real root."
-                },
-                {
-                  "type": "space",
-                  "height": "1cm"
-                }
-              ],
-              "answer": {
-                "type": "none"
-              }
             }
           ],
           "answer": null
