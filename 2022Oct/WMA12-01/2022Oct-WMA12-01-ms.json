@@ -1,0 +1,744 @@
+{
+  "v": "1.0",
+  "paper": "2022Oct-WMA12-01",
+  "board": "edx",
+  "code": "WMA12",
+  "year": 2022,
+  "session": "Oct",
+  "paperNum": "01",
+  "totalMarks": 75,
+  "questions": [
+    {
+      "qnum": 1,
+      "marks": 3,
+      "answer": "a b c (abc)\n6 1 3 (18)\n4 2 4 (32)\n2 3 5 (30)\nAll products are even, hence the product of a, b and c is even.",
+      "markAllocation": [
+        {
+          "code": "B1",
+          "type": "B",
+          "value": 1,
+          "criterion": "Any one correct row for b = 1, b = 2 or b = 3. Products do not need to be found for this mark."
+        },
+        {
+          "code": "M1",
+          "type": "M",
+          "value": 1,
+          "criterion": "Attempts the product abc for at least 2 valid combinations."
+        },
+        {
+          "code": "A1",
+          "type": "A",
+          "value": 1,
+          "criterion": "Finds all three valid combinations with correct products seen and somewhere/shows why this is exhaustive and concludes. *"
+        }
+      ],
+      "guidance": "Numerical approach using the table:\nB1: Any one correct row for b = 1, b = 2 or b = 3. Products do not need to be found for this mark.\nM1: Attempts the product abc for at least 2 valid combinations.\nA1*: Requires:\n• All three valid combinations with correct products\n• No other combinations shown unless they are crossed out or e.g. have a cross at the end of the row or are discounted in some way\n• A (minimal) conclusion e.g. the product of a, b and c is even, hence proven, QED, hence it is even, each product stated as even, etc.\nAlgebraic/logic approach:\nB1: Uses the information to obtain a correct equation connecting a and b e.g. $a + 2b = 8$, $a = 8 - 2b$\nM1: States a must be even and considers the product abc in some way\nA1*: States e.g. abc is even with a reason e.g. “even $\\times$ anything is even”\nPure Algebraic approach:\nB1: Uses the information to obtain a correct equation connecting a and b e.g. $a + 2b = 8$, $a = 8 - 2b$\nM1: Attempts the product of a, b and c in terms of b (or some other letter) $(8-2b)b(b+2)$\nA1*: Concludes abc is even and makes a (minimal) conclusion. There must be no algebraic errors. $(8-2b)b(b+2) = 2(4-b)b(b+2)$ which is even, hence proven, QED etc.\nNB using this approach “$abc = -2b^3 + 4b^2 + 16b$ which is even hence proven” is not sufficient – they would need to say e.g. which is even + even + even or factor out the 2."
+    },
+    {
+      "qnum": 2,
+      "marks": 7,
+      "parts": [
+        {
+          "label": "(a)",
+          "marks": 2,
+          "answer": "$k=\\frac{2}{5}$",
+          "markAllocation": [
+            {
+              "code": "M1",
+              "type": "M",
+              "value": 1,
+              "criterion": "Substitutes $x=\\frac{4}{5}$ into $f(x)$, equates to $\\frac{243}{32}$ and attempts to make k the subject by taking the 5th root of both sides."
+            },
+            {
+              "code": "A1",
+              "type": "A",
+              "value": 1,
+              "criterion": "$k=\\frac{2}{5}$ with no errors and sufficient working shown. *"
+            }
+          ],
+          "guidance": "Accept as a minimum $(2-\\frac{4k}{5})^5 = \\frac{243}{32} \\Rightarrow (2-\\frac{4k}{5}) = \\frac{3}{2} \\Rightarrow k=\\frac{2}{5}$. Note that just $(2-\\frac{4k}{5})^5 = \\frac{243}{32} \\Rightarrow k=\\frac{2}{5}$ scores no marks as the minimum for the M mark requires taking the 5th root of both sides.\nAlternative by verification:\nM1: Substitutes $k=\\frac{2}{5}$ and $x=\\frac{4}{5}$ and attempts to raise an evaluated $2-kx$ to the power of 5.\nA1: Fully correct work and makes a (minimal) conclusion e.g. Hence proven, QED, Therefore true, etc. Note that just $(2-\\frac{2}{5} \\times \\frac{4}{5})^5 = \\frac{243}{32}$ or $(2-\\frac{8}{25})^5 = (\\frac{42}{25})^5$ scores no marks as the $2-k \\times \\frac{4}{5}$ or $2-\\frac{8}{25}$ must be evaluated for the M mark."
+        },
+        {
+          "label": "(b)",
+          "marks": 3,
+          "answer": "$32 - \\frac{64}{5}x + \\frac{32}{5}x^2$",
+          "markAllocation": [
+            {
+              "code": "M1",
+              "type": "M",
+              "value": 1,
+              "criterion": "Attempts the binomial expansion to obtain the correct structure for the x or $x^2$ term i.e. the correct binomial coefficient with the correct power of 2 and the correct power of $\\pm \\frac{2}{5}x$. The binomial coefficients do not have to be evaluated but must be correct if they are. If awarding this mark for the $x^2$ term you can condone missing brackets e.g. $^5C_2 \\times 2^3 \\times (\\pm \\frac{2}{5}x)^2$."
+            },
+            {
+              "code": "A1",
+              "type": "A",
+              "value": 1,
+              "criterion": "For the correct simplified x or $x^2$ term i.e. $-\\frac{64}{5}x$ or $+\\frac{32}{5}x^2$."
+            },
+            {
+              "code": "A1",
+              "type": "A",
+              "value": 1,
+              "criterion": "For $32 - \\frac{64}{5}x + \\frac{32}{5}x^2$ which may be written as a list. Allow equivalents for $\\frac{64}{5}$ e.g. 12.8. Condone $(32 + (-\\frac{64}{5}x) + \\frac{32}{5}x^2)$. Ignore any extra terms but do not isw – mark their final answer. If they don’t simplify in (b) do not allow simplified terms in (c) as recovery."
+            }
+          ],
+          "guidance": "Alternative takes out a power of 2: $(2-\\frac{2}{5}x)^5 = 2^5(1-\\frac{1}{5}x)^5 = 32(1+5(-\\frac{1}{5}x) + \\frac{5 \\times 4}{2}(-\\frac{1}{5}x)^2 + ...) = 32(1-x+\\frac{2}{5}x^2+...)$. Score M1 for $32(1 \\pm 5 \\times (\\pm \\frac{1}{5}x) + ...)$ or $32(1 \\pm \\frac{5 \\times 4}{2} \\times (\\pm \\frac{1}{5}x)^2 + ...)$ condoning $(\\pm \\frac{1}{5}x)^2$ as above. Then A marks as above."
+        },
+        {
+          "label": "(c)",
+          "marks": 2,
+          "answer": "$f'(0) = -32$",
+          "markAllocation": [
+            {
+              "code": "M1",
+              "type": "M",
+              "value": 1,
+              "criterion": "Attempts to differentiate their expansion and substitutes $x=0$ which may be implied. For the differentiation, look for $x^n \\rightarrow x^{n-1}$ at least once including $k \\rightarrow 0$ or $kx \\rightarrow k$."
+            },
+            {
+              "code": "A1",
+              "type": "A",
+              "value": 1,
+              "criterion": "$-32$ following correct differentiation. Or follow through on their q provided the expansion in (b) was of the form $p+qx+rx^2$, $p,q,r \\ne 0$ and the differentiation is correct for their $p+qx+rx^2$ i.e. $q+2rx$."
+            }
+          ],
+          "guidance": "In part (c) you can also ignore any extra terms e.g. do not penalise if they have differentiated any of the extra terms incorrectly in an otherwise correct solution."
+        }
+      ]
+    },
+    {
+      "qnum": 3,
+      "marks": 7,
+      "parts": [
+        {
+          "label": "(a)",
+          "marks": 3,
+          "subparts": [
+            {
+              "label": "(i)",
+              "marks": 1,
+              "answer": "$a_1 = \\frac{1}{4}$",
+              "markAllocation": [
+                {
+                  "code": "B1",
+                  "type": "B",
+                  "value": 1,
+                  "criterion": "$\\frac{1}{4}$ or 0.25"
+                }
+              ],
+              "guidance": ""
+            },
+            {
+              "label": "(ii)",
+              "marks": 1,
+              "answer": "$a_2 = \\frac{1}{4}$",
+              "markAllocation": [
+                {
+                  "code": "B1",
+                  "type": "B",
+                  "value": 1,
+                  "criterion": "$\\frac{1}{4}$ or 0.25"
+                }
+              ],
+              "guidance": ""
+            },
+            {
+              "label": "(iii)",
+              "marks": 1,
+              "answer": "$a_3 = 1$",
+              "markAllocation": [
+                {
+                  "code": "B1",
+                  "type": "B",
+                  "value": 1,
+                  "criterion": "1 (which has clearly not come from a rounded degrees decimal answer)"
+                }
+              ],
+              "guidance": "Note that use of degrees gives $a_1=0.9996659868..., a_2=0.9986643935..., a_3=0.9969965583...$ and scores no marks."
+            }
+          ]
+        },
+        {
+          "label": "(b)",
+          "marks": 4,
+          "answer": "$\\frac{2599}{2}$",
+          "markAllocation": [
+            {
+              "code": "M1",
+              "type": "M",
+              "value": 1,
+              "criterion": "Correct attempt to find the sum of $1+2+3+...+50$"
+            },
+            {
+              "code": "A1",
+              "type": "A",
+              "value": 1,
+              "criterion": "$[\\frac{50}{2}(2+49)]$ or e.g. $[\\frac{50}{2}(1+50)]$ or 1275. Award for any correct numerical expression or for 1275. May be implied or may be seen as part of a complete calculation. A correct answer only of 1275 implies both of the first 2 marks."
+            },
+            {
+              "code": "M1",
+              "type": "M",
+              "value": 1,
+              "criterion": "Correct attempt to find $\\sum_{n=1}^{50} \\cos(\\frac{n\\pi}{3})$ e.g. by $17 \\times \\frac{1}{4} + 16 \\times 1$ or $17 \\times \\frac{1}{4} + 17 \\times 1 + 16 \\times \\frac{1}{4}$ or $16 \\times (\\frac{1}{4}+\\frac{1}{4}+\\frac{1}{4}+\\frac{1}{4}) + \\frac{1}{4}$ or $17 \\times (\\frac{1}{4}+\\frac{1}{4}) - 1$. Must be a correct method for the correct sequence, e.g. $\\frac{1}{4}+\\frac{1}{4}+\\frac{1}{4}+\\frac{1}{4}+\\frac{1}{4}+\\frac{1}{4}+\\frac{1}{4}+\\frac{1}{4}+...$. If they just write down 49/2 this scores M0"
+            },
+            {
+              "code": "A1",
+              "type": "A",
+              "value": 1,
+              "criterion": "$\\frac{2599}{2}$ or exact equivalent e.g. 1299.5. Isw once a correct answer is seen."
+            }
+          ],
+          "guidance": "Note that a method must be seen in part (b) as stated in the question. Correct answer only of 2599/2 scores no marks."
+        }
+      ]
+    },
+    {
+      "qnum": 4,
+      "marks": 8,
+      "parts": [
+        {
+          "label": "(a)",
+          "marks": 3,
+          "answer": "$a = 2^{1/10} \\approx 1.07177...$",
+          "markAllocation": [
+            {
+              "code": "M1",
+              "type": "M",
+              "value": 1,
+              "criterion": "Substitutes $t=3$ and $w=10$ into the equation and achieves $\\log_a 2 = 10$ or e.g. $\\log_a 8 = 4$ correctly"
+            },
+            {
+              "code": "M1",
+              "type": "M",
+              "value": 1,
+              "criterion": "Correctly removes the log to obtain $a^{10} = 2$"
+            },
+            {
+              "code": "A1",
+              "type": "A",
+              "value": 1,
+              "criterion": "Fully correct proof showing $a = 2^{1/10}$ and obtains awrt 1.072. Note that this may be implied by the accuracy of their a e.g. 1.071773463… so allow for 1.0718 (rounded) or 1.0717 (truncated). *"
+            }
+          ],
+          "guidance": "May also see logarithm approach e.g. $\\log_a 2 = 10 \\Rightarrow \\frac{\\log 2}{\\log a} = 10 \\Rightarrow \\log a = \\frac{\\log 2}{10} \\Rightarrow a = 10^{\\frac{\\log 2}{10}} = ...$ or $\\ln a = \\frac{\\ln 2}{10} \\Rightarrow a = e^{\\frac{\\ln 2}{10}} = ...$\nFalse solutions in (a):\n$\\log_a 8 - \\log_a 4 = 10 \\Rightarrow \\log_a 2 = 10 \\Rightarrow a = 2^{1/10} = 1.072$. Scores M0M1A0\n$8\\log_a 2 - 4\\log_a 2 = 10 \\Rightarrow 4\\log_a 2 = 10 \\Rightarrow \\log_a 2 = 10/4 \\Rightarrow a = 2^{4/10} = 2^{2/5} = 1.319$. Scores no marks"
+        },
+        {
+          "label": "(b)",
+          "marks": 3,
+          "answer": "$t = 4 \\times 1.072^w - 5$",
+          "markAllocation": [
+            {
+              "code": "M1",
+              "type": "M",
+              "value": 1,
+              "criterion": "Applies the subtraction law for logs to write the equation as $\\log_{1.072} (\\frac{t+5}{4}) = w$"
+            },
+            {
+              "code": "M1",
+              "type": "M",
+              "value": 1,
+              "criterion": "Writes the equation as $(f(w) = t)$ and proceeds to make t the subject."
+            },
+            {
+              "code": "A1",
+              "type": "A",
+              "value": 1,
+              "criterion": "$t = 4 \\times 1.072^w - 5$"
+            }
+          ],
+          "guidance": "Alternative:\nM1: Rearranges to make $\\log_{1.072} (t+5)$ the subject correctly\nM1: Removes the logs on lhs to obtain $(g(w) = f(t))$\nA1: Correct equation. $\\log_{1.072} (\\frac{t+5}{4}) = w$\nIn both cases allow the use of “a” or a more accurate value for “a” rather than 1.072 for both method marks."
+        },
+        {
+          "label": "(c)",
+          "marks": 2,
+          "answer": "awrt 6.35",
+          "markAllocation": [
+            {
+              "code": "M1",
+              "type": "M",
+              "value": 1,
+              "criterion": "Substitutes $w=15$ into their equation from (b) or possibly the given equation $\\log_{1.072} w = \\log_{1.072} (t+5) - \\log_{1.072} 4$ and proceeds to find a value for t"
+            },
+            {
+              "code": "A1",
+              "type": "A",
+              "value": 1,
+              "criterion": "awrt 6.35 (months) (NB If full accuracy used for a answer is 6.3137… and scores A0). Ignore any units if given."
+            }
+          ],
+          "guidance": ""
+        }
+      ]
+    },
+    {
+      "qnum": 5,
+      "marks": 8,
+      "parts": [
+        {
+          "label": "(a)",
+          "marks": 3,
+          "answer": "$3\\sin^2\\theta + \\sin\\theta - 1 = 0$",
+          "markAllocation": [
+            {
+              "code": "M1",
+              "type": "M",
+              "value": 1,
+              "criterion": "Uses $\\tan\\theta = \\frac{\\sin\\theta}{\\cos\\theta}$ to write the equation in terms of sine and cosine only."
+            },
+            {
+              "code": "M1",
+              "type": "M",
+              "value": 1,
+              "criterion": "Uses $\\sin^2\\theta + \\cos^2\\theta = 1$ to obtain a quadratic equation in sine only."
+            },
+            {
+              "code": "A1",
+              "type": "A",
+              "value": 1,
+              "criterion": "Achieves $3\\sin^2\\theta + \\sin\\theta - 1 = 0$ with no errors. Condone one notational slip e.g. $3\\sin\\theta^2$ instead of $3\\sin^2\\theta$ or e.g. 3 sin for $3\\sin\\theta$ in the working but the printed answer must be correct but allow e.g. $0 = \\sin^2\\theta + 3\\sin\\theta - 1$. *"
+            }
+          ],
+          "guidance": ""
+        },
+        {
+          "label": "(b)",
+          "marks": 5,
+          "answer": "awrt 1.13, -0.438, 0.225, -1.35",
+          "markAllocation": [
+            {
+              "code": "M1",
+              "type": "M",
+              "value": 1,
+              "criterion": "Attempts to solve the quadratic $3\\sin^2\\theta + \\sin\\theta - 1 = 0$ which may be in any variable. Usual rules apply for solving a quadratic (via a calculator is also acceptable and may imply this mark). If no working is shown then the roots must be correct."
+            },
+            {
+              "code": "A1",
+              "type": "A",
+              "value": 1,
+              "criterion": "$\\frac{-1 \\pm \\sqrt{13}}{6}$ or a minimum of $\\frac{-1 \\pm \\sqrt{13}}{2 \\times 3}$ (or as decimals awrt 0.43 and awrt -0.77). Whether subsequently rejected or not. Ignore any labelling just look for these values."
+            },
+            {
+              "code": "M1",
+              "type": "M",
+              "value": 1,
+              "criterion": "Attempts to find one angle within the range by finding the inverse sine of one of their roots and dividing by 2. May be implied by their values and allow if working in degrees."
+            },
+            {
+              "code": "A1",
+              "type": "A",
+              "value": 1,
+              "criterion": "Any two of awrt 1.13, -0.438, 0.225, -1.35"
+            },
+            {
+              "code": "A1",
+              "type": "A",
+              "value": 1,
+              "criterion": "All four of awrt 1.13, -0.438, 0.225, -1.35 and no others in the range."
+            }
+          ],
+          "guidance": "Special case - answers in degrees: -64.9, -25.1, 12.9, 77.1. Score A1 for awrt any 2 of these and then A0 so a maximum of 7/8 for the question.\nNB allow answers to be found in degrees which are subsequently converted to radians but then left in terms of $\\pi$ e.g. $-64.9\\frac{\\pi}{180}$ etc. provided the answers round to the 1.13, -0.438, 0.225, -1.35.\nSome candidates are obtaining a different quadratic equation in (a) e.g. $3\\sin^2\\theta - \\sin\\theta - 1 = 0$. In such cases allow both M marks in (b) if they persist with their incorrect quadratic provided there are sign errors only e.g. $3\\sin^2\\theta \\pm \\sin\\theta \\pm 1 = 0$."
+        }
+      ]
+    },
+    {
+      "qnum": 6,
+      "marks": 7,
+      "parts": [
+        {
+          "label": "(a)",
+          "marks": 3,
+          "answer": "awrt 4.845",
+          "markAllocation": [
+            {
+              "code": "B1",
+              "type": "B",
+              "value": 1,
+              "criterion": "$h=0.5$ seen or implied."
+            },
+            {
+              "code": "M1",
+              "type": "M",
+              "value": 1,
+              "criterion": "A full attempt at the trapezium rule. Look for $\\frac{\\text{their } h}{2} \\{3+1.92+2(2.6833+2.4+2.1466)\\}$ but condone copying slips. Note that $\\frac{\\text{their } h}{2} 3+1.92+2(2.6833+2.4+2.1466)$ scores M0 unless the missing brackets are recovered or implied by their answer. (You may need to check). Allow this mark if they add the areas of individual trapezia e.g. $\\frac{\\text{their } h}{2} \\{3+2.6833\\} + \\frac{\\text{their } h}{2} \\{2.6833+2.4\\} + \\frac{\\text{their } h}{2} \\{2.4+2.1466\\} + \\frac{\\text{their } h}{2} \\{2.1466+1.92\\}$. Condone copying slips but must be a complete method using all the trapezia."
+            },
+            {
+              "code": "A1",
+              "type": "A",
+              "value": 1,
+              "criterion": "awrt 4.845. Apply isw once awrt 4.845 is seen."
+            }
+          ],
+          "guidance": ""
+        },
+        {
+          "label": "(b)",
+          "marks": 4,
+          "answer": "awrt 25.2%",
+          "markAllocation": [
+            {
+              "code": "M1",
+              "type": "M",
+              "value": 1,
+              "criterion": "Attempts to integrate $2-\\frac{1}{4}x^2$. Award for either $2x$ or $...x^3$."
+            },
+            {
+              "code": "A1",
+              "type": "A",
+              "value": 1,
+              "criterion": "$\\frac{10}{3}$ seen or implied."
+            },
+            {
+              "code": "dM1",
+              "type": "M",
+              "value": 1,
+              "criterion": "Attempts to find the difference (either way round) between their answer to part (a) and their attempt at the area under C2 which must be positive and divides by 6 (Must follow an attempt to integrate C2 and not an attempt to use the trapezium rule again)"
+            },
+            {
+              "code": "A1",
+              "type": "A",
+              "value": 1,
+              "criterion": "awrt 25.2(%) (the % symbol is not required). Do not allow -25.2% or e.g. 0.252. Allow $\\frac{907}{36}$ (%)"
+            }
+          ],
+          "guidance": "Some candidates are not doing the integration and are using their calculators for the area under C2. If they then go on and use the 10/3 to get awrt 25.2% then we will allow a Special Case of M0A0dM0A1"
+        }
+      ]
+    },
+    {
+      "qnum": 7,
+      "marks": 9,
+      "parts": [
+        {
+          "label": "(a)",
+          "marks": 3,
+          "answer": "$y = 4x^{7/2} - 26x^{5/2} + 4x^{3/2} - 10x^{1/2}$",
+          "markAllocation": [
+            {
+              "code": "M1",
+              "type": "M",
+              "value": 1,
+              "criterion": "Attempts to multiply out numerator (at least 2 correct terms obtained). May be done by e.g. 2 separate fractions."
+            },
+            {
+              "code": "A1",
+              "type": "A",
+              "value": 1,
+              "criterion": "Two of $4x^{7/2}, -26x^{5/2}, 4x^{3/2}, -10x^{1/2}$ where the coefficient may be unsimplified but the index must be processed so allow for any 2 of e.g. $\\frac{84}{21}x^{7/2}, -\\frac{12}{21}x^{5/2}, \\frac{182}{21}x^{3/2}, -\\frac{210}{21}x^{1/2}$"
+            },
+            {
+              "code": "A1",
+              "type": "A",
+              "value": 1,
+              "criterion": "$y = 4x^{7/2} - 26x^{5/2} + 4x^{3/2} - 10x^{1/2}$ or exact simplified equivalent. Allow as a list."
+            }
+          ],
+          "guidance": ""
+        },
+        {
+          "label": "(b)",
+          "marks": 3,
+          "answer": "$2x^3 - 10x^2 + 13x - 5 = 0$",
+          "markAllocation": [
+            {
+              "code": "M1",
+              "type": "M",
+              "value": 1,
+              "criterion": "Differentiates to achieve an expression of the form $\\frac{dy}{dx} = ...x^{5/2} \\pm ...x^{3/2} \\pm ...x^{1/2} \\pm ...x^{-1/2}$"
+            },
+            {
+              "code": "A1",
+              "type": "A",
+              "value": 1,
+              "criterion": "Correct differentiation $14x^{5/2} - 65x^{3/2} + 6x^{1/2} - 5x^{-1/2}$. Follow through their a, b, c and d with simplified coefficients. $\\frac{dy}{dx} = 0$ is not required."
+            },
+            {
+              "code": "A1",
+              "type": "A",
+              "value": 1,
+              "criterion": "$2x^3 - 10x^2 + 13x - 5 = 0$. Reaches this printed answer from a correct derivative where the “= 0” has appeared at least once before the final answer. Must be as shown and not just e.g. $x^{-1/2}(2x^3 - 10x^2 + 13x - 5) = 0$ but allow e.g. $x^{-1/2}(2x^3 - 10x^2 + 13x - 5) = 0$ followed by a minimal conclusion e.g. hence proven. *"
+            }
+          ],
+          "guidance": ""
+        },
+        {
+          "label": "(c)",
+          "marks": 3,
+          "answer": "$x = \\frac{4 \\pm \\sqrt{6}}{2}$",
+          "markAllocation": [
+            {
+              "code": "M1",
+              "type": "M",
+              "value": 1,
+              "criterion": "Uses $(x-1)$ is a factor to establish the quadratic factor. May be by inspection or long division leading to an expression of the form $2x^2 + \\alpha x + \\beta$"
+            },
+            {
+              "code": "A1",
+              "type": "A",
+              "value": 1,
+              "criterion": "Obtains the correct quadratic factor $2x^2 - 8x + 5$"
+            },
+            {
+              "code": "A1",
+              "type": "A",
+              "value": 1,
+              "criterion": "$x = \\frac{4 \\pm \\sqrt{6}}{2}$ or exact simplified equivalents e.g. $x = 2 \\pm \\frac{\\sqrt{6}}{2}$ or $x = \\frac{8 \\pm \\sqrt{24}}{4}$. (The roots may have been found using a calculator but the M1A1 must have been awarded)"
+            }
+          ],
+          "guidance": "Some candidates are doing the work for part (c) in part (b) so allow the marks for (c) to score in (b) i.e. mark parts (b) and (c) together."
+        }
+      ]
+    },
+    {
+      "qnum": 8,
+      "marks": 7,
+      "parts": [
+        {
+          "label": "(a)",
+          "marks": 2,
+          "answer": "$r = \\frac{2}{3}$",
+          "markAllocation": [
+            {
+              "code": "M1",
+              "type": "M",
+              "value": 1,
+              "criterion": "Sets $\\frac{a}{1-r} = 3a$, cancels all the a’s and attempts to rearrange to find a numerical value for r"
+            },
+            {
+              "code": "A1",
+              "type": "A",
+              "value": 1,
+              "criterion": "$r=\\frac{2}{3}$ with no errors and at least one intermediate step after $\\frac{a}{1-r} = 3a$. *"
+            }
+          ],
+          "guidance": "Alternative by verification:\nScore M1 for substituting $r=\\frac{2}{3}$ into a correct sum to infinity formula and obtaining 3a\nScore A1 for correct work followed by a (minimal) conclusion e.g. QED, proven, etc."
+        },
+        {
+          "label": "(b)",
+          "marks": 5,
+          "answer": "awrt 127.4",
+          "markAllocation": [
+            {
+              "code": "B1",
+              "type": "B",
+              "value": 1,
+              "criterion": "$ar^3 - ar = 16$ seen or implied."
+            },
+            {
+              "code": "M1",
+              "type": "M",
+              "value": 1,
+              "criterion": "Proceeds to a value for a from a linear equation in a using $r=\\frac{2}{3}$ and $ar^3 - ar = 16$. But condone use of $r=\\frac{2}{3}$ and $ar^2 - ar^4 = 16$."
+            },
+            {
+              "code": "A1",
+              "type": "A",
+              "value": 1,
+              "criterion": "$a=43.2$ or any equivalent correct numerical expression e.g. $16 \\times \\frac{27}{10}, \\frac{216}{5}$."
+            },
+            {
+              "code": "dM1",
+              "type": "M",
+              "value": 1,
+              "criterion": "Substitutes their a, $r=\\frac{2}{3}$ and n = 10 into the correct sum formula. (Also allow a correct and full attempt to calculate the sum of all 10 terms separately). It is dependent on the previous method mark."
+            },
+            {
+              "code": "A1",
+              "type": "A",
+              "value": 1,
+              "criterion": "awrt 127.4. For reference the exact answer is $\\frac{92840}{729}$."
+            }
+          ],
+          "guidance": "If candidates use $ar^3 + ar = 16$ rather than $ar^3 - ar = 16$ we will treat this as a copying slip and allow B0M1A0dM1A0 if the subsequent work merits it."
+        }
+      ]
+    },
+    {
+      "qnum": 9,
+      "marks": 12,
+      "parts": [
+        {
+          "label": "(a)",
+          "marks": 3,
+          "answer": "Centre is (3, 5)",
+          "markAllocation": [
+            {
+              "code": "M1",
+              "type": "M",
+              "value": 1,
+              "criterion": "Differentiates the equation of the curve and sets equal to 0 which may be implied by their attempt to solve below. Do not credit this differentiation in any other parts of the question. For the differentiation, look for at least 2 of $x^3 \\rightarrow ...x^2$, $-5x^2 \\rightarrow ...x$, $3x \\rightarrow 3$."
+            },
+            {
+              "code": "dM1",
+              "type": "M",
+              "value": 1,
+              "criterion": "Solves a 3 term quadratic equation by any valid means (including a calculator) and substitutes one of their roots in the original equation to find the y coordinate. Depends on the first mark."
+            },
+            {
+              "code": "A1",
+              "type": "A",
+              "value": 1,
+              "criterion": "Correct coordinates (3, 5) or e.g. x = 3, y = 5 (Ignore any work with e.g. $x=\\frac{1}{3}$ and ignore any work attempting to prove maximum/minimum points – just look for correct coordinates identified)"
+            }
+          ],
+          "guidance": ""
+        },
+        {
+          "label": "(b)",
+          "marks": 3,
+          "answer": "$(x-3)^2 + (y-5)^2 = 10$",
+          "markAllocation": [
+            {
+              "code": "B1",
+              "type": "B",
+              "value": 1,
+              "criterion": "y coordinate at A is 8 (Allow this to score anywhere)"
+            },
+            {
+              "code": "M1",
+              "type": "M",
+              "value": 1,
+              "criterion": "Attempts to find the radius of the circle (or radius$^2$) using (2,\"8\") and their minimum point. Score for $(2-\"3\")^2 + (\"8\"-\"5\")^2$ or equivalent correct work for their coordinates of T and A. You can ignore what they call it e.g. condone $radius^2 = (2-\"3\")^2 + (\"8\"-\"5\")^2$."
+            },
+            {
+              "code": "A1",
+              "type": "A",
+              "value": 1,
+              "criterion": "$(x-3)^2 + (y-5)^2 = 10$ oe e.g. $(x-3)^2 + (y-5)^2 = (\\sqrt{10})^2$, $(x-3)^2 + (y-5)^2 = 10$."
+            }
+          ],
+          "guidance": ""
+        },
+        {
+          "label": "(c)",
+          "marks": 3,
+          "answer": "$y = \\frac{1}{3}x + \\frac{22}{3}$",
+          "markAllocation": [
+            {
+              "code": "M1",
+              "type": "M",
+              "value": 1,
+              "criterion": "Attempts to find the gradient between A and T using their coordinates. Note that as the equation of the tangent is given we do not accept -3 just written down."
+            },
+            {
+              "code": "M1",
+              "type": "M",
+              "value": 1,
+              "criterion": "Attempts to find the equation of the straight line using x = 2, their y value at A and the negative reciprocal of what they think is the gradient of AT."
+            },
+            {
+              "code": "A1",
+              "type": "A",
+              "value": 1,
+              "criterion": "$y = \\frac{1}{3}x + \\frac{22}{3}$ with no errors and both previous method marks scored. *"
+            }
+          ],
+          "guidance": "Alternative for first M: $\\frac{dy}{dx} = \\frac{-(x-3)}{y-5} \\Rightarrow \\frac{dy}{dx} = \\frac{-(2-3)}{8-5} = \\frac{1}{3}$."
+        },
+        {
+          "label": "(d)",
+          "marks": 3,
+          "answer": "$\\frac{28}{3}$",
+          "markAllocation": [
+            {
+              "code": "M1",
+              "type": "M",
+              "value": 1,
+              "criterion": "Attempts to integrate the curve. Award for a power increasing by 1 on one of the terms."
+            },
+            {
+              "code": "dM1",
+              "type": "M",
+              "value": 1,
+              "criterion": "A correct method to find the shaded area: Substitutes in 2 (and 0) into the integrated function and subtracts either way round. May not see 0 substituted in. Attempts to find the shaded area by subtracting the area of the trapezium $\\frac{1}{2} \\times 2 \\times (\"8\" + \\frac{22}{3})$ from their area under the curve. It is dependent on the previous method mark. It must be a correct method for the area of the trapezium e.g. $\\frac{1}{2} \\times 2 \\times (\\text{their } y \\text{ at A} + \\frac{22}{3})$. Or e.g. rectangle + triangle: $2 \\times \\frac{22}{3} + \\frac{1}{2} \\times 2 \\times (\\text{their } y \\text{ at A} - \\frac{22}{3})$. Or by integration $\\int_0^2 (\\frac{1}{3}x + \\frac{22}{3}) dx = [\\frac{1}{6}x^2 + \\frac{22}{3}x]_0^2 = \\frac{4}{6} + \\frac{44}{3} = \\frac{2}{3} + \\frac{44}{3} = \\frac{46}{3}$."
+            },
+            {
+              "code": "A1",
+              "type": "A",
+              "value": 1,
+              "criterion": "$\\frac{28}{3}$ or exact equivalent cso"
+            }
+          ],
+          "guidance": "Alt(d) M1: Attempts to integrate (curve – line) or (line – curve). Award for the power increasing by 1 on one of the terms. dM1: A correct method to find the shaded area. Substitutes 2 (and 0) into the integrated function and subtracts either way round: $\\int_0^2 (x^3 - 5x^2 + 3x + 14 - (\\frac{1}{3}x + \\frac{22}{3})) dx = [\\frac{1}{4}x^4 - \\frac{5}{3}x^3 + \\frac{4}{3}x^2 + \\frac{20}{3}x]_0^2 = \\frac{1}{4}(2)^4 - \\frac{5}{3}(2)^3 + \\frac{4}{3}(2)^2 + \\frac{20}{3}(2) = ...$. You can condone slips when collecting terms or for a slip with brackets e.g. attempting: $\\int_0^2 (x^3 - 5x^2 + 3x + 14 - \\frac{1}{3}x + \\frac{22}{3}) dx$. A1: $\\frac{28}{3}$ or exact equivalent cso. With otherwise correct work leading to $-\\frac{28}{3}$ allow full marks if then made positive."
+        }
+      ]
+    },
+    {
+      "qnum": 10,
+      "marks": 7,
+      "parts": [
+        {
+          "label": "(i)",
+          "marks": 3,
+          "subparts": [
+            {
+              "label": "(a)",
+              "marks": 1,
+              "answer": "$2a$",
+              "markAllocation": [
+                {
+                  "code": "B1",
+                  "type": "B",
+                  "value": 1,
+                  "criterion": "$2a$"
+                }
+              ],
+              "guidance": ""
+            },
+            {
+              "label": "(b)",
+              "marks": 2,
+              "answer": "$2a-4$",
+              "markAllocation": [
+                {
+                  "code": "M1",
+                  "type": "M",
+                  "value": 1,
+                  "criterion": "Uses the subtraction rule for logs to write $\\log_2 (\\frac{3}{16}) = \\log_2 3 - \\log_2 16$ seen or implied."
+                },
+                {
+                  "code": "A1",
+                  "type": "A",
+                  "value": 1,
+                  "criterion": "$2a-4$"
+                }
+              ],
+              "guidance": "Do not isw here so if they reach $2a-4$ correctly and then say $a=8$ score M1A0"
+            }
+          ]
+        },
+        {
+          "label": "(ii)",
+          "marks": 4,
+          "answer": "$x = \\frac{a-3}{a+1}$",
+          "markAllocation": [
+            {
+              "code": "M1",
+              "type": "M",
+              "value": 1,
+              "criterion": "Takes logs (same base) of both sides and applies the addition rule for logs on the lhs. See possible rearrangements below which may be seen before the addition rule is applied."
+            },
+            {
+              "code": "dM1",
+              "type": "M",
+              "value": 1,
+              "criterion": "Correct method to make x the subject. Condone slips in rearrangement but there must be more than one term in x. Award for collecting terms in x on one side and non x terms on the other side, factorising and then dividing. Dependent on the first method mark."
+            },
+            {
+              "code": "B1",
+              "type": "B",
+              "value": 1,
+              "criterion": "The correct power law seen for logs. Allow this mark to score independently so sight of e.g. $\\log_2 (2^{4x}) = 4x\\log_2 2$, $\\log_2 (3^x) = x\\log_2 3$, $\\log_2 (6^x) = x\\log_2 6$, $\\log_2 (2^{4x}) = 4x$ etc. can score this mark. (Condone e.g. $\\log_2 2^{4x} = 4\\log_2 2^x$ for this mark)"
+            },
+            {
+              "code": "A1",
+              "type": "A",
+              "value": 1,
+              "criterion": "$\\frac{a-3}{a+1}$ or e.g. $\\frac{3-a}{-a-1}$"
+            }
+          ],
+          "guidance": "This general guidance will apply to most cases you will come across:\nM1: Takes logs (same base) of both sides and applies the addition rule for logs on the lhs. See possible rearrangements below which may be seen before the addition rule is applied.\ndM1: Correct method to make x the subject. Condone slips in rearrangement but there must be more than one term in x. Award for collecting terms in x on one side and non x terms on the other side, factorising and then dividing. Dependent on the first method mark.\nB1: The correct power law seen for logs. Allow this mark to score independently so sight of e.g. $\\log_2 2^{4x} = 4\\log_2 2$, $\\log_2 3^x = x\\log_2 3$, $\\log_2 6^x = x\\log_2 6$, $\\log_2 2^{4x} = 4x$ etc. can score this mark. (Condone e.g. $\\log_2 2^{4x} = 4\\log_2 2^x$ for this mark)\nA1: $\\frac{a-3}{a+1}$ or e.g. $\\frac{3-a}{-a-1}$\nNote that candidates are unlikely to be working in anything other than base 2 so you can condone the omission of the base throughout but see 3rd below the main scheme below.\nNote that for reference, $\\frac{a-3}{a+1} \\approx -0.54741122...$ which may be useful in some circumstances.\nAlternative not requiring the addition law:\nM1: Divides by $2^{4x}$, takes logs of both sides and writes $3^x \\times 2^x$ as $6^x$.\nB1: $\\log_2 6^x = x\\log_2 6$\ndM1: Makes x the subject\nA1: $\\frac{a-3}{a+1}$ or e.g. $\\frac{3-a}{-a-1}$\nAlternative not requiring logs:\nB1: $3 = 2^a \\Rightarrow a = \\log_2 3$\nM1: Attempts to write all terms as powers of 2\ndM1: Combines and equates powers and makes x the subject as in main scheme\nA1: $\\frac{a-3}{a+1}$ or e.g. $\\frac{3-a}{-a-1}$\nAlternative using change of base:\nM1: Divides by $2^{4x}$ and $3^x$ and takes logs of both sides\nB1: E.g. $\\log_2 2^{4x} = 4x$ or $\\log_2 3^x = x\\log_2 3$\ndM1: Changes to base 2 correctly and makes x the subject as main scheme\nA1: $\\frac{a-3}{a+1}$ or e.g. $\\frac{3-a}{-a-1}$\nAlternative using logs base 6:\nM1: Divides by $2^{4x}$, writes $3^x \\times 2^x$ as $6^x$ and takes logs base 6 of both sides which may be implied by e.g. $\\log_6 6^x = \\log_6 (\\frac{8}{3})$\nB1: For $\\log_6 6^x = x$ (may be implied)\ndM1: Changes to log base 2 correctly (and makes x the subject)\nA1: Correct expression"
+        }
+      ]
+    }
+  ]
+}

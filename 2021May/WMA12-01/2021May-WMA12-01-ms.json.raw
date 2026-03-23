@@ -1,0 +1,706 @@
+{
+  "v": "1.0",
+  "paper": "2021May-WMA12-01",
+  "board": "edx",
+  "code": "WMA12",
+  "year": 2021,
+  "session": "May",
+  "paperNum": "01",
+  "totalMarks": 75,
+  "questions": [
+    {
+      "qnum": 1,
+      "marks": 7,
+      "parts": [
+        {
+          "label": "(a)",
+          "marks": 3,
+          "answer": "(i) There is a common difference (no common ratio) and so an arithmetic series should be used.\n(ii) $u_n = 5 + 0.25(n-1)$ oe",
+          "markAllocation": [
+            {
+              "code": "B1",
+              "type": "B",
+              "value": 1,
+              "criterion": "Identifies that there is a common difference (e.g. goes up in equal amounts) between first and second, and second and third terms, or that the ratio between first and second, and second and third is not the same, and states arithmetic series/sequence to be used."
+            },
+            {
+              "code": "M1",
+              "type": "M",
+              "value": 1,
+              "criterion": "Attempts general term for A.S. with n or n – 1 used and their d (which need not be correct)."
+            },
+            {
+              "code": "A1",
+              "type": "A",
+              "value": 1,
+              "criterion": "Correct expression for general term, accept equivalents, eg $4.75 + 0.25n$. May use another label than $u_n$ or no label at all."
+            }
+          ],
+          "guidance": "Note: May use another label than $u_n$ or no label at all for A1. oe"
+        },
+        {
+          "label": "(b)",
+          "marks": 4,
+          "answer": "Need $S_n = \\frac{n}{2}(2a + (n-1)d) \\ge 350 \\Rightarrow \\frac{n}{2}(2 \\times 5 + (n-1) \\times 0.25) \\ge 350 \\Rightarrow 0.25n^2 + 9.75n - 700 \\ge 0 \\Rightarrow n^2 + 39n - 2800 \\ge 0 \\Rightarrow n \\approx 36.89$. So 37 weeks.",
+          "markAllocation": [
+            {
+              "code": "M1",
+              "type": "M",
+              "value": 1,
+              "criterion": "Uses the sum formula for A.S. with their a and d and equates to, or sets inequality with, 350. Accept with any inequality symbol or equality between."
+            },
+            {
+              "code": "A1",
+              "type": "A",
+              "value": 1,
+              "criterion": "Correct equation/inequality. Accept with any inequality symbol or equality between."
+            },
+            {
+              "code": "M1",
+              "type": "M",
+              "value": 1,
+              "criterion": "Forms and solves a 3 term quadratic (need not be gathered to one side). Any valid method (including calculator – you may need to check)."
+            },
+            {
+              "code": "A1",
+              "type": "A",
+              "value": 1,
+              "criterion": "37 weeks selected as answer."
+            }
+          ],
+          "guidance": "For attempts via listing, send to review. For use of geometric series: Case 1: If a student states arithmetic series but uses geometric series formulae, then only the B mark can be scored in (a), but in (b) allow M0A0M1A0 if a correct method is used to solve their equation $S_n = \\frac{a(r^n-1)}{r-1} \\ge 350$ (or with “=” or “<” etc) to find n (so $n = \\frac{\\log(70(r-1)+1)}{\\log r}$ oe). Case 2: If a student states a geometric series and gives a common ratio, then allow B0M1A0 in (a) for $u_n = ar^k$ with k = n or n – 1 and in (b) allow M1A0 for $S_n = \\frac{a(r^n-1)}{r-1} \\ge 350$ and then M1A0 for a correct method to solve this equation."
+        }
+      ]
+    },
+    {
+      "qnum": 2,
+      "marks": 8,
+      "parts": [
+        {
+          "label": "(a)",
+          "marks": 4,
+          "answer": "(i) Correct shape and position for $y = 2^x$. Crosses y axis with same intersection as $y = 4^x$ but with gentler slope.\n(ii) Graph of same shape as $y = 4^x$ but translated down. y intercept at $-5$. x intercept at $\\log_4 6$.",
+          "markAllocation": [
+            {
+              "code": "B1",
+              "type": "B",
+              "value": 1,
+              "criterion": "Correct shape and position for $y = 2^x$"
+            },
+            {
+              "code": "B1",
+              "type": "B",
+              "value": 1,
+              "criterion": "Graph of same shape as $y = 4^x$ but translated down"
+            },
+            {
+              "code": "B1",
+              "type": "B",
+              "value": 1,
+              "criterion": "y intercept at $-5$"
+            },
+            {
+              "code": "B1",
+              "type": "B",
+              "value": 1,
+              "criterion": "x intercept at $\\log_4 6$"
+            }
+          ],
+          "guidance": "Note: Be tolerant of “wobbles” in the graph if it is clear the correct shapes are meant, but the graph must not clearly bend away from the asymptotes. B1: Correct sketch for $y = 2^x$. This should be correct shape, but shallower gradient – look for crossing at same y intercept as $y = 4^x$, above $y = 4^x$ to the left of the y axis and below $y = 4^x$ to the right of the y axis. B1: Graph of $y = 4^x$ translated down by 6 units. Look for the same shape, always below $y = 4^x$ though be tolerant as the graph increases (accept if the graphs don’t “narrow” as shown). B1: Correct y intercepts of $-5$. B1: Correct x intercept of $\\log_4 6$. Accept equivalents such as $\\log 6 / \\log 4$ or awrt 1.29. Ignore any references to asymptotes for these marks."
+        },
+        {
+          "label": "(b)",
+          "marks": 4,
+          "answer": "$2^x = 4^x - 6$ or $y = y^2 - 6 \\Rightarrow y^2 - y - 6 = 0 \\Rightarrow (y-3)(y+2) = 0 \\Rightarrow y = 3, y = -2$. $2^x = 3$ (reject $2^x = -2$) $\\Rightarrow x = \\log_2 3$ oe",
+          "markAllocation": [
+            {
+              "code": "M1",
+              "type": "M",
+              "value": 1,
+              "criterion": "Sets the equations equal to form an equation in x only, or writes $4^x$ in terms of $2^x$ and substitutes to achieve an equation in y only."
+            },
+            {
+              "code": "M1",
+              "type": "M",
+              "value": 1,
+              "criterion": "Solves the equation to find a value for $2^x$ or y"
+            },
+            {
+              "code": "A1",
+              "type": "A",
+              "value": 1,
+              "criterion": "Correct y (or $2^x$) value of intersection. (May have second solution)"
+            },
+            {
+              "code": "A1",
+              "type": "A",
+              "value": 1,
+              "criterion": "Correct x value of intersection. Must have rejected second “solution”. Accept exact equivalents, such as $\\log 3 / \\log 2$ or $2\\log_4 3$."
+            }
+          ],
+          "guidance": "M1: Sets the equations equal to form an equation in x only, or writes $4^x$ in terms of $2^x$ and substitutes to achieve an equation in y only. M1: Solves the equation to find a value for $2^x$ or y. A1: Correct y (or $2^x$) value of intersection. (May have second solution). A1: Correct x value of intersection. Must have rejected second “solution”. Accept exact equivalents, such as $\\log 3 / \\log 2$ or $2\\log_4 3$."
+        }
+      ]
+    },
+    {
+      "qnum": 3,
+      "marks": 5,
+      "parts": [
+        {
+          "label": "(i)",
+          "marks": 2,
+          "answer": "For p = 2 : $2^3 + 2 = 10$; For p = 3 : $3^3 + 3 = 30$; For p = 5 : $5^3 + 5 = 130$; For p = 7 : $7^3 + 7 = 350$. Each case gives a multiple of 10. As 2,3,5 and 7 are the only single digit primes, the result has been proved for all single digit primes.",
+          "markAllocation": [
+            {
+              "code": "M1",
+              "type": "M",
+              "value": 1,
+              "criterion": "Checks result for at least three of the four single digit primes (2,3,5 and 7) – attaining a multiple of 10 is enough, no need to see the product. Allow if there are slips."
+            },
+            {
+              "code": "A1",
+              "type": "A",
+              "value": 1,
+              "criterion": "All four cases correctly checked, with minimal conclusion that the result is true. Ignore checks on non-prime values such as p = 8 which gives $8^3 + 8 = 520$, but award A0 if the case p = 1, leads to a conclusion that the result is not true."
+            }
+          ],
+          "guidance": "M1: Checks result for at least three of the four single digit primes (2,3,5 and 7) – attaining a multiple of 10 is enough, no need to see the product. Allow if there are slips. A1: All four cases correctly checked, with minimal conclusion that the result is true. Ignore checks on non-prime values such as p = 8 which gives $8^3 + 8 = 520$, but award A0 if the case p = 1, leads to a conclusion that the result is not true."
+        },
+        {
+          "label": "(ii)",
+          "marks": 3,
+          "answer": "$(n+1)^3 - n^3 = (n^3 + 3n^2 + 3n + 1) - n^3 = 3n^2 + 3n + 1 = 3n(n+1) + 1$ which is one more than a multiple of 3, so is not divisible by 3 for any $n \\in \\mathbb{N}$.",
+          "markAllocation": [
+            {
+              "code": "M1",
+              "type": "M",
+              "value": 1,
+              "criterion": "Expands to a four term cubic (may have incorrect coefficients) and then cancels the $n^3$ terms (if n = 2k and n= 2k + 1 are used, both must be attempted.)"
+            },
+            {
+              "code": "A1",
+              "type": "A",
+              "value": 1,
+              "criterion": "Correct quadratic in n. (Both correct if n = 2k and n= 2k + 1 are used)"
+            },
+            {
+              "code": "A1",
+              "type": "A",
+              "value": 1,
+              "criterion": "Correct explanation and conclusion given. For the explanation accept e.g factors out 3 from the relevant terms to achieve a form $3n(n+1) + 1$ which is one more than a multiple of 3, or explains each term other than 1 is divisible by 3."
+            }
+          ],
+          "guidance": "M1: Expands to a four term cubic (may have incorrect coefficients) and then cancels the $n^3$ terms (if n = 2k and n= 2k + 1 are used, both must be attempted.) A1: Correct quadratic in n. (Both correct if n = 2k and n= 2k + 1 are used) A1: Correct explanation and conclusion given. For the explanation accept e.g factors out 3 from the relevant terms to achieve a form $3n(n+1) + 1$ which is one more than a multiple of 3, or explains each term other than 1 is divisible by 3."
+        }
+      ]
+    },
+    {
+      "qnum": 4,
+      "marks": 8,
+      "parts": [
+        {
+          "label": "(a)",
+          "marks": 4,
+          "answer": "$(2 + \\frac{x}{8})^{13} = 2^{13} + \\binom{13}{1} 2^{12} (\\frac{x}{8})^1 + \\binom{13}{2} 2^{11} (\\frac{x}{8})^2 + \\binom{13}{3} 2^{10} (\\frac{x}{8})^3 + ... = 8192 + 6656x + 2496x^2 + 572x^3 + ...$",
+          "markAllocation": [
+            {
+              "code": "B1",
+              "type": "B",
+              "value": 1,
+              "criterion": "For the correct constant term of 8192 in their expression. Do not accept $2^{13}$"
+            },
+            {
+              "code": "M1",
+              "type": "M",
+              "value": 1,
+              "criterion": "Correct binomial coefficients linked with correct powers of x at least twice in the x, $x^2$ and $x^3$ terms in their expansion. Accept alternative notation, such as $\\binom{13}{1}$ or just 13 etc, for the coefficients. (The power 1 need not be seen.) The powers of 2 and the 8’s may be missing or incorrect."
+            },
+            {
+              "code": "A1",
+              "type": "A",
+              "value": 1,
+              "criterion": "Any two of the final three terms correct."
+            },
+            {
+              "code": "A1",
+              "type": "A",
+              "value": 1,
+              "criterion": "All three of the final terms correct."
+            }
+          ],
+          "guidance": "B1: For the correct constant term of 8192 in their expression. Do not accept $2^{13}$. M1: Correct binomial coefficients linked with correct powers of x at least twice in the x, $x^2$ and $x^3$ terms in their expansion. Accept alternative notation, such as $\\binom{13}{1}$ or just 13 etc, for the coefficients. (The power 1 need not be seen.) The powers of 2 and the 8’s may be missing or incorrect. A1: Any two of the final three terms correct. (See also note below.) A1: All three of the final terms correct. Note: Students may attempt to take out a common factor of $2^{13}$ first. In such cases the B mark is for correct constant term in their final expansion, M follows as above, correct coefficients linked to correct powers of x. The first A can be awarded as above or SC $8192(1 + \\frac{13}{16}x + \\frac{39}{128}x^2 + \\frac{143}{2048}x^3 + ...)$ (oe), final A as scheme"
+        },
+        {
+          "label": "(b)",
+          "marks": 3,
+          "answer": "$x = 0.1$. $(2.0125)^{13} \\approx 8192 + 6656(0.1) + 2496(0.1)^2 + 572(0.1)^3 = 8192 + 665.6 + 24.96 + 0.572 = 8883.132$ cao",
+          "markAllocation": [
+            {
+              "code": "B1",
+              "type": "B",
+              "value": 1,
+              "criterion": "Identifies x = 0.1 needs to be substituted into the expression."
+            },
+            {
+              "code": "M1",
+              "type": "M",
+              "value": 1,
+              "criterion": "Substitutes their x = 0.1 into their answer to (a)."
+            },
+            {
+              "code": "A1",
+              "type": "A",
+              "value": 1,
+              "criterion": "Correct answer only, must be to 3 dp."
+            }
+          ],
+          "guidance": "B1: Identifies x = 0.1 needs to be substituted into the expression. M1: Substitutes their x = 0.1 into their answer to (a). A1: Correct answer only, must be to 3 dp."
+        },
+        {
+          "label": "(c)",
+          "marks": 1,
+          "answer": "As all the terms in the expansion are positive, the truncated series will give an underestimate of the actual value.",
+          "markAllocation": [
+            {
+              "code": "B1",
+              "type": "B",
+              "value": 1,
+              "criterion": "States or implies underestimate with correct explanation of why the answer found is an underestimate. Must refer to terms in the expansion being positive or equivalent wording. Do not accept just “as adding more terms” without reference to the terms being non-negative."
+            }
+          ],
+          "guidance": "B1: States or implies underestimate with correct explanation of why the answer found is an underestimate. Must refer to terms in the expansion being positive or equivalent wording. Do not accept just “as adding more terms” without reference to the terms being non-negative. If all that is done is a comparison with the true value, then B0."
+        }
+      ]
+    },
+    {
+      "qnum": 5,
+      "marks": 10,
+      "parts": [
+        {
+          "label": "(a)",
+          "marks": 4,
+          "answer": "$h = 0.25$. $A \\approx \\frac{1}{2} \\times \\frac{1}{4} \\{5.453 + 7.626 + 2(7.764 + 9.375 + 9.964 + 9.367 + 7.626)\\} = \\text{awrt } 12.33$",
+          "markAllocation": [
+            {
+              "code": "B1",
+              "type": "B",
+              "value": 1,
+              "criterion": "For using h = 0.25 or equivalent. Score for sight of h = 0.25 or $\\frac{1}{2} \\times \\frac{1}{4}$ or just $\\frac{1}{8}$ outside the brackets."
+            },
+            {
+              "code": "M1",
+              "type": "M",
+              "value": 1,
+              "criterion": "Correct bracket structure for the trapezium rule. Look for “h/2”(first + last y values + 2(attempt at sum of remaining values)). If one value is missing, allow the M as a slip, but M0 if 1st or last value repeated. Must be y values used. Incorrect/invisible external bracketing may be recovered by implication."
+            },
+            {
+              "code": "A1",
+              "type": "A",
+              "value": 1,
+              "criterion": "Correct bracket “h/2”{…} with all 7 y values used, though allow a minor miscopy of a term if it is clear the correct value is meant. May be implied by the correct answer."
+            },
+            {
+              "code": "A1",
+              "type": "A",
+              "value": 1,
+              "criterion": "awrt 12.33"
+            }
+          ],
+          "guidance": "B1: For using h = 0.25 or equivalent. Score for sight of h = 0.25 or $\\frac{1}{2} \\times \\frac{1}{4}$ or just $\\frac{1}{8}$ outside the brackets. M1: Correct bracket structure for the trapezium rule. Look for “h/2”(first + last y values + 2(attempt at sum of remaining values)). If one value is missing, allow the M as a slip, but M0 if 1st or last value repeated. Must be y values used. Incorrect/invisible external bracketing may be recovered by implication. A1: Correct bracket “h/2”{…} with all 7 y values used, though allow a minor miscopy of a term if it is clear the correct value is meant. May be implied by the correct answer. A1: awrt 12.33"
+        },
+        {
+          "label": "(b)",
+          "marks": 3,
+          "answer": "$\\int (x^2 - \\frac{5}{x^2} + \\frac{2}{x^3}) dx = \\int (x^2 - 5x^{-2} + 2x^{-3}) dx = \\frac{x^3}{3} + \\frac{5}{x} - \\frac{1}{x^2} + c$",
+          "markAllocation": [
+            {
+              "code": "M1",
+              "type": "M",
+              "value": 1,
+              "criterion": "Attempts to integrate. Power to increase by 1 in at least two terms."
+            },
+            {
+              "code": "A1",
+              "type": "A",
+              "value": 1,
+              "criterion": "Any two terms correct."
+            },
+            {
+              "code": "A1",
+              "type": "A",
+              "value": 1,
+              "criterion": "Fully correct. No need for constant of integration. Need not be simplified."
+            }
+          ],
+          "guidance": "M1: Attempts to integrate. Power to increase by 1 in at least two terms. A1: Any two terms correct. A1: Fully correct. No need for constant of integration. Need not be simplified."
+        },
+        {
+          "label": "(c)",
+          "marks": 3,
+          "answer": "$[\\frac{x^3}{3} + \\frac{5}{x} - \\frac{1}{x^2}]_2^4 = (\\frac{4^3}{3} + \\frac{5}{4} - \\frac{1}{4^2}) - (\\frac{2^3}{3} + \\frac{5}{2} - \\frac{1}{2^2}) = 24.8 - 17.077... = 7.722...$. Area R = “12.33” – “7.722” = awrt 4.6",
+          "markAllocation": [
+            {
+              "code": "M1",
+              "type": "M",
+              "value": 1,
+              "criterion": "Applies limits of 2.5 and 4 to their answer to (b) to get the area under C2. Limits may be either way around for this mark. May be implied by awrt 7.72 and allow if scored from a calculator."
+            },
+            {
+              "code": "M1",
+              "type": "M",
+              "value": 1,
+              "criterion": "Subtracts their area under C2 from the answer to (a). Must be subtracting a positive number from “12.33”, so if the limits were the wrong way round (or a negative answer was found in error), the answer must be made positive before subtracting."
+            },
+            {
+              "code": "A1",
+              "type": "A",
+              "value": 1,
+              "criterion": "for awrt 4.6 following a correct answer to (a)."
+            }
+          ],
+          "guidance": "M1: Applies limits of 2.5 and 4 to their answer to (b) to get the area under C2. Limits may be either way around for this mark. May be implied by awrt 7.72 and allow if scored from a calculator. M1: Subtracts their area under C2 from the answer to (a). Must be subtracting a positive number from “12.33”, so if the limits were the wrong way round (or a negative answer was found in error), the answer must be made positive before subtracting. A1: for awrt 4.6 following a correct answer to (a)."
+        }
+      ]
+    },
+    {
+      "qnum": 6,
+      "marks": 7,
+      "parts": [
+        {
+          "label": "(a)",
+          "marks": 3,
+          "answer": "Way 1: $(x-3)^2 + (y-4)^2 = 25 - k$. Radius must be 4. $25 - k = 16 \\Rightarrow k = 9$. Way 2: $y = 0 \\Rightarrow x^2 - 6x + k = 0$. Has one solution. Discriminant $b^2 - 4ac = (-6)^2 - 4(1)(k) = 0 \\Rightarrow 36 - 4k = 0 \\Rightarrow k = 9$.",
+          "markAllocation": [
+            {
+              "code": "M1",
+              "type": "M",
+              "value": 1,
+              "criterion": "Attempts to complete square on both terms. May be implied by a centre of $(\\pm 3, \\pm 4)$"
+            },
+            {
+              "code": "M1",
+              "type": "M",
+              "value": 1,
+              "criterion": "Uses a valid method to find k, e.g. y coordinate of centre and sets \"9\" + \"16\" - k = |their “4”|$^2$. Can be implied by sight of k = (their x coordinate of centre)$^2$."
+            },
+            {
+              "code": "A1",
+              "type": "A",
+              "value": 1,
+              "criterion": "Correct value for k"
+            }
+          ],
+          "guidance": "Way 1 M1: Attempts to complete square on both terms. May be implied by a centre of $(3, \\pm 4)$. M1: Uses a valid method to find k, e.g. y coordinate of centre and sets \"9\" + \"16\" - k = |their “4”|$^2$. Can be implied by sight of k = (their x coordinate of centre)$^2$. A1: Correct value for k. Way 2 M1: Substitutes equation for x axis (y = 0) into the circle equation. M1: Sets the discriminant of the resulting quadratic to 0 (since as a tangent there is only one point of intersection). A1: Correct value for k."
+        },
+        {
+          "label": "(b)",
+          "marks": 4,
+          "answer": "C intersects x axis at (3,0). Intersects y axis when $x=0 \\Rightarrow y^2 - 8y + 9 = 0 \\Rightarrow y = \\frac{8 \\pm \\sqrt{64 - 36}}{2} = 4 \\pm \\sqrt{7}$. Distance between y-intercepts is $2\\sqrt{7}$. Area RST = $\\frac{1}{2} \\times 2\\sqrt{7} \\times 3 = 3\\sqrt{7}$.",
+          "markAllocation": [
+            {
+              "code": "B1",
+              "type": "B",
+              "value": 1,
+              "criterion": "Identifies or implies the coordinates where circle touches the x axis. Probably from having completed the square on the equation. The 0 ordinate need not be seen and may be seen anywhere."
+            },
+            {
+              "code": "M1",
+              "type": "M",
+              "value": 1,
+              "criterion": "Attempts the y coordinates of the intersections with the y axis, or the distance between these two points. E.g. may set x = 0 in the circle equation, or may use centre is 3 units from y axis etc."
+            },
+            {
+              "code": "M1",
+              "type": "M",
+              "value": 1,
+              "criterion": "Uses a correct method for the area of the triangle RST. Longer methods are possible, such as use of cosine rule to find an angle in the triangle, followed by $\\frac{1}{2}ab\\sin C$, or may use the shoelace method, e.g. $\\frac{1}{2} |(3 \\times (4+\\sqrt{7}) + 0 \\times 0 + 0 \\times (4-\\sqrt{7})) - (0 \\times 0 + 0 \\times (4+\\sqrt{7}) + 3 \\times (4-\\sqrt{7}))| = \\frac{1}{2} |3(4+\\sqrt{7}) - 3(4-\\sqrt{7})| = \\frac{1}{2} |6\\sqrt{7}| = 3\\sqrt{7}$."
+            },
+            {
+              "code": "A1",
+              "type": "A",
+              "value": 1,
+              "criterion": "Correct answer."
+            }
+          ],
+          "guidance": "B1: Identifies or implies the coordinates where circle touches the x axis. Probably from having completed the square on the equation. The 0 ordinate need not be seen and may be seen anywhere. M1: Attempts the y coordinates of the intersections with the y axis, or the distance between these two points. E.g. may set x = 0 in the circle equation, or may use centre is 3 units from y axis etc. M1: Uses a correct method for the area of the triangle RST. Longer methods are possible, such as use of cosine rule to find an angle in the triangle, followed by $\\frac{1}{2}ab\\sin C$, or may use the shoelace method, e.g. $\\frac{1}{2} |(3 \\times (4+\\sqrt{7}) + 0 \\times 0 + 0 \\times (4-\\sqrt{7})) - (0 \\times 0 + 0 \\times (4+\\sqrt{7}) + 3 \\times (4-\\sqrt{7}))| = \\frac{1}{2} |3(4+\\sqrt{7}) - 3(4-\\sqrt{7})| = \\frac{1}{2} |6\\sqrt{7}| = 3\\sqrt{7}$. A1: Correct answer."
+        }
+      ]
+    },
+    {
+      "qnum": 7,
+      "marks": 10,
+      "parts": [
+        {
+          "label": "(a)",
+          "marks": 4,
+          "answer": "$\\log_3 9 = 2$ oe seen or implied by working. $3\\log_3 (2x-1) = \\log_3 (2x-1)^3$ or $\\log_3 9 + \\log_3 (14x-25) = \\log_3 (9(14x-25))$. $\\log_3 (2x-1)^3 = \\log_3 (9(14x-25))$. $(2x-1)^3 = 9(14x-25) \\Rightarrow 8x^3 - 12x^2 + 6x - 1 = 126x - 225 \\Rightarrow 8x^3 - 12x^2 - 120x + 224 = 0 \\Rightarrow 2x^3 - 3x^2 - 30x + 56 = 0$*",
+          "markAllocation": [
+            {
+              "code": "B1",
+              "type": "B",
+              "value": 1,
+              "criterion": "States or implies $\\log_3 9 = 2$ or equivalent. May be gained via $\\log_3 (f(x)) = \\log_3 (g(x)) \\Rightarrow f(x) = g(x)$"
+            },
+            {
+              "code": "M1",
+              "type": "M",
+              "value": 1,
+              "criterion": "Uses a correct log law, either power law on $3\\log_3 (2x-1) = \\log_3 (2x-1)^3$ or sum law on $\\log_3 9 + \\log_3 (14x-25) = \\log_3 (9(14x-25))$ or equivalent work (e.g. difference law if combining the two log terms on one side first)."
+            },
+            {
+              "code": "dM1",
+              "type": "M",
+              "value": 1,
+              "criterion": "Uses correct log work to remove the logs. Allow slips, but all log work must have been correct."
+            },
+            {
+              "code": "A1",
+              "type": "A",
+              "value": 1,
+              "criterion": "Expands and simplifies to the given cubic. Must see an intermediate step between the factorised sides and final answer."
+            }
+          ],
+          "guidance": "B1: States or implies $\\log_3 9 = 2$ or equivalent. May be gained via $\\log_3 (f(x)) = \\log_3 (g(x)) \\Rightarrow f(x) = g(x)$. M1: Uses a correct log law, either power law on $3\\log_3 (2x-1) = \\log_3 (2x-1)^3$ or sum law on $\\log_3 9 + \\log_3 (14x-25) = \\log_3 (9(14x-25))$ or equivalent work (e.g. difference law if combining the two log terms on one side first). dM1: Uses correct log work to remove the logs. Allow slips, but all log work must have been correct. A1*: Expands and simplifies to the given cubic. Must see an intermediate step between the factorised sides and final answer."
+        },
+        {
+          "label": "(b)",
+          "marks": 2,
+          "answer": "$2(-4)^3 - 3(-4)^2 - 30(-4) + 56 = -128 - 48 + 120 + 56 = 0$. Hence $-4$ is a root of the equation.",
+          "markAllocation": [
+            {
+              "code": "M1",
+              "type": "M",
+              "value": 1,
+              "criterion": "Substitutes $\\pm 4$ into the cubic and attempts to evaluate it."
+            },
+            {
+              "code": "A1",
+              "type": "A",
+              "value": 1,
+              "criterion": "Evaluates to 0 with intermediate working shown, and gives conclusion that $-4$ is a root."
+            }
+          ],
+          "guidance": "M1: Substitutes $\\pm 4$ into the cubic and attempts to evaluate it. A1: Evaluates to 0 with intermediate working shown, and gives conclusion that $-4$ is a root. Alt: M1: Attempts to take a factor of $(x \\pm 4)$ out of the equation or uses long division. Look for first term $2x^2$ and last term $\\pm 14$ in the quadratic factor. A1: Correct factorisation with conclusion. If via long division, all work must be correct with zero remainder found."
+        },
+        {
+          "label": "(c)",
+          "marks": 4,
+          "answer": "$(x+4)(2x^2 - 11x + 14) = 0 \\Rightarrow (2x-7)(x-2) = 0 \\Rightarrow x = 2, x = \\frac{7}{2}$. (Equation not defined for $x = -4$ so) solutions are 2 and $\\frac{7}{2}$.",
+          "markAllocation": [
+            {
+              "code": "M1",
+              "type": "M",
+              "value": 1,
+              "criterion": "Attempts to take a factor of $(x+4)$ out of the cubic, or attempts long division by $x+4$"
+            },
+            {
+              "code": "A1",
+              "type": "A",
+              "value": 1,
+              "criterion": "Correct quadratic factor (either by factorisation or by long division)"
+            },
+            {
+              "code": "dM1",
+              "type": "M",
+              "value": 1,
+              "criterion": "Depends on first M. Solves the resulting quadratic (any means)."
+            },
+            {
+              "code": "A1",
+              "type": "A",
+              "value": 1,
+              "criterion": "Correct two solutions only identified. Withhold if $-4$ is listed as a solution."
+            }
+          ],
+          "guidance": "M1: Attempts to take a factor of $(x+4)$ out of the cubic, or attempts long division by $x+4$. A1: Correct quadratic factor (either by factorisation or by long division). Note: the first two marks may be awarded for work seen in part (b). dM1: Depends on first M. Solves the resulting quadratic (any means). A1: Correct two solutions only identified. Withhold if $-4$ is listed as a solution. Since the question says “hence, using algebra and showing each step of your working”, solutions derived from a calculator with no working shown score no marks. The intermediate quadratic must be attempted to gain marks in part (c)"
+        }
+      ]
+    },
+    {
+      "qnum": 8,
+      "marks": 10,
+      "parts": [
+        {
+          "label": "(i)",
+          "marks": 4,
+          "answer": "$3\\sin(\\theta+30^\\circ) = 7\\cos(\\theta+30^\\circ) \\Rightarrow \\tan(\\theta+30^\\circ) = \\frac{7}{3}$. $\\theta+30^\\circ = \\arctan(\\frac{7}{3}) = 66.8^\\circ$. $\\theta = 36.8^\\circ$ or $216.8^\\circ$ (awrt)",
+          "markAllocation": [
+            {
+              "code": "B1",
+              "type": "B",
+              "value": 1,
+              "criterion": "Divides through by $\\cos(\\theta+30^\\circ)$ to get correct equation in tan."
+            },
+            {
+              "code": "M1",
+              "type": "M",
+              "value": 1,
+              "criterion": "Applies arctan to find a value for $\\theta+30^\\circ$. If using other approaches it is for correct work to achieve one value for $\\theta+30^\\circ$ or just $\\theta$ as appropriate. (Allow if “radians” are used.)"
+            },
+            {
+              "code": "A1",
+              "type": "A",
+              "value": 1,
+              "criterion": "One of awrt $36.8^\\circ$ or awrt $216.8^\\circ$"
+            },
+            {
+              "code": "A1",
+              "type": "A",
+              "value": 1,
+              "criterion": "Both of awrt $36.8^\\circ$ and awrt $216.8^\\circ$ with no other solutions in the range."
+            }
+          ],
+          "guidance": "Note: answers only scores no marks. B1: Divides through by $\\cos(\\theta+30^\\circ)$ to get correct equation in tan. M1: Applies arctan to find a value for $\\theta+30^\\circ$. If using other approaches it is for correct work to achieve one value for $\\theta+30^\\circ$ or just $\\theta$ as appropriate. (Allow if “radians” are used.) A1: One of awrt $36.8^\\circ$ or awrt $216.8^\\circ$. A1: Both of awrt $36.8^\\circ$ and awrt $216.8^\\circ$ with no other solutions in the range. Alt 1 B1: For reaching $\\sin(\\theta+30^\\circ) = \\frac{7}{\\sqrt{58}}$ or $\\cos(\\theta+30^\\circ) = \\frac{3}{\\sqrt{58}}$. M1: For a complete method of squaring both sides, applying $\\sin^2 (...) + \\cos^2 (...) = 1$ to achieve an equation in just sin or cos and then applying the inverse function to their solution to achieve one value for $\\theta+30^\\circ$ or just $\\theta$ as appropriate. . (Allow if “radians” are used.) A1A1: As above, must have rejected any extra solutions from squaring. Alt 2 B1: Correct application of compound angle formula and trig ratios to reach $3(\\sin\\theta\\cos30^\\circ + \\cos\\theta\\sin30^\\circ) = 7(\\cos\\theta\\cos30^\\circ - \\sin\\theta\\sin30^\\circ)$ oe. M1: Attempts compound angle formula (allow sign slips), rearranges to make $\\tan\\theta$ the subject and applies arctan to find at least one value for $\\theta$. (Allow if “radians” are used.) A1A1: As main scheme."
+        },
+        {
+          "label": "(ii)",
+          "marks": 6,
+          "subparts": [
+            {
+              "label": "(a)",
+              "marks": 2,
+              "answer": "$3\\sin x = 5\\sin x \\cos x - 7\\sin x \\cos^2 x \\Rightarrow \\sin x (7\\cos^2 x - 5\\cos x + 3) = 0$",
+              "markAllocation": [
+                {
+                  "code": "M1",
+                  "type": "M",
+                  "value": 1,
+                  "criterion": "Uses $\\sin^2 x = 1 - \\cos^2 x$ in the equation and gathers terms on one side and factors out the $\\sin x$ (Allow the M if the $\\sin x$ is cancelled) May be seen in (b)"
+                },
+                {
+                  "code": "A1",
+                  "type": "A",
+                  "value": 1,
+                  "criterion": "Achieves suitable form. Accept non-zero multiples of the quadratic in $\\cos x$. (Allow if $\\sin x$ is cancelled and put back in later). Result must be clearly stated but may be seen in (b)."
+                }
+              ],
+              "guidance": "Part (ii) may be marked as a whole. May be seen in (b). Result must be clearly stated but may be seen in (b)."
+            },
+            {
+              "label": "(b)",
+              "marks": 4,
+              "answer": "$\\sin x = 0 \\Rightarrow x = 0$. From $(3\\cos x - 1)(\\cos x - 2) = 0 \\Rightarrow \\cos x = \\frac{1}{3}$ (reject $\\cos x = 2$). $x = \\arccos(\\frac{1}{3}) = \\pm 1.23$ (awrt)",
+              "markAllocation": [
+                {
+                  "code": "B1",
+                  "type": "B",
+                  "value": 1,
+                  "criterion": "For $x = 0$ as one solution."
+                },
+                {
+                  "code": "M1",
+                  "type": "M",
+                  "value": 1,
+                  "criterion": "Solves the quadratic in $\\cos x$, usual rules (may be implied by correct answers)."
+                },
+                {
+                  "code": "M1",
+                  "type": "M",
+                  "value": 1,
+                  "criterion": "Takes arccos of at least one value that has modulus less than 1 which is a root of their quadratic. Allow if in degrees, but must reach a value."
+                },
+                {
+                  "code": "A1",
+                  "type": "A",
+                  "value": 1,
+                  "criterion": "Both solutions from cosine equation correct and no others in the range."
+                }
+              ],
+              "guidance": "Solves the quadratic in $\\cos x$, usual rules (may be implied by correct answers). Takes arccos of at least one value that has modulus less than 1 which is a root of their quadratic. Allow if in degrees, but must reach a value. Both solutions from cosine equation correct and no others in the range."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "qnum": 9,
+      "marks": 10,
+      "parts": [
+        {
+          "label": "(a)",
+          "marks": 3,
+          "answer": "$V = l^2 h = 250000 \\Rightarrow h = \\frac{250000}{l^2}$ oe. $S = l^2 + 4lh = l^2 + 4l(\\frac{250000}{l^2}) = l^2 + \\frac{1000000}{l}$. $S = \\frac{250000}{h} + 2000h$*",
+          "markAllocation": [
+            {
+              "code": "B1",
+              "type": "B",
+              "value": 1,
+              "criterion": "Correct equation linking h and l seen or implied by substitution."
+            },
+            {
+              "code": "M1",
+              "type": "M",
+              "value": 1,
+              "criterion": "Attempts the surface area and substitutes to eliminate l. Allow $2l^2 + 4lh$ or $l^2 + 4lh$ (or equivalents) for the attempt at surface area."
+            },
+            {
+              "code": "A1",
+              "type": "A",
+              "value": 1,
+              "criterion": "Achieves the given result with no errors."
+            }
+          ],
+          "guidance": "B1: Correct equation linking h and l seen or implied by substitution. M1: Attempts the surface area and substitutes to eliminate l. Allow $2l^2 + 4lh$ or $l^2 + 4lh$ (or equivalents) for the attempt at surface area. A1*: Achieves the given result with no errors."
+        },
+        {
+          "label": "(b)",
+          "marks": 5,
+          "answer": "$\\frac{dS}{dh} = -250000h^{-2} + 2000$ oe. Set $\\frac{dS}{dh} = 0 \\Rightarrow -250000h^{-2} + 2000 = 0 \\Rightarrow 2000 = 250000h^{-2} \\Rightarrow h^3 = 250 \\Rightarrow h = \\sqrt[3]{250}$",
+          "markAllocation": [
+            {
+              "code": "M1",
+              "type": "M",
+              "value": 1,
+              "criterion": "Attempts derivative of the area function – power decreased by one in at least one term."
+            },
+            {
+              "code": "A1",
+              "type": "A",
+              "value": 1,
+              "criterion": "Correct derivative. Need not be simplified."
+            },
+            {
+              "code": "dM1",
+              "type": "M",
+              "value": 1,
+              "criterion": "Sets derivative equal to zero and attempts to solve as far as a power of h equal to something. Depends on first M"
+            },
+            {
+              "code": "ddM1",
+              "type": "M",
+              "value": 1,
+              "criterion": "Depends on both M marks, attempts to solve an equation with a fractional index to find h"
+            },
+            {
+              "code": "A1",
+              "type": "A",
+              "value": 1,
+              "criterion": "$h = \\sqrt[3]{250}$ or states $k = \\sqrt[3]{250}$"
+            }
+          ],
+          "guidance": "Allow if $\\frac{dS}{dh}$ is missing or called $\\frac{dy}{dx}$ throughout."
+        },
+        {
+          "label": "(c)",
+          "marks": 2,
+          "answer": "$\\frac{d^2S}{dh^2} = 500000h^{-3}$. Substitute $h = \\sqrt[3]{250}$: $\\frac{d^2S}{dh^2} = 500000(\\sqrt[3]{250})^{-3} = 500000 \\times \\frac{1}{250} = 2000$. Since $2000 > 0$, hence gives the minimum value.",
+          "markAllocation": [
+            {
+              "code": "M1",
+              "type": "M",
+              "value": 1,
+              "criterion": "Attempts the second derivative, form $Ah^{-3}$ reached (A > 0). Note: the question specifies by further differentiation, so first derivative test attempts score M0."
+            },
+            {
+              "code": "A1",
+              "type": "A",
+              "value": 1,
+              "criterion": "Second derivative correct and substitutes h to get awrt 6, and makes correct conclusion referring to sign (>0 or positive). Must see the substitution as it is not obviously positive but allow if expression is not fully simplified as long as it is clear it is positive (e.g. 8 – 2 > 0)."
+            }
+          ],
+          "guidance": "M1: Attempts the second derivative, form $Ah^{-3}$ reached (A > 0). Note: the question specifies by further differentiation, so first derivative test attempts score M0. A1: Second derivative correct and substitutes h to get awrt 6, and makes correct conclusion referring to sign (>0 or positive). Must see the substitution as it is not obviously positive but allow if expression is not fully simplified as long as it is clear it is positive (e.g. 8 – 2 > 0)."
+        }
+      ]
+    }
+  ]
+}

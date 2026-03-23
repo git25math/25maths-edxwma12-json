@@ -1,0 +1,718 @@
+{
+  "v": "1.0",
+  "paper": "2024May-WMA12-01R",
+  "board": "edx",
+  "code": "WMA12",
+  "year": 2024,
+  "session": "May",
+  "paperNum": "01",
+  "totalMarks": 75,
+  "questions": [
+    {
+      "qnum": 1,
+      "marks": 5,
+      "parts": [
+        {
+          "label": "(a)",
+          "marks": 2,
+          "answer": "$u_2 = 6$",
+          "markAllocation": [
+            {
+              "code": "M1",
+              "type": "M",
+              "value": 1,
+              "criterion": "Attempts to use the iteration formula to find $u_2$. Look for a correct NUMERICAL equation $u_2 = 4/3 - 2 \\times 7$ o.e. leading to a value for $u_2$. It can be implied by sight of $u_2 = 6$. There have been some longer methods seen. E.g. $u_2 = 4/u_1$ and $u_3 = 2/u_2 - 3$ combined by using $u_2 = 4/(2/u_2 - 3) - 2$. The mark is not scored until a value of $u_2$ is found from a correct NUMERICAL equation"
+            },
+            {
+              "code": "A1",
+              "type": "A",
+              "value": 1,
+              "criterion": "$u_2 = 6$"
+            }
+          ],
+          "guidance": "M1: Attempts to use the iteration formula to find $u_2$. Look for a correct NUMERICAL equation $u_2 = 4/3 - 2 \\times 7$ o.e. leading to a value for $u_2$. It can be implied by sight of $u_2 = 6$. There have been some longer methods seen. E.g. $u_2 = 4/u_1$ and $u_3 = 2/u_2 - 3$ combined by using $u_2 = 4/(2/u_2 - 3) - 2$. The mark is not scored until a value of $u_2$ is found from a correct NUMERICAL equation. A1: $u_2 = 6$. You don’t need to see the LHS but if they state $u_3 = 6$ it is A0. 6 on its own without any incorrect working scores both marks. Do not accept partially complete answers such as $18/3$."
+        },
+        {
+          "label": "(b)",
+          "marks": 3,
+          "answer": "37",
+          "markAllocation": [
+            {
+              "code": "M1",
+              "type": "M",
+              "value": 1,
+              "criterion": "Attempts to use the iteration formula to find $u_4$. This may be embedded within a sum. Look for $u_4 = 4/u_3 - 2 \\times u_2$. If (a) is correct, score for sight of $u_4 = 0$"
+            },
+            {
+              "code": "dM1",
+              "type": "M",
+              "value": 1,
+              "criterion": "Full attempt to find $\\sum_{r=1}^{4} (u_r + 2r)$. Look for $(u_1+2 \\times 1) + (u_2+2 \\times 2) + (u_3+2 \\times 3) + (u_4+2 \\times 4)$. Alternatively, you may score for an attempt to find $(7+2) + (6+4) + (0+6) + (0+8)$"
+            },
+            {
+              "code": "A1",
+              "type": "A",
+              "value": 1,
+              "criterion": "37"
+            }
+          ],
+          "guidance": "M1: Attempts to use the iteration formula to find $u_4$. This may be embedded within a sum. Look for $u_4 = 4/u_3 - 2 \\times u_2$. If (a) is correct, score for sight of $u_4 = 0$. dM1: Full attempt to find $\\sum_{r=1}^{4} (u_r + 2r)$. Look for $(u_1+2 \\times 1) + (u_2+2 \\times 2) + (u_3+2 \\times 3) + (u_4+2 \\times 4)$. Alternatively, you may score for an attempt to find $(7+2) + (6+4) + (0+6) + (0+8)$."
+        }
+      ]
+    },
+    {
+      "qnum": 2,
+      "marks": 5,
+      "parts": [
+        {
+          "label": "(a)",
+          "marks": 3,
+          "answer": "a = awrt 2.21",
+          "markAllocation": [
+            {
+              "code": "B1",
+              "type": "B",
+              "value": 1,
+              "criterion": "Strip width = 1.5"
+            },
+            {
+              "code": "M1",
+              "type": "M",
+              "value": 1,
+              "criterion": "‘Correct’ attempt at the trapezium rule leading to a value for a. Look for $\\frac{1.5}{2}\\{4.16 + 2.28 + 2 (2.91 + 1.73 + 1.37 + 1.43)\\} = 19.3$ leading to a value for a. Condone a missing trailing bracket. Condone $\\{4.16 + 2.28 + 2 (2.91 + 1.73 + 1.37 + 1.43)\\} = 19.3$ leading to a value for a if $/2$ not seen. Award for the sum of separate trapezia leading to a value for a. You do not need to check their calculation but it must lead to a value for a"
+            },
+            {
+              "code": "A1",
+              "type": "A",
+              "value": 1,
+              "criterion": "a = awrt 2.21"
+            }
+          ],
+          "guidance": "B1: Correct strip width. Allow for $h = 1.5$. It is implied by sight of $\\frac{1.5}{2} \\{................\\}$ o.e. Note that $h = -1.5$ is B0 unless recovered later in the working. M1: ‘Correct’ attempt at the trapezium rule leading to a value for a. Look for $\\frac{1.5}{2} \\{4.16 + 2.28 + 2 (2.91 + 1.73 + 1.37 + 1.43)\\} = 19.3$ leading to a value for a. Condone a missing trailing bracket. Condone $\\{4.16 + 2.28 + 2 (2.91 + 1.73 + 1.37 + 1.43)\\} = 19.3$ leading to a value for a if $/2$ not seen. Award for the sum of separate trapezia leading to a value for a. You do not need to check their calculation but it must lead to a value for a. A1: a = awrt 2.21. It is acceptable for the candidate to be working in fractions. Score for $331/150$ or $2 \\frac{31}{150}$. ISW after a correct answer."
+        },
+        {
+          "label": "(b)",
+          "marks": 2,
+          "answer": "11.6",
+          "markAllocation": [
+            {
+              "code": "M1",
+              "type": "M",
+              "value": 1,
+              "criterion": "Attempts to find $\\int_{4}^{5} (2f(x) - 3) \\mathrm{d}x$ but condone $\\int_{4}^{5} (2f(x) \\pm 3) \\mathrm{d}x$. Look for $2 \\times 19.3 - [3x]_{4}^{5}$, $2 \\times 19.3 \\pm 3 \\times 9$ or $2 \\times 19.3 \\pm 27$ o.e. If $2 \\times 19.3 - [3x]_{4}^{5}$ is not seen, look for $2 \\times 19.3$ combined with a $\\pm 15$ and a $\\pm 12$. So each of $2 \\times 19.3 - 15 + 12$, $(2 \\times 19.3) - (15 - 12)$, $(2 \\times 19.3) - (15 + 12)$ and $2 \\times 19.3 + 15 - 12$ are M1. Candidates who attempt $2 \\times '2.21' - [3x]_{4}^{5}$ scores M0 as it uses the value of a. Candidates who attempt $2 \\times 19.3 - 3$ scores M0 as no integration of the 3 was attempted (unless you see sight of a $\\pm 15$ and a $\\pm 12$ before the 3 was reached)"
+            },
+            {
+              "code": "A1",
+              "type": "A",
+              "value": 1,
+              "criterion": "11.6"
+            }
+          ],
+          "guidance": "Answers resulting from attempts at the trapezium rule score M0 A0. M1: Attempts to find $\\int_{4}^{5} (2f(x) - 3) \\mathrm{d}x$ but condone $\\int_{4}^{5} (2f(x) \\pm 3) \\mathrm{d}x$. Look for $2 \\times 19.3 - [3x]_{4}^{5}$, $2 \\times 19.3 \\pm 3 \\times 9$ or $2 \\times 19.3 \\pm 27$ o.e. If $2 \\times 19.3 - [3x]_{4}^{5}$ is not seen, look for $2 \\times 19.3$ combined with a $\\pm 15$ and a $\\pm 12$. So each of $2 \\times 19.3 - 15 + 12$, $(2 \\times 19.3) - (15 - 12)$, $(2 \\times 19.3) - (15 + 12)$ and $2 \\times 19.3 + 15 - 12$ are M1. Candidates who attempt $2 \\times '2.21' - [3x]_{4}^{5}$ scores M0 as it uses the value of a. Candidates who attempt $2 \\times 19.3 - 3$ scores M0 as no integration of the 3 was attempted (unless you see sight of a $\\pm 15$ and a $\\pm 12$ before the 3 was reached). A1: 11.6. The answer with no incorrect working can score both marks."
+        }
+      ]
+    },
+    {
+      "qnum": 3,
+      "marks": 5,
+      "parts": [
+        {
+          "label": "(a)",
+          "marks": 3,
+          "answer": "Centre $(-4, 7)$, Radius = 12",
+          "markAllocation": [
+            {
+              "code": "M1",
+              "type": "M",
+              "value": 1,
+              "criterion": "Attempts to complete the square for both variables $(x+4)^2, (y-7)^2$"
+            },
+            {
+              "code": "A1",
+              "type": "A",
+              "value": 1,
+              "criterion": "Centre $(-4, 7)$"
+            },
+            {
+              "code": "A1",
+              "type": "A",
+              "value": 1,
+              "criterion": "Radius = 12"
+            }
+          ],
+          "guidance": "M1: Attempts to complete the square for both variables. Score for sight of $(x+4)^2 ... (y-7)^2$. Condone $(x \\pm 4)^2, (y \\pm 7)^2$ or even with a negative between. It is implied by a centre of $(\\pm 4, \\pm 7)$. A1: Centre $(-4, 7)$. A1: Radius = 12. May be awarded following a centre of $(\\pm 4, \\pm 7)$."
+        },
+        {
+          "label": "(b)",
+          "marks": 2,
+          "answer": "$12 - \\sqrt{65}$",
+          "markAllocation": [
+            {
+              "code": "M1",
+              "type": "M",
+              "value": 1,
+              "criterion": "Attempts $\\pm (''12'' - \\sqrt{''4''^2 + ''7''^2})$"
+            },
+            {
+              "code": "A1ft",
+              "type": "A",
+              "value": 1,
+              "criterion": "$12 - \\sqrt{65}$"
+            }
+          ],
+          "guidance": "M1: Attempts $\\pm (''12'' - \\sqrt{''4''^2 + ''7''^2})$ which may be in decimals. Look for $12 - \\sqrt{8.06}$ or $\\pm 3.94$ following a correct (a). Must be an attempt at subtraction of ''12'' and $\\sqrt{''4''^2 + ''7''^2}$ either way around and not addition. A1ft: $12 - \\sqrt{65}$ but ft on their $12 - \\sqrt{65}$ which must be exact and positive. ISW if followed by the decimal answer. Alt (b): You may see various attempts using the intersection of their $y = -7/4 x$ and the equation of the circle. The method mark is scored when the equations are solved to find coordinates for P followed by the calculation of distance OP. M1: Equates their $y = -7/4 x$ (must agree with their centre) with either the original equation or their adapted equation to set up a 3 term quadratic equation in either x or y. This must be solved by an appropriate method which includes use of calculator (you may need to check if just answers are given). Once a value of x and y have been found, score for the use of Pythagoras’ theorem (e.g. $x^2 + y^2$) to find the length. It is highly unlikely that an exact answer could be found via this route."
+        }
+      ]
+    },
+    {
+      "qnum": 4,
+      "marks": 7,
+      "parts": [
+        {
+          "label": "(a)",
+          "marks": 4,
+          "answer": "$(3+2x)^6 = 729 + 2916x + 4860x^2 + 4320x^3 + ...$",
+          "markAllocation": [
+            {
+              "code": "B1",
+              "type": "B",
+              "value": 1,
+              "criterion": "First term $3^6$ or 729"
+            },
+            {
+              "code": "M1",
+              "type": "M",
+              "value": 1,
+              "criterion": "Term in x, $x^2$ or $x^3$: Award for one of $^6C_1 (3)^5 (2x)^1$, $^6C_2 (3)^4 (2x)^2$ or $^6C_3 (3)^3 (2x)^3$"
+            },
+            {
+              "code": "A1",
+              "type": "A",
+              "value": 1,
+              "criterion": "Two correct and simplified of $2916x + 4860x^2 + 4320x^3 + ...$"
+            },
+            {
+              "code": "A1",
+              "type": "A",
+              "value": 1,
+              "criterion": "$(3+2x)^6 = 729 + 2916x + 4860x^2 + 4320x^3 + ...$"
+            }
+          ],
+          "guidance": "B1: Correct first term $3^6$ or 729 which must be seen in part (a). M1: Correct attempt at term 2, 3 or 4. Condone a missing bracket. Look for the correct binomial coefficient (C notation or bracket form), the correct power of 3 and the correct power of x. So condone attempts such as $^6C_2 (3)^4 (2x)^2$ and even $^6C_3 (3)^3 (2x)^3$. If there isn’t an intermediate form given, then the mark is awarded for a correct term 2, 3 or 4. A1: Two correct and simplified of $2916x + 4860x^2 + 4320x^3 + ...$. A1: $(3+2x)^6 = 729 + 2916x + 4860x^2 + 4320x^3 + ...$. Allow this to be given/written as a list. ISW after a correct answer. Alt (a) via removal of common factor: $(3+2x)^6 = 3^6 (1 + 2/3 x)^6 = 3^6 (1 + 6(2/3 x) + 6 \\times 5 / 2 (2/3 x)^2 + 6 \\times 5 \\times 4 / (3 \\times 2 \\times 1) (2/3 x)^3 + ...)$. B1: Correct first term $3^6$ or 729 implied by $3^6 (1 + ... x + ...)$. M1: Correct attempt at term 2, 3 or 4. Look for a correct binomial coefficient and a correct power of $2/3 x$. See main scheme regarding what you can condone. A1: Two correct and simplified of $2916x + 4860x^2 + 4320x^3 + ...$. A1: $(3+2x)^6 = 729 + 2916x + 4860x^2 + 4320x^3 + ...$. Allow as a list."
+        },
+        {
+          "label": "(b)",
+          "marks": 3,
+          "answer": "738",
+          "markAllocation": [
+            {
+              "code": "M1",
+              "type": "M",
+              "value": 1,
+              "criterion": "Attempts one of the two terms (or one of the two coefficients required to find the coefficient of $x^2$). Look for $2x^2 \\times ''729''$ or $\\pm \\frac{1}{6x} \\times ''4320x^3''$"
+            },
+            {
+              "code": "dM1",
+              "type": "M",
+              "value": 1,
+              "criterion": "Attempts to combine the correct two terms $2x^2 \\times ''729'' \\pm \\frac{1}{6x} \\times ''4320x^3'' = ...$"
+            },
+            {
+              "code": "A1",
+              "type": "A",
+              "value": 1,
+              "criterion": "738 but condone $738x^2$"
+            }
+          ],
+          "guidance": "M1: Attempts one of the two terms (or one of the two coefficients required to find the coefficient of $x^2$). Look for $2x^2 \\times ''729''$ or $\\pm \\frac{1}{6x} \\times ''4320x^3''$ which may be seen amongst a larger list or sum of terms. Condone slips, e.g 729 written as 792 but the 2 and/or the $1/6$ must be used correctly. dM1: Attempts the term in $x^2$ or the coefficient in $x^2$ using a correct combination of terms. Look for $2x^2 \\times ''729'' \\pm \\frac{1}{6x} \\times ''4320x^3''$ leading to a single term in $x^2$ or the combined coefficient of $x^2$. A1: 738 but condone $738x^2$."
+        }
+      ]
+    },
+    {
+      "qnum": 5,
+      "marks": 6,
+      "parts": [
+        {
+          "label": "(a)",
+          "marks": 1,
+          "answer": "awrt 4.07",
+          "markAllocation": [
+            {
+              "code": "B1",
+              "type": "B",
+              "value": 1,
+              "criterion": "Scored for sight of $8 + 5\\sin(\\frac{\\pi \\times 2}{3} + \\frac{\\pi}{6})$ o.e followed by 4.06, 4.07 or awrt 4.07. Units can be omitted"
+            }
+          ],
+          "guidance": "B1: Scored for sight of $8 + 5\\sin(\\frac{\\pi \\times 2}{3} + \\frac{\\pi}{6})$ o.e followed by 4.06, 4.07 or awrt 4.07. Units can be omitted."
+        },
+        {
+          "label": "(b)",
+          "marks": 5,
+          "answer": "13:04 or 1:04 pm",
+          "markAllocation": [
+            {
+              "code": "M1",
+              "type": "M",
+              "value": 1,
+              "criterion": "Substitutes $D = 6$ and proceeds to $\\sin(\\frac{\\pi t}{3} + \\frac{\\pi}{6}) = k$"
+            },
+            {
+              "code": "A1",
+              "type": "A",
+              "value": 1,
+              "criterion": "$\\sin(\\frac{\\pi t}{3} + \\frac{\\pi}{6}) = -2/5$ o.e"
+            },
+            {
+              "code": "dM1",
+              "type": "M",
+              "value": 1,
+              "criterion": "Takes arcsink where k < 0 and achieves any correct positive value for their arcsink. Any of 3.55, 5.87, 9.84, 12.2 are acceptable where $k = -2/5$. Follow through on their $-1 < k < 0$"
+            },
+            {
+              "code": "ddM1",
+              "type": "M",
+              "value": 1,
+              "criterion": "Full and complete method to find a positive value of t. It is dependent upon both previous M's AND $k = -2/5$. Score for any of $t = \\frac{6}{\\pi} (3.55 - \\frac{\\pi}{6})$, $t = \\frac{6}{\\pi} (5.87 - \\frac{\\pi}{6})$, $t = \\frac{6}{\\pi} (9.84 - \\frac{\\pi}{6})$, $t = \\frac{6}{\\pi} (12.2 - \\frac{\\pi}{6})$. It can be implied for any t value to 3sf, Score for any t value awrt 1.05/1.06, 5.48/5.49, 13.0/13.1, 17.5/17.6 following M1 A1dM1"
+            },
+            {
+              "code": "A1",
+              "type": "A",
+              "value": 1,
+              "criterion": "13:04 or 1:04 pm. Condone/allow an answer of 13.03 or 1.03pm. Condone one hour and 4 minutes after midday. Requires $\\arcsin(-0.4) = \\text{awrt } 9.84$, $t = \\text{awrt } 13.1$ and a time of 13:03 o.e."
+            }
+          ],
+          "guidance": "It is acceptable to set $x = \\frac{\\pi t}{3} + \\frac{\\pi}{6}$ which allows access to the first three marks. M1: Substitutes $D = 6$ and proceeds to $\\sin(\\frac{\\pi t}{3} + \\frac{\\pi}{6}) = k$. A1: $\\sin(\\frac{\\pi t}{3} + \\frac{\\pi}{6}) = -2/5$. o.e. dM1: Takes arcsink where k < 0 and achieves any correct positive value for their arcsink. Any of 3.55, 5.87, 9.84, 12.2 are acceptable where $k = -2/5$. Follow through on their $-1 < k < 0$. ddM1: Full and complete method to find a positive value of t. It is dependent upon both previous M's AND $k = -2/5$. Score for any of $t = \\frac{6}{\\pi} (3.55 - \\frac{\\pi}{6})$, $t = \\frac{6}{\\pi} (5.87 - \\frac{\\pi}{6})$, $t = \\frac{6}{\\pi} (9.84 - \\frac{\\pi}{6})$, $t = \\frac{6}{\\pi} (12.2 - \\frac{\\pi}{6})$. It can be implied for any t value to 3sf, Score for any t value awrt 1.05/1.06, 5.48/5.49, 13.0/13.1, 17.5/17.6 following M1 A1dM1. A1: 13:04 or 1:04 pm. Condone/allow an answer of 13.03 or 1.03pm. Condone one hour and 4 minutes after midday. Requires $\\arcsin(-0.4) = \\text{awrt } 9.84$, $t = \\text{awrt } 13.1$ and a time of 13:03 o.e. Note that the steps may not occur in exactly the same way but it is equivalent work. dM1 scored here. Adding on $4\\pi$ at this stage is equivalent work to $\\frac{\\pi t}{6} + \\frac{\\pi}{3} = -0.41 + 4\\pi \\text{ awrt } 12.2$. ddM1 scored on lhs for 17.49. Note that all the above steps must be seen to score full/part marks here. Example1 Using num-solv on TI-36XPro: $8 + 5\\sin(\\frac{\\pi t}{3} + \\frac{\\pi}{6}) = 6 \\implies t = 1.056$ scores 00000. Example2 Using num-solv on TI-36XPro: $8 + 5\\sin(\\frac{\\pi t}{3} + \\frac{\\pi}{6}) = 6 \\implies \\sin(\\frac{\\pi t}{3} + \\frac{\\pi}{6}) = -2/5 \\implies t = 1.056$ scores 11000. Example 3 Using 24 hours in a day: $8 + 5\\sin(\\frac{\\pi t}{3} + \\frac{\\pi}{6}) = 6 \\implies \\sin(\\frac{\\pi t}{3} + \\frac{\\pi}{6}) = -2/5 \\implies \\frac{\\pi t}{6} + \\frac{\\pi}{3} = -0.4115 \\implies t = -6.515 + 24 \\implies t = 17.485$ scores 11000."
+        }
+      ]
+    },
+    {
+      "qnum": 6,
+      "marks": 9,
+      "parts": [
+        {
+          "label": "(a)",
+          "marks": 5,
+          "answer": "(i) p = 10 (ii) q = 3",
+          "markAllocation": [
+            {
+              "code": "M1",
+              "type": "M",
+              "value": 1,
+              "criterion": "Sets $f(-3/2) = 0$ to form an equation in p and q. Setting $f(3/2) = 0$ is M0"
+            },
+            {
+              "code": "M1",
+              "type": "M",
+              "value": 1,
+              "criterion": "Sets $f(-2) = -5$ to form an equation in p and q. Setting $f(2) = -5$ or $f(-2) = 5$ is M0"
+            },
+            {
+              "code": "dM1",
+              "type": "M",
+              "value": 1,
+              "criterion": "Solves to get values for p and q"
+            },
+            {
+              "code": "A1*",
+              "type": "A",
+              "value": 1,
+              "criterion": "(i) p = 10 following two correct equations"
+            },
+            {
+              "code": "A1",
+              "type": "A",
+              "value": 1,
+              "criterion": "(ii) q = 3"
+            }
+          ],
+          "guidance": "M1: Attempts to set $f(-3/2) = 0$ to form an equation in p and q. Setting $f(3/2) = 0$ is M0. Award for an attempt such as $4(-3/2)^3 + p(-3/2)^2 + 8(-3/2) + q = 0$ condoning slips (e.g. lack of bracketing). Note that the partially simplified correct equation is $-27/2 + 9/4 p - 12 + q = 0$. You may see an attempt via division. Look for division by $(x + 3/2)$ leading to a remainder in p and q which should be set equal to 0. M1: Attempts to set $f(-2) = -5$ to form an equation in p and q. Setting $f(2) = -5$ or $f(-2) = 5$ is M0. Award for $4(-2)^3 + p(-2)^2 + 8(-2) + q = -5$ condoning slips (e.g. lack of bracketing). Note that the partially simplified correct equation is $-32 + 4p - 16 + q = -5$. You may see an attempt via division. Look for division by $(x + 2)$ leading to a remainder in p and q which should be set equal to $-5$. dM1: Solves a pair of equations in both p and q resulting from setting $f(\\pm 3/2) = \\pm 0$ and $f(\\pm 2) = \\pm 5$. Just look for some work (either substitution or elimination) which may or may not be correct leading to values for p and q. They know that p should be 10 so there will be a certain amount of fudging. Be generous here and give BOD if they show some correct work leading to both values Allow the solution to be done via a calculator but the solution must fit at least one of the equations if done this way. So if both equations are correct, or only one equation is correct, writing down p = 10, q =3 would score this mark as it is a solution to both. Examples of sufficient work Ex 1 (Correct equations/elimination): $9/4 p + q = 51/2$ (1) , $4p + q = 43$ (2), then (2) - (1) $7/4 p = ... \\implies p = ..., q = ...$. Ex 2: (Incorrect first equation f (3/2) =0, substitution) $9/4 p + q = -51/2$, $4p + q = 43 \\implies 9/4 p + (43 - 4p) = -51/2 \\implies p = ..., q = ...$. Ex 3: (Incorrect second equation f (2) = -5: Calculator solution) Either $9/4 p + q = 102$, $4p + q = -53 \\implies p = 10, q = -93$ (solution to 2nd equation) Or $9/4 p + q = 102$, $4p + q = -53 \\implies p = 10, q = 3$ (solution to 1st equation). A1*: Achieves $p = 10$ from solving a correct pair of simultaneous equations. There must have been some attempt to justify this as it is a given answer. So, a correct intermediate line must be seen. E.g. $9/4 p + q = 51/2$, $4p + q = 43 \\implies 7/4 p = 35/2 \\implies p = 10$. Allow this to be scored from a correct intermediate line of the form $ap + b = c$. A1: $q = 3$. This can only be awarded if the two simultaneous that were ‘solved’ were both correct. There is no requirement to see an intermediate line here."
+        },
+        {
+          "label": "(b)",
+          "marks": 4,
+          "answer": "$-1 < x < -2/3$",
+          "markAllocation": [
+            {
+              "code": "B1",
+              "type": "B",
+              "value": 1,
+              "criterion": "$f'(x) = 12x^2 + 20x + 8$"
+            },
+            {
+              "code": "M1",
+              "type": "M",
+              "value": 1,
+              "criterion": "Solves $f'(x) = 0 \\implies 4(3x+2)(x+1) = 0 \\implies x = -2/3, -1$"
+            },
+            {
+              "code": "A1",
+              "type": "A",
+              "value": 1,
+              "criterion": "Correct exact critical values. Do not accept -0.67 but allow recurring decimals $-0.\\dot{6}$"
+            },
+            {
+              "code": "A1",
+              "type": "A",
+              "value": 1,
+              "criterion": "$-1 < x < -2/3$"
+            }
+          ],
+          "guidance": "B1: Differentiates to achieve $12x^2 + 20x + 8$. M1: Attempts to find the critical values of the equation ''$f'(x) = 0$''. Allow any valid method including via a calculator. Their $f'(x)$ must be of the form $ax^2 + bx + c$. A1: Achieves the correct exact critical values. Do not accept – 0.67 but allow recurring decimals $0.\\dot{6}$. A1: $-1 < x < -2/3$ OR $-2/3 > x > -1$ but the inequality must be used consistently. Allow versions such as $(-1, -2/3)$ and $[-1, -2/3]$. Note that candidates cannot just use their calculators to solve part (b). So $f(x) = 4x^3 + 10x^2 + 8x + 3$ followed by $-1 < x < -2/3$ is 0 marks. The minimum working required would be sight of $f'(x)$ followed by the solution."
+        }
+      ]
+    },
+    {
+      "qnum": 7,
+      "marks": 7,
+      "parts": [
+        {
+          "label": "(i)",
+          "marks": 5,
+          "answer": "$x = \\text{awrt } 1.318, 4.965$",
+          "markAllocation": [
+            {
+              "code": "M1",
+              "type": "M",
+              "value": 1,
+              "criterion": "States or uses $\\tan x = \\frac{\\sin x}{\\cos x}$"
+            },
+            {
+              "code": "dM1",
+              "type": "M",
+              "value": 1,
+              "criterion": "Uses $\\tan x = \\frac{\\sin x}{\\cos x}$, attempts to multiply by $\\cos x$ and then uses $\\sin^2 x = 1 - \\cos^2 x$ to set up a 3 TQ equation in $\\cos x$"
+            },
+            {
+              "code": "A1",
+              "type": "A",
+              "value": 1,
+              "criterion": "Correct simplified quadratic equation in $\\cos x$. Terms can be on either side of the equation. The ‘= 0’ can be implied by a subsequent attempt to solve."
+            },
+            {
+              "code": "dM1",
+              "type": "M",
+              "value": 1,
+              "criterion": "Solves a quadratic equation in $\\cos x$ by any allowable method (including a calculator) to find $\\cos x$ and proceeds to a value for x (in degrees or radians) via arccos. Dependent upon the first M only"
+            },
+            {
+              "code": "A1",
+              "type": "A",
+              "value": 1,
+              "criterion": "$x = \\text{awrt } 1.318, 4.965$"
+            }
+          ],
+          "guidance": "M1: States or uses $\\tan x = \\frac{\\sin x}{\\cos x}$ o.e. dM1: Uses $\\tan x = \\frac{\\sin x}{\\cos x}$, attempts to multiply by $\\cos x$ and then uses $\\sin^2 x = 1 - \\cos^2 x$ to set up a 3 TQ equation in $\\cos x$. A1: Correct simplified quadratic equation in $\\cos x$. Terms can be on either side of the equation. The ‘= 0’ can be implied by a subsequent attempt to solve. dM1: Solves a quadratic equation in $\\cos x$ by any allowable method (including a calculator) to find $\\cos x$ and proceeds to a value for x (in degrees or radians) via arccos. Dependent upon the first M only. Minimum working required would be $4\\cos^2 x + 11\\cos x - 3 = 0 \\implies \\cos x = 0.25 \\implies x = 1.3$. Note that $\\cos x = 0.25 \\implies x = 0.2527$ is dM0 as it is $\\arcsin(1/4)$ not $\\arccos(1/4)$. $\\cos x = 0.25 \\implies x = 0.9689$ is dM0 as it is $\\cos(1/4)$ not $\\arccos(1/4)$. A1: $x = \\text{awrt } 1.318, 4.965$ following the award of all previous marks. Ignore any extra solutions outside the range, but withhold this mark for any extra solutions within it. Notes: Condone notation such as $\\frac{\\sin}{\\cos} = \\tan$ and $\\cos x^2$ for $\\cos^2 x$. This is not a proof."
+        },
+        {
+          "label": "(ii)",
+          "marks": 2,
+          "answer": "$\\tan \\theta = 2\\sqrt{2}$",
+          "markAllocation": [
+            {
+              "code": "M1",
+              "type": "M",
+              "value": 1,
+              "criterion": "Full method of finding a value for $\\tan \\theta$. The value for $\\sin \\theta$ cannot just appear."
+            },
+            {
+              "code": "A1",
+              "type": "A",
+              "value": 1,
+              "criterion": "$\\tan \\theta = 2\\sqrt{2}$"
+            }
+          ],
+          "guidance": "M1: Full method of finding a value for $\\tan \\theta$. The value for $\\sin \\theta$ cannot just appear. Other methods will be seen but most will include Pythagoras at some point. $(1 + \\tan^2 \\theta = \\sec^2 \\theta = 1/\\cos^2 \\theta)$. Allow sight of $\\tan \\theta = \\sqrt{9-1}$ o.e without any other supporting evidence. A1: $\\tan \\theta = 2\\sqrt{2}$ following the award of M1. Answers without working: In both parts candidates are able to use calculators to solve the whole of the question. This does not score any marks due to the demand of the question. All method marks must be awarded before accuracy marks are given. If in doubt then please send to review."
+        }
+      ]
+    },
+    {
+      "qnum": 8,
+      "marks": 13,
+      "parts": [
+        {
+          "label": "(i)",
+          "marks": 6,
+          "subparts": [
+            {
+              "label": "(a)",
+              "marks": 3,
+              "answer": "$S_n = \\frac{n}{2}(2a + (n-1)d)$",
+              "markAllocation": [
+                {
+                  "code": "B1",
+                  "type": "B",
+                  "value": 1,
+                  "criterion": "A correct expression for $S_n$ (but allow S) with a minimum of three terms including the first and last terms WITH no incorrect terms."
+                },
+                {
+                  "code": "M1",
+                  "type": "M",
+                  "value": 1,
+                  "criterion": "A correct method to find an expression for $S_n$ in terms of a, n and d. Look for a sum with correct first and last terms, the sum reversed (with at least first and last terms) and an attempt made to add the two series."
+                },
+                {
+                  "code": "A1*",
+                  "type": "A",
+                  "value": 1,
+                  "criterion": "Correct proof that has previous lines scoring both B1 and M1 as well as a line equivalent to $2S_n = n(a + a + (n-1)d)$ or equivalent before the given answer."
+                }
+              ],
+              "guidance": "B1: A correct expression for $S_n$ (but allow S) with a minimum of three terms including the first and last terms WITH no incorrect terms. Note that an incorrect order does not imply an incorrect term. So, you may see $S_n = a + (a+d) + ... + (a+(n-1)d) + (a+(n-1)d)$ which is B1. M1: A correct method to find an expression for $S_n$ in terms of a, n and d. Look for a sum with correct first and last terms, the sum reversed (with at least first and last terms) and an attempt made to add the two series. This mark is usually scored when the candidate works with the sum $S_n = a + ... + (a+(n-1)d)$. Condone attempts with incorrect terms. (See below). E.g. $S_n = a + (a+d) + ... + (a+nd) + (a+(n-1)d)$. $S_n = (a+(n-1)d) + (a+nd) + ... + (a+d) + a$. $2S_n = n(a+(n-1)d) + n(a+(n-1)d)$. A1*: Correct proof that has previous lines scoring both B1 and M1 as well as a line equivalent to $2S_n = n(a + (n-1)d + a)$ or equivalent before the given answer. You may see alternative proofs which define $l = a + (n-1)d$. This is acceptable and the same marking scheme can be applied. A minimal acceptable proof would be $S_n = a + (a+d) + ... + (a+(n-1)d)$. $S_n = (a+(n-1)d) + (a+(n-2)d) + ... + a$. $2S_n = n\\{a + (n-1)d + a\\}$. $S_n = \\frac{n}{2}\\{2a + (n-1)d\\}$."
+            },
+            {
+              "label": "(b)",
+              "marks": 3,
+              "answer": "35700",
+              "markAllocation": [
+                {
+                  "code": "B1",
+                  "type": "B",
+                  "value": 1,
+                  "criterion": "States or uses two of a = 900, d = -8 and n = 51. Or alternatively states or uses two of a = 500, d = 8 and n = 51"
+                },
+                {
+                  "code": "M1",
+                  "type": "M",
+                  "value": 1,
+                  "criterion": "Complete method E.g $500 = 900 + (n-1)(-8)$ and $S = \\frac{51}{2}\\{2 \\times 900 + 50 \\times -8\\}$"
+                },
+                {
+                  "code": "A1",
+                  "type": "A",
+                  "value": 1,
+                  "criterion": "35700"
+                }
+              ],
+              "guidance": "B1: States or uses at least two correct values of (i) the first term (ii) the common difference (iii) the number of terms. Accept two of a = 900, d = -8 and n =51 but it may be implied by embedded values within a formula. Alternatively allow the sum to be reversed so a = 500, d = 8 and n =51. M1: Full method of finding $900 + 892 + 884 + .......... + 500$. This must include both an attempt to find the value of n. E.g. $500 = 900 + (n-1) \\times -8 \\implies n = ...$ but condone $900 - 500 / 8 = n$ which is implied by n = 50. with an attempt at using the correct formula. Either $S_n = \\frac{n}{2}(2a + (n-1)d)$ with a = 900 or 500 and d = $\\pm 8$ and n = 50 or 51 or $S_n = \\frac{n}{2}(a + l)$ with $a+l = 900+500$ and n = 50 or 51. A1: 35700."
+            }
+          ]
+        },
+        {
+          "label": "(ii)",
+          "marks": 7,
+          "subparts": [
+            {
+              "label": "(a)",
+              "marks": 3,
+              "answer": "$2k^2 - 11k - 40 = 0$",
+              "markAllocation": [
+                {
+                  "code": "M1",
+                  "type": "M",
+                  "value": 1,
+                  "criterion": "Correct attempt to use the fact that these are consecutive terms in a GP to set up an equation in k. Look for $\\frac{k-2}{k+4} = \\frac{2k-11}{k-2}$ or $(k-2)^2 = (k+4)(2k-11)$ or equivalent condoning slips"
+                },
+                {
+                  "code": "dM1",
+                  "type": "M",
+                  "value": 1,
+                  "criterion": "Cross multiplies, expands and starts to collect terms. It is dependent upon the previous M"
+                },
+                {
+                  "code": "A1*",
+                  "type": "A",
+                  "value": 1,
+                  "criterion": "Correct working with sufficient intermediate work to show the given answer of $2k^2 - 11k - 40 = 0$. An intermediate line of $k^2 - 4k + 4 = 2k^2 - 3k - 44$ o.e. is sufficient. The = 0 must be present"
+                }
+              ],
+              "guidance": "The two parts in (ii) may be marked as a single question. M1: Correct attempt to use the fact that these are consecutive terms in a GP to set up an equation in k. Look for $\\frac{k-2}{k+4} = \\frac{2k-11}{k-2}$ or $(k-2)^2 = (k+4)(2k-11)$ or equivalent condoning slips. dM1: Cross multiplies, expands and starts to collect terms. It is dependent upon the previous M. See main scheme which has terms collected on either side of the = sign. A1*: Correct working with sufficient intermediate work to show the given answer of $2k^2 - 11k - 40 = 0$. An intermediate line of $k^2 - 4k + 4 = 2k^2 - 3k - 44$ o.e. is sufficient. The = 0 must be present."
+            },
+            {
+              "label": "(b)",
+              "marks": 4,
+              "answer": "24",
+              "markAllocation": [
+                {
+                  "code": "B1",
+                  "type": "B",
+                  "value": 1,
+                  "criterion": "Solves $2k^2 - 11k - 40 = 0$ and achieves at least 8. The other value if found can be ignored"
+                },
+                {
+                  "code": "M1",
+                  "type": "M",
+                  "value": 1,
+                  "criterion": "Uses either k value and attempts to find both a and r. E.g. with $k = 8 \\implies a = 8+4 = 12, r = (8-2)/(8+4) = 6/12 = 1/2$"
+                },
+                {
+                  "code": "dM1",
+                  "type": "M",
+                  "value": 1,
+                  "criterion": "Uses $S_\\infty = \\frac{a}{1-r}$ with their $|r| < 1$. It is dependent on the previous M but also a value of r where $|r| < 1$"
+                },
+                {
+                  "code": "A1",
+                  "type": "A",
+                  "value": 1,
+                  "criterion": "24 only. If two values are found it must be made clear that only this one is acceptable."
+                }
+              ],
+              "guidance": "B1: Solves $2k^2 - 11k - 40 = 0$ and achieves at least 8. The other value if found can be ignored. M1: Uses either of their k values and attempts to find both a and r. May be embedded within a formula. The value of a must be found using k + 4 and r must be attempted using the ratio $\\frac{k-2}{k+4}$ or $\\frac{2k-11}{k-2}$. FYI when with $k = -5/2 \\implies a = -5/2 + 4 = 3/2, r = (-5/2 - 2)/(-5/2 + 4) = (-9/2)/(3/2) = -3$. dM1: Uses $S_\\infty = \\frac{a}{1-r}$ with their $|r| < 1$. It is dependent on the previous M but also a value of r where $|r| < 1$. A1: 24 only. If two values are found it must be made clear that only this one is acceptable."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "qnum": 9,
+      "marks": 9,
+      "parts": [
+        {
+          "label": "(a)",
+          "marks": 2,
+          "answer": "Verifies 7",
+          "markAllocation": [
+            {
+              "code": "M1",
+              "type": "M",
+              "value": 1,
+              "criterion": "Substitute $t = 4$ in $3\\log_2(t+4) - 2\\log_2(t-2)$ and simplifies to achieve either $3\\log_2 8 - 2\\log_2 2$ or $3\\log_2(4+4) - 2\\log_2(4-2) = 9-2$"
+            },
+            {
+              "code": "A1",
+              "type": "A",
+              "value": 1,
+              "criterion": "Correctly verifies with a minimal conclusion seen. E.g. $3 \\times 3 - 2 \\times 1 = 7 \\checkmark$"
+            }
+          ],
+          "guidance": "Note the demand of the question. Candidates cannot substitute $t = 4$ into $t^3 - 116t^2 + 560t - 448 = 0$ unless all the work in part (b) is done in part (a). M1: Substitute $t = 4$ in $3\\log_2(t+4) - 2\\log_2(t-2)$ and simplifies to achieve either $3\\log_2 8 - 2\\log_2 2$ or $3\\log_2(4+4) - 2\\log_2(4-2) = 9-2$. There are other possible ways including substituting $t = 4$ into $\\log_2 \\frac{(t+4)^3}{(t-2)^2}$. If the equation is adapted it must be correct. A1: Correctly verifies with a minimal conclusion seen. E.g. $3 \\times 3 - 2 \\times 1 = 7 \\checkmark$. Condone sight of the calculation partially completed if deemed reasonable, E.g. $9-2 = 7 \\checkmark$. There are other possible ways including $3\\log_2 8 - 2\\log_2 2 = 9\\log_2 2 - 2\\log_2 2 = 7\\log_2 2 = 7$. Hence true. Or $\\log_2 \\frac{(t+4)^3}{(t-2)^2} = \\log_2 \\frac{(4+4)^3}{(4-2)^2} = \\log_2 \\frac{8^3}{2^2} = \\log_2 \\frac{512}{4} = \\log_2 128 = 7$. QED. The calculation of the logs must be something that could reasonably be done in your head. So $\\log_2 8^3/2^2 = 7$ is insufficient."
+        },
+        {
+          "label": "(b)",
+          "marks": 3,
+          "answer": "$t^3 - 116t^2 + 560t - 448 = 0$",
+          "markAllocation": [
+            {
+              "code": "M1",
+              "type": "M",
+              "value": 1,
+              "criterion": "One correct log law applied. E.g $(3\\log_2(t+4) = \\log_2(t+4)^3)$"
+            },
+            {
+              "code": "A1",
+              "type": "A",
+              "value": 1,
+              "criterion": "Correctly removes logs $(t+4)^3 = 2^7 (t-2)^2$"
+            },
+            {
+              "code": "A1*",
+              "type": "A",
+              "value": 1,
+              "criterion": "Proceeds to $t^3 - 116t^2 + 560t - 448 = 0$"
+            }
+          ],
+          "guidance": "Work from part (a) can only count in part (b) if it used in part (b). See example. M1: One correct log law seen and applied to the given equation. In almost all cases this will be a power law but it can be awarded for $\\log_2 128 = 7$. A1: Removes logs and forms a correct un-simplified equation. E.g. $(t+4)^3 = 2^7 (t-2)^2$ o.e. A1*: Proceeds to the given answer with sufficient intermediate work shown. Any incorrect working (including missing brackets) within the body of their solution should be penalised. See main scheme for a minimal acceptable solution."
+        },
+        {
+          "label": "(c)",
+          "marks": 4,
+          "answer": "$t = 4, 56 \\pm 12\\sqrt{21}$",
+          "markAllocation": [
+            {
+              "code": "M1",
+              "type": "M",
+              "value": 1,
+              "criterion": "Uses the fact that $t = 4$ is a solution so $(t-4)$ must be a factor. Score for attempting to divide or factor out $(t-4)$"
+            },
+            {
+              "code": "A1",
+              "type": "A",
+              "value": 1,
+              "criterion": "Correct quadratic factor $(t^2 - 112t + 112)$"
+            },
+            {
+              "code": "dM1",
+              "type": "M",
+              "value": 1,
+              "criterion": "Solves their $t^2 - 112t + 112$ and finds at least the value of t greater than 2"
+            },
+            {
+              "code": "A1",
+              "type": "A",
+              "value": 1,
+              "criterion": "States $t = 4, 56 \\pm 12\\sqrt{21}$ and no other solutions following the award of M1 A1 dM1"
+            }
+          ],
+          "guidance": "M1: Uses the fact that $t = 4$ is a solution so $(t-4)$ must be a factor. Score for attempting to divide or factor out $(t-4)$. For factorisation look for $t^3 - 116t^2 + 560t - 448 = (t-4)(t^2 \\pm ... t \\pm 112)$. For division look for $t^2 \\pm ... t \\pm 112$ or $t^2 \\pm ... t \\pm 120$. A1: Correct quadratic factor $(t^2 - 112t + 112)$. dM1: Solves their $t^2 - 112t + 112$ and finds at least the value of t greater than 2. It is dependent upon the previous method. Allow use of a calculator to solve the quadratic. Allow a decimal answer here, accuracy awrt 3sf. A1: States $t = 4, 56 \\pm 12\\sqrt{21}$ and no other solutions following the award of M1 A1 dM1. Candidates who simply write $t^3 - 116t^2 + 560t - 448 = 0$ followed by $t = 4, 56 \\pm 12\\sqrt{21}$ score 0 marks. All previous M’s and A must have been scored before the final A1 mark is given."
+        }
+      ]
+    },
+    {
+      "qnum": 10,
+      "marks": 9,
+      "parts": [
+        {
+          "label": "(a)",
+          "marks": 4,
+          "answer": "$x = 3$",
+          "markAllocation": [
+            {
+              "code": "M1",
+              "type": "M",
+              "value": 1,
+              "criterion": "Attempts to differentiate and achieves one term with the correct index. For this to be awarded: y must be written as a sum of two terms with one index correct $y = ax^{1/2} \\pm bx^{-1/2}$ or $y = ax^{3/2} \\pm bx^{-3/2}$. after differentiation a correct index must be achieved. Look for $\\alpha x^{-1/2} \\pm \\beta x^{-3/2}$ or $\\alpha x^{1/2} \\pm \\beta x^{-1/2}$. the index cannot be achieved from incorrect working, so calculations such as $y = 9x^{1/2} - 2x^{-1/2} \\implies \\frac{dy}{dx} = 9/2 x^{3/2} - (-1/2)2x^{-3/2}$ would score M0"
+            },
+            {
+              "code": "A1",
+              "type": "A",
+              "value": 1,
+              "criterion": "Correct differentiation which may be left un-simplified. Via the quotient rule this would be $\\frac{dy}{dx} = \\frac{(x^{1/2})(9/2 x^{-1/2} - (-1/2)2x^{-3/2}) - (9x^{1/2} - 2x^{-1/2})(1/2 x^{-1/2})}{x}$ which may be left un-simplified"
+            },
+            {
+              "code": "dM1",
+              "type": "M",
+              "value": 1,
+              "criterion": "Solves their $\\frac{dy}{dx} = 0$ which must have correct indices. Index work when solving must be correct. Look for $\\alpha x^{-1/2} \\pm \\beta x^{-3/2} = 0 \\implies x = ...$ with the index of x being 1. Alternatively squares E.g. $\\alpha x^{-1/2} = \\pm \\beta x^{-3/2} \\implies \\alpha^2 x^{-1} = \\beta^2 x^{-3} \\implies x = ...$. Via the quotient rule the equation should proceed to a form $px^2 + qx + r = 0 \\implies x = ...$"
+            },
+            {
+              "code": "A1",
+              "type": "A",
+              "value": 1,
+              "criterion": "Correct calculations and working leading to the x = 3 at P. Cannot be scored from an incorrect $\\frac{dy}{dx}$ so M1, A0, M1, A1 is NOT possible. Allow $9/4 x^{-1/2} - 3/4 x^{-3/2} = 0 \\implies x = 3$ without any intermediate work."
+            }
+          ],
+          "guidance": "M1: Attempts to differentiate and achieves one term with the correct index. For this to be awarded: y must be written as a sum of two terms with one index correct $y = ax^{1/2} \\pm bx^{-1/2}$ or $y = ax^{3/2} \\pm bx^{-3/2}$. after differentiation a correct index must be achieved. Look for $\\alpha x^{-1/2} \\pm \\beta x^{-3/2}$ or $\\alpha x^{1/2} \\pm \\beta x^{-1/2}$. the index cannot be achieved from incorrect working, so calculations such as $y = 9x^{1/2} - 2x^{-1/2} \\implies \\frac{dy}{dx} = 9/2 x^{3/2} - (-1/2)2x^{-3/2}$ would score M0. Alternatively, they may use the quotient rule. Look for $\\frac{dy}{dx} = \\frac{x^{1/2}(\\alpha x^{-1/2} - \\beta x^{-3/2}) - (9x^{1/2} - 2x^{-1/2})\\delta x^{-1/2}}{x}$ which may be left un-simplified. A1: Correct differentiation which may be left un-simplified. Via the quotient rule this would be $\\frac{dy}{dx} = \\frac{(x^{1/2})(9/2 x^{-1/2} - (-1/2)2x^{-3/2}) - (9x^{1/2} - 2x^{-1/2})(1/2 x^{-1/2})}{x}$ which may be left un-simplified. dM1: Solves their $\\frac{dy}{dx} = 0$ which must have correct indices. Index work when solving must be correct. Look for $\\alpha x^{-1/2} \\pm \\beta x^{-3/2} = 0 \\implies x = ...$ with the index of x being 1. Alternatively squares E.g. $\\alpha x^{-1/2} = \\pm \\beta x^{-3/2} \\implies \\alpha^2 x^{-1} = \\beta^2 x^{-3} \\implies x = ...$. Via the quotient rule the equation should proceed to a form $px^2 + qx + r = 0 \\implies x = ...$. A1: Correct calculations and working leading to the x = 3 at P. Cannot be scored from an incorrect $\\frac{dy}{dx}$ so M1, A0, M1, A1 is NOT possible. Allow $9/4 x^{-1/2} - 3/4 x^{-3/2} = 0 \\implies x = 3$ without any intermediate work."
+        },
+        {
+          "label": "(b)",
+          "marks": 5,
+          "answer": "$148/5$",
+          "markAllocation": [
+            {
+              "code": "M1",
+              "type": "M",
+              "value": 1,
+              "criterion": "Attempts to integrate and achieves one term with the correct index. For this to be awarded: y must be written as a sum of two terms with one index correct $x^{1/2} \\pm x^{-1/2}$ or $x^{3/2} \\pm x^{-3/2}$. after integration a correct index must be achieved with the indices processed and not left as for example $1/(1/2+1)$. Look for $ax^{3/2} \\pm bx^{1/2}$ or $ax^{5/2} \\pm bx^{-1/2}$. an index cannot be achieved from incorrect working. See third bullet point in (a)"
+            },
+            {
+              "code": "A1",
+              "type": "A",
+              "value": 1,
+              "criterion": "Correct integration. Look for $3x^{3/2} - 2x^{1/2}$ but may be left unsimplified"
+            },
+            {
+              "code": "B1",
+              "type": "B",
+              "value": 1,
+              "criterion": "(Upper) limit of the integral is 9. This can be written down without working."
+            },
+            {
+              "code": "dM1",
+              "type": "M",
+              "value": 1,
+              "criterion": "Method to find the area of R. It is dependent upon having scored the previous M1, having limits of 1 and 9 or else 1 and a solution of $9x^{1/2} - 2x^{-1/2} = 0$, $9x^{1/2} - 2x^{-1/2} = 0$ or adapted $9x^{1/2} - 2x^{-1/2} = 0$ that isn’t 0."
+            },
+            {
+              "code": "A1",
+              "type": "A",
+              "value": 1,
+              "criterion": "$148/5$ o.e. such as for example 29.6"
+            }
+          ],
+          "guidance": "M1: Attempts to integrate and achieves one term with the correct index. For this to be awarded: y must be written as a sum of two terms with one index correct $x^{1/2} \\pm x^{-1/2}$ or $x^{3/2} \\pm x^{-3/2}$. after integration a correct index must be achieved with the indices processed and not left as for example $1/(1/2+1)$. Look for $ax^{3/2} \\pm bx^{1/2}$ or $ax^{5/2} \\pm bx^{-1/2}$. an index cannot be achieved from incorrect working. See third bullet point in (a). A1: Correct integration. Look for $3x^{3/2} - 2x^{1/2}$ but may be left unsimplified. B1: (Upper) limit of the integral is 9. This can be written down without working. Allow this to be awarded on the Figure for the point at which the curve crosses the x-axis. dM1: Method to find the area of R. It is dependent upon having scored the previous M1, having limits of 1 and 9 or else 1 and a solution of $9x^{1/2} - 2x^{-1/2} = 0$, $9x^{1/2} - 2x^{-1/2} = 0$ or adapted $9x^{1/2} - 2x^{-1/2} = 0$ that isn’t 0. A1: $148/5$ o.e. such as for example 29.6."
+        }
+      ]
+    }
+  ]
+}

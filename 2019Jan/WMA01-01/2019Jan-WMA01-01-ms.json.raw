@@ -1,0 +1,1172 @@
+{
+  "v": "1.0",
+  "paper": "2019Jan-WMA01-01",
+  "board": "edx",
+  "code": "WMA12",
+  "year": 2019,
+  "session": "Jan",
+  "paperNum": "01",
+  "totalMarks": 75,
+  "questions": [
+    {
+      "qnum": 1,
+      "marks": 3,
+      "answer": "$y = -3x + 13$",
+      "markAllocation": [
+        {
+          "code": "B1",
+          "type": "B",
+          "value": 1,
+          "criterion": "For the correct gradient. If the candidate starts. $(y-10)/(x-1) = (2-10)/(5-1)$ then this isn't awarded until the $-3$ is seen."
+        },
+        {
+          "code": "M1",
+          "type": "M",
+          "value": 1,
+          "criterion": "For a correct attempt at the method of finding an equation for $l$ using their numerical gradient and any point that lies on the line. Eg it is possible to use the mid - point of the two given coordinates, the point $(3,4)$. Allow this mark if the candidate makes a slip on the gradient and/or a sign on one of the coordinates. Eg For using $m = (10-2)/(1-5) = -2$ and then $y - 2 = -2(x - 5)$. If the candidate finds $m = -3$ and then attempts the perpendicular line it is M0."
+        },
+        {
+          "code": "A1",
+          "type": "A",
+          "value": 1,
+          "criterion": "CAO $y = -3x + 13$ or $y = 13 - 3x$. Do not allow them to leave as $m = -3, c = 13$ unless preceded by a correct form."
+        }
+      ],
+      "guidance": "Alternative: Simultaneous equation approach using $-2 = 5m + c$ and $10 = 1m + c$. Condone slips but there must be some attempt to put the $(x, y)$ coordinates in the correct place in the formula. B1: Reaches $m = -3$. M1: Attempts to solve simultaneous equations to get $m = ...$ and $c = ...$. Do not look into the mechanics of the attempt to solve. Sight of values for $m$ and $c$ are fine to award this mark. A1: Writes out equation of line as $y = -3x + 13$ (Do not allow them to leave as $m = -3, c = 13$)."
+    },
+    {
+      "qnum": 2,
+      "marks": 4,
+      "parts": [
+        {
+          "label": "(a)",
+          "marks": 1,
+          "answer": "$y^2$",
+          "markAllocation": [
+            {
+              "code": "B1",
+              "type": "B",
+              "value": 1,
+              "criterion": "$y^2$ or $(y)^2$. Note that $y \\times y$ is not sufficient."
+            }
+          ],
+          "guidance": ""
+        },
+        {
+          "label": "(b)",
+          "marks": 1,
+          "answer": "$8y$",
+          "markAllocation": [
+            {
+              "code": "B1",
+              "type": "B",
+              "value": 1,
+              "criterion": "$8y$ but allow exact equivalents such as $8 \\times y$ or $y \\times 8$. $32y$ is therefore B0."
+            }
+          ],
+          "guidance": ""
+        },
+        {
+          "label": "(c)",
+          "marks": 2,
+          "answer": "$64y^4$",
+          "markAllocation": [
+            {
+              "code": "M1",
+              "type": "M",
+              "value": 1,
+              "criterion": "Look for a correct attempt at finding either the coefficient or the correct index of $y$. It must be a product or quotient and not a sum or difference of terms. So look for, in their solution, an expression of the form $64y^n$, $Ay^4$, $64/y^n$ or $A/y^4$ where A and n are constants. Condone for M1 A0 the correct inverted expression $y^4/64$."
+            },
+            {
+              "code": "A1",
+              "type": "A",
+              "value": 1,
+              "criterion": "$64y^4$ or exact equivalent $64y^{-4}$ (seen together) as their FINAL answer. No isw here."
+            }
+          ],
+          "guidance": ""
+        }
+      ]
+    },
+    {
+      "qnum": 3,
+      "marks": 4,
+      "answer": "$\\frac{5\\sqrt{2}}{2}$",
+      "markAllocation": [
+        {
+          "code": "M1",
+          "type": "M",
+          "value": 1,
+          "criterion": "For reducing the power of one of the $x$ terms by one. $x^2 \\to x$ or $x^{-1/2} \\to x^{-3/2}$."
+        },
+        {
+          "code": "A1",
+          "type": "A",
+          "value": 1,
+          "criterion": "$\\frac{\\mathrm{d}y}{\\mathrm{d}x} = 3x^2 - 2x^{-3/2}$ which may be left unsimplified."
+        },
+        {
+          "code": "dM1",
+          "type": "M",
+          "value": 1,
+          "criterion": "For attempting to substitute $x = 2$ into their $\\frac{\\mathrm{d}y}{\\mathrm{d}x} = 3x^2 - 2x^{-3/2}$, in order to find $\\frac{\\mathrm{d}y}{\\mathrm{d}x}$. The previous M1 must have been scored. Can be awarded for sight of awrt 3.54 as long as the first two marks have been awarded. Note $3(2)^2 - 2/(\\sqrt{2})^3 = a \\Rightarrow a = ...$ is fine. Withhold this mark if the candidate uses the $y$ value incorrectly, for example, if they substitute $x = 2$ and $\\frac{\\mathrm{d}y}{\\mathrm{d}x} = 2$ into their $\\frac{\\mathrm{d}y}{\\mathrm{d}x}$."
+        },
+        {
+          "code": "A1",
+          "type": "A",
+          "value": 1,
+          "criterion": "$\\frac{\\mathrm{d}y}{\\mathrm{d}x} = \\frac{5\\sqrt{2}}{2}$ oe Give bod to students who write $5\\sqrt{2}/2$ following correct work. Accept $a\\sqrt{2}$."
+        }
+      ],
+      "guidance": ""
+    },
+    {
+      "qnum": 4,
+      "marks": 6,
+      "parts": [
+        {
+          "label": "(a)",
+          "marks": 3,
+          "answer": "$u_3 = 16k - 15$",
+          "markAllocation": [
+            {
+              "code": "B1",
+              "type": "B",
+              "value": 1,
+              "criterion": "$u_2 = 4k - 3$. Allow $4 \\times k - 3$ or even $k \\times 4 - 3$."
+            },
+            {
+              "code": "M1",
+              "type": "M",
+              "value": 1,
+              "criterion": "Uses the iteration formula and their $u_2 = 4k - 3$ to find $u_3 = 4('4k - 3') - 3$."
+            },
+            {
+              "code": "A1",
+              "type": "A",
+              "value": 1,
+              "criterion": "$u_3 = 16k - 15$ which must be simplified in part (a). Accept $16 \\times k - 15$."
+            }
+          ],
+          "guidance": "You do not need to see the left-hand sides. Mark in the order given when the lhs are not present."
+        },
+        {
+          "label": "(b)",
+          "marks": 3,
+          "answer": "$k = 12/7$",
+          "markAllocation": [
+            {
+              "code": "M1",
+              "type": "M",
+              "value": 1,
+              "criterion": "For knowing $\\sum_{n=1}^{3} u_n = k + '4k - 3' + '16k - 15'$. There should be an attempt to write down the sum of their two terms and $k$. This may be implied or it may be embedded within an equation. The addition/ simplification does not need to be performed."
+            },
+            {
+              "code": "dM1",
+              "type": "M",
+              "value": 1,
+              "criterion": "Sets their $k + u_2 + u_3 = 18$ and attempts to solve for $k$. Condone slips in the attempt to solve. An attempt to solve may be awarded at the point $k = ...$"
+            },
+            {
+              "code": "A1",
+              "type": "A",
+              "value": 1,
+              "criterion": "$k = 12/7$ or exact equivalent such as $k = 36/21$."
+            }
+          ],
+          "guidance": "SC in (b) for candidates who use $u_1 + u_2 + u_3 = 18 \\Rightarrow (k) + (4k - 3) + (16k - 15) = 18 \\Rightarrow 64k - 63 = 18 \\Rightarrow 84k = 84$ oe can be awarded SC 100."
+        }
+      ]
+    },
+    {
+      "qnum": 5,
+      "marks": 7,
+      "parts": [
+        {
+          "label": "(a)",
+          "marks": 4,
+          "answer": "$1 - 4x + 7x^2 - 7x^3$",
+          "markAllocation": [
+            {
+              "code": "B1",
+              "type": "B",
+              "value": 1,
+              "criterion": "$(1 - x/2)^8 = 1 + 8(-x/2) + ...$ which may be awarded for an un-simplified expression Eg $1 + 8(-x/2) + ...$"
+            },
+            {
+              "code": "M1",
+              "type": "M",
+              "value": 1,
+              "criterion": "Uses the power series/binomial expansion with the correct coefficient being paired with the correct power of $x$ in the third OR fourth terms. Condone missing brackets. Accept the coefficients in the form $\\binom{8}{2} (x/2)^2$, $\\binom{8}{3} (x/2)^3$ ... Look for $1 + 8(-x/2) + \\frac{8 \\times 7}{2!} (-x/2)^2 + \\frac{8 \\times 7 \\times 6}{3!} (-x/2)^3 ...$"
+            },
+            {
+              "code": "A1",
+              "type": "A",
+              "value": 1,
+              "criterion": "For a correct third OR fourth term which may be unsimplified. So accept for the term three $\\frac{8 \\times 7}{2!} (-x/2)^2$ or $\\frac{8 \\times 7}{2!} (x/2)^2$ or $7x^2$. For term four $\\frac{8 \\times 7 \\times 6}{3!} (-x/2)^3$ or $-7x^3$. For this mark the coefficients cannot be left in the form $\\binom{8}{2}$ or equivalent."
+            },
+            {
+              "code": "A1",
+              "type": "A",
+              "value": 1,
+              "criterion": "Fully simplified $1 - 4x + 7x^2 - 7x^3$. Accept as a list $1, -4x, 7x^2, -7x^3$."
+            }
+          ],
+          "guidance": ""
+        },
+        {
+          "label": "(b)",
+          "marks": 3,
+          "answer": "$53/125$",
+          "markAllocation": [
+            {
+              "code": "B1",
+              "type": "B",
+              "value": 1,
+              "criterion": "States or uses $x = 1/5$ or $0.2$ oe."
+            },
+            {
+              "code": "M1",
+              "type": "M",
+              "value": 1,
+              "criterion": "Substitutes $x = 1/5$ or $0.2$ into their four term binomial expansion. Condone substitution into an expansion that has only three terms or more than four terms. Condone a substitution of $x = -0.2$ or $0.1$ oe into their binomial expansion for this mark."
+            },
+            {
+              "code": "A1",
+              "type": "A",
+              "value": 1,
+              "criterion": "$(0.9)^8 \\approx 53/125$ oe For example accept $424/1000$ or $265/625$."
+            }
+          ],
+          "guidance": "Note that if part (a) is fully correct then a correct answer should be awarded all three marks."
+        }
+      ]
+    },
+    {
+      "qnum": 6,
+      "marks": 7,
+      "parts": [
+        {
+          "label": "(a)",
+          "marks": 3,
+          "answer": "Graph of $y = 1 + \\cos x$ with correct shape, position, and intercepts at $(0,2)$ and $(\\pi,0)$.",
+          "markAllocation": [
+            {
+              "code": "M1",
+              "type": "M",
+              "value": 1,
+              "criterion": "For an attempt at least one complete cycle of the cosine graph. Condone minimal curvature but do not accept linear graphs. Look for minimum value (not a cusp) between two ‘maxima’ but be tolerant of curves that don’t appear to have zero gradients at either or both ends."
+            },
+            {
+              "code": "A1",
+              "type": "A",
+              "value": 1,
+              "criterion": "One complete cycle with correct shape and correct position. The maximum at $2\\pi$ (which does not need to be marked) should appear to be at the same height as at $x = 0$. The curvature must appear correct but be tolerant of slips. This may be awarded for more than one cycle but in this case the $2\\pi$ or $360^\\circ$ would need to be marked on the x-axis at the correct place. Do not penalise $2\\pi = 360^\\circ$ here."
+            },
+            {
+              "code": "B1",
+              "type": "B",
+              "value": 1,
+              "criterion": "$(0,2)$ and $(\\pi,0)$ only for the range $0$ to $2\\pi$. There must be a sketch for this to be awarded. Ignore any references to degrees. Accept $2$ and $\\pi$ being marked as the intercepts of their curve but not $(2, 0)$ and $(0, \\pi)$."
+            }
+          ],
+          "guidance": "Examples to aid marking: (Linear graph with correct intercepts: M0 A0 B1). (Correct shape but rhs not at same height as lhs: M1 A0 B1). (Clear intention: M1 A1 B1). (Sketch lack sufficient accuracy: M1 A0 B1). (Incorrect curvature at both ends: M1 A0 B1)."
+        },
+        {
+          "label": "(b)",
+          "marks": 4,
+          "answer": "$2\\pi$ or awrt 6.28",
+          "markAllocation": [
+            {
+              "code": "B1",
+              "type": "B",
+              "value": 1,
+              "criterion": "Strip width = $\\pi/3$ or awrt 1.05. May be implied by $(1/2) \\times (\\pi/3) \\times \\{.....\\}$ or $(\\pi/6) \\times \\{.....\\}$. $60^\\circ$ is B0."
+            },
+            {
+              "code": "M1",
+              "type": "M",
+              "value": 1,
+              "criterion": "Correct attempt to find the $y$ values required to process the trapezium rule. Award for sight of the values $2, 1.5, 0.5, 0, 0.5, 1.5$ and $2$."
+            },
+            {
+              "code": "M1",
+              "type": "M",
+              "value": 1,
+              "criterion": "For a full attempt at the trapezium rule following through only on their $\\pi/3$. Accept $(1/2) \\times \\text{their } (\\pi/3) \\times \\{2 + 2 + 2(1.5 + 0.5 + 0 + 0.5 + 1.5)\\}$. It can be implied by $... \\times 12 ...$"
+            },
+            {
+              "code": "A1",
+              "type": "A",
+              "value": 1,
+              "criterion": "$2\\pi$ or awrt 6.28."
+            }
+          ],
+          "guidance": "Using separate trapezia look for $\\pi/12 + \\pi/12 + \\pi/12 + \\pi/12 + \\pi/12 + \\pi/12$. Score B1: One correct value, M1: Six values allowing for two errors to the values above, M1: Fully correct values, A1: $2\\pi$ or awrt 6.28. Note 1: The exact answer of $\\int_0^{2\\pi} (1 + \\cos x) \\mathrm{d}x$ is $2\\pi$. So, without the sight of the application of the trapezium rule score 0 marks."
+        }
+      ]
+    },
+    {
+      "qnum": 7,
+      "marks": 5,
+      "answer": "$0 < p < 8/25$",
+      "markAllocation": [
+        {
+          "code": "M1",
+          "type": "M",
+          "value": 1,
+          "criterion": "Attempts $b'^2 - 4a'c'$ with $a=2, b=p, c=5p$. Condone $p^2 - 8p$ for this mark. Allow for an attempt at $b'^2 ... 4a'c'$ with $...$ being any equality or inequality Eg $b'^2 > 4a'c' \\Rightarrow p^2 > 8p$. Alternatively attempts to ''solve'' $2x^2 + px + 5p = 0$ by either completing the square or using the formula followed by consideration of the aspect of the solution that relates to the roots. Eg in completing the square $x^2 + (p/2)x + 5p/2 = 0 \\Rightarrow (x + p/4)^2 \\pm (p/4)^2 + 5p/2 = 0$ and considers just $(p/4)^2 + 5p/2$."
+        },
+        {
+          "code": "A1",
+          "type": "A",
+          "value": 1,
+          "criterion": "A correct and simplified $b'^2 - 4a'c' = p^2 - 8p$, without the brackets. Also allow $b'^2 ... 4a'c'$ with any inequality or equality between. Eg. $p^2 > 8p$. In the alternative it is for reaching $p^2/16 - 5p/2$ or equivalent."
+        },
+        {
+          "code": "M1",
+          "type": "M",
+          "value": 1,
+          "criterion": "Sets $b^2 - 4ac ... 0$ with their values, which may be implied, and proceeds to find a value or values for $p$. The $...$ may be any inequality or equality. This is not dependent on candidates getting a correct $a=2, b=p, c=5p$."
+        },
+        {
+          "code": "M1",
+          "type": "M",
+          "value": 1,
+          "criterion": "Chooses inside region for their two roots. Can be awarded for $0 \\le p \\le 8/25$. Ignore any reference to a diagram."
+        },
+        {
+          "code": "A1",
+          "type": "A",
+          "value": 1,
+          "criterion": "$0 < p < 8/25$ or equivalent such as $(0, 0.32)$, $p \\in (0, 0.32)$, $]0, 8/25[$. $0 < p$ and $p < 8/25$ where $...$ is either a comma, an and or nothing at all. Note that a candidate who writes $0 < x < 8/25$ scores M1 A0 or uses two inequalities $p > 0$ or $p < 8/25$ with the word ''or''."
+        }
+      ],
+      "guidance": ""
+    },
+    {
+      "qnum": 8,
+      "marks": 5,
+      "answer": "$k^3 - 10k^2 - 7k - 6 = 0$",
+      "markAllocation": [
+        {
+          "code": "M1",
+          "type": "M",
+          "value": 1,
+          "criterion": "Attempts to integrate $2x + 6/x^2$ and obtains at least one correct power."
+        },
+        {
+          "code": "A1",
+          "type": "A",
+          "value": 1,
+          "criterion": "$\\int (2x + 6/x^2) \\mathrm{d}x = x^2 - 6/x$ which may be left unsimplified."
+        },
+        {
+          "code": "M1",
+          "type": "M",
+          "value": 1,
+          "criterion": "Substitutes in both $k$ and $3$ into their integrated expression, attempts to subtract the correct way around and sets equal to $10k$. Condone a lack of bracketing here. For instance $k^2 - 6/k - (3^2 - 6/3) = 10k$ will be common."
+        },
+        {
+          "code": "dM1",
+          "type": "M",
+          "value": 1,
+          "criterion": "Multiplies by $k$ to achieve a cubic equation in $k$. This must be seen applied correctly at least twice. It is dependent upon both M's as well as achieving two correct powers."
+        },
+        {
+          "code": "A1",
+          "type": "A",
+          "value": 1,
+          "criterion": "AG. Achieves $k^3 - 10k^2 - 7k - 6 = 0$ with no errors or omissions. For example the bracketing error would mean that this mark is withheld."
+        }
+      ],
+      "guidance": ""
+    },
+    {
+      "qnum": 9,
+      "marks": 8,
+      "parts": [
+        {
+          "label": "(a)",
+          "marks": 2,
+          "answer": "$(-5, 3)$",
+          "markAllocation": [
+            {
+              "code": "M1",
+              "type": "M",
+              "value": 1,
+              "criterion": "For $(x \\pm 5)^2 + (y \\pm 3)^2 = ...$ or Centre = $(\\pm 5, \\pm 3)$."
+            },
+            {
+              "code": "A1",
+              "type": "A",
+              "value": 1,
+              "criterion": "Centre = $(-5, 3)$. Answer without working is M1 A1. Allow this to be written separately as $x = -5, y = 3$."
+            }
+          ],
+          "guidance": ""
+        },
+        {
+          "label": "(b)",
+          "marks": 2,
+          "answer": "$5$",
+          "markAllocation": [
+            {
+              "code": "M1",
+              "type": "M",
+              "value": 1,
+              "criterion": "$(R)^2 = (-5)^2 + (3)^2 - 9$."
+            },
+            {
+              "code": "A1",
+              "type": "A",
+              "value": 1,
+              "criterion": "Radius = 5."
+            }
+          ],
+          "guidance": ""
+        },
+        {
+          "label": "(c)",
+          "marks": 4,
+          "answer": "$3x + 4y - 22 = 0$",
+          "markAllocation": [
+            {
+              "code": "M1",
+              "type": "M",
+              "value": 1,
+              "criterion": "Attempts to find the gradient of the radius from their $(-5,3)$ to $P(-2,7)$. It must be an attempt at $\\Delta y / \\Delta x$ but allow one slip in sign or order of terms. So $(7-3)/(-2- (-5)) = 4/3$ can score M1."
+            },
+            {
+              "code": "M1",
+              "type": "M",
+              "value": 1,
+              "criterion": "Uses perpendicular gradient rule to find gradient of tangent."
+            },
+            {
+              "code": "dM1",
+              "type": "M",
+              "value": 1,
+              "criterion": "Uses a correct perpendicular gradient for their $4/3$ with $P(-2,7)$ to find the equation of tangent. If they use $y = mx + c$ the attempt must proceed as far as $c = ..$ Condone one slip on the signs when using $P(-2,7)$."
+            },
+            {
+              "code": "A1",
+              "type": "A",
+              "value": 1,
+              "criterion": "$3x + 4y - 22 = 0$ or multiple thereof. If the candidate goes on to misquote values of a, b and c you may isw."
+            }
+          ],
+          "guidance": "Alternative method using differentiation: M1: For $2x + 2y \\frac{\\mathrm{d}y}{\\mathrm{d}x} + 10 + 6 \\frac{\\mathrm{d}y}{\\mathrm{d}x} = 0$ but condoning slips on the coefficients only. M1: Substitutes $(-2,7)$ into an acceptable differentiated form (see line above) and finds the value of $\\frac{\\mathrm{d}y}{\\mathrm{d}x}$. dM1: Uses the value of $\\frac{\\mathrm{d}y}{\\mathrm{d}x}$ with $(-2,7)$ to find an equation of a straight line. A1: $3x + 4y - 22 = 0$ or multiple thereof."
+        }
+      ]
+    },
+    {
+      "qnum": 10,
+      "marks": 11,
+      "parts": [
+        {
+          "label": "(a)",
+          "marks": 2,
+          "answer": "awrt 0.351 rads",
+          "markAllocation": [
+            {
+              "code": "M1",
+              "type": "M",
+              "value": 1,
+              "criterion": "Uses the sin rule with the sides and angles in the correct position within the formula."
+            },
+            {
+              "code": "A1",
+              "type": "A",
+              "value": 1,
+              "criterion": "Proceeds correctly to find angle $DAO = \\text{awrt } 0.351 \\text{ rads}$. (Do not be concerned by incorrect labels for the angle Accept $AOD = \\text{awrt } 0.351$ if it is clear that was what was meant)"
+            }
+          ],
+          "guidance": "Note that it is possible to use the cosine rule twice to find angle DAO. First of all by solving a quadratic equation to find length AO and then using all three lengths. Do not allow if they assume that AO = 4.9 cm which is given in the stem to part (b)."
+        },
+        {
+          "label": "(b)",
+          "marks": 3,
+          "answer": "$AO = 4.9 \\text{ (m)}$",
+          "markAllocation": [
+            {
+              "code": "M1",
+              "type": "M",
+              "value": 1,
+              "criterion": "States or uses angle $ADO = \\pi - 0.84 - \\text{their } 0.351$. Award if you see $ADO = \\text{awrt } 1.95 \\text{ radians}$."
+            },
+            {
+              "code": "M1",
+              "type": "M",
+              "value": 1,
+              "criterion": "Uses $AO^2 = 1.8^2 + 3.9^2 - 2 \\times 1.8 \\times 3.9 \\cos('1.95')$ or $AO/\\sin(1.95) = 3.9/\\sin(0.84)$ or $AO/\\sin(1.95) = 1.8/\\sin(0.351)$. There must have been some attempt at finding ADO using angles in a triangle but condone candidates making a slip on converting $180^\\circ$ to radians. So allow $2\\pi$ instead of $\\pi$."
+            },
+            {
+              "code": "A1",
+              "type": "A",
+              "value": 1,
+              "criterion": "AG. Proceeds to given answer of $AO = 4.9 \\text{ (m)}$ scored from an accuracy of at least 0.35 in part (a). Some intermediate working must be seen to justify this award so $AO^2 = 23.6$, $AO^2 = 23.7$, or $AO = 4.86$ is fine. It cannot be scored from an incorrect angle. Allow answer to be left unrounded as $4.86$ or $4.87 \\text{ (m)}$."
+            }
+          ],
+          "guidance": "Alt b: There are many alternative solutions here including the use of right angles triangles (see diagram). Please consider the candidates work carefully. One alt is: M1: $3.9^2 = AO^2 + 1.8^2 - 2 \\times AO \\times 1.8 \\cos(0.84) \\Rightarrow 3TQ$ in AO $(AO^2 - 2.41 AO - 11.97 = 0)$. M1: Solves 3TQ = 0 using a correct formula to find AO ($x = 4.87, -2.46$). A1*: Accurate solution. Allow the answer being left unrounded eg. as 4.87 (m)."
+        },
+        {
+          "label": "(c)",
+          "marks": 3,
+          "answer": "awrt $12.1 \\text{m}^2$",
+          "markAllocation": [
+            {
+              "code": "M1",
+              "type": "M",
+              "value": 1,
+              "criterion": "Attempts area of sector DOBCD $= (1/2) \\times 1.8^2 \\times (2\\pi - 0.84) = \\text{awrt } 8.8$ with a correct attempt at the angle. Allow the angle being stated as $5.4$ or $5.44$ radians. Note that it is possible via an area of circle calculation $\\pi \\times 1.8^2 - (1/2) \\times 1.8^2 \\times 0.84 = \\text{awrt } 8.8$."
+            },
+            {
+              "code": "M1",
+              "type": "M",
+              "value": 1,
+              "criterion": "A correct attempt at the area of triangle ADO For example $(1/2) \\times 1.8 \\times 4.9 \\sin(0.84) = \\text{awrt } 3.3$ but also $(1/2) \\times 1.8 \\times 3.9 \\sin('1.95') = \\text{awrt } 3.3$ or $(1/2) \\times 3.9 \\times 4.9 \\sin('0.351') = \\text{awrt } 3.3$."
+            },
+            {
+              "code": "A1",
+              "type": "A",
+              "value": 1,
+              "criterion": "Area of shop sign = awrt $12.1 \\text{m}^2$."
+            }
+          ],
+          "guidance": "Watch for an attempt that uses Circle + Triangle - Minor sector. This can be marked with the first M being for the (Circle - Minor sector) $( \\pi \\times 1.8^2 - (1/2) \\times 1.8^2 \\times 0.84 = \\text{awrt } 8.8)$."
+        },
+        {
+          "label": "(d)",
+          "marks": 3,
+          "answer": "awrt $16.8 \\text{ (m)}$",
+          "markAllocation": [
+            {
+              "code": "M1",
+              "type": "M",
+              "value": 1,
+              "criterion": "Attempt to find major arc using a correct method. Accept $r \\times (2\\pi - \\theta)$. As with part (c) look for equivalents such as $2\\pi \\times r - r \\times 0.84$. Allow the angle being stated as $5.4$ or $5.44$ radians."
+            },
+            {
+              "code": "M1",
+              "type": "M",
+              "value": 1,
+              "criterion": "Attempts their '9.8' + 3.9 + 3.1. It is not dependent upon the previous mark but $r\\theta$ or equivalent must have been used to find the length of the arc. Do not award this mark when they use the circumference of the circle."
+            },
+            {
+              "code": "A1",
+              "type": "A",
+              "value": 1,
+              "criterion": "Awrt $16.8 \\text{ (m)}$."
+            }
+          ],
+          "guidance": "Note that any attempt using degrees must be working from an accuracy of at least $48^\\circ$ before Method marks can be awarded. FYI Angle $DOA = 48.1^\\circ$ Angle $DAO = 20.1^\\circ$ Angle $ADO = 111.8^\\circ$. (a) M1 $\\sin(DAO)/1.8 = \\sin(48)/3.9$ A1: $DAO = 20.1^\\circ = \\text{awrt } 0.351 \\text{ rads}$. (b) M1 $ADO = 180^\\circ - 48^\\circ - \\text{their } 20.1^\\circ$ M1: $AO^2 = 1.8^2 + 3.9^2 - 2 \\times 1.8 \\times 3.9 \\cos('111.8')^\\circ$. (c) M1 Area of sector $(312/360) \\times \\pi \\times 1.8^2$ M1 Area of triangle $(1/2) \\times 1.8 \\times 4.9 \\sin(48)$. (d) M1 Arc length $(312/360) \\times 2 \\times \\pi \\times 1.8$."
+        }
+      ]
+    },
+    {
+      "qnum": 11,
+      "marks": 8,
+      "parts": [
+        {
+          "label": "(i)",
+          "marks": 3,
+          "answer": "$3\\sqrt{2}$",
+          "markAllocation": [
+            {
+              "code": "M1",
+              "type": "M",
+              "value": 1,
+              "criterion": "'Undoes' the log $x = \\log_4 324 \\Rightarrow 4^x = 324$ oe. Condone slips on the 324."
+            },
+            {
+              "code": "dM1",
+              "type": "M",
+              "value": 1,
+              "criterion": "Undoes the power correctly $4^x = 324 \\Rightarrow x = 324^{1/4}$ or alternatively $4^x = 324 \\Rightarrow x^2 = 18 \\Rightarrow x = \\sqrt{18}$. This may be implied by a decimal answer such as awrt 4.24."
+            },
+            {
+              "code": "A1",
+              "type": "A",
+              "value": 1,
+              "criterion": "$x = 3\\sqrt{2}$. Ignore any reference to $x = -3\\sqrt{2}$."
+            }
+          ],
+          "guidance": ""
+        },
+        {
+          "label": "(ii)",
+          "marks": 5,
+          "answer": "$y = \\frac{3a^3}{2 - 4a^3}$",
+          "markAllocation": [
+            {
+              "code": "M1",
+              "type": "M",
+              "value": 1,
+              "criterion": "Correct application of the subtraction law of logs. It could be awarded for the addition law for students who proceed $\\log_a(y) + \\log_a(2) = \\log_a(3) + \\log_a(5-4y)$."
+            },
+            {
+              "code": "M1",
+              "type": "M",
+              "value": 1,
+              "criterion": "Use of $3 = \\log_a(a^3)$. This may be implied by 'undoing' the logs. For example $\\log_a(...) = 3 \\Rightarrow ... = a^3$."
+            },
+            {
+              "code": "A1",
+              "type": "A",
+              "value": 1,
+              "criterion": "A correct equation in $a$ and $y$. Look for variations on $y/(5-4y) = a^3/2$."
+            },
+            {
+              "code": "M1",
+              "type": "M",
+              "value": 1,
+              "criterion": "A correct attempt to change the subject. Look for a minimum of cross multiplication, collecting terms in $y$, factorising out the $y$ term and division. For those that attempt to divide first $y/(5-4y) = a^3/2 \\Rightarrow y/a^3 = (5-4y)/2$ look for and attempt to make the $1/y$ term the subject followed by an attempt to ''invert'' both sides, not just term by term."
+            },
+            {
+              "code": "A1",
+              "type": "A",
+              "value": 1,
+              "criterion": "$y = \\frac{3a^3}{2 - 4a^3}$ or equivalent such as $y = \\frac{3a^3}{2 - 4a^3}$ or $y = \\frac{1.5a^3}{1 - 2a^3}$. Condone fractions within fractions and isw after a correct answer."
+            }
+          ],
+          "guidance": "Special case: $\\log_a(5-4y) - \\log_a(y) = 3 - \\log_a(2) \\Rightarrow \\log_a((5-4y)/y) = \\log_a(a^3/2) \\Rightarrow (5-4y)/y = a^3/2$. Can be awarded M0 M1 A0 M1 A1 if they go on to correctly achieve $y = \\frac{3a^3}{2 - 4a^3}$."
+        }
+      ]
+    },
+    {
+      "qnum": 12,
+      "marks": 9,
+      "parts": [
+        {
+          "label": "(a)",
+          "marks": 4,
+          "answer": "$N = 17$",
+          "markAllocation": [
+            {
+              "code": "M1",
+              "type": "M",
+              "value": 1,
+              "criterion": "Attempts to apply the correct sum formula $S_N = a(r^N - 1)/(r - 1)$ with $a=25, r=1.1$ and $S_N = 1000$. Allow an attempt using the sum formula $S_N = a(1 - r^N)/(1 - r)$ with $a=25, r=1.1$ and $S_N = 1000$."
+            },
+            {
+              "code": "A1",
+              "type": "A",
+              "value": 1,
+              "criterion": "For proceeding to $1.1^N = 5$."
+            },
+            {
+              "code": "M1",
+              "type": "M",
+              "value": 1,
+              "criterion": "Uses logs correctly in an attempt to solve an equation of the form $a^N = b$ where both $a$ and $b$ are positive. This may be scored from a term equation. Eg $25 \\times r^{N-1} = 1000$. Attempts via incorrect previous work that lead to for example $27.5^N = ...$ or attempts from an incorrect sum equation $25(1.1^{N-1} - 1)/(1.1 - 1) = 1000$ have an opportunity to score this mark. Candidates are supposed to show sufficient working to make their methods clear so from $a^N = b$ score for an intermediate answer of $\\log b / \\log a$, $\\log_a b$, or using the correct $1.1^N = 5$ expect to see a value of $16.8$ or $16.9$."
+            },
+            {
+              "code": "A1",
+              "type": "A",
+              "value": 1,
+              "criterion": "$N = 17$ from $1.1^N = 5$ and correct work."
+            }
+          ],
+          "guidance": "Allow attempts with inequalities for all marks. Allow $N = n$."
+        },
+        {
+          "label": "(b)",
+          "marks": 2,
+          "answer": "$330$",
+          "markAllocation": [
+            {
+              "code": "M1",
+              "type": "M",
+              "value": 1,
+              "criterion": "Uses $a_n = a + (n - 1)d$ with $a=50, d=20$ and $n=15$."
+            },
+            {
+              "code": "A1",
+              "type": "A",
+              "value": 1,
+              "criterion": "330. This alone would score both marks."
+            }
+          ],
+          "guidance": ""
+        },
+        {
+          "label": "(c)",
+          "marks": 3,
+          "answer": "$\\pounds 14250$",
+          "markAllocation": [
+            {
+              "code": "M1",
+              "type": "M",
+              "value": 1,
+              "criterion": "Attempts $S_n = n/2 (2a + (n-1)d)$ with $a=50, n=15, d=20$ or $a=250, n=15, d=100$. Alternatively attempts $S_n = n/2 (a + l)$ with $a=50, n=15, l=\\text{their } '330'$ or $a=250, n=15, l=5 \\times \\text{their } 330$. You may see listing which is acceptable. For this expect to see 15 terms with all terms correct. $50 + 70 + 90 + 110 + 130 + 150 + 170 + 190 + 210 + 230 + 250 + 270 + 290 + 310 + 330$ (or 5 times these)."
+            },
+            {
+              "code": "dM1",
+              "type": "M",
+              "value": 1,
+              "criterion": "Uses a method that calculates the total amount of money raised. If candidate attempts total number of people $\\times \\pounds 5$ it is dependent upon a correct sum formula having been used. Eg. Accept $15/2 (2 \\times 50 + 14 \\times 20) \\times 5$ or $15/2 (2 \\times 250 + 14 \\times 100)$ or $15/2 (250 + '330' \\times 5)$ is used. Listing would be all the values above multiplied by 5."
+            },
+            {
+              "code": "A1",
+              "type": "A",
+              "value": 1,
+              "criterion": "$\\pounds 14250$."
+            }
+          ],
+          "guidance": ""
+        }
+      ]
+    },
+    {
+      "qnum": 13,
+      "marks": 10,
+      "parts": [
+        {
+          "label": "(a)",
+          "marks": 2,
+          "answer": "$c = -14$",
+          "markAllocation": [
+            {
+              "code": "M1",
+              "type": "M",
+              "value": 1,
+              "criterion": "Attempts to set $f(\\pm 3) = 0$. Look for the $\\pm 3$ embedded or one of the calculations correct."
+            },
+            {
+              "code": "A1",
+              "type": "A",
+              "value": 1,
+              "criterion": "Proceeds via a correct intermediate equation (either $3c = -42$ or $3c + 42 = 0$ oe) before reaching $c = -14$. Alternative methods include substituting $c = -14$ into the equation and attempting $f(-3)$. To score the A1*, $f(-3)$ must be shown $= 0$ and there must be a concluding remark that as $f(-3) = 0$, then $c = -14$. Dividing $x^3 + 3x^2 + cx + 12$ by $(x + 3)$ and setting the remainder, which must be in terms of $c$, equal to $0$. FYI the remainder is $12 - 3c - 54$."
+            }
+          ],
+          "guidance": "You may mark parts (b) and (c) together."
+        },
+        {
+          "label": "(b)",
+          "marks": 2,
+          "answer": "$(x + 3)(3x^2 - 6x + 4)$",
+          "markAllocation": [
+            {
+              "code": "M1",
+              "type": "M",
+              "value": 1,
+              "criterion": "Attempts to find $Q(x)$ by either factorisation or division. If factorisation is used look for the first and last terms $x^3 + 3x^2 - 14x + 12 = (x + 3)(3x^2 ... \\pm 4)$. If division is used look for $3x^2 - 6x ... / (x + 3) | 3x^3 + 3x^2 - 14x + 12$."
+            },
+            {
+              "code": "A1",
+              "type": "A",
+              "value": 1,
+              "criterion": "$(x + 3)(3x^2 - 6x + 4)$ seen on the same line or states $Q(x) = (3x^2 - 6x + 4)$."
+            }
+          ],
+          "guidance": ""
+        },
+        {
+          "label": "(c)",
+          "marks": 2,
+          "answer": "$b^2 - 4ac = -12 < 0$, so no real roots for $3x^2 - 6x + 4 = 0$, hence $f(x) = 0$ has 1 root ($x = -3$)",
+          "markAllocation": [
+            {
+              "code": "M1",
+              "type": "M",
+              "value": 1,
+              "criterion": "Attempts to find the roots of their 3TQ $3x^2 - 6x + 4 = 0$ by formula or completing the square. Alternatively attempts to find the value/sign of the discriminant of their $3x^2 - 6x + 4 = 0$."
+            },
+            {
+              "code": "A1",
+              "type": "A",
+              "value": 1,
+              "criterion": "This requires the candidate to prove that $f(x) = 0$ has only one real solution. Look for a correct $Q(x) = 3x^2 - 6x + 4$, a correct calculation with minimal reason why $Q(x)$ has no solutions and a minimal reason why $f(x) = 0$ has only one solution. Eg 1: $3x^2 - 6x + 4 = 0 \\Rightarrow x = 1 \\pm i/\\sqrt{3}$ No real roots so just the root of $-3$. Eg 2: $3x^2 - 6x + 4 = 0 \\Rightarrow x = (6 \\pm \\sqrt{36 - 48})/6$ Maths error, so no roots. Just crosses at $-3$. Eg 3: $3x^2 - 6x + 4 = 0 \\Rightarrow b^2 - 4ac = 36 - 48 = -12 < 0$ so no (real) roots so has just 1 root from the $(x + 3)$. Eg 4: $3(x - 1)^2 + 1 > 0$ so no solutions so just 1 solution from the $(x + 3)$. This is C12 and candidates may not be doing Further Maths so condone for reasons why $Q(x)$ has no roots. Accept ''it's impossible'', ''you cannot square root a negative'' and ''no answers''. For the $f(x) = 0$ there must be a reference to either $-3$ or $(x + 3)$."
+            }
+          ],
+          "guidance": ""
+        },
+        {
+          "label": "(d)",
+          "marks": 4,
+          "subparts": [
+            {
+              "label": "(d)(i)",
+              "marks": 2,
+              "answer": "Graph of $y = |f(x)|$ with x-intercept at $(-1,0)$ and y-intercept at $(0,12)$.",
+              "markAllocation": [
+                {
+                  "code": "B1",
+                  "type": "B",
+                  "value": 1,
+                  "criterion": "Correct shape and position with x intercept at either $-1$ or $-9$ or the equivalent coordinates. Look for a graph in quadrants 1, 2 and 3 with a minimum in quad 1 and a maximum in quad 2. You may allow a minimal presence in quadrant 3."
+                },
+                {
+                  "code": "B1",
+                  "type": "B",
+                  "value": 1,
+                  "criterion": "Intercepts at $(-1,0)$ and $(0,12)$ ONLY. Alternatively allow $-1$ and $12$ being marked on the correct axes. Condone the sketch meeting the x-axis at $(-1,0)$ as it would have lost the first B1."
+                }
+              ],
+              "guidance": ""
+            },
+            {
+              "label": "(d)(ii)",
+              "marks": 2,
+              "answer": "Graph of $y = f(x-3)$ with x-intercept at $(-3,0)$ and y-intercept at $(0,-12)$.",
+              "markAllocation": [
+                {
+                  "code": "B1",
+                  "type": "B",
+                  "value": 1,
+                  "criterion": "Correct shape and position. Look for a graph in quadrants 2, 3 and 4 with a minimum in quad 3 and a maximum in quad 4. You may allow a minimal presence in quadrant 2."
+                },
+                {
+                  "code": "B1",
+                  "type": "B",
+                  "value": 1,
+                  "criterion": "Intercepts at $(-3,0)$ and $(0,-12)$ ONLY. Alternatively allow $-3$ and $-12$ being marked on the correct axes. Condone the sketch meeting the x-axis at $(-3,0)$ as it would have lost the first B1."
+                }
+              ],
+              "guidance": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "qnum": 14,
+      "marks": 11,
+      "parts": [
+        {
+          "label": "(i)",
+          "marks": 4,
+          "answer": "$x = -83.6^\\circ, 143.6^\\circ$",
+          "markAllocation": [
+            {
+              "code": "M1",
+              "type": "M",
+              "value": 1,
+              "criterion": "Uses $\\arcsin(-0.4)$ to form one correct equation usually $x + 60 = -23.6$ or $x + 60 = 203.6$. It may be implied by $x + 60 = 420 - 23.6$ or by one correct answer. You may allow accuracy to the nearest whole degree, rounded or truncated. Do not allow mixed units, that is radians on the rhs. Do not award this mark of they just write down a value for $\\arcsin(-0.4)$ eg $203.6$."
+            },
+            {
+              "code": "A1",
+              "type": "A",
+              "value": 1,
+              "criterion": "Either awrt $-83.6^\\circ$ or $143.6^\\circ$."
+            },
+            {
+              "code": "M1",
+              "type": "M",
+              "value": 1,
+              "criterion": "Uses $\\arcsin(-0.4)$ to form both correct equations usually $x + 60 = -23.6$ and $x + 60 = 203.6$. You may allow accuracy to the nearest whole degree, rounded or truncated. It can be implied by the sight of both correct answers."
+            },
+            {
+              "code": "A1",
+              "type": "A",
+              "value": 1,
+              "criterion": "Both awrt $-83.6^\\circ$ and $143.6^\\circ$ with no additional solutions within the range."
+            }
+          ],
+          "guidance": ""
+        },
+        {
+          "label": "(ii)",
+          "marks": 7,
+          "subparts": [
+            {
+              "label": "(ii)(a)",
+              "marks": 3,
+              "answer": "$3\\cos^2\\theta + 3\\cos\\theta - 2 = 0$",
+              "markAllocation": [
+                {
+                  "code": "M1",
+                  "type": "M",
+                  "value": 1,
+                  "criterion": "Uses $\\tan\\theta = \\sin\\theta/\\cos\\theta$ in the given equation."
+                },
+                {
+                  "code": "M1",
+                  "type": "M",
+                  "value": 1,
+                  "criterion": "Multiplies by $\\cos\\theta$ (applied to all terms) and replaces $\\sin^2\\theta$ by $1 - \\cos^2\\theta$ in any order to produce a 3TQ equation in just $\\cos\\theta$."
+                },
+                {
+                  "code": "A1",
+                  "type": "A",
+                  "value": 1,
+                  "criterion": "Proceed correctly to the given answer $3\\cos^2\\theta + 3\\cos\\theta - 2 = 0$. All notation should be correct so $\\cos\\theta$ cannot appear as just $\\cos$ in the body of their solution and $\\sin^2\\theta$ cannot appear as $\\sin^2\\theta$ without a correct bracket. Penalise mixed variables here eg $\\theta$ and $x$. Do not penalise answers that contain incomplete lines that may be regarded as their working but the $= 0$ must be seen on the final line."
+                }
+              ],
+              "guidance": ""
+            },
+            {
+              "label": "(ii)(b)",
+              "marks": 4,
+              "answer": "$\\theta = \\text{awrt } 62.8^\\circ, 297.2^\\circ$",
+              "markAllocation": [
+                {
+                  "code": "M1",
+                  "type": "M",
+                  "value": 1,
+                  "criterion": "Attempts to solve $3\\cos^2\\theta + 3\\cos\\theta - 2 = 0$ by formula or completing the square ONLY. (See general principles) Accept use of formula or GC. Allow $(-3 \\pm \\sqrt{33})/6$ oe, there is no need to have $\\cos\\theta = ...$ Do not allow factorisation methods here. Eg Solutions from $(3\\cos\\theta - 2)(\\cos\\theta + 1) = 0$ is no marks."
+                },
+                {
+                  "code": "A1",
+                  "type": "A",
+                  "value": 1,
+                  "criterion": "$\\cos\\theta = (-3 + \\sqrt{33})/6$. Accept $\\cos\\theta = \\text{awrt } 0.46$. You may ignore any reference to the root $< -1$. If the student writes $\\theta = 0.46$ this is M1 A0."
+                },
+                {
+                  "code": "dM1",
+                  "type": "M",
+                  "value": 1,
+                  "criterion": "Uses $\\arccos$ to reach at least one solution to nearest integer. Implied by awrt $\\theta = 63^\\circ$ or $\\theta = 297^\\circ$. You may have to use your calculator here. It is dependent upon them having scored the previous M mark. Also award for angles in radians or gradians (For a correct $\\cos\\theta$ allow awrt $1.1$ radians awrt $70$ grads)."
+                },
+                {
+                  "code": "A1",
+                  "type": "A",
+                  "value": 1,
+                  "criterion": "Both answers, awrt $62.8^\\circ$ and awrt $297.2^\\circ$ with no additional solutions within the range."
+                }
+              ],
+              "guidance": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "qnum": 15,
+      "marks": 11,
+      "parts": [
+        {
+          "label": "(a)",
+          "marks": 5,
+          "answer": "$P = (1/4, 17/4)$, $Q = (5/3, 0)$",
+          "markAllocation": [
+            {
+              "code": "M1",
+              "type": "M",
+              "value": 1,
+              "criterion": "Attempts to set the equations equal to each other and proceeds to a 3TQ."
+            },
+            {
+              "code": "M1",
+              "type": "M",
+              "value": 1,
+              "criterion": "Uses an algebraic method to solve their 3TQ equation in $x$ to find at least one solution. Allow factorisation, formula or use of a graphical calculator as long as a 3TQ ($=0$) is reached."
+            },
+            {
+              "code": "A1",
+              "type": "A",
+              "value": 1,
+              "criterion": "BOTH $x$ values correct."
+            },
+            {
+              "code": "A1",
+              "type": "A",
+              "value": 1,
+              "criterion": "Correct $P = (1/4, 17/4)$ oe May be given as $x = ..., y = ...$"
+            },
+            {
+              "code": "B1",
+              "type": "B",
+              "value": 1,
+              "criterion": "Correct $Q = (5/3, 0)$ May be given as $x = ..., y = ...$. Note that this is a B mark as it can be found from solving $5 - 3x = 0$ or $20x - 12x^2 = 0$."
+            }
+          ],
+          "guidance": ""
+        },
+        {
+          "label": "(b)",
+          "marks": 6,
+          "answer": "$343/96$",
+          "markAllocation": [
+            {
+              "code": "M1",
+              "type": "M",
+              "value": 1,
+              "criterion": "Attempts to integrate $(20x - 12x^2)$ with at least one correct power."
+            },
+            {
+              "code": "A1",
+              "type": "A",
+              "value": 1,
+              "criterion": "$\\int (20x - 12x^2) \\mathrm{d}x = 10x^2 - 4x^3$ or equivalent."
+            },
+            {
+              "code": "dM1",
+              "type": "M",
+              "value": 1,
+              "criterion": "Attempts to use the correct limits to find the area under the curve $[10x^2 - 4x^3]$ from $0$ to their $1/4$. Dependent upon the previous M but ft on their limit. Expect to see some attempt to substitute."
+            },
+            {
+              "code": "ddM1",
+              "type": "M",
+              "value": 1,
+              "criterion": "It is for finding the complimentary area to the area under the curve. It is dependent upon both previous M's. So in the main method score for the area of the triangle ft on their values. Either $(1/2) \\times (5/3 - 1/4) \\times (17/4) = 289/96$ or $[5x - (3/2)x^2]$ from their $1/4$ to their $5/3$ with correct integration ft on their limits."
+            },
+            {
+              "code": "dddM1",
+              "type": "M",
+              "value": 1,
+              "criterion": "Dependent upon the candidate having scored ALL three M's. It is for a complete method of finding R which in this case is for adding $9/16$ to $289/96$."
+            },
+            {
+              "code": "A1",
+              "type": "A",
+              "value": 1,
+              "criterion": "$343/96$."
+            }
+          ],
+          "guidance": "No marks are available to candidates who don't show an intent to integrate either Curve or $\\pm$ (Curve -Line). Quick Guide for Marking. 1. Look through the whole solution to see in which function they attempt a definite integral. 2. If it is $(20x - 12x^2)$ they must integrate: between 0 and their $1/4$ (main method) or between 0 and their $5/3$ (alt 1). If this is done correctly then the first three marks should be awarded. 3. You then look for a complimentary area....an area that combines with their first area to form the shaded area. So, in terms of the above: If they integrate $(20x - 12x^2)$ between 0 and their $1/4$ they must then find the area of the small triangle using a correct method. To score the penultimate mark they add the two areas. If they integrate $(20x - 12x^2)$ between 0 and their $5/3$ they must then find the area between the curve and line using a correct method. To score the penultimate mark they subtract the two areas the correct way around. 2. If it is $(5 - 3x) - (20x - 12x^2)$ they must integrate: between 0 and $1/4$ (alt II) to get area D. If this is done correctly then the first three marks should be awarded. If they integrate between their $1/4$ and their $5/3$ you are going to mark as Alt I and this would score ddM1 only if you see the integration of the curve between 0 and their $5/3$. 3. You then look for a complimentary area....an area that combines with their first area to form the shaded area. So, in terms of the above: They must then find the area of the large triangle using a correct method. To score the penultimate mark they subtract the two areas the correct way around. Finally. Answers with no integration done. Eg Area = $\\int_0^{1/4} (20x - 12x^2) \\mathrm{d}x + \\int_{1/4}^{5/3} (5 - 3x) \\mathrm{d}x = 9/16 + 289/96 = 343/96$ can be awarded a SC M0 A0 M1 M1 M0 A0. Alternative methods for 15 (b): Alt method I (A+B+C) - C Look for candidates who find the whole area under the curve. M1: Attempts to integrate $(20x - 12x^2)$ with at least one term correct. A1: $\\int (20x - 12x^2) \\mathrm{d}x = 10x^2 - 4x^3$ or equivalent. dM1: Attempts to use their $5/3$ and 0 to find the area under the curve $[10x^2 - 4x^3]$ from 0 to their $5/3$. (Score M0 for use of negative limits and the lower limit must be zero). ddM1: For a complementary area that can be combined with the found area to find the shaded area. So in this case it would need to be $\\int_{1/4}^{5/3} ((5 - 3x) - (20x - 12x^2)) \\mathrm{d}x = [5x - (23/2)x^2 + 4x^3]$ from their $1/4$ to their $5/3$. There must be an attempt to subtract the line from the curve but condone slips in the subtraction. The integration must be correct for their terms and expect to see embedded values or a calculation. dddM1: Dependent upon all three M's. Follow through on their $1/4$ and $5/3$ but all integrals must be correct. It is scored for subtracting the two found areas. Alt method II (A+B+D) - D Look for candidates who only integrate line - curve. M1: Attempts to subtract $(5 - 3x) - (20x - 12x^2)$ either way around and integrate with at least one term correct, Condone slips on the subtraction. A1: $\\int \\pm ((5 - 3x) - (20x - 12x^2)) \\mathrm{d}x = \\pm [5x - (23/2)x^2 + 4x^3]$ which may be unsimplified. dM1: For an attempt to find the area of D = $[5x - (23/2)x^2 + 4x^3]$ from 0 to their $1/4$. Condone slips on the subtraction but the lower limit must be zero and negative limits score zero. ddM1: For a complimentary area so in this case it is the area of large triangle $(1/2) \\times (5/3) \\times (5)$. dddM1: Scored in this case for subtracting the correct way around."
+        }
+      ]
+    },
+    {
+      "qnum": 16,
+      "marks": 16,
+      "parts": [
+        {
+          "label": "(a)",
+          "marks": 5,
+          "answer": "$S = 7x^2 + 12/x$",
+          "markAllocation": [
+            {
+              "code": "M1",
+              "type": "M",
+              "value": 1,
+              "criterion": "Uses $0.75 = kx^2l \\Rightarrow l = 0.75/kx^2$ or $lx = 0.75/kx$. Note that you are looking for the correct ''dimensions'' of the formula leading to $l = ...$ or $lx = ...$"
+            },
+            {
+              "code": "A1",
+              "type": "A",
+              "value": 1,
+              "criterion": "$l = 1/(8x^2)$ or equivalent such as $lx = 1/(8x)$. Allow expressions such as $l = 1.5/(12x^2)$."
+            },
+            {
+              "code": "B1",
+              "type": "B",
+              "value": 1,
+              "criterion": "States or uses $S = x^2 + x^2 + 4xl + 2xl + 2xl$ or exact equivalent. Accept $S = 2x^2 + 7xl$. Condone lack of $S = $ and allow other letters such as $A = $ or $SA = $. Allow terms to be un-simplified Eg $1/4 \\times 3 \\times 2 \\times x$."
+            },
+            {
+              "code": "M1",
+              "type": "M",
+              "value": 1,
+              "criterion": "Substitutes their $l = ...$ (or $lx = ...$) found from $.... = 0.75$ into their $S = Cxl + Dx^2$. Again you are looking for a formula with the correct dimensions. The terms may not have been collected. Do not allow candidates just to write down the given answer, there must be sight of an intermediate line with the substitution even for the M mark."
+            },
+            {
+              "code": "A1",
+              "type": "A",
+              "value": 1,
+              "criterion": "$S = 7x^2 + 12/x$. This is a given answer and all calculations must be correct. There must be no incorrect line in the working. A left hand side either $S = $, $SA = A=$ or Surface Area $=$ must be seen somewhere in the solution even if only on the final line."
+            }
+          ],
+          "guidance": ""
+        },
+        {
+          "label": "(b)",
+          "marks": 5,
+          "answer": "$x = 0.332 \\text{ (m)}$",
+          "markAllocation": [
+            {
+              "code": "M1",
+              "type": "M",
+              "value": 1,
+              "criterion": "$\\frac{\\mathrm{d}S}{\\mathrm{d}x} = Px + Qx^{-2}$."
+            },
+            {
+              "code": "A1",
+              "type": "A",
+              "value": 1,
+              "criterion": "$\\frac{\\mathrm{d}S}{\\mathrm{d}x} = 7x - 24/x^2$ which may be unsimplified."
+            },
+            {
+              "code": "M1",
+              "type": "M",
+              "value": 1,
+              "criterion": "Sets their $7x - 24/x^2 = 0$ and proceed to $nx^3 = C, C > 0$ or $x^n = D, D > 0$ with $n \\ne 1$."
+            },
+            {
+              "code": "A1",
+              "type": "A",
+              "value": 1,
+              "criterion": "$x^3 = 24/7$ or $x^3 = 192/7$. Accept awrt $x^3 = 0.036$ oe."
+            },
+            {
+              "code": "A1",
+              "type": "A",
+              "value": 1,
+              "criterion": "$x = 0.332 \\text{ (m)}$ This answer only here (following correct work). A correct answer following correct differentiation implies the final three marks."
+            }
+          ],
+          "guidance": "Condone the lhs appearing as dy/dx in part (b)."
+        },
+        {
+          "label": "(c)",
+          "marks": 2,
+          "answer": "$\\frac{\\mathrm{d}^2S}{\\mathrm{d}x^2} = 7 + 48/x^3$. When $x = 0.332\\text{m}$, $\\frac{\\mathrm{d}^2S}{\\mathrm{d}x^2} > 0$ hence minimum.",
+          "markAllocation": [
+            {
+              "code": "M1",
+              "type": "M",
+              "value": 1,
+              "criterion": "Score for: Achieving $\\frac{\\mathrm{d}^2S}{\\mathrm{d}x^2} = A + B/x^3$ and attempting to find its value at their positive $x = 0.332$. Achieving $\\frac{\\mathrm{d}^2S}{\\mathrm{d}x^2} = A + B/x^3$ and attempting to justify $\\frac{\\mathrm{d}^2S}{\\mathrm{d}x^2} > 0$ as $x > 0$. Achieving $\\frac{\\mathrm{d}S}{\\mathrm{d}x} = Cx + D/x^2$ and attempting to find its sign/value either side of their $x = 0.332$. Finding the value of $S = 7x^2 + 12/x$ at their $x = 0.332$ and also at their $x = 0.331, x = 0.333$."
+            },
+            {
+              "code": "A1",
+              "type": "A",
+              "value": 1,
+              "criterion": "Requires a correct expression for $\\frac{\\mathrm{d}^2S}{\\mathrm{d}x^2}$, a correct value for $x$ (awrt 0.33) and $\\frac{\\mathrm{d}^2S}{\\mathrm{d}x^2}$, a correct reason and an acceptable conclusion. If any values are found they must be correct to 1 sf. Eg At $x = 0.332 \\frac{\\mathrm{d}^2S}{\\mathrm{d}x^2} = 7 + 48/(0.332)^3 = \\text{awrt } 70 > 0$. Hence minimum. Accept ‘it is a minimum’ but do not allow ‘hence x is a minimum’ as this is an incorrect statement."
+            }
+          ],
+          "guidance": "Condone the second derivative being referred to as d^2y/dx^2 in part (c)."
+        },
+        {
+          "label": "(d)",
+          "marks": 4,
+          "subparts": [
+            {
+              "label": "(d)(i)",
+              "marks": 2,
+              "answer": "awrt $1.66 \\text{ (m)}$",
+              "markAllocation": [
+                {
+                  "code": "M1",
+                  "type": "M",
+                  "value": 1,
+                  "criterion": "Attempts the length of AD by calculating $5x = 5 \\times '0.332'$ where $'0.332'$ is their answer to (b). Alternatively, you may see an attempt at using Pythagoras' theorem with $4 \\times '0.332'$ and $3 \\times '0.332'$. Expect to see the values squared (allowing for bracketing errors), added and then the square root being taken. Condone a candidate going from $AD^2 = 25x^2 \\Rightarrow AD = 25x$ as an attempt to square root."
+                },
+                {
+                  "code": "A1",
+                  "type": "A",
+                  "value": 1,
+                  "criterion": "awrt $1.66 \\text{ (metres)}$."
+                }
+              ],
+              "guidance": ""
+            },
+            {
+              "label": "(d)(ii)",
+              "marks": 2,
+              "answer": "awrt $1.13/1.14 \\text{ (m)}$",
+              "markAllocation": [
+                {
+                  "code": "M1",
+                  "type": "M",
+                  "value": 1,
+                  "criterion": "Attempts the value of CD using their $l = \\alpha/x^\\beta$ or equivalent, ft on their $x$. Note that it is possible to find $l$ using $x = '0.332'$ and $S = '0.332'$ in an equation of the form $S = Cxl + Dx^2$."
+                },
+                {
+                  "code": "A1",
+                  "type": "A",
+                  "value": 1,
+                  "criterion": "awrt $1.13/1.14 \\text{ (metres)}$."
+                }
+              ],
+              "guidance": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,752 @@
+{
+  "v": "1.0",
+  "paper": "2024Oct-WMA12-01",
+  "board": "edx",
+  "code": "WMA12",
+  "year": 2024,
+  "session": "Oct",
+  "paperNum": "01",
+  "totalMarks": 75,
+  "questions": [
+    {
+      "qnum": 1,
+      "marks": 5,
+      "parts": [
+        {
+          "label": "(a)",
+          "marks": 3,
+          "answer": "30.9",
+          "markAllocation": [
+            {
+              "code": "B1",
+              "type": "B",
+              "value": 1,
+              "criterion": "Correct strip width of 1.25. Allow equivalent numerical expressions e.g. $5.5 - 0.5 / 4$. May be implied by sight of e.g. $1.25/2$ or $5/8$ or $0.625$ in front of the bracket. May also be implied by a correct answer if no incorrect working seen. $h = -1.25$ is B0 unless they recover and subsequently use $h = +1.25$"
+            },
+            {
+              "code": "M1",
+              "type": "M",
+              "value": 1,
+              "criterion": "Correct application of the trapezium rule with their $h$ (which may be 1). This requires a correct inner bracket structure $(3.479 + 5.182 + 2(6.101 + 7.448 + 6.823))$ multiplied by $1/2 h$. Condone slips copying values from the table or the omission of the final bracket on the rhs. Also allow for a correct method adding individual trapezia using their $h$ condoning copying errors but the brackets must be correct (or recovered or implied by later work)."
+            },
+            {
+              "code": "A1",
+              "type": "A",
+              "value": 1,
+              "criterion": "For awrt 30.9."
+            }
+          ],
+          "guidance": "isw once a correct answer is seen. Correct answer with no working scores B1M1A1 but if there is evidence of using $h = -1.25$ then maximum awarded is B0M1A0. The A mark cannot be awarded without both B1M1 being awarded in this question. The exact answer is $9881/320$ and scores A0 unless followed by awrt 30.9. For reference, note that use of $h = 1$ (from using 5 strips) gives 24.7… or $9881/400$ scores B1M0A0 (BOD)."
+        },
+        {
+          "label": "(b)",
+          "marks": 2,
+          "answer": "90.9",
+          "markAllocation": [
+            {
+              "code": "M1",
+              "type": "M",
+              "value": 1,
+              "criterion": "Attempts their answer to (a) + $\\int_{0.5}^{5.5} 4x dx = \\text{their answer to (a)} + [2x^2]_{0.5}^{5.5}$. May be implied by e.g. their answer to (a) $+ (2 \\times 5.5^2 - 2 \\times 0.5^2)$ if the integration is not seen explicitly. Or their answer to (a) $+ 1/2 (4 \\times 0.5 + 4 \\times 5.5) \\times 5$ (trapezium) oe e.g. their answer to (a) $+ (4 \\times 0.5 \\times 5 + 1/2 \\times 5 \\times (4 \\times 5.5 - 4 \\times 0.5))$ (rectangle + triangle). May be implied by their answer to (a) + 60. Condone clear misreads of the 4 in the 4x but do not condone a misread of e.g. 4x for 4. Condone clear mis-copy/mis-read of limits as long as they are non-zero E.g. 5 for 5.5. Condone poor notation."
+            },
+            {
+              "code": "A1ft",
+              "type": "A",
+              "value": 1,
+              "criterion": "Correct answer of awrt 90.9 or correct ft e.g. 60 + their answer to part (a)."
+            }
+          ],
+          "guidance": "Allow exact or exact ft answers e.g. $29081/320$ for 90.9. Correct answer only scores no marks as the questions says “making your method clear”. Attempts to use the trapezium rule again by adding 4x to the y values score M0 in (b). Note that $(30.9 + 4 \\times 0.5 + 1.75 + 3 + 4.25 + 5.5) = 90.9$ is fortuitous and scores M0. But $30.9 + 1/2 \\times 5/4 \\times (2 + 7 + 12 + 17) = 90.9$ scores M1A1. Condone an error with the strip width as in part (a) for this method but the ft is not available in this case. Examples of minimal acceptable working in (b) for both marks: $30.9 + 60 = 90.9$; $[2x^2]_{0.5}^{5.5} + 30.9 = 90.9$; $\\int_{0.5}^{5.5} f(x) dx + \\int_{0.5}^{5.5} 4 dx = 30.9 + 60 = 90.9$; $30.9 + 2 \\times 5.5^2 - 2 \\times 0.5^2 = 90.9$. All score M1A1."
+        }
+      ]
+    },
+    {
+      "qnum": 2,
+      "marks": 7,
+      "parts": [
+        {
+          "label": "(a)",
+          "marks": 3,
+          "answer": "$u_5 = 7$",
+          "markAllocation": [
+            {
+              "code": "B1",
+              "type": "B",
+              "value": 1,
+              "criterion": "Correct expression for $u_2$ e.g. $k - 7$ with no incorrect work seen. Must be seen in part (a). Allow e.g. $u_2 = 1 \\times k - 7 + 7$ or e.g. $u_2 = 1 \\times k - 7 + 7$ or e.g. $u_2 = 1 \\times k - 7 + 7$"
+            },
+            {
+              "code": "M1",
+              "type": "M",
+              "value": 1,
+              "criterion": "Attempts to use the recurrence formula to reach the 5th term but condone consistent use of (n + 1) for n on the $(n-1)$ term. Allow even if any slips mean their sequence is not of order 4."
+            },
+            {
+              "code": "A1*",
+              "type": "A",
+              "value": 1,
+              "criterion": "Obtains $u_5 = 7$ with no errors or omissions. The \"$u_5 =$\" must appear at some point but allow e.g. $u_{4+1} = $"
+            }
+          ],
+          "guidance": "For reference the terms are: $u_1 = 7, u_2 = k - 7, u_3 = 2k - 7, u_4 = 7 - k, u_5 = 7$. (a) Alternatives: $u_{n+1} = k u_n - u_{n-1}$. B1: Implied by $u_2 = k u_1 - u_0$. M1: Attempts to use the recurrence formula to reach the 5th term but condone use of (n + 1) for n on the $(n-1)$ term as above. A1*: Fully correct work to reach $u_5 = 7$. (Allow the above approach to be used with a made up k or a wrong k as the result is independent of k). $u_5 = 7 \\implies u_4 = k - 7 \\implies u_3 = k - (k - 7) \\implies u_2 = k - (k - (k - 7)) \\implies u_1 = k - (k - (k - (k - 7)))$. Hence true. B1: $u_4 = k - 7$. M1: Attempts to use the recurrence formula correctly backwards to reach the 1st term but condone use of (n + 1) for n on the $(n-1)$ term as above. A1*: Fully correct work to reach $u_1 = 7$ with a (minimal) conclusion."
+        },
+        {
+          "label": "(b)",
+          "marks": 2,
+          "answer": "$k = 15$",
+          "markAllocation": [
+            {
+              "code": "M1",
+              "type": "M",
+              "value": 1,
+              "criterion": "Adds their first 4 terms, sets = 30 and solves a linear equation for k. Condone slips in copying their 4 terms if the intention is clear. Allow even if their sequence is of order 2 e.g. $7, k-7, 7, k-7, ...$"
+            },
+            {
+              "code": "A1cso",
+              "type": "A",
+              "value": 1,
+              "criterion": "Correct value from correct work and a correct sequence."
+            }
+          ],
+          "guidance": ""
+        },
+        {
+          "label": "(c)",
+          "marks": 2,
+          "answer": "1125",
+          "markAllocation": [
+            {
+              "code": "M1",
+              "type": "M",
+              "value": 1,
+              "criterion": "Correct numerical attempt for the required sum using their k. May be implied by the correct answer or the correct ft answer unless an incorrect method is seen. Condone $150 \\times 30/4$ or $75 \\times 15$ or $37.5 \\times 30$ following a correct sequence and the correct value of k. Allow any equivalent correct method."
+            },
+            {
+              "code": "A1cso",
+              "type": "A",
+              "value": 1,
+              "criterion": "For 1125 from correct work and a correct sequence."
+            }
+          ],
+          "guidance": "Marks in (c) are only available if their sequence is of order 4. Note this has been seen more than once for the GP sum following $299 = 250/20$: $(20(1 - 12.5^{300}))/(1 - 1.008483032)$ and scores M0 as it suggests $(a(1-r^n))/(1-r)$ has been used. For reference the correct sequence is: n=1, $u_n=7$; n=2, $u_n=k-7$; n=3, $u_n=2k-7$; n=4, $u_n=7-k$. Value (with k=15): 7, 8, 23, -8. An unusual but correct method in (c) is: $\\sum_{r=1}^{150} u_r = 38 \\times (7 + (15-7)) + 37 \\times (7 + (15-7)) = 1125$. Example – Candidates who consistently use $u_{n+1} = u_n - k + u_{n-1}$. This gives: (a) $u_1=7, u_2=k+7, u_3=-7, u_4=k-7, u_5=7$ which scores B0M1A0. (b) $\\sum_{r=1}^{4} u_r = 7+k+7-7+k-7 = 30 \\implies 2k = 30 \\implies k=15$ which scores M1A0. (c) $\\sum_{r=1}^{150} u_r = 37 \\times 30 + 7 + (15+7) = 1139$ which scores M1A0. For reference this incorrect sequence is: n=1, $u_n=7$; n=2, $u_n=k+7$; n=3, $u_n=-7$; n=4, $u_n=k-7$. Value (with k=15): 7, 22, -7, 8."
+        }
+      ]
+    },
+    {
+      "qnum": 3,
+      "marks": 7,
+      "parts": [
+        {
+          "label": "(a)",
+          "marks": 2,
+          "answer": "$3A - B = -118$",
+          "markAllocation": [
+            {
+              "code": "M1",
+              "type": "M",
+              "value": 1,
+              "criterion": "Attempts $f(-3) = 55$. The $-3$ embedded in the expression set = 55 is sufficient. May be implied by further work. If $-3$ embedded in the expression is not seen, condone slips in their evaluation provided there is still evidence that the intention was to substitute in $-3$ and set = 55 but $f(3) = 55$ is M0."
+            },
+            {
+              "code": "A1*",
+              "type": "A",
+              "value": 1,
+              "criterion": "Completes proof with at least one intermediate simplified and correct line that is not the final line such as $-54 - 9A - 3B + 3 = 55$ or $118 = -3A + B$. Any incorrect lines written after the start of their ‘proof’ should be scored A0*. Must be the given equation and not e.g. $B = 3A + 118$ unless the correct equation is seen previously but condone $-3A + B = -118$."
+            }
+          ],
+          "guidance": ""
+        },
+        {
+          "label": "(b)",
+          "marks": 3,
+          "answer": "$A = -26, B = 40$",
+          "markAllocation": [
+            {
+              "code": "M1",
+              "type": "M",
+              "value": 1,
+              "criterion": "Attempts $f(5/2) = 0$. The $5/2$ embedded in the expression set = 0 is sufficient. $f(-5/2) = 0$ scores M0. May be implied by further work. Again, tabular or division methods may be seen."
+            },
+            {
+              "code": "M1",
+              "type": "M",
+              "value": 1,
+              "criterion": "Solves $3A - B = -118$ simultaneously with their equation in A and B from having attempted $f(\\pm 5/2) = 0$ or long division/tabular method using the correct factor of (2x – 5) and obtains a value for A or B. May be via a calculator and may be implied by their values. You do not need to check but the above conditions must be satisfied."
+            },
+            {
+              "code": "A1",
+              "type": "A",
+              "value": 1,
+              "criterion": "Both correct values."
+            }
+          ],
+          "guidance": "Do not allow mis-reads of (2x – 5) in part (b)."
+        },
+        {
+          "label": "(c)",
+          "marks": 2,
+          "answer": "$2x^2 + 13x + 65$",
+          "markAllocation": [
+            {
+              "code": "M1",
+              "type": "M",
+              "value": 1,
+              "criterion": "Uses any appropriate method e.g. long division/inspection/table with numeric non-zero A and B to obtain $2x^2 + px + q$ where p and q are non-zero. There is no requirement to find the remainder but assuming (x – 7) is a factor is M0."
+            },
+            {
+              "code": "A1",
+              "type": "A",
+              "value": 1,
+              "criterion": "Must follow correct values of A and B. Correct expression $2x^2 + 13x + 65$ which is clearly identified."
+            }
+          ],
+          "guidance": "Do not allow mis-reads of (x – 7) in part (c)."
+        }
+      ]
+    },
+    {
+      "qnum": 4,
+      "marks": 7,
+      "parts": [
+        {
+          "label": "(a)",
+          "marks": 2,
+          "answer": "$2x^{-1/2} - 9/2 x^{-3/2}$",
+          "markAllocation": [
+            {
+              "code": "M1",
+              "type": "M",
+              "value": 1,
+              "criterion": "For $x^{1/2} \\to x^{-1/2}$ or $x^{-3/2} \\to x^{-3/2}$. Allow unprocessed e.g. $x^{1/2} \\to x^{1/2-1}$ or $x^{-3/2} \\to x^{-3/2-1}$."
+            },
+            {
+              "code": "A1",
+              "type": "A",
+              "value": 1,
+              "criterion": "Correct simplified derivative."
+            }
+          ],
+          "guidance": "isw once a correct answer is seen. Allow equivalent simplified expressions e.g. $2x^{-1/2} - 4.5x^{-3/2}$. $2x^{-1/2} - 9/2 x^{-3/2} + c$ scores A0 as does $2x^{-1/2} - 9/2 x^{-3/2} + -$"
+        },
+        {
+          "label": "(b)",
+          "marks": 2,
+          "answer": "$x = 9/4$",
+          "markAllocation": [
+            {
+              "code": "M1",
+              "type": "M",
+              "value": 1,
+              "criterion": "Starts from a derivative of the form $Ax^{-1/2} - Bx^{-3/2}$ where $A \\times B > 0$, sets = 0 (seen or implied) and solves via a correct method to obtain an expression or value of $x = B/A$."
+            },
+            {
+              "code": "A1",
+              "type": "A",
+              "value": 1,
+              "criterion": "$x = 9/4$ oe with no incorrect working seen in their method. There must be no other values. Must come from a correct derivative."
+            }
+          ],
+          "guidance": "Condone if e.g. $dy/dx > 0$ is seen as long as they reach the correct value for x. There must be no other values. Must come from a correct derivative but see * note below. The minimum acceptable for both marks is $2x^{-1/2} - 9/2 x^{-3/2} = 0 \\implies x = 9/4$. The following is condoned: $2x^{-1/2} - 9/2 x^{-3/2} = 0 \\implies 2x^{-1/2} = 9/2 x^{-3/2} \\implies 4x = 9 \\implies x = 9/4$. Ignore any attempts to find the y coordinate. *Allow full recovery in (b) if the working is correct in (a) but isw has been applied e.g. (a) $dy/dx = 2x^{-1/2} - 9/2 x^{-3/2} = 2x^{-1/2} - 9/(2x^{3/2})$ M1A1 (isw). (b) $2x^{-1/2} - 9/2 x^{-3/2} = 0 \\implies x = 9/4$ M1A1."
+        },
+        {
+          "label": "(c)",
+          "marks": 2,
+          "parts": [
+            {
+              "label": "(i)",
+              "marks": 1,
+              "answer": "$d^2y/dx^2 = -x^{-3/2} + 27/4 x^{-5/2}$",
+              "markAllocation": [
+                {
+                  "code": "B1ft",
+                  "type": "B",
+                  "value": 1,
+                  "criterion": "Correct simplified second derivative. Follow through their first derivative provided there are 2 terms with different fractional (non-integer) powers."
+                }
+              ],
+              "guidance": "Condone $-6.75x^{-5/2} + x^{-3/2}$ for $-27/4 x^{-5/2} + x^{-3/2}$. Inclusion of “ + c” scores B0ft as with the first derivative."
+            },
+            {
+              "label": "(ii)",
+              "marks": 1,
+              "answer": "$d^2y/dx^2 = 16/27 > 0$, so (local) minimum",
+              "markAllocation": [
+                {
+                  "code": "B1",
+                  "type": "B",
+                  "value": 1,
+                  "criterion": "Fully correct working, reasoning and conclusion. This requires: a correct second derivative; substitutes $x = 9/4$ to obtain $16/27$ or awrt 0.6 or truncated 0.5; reference to the sign (> 0 or positive); reference to minimum."
+                }
+              ],
+              "guidance": ""
+            }
+          ]
+        },
+        {
+          "label": "(d)",
+          "marks": 1,
+          "answer": "$0 < x < 9/4$",
+          "markAllocation": [
+            {
+              "code": "B1ft",
+              "type": "B",
+              "value": 1,
+              "criterion": "For $0 < x < 9/4$. Follow through their positive x value from part (b)."
+            }
+          ],
+          "guidance": "Allow $0 < x \\le 9/4$ and allow equivalent statements e.g. $(0, 9/4)$, $(0, 9/4]$. Condone an answer of $x < 9/4$ or $x \\le 9/4$. Condone $0 \\le x \\le 9/4$. Do not allow $-\\infty < x < 9/4$."
+        }
+      ]
+    },
+    {
+      "qnum": 5,
+      "marks": 7,
+      "parts": [
+        {
+          "label": "(a)",
+          "marks": 3,
+          "answer": "$64 + 192ax + 240a^2x^2 + ...$",
+          "markAllocation": [
+            {
+              "code": "M1",
+              "type": "M",
+              "value": 1,
+              "criterion": "Attempts the binomial expansion up to at least the second term to obtain the correct structure for the 2nd or 3rd term i.e. the correct binomial coefficient (allow alternative notation) with the correct power of 2 and the correct power of ax. The binomial coefficients do not have to be evaluated but must be correct if they are. Alternatively writes e.g. $(2(1 + ax/2))^6 = 2^6(1 + ax/2)^6 = 2^6(1 + 6(ax/2) + 6 \\times 5/2 (ax/2)^2 + ...)$ which can also score M1 for the expansion up to at least the second term with an acceptable structure for either the 2nd or 3rd term. They do not have to multiply out the brackets for this mark but the $2^6$ cannot be omitted unless it is later recovered."
+            },
+            {
+              "code": "A1",
+              "type": "A",
+              "value": 1,
+              "criterion": "For any 2 correct simplified terms in any order."
+            },
+            {
+              "code": "A1",
+              "type": "A",
+              "value": 1,
+              "criterion": "All correct and in any order. Must be $a^2x^2$ not $(ax)^2$ for the 3rd term but allow $(ax)$ for $ax$."
+            }
+          ],
+          "guidance": "Apply isw if they divide through by e.g. 2 or 4 or 16 or set their expression = 0. Ignore any extra terms if attempted."
+        },
+        {
+          "label": "(b)",
+          "marks": 4,
+          "answer": "$a = -24/5$",
+          "markAllocation": [
+            {
+              "code": "B1",
+              "type": "B",
+              "value": 1,
+              "criterion": "Correct expansion of $(1/x + 3)^2$ unsimplified or simplified."
+            },
+            {
+              "code": "M1",
+              "type": "M",
+              "value": 1,
+              "criterion": "Uses their expansion in part (a) and their expansion of $(1/x + 3)^2$ to extract the constant term. This depends on having obtained $(1/x + 3)^2 = \\alpha/x^2 + \\beta/x + \\gamma$ oe with $\\alpha, \\beta, \\gamma$ non-zero and an attempt at $\\alpha \\times \"64\" + \\beta \\times \"192ax\" + \\gamma \\times \"240a^2x^2\"$ oe. An expression of this form is sufficient i.e. with the x’s still included."
+            },
+            {
+              "code": "dM1",
+              "type": "M",
+              "value": 1,
+              "criterion": "Sets their constant term = 576 and proceeds to obtain a non-zero value for a. Depends on the previous method mark."
+            },
+            {
+              "code": "A1",
+              "type": "A",
+              "value": 1,
+              "criterion": "Correct value."
+            }
+          ],
+          "guidance": "Allow equivalents e.g. −4.8, $-48/10$. If a = 0 is also given and not rejected, score A0."
+        }
+      ]
+    },
+    {
+      "qnum": 6,
+      "marks": 5,
+      "answer": "$x = -1/8$",
+      "markAllocation": [
+        {
+          "code": "B1",
+          "type": "B",
+          "value": 1,
+          "criterion": "For $\\log_4(x+1)^2 = \\log_4(x+1)$ seen or implied."
+        },
+        {
+          "code": "M1",
+          "type": "M",
+          "value": 1,
+          "criterion": "Correct attempt to combine two log terms. Condone if they make a slip before combining as long as they are combining two log terms correctly."
+        },
+        {
+          "code": "A1",
+          "type": "A",
+          "value": 1,
+          "criterion": "Obtains this equation in any form not involving logs from correct work so must follow B1M1."
+        },
+        {
+          "code": "M1",
+          "type": "M",
+          "value": 1,
+          "criterion": "Solves a 3TQ by any acceptable method including a calculator to obtain at least one real value for x. May be implied by their value(s) and may follow incorrect log work but the B1 must have been scored."
+        },
+        {
+          "code": "A1",
+          "type": "A",
+          "value": 1,
+          "criterion": "This value only from correct work and all previous marks scored. The other value (−2) must clearly be rejected or omitted."
+        }
+      ],
+      "guidance": "Alternative: $\\log_4(12-2x) = 2 + 2\\log_4(x+1) \\implies \\log_4(12-2x) = \\log_4(16) + \\log_4(x+1)^2 \\implies \\log_4(12-2x) = \\log_4(16(x+1)^2)$. Then follow main scheme. Score as: B1: $\\log_4(x+1)^2 = \\log_4(x+1)$. M1: Uses correct index law e.g. $a^b \\times a^c = a^{b+c}$. Then follow main scheme. Special Case: Beware incorrect log work which leads to the correct answer: $\\log_4(12-2x) - 2\\log_4(x+1) = 2 \\implies \\log_4(12-2x) - \\log_4(x+1)^2 = 2 \\implies (12-2x) = 16(x+1)^2$. This scores B1M0A0M1A0. Allow this SC if no combination of logs is shown at all, but the correct quadratic is produced. e.g. $\\log_4(12-2x) = 2 + 2\\log_4(x+1) \\implies (12-2x) = 16(x+1)^2$ etc. or e.g. $\\log_4(12-2x) - \\log_4(16) = \\log_4(x+1)^2 \\implies (12-2x)/16 = (x+1)^2$ etc. Could both score B1M0A0M1A0. Special Case: Beware incorrect work removing logs which leads to the correct answer: $\\log_4(12-2x) - 2\\log_4(x+1) = 2 \\implies (12-2x) = 4^2(x+1)^2$. This scores B1M1A0M1A0."
+    },
+    {
+      "qnum": 7,
+      "marks": 6,
+      "parts": [
+        {
+          "label": "(a)",
+          "marks": 1,
+          "answer": "$u_{100} = 20 + (100-1)0.5 = \\pounds 69.50$",
+          "markAllocation": [
+            {
+              "code": "B1*",
+              "type": "B",
+              "value": 1,
+              "criterion": "Correct method shown e.g. $20 + (100-1)0.5 = 69.50$ is sufficient."
+            }
+          ],
+          "guidance": "Note that the £ symbol is not required but $20 + (100-1)0.5 = 69.5$ scores B0. Condone attempts to work backwards e.g. $69.5 = 20 + (n-1)0.5 \\implies 49.5 = (n-1)0.5 \\implies n = 100$ hence true. Note that 69.5 can be used in this case but a (minimal) conclusion is required."
+        },
+        {
+          "label": "(b)",
+          "marks": 2,
+          "answer": "$\\pounds 28425$",
+          "markAllocation": [
+            {
+              "code": "M1",
+              "type": "M",
+              "value": 1,
+              "criterion": "Attempts $S_n = n/2 (2a + (n-1)d)$ with n = 300, a = 20 and d = 0.5 or e.g. $S_n = n/2 (a + l)$ with n = 300, a = 20 and l = 169.5(0) (or an attempt at $20 + 299 \\times 0.5$)."
+            },
+            {
+              "code": "A1",
+              "type": "A",
+              "value": 1,
+              "criterion": "Correct value."
+            }
+          ],
+          "guidance": ""
+        },
+        {
+          "label": "(c)",
+          "marks": 3,
+          "answer": "$\\pounds 1060$",
+          "markAllocation": [
+            {
+              "code": "M1",
+              "type": "M",
+              "value": 1,
+              "criterion": "Correct strategy to find r e.g. $r^{299} = 250/20$. May be implied by awrt 1.01 if no incorrect work is seen. May be done via logs."
+            },
+            {
+              "code": "M1",
+              "type": "M",
+              "value": 1,
+              "criterion": "Uses their r with a correct GP sum formula with a = 20 and n = 300 and subtracts from the answer to part (b) either way round. Depends on having attempted the sum of an AP in (b)."
+            },
+            {
+              "code": "A1",
+              "type": "A",
+              "value": 1,
+              "criterion": "Cao not awrt with or without the “£” symbol."
+            }
+          ],
+          "guidance": "Note that the accuracy being used for “r” varies considerably. Some rounded values for reference are: r=1.01, $S_{300}=37576.93252...$, $|Correct (b) - S_{300}|=9151.932524...$; r=1.008, $S_{300}=24796.03972...$, $|Correct (b) - S_{300}|=3628.960276...$; r=1.0085, $S_{300}=27458.42195...$, $|Correct (b) - S_{300}|=966.5780531...$; r=1.00848, $S_{300}=27345.9295...$, $|Correct (b) - S_{300}|=1079.070499...$"
+        }
+      ]
+    },
+    {
+      "qnum": 8,
+      "marks": 8,
+      "parts": [
+        {
+          "label": "(a)",
+          "marks": 4,
+          "answer": "$x = 1, x = 3$",
+          "markAllocation": [
+            {
+              "code": "M1",
+              "type": "M",
+              "value": 1,
+              "criterion": "Equates the 2 curves and multiplies through by $x^2$ to obtain a quadratic equation in $x^2$"
+            },
+            {
+              "code": "A1",
+              "type": "A",
+              "value": 1,
+              "criterion": "Correct 3TQ in $x^2$ with terms collected and all on one side."
+            },
+            {
+              "code": "M1",
+              "type": "M",
+              "value": 1,
+              "criterion": "Solves a 3TQ in $x^2$ by a suitable method e.g. factorising, completing the square or quadratic formula and takes the square root to obtain at least one value for x. The solution must be via $x^2$."
+            },
+            {
+              "code": "A1",
+              "type": "A",
+              "value": 1,
+              "criterion": "Both correct values ($x=1, x=3$) and no other values."
+            }
+          ],
+          "guidance": "Examples: $x^2 + 9/x^2 = 13 - 3x^2 \\implies x^4 - 10x^2 + 9 = 0 \\implies x = 1, 3$ Scores M1A1M0A0. $x^2 + 9/x^2 = 13 - 3x^2 \\implies x^4 - 10x^2 + 9 = 0 \\implies x^2 = 1, 9 \\implies x = 1, 9$ Scores M1A1M1A0 (BOD). Attempts to solve $x^4 - 10x^2 + 9 = 0$ by identifying roots/factors and then using e.g. long division should be sent to review. Part (a) may also be done without obtaining a quartic: $y = x^2 + 9/x^2, y = 13 - 3x^2 \\implies x^2 + 9/x^2 = 13 - 3x^2 \\implies 4x^2 - 13 + 9/x^2 = 0 \\implies (x^2 - 9/x^2)(x^2 - 1/x^2) = 0$. M1: Solves simultaneously and attempts to factorise to $(x^2 - \\alpha/x^2)(x^2 - \\beta/x^2) = 0$. A1: Correct factorisation. M1: Attempts to solve via $x^2$. A1: x = 1 and x = 3. Both correct and no other values. Condone any confusion with which is P and which is Q and condone e.g. P = 1, Q = 3. Part (a) may also be done via y e.g.: $y = x^2 + 9/x^2, y = 13 - 3x^2 \\implies x^2 = y - 9/x^2 \\implies y = (y-9/x^2) + 9/(y-9/x^2)$. M1: Solves simultaneously to obtain a 3TQ in y. A1: Correct 3TQ in y. M1: Solves their 3TQ in y and uses at least one value of y to find a value for x. A1: x = 1 and x = 3. Both correct and no other values. Condone any confusion with which is P and which is Q and condone e.g. P = 1, Q = 3."
+        },
+        {
+          "label": "(b)",
+          "marks": 4,
+          "answer": "$16/3$",
+          "markAllocation": [
+            {
+              "code": "M1",
+              "type": "M",
+              "value": 1,
+              "criterion": "Evidence of integration $x^n \\to x^{n+1}$ for at least one term for either curve or for the difference between the 2 curves."
+            },
+            {
+              "code": "A1",
+              "type": "A",
+              "value": 1,
+              "criterion": "Correct integration for both curves either as a difference (either way round) or separately. Allow simplified or unsimplified but indices must be processed."
+            },
+            {
+              "code": "dM1",
+              "type": "M",
+              "value": 1,
+              "criterion": "Depends on the first method mark. Substitutes their positive values from part (a) and subtracts if attempted as a difference or substitutes their values into the separate integrations, subtracts and then subtracts the 2 results either way round to obtain a value. Condone poor bracketing as long as the intention is clear."
+            },
+            {
+              "code": "A1",
+              "type": "A",
+              "value": 1,
+              "criterion": "$16/3$ or exact equivalent."
+            }
+          ],
+          "guidance": "Note that this question has the calculator warning so attempts that do not use algebraic integration score no marks."
+        }
+      ]
+    },
+    {
+      "qnum": 9,
+      "marks": 7,
+      "parts": [
+        {
+          "label": "(a)",
+          "marks": 3,
+          "answer": "$3\\sin^2 \\theta + 2\\sin \\theta - 3 = 0$",
+          "markAllocation": [
+            {
+              "code": "M1",
+              "type": "M",
+              "value": 1,
+              "criterion": "Uses $\\tan \\theta = \\sin \\theta / \\cos \\theta$ to write the equation in terms of sine and cosine only. Must be the correct identity."
+            },
+            {
+              "code": "M1",
+              "type": "M",
+              "value": 1,
+              "criterion": "Uses $\\cos^2 \\theta = 1 - \\sin^2 \\theta$ to obtain a quadratic equation in sine only. Must be the correct identity."
+            },
+            {
+              "code": "A1*",
+              "type": "A",
+              "value": 1,
+              "criterion": "Correct work with all necessary steps shown leading to the given answer. There should be no notational or bracketing errors and no mixed or missing variables."
+            }
+          ],
+          "guidance": "For full marks condone a complete proof entirely in x (or another variable) instead of $\\theta$."
+        },
+        {
+          "label": "(b)",
+          "marks": 4,
+          "answer": "$x = -0.121, -2.50, 0.645, 3.02$",
+          "markAllocation": [
+            {
+              "code": "M1",
+              "type": "M",
+              "value": 1,
+              "criterion": "Attempts to solve the quadratic $3\\sin^2 x + 2\\sin x - 3 = 0$ to obtain a value for $\\sin x$ where x is any variable. If no working is shown then the root(s) must be correct but condone premature rounding."
+            },
+            {
+              "code": "M1",
+              "type": "M",
+              "value": 1,
+              "criterion": "Attempts to find one angle within the range by finding the inverse sine of one of their roots, subtracting $\\pi/3$ and dividing by 2. For this mark allow to work in degrees if done correctly. May be implied by a correct value of x in degrees or radians. Do not allow the mixing of degrees and radians for this mark."
+            },
+            {
+              "code": "A1",
+              "type": "A",
+              "value": 1,
+              "criterion": "Any two of awrt −0.12, −2.5, 0.64 or 0.65, 3.0 (Must be in radians)."
+            },
+            {
+              "code": "A1",
+              "type": "A",
+              "value": 1,
+              "criterion": "All four of awrt −0.121, −2.50, 0.645, 3.02 and no others in the range (Must be in radians)."
+            }
+          ],
+          "guidance": "NB decimal roots are: −1.387…, 0.7207…. Condone −2.5 for −2.50 but the others must be awrt as shown for this final mark."
+        }
+      ]
+    },
+    {
+      "qnum": 10,
+      "marks": 10,
+      "parts": [
+        {
+          "label": "(a)",
+          "marks": 3,
+          "answer": "Centre $(-2, 15)$, Radius $\\sqrt{20}$",
+          "markAllocation": [
+            {
+              "code": "M1",
+              "type": "M",
+              "value": 1,
+              "criterion": "Attempts to complete the square for both variables or states a centre of $(\\pm 2, \\pm 15)$. For completing the square allow $(x \\pm 2)^2 + (y \\pm 15)^2 = ...$"
+            },
+            {
+              "code": "A1",
+              "type": "A",
+              "value": 1,
+              "criterion": "Centre (−2, 15) or e.g. $x = -2, y = 15$."
+            },
+            {
+              "code": "A1",
+              "type": "A",
+              "value": 1,
+              "criterion": "For $\\sqrt{20}$ or $2\\sqrt{5}$."
+            }
+          ],
+          "guidance": "Look out for answers to part (a) written in the body of the question. Do not allow $\\pm \\sqrt{20}$ but apply isw if a correct radius is seen which is then e.g. converted to a decimal or simplified incorrectly."
+        },
+        {
+          "label": "(b)",
+          "marks": 3,
+          "answer": "$7m^2 - 22m - 7 = 0$",
+          "markAllocation": [
+            {
+              "code": "M1",
+              "type": "M",
+              "value": 1,
+              "criterion": "Attempts to substitute $y = mx + 1$ into the given equation or their rearranged equation to obtain an equation in m and x only. Condone slips as long as the intention is clear."
+            },
+            {
+              "code": "dM1",
+              "type": "M",
+              "value": 1,
+              "criterion": "Attempts $b^2 - 4ac = 0$ or equivalent where $a = (1+m^2)$, $b = (4-28m)$, $c = (180)$. Condone copying slips if the intention is clear if the above conditions are met. Depends on the first M mark."
+            },
+            {
+              "code": "A1*",
+              "type": "A",
+              "value": 1,
+              "criterion": "Obtains the printed answer with no errors e.g. must have had $b^2 - 4ac = 0$ or equivalent throughout and before the final line. Note this is a given answer so must follow correct work."
+            }
+          ],
+          "guidance": "Mark (b) and (c) together. Alternative: Perpendicular distance from a point to a line: $(x_0, y_0) = (-2, 15)$, line $mx - y + 1 = 0$. $d = |ax_0 + by_0 + c| / \\sqrt{a^2 + b^2}$. $|m(-2) - (15) + 1| / \\sqrt{m^2 + (-1)^2} = \\sqrt{20} \\implies |-2m - 14| / \\sqrt{m^2 + 1} = \\sqrt{20} \\implies (-2m - 14)^2 = 20(m^2 + 1) \\implies 4m^2 + 56m + 196 = 20m^2 + 20 \\implies 16m^2 - 56m - 176 = 0 \\implies 2m^2 - 7m - 22 = 0$. M1: Substitutes into a correct distance formula with their centre and the given L and sets equal to their radius. dM1: Squares, multiplies up to obtain $(Am+B)^2 = C(m^2+D)$ oe, where A, B, C and D are non-zero. A1*: Obtains the printed answer with no errors."
+        },
+        {
+          "label": "(c)",
+          "marks": 4,
+          "answer": "$(12/5, 71/5)$ and $(-6, 13)$",
+          "markAllocation": [
+            {
+              "code": "M1",
+              "type": "M",
+              "value": 1,
+              "criterion": "Solves the given quadratic equation by any valid means, including calculator, to obtain at least one value for m. May be implied by their value(s). One correct value only with no incorrect work is sufficient for M1."
+            },
+            {
+              "code": "M1",
+              "type": "M",
+              "value": 1,
+              "criterion": "Uses at least one of their values of m to attempt one position for P. This must be a complete and correct method to find a position for P i.e. finds at least one value for x and then the corresponding value for y correctly."
+            },
+            {
+              "code": "A1",
+              "type": "A",
+              "value": 1,
+              "criterion": "At least one correct point. Allow as a coordinate pair or as x = …, y = … and allow equivalent values."
+            },
+            {
+              "code": "A1",
+              "type": "A",
+              "value": 1,
+              "criterion": "Both points correct and no others. Allow as coordinate pairs or as x = …, y = …"
+            }
+          ],
+          "guidance": "Alternative 1: Finds the intersections of the possible tangents with the perpendiculars passing through the centre of the circle: M1: $m = 11/2, -2/7$. As above. For $m = 11/2$ perpendicular is $y - 15 = -2/11 (x + 2) \\implies y = -2/11 x + 161/11$. $11/2 x + 1 = -2/11 x + 161/11 \\implies 125/22 x = 150/11 \\implies x = 12/5, y = 71/5$. For $m = -2/7$ perpendicular is $y - 15 = 7/2 (x + 2) \\implies y = 7/2 x + 22$. $-2/7 x + 1 = 7/2 x + 22 \\implies -53/14 x = 21 \\implies x = -6, y = 13$. M1: For a complete method by • forming the equation of at least one of the perpendiculars, with the negative reciprocal gradient and the coordinates of their centre correctly placed • solving simultaneously with the corresponding tangent to find x or y • finding the corresponding x or y coordinate. A1: At least one correct point. Allow as a coordinate pair or as x = …, y = … and allow equivalent values e.g. (2.4, 14.2) etc. A1: Both points correct and no others. Allow as coordinate pairs or as x = …, y = … Alternative 2: M1: As above. M1: For a complete method by • using Pythagoras correctly to find the distance or distance2 between (0, 1) and their centre • applying Pythagoras correctly with a general point on either tangent and their radius to obtain an equation in one variable and solves • finding the corresponding x or y coordinate. A1: At least one correct point. Allow as a coordinate pair or as x = …, y = … and allow equivalent values e.g. (2.4, 14.2) etc. A1: Both points correct and no others. Allow as coordinate pairs or as x = …, y = …"
+        }
+      ]
+    },
+    {
+      "qnum": 11,
+      "marks": 6,
+      "parts": [
+        {
+          "label": "(i)",
+          "marks": 2,
+          "answer": "When $n=5$, $3^n+2 = 3^5+2 = 243+2 = 245$. 245 is not a prime number (e.g. $245 = 5 \\times 49$).",
+          "markAllocation": [
+            {
+              "code": "M1",
+              "type": "M",
+              "value": 1,
+              "criterion": "Attempts to evaluate $n^3 + 2$ with n a prime number. May be seen as a list of attempts with various numbers even if some are non-prime e.g. n = 1 as long as at least one prime number is attempted. Condone a slip in evaluating provided the intention was to substitute in a valid value for n."
+            },
+            {
+              "code": "A1",
+              "type": "A",
+              "value": 1,
+              "criterion": "A correct calculation for the value and a conclusion. There must be some reference to it not being prime or they show that the number is divisible by e.g. 5 and state that it is false/not true. The value they have chosen must be clearly identified as their counter example."
+            }
+          ],
+          "guidance": ""
+        },
+        {
+          "label": "(ii)",
+          "marks": 4,
+          "answer": "If $m=3k+1$, $m^2-1 = 3(3k^2+2k)$, which is a multiple of 3. If $m=3k+2$, $m^2-1 = 3(3k^2+4k+1)$, which is a multiple of 3. Therefore, $m^2-1$ is divisible by 3 when $m$ is not divisible by 3.",
+          "markAllocation": [
+            {
+              "code": "M1",
+              "type": "M",
+              "value": 1,
+              "criterion": "Starts the proof by considering at least one algebraic expression not divisible by 3 e.g. $m = 3k + 1$ and attempts $m^2 - 1$ by expanding the brackets. Alternatively, writes $m^2 - 1 = (m-1)(m+1)$ and substitutes at least one algebraic expression not divisible by 3. Allow equivalent representations of numbers not divisible by 3 e.g. $m = 3k + 2$ or $m = 3k - 1$. Condone arithmetical slips."
+            },
+            {
+              "code": "A1",
+              "type": "A",
+              "value": 1,
+              "criterion": "Obtain at least one correct expression for $m^2-1$ for a case where m is not divisible by 3, and show that it is a multiple of 3 by factoring out 3 or equivalent reasoning."
+            },
+            {
+              "code": "dM1",
+              "type": "M",
+              "value": 1,
+              "criterion": "Considers both distinct cases where m is not divisible by 3 (i.e., $m=3k+1$ and $m=3k+2$ or equivalent)."
+            },
+            {
+              "code": "A1",
+              "type": "A",
+              "value": 1,
+              "criterion": "Fully correct proof. Achieve correct expressions for $m^2-1$ for both cases, show that each expression is a multiple of 3, and make a concluding overall statement."
+            }
+          ],
+          "guidance": "For the accuracy marks there should be no errors in the algebra but allow e.g. invisible brackets to be “recovered”. Withhold the final mark if m is used instead of their k if the work is otherwise correct."
+        }
+      ]
+    }
+  ]
+}

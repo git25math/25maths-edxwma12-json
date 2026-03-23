@@ -1,0 +1,734 @@
+{
+  "v": "1.0",
+  "paper": "2019May-WMA12-01",
+  "board": "edx",
+  "code": "WMA12",
+  "year": 2019,
+  "session": "May",
+  "paperNum": "01",
+  "totalMarks": 75,
+  "questions": [
+    {
+      "qnum": 1,
+      "marks": 4,
+      "parts": [
+        {
+          "label": "(a)",
+          "marks": 2,
+          "subparts": [
+            {
+              "label": "(i)",
+              "marks": 1,
+              "answer": "$a_1 = 2$",
+              "markAllocation": [
+                {
+                  "code": "B1",
+                  "type": "B",
+                  "value": 1,
+                  "criterion": "$a_1 = 2$"
+                }
+              ],
+              "guidance": "Accept the sight of 1. Ignore incorrect working."
+            },
+            {
+              "label": "(ii)",
+              "marks": 1,
+              "answer": "$a_3 = 107$",
+              "markAllocation": [
+                {
+                  "code": "B1",
+                  "type": "B",
+                  "value": 1,
+                  "criterion": "$a_3 = 107$"
+                }
+              ],
+              "guidance": "Accept sight of just 3. Ignore incorrect working. If there are lots of 1's and 3's without reference to any suffices they need to choose 3."
+            }
+          ]
+        },
+        {
+          "label": "(b)",
+          "marks": 2,
+          "answer": "600",
+          "markAllocation": [
+            {
+              "code": "M1",
+              "type": "M",
+              "value": 1,
+              "criterion": "Establishes an attempt to find the sum of a series with two distinct terms. Look for $100a + 100b$ or $200a + 200b$ where $a$ and $b$ are allowable terms. Examples of allowable terms are $a,b = 1,5$ (which are correct), $a,b = 1,3$ (which are the values for (a)), $a,b = 3,7$ (which is using $2n+1$), $a,b = 0,5$ (which is a slip on the first value). Methods using AP (and GP) formulae are common and score 0 marks."
+            },
+            {
+              "code": "A1",
+              "type": "A",
+              "value": 1,
+              "criterion": "600"
+            }
+          ],
+          "guidance": "600 should be awarded both marks as long as no incorrect working is seen."
+        }
+      ]
+    },
+    {
+      "qnum": 2,
+      "marks": 7,
+      "parts": [
+        {
+          "label": "(a)",
+          "marks": 3,
+          "answer": "Centre $(-2,5)$, Radius $\\sqrt{50}$ or $5\\sqrt{2}$",
+          "markAllocation": [
+            {
+              "code": "M1",
+              "type": "M",
+              "value": 1,
+              "criterion": "Attempts to complete the square on both terms or states the centre as $(\\pm 2, \\pm 5)$. For completing the square look for $(x \\pm 2)^2 + (y \\pm 5)^2 = ...$. If a candidate attempts to use $x^2+y^2+2fx+2gy+c=0$ then M1 may be awarded for a centre of $(\\pm 2, \\pm 5)$."
+            },
+            {
+              "code": "M1",
+              "type": "M",
+              "value": 1,
+              "criterion": "Centre $(-2,5)$. Allow $x=-2, y=5$. This alone can score both marks even following incorrect lines eg $(x+2)^2 - ... + (y-5)^2 = ...$ where … could be, for example a minus sign or blank."
+            },
+            {
+              "code": "B1",
+              "type": "B",
+              "value": 1,
+              "criterion": "Radius $\\sqrt{50}$ or $5\\sqrt{2}$"
+            }
+          ],
+          "guidance": "Note that the epen set up here is M1 M1 B1. You may isw after a correct answer."
+        },
+        {
+          "label": "(b)",
+          "marks": 4,
+          "answer": "$y = 7x - 31$",
+          "markAllocation": [
+            {
+              "code": "B1ft",
+              "type": "B",
+              "value": 1,
+              "criterion": "Correct answer for the gradient of the line joining $P(5,4)$ to their centre. You may ft on their centre but the value must be fully simplified."
+            },
+            {
+              "code": "M1",
+              "type": "M",
+              "value": 1,
+              "criterion": "Awarded for using $m_1 m_2 = -1$ to find gradient of tangent. Do be aware that some good candidates may do the first two marks at once so you may need to look at what value they are using for the gradient of the tangent."
+            },
+            {
+              "code": "M1",
+              "type": "M",
+              "value": 1,
+              "criterion": "For an attempt to find the equation of the tangent using $P(5,4)$ and a changed gradient. Condone bracketing slips only. If the candidate uses the form $y=mx+c$ they must use x and y the correct way around and proceed as far as $c = ...$."
+            },
+            {
+              "code": "A1",
+              "type": "A",
+              "value": 1,
+              "criterion": "$y = 7x - 31$ stated. It must be written in this form. (It cannot be awarded from $y=mx+c$ by just stating $c=-31$)"
+            }
+          ],
+          "guidance": "Note that the epen set up here is M1 M1 M1 A1. Attempts at (b) using differentiation: B1 $2x+2y\\frac{dy}{dx}+4-10\\frac{dy}{dx}-21=0 \\rightarrow 2x+2y\\frac{dy}{dx}+4-10\\frac{dy}{dx}=0$. M1 Substitutes $P(5,4)$ into an expression of the form $ax+by\\frac{dy}{dx}+c+d\\frac{dy}{dx}=0$ AND finds the value of $\\frac{dy}{dx}=7$. The values of a, b , c and d must be non-zero. M1 Uses $\\frac{dy}{dx}=m$ with $P(5,4)$ to find equation of tangent. A1 $y=7x-31$."
+        }
+      ]
+    },
+    {
+      "qnum": 3,
+      "marks": 4,
+      "parts": [
+        {
+          "label": "(i)",
+          "marks": 3,
+          "answer": "Proof that $(x-4)^2 - 2x > 9$",
+          "markAllocation": [
+            {
+              "code": "M1",
+              "type": "M",
+              "value": 1,
+              "criterion": "Attempts to expand $(x-4)^2$ and work from form $(x-4)^2 - 2x > 9$ to form a 3TQ on one side of an equation or an inequality."
+            },
+            {
+              "code": "A1",
+              "type": "A",
+              "value": 1,
+              "criterion": "Achieves both $x^2-10x+25$ and $(x-5)^2$. Allow $(x-5)^2$ written as $(x-5)(x-5)$."
+            },
+            {
+              "code": "A1*",
+              "type": "A",
+              "value": 1,
+              "criterion": "For a correct proof. Eg \"square numbers are greater than or equal to zero\", hence (as $x \\in \\mathbb{R}$), $(x-5)^2 \\ge 0 \\Rightarrow (x-4)^2 - 2x > 9$. This requires (1) Correct algebra throughout, (2) a correct explanation concerning square numbers and (3) a reference back to the original statement. Answers via $b^2-4ac$ are unlikely to be correct. Whilst it is true that there is only one root and therefore it touches the x-axis, it does not show that it is always positive. The explanation could involve a sketch of $y=(x-5)^2$ but it must be accurate with a minimum on the +ve x axis with some statement alluding to why this shows $(x-5)^2 \\ge 0$."
+            }
+          ],
+          "guidance": "A proof starting with the given statement. Approaches via odd and even numbers will usually not score anything. They would need to proceed using the main scheme via $(2m-4)^2 - 2(2m) > 9$ and $(2m+1-4)^2 - 2(2m+1) > 9$. Alt to (i) via contradiction: M1 For setting up the contradiction 'Assume that there is an x such that $(x-4)^2 - 2x < 9 \\Rightarrow x^2-10x+25 < 0$. A1 $(x-5)^2 < 0$. A1* This is not true as square numbers are always greater than or equal to 0, hence $(x-4)^2 - 2x > 9$. Alt to part (i) States $(x-5)^2 \\ge 0 \\Rightarrow x^2-10x+25 \\ge 0 \\Rightarrow x^2-8x+16 \\ge 2x+9 \\Rightarrow (x-4)^2 - 2x > 9$. M1 States $(x-5)^2 \\ge 0$ and attempts to expand. There is no explanation required here. A1 Rearranges to reach $x^2-8x+16 \\ge 2x+9$. A1* Reaches the given answer $(x-4)^2 - 2x > 9$ with no errors."
+        },
+        {
+          "label": "(ii)",
+          "marks": 1,
+          "answer": "Shows that $n^2+n+1$ is not prime for a value of $n$",
+          "markAllocation": [
+            {
+              "code": "B1",
+              "type": "B",
+              "value": 1,
+              "criterion": "Shows that it is not true for a value of n. This requires a calculation (and value found) with a minimal statement that it is not true. Eg. '$6^2+6+1=43$ which is not prime' or '$5^2+5+1=33 \\times$'."
+            }
+          ],
+          "guidance": "Condone sloppily expressed proofs. Eg. '$7^2+7+1=43 \\times 3 = 129$ which is not prime'. Condone implied proofs where candidates write $5^2+5+1=33$ which has a factor of 11. If there are lots of calculations mark positively. Only one value is required to be found (with the relevant statement) to score the B1. The calculation cannot be incorrect. Eg. $3^2+3+1=10$ which is not prime."
+        }
+      ]
+    },
+    {
+      "qnum": 4,
+      "marks": 7,
+      "parts": [
+        {
+          "label": "(a)",
+          "marks": 4,
+          "answer": "$64 - 48x + 15x^2 - 2.5x^3$",
+          "markAllocation": [
+            {
+              "code": "B1",
+              "type": "B",
+              "value": 1,
+              "criterion": "For either $2^6$ or 64. Award for an unsimplified $^6C_0 (2)^6 (-\\frac{1}{4}x)^0$."
+            },
+            {
+              "code": "M1",
+              "type": "M",
+              "value": 1,
+              "criterion": "For an attempt at the binomial expansion. Score for a correct attempt at term 2, 3 or 4. Accept sight of $^6C_1 (2)^5 (\\pm \\frac{1}{4}x)^1$, $^6C_2 (2)^4 (\\pm \\frac{1}{4}x)^2$, $^6C_3 (2)^3 (\\pm \\frac{1}{4}x)^3$ condoning omission of brackets. Accept any coefficient appearing from Pascal's triangle. FYI 6, 15, 20."
+            },
+            {
+              "code": "A1",
+              "type": "A",
+              "value": 1,
+              "criterion": "For any two simplified terms of $-48x + 15x^2 - 2.5x^3$."
+            },
+            {
+              "code": "A1",
+              "type": "A",
+              "value": 1,
+              "criterion": "For $64 - 48x + 15x^2 - 2.5x^3$ ignoring terms with greater powers. This may be awarded in (b) if it is not fully simplified in (a). Allow the terms to be listed $64, -48x, 15x^2, -2.5x^3$. Isw after sight of correct values. The expression written out without any method can be awarded all 4 marks."
+            }
+          ],
+          "guidance": "Alternative method in (a): $(2 - \\frac{1}{4}x)^6 = 2^6 (1 - \\frac{1}{8}x)^6 = 2^6 (1 + 6(-\\frac{1}{8}x) + \\frac{6 \\times 5}{2} (-\\frac{1}{8}x)^2 + \\frac{6 \\times 5 \\times 4}{3!} (-\\frac{1}{8}x)^3 + ...)$. B1 For sight of factor of either $2^6$ or 64. M1 For an attempt at the binomial expansion seen in at least one term within the brackets. Score for a correct attempt at term 2, 3 or 4. Accept sight of $6(\\pm \\frac{1}{8}x)$, $\\frac{6 \\times 5}{2}(\\pm \\frac{1}{8}x)^2$, $\\frac{6 \\times 5 \\times 4}{3!}(\\pm \\frac{1}{8}x)^3$ condoning omission of brackets. A1 For any two terms of $64 - 48x + 15x^2 - 2.5x^3$. A1 For all four terms $64 - 48x + 15x^2 - 2.5x^3$ ignoring terms with greater powers. Attempts to multiply out: B1 For 64. M1 Multiplies out to form $a+bx+cx^2+dx^3+...$ and gets b, c or d correct. A1A1 As main scheme."
+        },
+        {
+          "label": "(b)",
+          "marks": 3,
+          "answer": "$128 + 30x^2$",
+          "markAllocation": [
+            {
+              "code": "M1",
+              "type": "M",
+              "value": 1,
+              "criterion": "For adding two sequences that must be of the correct form with the correct signs. Look for $(A+Bx+Cx^2+Dx^3) + (A-Bx+Cx^2-Dx^3)$ but condone $(A+Bx+Cx^2) + (A-Bx+Cx^2)$. For this to be scored there must be some negative terms in (a)."
+            },
+            {
+              "code": "B1ft",
+              "type": "B",
+              "value": 1,
+              "criterion": "For one correct term (follow through). Usually $a = 128$ but accept either $a = 2 \\times \\text{'their'+ve 64}$ or $b = 2 \\times \\text{'their' 15}$."
+            },
+            {
+              "code": "A1",
+              "type": "A",
+              "value": 1,
+              "criterion": "For $128 + 30x^2$. CSO so must be from $(64 - 48x + 15x^2 - 2.5x^3) + (64 + 48x + 15x^2 + 2.5x^3)$. Allow $a=128, b=30$ following correct work. This is a show that question so M1 must be awarded. It must be their final answer so do not isw here."
+            }
+          ],
+          "guidance": "Note that this is now marked M1 B1 A1."
+        }
+      ]
+    },
+    {
+      "qnum": 5,
+      "marks": 8,
+      "parts": [
+        {
+          "label": "(a)",
+          "marks": 6,
+          "answer": "$x=64$, Profit = $\\pounds 136000$",
+          "markAllocation": [
+            {
+              "code": "M1",
+              "type": "M",
+              "value": 1,
+              "criterion": "Attempts to differentiate $x^n \\rightarrow nx^{n-1}$ seen at least once. It must be an x term and not the $120 \\rightarrow 0$."
+            },
+            {
+              "code": "A1",
+              "type": "A",
+              "value": 1,
+              "criterion": "$\\frac{dP}{dx} = 3x^{1/2} - 12$ with no need to see the lhs. Condone $\\frac{dy}{dx}$ all of the way through part (a)."
+            },
+            {
+              "code": "dM1",
+              "type": "M",
+              "value": 1,
+              "criterion": "Sets their $\\frac{dP}{dx} = 0$ and proceeds to $x^n = k, k > 0$. Dependent upon the previous M. Don’t be too concerned with the mechanics of process. Condone an attempted solution of $\\frac{dP}{dx} = ...$ where ... could be an inequality."
+            },
+            {
+              "code": "A1",
+              "type": "A",
+              "value": 1,
+              "criterion": "$x=64$. Condone $x=\\pm 64$ here."
+            },
+            {
+              "code": "M1",
+              "type": "M",
+              "value": 1,
+              "criterion": "Substitutes their solution for $\\frac{dP}{dx} = 0$ into P and attempts to find the value of P. The value of x must be positive. If two values of x are found, allow this mark for any attempt using a positive value."
+            },
+            {
+              "code": "A1",
+              "type": "A",
+              "value": 1,
+              "criterion": "CSO. Profit = $\\pounds 136000$ or 136 thousand but not 136 or P = 136. This cannot follow two values for x, eg $x=\\pm 64$. Condone a lack of units or incorrect units such as $."
+            }
+          ],
+          "guidance": "You should mark parts a and b together. You may see work in (a) from (b)."
+        },
+        {
+          "label": "(b)",
+          "marks": 2,
+          "answer": "Second derivative $\\frac{d^2P}{dx^2} = -\\frac{3}{4}x^{-1/2} < 0$ at $x=64$, hence maximum.",
+          "markAllocation": [
+            {
+              "code": "M1",
+              "type": "M",
+              "value": 1,
+              "criterion": "Achieves $\\frac{d^2P}{dx^2} = kx^{-1/2}$ and attempts to find its value at $x=\\text{'64'}$. Alternatively achieves $\\frac{d^2P}{dx^2} = kx^{-1/2}$ and attempts to state its sign. Eg $\\frac{d^2P}{dx^2} = -\\frac{3}{4}x^{-1/2} < 0$. Allow $\\frac{d^2y}{dx^2}$ for the both marks."
+            },
+            {
+              "code": "A1",
+              "type": "A",
+              "value": 1,
+              "criterion": "Achieves $x=64$, $\\frac{d^2P}{dx^2} = -\\frac{3}{4}x^{-1/2}$ and states $\\frac{d^2P}{dx^2} = -\\frac{3}{32} < 0$ (at $x=64$) then the profit is maximised. This requires the correct value of x, the correct value of the second derivative (allowing for awrt -0.09) a reason + conclusion. Alt: Achieves $x=64$, $\\frac{d^2P}{dx^2} = -\\frac{3}{4}x^{-1/2}$ and states as $x>0$ means that $\\frac{d^2P}{dx^2} < 0$ then the profit is maximised. Part (b) merely requires the use of calculus so allow M1 Attempting to find the value of $\\frac{dP}{dx}$ at two values either side, but close to their 64. Eg. For 64, allow the lower value to be $x=63.5$ and the upper value to be $x=64.5$. A1 Requires correct values, correct calculations with reason and conclusion."
+            }
+          ],
+          "guidance": ""
+        }
+      ]
+    },
+    {
+      "qnum": 6,
+      "marks": 8,
+      "parts": [
+        {
+          "label": "(a)",
+          "marks": 2,
+          "answer": "Proof that $k=9$",
+          "markAllocation": [
+            {
+              "code": "M1",
+              "type": "M",
+              "value": 1,
+              "criterion": "Attempts to set $f(3)=0 \\rightarrow$ equation in k. Eg. $27k - 135 - 96 - 12 = 0$. Condone slips. Score when you see embedded values within the equation or two correct terms on the lhs of the equation. It is implied by sight of $27k - 243 = 0$ or $27k = 135 + 96 + 12$."
+            },
+            {
+              "code": "A1*",
+              "type": "A",
+              "value": 1,
+              "criterion": "Completes proof with at least one intermediate \"solvable\" line namely $27k = 243 \\Rightarrow k=9$ or $27k - 243 = 0 \\Rightarrow k=9$. This is a given answer so there should be no errors. It is a \"show that\" question so expect to see (i) Either $f(3)=0$ explicitly stated or implied by sight of $27k - 135 - 96 - 12 = 0$ or $27k - 243 = 0$. (ii) One solvable intermediate line followed by $k=9$."
+            }
+          ],
+          "guidance": "A candidate could use $k=9$ and start with $f(x) = 9x^3 - 15x^2 - 32x - 12$. M1 For attempting $f(3) = 9 \\times 3^3 - 15 \\times 3^2 - 32 \\times 3 - 12$. Alt attempts to divide $f(x)$ by $(x-3)$. See below on how to score such an attempt. A1* Shows that $f(3)=0$ and makes a minimal statement to the effect that \"so $k=9$\". If division is attempted it must be correct and a statement is required to the effect that there is no remainder, \"so $k=9$\". If candidates have divided (correctly) in part (a) they can be awarded the first two marks in (b) when they start factorising the $9x^2+12x+4$ term."
+        },
+        {
+          "label": "(b)",
+          "marks": 4,
+          "answer": "$(x-3)(3x+2)^2$",
+          "markAllocation": [
+            {
+              "code": "M1",
+              "type": "M",
+              "value": 1,
+              "criterion": "Attempt to divide or factorise out $(x-3)$. Condone students who use a different value of k. For factorisation look for first and last terms $(x-3)(9x^2 \\pm ... \\pm 4)$. For division look for the following line $9x^2+12x+4$."
+            },
+            {
+              "code": "A1",
+              "type": "A",
+              "value": 1,
+              "criterion": "Correct quadratic factor $9x^2+12x+4$. You may condone division attempts that don't quite work as long as the correct factor is seen."
+            },
+            {
+              "code": "dM1",
+              "type": "M",
+              "value": 1,
+              "criterion": "Attempt at factorising their $9x^2+12x+4$. Apply the usual rules for factorising."
+            },
+            {
+              "code": "A1",
+              "type": "A",
+              "value": 1,
+              "criterion": "$(x-3)(3x+2)^2$ or $(x-3)(3x+2)(3x+2)$ on one line. Accept $(x-3)(3(x+\\frac{2}{3}))^2$ oe. It must be seen as a product. Remember to isw for candidates who go on to give roots $f(x)=(x-3)(3x+2)^2 \\Rightarrow x=...$"
+            }
+          ],
+          "guidance": "Note: Part (b) is \"Hence\" so take care when students write down the answer to (b) without method. If candidates state $f(x)=(x-3)(x+\\frac{2}{3})(x+\\frac{2}{3})$ score 0 0 0 0. If candidates state $f(x)=(x-3)(3x+2)(3x+2)$ they score SC 1010. If candidates state $f(x)=(x-3)(3(x+\\frac{2}{3}))(3(x+\\frac{2}{3}))$ they score SC 1010. If candidate writes down $(x-3)(3x+2)^2$ with no working they score SC 1010. If a candidate writes down $(x-3)$ and $(3x+2)$ are factors it is 0000."
+        },
+        {
+          "label": "(c)",
+          "marks": 2,
+          "answer": "$\\theta = 131.8^\\circ, 228.2^\\circ$",
+          "markAllocation": [
+            {
+              "code": "M1",
+              "type": "M",
+              "value": 1,
+              "criterion": "A correct attempt to find one value of $\\theta$ in the given range for their $\\cos\\theta = -\\frac{2}{3}$. (You may have to use a calculator). So if (b) is factorised correctly the mark is for one of the values. This can be implied by sight of awrt 132 or 228 in degrees or awrt 2.3 which is the radian solution."
+            },
+            {
+              "code": "A1",
+              "type": "A",
+              "value": 1,
+              "criterion": "CSO awrt $131.8^\\circ, 228.2^\\circ$ with no additional solutions within the range $0 < \\theta < 360^\\circ$. Watch for correct solutions appearing from $3\\cos\\theta-2=0 \\Rightarrow \\cos\\theta=\\frac{2}{3}$. This is M0 A0."
+            }
+          ],
+          "guidance": "Answers without working are acceptable. M1 For one correct answer. M1 A1 For two correct answers with no additional solutions within the range."
+        }
+      ]
+    },
+    {
+      "qnum": 7,
+      "marks": 9,
+      "parts": [
+        {
+          "label": "(a)",
+          "marks": 3,
+          "answer": "Year 2 salary is $\\pounds 17900$",
+          "markAllocation": [
+            {
+              "code": "M1",
+              "type": "M",
+              "value": 1,
+              "criterion": "Attempts to use the AP formula in an attempt to find 'd'. Accept an attempt at $31500 = 16200 + 9d$ resulting in a value for d. Accept the calculation $\\frac{31500 - 16200}{9}$ condoning slips on the 31500 and 16200."
+            },
+            {
+              "code": "M1",
+              "type": "M",
+              "value": 1,
+              "criterion": "A correct attempt to find the second term by adding 16200 to their 'd' which must have been found via an allowable method. Allow d to be found from an \"incorrect\" AP formula with 10d being used instead of 9d. Eg $31500 = 16200 + 10d$ or more likely $\\frac{31500 - 16200}{10} = 1530$ usually leading to an answer of 17730."
+            },
+            {
+              "code": "A1",
+              "type": "A",
+              "value": 1,
+              "criterion": "Year 2 salary is $\\pounds 17900$."
+            }
+          ],
+          "guidance": ""
+        },
+        {
+          "label": "(b)",
+          "marks": 3,
+          "answer": "Year 2 salary in the range $\\pounds 17440 - \\pounds 17450$",
+          "markAllocation": [
+            {
+              "code": "M1",
+              "type": "M",
+              "value": 1,
+              "criterion": "Attempts to use the GP formula in an attempt to find 'r'. Accept an attempt at $31500 = 16200r^9 \\Rightarrow r^9 = \\frac{31500}{16200} \\Rightarrow r = ...$ condoning numerical slips. Accept the calculation $\\sqrt[9]{\\frac{31500}{16200}}$ or $\\sqrt[9]{\\frac{35}{18}}$ condoning slips on the 31500 and 16200. It will most likely be implied by a value of r rounding to 1.08. Accept an attempt at $31500 = 16200r^9$ via logs condoning slips but correct log work must be seen."
+            },
+            {
+              "code": "M1",
+              "type": "M",
+              "value": 1,
+              "criterion": "A correct attempt to find the second term by multiplying 16200 by their 'r' which must have been found via an allowable method. Allow r to be found from an \"incorrect\" GP formula with 10 being used instead of 9. Eg following $31500 = 16200r^{10}$ or $\\sqrt[10]{\\frac{31500}{16200}}$. You may also award, condoning slips, for an attempt at $16200 \\times r$ where r is their solution of $31500 = 16200r^n$ where $n=9$ or $n=10$."
+            },
+            {
+              "code": "A1",
+              "type": "A",
+              "value": 1,
+              "criterion": "For an answer in the range $\\pounds 17440 - \\pounds 17450$. Note that $r \\approx 1.077 \\Rightarrow 17447.40$."
+            }
+          ],
+          "guidance": ""
+        },
+        {
+          "label": "(c)",
+          "marks": 3,
+          "answer": "Difference = $\\pounds 7480$",
+          "markAllocation": [
+            {
+              "code": "M1",
+              "type": "M",
+              "value": 1,
+              "criterion": "A correct method to find the sum of either the AP or the GP. For the AP accept an attempt at either $\\frac{10}{2}(16200+31500)$ or $\\frac{10}{2}(2 \\times 16200 + 9 \\times \\text{'d'})$. For the GP accept an attempt at either $\\frac{16200(\\text{'r'}^{10}-1)}{\\text{'r'}-1}$ or $\\frac{16200(1-\\text{'r'}^{10})}{1-\\text{'r'}}$."
+            },
+            {
+              "code": "dM1",
+              "type": "M",
+              "value": 1,
+              "criterion": "Both formulae must be attempted \"correctly\" (see above) and the difference taken (either way around). FYI if d and r are correct, the sums are $\\pounds 238500$ and $\\pounds 231019.24$."
+            },
+            {
+              "code": "A1",
+              "type": "A",
+              "value": 1,
+              "criterion": "Difference = $\\pounds 7480$. CAO. Note that this answer is found using the unrounded value for r. Note that using the rounded value will give $\\pounds 7130$ which is A0."
+            }
+          ],
+          "guidance": "If the solutions for (a) and (b) are reversed, eg GP in (a) and AP in (b) then please send to review."
+        }
+      ]
+    },
+    {
+      "qnum": 8,
+      "marks": 9,
+      "parts": [
+        {
+          "label": "(i)",
+          "marks": 4,
+          "answer": "$x = \\frac{1}{6} \\log_2 3 - \\frac{1}{3}$",
+          "markAllocation": [
+            {
+              "code": "M1",
+              "type": "M",
+              "value": 1,
+              "criterion": "Takes log of both sides and uses the power law. Accept any base. Condone missing brackets."
+            },
+            {
+              "code": "A1",
+              "type": "A",
+              "value": 1,
+              "criterion": "For a correct linear equation in x which only involve logs of base 2 usually $\\log_2 6$, $\\log_2 2$ or $\\log_2 8$ but sometimes $\\log_2 4^3$ and others so read each solution carefully."
+            },
+            {
+              "code": "M1",
+              "type": "M",
+              "value": 1,
+              "criterion": "Attempts to use a log law to create a linear equation in $\\log_2 3$. Eg. $\\log_2 6 = \\log_2 2 + \\log_2 3$ which is implied by $\\log_2 6 = 1 + \\log_2 3$. Eg. $\\log_2 \\frac{3}{4} = \\log_2 3 - \\log_2 4$ which may be implied by $\\log_2 3 - 2$."
+            },
+            {
+              "code": "A1",
+              "type": "A",
+              "value": 1,
+              "criterion": "For $x = \\frac{1}{6} \\log_2 3 - \\frac{1}{3}$ oe in the form required by the question. Note that $x = \\frac{\\log_2 3 - 2}{6}$ is A0."
+            }
+          ],
+          "guidance": "Please read notes for 8(i) before looking at scheme. There are many different ways to attempt this but essentially can be marked in a similar way. If index work is used marks are not scored until the log work is seen. Eg 1: $8^{x+1} = 6 \\Rightarrow 2^{3(x+1)} = 6 \\Rightarrow 3(x+1)\\log_2 2 = \\log_2 6$. 1ST M1 is scored for $3(x+1) = \\log_2 6$ and then 1ST A1 for $3(x+1) = \\log_2 2 + \\log_2 3$. But BOTH of these marks would be scored for $3(x+1) = 1 + \\log_2 3$. 2nd M1 would then be awarded for $\\log_2 6 = \\log_2 2 + \\log_2 3$ which may be implied by $1 + \\log_2 3$. Two more examples where the candidate initially uses index work. $2^{3(x+1)} = 6 \\Rightarrow 3(x+1) = \\log_2 6$. This is M1 A1 as it is a correct linear equation in x involving a log 2 term. But $8^{x+1} = 6 \\Rightarrow 8^x \\times 8 = 6 \\Rightarrow 8^x = \\frac{6}{8} = \\frac{3}{4}$. Then $x = \\log_8 \\frac{3}{4}$. This is M1. Then $x = \\frac{\\log_2 (3/4)}{\\log_2 8} = \\frac{\\log_2 3 - \\log_2 4}{3} = \\frac{\\log_2 3 - 2}{3}$. This is M1 A1."
+        },
+        {
+          "label": "(ii)",
+          "marks": 5,
+          "answer": "$y = -6 + \\sqrt{70}$",
+          "markAllocation": [
+            {
+              "code": "M1",
+              "type": "M",
+              "value": 1,
+              "criterion": "Attempts a correct log law. This may include $\\log_5 (y+1)^2 \\leftarrow 2\\log_5 (y+1)$ or $1 \\leftarrow \\log_5 5$. You may award this following incorrect work. Eg $\\log_5 (y+1)^2 - \\log_5 (y-7) = 2\\log_5 (y+1) - \\log_5 (y-7) - 1 \\Rightarrow \\log_5 \\frac{(y+1)^2}{y-7} = \\log_5 5 \\Rightarrow \\frac{(y+1)^2}{y-7} = 5$."
+            },
+            {
+              "code": "dM1",
+              "type": "M",
+              "value": 1,
+              "criterion": "Uses two correct log laws. It may not be awarded following errors (see above). It is awarded for $\\log_5 (y+1)^2 - \\log_5 (y-7) = \\log_5 5$, $\\log_5 \\frac{(y+1)^2}{y-7} = \\log_5 5$, $\\log_5 (y+1)^2 = \\log_5 (y-7) + \\log_5 5$ or $\\log_5 (y+1)^2 - \\log_5 5 = \\log_5 (y-7)$."
+            },
+            {
+              "code": "A1",
+              "type": "A",
+              "value": 1,
+              "criterion": "A correct equation in 'y' not involving logs, e.g. $\\frac{(y+1)^2}{y-7} = 5$."
+            },
+            {
+              "code": "ddM1",
+              "type": "M",
+              "value": 1,
+              "criterion": "A correct attempt at finding at least one value of y from a 3TQ in y. All previous M's must have been awarded. It can be awarded for decimal answer(s), 2.4 and -14.4."
+            },
+            {
+              "code": "A1",
+              "type": "A",
+              "value": 1,
+              "criterion": "$y = -6 + \\sqrt{70}$ oe only. It cannot be the decimal equivalent but award if the candidate chooses 2.4 following the exact answer. If $y = -6 \\pm \\sqrt{70}$ then the final A mark is withheld."
+            }
+          ],
+          "guidance": "Special case: Candidates who write $\\log_5 (y+1)^2 - \\log_5 (y-7) = 1 \\Rightarrow \\log_5 \\frac{(y+1)^2}{y-7} = 1 \\Rightarrow \\frac{(y+1)^2}{y-7} = 5$ can score M1 dM0 A0 ddM1 A1 if they find the correct answer."
+        }
+      ]
+    },
+    {
+      "qnum": 9,
+      "marks": 8,
+      "parts": [
+        {
+          "label": "(a)",
+          "marks": 4,
+          "answer": "Proof that $5\\cos^2\\theta - \\cos\\theta - 4 = 0$",
+          "markAllocation": [
+            {
+              "code": "M1",
+              "type": "M",
+              "value": 1,
+              "criterion": "Uses $\\tan\\theta = \\frac{\\sin\\theta}{\\cos\\theta}$ oe in their $\\cos\\theta - \\frac{1}{\\tan\\theta} = 4\\sin\\theta$. Condone slips in coefficients and the equation may have been adapted. This may be implied by candidates who multiply by $\\cos\\theta$ and reach $\\cos^2\\theta - \\cos\\theta = 4\\sin^2\\theta$. This would be M1 A1."
+            },
+            {
+              "code": "A1",
+              "type": "A",
+              "value": 1,
+              "criterion": "Correct equation, without any fractional terms, in $\\sin\\theta$ and $\\cos\\theta$. If the identity $\\sin^2\\theta = 1 - \\cos^2\\theta$ is used before the multiplication by $\\cos\\theta$ then it will be for a correct equation, without any fractional terms, in $\\cos\\theta$. Condone incorrect notation $\\cos\\theta^2$ for $\\cos^2\\theta$."
+            },
+            {
+              "code": "M1",
+              "type": "M",
+              "value": 1,
+              "criterion": "Uses $\\sin^2\\theta = 1 - \\cos^2\\theta$ to produce an equation in just $\\cos\\theta$."
+            },
+            {
+              "code": "A1*",
+              "type": "A",
+              "value": 1,
+              "criterion": "Proceeds to $5\\cos^2\\theta - \\cos\\theta - 4 = 0$ with no arithmetical or notational errors. Both identities must be seen to have been applied. Candidates cannot just go from $\\cos^2\\theta - \\cos\\theta = 4\\sin^2\\theta$ to the answer without any evidence of the appropriate identity. No mixed variables within the lines of the \"proof\" . Condone incomplete lines if it is part of their working. Eg. $\\cos^2\\theta - \\cos\\theta = 4\\sin^2\\theta = 4(1-\\cos^2\\theta)$. An example of a notational error is $\\cos\\theta^2$ for $\\cos^2\\theta$ (Note that this would only lose the A1*)."
+            }
+          ],
+          "guidance": ""
+        },
+        {
+          "label": "(b)",
+          "marks": 4,
+          "answer": "$x=0, 1.25$",
+          "markAllocation": [
+            {
+              "code": "M1",
+              "type": "M",
+              "value": 1,
+              "criterion": "Attempts to find the critical values of the given quadratic by a correct method."
+            },
+            {
+              "code": "A1",
+              "type": "A",
+              "value": 1,
+              "criterion": "Critical values of $-\\frac{4}{5}, 1$. Allow this to be scored even if written as $\\cos x = ...$ or even x. Allow these to be written down (from a calculator)."
+            },
+            {
+              "code": "dM1",
+              "type": "M",
+              "value": 1,
+              "criterion": "A correct method to find one value of x from their $\\cos 2x = -\\frac{4}{5}$. Look for correct order of operations. It is dependent upon the previous mark. This can be implied by awrt 1.5/71.6$^{\\circ}$ or awrt 1.24/1.25 (rads)."
+            },
+            {
+              "code": "A1",
+              "type": "A",
+              "value": 1,
+              "criterion": "Both $x=0$ and awrt 1.25 with no other values in the range $0 < x < 2\\pi$. Condone 1.25 written as $0.398\\pi$. Condone if written as $\\theta = ...$."
+            }
+          ],
+          "guidance": "Answers without working can score all marks: Score M1 for one value and M1 A1 M1 A1 for both values and no others in the range."
+        }
+      ]
+    },
+    {
+      "qnum": 10,
+      "marks": 11,
+      "parts": [
+        {
+          "label": "(a)",
+          "marks": 4,
+          "answer": "$x > 3\\sqrt[3]{36}$ oe",
+          "markAllocation": [
+            {
+              "code": "M1",
+              "type": "M",
+              "value": 1,
+              "criterion": "Attempts $f'(x)$ with one index correct. Allow for $x^{-3} \\rightarrow -3x^{-4}$ or $2x \\rightarrow 2$."
+            },
+            {
+              "code": "A1",
+              "type": "A",
+              "value": 1,
+              "criterion": "$f'(x) = -72x^{-4} + 2$ correct but may be unsimplified $f'(x) = -36 \\times 2x^{-4} + 2$."
+            },
+            {
+              "code": "dM1",
+              "type": "M",
+              "value": 1,
+              "criterion": "Attempts to find where $f'(x)=0$. Score for $x^n = k$ where $k > 0$ and $n \\ne \\pm 1$ leading to $x = ...$. Do not allow this to be scored from an equation that is adapted incorrectly to get a positive k. Allow this to be scored from an attempt at solving $f'(x) ... 0$ where ... can be any inequality."
+            },
+            {
+              "code": "A1",
+              "type": "A",
+              "value": 1,
+              "criterion": "Achieves $x > 3\\sqrt[3]{36}$ or $x > 6^{2/3}$. Allow $x \\ge 3\\sqrt[3]{36}$ or $x \\ge 6^{2/3}$ but not $x > (\\frac{1}{36})^{-1/3}$. We require an exact value but remember to isw. An answer of 3.302 usually implies the first 3 marks."
+            }
+          ],
+          "guidance": ""
+        },
+        {
+          "label": "(b)",
+          "marks": 4,
+          "answer": "0",
+          "markAllocation": [
+            {
+              "code": "M1",
+              "type": "M",
+              "value": 1,
+              "criterion": "For $x^n \\rightarrow \\frac{x^{n+1}}{n+1}$ seen on either $36x^{-3}$ or $2x$. Indices must be processed. eg $x^{-3} \\rightarrow x^{-2}$."
+            },
+            {
+              "code": "A1",
+              "type": "A",
+              "value": 1,
+              "criterion": "$\\int (36x^{-3} + 2x - 13) dx = -18x^{-2} + x^2 - 13x$ which may be unsimplified. Eg $-36x^{-2}/2 + x^2$. Allow with + c."
+            },
+            {
+              "code": "dM1",
+              "type": "M",
+              "value": 1,
+              "criterion": "Substitutes 9 and 2 into their integral and subtracts either way around. Condone missing brackets. Dependent upon the previous M."
+            },
+            {
+              "code": "A1*",
+              "type": "A",
+              "value": 1,
+              "criterion": "Completely correct integration with either embedded values seen or calculated values $(40) - (40)$. Note that this is a given answer and so the bracketing must be correct."
+            }
+          ],
+          "guidance": ""
+        },
+        {
+          "label": "(c)",
+          "marks": 3,
+          "subparts": [
+            {
+              "label": "(i)",
+              "marks": 1,
+              "answer": "8",
+              "markAllocation": [
+                {
+                  "code": "B1",
+                  "type": "B",
+                  "value": 1,
+                  "criterion": "For sight of 8. Allow this to be scored from a restart, from a calculator or ... = 8."
+                }
+              ],
+              "guidance": ""
+            },
+            {
+              "label": "(ii)",
+              "marks": 2,
+              "answer": "$k = -11$",
+              "markAllocation": [
+                {
+                  "code": "M1",
+                  "type": "M",
+                  "value": 1,
+                  "criterion": "This may be awarded in a variety of ways: A restart (See scheme). For this to be awarded all terms must be integrated with $k \\rightarrow kx$, the limits 6 and 2 applied, the linear expression in k must be set equal to 0 and a solution attempted. An attempt at solving $\\int_2^6 (13+k) dx = 8$ or equivalent. Look for the linear equation $4(13+k) - 8 = 0$ or $4(13+k) = 8$ and a solution attempted. Recognising that the curve needs to be moved up 2 units. Sight of $\\frac{8}{6-2}$ or $13-2$."
+                },
+                {
+                  "code": "A1",
+                  "type": "A",
+                  "value": 1,
+                  "criterion": "$k = -11$. This alone can be awarded both marks as long as no incorrect working is seen."
+                }
+              ],
+              "guidance": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,726 @@
+{
+  "v": "1.0",
+  "paper": "2021Jan-WMA12-01",
+  "board": "edx",
+  "code": "WMA12",
+  "year": 2021,
+  "session": "Jan",
+  "paperNum": "01",
+  "totalMarks": 75,
+  "questions": [
+    {
+      "qnum": 1,
+      "marks": 6,
+      "parts": [
+        {
+          "label": "(a)",
+          "marks": 2,
+          "answer": "a + b = -1",
+          "markAllocation": [
+            {
+              "code": "M1",
+              "type": "M",
+              "value": 1,
+              "criterion": "Attempts to substitute $x = \\pm 1$ into f(x) and set equal to 4 to obtain an equation in a and b."
+            },
+            {
+              "code": "A1*",
+              "type": "A",
+              "value": 1,
+              "criterion": "Rearranges the equation with no errors and achieves the given answer with at least one intermediate line with power evaluated."
+            }
+          ],
+          "guidance": "NB Do not apply a misread on the equation a + b = −1 as it gains no extra marks. They can score a maximum of M1A0 M1A1M1A0 if they use an incorrect equation such as a + b = 1. M1: Powers of −1 need not be seen, accept e.g. 1 – a – 3 – b + 5 = 4. Condone invisible brackets on powers for the M mark, but penalise in the A (if incorrect). Alternatively, attempts long division reaching a remainder which is then set equal to 4. Look for a quotient starting $x^3 + ..$ and linear remainder in a and b. It may be seen in tabulated form. Another alternative method: Writes $f(x) = (x+1)(x^3 + \\alpha x^2 + \\beta x + \\gamma) + 4$ (allow with $\\gamma = 1$), expands and equates coefficients, and proceeds to eliminate $\\alpha, \\beta$ and $\\gamma$ from the equations. A1*: FYI by long division the quotient is $x^3 + (a-1)x^2 + (a-2)x + (a+b+2)$ and the remainder is $3a-b-3$. By equating coefficients look for $\\gamma + 4 = 5$ (may be implied), $a = \\alpha + 1$, $b = \\beta + 1$, $-3 = \\alpha + \\beta$ being solved correctly."
+        },
+        {
+          "label": "(b)",
+          "marks": 4,
+          "answer": "a = -5, b = 4",
+          "markAllocation": [
+            {
+              "code": "M1",
+              "type": "M",
+              "value": 1,
+              "criterion": "Attempts to substitute $x = \\pm 2$ into f(x) and set equal to $\\pm 23$ to obtain an equation in a and b."
+            },
+            {
+              "code": "A1",
+              "type": "A",
+              "value": 1,
+              "criterion": "$8a + 2b = -32$ oe"
+            },
+            {
+              "code": "dM1",
+              "type": "M",
+              "value": 1,
+              "criterion": "Attempts to solve simultaneously and achieves a value for a or b. It is dependent on the previous method mark."
+            },
+            {
+              "code": "A1",
+              "type": "A",
+              "value": 1,
+              "criterion": "$a = -5, b = 4$ cao"
+            }
+          ],
+          "guidance": "M1: Again, accept attempts at long division leading to a remainder linear in a and b (which is $8a+2b+9$), which is then set equal to $±23$, or via equating coefficients (look for at least three equations formed). May have substituted for a or b already. A1: need not be fully gathered but powers should be evaluated. So e.g. accept $16a+8b-12+2+5 = -23$ or accept $16a+8(a-1)-12+2+5 = -23$ if substitution for b happens first (similar for a). Via equating coefficients, all equations should be correct. dM1: Allow as long as values for a or b appears after writing out their two equations in both a and b (or solving a linear equation if substitution occurs before remainder theorem). Allow for slips in copying their initial equations."
+        }
+      ]
+    },
+    {
+      "qnum": 2,
+      "marks": 7,
+      "parts": [
+        {
+          "label": "(a)",
+          "marks": 4,
+          "answer": "x = 8/3, -2",
+          "markAllocation": [
+            {
+              "code": "M1",
+              "type": "M",
+              "value": 1,
+              "criterion": "Differentiates to achieve $\\frac{\\text{d}y}{\\text{d}x} = Ax^2 + Bx + C$ where $A, B, C \\neq 0$."
+            },
+            {
+              "code": "A1",
+              "type": "A",
+              "value": 1,
+              "criterion": "$\\frac{\\text{d}y}{\\text{d}x} = 3x^2 - 2x - 16$"
+            },
+            {
+              "code": "M1",
+              "type": "M",
+              "value": 1,
+              "criterion": "Sets their $\\frac{\\text{d}y}{\\text{d}x} = 0$ and attempts to solve their quadratic."
+            },
+            {
+              "code": "A1",
+              "type": "A",
+              "value": 1,
+              "criterion": "$x = \\frac{8}{3}, -2$ or equivalent single fraction"
+            }
+          ],
+          "guidance": "M1: Setting equal to zero may be implied by an attempt to solve the quadratic. A1: (do not accept 2.67 but $2.6\\dot{6}$ can be accepted.)"
+        },
+        {
+          "label": "(b)",
+          "marks": 3,
+          "answer": "$x = \\frac{8}{3}$ is minimum, $x = -2$ is maximum",
+          "markAllocation": [
+            {
+              "code": "M1",
+              "type": "M",
+              "value": 1,
+              "criterion": "Attempts to differentiate their $\\frac{\\text{d}y}{\\text{d}x}$ to achieve $\\frac{\\text{d}^2y}{\\text{d}x^2} = Cx + D$ where $C, D \\neq 0$."
+            },
+            {
+              "code": "dM1",
+              "type": "M",
+              "value": 1,
+              "criterion": "Substitutes in one of their x values for part (a) into their $\\frac{\\text{d}^2y}{\\text{d}x^2}$ and draws a consistent conclusion with their value found."
+            },
+            {
+              "code": "A1",
+              "type": "A",
+              "value": 1,
+              "criterion": "Correct second derivative, correct values for $\\frac{\\text{d}^2y}{\\text{d}x^2}$ at $x = \\frac{8}{3}, -2$ and draws a correct conclusion with reason for both."
+            }
+          ],
+          "guidance": "M1: Allow if found in part (a). dM1: Accept with correct unsimplified values OR with correct reason, e.g. $\\frac{\\text{d}^2y}{\\text{d}x^2} < 0$ hence maximum, if no substitution seen. It is dependent on the previous method mark. Accept “concave down” for a maximum and “concave up” for a minimum. A1: Values need not be simplified but if simplified values seen they must be correct. It must be clear which point corresponds with each conclusion. NB Allow M1dM1A0 if no substitution is seen as long as reason is given, e.g. When x = −2, $\\frac{\\text{d}^2y}{\\text{d}x^2} < 0$ hence max. Alt (b) M1: Attempts to evaluate $\\frac{\\text{d}y}{\\text{d}x}$ both side of at least one of their stationary points. dM1: Evaluates $\\frac{\\text{d}y}{\\text{d}x}$ between their two stationary points and the other side of at least one of them, considers signs and draws a consistent conclusion. A1: Evaluates $\\frac{\\text{d}y}{\\text{d}x}$ correctly either side of both of their stationary points (three points required, you may need to check the evaluation) and draws correct conclusions for both. A method via calculus is required, so reasoning from the shape of a cubic scores no marks."
+        }
+      ]
+    },
+    {
+      "qnum": 3,
+      "marks": 8,
+      "parts": [
+        {
+          "label": "(i)",
+          "marks": 3,
+          "answer": "$x = \\log_7 \\frac{3}{49}$",
+          "markAllocation": [
+            {
+              "code": "M1",
+              "type": "M",
+              "value": 1,
+              "criterion": "Applies the addition law to write the equation in the form $7^x \\times 7^2 = 3$ or takes logs on both sides and applies the power law."
+            },
+            {
+              "code": "A1",
+              "type": "A",
+              "value": 1,
+              "criterion": "Any correct exact expression for x, such as $\\log_7 3 - \\log_7 49$, $\\log_7 3 - 2$, $\\frac{\\log 3}{\\log 7} - 2$ etc."
+            },
+            {
+              "code": "A1",
+              "type": "A",
+              "value": 1,
+              "criterion": "$\\log_7 \\frac{3}{49}$ Correct answer only."
+            }
+          ],
+          "guidance": "Note this appears as MMA on ePEN but is being marked MAA. M1: (condone invisible brackets). Allow any base for the logarithm. A1: Allow with any base for the logarithm."
+        },
+        {
+          "label": "(ii)",
+          "marks": 5,
+          "answer": "$y = \\frac{1}{2}$",
+          "markAllocation": [
+            {
+              "code": "M1",
+              "type": "M",
+              "value": 1,
+              "criterion": "Correctly applies the addition or subtraction law of logs at least once to combine two terms or correctly replaces 1 with $\\log_2 2$ (oe)."
+            },
+            {
+              "code": "dM1",
+              "type": "M",
+              "value": 1,
+              "criterion": "Attempts to rearrange the equation to the form $\\log_2 (...) = C$ or $\\log_2 (...) = \\log_2 (...)$ with no incorrect log work and removes the logs correctly."
+            },
+            {
+              "code": "A1",
+              "type": "A",
+              "value": 1,
+              "criterion": "$2y^2 + 9y - 5 = 0$ oe 3TQ"
+            },
+            {
+              "code": "ddM1",
+              "type": "M",
+              "value": 1,
+              "criterion": "Attempts to solve their quadratic. Usual rules apply. It is dependent on them achieving a 3TQ and both previous method marks."
+            },
+            {
+              "code": "A1",
+              "type": "A",
+              "value": 1,
+              "criterion": "$y = \\frac{1}{2}$ only (accept decimal equivalent)."
+            }
+          ],
+          "guidance": "M1: (may be on incorrect terms). dM1: (There may be slips when rearranging terms but all log work should be correct.) It is dependent on the previous method mark. May see $\\log_2 (2(y+4)) = \\log_2 (y^2-5y) \\Rightarrow 2(y+4) = y^2-5y$ (may be implied by a correct equation). A1: (The −5 must have been rejected if seen.) SC Allow M1dM0A0 SC M1A1 (if the A is appropriate) for the solution $\\log_2 y + 1 + \\log_2 (y+4) = \\log_2 (5-y) \\rightarrow \\log_2 y + \\log_2 2 + \\log_2 (y+4) = \\log_2 (5-y) \\rightarrow \\log_2 (2y(y+4)) = \\log_2 (5-y) \\rightarrow 2y^2+8y = 5-y \\rightarrow 2y^2+9y-5=0$ etc, allowing the recovery from the incorrect division of logs as a log for the last two marks."
+        }
+      ]
+    },
+    {
+      "qnum": 4,
+      "marks": 8,
+      "parts": [
+        {
+          "label": "(a)",
+          "marks": 4,
+          "answer": "$64 + 192px + 240p^2x^2$",
+          "markAllocation": [
+            {
+              "code": "M1",
+              "type": "M",
+              "value": 1,
+              "criterion": "Attempts to expand using the binomial theorem in an attempt to find term 2 and term 3."
+            },
+            {
+              "code": "B1",
+              "type": "B",
+              "value": 1,
+              "criterion": "Sight of $2^6$ or 64 as the first term or extracted from the bracket."
+            },
+            {
+              "code": "A1",
+              "type": "A",
+              "value": 1,
+              "criterion": "$192px + 240p^2x^2$ having gained the M."
+            },
+            {
+              "code": "A1",
+              "type": "A",
+              "value": 1,
+              "criterion": "$64 + 192px + 240p^2x^2$ correct x and $x^2$ terms."
+            }
+          ],
+          "guidance": "M1: Look for correct binomial coefficients linked with correct powers of x, condoning invisible brackets and the p not being squared on the third term. Allow slips on powers of 2, or if $2^6$ has been taken out. The binomial coefficient must have been evaluated but need not be simplified and at least one must be correct. Terms may be found separately. A1: Allow also for $2^6(1 + 3px + 15p^2x^2/4)$ and accept with $(px)^2$. A1: May be as part of a list. Accept with $(px)^2$. ISW after a correct solution if they go on to try and divide through."
+        },
+        {
+          "label": "(b)",
+          "marks": 4,
+          "answer": "$p = \\frac{1}{8}, \\frac{1}{120}$",
+          "markAllocation": [
+            {
+              "code": "M1",
+              "type": "M",
+              "value": 1,
+              "criterion": "Identifies the two $x^2$ terms either separately or may be seen as part of a full expansion."
+            },
+            {
+              "code": "dM1",
+              "type": "M",
+              "value": 1,
+              "criterion": "A complete method to find the term in $x^2$ and set the coefficient equal to $-\\frac{3}{4}$ to obtain an equation in p."
+            },
+            {
+              "code": "ddM1",
+              "type": "M",
+              "value": 1,
+              "criterion": "Attempts to solve a 3TQ in p. Usual rules apply for solving a quadratic but it is dependent on the previous two method marks."
+            },
+            {
+              "code": "A1",
+              "type": "A",
+              "value": 1,
+              "criterion": "$p = \\frac{1}{8}, \\frac{1}{120}$"
+            }
+          ],
+          "guidance": "M1: Look for two $x^2$ terms in their expansion. There may be slips in the coefficients but they should be coming from the correct combination of terms in the brackets. dM1: The correct two terms in $x^2$ for their expansion in (a) must have been identified. It is dependent on the previous method mark. A1: Accept decimal equivalents, 0.125 and awrt 0.00833."
+        }
+      ]
+    },
+    {
+      "qnum": 5,
+      "marks": 4,
+      "parts": [
+        {
+          "label": "(i)",
+          "marks": 3,
+          "answer": "Proof that $3x + \\frac{1}{x} \\ge 2\\sqrt{3}$",
+          "markAllocation": [
+            {
+              "code": "M1",
+              "type": "M",
+              "value": 1,
+              "criterion": "Uses that ($x \\ge 0$ and) squares are non-negative to set up a suitable equation."
+            },
+            {
+              "code": "M1",
+              "type": "M",
+              "value": 1,
+              "criterion": "Squares to achieve 3 terms."
+            },
+            {
+              "code": "A1*",
+              "type": "A",
+              "value": 1,
+              "criterion": "Rearranges correctly to the given result."
+            }
+          ],
+          "guidance": "M1: (As $x \\ge 0$ so $\\sqrt{3x}$ exists and) $(\\sqrt{3x} - \\frac{1}{\\sqrt{x}})^2 \\ge 0$. Alt 1: (Backwards proof) M1: Starting with the given statement, attempts to square both sides, expand $( \\sqrt{3}x + \\frac{1}{\\sqrt{x}} )^2$ (three terms required) and collect terms on one side of the inequality. M1: Attempts to complete the square/factorise the expression to achieve a perfect square or (following error) $(..x \\pm ..)^2 + ..$ (inequality not needed here). Alternatively, uses other valid method (such as discriminant is zero) to show the resulting expression is non-negative. Finding a single solution alone is not sufficient, there must be a reason why the expression is never negative. (E.g. for $9x^2 - 6x + 1 = 0$ discriminant is $(-6)^2 - 4 \\times 9 \\times 1 = 0$, so single root hence as positive quadratic, $9x^2 - 6x + 1 \\ge 0$). A1*: Achieves $( \\sqrt{3}x - 1 )^2 \\ge 0$ and a statement such as since this latter equation is true (as squares are never negative) hence $3x + \\frac{1}{x} \\ge 2\\sqrt{3}$. Alternatively, they may achieve an inequality such as $( \\sqrt{3}x - 1 )^2 \\ge 0$ and conclude in a similar way. Note that the proof should really have two way implications at each stage, but allow full credit for proofs that do not show this. Alt 2: (Contradiction type proof) M1: Starts with the negation of the statement and gathers terms on ones side of the equation. M1: Attempts to factorise (oe method) the resulting expression to achieve a perfect square. A1*: Achieves $( \\sqrt{3}x - 1 )^2 < 0$ or alternative suitable expression and concludes as this is false the starting assumption was false, hence the original statement is true. NB They may substitute for $y = \\sqrt{x}$ or similar, which is fine and can score full marks if correctly reasoned. NB: there are variations between the methods, but in general look for setting up a correct equation/gathering and identifying the underlying quadratic for the first M, attempting to factorise to a perfect square/complete the square to a non-negative expression or expand a perfect square (as appropriate) for the second M, and with all steps correct and suitable conclusion for the final A. Simply rearranging the equation alone is not sufficient for the first M."
+        },
+        {
+          "label": "(ii)",
+          "marks": 1,
+          "answer": "Eg $5 + 7 + 11 = 23$ which is not divisible by 5 (so not true)",
+          "markAllocation": [
+            {
+              "code": "B1",
+              "type": "B",
+              "value": 1,
+              "criterion": "Provides a correct counter example and gives a conclusion."
+            }
+          ],
+          "guidance": "B1: Must see the sum evaluated correctly. The conclusion may be minimal e.g. “hence shown”, “not divisible by 5” etc. The conclusion should come from a correct example, so if they conclude from an incorrect example, it will be B0. But if they have multiple examples, at least one of which is a correct one, and a generic conclusion, B1. NB 1+2+3 is not a valid counter example as 1 is not prime."
+        }
+      ]
+    },
+    {
+      "qnum": 6,
+      "marks": 8,
+      "parts": [
+        {
+          "label": "(a)",
+          "marks": 4,
+          "answer": "$3\\sin^3\\theta + 10\\sin^2\\theta - 8\\sin\\theta = 0$",
+          "markAllocation": [
+            {
+              "code": "M1",
+              "type": "M",
+              "value": 1,
+              "criterion": "Attempts to use $\\tan\\theta = \\frac{\\sin\\theta}{\\cos\\theta}$ in the given equation."
+            },
+            {
+              "code": "M1",
+              "type": "M",
+              "value": 1,
+              "criterion": "Attempts to multiply both sides by both of their denominators."
+            },
+            {
+              "code": "M1",
+              "type": "M",
+              "value": 1,
+              "criterion": "Uses the identity $\\cos^2\\theta = 1 - \\sin^2\\theta$ to form an equation in $\\sin\\theta$ only."
+            },
+            {
+              "code": "A1*",
+              "type": "A",
+              "value": 1,
+              "criterion": "Achieves the given answer with no errors including brackets, and no consistent incorrect notation."
+            }
+          ],
+          "guidance": "M1: $5\\sin\\theta = 5\\tan\\theta \\cos\\theta$ is M0 unless the correct identity is first stated in which case allow for the attempt to use it. M1: Condone invisible brackets for the method, but penalise in the A mark. A1*: (allow if just one instance occurs). Examples of incorrect notation are $\\sin\\theta^2$ or use of just sin."
+        },
+        {
+          "label": "(b)",
+          "marks": 4,
+          "answer": "$x = 0$, awrt 0.365",
+          "markAllocation": [
+            {
+              "code": "M1",
+              "type": "M",
+              "value": 1,
+              "criterion": "Attempts to solve the cubic by taking out a factor of $\\sin 2x$ or cancelling and attempts to solve the quadratic."
+            },
+            {
+              "code": "A1",
+              "type": "A",
+              "value": 1,
+              "criterion": "$\\sin 2x = \\frac{2}{3}$"
+            },
+            {
+              "code": "A1",
+              "type": "A",
+              "value": 1,
+              "criterion": "$x = \\text{(awrt 0.365)}$ and no additional solutions in the range other than 0."
+            },
+            {
+              "code": "B1",
+              "type": "B",
+              "value": 1,
+              "criterion": "$x = 0$ identified as an answer."
+            }
+          ],
+          "guidance": "Note the question says “hence” so there must be an attempt to use the given, or their, answer from part (a) to score the M. M1: Usual rules for solving a quadratic. Allow with 2x or with $\\theta$ (or indeed with x or another variable), and allow with $y = \\sin 2x$ (oe) used. May be implied by sight of correct value(s) for their cubic/quadratic equation. A1: or allow for $\\sin\\theta = \\frac{2}{3}$, or even $y = \\frac{2}{3}$ if y has been identified as $\\sin 2x$. (However, do not accept $x = \\frac{2}{3}$ unless recovered.) Ignore any other solutions (whether incorrect or not). A1: (isw after a correct value). Must have gained the M mark. (Degrees answer is A0). B1: Must be x. May be scored with no working seen. Condone 0° and 0.000."
+        }
+      ]
+    },
+    {
+      "qnum": 7,
+      "marks": 6,
+      "parts": [
+        {
+          "label": "(a)",
+          "marks": 2,
+          "answer": "$P(10) = 1.2$, $P(11.5) = 2.821$",
+          "markAllocation": [
+            {
+              "code": "B1",
+              "type": "B",
+              "value": 1,
+              "criterion": "1.2 or $\\frac{6}{5}$."
+            },
+            {
+              "code": "B1",
+              "type": "B",
+              "value": 1,
+              "criterion": "awrt 2.821"
+            }
+          ],
+          "guidance": "B1: Allow 1.200. May be seen in the table or in their working for part (b). B1: May be seen in the table or in their working for part (b)."
+        },
+        {
+          "label": "(b)",
+          "marks": 4,
+          "answer": "$E \\approx 4.61$ (kWh)",
+          "markAllocation": [
+            {
+              "code": "B1",
+              "type": "B",
+              "value": 1,
+              "criterion": "$h = 0.5$ (seen or implied)"
+            },
+            {
+              "code": "M1",
+              "type": "M",
+              "value": 1,
+              "criterion": "Scored for the correct $[...]$ bracket structure."
+            },
+            {
+              "code": "A1ft",
+              "type": "A",
+              "value": 1,
+              "criterion": "For the correct bracket $[...]$ following through their values in (a)."
+            },
+            {
+              "code": "A1",
+              "type": "A",
+              "value": 1,
+              "criterion": "cao 4.61"
+            }
+          ],
+          "guidance": "M1: It needs to contain their first P value plus the last P value and the inner bracket must be multiplied by 2 and be the summation of the remaining P values in the table with no additional values. If the only mistake is a copying error or is to omit one value from the inner bracket this may be regarded as a slip and the M mark can be allowed. (An extra repeated term forfeits the M mark however). M0 if values used in brackets are t values instead of P values. Allow recovery of invisible brackets but M0 if never recovered. A1: Must be to 2 d.p. (note using integration the answer is 4.643439737)"
+        }
+      ]
+    },
+    {
+      "qnum": 8,
+      "marks": 7,
+      "parts": [
+        {
+          "label": "(a)",
+          "marks": 1,
+          "answer": "$a_2 = p^2 - 7$",
+          "markAllocation": [
+            {
+              "code": "B1",
+              "type": "B",
+              "value": 1,
+              "criterion": "$a_2 = p^2 - 7$"
+            }
+          ],
+          "guidance": ""
+        },
+        {
+          "label": "(b)",
+          "marks": 6,
+          "answer": "$a_2 = -7, \\frac{1}{2}$",
+          "markAllocation": [
+            {
+              "code": "M1",
+              "type": "M",
+              "value": 1,
+              "criterion": "An attempt to find $a_3$ by substituting their $a_2$ into the formula."
+            },
+            {
+              "code": "M1",
+              "type": "M",
+              "value": 1,
+              "criterion": "Attempts to add their first 3 terms and equate to $p + 15$."
+            },
+            {
+              "code": "A1",
+              "type": "A",
+              "value": 1,
+              "criterion": "$4p^4 - 8p^2 - 30 = 0$ oe with terms gathered according to power."
+            },
+            {
+              "code": "A1",
+              "type": "A",
+              "value": 1,
+              "criterion": "Correct values of $p^2 = \\frac{15}{4}, 0$ (may be implied by $p = \\pm \\sqrt{\\frac{15}{4}}$ and 0)."
+            },
+            {
+              "code": "dM1",
+              "type": "M",
+              "value": 1,
+              "criterion": "Attempts to find at least one value for $a_2$ using a value for p which has come from an attempt at solving their equation. Must be using their formula from part (a)."
+            },
+            {
+              "code": "A1cso",
+              "type": "A",
+              "value": 1,
+              "criterion": "Identifies both $-7$ and $\\frac{1}{2}$ as the possible values for $a_2$ and no others."
+            }
+          ],
+          "guidance": "M1: Look for $( )^2 - 2(...) - 7$ where … is a recognisable attempt at their $a_2 + 3$ (M0 if the −7 is missing). M1: It is not dependent, and the attempts at the three terms may be poor, as long as they are attempting to add three terms. A1: (need not be all on one side). A1: Accept equivalent fractions or decimal answer for $\\frac{15}{4}$, or awrt 1.94 for p. May be called by another letter, or even allow if $p^2$ is mistaken as p. dM1: Depends on the second M mark. Note that if they have $a_2 = p^2 - 7$ by error in (a) they can score M1M1A0A1dM1A0cso in (b). Alt M1: Attempts sum of first three terms with $a_3$ in terms of $a_2$ and sets equal to p + 15. M1: Cancels p’s to reach an equation in just $a_2$. A1: Correct unsimplified equation in $a_2$. A1: Correct simplified quadratic in $a_2$. dM1: Solves the quadratic in $a_2$. A1cso Correct values for $a_2$."
+        }
+      ]
+    },
+    {
+      "qnum": 9,
+      "marks": 10,
+      "parts": [
+        {
+          "label": "(a)",
+          "marks": 2,
+          "subparts": [
+            {
+              "label": "(i)",
+              "marks": 1,
+              "answer": "$(k, 2k)$",
+              "markAllocation": [
+                {
+                  "code": "B1",
+                  "type": "B",
+                  "value": 1,
+                  "criterion": "$(k, 2k)$"
+                }
+              ],
+              "guidance": ""
+            },
+            {
+              "label": "(ii)",
+              "marks": 1,
+              "answer": "$k + 7$",
+              "markAllocation": [
+                {
+                  "code": "B1",
+                  "type": "B",
+                  "value": 1,
+                  "criterion": "$k + 7$"
+                }
+              ],
+              "guidance": "isw after correct answer seen."
+            }
+          ]
+        },
+        {
+          "label": "(b)",
+          "marks": 3,
+          "subparts": [
+            {
+              "label": "(i)",
+              "marks": 2,
+              "answer": "$5k^2 - 17k + 6 = 0$",
+              "markAllocation": [
+                {
+                  "code": "M1",
+                  "type": "M",
+                  "value": 1,
+                  "criterion": "Substitutes (2,3) into the equation of the circle and attempts to multiply out."
+                },
+                {
+                  "code": "A1*",
+                  "type": "A",
+                  "value": 1,
+                  "criterion": "Proceeds to $5k^2 - 17k + 6 = 0$ with no errors."
+                }
+              ],
+              "guidance": ""
+            },
+            {
+              "label": "(ii)",
+              "marks": 1,
+              "answer": "$k = \\frac{2}{5}, 3$",
+              "markAllocation": [
+                {
+                  "code": "B1",
+                  "type": "B",
+                  "value": 1,
+                  "criterion": "$k = \\frac{2}{5}, 3$ only."
+                }
+              ],
+              "guidance": "Do not isw if they go on to go to give a range of values for k."
+            }
+          ]
+        },
+        {
+          "label": "(c)",
+          "marks": 5,
+          "answer": "$\\frac{147}{16}$ oe",
+          "markAllocation": [
+            {
+              "code": "B1ft",
+              "type": "B",
+              "value": 1,
+              "criterion": "Uses the correct value for k and finds the centre of the circle."
+            },
+            {
+              "code": "M1",
+              "type": "M",
+              "value": 1,
+              "criterion": "Attempts the gradient of the tangent. Look for an attempt at $\\pm$(change in x / change in y) using their centre and P."
+            },
+            {
+              "code": "M1",
+              "type": "M",
+              "value": 1,
+              "criterion": "Attempts to find the point T by finding the equation of the tangent at P using their gradient and (2,3), setting $y = 0$ and proceed to find a value for x or equivalent processing."
+            },
+            {
+              "code": "dM1",
+              "type": "M",
+              "value": 1,
+              "criterion": "Correct method to find the area of the triangle. It is dependent on the previous method mark."
+            },
+            {
+              "code": "A1",
+              "type": "A",
+              "value": 1,
+              "criterion": "$\\frac{147}{16}$ oe"
+            }
+          ],
+          "guidance": "NB The method marks may be scored with any k. If a candidate has solved incorrectly and has both values less than 2, they can score for use of either (best attempt) in solving the problem. (If neither value is less than 2 allow the methods for any value of k used.) B1ft: Follow through their $(k, 2k)$ with $k = \\frac{2}{5}$. Accept decimal equivalents. Must be clearly identified or used as the centre, not just k substituted into the original equation. M1: May find the gradient from centre to P first and then apply the (negative) reciprocal. M1: The gradient need not be correct but must be from an attempt with their centre and P. Alternatively, the tangent may be used to find angle PTO and attempt the length XT where X is (2,0). (Note they do not need to find T in this method.) dM1: There may be attempts at finding the lengths of each side, the cosine rule to find an angle, and the area formula $\\frac{1}{2}ab\\sin C$. It must be a complete method with valid attempts to find the appropriate lengths. A1: (decimal is 9.1875 and must be exact). SC for the dM1 O is not defined in the question and some may use O as the centre of the circle. These still need to attempt the first three marks as in the scheme. Also allow the final M mark for a correct attempt at the area OPT with O as the centre of the circle but must be a complete method. Mostly likely finding the lengths $TP = \\frac{3\\sqrt{185}}{8}$ and $r = k+7$ (oe) and using $\\frac{1}{2}rTP$."
+        }
+      ]
+    },
+    {
+      "qnum": 10,
+      "marks": 11,
+      "parts": [
+        {
+          "label": "(a)",
+          "marks": 3,
+          "answer": "23 (km)",
+          "markAllocation": [
+            {
+              "code": "M1",
+              "type": "M",
+              "value": 1,
+              "criterion": "Attempts to find the common difference. Allow for $d = \\frac{37-15}{k}$ where k = 11 or 12. Must be using 37 and 15."
+            },
+            {
+              "code": "M1",
+              "type": "M",
+              "value": 1,
+              "criterion": "Use their common difference to find the distance run on Sunday of week 5."
+            },
+            {
+              "code": "A1",
+              "type": "A",
+              "value": 1,
+              "criterion": "23 (km)"
+            }
+          ],
+          "guidance": "M1: They may work out the first 5 terms, in which case look for there being 5 terms."
+        },
+        {
+          "label": "(b)",
+          "marks": 3,
+          "answer": "awrt 20.8 (km)",
+          "markAllocation": [
+            {
+              "code": "M1",
+              "type": "M",
+              "value": 1,
+              "criterion": "A correct method to find r award for $r^{11} = \\frac{37}{15}$ oe and proceeding to find a value for r."
+            },
+            {
+              "code": "M1",
+              "type": "M",
+              "value": 1,
+              "criterion": "Uses their value of r to find the distance run on Sunday of week 5."
+            },
+            {
+              "code": "A1",
+              "type": "A",
+              "value": 1,
+              "criterion": "awrt 20.8 (km)"
+            }
+          ],
+          "guidance": "M1: May be implied by awrt 1.09. Allow if $r^{11} = \\frac{37}{15}$ is followed by stating awrt 8.6% increase if no value is given for r. M1: They may work out the first 5 terms, in which case look for there being 5 terms."
+        },
+        {
+          "label": "(c)",
+          "marks": 5,
+          "answer": "Training model A: x = 4 km, Training model B: x = 5 km",
+          "markAllocation": [
+            {
+              "code": "M1",
+              "type": "M",
+              "value": 1,
+              "criterion": "Attempts to find the total distance run on Sundays over the 12 weeks using training model A with $n = 12$ and either $a = 15$ and their d or a = 15 and l = 37."
+            },
+            {
+              "code": "M1",
+              "type": "M",
+              "value": 1,
+              "criterion": "Attempts to find the total distance run on Sundays over the 12 weeks using training model B with $a = 15$ and their r."
+            },
+            {
+              "code": "dM1",
+              "type": "M",
+              "value": 1,
+              "criterion": "Attempts to find the weekly amount run on a Wednesday for either model A or model B. Look for $\\frac{360 - \\text{their total}}{12}$."
+            },
+            {
+              "code": "A1",
+              "type": "A",
+              "value": 1,
+              "criterion": "For identifying either 4 for model A or 5 for model B as the critical values."
+            },
+            {
+              "code": "A1cso",
+              "type": "A",
+              "value": 1,
+              "criterion": "Training model A x = 4 km and training model B x = 5 km"
+            }
+          ],
+          "guidance": "M1: The formula must be correct with the values substituted in the correct places. Listing and adding requires all 12 terms. M1: The formula must be correct with the values substituted in the correct places., or listing and adding requires all 12 terms. dM1: They may set up an inequality in x such as $\\text{their total} + 12x \\le 360$ and attempt to solve, which is equivalent working. Allow with $=,<$ instead of $\\le$ or with inequalities in the wrong direction. It is dependent on having scored the previous method mark appropriate for their attempt. A1: May be part of an inequality such as $x \\le 4$ for model A or $x \\le 5.4...$ for model B etc. (Note that use of r = 1.09 will give 4.8… instead of 5.4… and will not be eligible for the A mark if model A is also incorrect.) Allow with $=,<$ instead of $\\le$ or with inequalities in the wrong direction. A1cso: (It must be clear the correct values are linked to the correct models, but they need not be labelled “model A” and “model B”)"
+        }
+      ]
+    }
+  ]
+}

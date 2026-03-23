@@ -1,0 +1,756 @@
+{
+  "v": "1.0",
+  "paper": "2024May-WMA12-01",
+  "board": "edx",
+  "code": "WMA12",
+  "year": 2024,
+  "session": "May",
+  "paperNum": "01",
+  "totalMarks": 75,
+  "questions": [
+    {
+      "qnum": 1,
+      "marks": 5,
+      "parts": [
+        {
+          "label": "(a)",
+          "marks": 3,
+          "answer": "$1 - \\frac{3}{2}x + \\frac{7}{18}x^2 - \\frac{7}{54}x^3$",
+          "markAllocation": [
+            {
+              "code": "M1",
+              "type": "M",
+              "value": 1,
+              "criterion": "For an attempt at the binomial expansion. Score for a correct attempt at any of term 2, 3 or 4. Accept sight of $^9C_1 (\\pm \\frac{1}{6}x)$ or $^9C_2 (\\pm \\frac{1}{6}x)^2$ or $^9C_3 (\\pm \\frac{1}{6}x)^3$ condoning the omission of brackets. Coefficients may appear from Pascal's triangle but should be correct for the term."
+            },
+            {
+              "code": "A1",
+              "type": "A",
+              "value": 1,
+              "criterion": "For any two simplified terms of $-\\frac{3}{2}x + \\frac{7}{18}x^2 - \\frac{7}{54}x^3$"
+            },
+            {
+              "code": "A1",
+              "type": "A",
+              "value": 1,
+              "criterion": "For $1 - \\frac{3}{2}x + \\frac{7}{18}x^2 - \\frac{7}{54}x^3$ ignoring terms with greater powers. Allow as a list, allow $3/2 x + - $ etc but the fractions must be simplified. Accept $1x^2$. If given as decimals they must be exact (recurring if appropriate)."
+            }
+          ],
+          "guidance": "ISW following a correct expression (e.g. if multiply through by 2)."
+        },
+        {
+          "label": "(b)",
+          "marks": 2,
+          "answer": "$\\frac{53}{6}$",
+          "markAllocation": [
+            {
+              "code": "M1",
+              "type": "M",
+              "value": 1,
+              "criterion": "For attempting to find $10 \\times (\\text{coefficient of } x^3 \\text{ from (a)}) + 3 \\times (\\text{coefficient of } x^2 \\text{ from (a)})$ combined to a single term for their $(10+3x)(1+ax+bx^2+cx^3+...)$"
+            },
+            {
+              "code": "A1",
+              "type": "A",
+              "value": 1,
+              "criterion": "cao for $\\frac{53}{6}$"
+            }
+          ],
+          "guidance": "Condone $\\frac{53}{6}x^3$ and isw. Accept embedded in an expansion with other terms as long as simplified to correct single $x^3$ term. If given as a decimal must be exact recurring."
+        }
+      ]
+    },
+    {
+      "qnum": 2,
+      "marks": 7,
+      "parts": [
+        {
+          "label": "(a)",
+          "marks": 4,
+          "answer": "$a = -98, d = 20$",
+          "markAllocation": [
+            {
+              "code": "B1",
+              "type": "B",
+              "value": 1,
+              "criterion": "One of $a+5d=2$ or $\\frac{10}{2}\\{2a+9d\\}=-80$"
+            },
+            {
+              "code": "B1",
+              "type": "B",
+              "value": 1,
+              "criterion": "Both equations correct. May be un-simplified (isw after correct equations seen)."
+            },
+            {
+              "code": "M1",
+              "type": "M",
+              "value": 1,
+              "criterion": "Solves their two equations in $a$ and $d$ (one of which must be correct) and finds at least $a$ or $d$. There may be slips, but score for any attempt that reaches a value provided at least one equation was correct and both attempted. Implied by correct answers following correct equations stated."
+            },
+            {
+              "code": "A1",
+              "type": "A",
+              "value": 1,
+              "criterion": "For $a=-98, d=20$"
+            }
+          ],
+          "guidance": "Alt: B1: Correct formula in d only using 6th and 10th term $(10-6)d + (2a+4d) = -80$. B1: $d=20$. M1: Attempts to find $a$ using $a+5d=2$. A1: Correct $a$."
+        },
+        {
+          "label": "(b)",
+          "marks": 3,
+          "answer": "$n=35$",
+          "markAllocation": [
+            {
+              "code": "M1",
+              "type": "M",
+              "value": 1,
+              "criterion": "Attempts to use $\\frac{n}{2}\\{2(-98)+(n-1)20\\} \\ldots 8000$ with their $a$ and $d$. Accept if set equal to 8001. NB If 800 or 80000 is used, allow the M (misread)."
+            },
+            {
+              "code": "dM1",
+              "type": "M",
+              "value": 1,
+              "criterion": "Sets up and solves a 3 term quadratic equation in $n$. Accept if just the positive root is given, but at least one positive root must be obtained. Allow use of calculator /formulae (may need to check values if no method shown). May be implied by a rounded or truncated positive integer value following a suitable equation having been set up. FYI the correct equation is $5n^2 - 54n - 4000 = 0$."
+            },
+            {
+              "code": "A1",
+              "type": "A",
+              "value": 1,
+              "criterion": "$n=35$ stated following a correct equation formed (allowing for incorrect inequality)."
+            }
+          ],
+          "guidance": "Note: allow all marks in (b) with any equality or inequality used throughout. Alt by trial and improvement: M1: Attempts to use $\\frac{n}{2}\\{2(-98)+(n-1)20\\}$ with their $a$ and $d$ and integer values of $n$ either side of the sum being 8000. dM1: Two consecutive values for $n$ giving results either side of 8000 attempted. A1: $n=35$ stated following correct working with both $n=34$ and $n=35$ having been seen."
+        }
+      ]
+    },
+    {
+      "qnum": 3,
+      "marks": 6,
+      "parts": [
+        {
+          "label": "(i)",
+          "marks": 5,
+          "answer": "$x = -6$",
+          "markAllocation": [
+            {
+              "code": "B1",
+              "type": "B",
+              "value": 1,
+              "criterion": "One correct log law seen or used in relation to the equation e.g. $2\\log_2 ... \\to \\log_2 (...)^2$ or $\\log_2 4 \\to \\log_2 16$ (which may appear as $\\log_2 2^2$ or $2\\log_2 2$). May be seen anywhere and allow if on incorrect terms."
+            },
+            {
+              "code": "M1",
+              "type": "M",
+              "value": 1,
+              "criterion": "Correct attempt to combine two of the original terms, condoning a slip with the 16. E.g. $\\log_2(x-2)^2 + \\log_2 4 = \\log_2 4(x-2)^2$ or $\\log_2(x+10) + \\log_2 16 = \\log_2 16(x+10)$. Do not allow if e.g. they incorrectly divide by 2 first and attempt to combine $\\log_2(x-2) - \\log_2(x+10)$."
+            },
+            {
+              "code": "A1",
+              "type": "A",
+              "value": 1,
+              "criterion": "Correct equation (not involving logs) from fully correct log work E.g. $4(x-2)^2 = x+10$."
+            },
+            {
+              "code": "M1",
+              "type": "M",
+              "value": 1,
+              "criterion": "Correct attempt to solve a 3TQ in $x$ achieving a real root (may be by calculator). B1 must have been scored but not all log work need be correct."
+            },
+            {
+              "code": "A1",
+              "type": "A",
+              "value": 1,
+              "criterion": "$x=-6$ only following the award of all previous marks (all log work must have been correct). The $x=26$ solution must be rejected if seen."
+            }
+          ],
+          "guidance": "SC: Allow max B1M0A0M1A0 for e.g. $\\log_2(2x-4) + \\log_2 4 = \\log_2(x+10) \\to (2x-4) \\times 4 = x+10$ etc. Allow the SC if no combination of logs is shown at all, but the correct quadratic if produced."
+        },
+        {
+          "label": "(ii)",
+          "marks": 1,
+          "answer": "$12$",
+          "markAllocation": [
+            {
+              "code": "B1",
+              "type": "B",
+              "value": 1,
+              "criterion": "12 clearly identified as the answer. Condone $a=12$ as long as 12 is clearly the answer being offered."
+            }
+          ],
+          "guidance": ""
+        }
+      ]
+    },
+    {
+      "qnum": 4,
+      "marks": 8,
+      "parts": [
+        {
+          "label": "(a)",
+          "marks": 1,
+          "answer": "$21$",
+          "markAllocation": [
+            {
+              "code": "B1",
+              "type": "B",
+              "value": 1,
+              "criterion": "States 21"
+            }
+          ],
+          "guidance": ""
+        },
+        {
+          "label": "(b)",
+          "marks": 2,
+          "answer": "$k=11$",
+          "markAllocation": [
+            {
+              "code": "M1",
+              "type": "M",
+              "value": 1,
+              "criterion": "Sets $f(\\pm \\frac{1}{2}) = 0 \\to$ equation in $k$. The \"$= 0$\" may be implied. If division is used look for setting the remainder after dividing by $(2x - 1)$ equal to zero to form an equation in $k$."
+            },
+            {
+              "code": "A1",
+              "type": "A",
+              "value": 1,
+              "criterion": "Solves a correct equation in $k$ showing at least one correct intermediate line (the \"$= 0$\" may be implied but must have been a correct equation preceding the answer). Condone missing brackets if clearly recovered. May see $k=11$ embedded so $(3(11)+21)/21 = 0$ is acceptable."
+            }
+          ],
+          "guidance": "If division is attempted in (b), mark (b) and (c) as a whole."
+        },
+        {
+          "label": "(c)",
+          "marks": 5,
+          "subparts": [
+            {
+              "label": "(i)",
+              "marks": 3,
+              "answer": "$(2x-1)(x^2+x+1)$",
+              "markAllocation": [
+                {
+                  "code": "M1",
+                  "type": "M",
+                  "value": 1,
+                  "criterion": "Attempts to multiply out $(2x-1)(x^2+5x+11x+21)$ to achieve a cubic. If an incorrect value for $k$ is used, allow two M’s for equivalent work."
+                },
+                {
+                  "code": "dM1",
+                  "type": "M",
+                  "value": 1,
+                  "criterion": "Attempts to divide by or factor out $(2x-1)$ or $(x-\\frac{1}{2})$ from their attempt at expanding $(2x-1)(x^2+5x+11x+21)$. Long division – look for the $x^2$ + extra terms and first subtraction. Inspection/comparing coefficients – look for correct magnitudes for first and last term in the brackets. $(2x-1)(x^2 \\pm ... \\pm 1)$"
+                },
+                {
+                  "code": "A1",
+                  "type": "A",
+                  "value": 1,
+                  "criterion": "$(2x-1)(x^2+x+1)$ from correct work. Must be brought together in one expression. Accept $\\frac{1}{2}(2x-1)(2x^2+2x+2)$ but not $(2x-1)(2x^2+2x+2)$. Condone if set equal to zero. Award A0 if they subsequently incorrectly further factorise the quadratic term."
+                }
+              ],
+              "guidance": ""
+            },
+            {
+              "label": "(ii)",
+              "marks": 2,
+              "answer": "f(x) has 1 root (at $x = \\frac{1}{2}$)",
+              "markAllocation": [
+                {
+                  "code": "M1",
+                  "type": "M",
+                  "value": 1,
+                  "criterion": "Must have attempted to take the correct factor out of their cubic. Attempts to find the number of roots of their $(x^2+x+1)$ not of $2x^2+5x+11$. Allow for an attempt any of the following: an attempt at $b^2-4ac$, an attempt at the formula or completing the square, correct (imaginary) roots from a calculator (must be seen). Do not accept “no roots” (oe) seen with no evidence for why. Do not accept “Math Error” without an explanation of the error."
+                },
+                {
+                  "code": "A1",
+                  "type": "A",
+                  "value": 1,
+                  "criterion": "Requires all of the following (or equivalents): correct factorisation $(2x-1)(x^2+x+1)$ or correct separate factors; correct reason as to why $(x^2+x+1)=0$ hasn't any roots. E.g. $b^2-4ac = 1^2-4(1)(1) = -3 < 0$ hence no roots. There must be a (correct) calculation, reference to the sign of the discriminant and deduction/implication of no roots, or equivalent via other methods; concludes $f(x)=0$ has one solution. Ignore erroneous extra statements after a correct reason has been given."
+                }
+              ],
+              "guidance": "Some examples (following correct factorisation). Scores M1A1: $x^2+x+1 \\to \\Delta = 1-4 = -3 < 0$ no real solutions therefore $x=\\frac{1}{2}$ is only solution. $b^2-4ac = -3 < 0$ so no solutions to $x^2+x+1$ hence f(x) has only one real solution (2x -1). We ignore any reference to (2x-1) being the solution. Scores M1A0: (ii) one real solution as $x^2+x+1$ has $b^2-4ac = -3$ so no real solution. No reference to < 0. $b^2-4ac = 1^2-4(1)(1) = -3$ so there is only 1 real solution as $x^2+x+1 \\ne 0$ so the only real solution is (2x – 1) which is $x=\\frac{1}{2}$. Needs <0 to be stated. $x = \\frac{-1 \\pm \\sqrt{1-4}}{2}$ no solution, 2x – 1, $x=\\frac{1}{2}$ is the only real solution. Needs either complex roots stated (accepting $\\sqrt{-3}$ for $i\\sqrt{3}$) or sign of discriminant considered. If you see an alternative approach that you think deserves credit, send to review."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "qnum": 5,
+      "marks": 6,
+      "parts": [
+        {
+          "label": "(a)",
+          "marks": 4,
+          "answer": "Proof that $y>x$",
+          "markAllocation": [
+            {
+              "code": "M1",
+              "type": "M",
+              "value": 1,
+              "criterion": "Attempts $(x-y)^3 = x^3 \\pm Ax^2y \\pm Bxy^2 \\pm y^3$ but may be unsimplified. Condone at most one slip in an index as long as the middle terms have at least $xy$ in them."
+            },
+            {
+              "code": "A1",
+              "type": "A",
+              "value": 1,
+              "criterion": "Correct simplified inequality, cubed terms cancelled, other terms may not all be gathered. E.g. $-3x^2y + 3xy^2 > 0$ o.e. Terms need not be all on one side, e.g. $3xy^2 > 3x^2y$."
+            },
+            {
+              "code": "dM1",
+              "type": "M",
+              "value": 1,
+              "criterion": "Takes out a common factor of $kxy$ or divides by $kxy$. Must be clear division or stated as dividing, but dividing and rearranging to the given answer in one step from $-3x^2y + 3xy^2 > 0$ to $y > x$ is dM0 if method/intermediate step is not stated."
+            },
+            {
+              "code": "A1",
+              "type": "A",
+              "value": 1,
+              "criterion": "Requires correct working (no incorrect lines) before achieving $y>x$; reasoning given in the correct/appropriate place, o.e.g. as $x$ and $y$ are positive so $xy(y-x)>0 \\Rightarrow y-x>0$."
+            }
+          ],
+          "guidance": "Alt: M1: Attempts $(x-y)(x^2+axy+y^2)$ and $(x-y)(x^2+bxy+y^2)$ but may be unsimplified. A1: Both expressions correct $(x-y)(x^2-xy+y^2)$ and $(x-y)(x^2+xy+y^2)$. dM1: Takes to one side, takes out a common factor $(x-y)$ (dividing by this term is M0) and cancels square terms. A1*: Requires correct working (no incorrect lines) before achieving $y>x$; reasoning given in the correct/appropriate place, o.e.g. as $x$ and $y$ are positive so $xy(y-x)>0 \\Rightarrow y-x>0$."
+        },
+        {
+          "label": "(b)",
+          "marks": 2,
+          "answer": "Suitable counter example, e.g. $x=3, y=-1$",
+          "markAllocation": [
+            {
+              "code": "M1",
+              "type": "M",
+              "value": 1,
+              "criterion": "Chooses a suitable counter example. E.g. $x=3, y=-1$. Any positive $x$ and negative $y$ will work. Substitution is not needed for this mark. Note that if they choose $x$ and $y$ both positive it is M0."
+            },
+            {
+              "code": "A1",
+              "type": "A",
+              "value": 1,
+              "criterion": "Shows that the result is not true for their values. As a minimum accept substitution into both sides of the inequality."
+            }
+          ],
+          "guidance": ""
+        }
+      ]
+    },
+    {
+      "qnum": 6,
+      "marks": 9,
+      "parts": [
+        {
+          "label": "(a)",
+          "marks": 3,
+          "answer": "Graph of $y=2^x+4$",
+          "markAllocation": [
+            {
+              "code": "M1",
+              "type": "M",
+              "value": 1,
+              "criterion": "For either the correct shape, an increasing curve in any position in quadrants 1 and 2 or for the correct asymptote (labelled in some way at height 4) but must have a curve approaching as an asymptote, not just the line drawn. Be tolerant on “pen slips” approaching the asymptote."
+            },
+            {
+              "code": "B1",
+              "type": "B",
+              "value": 1,
+              "criterion": "Correct intercept (touching or crossing). Accept 5 on axis, or stated as (0,5). Condone (5,0) on the graph if it is in the right place."
+            },
+            {
+              "code": "A1",
+              "type": "A",
+              "value": 1,
+              "criterion": "Fully correct. Shape in quadrants 1 and 2 only with the y intercept at 5 and asymptote of $y=4$ clearly drawn on the graph and labelled or stated separately. Be tolerant on “pen slips” approaching the asymptote. If there is conflicting information, what is on the graph takes precedence."
+            }
+          ],
+          "guidance": ""
+        },
+        {
+          "label": "(b)",
+          "marks": 3,
+          "answer": "awrt 2.34",
+          "markAllocation": [
+            {
+              "code": "B1",
+              "type": "B",
+              "value": 1,
+              "criterion": "For $h=0.3$. This is implied by sight of $\\frac{0.3}{2}$ in front of the bracket."
+            },
+            {
+              "code": "M1",
+              "type": "M",
+              "value": 1,
+              "criterion": "Applies the trapezium rule with correct bracket condoning slips in copying (or even truncating) values. May use separate trapezia. Allow a missing final bracket, but otherwise bracketing must be correct or recovered by correct answer."
+            },
+            {
+              "code": "A1",
+              "type": "A",
+              "value": 1,
+              "criterion": "awrt 2.34. Note that the calculator answer for this integral is 2.30."
+            }
+          ],
+          "guidance": ""
+        },
+        {
+          "label": "(c)",
+          "marks": 3,
+          "subparts": [
+            {
+              "label": "(i)",
+              "marks": 2,
+              "answer": "awrt 18.84",
+              "markAllocation": [
+                {
+                  "code": "M1",
+                  "type": "M",
+                  "value": 1,
+                  "criterion": "For realising that $\\int_2^{3.5} (2^x+4) \\mathrm{d}x = \\int_2^{3.5} 2^x \\mathrm{d}x + \\int_2^{3.5} 4 \\mathrm{d}x$. The $4x$ should be seen with an attempt to integrate (increase in power) made (though may be implied). Could also use answer to (b) and add the area under the trapezium $\\frac{1}{2}(4+4)(3.5-2)$ - may be implied by correct answer after seeing the integral correctly split. Another alternative is to isolate the $\\int_2^{3.5} 2^x \\mathrm{d}x = \\text{''2.34''}$ and use this to find a value for the integral required."
+                },
+                {
+                  "code": "A1",
+                  "type": "A",
+                  "value": 1,
+                  "criterion": "''2.34'' + 16.5 = 18.84 but follow through on their 2.34 and allow awrt to 3s.f.. There must be a suitable method for this mark to be awarded. Answer via repeated trapezium rule scores M0A0."
+                }
+              ],
+              "guidance": ""
+            },
+            {
+              "label": "(ii)",
+              "marks": 1,
+              "answer": "awrt 4.68",
+              "markAllocation": [
+                {
+                  "code": "B1",
+                  "type": "B",
+                  "value": 1,
+                  "criterion": "For $2 \\times \\text{their ''2.34''} = 4.68$ ((awrt to 3s.f.) must be evaluated). Follow through on their answer to (b)."
+                }
+              ],
+              "guidance": "Note: Answer via repeated trapezium rule is permitted to score the B1 as long the answer is twice their (b)."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "qnum": 7,
+      "marks": 6,
+      "parts": [
+        {
+          "label": "(a)",
+          "marks": 3,
+          "answer": "Centre $(-4, 5)$, Radius $\\sqrt{70}$",
+          "markAllocation": [
+            {
+              "code": "M1",
+              "type": "M",
+              "value": 1,
+              "criterion": "Attempts to complete the square for both variables. Look for $(x \\pm 4)^2 + (y \\pm 5)^2 = ...$ or may be implied by $(\\pm 4, \\pm 5)$ by inspection from the equation."
+            },
+            {
+              "code": "A1",
+              "type": "A",
+              "value": 1,
+              "criterion": "Correct centre $(-4, 5)$"
+            },
+            {
+              "code": "A1",
+              "type": "A",
+              "value": 1,
+              "criterion": "Exact radius $\\sqrt{70}$ which may be scored following $(x \\pm 4)^2 + (y \\pm 5)^2 = 70$."
+            }
+          ],
+          "guidance": ""
+        },
+        {
+          "label": "(b)",
+          "marks": 3,
+          "answer": "Proof that circles do not intersect",
+          "markAllocation": [
+            {
+              "code": "M1",
+              "type": "M",
+              "value": 1,
+              "criterion": "Attempts distance (or distance$^2$) from $(\\text{''}-4, 5\\text{''})$ to $(\\text{''}-5, 8\\text{''})$ (condone sign errors)"
+            },
+            {
+              "code": "dM1",
+              "type": "M",
+              "value": 1,
+              "criterion": "Full method. E.g. compares their $\\sqrt{9^2+13^2}$ to their $(\\sqrt{70}+\\sqrt{52})$"
+            },
+            {
+              "code": "A1",
+              "type": "A",
+              "value": 1,
+              "criterion": "Requires correct calculation(s), correct reason and minimal conclusion. Must be evidence to support the inequality – e.g. decimal values – not just the inequality stated. May use the difference between sum of radii and distance between centres. States that distance between centres $\\sqrt{250} \\approx 15.81$; sum of radii = $\\sqrt{70}+\\sqrt{52} \\approx 15.58$. Concludes as sum of radii < distance between centres, result proven."
+            }
+          ],
+          "guidance": "Alt: M1: Attempts to solve $x^2+y^2+8x-10y+29=0$ and $x^2+y^2+10x-16y+37=0$ forming a linear equation (need not be simplified for this mark). FYI: Linear equation is $18x-26y+66=0$ o.e. if the calculations are correct. dM1: Attempts to solves their $18x-26y+66=0$ simultaneously with either circle equation reaching a 3 term quadratic for either $x$ or $y$. A1*: Requires correct equations; correct ''solution'' stating no roots and concluding no points of intersection and minimal conclusion. E.g. Substitute $x = \\frac{13y-33}{9}$ into $x^2+y^2+8x-10y+29=0$ gives $250y^2+984y+1116=0$ and $b^2-4ac = -308256 < 0$ so no solutions. FYI the equation in y (if correct) is $250y^2+984y+1116=0$."
+        }
+      ]
+    },
+    {
+      "qnum": 8,
+      "marks": 12,
+      "parts": [
+        {
+          "label": "(i)",
+          "marks": 5,
+          "answer": "$x \\approx 1.91$",
+          "markAllocation": [
+            {
+              "code": "B1",
+              "type": "B",
+              "value": 1,
+              "criterion": "States or uses $\\tan x = \\frac{\\sin x}{\\cos x}$. E.g. $\\frac{\\sin x}{\\cos x} \\times 5\\sin x + 13 = \\frac{5}{\\cos x}$."
+            },
+            {
+              "code": "M1",
+              "type": "M",
+              "value": 1,
+              "criterion": "Attempts to use $\\tan x = \\frac{\\sin x}{\\cos x}$, $\\sin^2 x + \\cos^2 x = 1$ and multiply by $\\cos x$ to form a quadratic equation in $\\cos x$ (allow if there are slips in coefficients but the trig terms must be correct)"
+            },
+            {
+              "code": "A1",
+              "type": "A",
+              "value": 1,
+              "criterion": "Correct simplified quadratic $6\\cos^2 x - 13\\cos x - 5 = 0$. The \"$=0$\" may be implied."
+            },
+            {
+              "code": "M1",
+              "type": "M",
+              "value": 1,
+              "criterion": "Solves a 3TQ in $\\cos x$ leading to at least one value for $\\cos x$"
+            },
+            {
+              "code": "A1",
+              "type": "A",
+              "value": 1,
+              "criterion": "awrt $x=1.91$ (following $\\cos x = -\\frac{1}{3}$) and no other values in the range."
+            }
+          ],
+          "guidance": "Note: Answers only with no working score no marks. From $6\\cos^2 x - 13\\cos x - 5 = 0$ to 1.91 directly, score final M0A0."
+        },
+        {
+          "label": "(ii)",
+          "marks": 7,
+          "subparts": [
+            {
+              "label": "(a)",
+              "marks": 4,
+              "answer": "$k = 6.41, 17.59$",
+              "markAllocation": [
+                {
+                  "code": "M1",
+                  "type": "M",
+                  "value": 1,
+                  "criterion": "Attempts to use the given information and proceeds to $\\sin(6k+18) = c$, or may be implied by $6k+18 = \\arcsin(c)$ (evaluated) (which scores M1dM1)"
+                },
+                {
+                  "code": "dM1",
+                  "type": "M",
+                  "value": 1,
+                  "criterion": "Takes arcsin leading to a value for $6k+18$. Accept radian values seen for this mark. (0.985, 2.16). Allow awrt 2 s.f. answers for evidence."
+                },
+                {
+                  "code": "A1",
+                  "type": "A",
+                  "value": 1,
+                  "criterion": "One value for $k$: 6.41 or 17.59. Must be in degrees. SC Allow for 6.4 and 17.6 both given if no more accurate answers are stated."
+                },
+                {
+                  "code": "A1",
+                  "type": "A",
+                  "value": 1,
+                  "criterion": "awrt $k=6.41, 17.59$ and no other values"
+                }
+              ],
+              "guidance": "Note answers only scores no marks. – the requirements of the M marks must be seen to be able to score them."
+            },
+            {
+              "label": "(b)",
+              "marks": 1,
+              "answer": "$22^\\circ C$",
+              "markAllocation": [
+                {
+                  "code": "B1",
+                  "type": "B",
+                  "value": 1,
+                  "criterion": "cao $22^\\circ C$. Condone just 22."
+                }
+              ],
+              "guidance": ""
+            },
+            {
+              "label": "(c)",
+              "marks": 2,
+              "answer": "11:14",
+              "markAllocation": [
+                {
+                  "code": "M1",
+                  "type": "M",
+                  "value": 1,
+                  "criterion": "Sets their ''6.41'' $+ 18 = 90 \\to t = ...$. May be implied by 11.23. Note ''6.41'' $+ 18 = 2\\pi t$ is M0."
+                },
+                {
+                  "code": "A1",
+                  "type": "A",
+                  "value": 1,
+                  "criterion": "cao Time of day = 11:14 o.e. (e.g. 11h 14m is acceptable)."
+                }
+              ],
+              "guidance": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "qnum": 9,
+      "marks": 8,
+      "parts": [
+        {
+          "label": "(a)",
+          "marks": 4,
+          "answer": "$x = \\frac{12}{5}$",
+          "markAllocation": [
+            {
+              "code": "M1",
+              "type": "M",
+              "value": 1,
+              "criterion": "Complete attempt to differentiate. Writes as a sum of two terms and reduces the power of at least one term by 1. Alternatively, by the product rule look for $Ax^{1/2}(4x-5) + Bx^{3/2}$."
+            },
+            {
+              "code": "A1",
+              "type": "A",
+              "value": 1,
+              "criterion": "$\\frac{\\mathrm{d}y}{\\mathrm{d}x} = 12x^{1/2} - 5x^{-1/2}$ or $3(4x-5)x^{1/2} + 4x^{3/2}$. May be left unsimplified."
+            },
+            {
+              "code": "dM1",
+              "type": "M",
+              "value": 1,
+              "criterion": "Sets $\\frac{\\mathrm{d}y}{\\mathrm{d}x} = 0$ and attempts to solve to find a non-zero value for $x$. Do not be concerned about the method of solving for this mark."
+            },
+            {
+              "code": "A1",
+              "type": "A",
+              "value": 1,
+              "criterion": "$x = \\frac{12}{5}$ from correct work. Ignore reference to $x=0$. Watch for incorrect methods of solving, such as $12x^{1/2} - 5x^{-1/2} = 0 \\Rightarrow 12x^{1/2} = 5x^{-1/2} \\Rightarrow 12x = 5 \\Rightarrow x = \\frac{5}{12}$, which score A0."
+            }
+          ],
+          "guidance": ""
+        },
+        {
+          "label": "(b)",
+          "marks": 4,
+          "answer": "$k = \\frac{28}{5}$",
+          "markAllocation": [
+            {
+              "code": "M1",
+              "type": "M",
+              "value": 1,
+              "criterion": "Complete attempt to integrate. Writes as a sum of two terms and increases the power of at least one term by 1. For attempts at integrating by parts they must proceed through the second integration to score the mark."
+            },
+            {
+              "code": "A1",
+              "type": "A",
+              "value": 1,
+              "criterion": "$\\frac{16}{5}x^{5/2} - \\frac{4}{7}x^{7/2}$ which may be unsimplified"
+            },
+            {
+              "code": "dM1",
+              "type": "M",
+              "value": 1,
+              "criterion": "Substitutes $x=k$ in their $\\frac{16}{5}x^{5/2} - \\frac{4}{7}x^{7/2} = 0$ and solves. Alternatively, applies limits 0 and 4 to find the area $R_1 = \\frac{1024}{35}$ and sets equal to the negative of the expression from limits 4 to $k$ (or reverses the limits and sets equal) and proceeds to reach a value for $k$."
+            },
+            {
+              "code": "A1",
+              "type": "A",
+              "value": 1,
+              "criterion": "$k = \\frac{28}{5}$ (ignore references to $k=0$). Accept as decimal 5.6."
+            }
+          ],
+          "guidance": "Alt for the dM: $\\int_0^4 (4x^{3/2}-x^{5/2}) \\mathrm{d}x = [\\frac{16}{5}x^{5/2} - \\frac{4}{7}x^{7/2}]_0^4 = \\frac{1024}{35}$. Area $R_1 = \\frac{1024}{35}$. Area $R_2 = \\int_4^k (4x^{3/2}-x^{5/2}) \\mathrm{d}x = [\\frac{16}{5}x^{5/2} - \\frac{4}{7}x^{7/2}]_4^k = 0$. Note if $\\int_0^k (4x^{3/2}-x^{5/2}) \\mathrm{d}x = 0$ is used then this scores dM0. However, if a student realises the areas cancel and effectively achieves the correct equation after stating areas equal then allow recovery for dM1A1."
+        }
+      ]
+    },
+    {
+      "qnum": 10,
+      "marks": 8,
+      "parts": [
+        {
+          "label": "(a)",
+          "marks": 2,
+          "answer": "awrt 2390",
+          "markAllocation": [
+            {
+              "code": "M1",
+              "type": "M",
+              "value": 1,
+              "criterion": "Attempts $2000 \\times 1.03^5$ or $2000 \\times 1.03^6$. May use successive iterations (finding each year) but end up at one these in effect."
+            },
+            {
+              "code": "A1",
+              "type": "A",
+              "value": 1,
+              "criterion": "Awrt 2390"
+            }
+          ],
+          "guidance": ""
+        },
+        {
+          "label": "(b)",
+          "marks": 3,
+          "answer": "$N = 4000 \\times 0.98^t$",
+          "markAllocation": [
+            {
+              "code": "M1",
+              "type": "M",
+              "value": 1,
+              "criterion": "Makes progress in using the model and attempting to find one of the variables $a$ or $b^3$ (or $b$). Allow if $r$ is used instead of $b$ for the M’s. Allow from the indexing error $ab^3=3690, ab^6=3470 \\Rightarrow b^3 = 3470/3690$."
+            },
+            {
+              "code": "dM1",
+              "type": "M",
+              "value": 1,
+              "criterion": "Full method to find values for $a$ and $b$. Condone this being scored from $ab^3=3690, ab^6=3470$."
+            },
+            {
+              "code": "A1",
+              "type": "A",
+              "value": 1,
+              "criterion": "$N = 4000 \\times 0.98^t$. Accept awrt 4000 to 2sf, awrt 0.98. Must be seen as an equation not just values of $a$ and $b$ but allow if the equation is seen (c) (including the N = ). Condone n or T used the variables."
+            }
+          ],
+          "guidance": ""
+        },
+        {
+          "label": "(c)",
+          "marks": 3,
+          "answer": "$T = 13.9$",
+          "markAllocation": [
+            {
+              "code": "M1",
+              "type": "M",
+              "value": 1,
+              "criterion": "Makes progress towards solving the problem by forming a single term with single power $T$. Follow through on their equations provided that they are of the correct form. Alternatively takes logs of both sides $2000 \\times 1.03^T = 4000 \\times 0.98^T$ and uses addition law and power law of logs, e.g. $\\ln 2000 + T\\ln 1.03 = \\ln 4000 + T\\ln 0.98$. Award from an attempt on $2000 \\times 1.03^{T-1} = 4000 \\times 0.98^T$ or similar index error."
+            },
+            {
+              "code": "dM1",
+              "type": "M",
+              "value": 1,
+              "criterion": "Full and complete attempt to find $T$. Dependent upon previous method but may be implied for the correct value for their $\\frac{a}{b}^T$."
+            },
+            {
+              "code": "A1",
+              "type": "A",
+              "value": 1,
+              "criterion": "cao $T = 13.9$"
+            }
+          ],
+          "guidance": ""
+        }
+      ]
+    }
+  ]
+}

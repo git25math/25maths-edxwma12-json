@@ -1,0 +1,720 @@
+{
+  "v": "1.0",
+  "paper": "2019Oct-WMA12-01",
+  "board": "edx",
+  "code": "WMA12",
+  "year": 2019,
+  "session": "Oct",
+  "paperNum": "01",
+  "totalMarks": 75,
+  "questions": [
+    {
+      "qnum": 1,
+      "marks": 6,
+      "parts": [
+        {
+          "label": "(a)",
+          "marks": 4,
+          "answer": "y = 2x^3 - 10x^2\ndy/dx = 6x^2 - 20x\n6x^2 - 20x = 0 => x = 0, 10/3",
+          "markAllocation": [
+            {
+              "code": "B1",
+              "type": "B",
+              "value": 1,
+              "criterion": "Expands to a correct form y = 2x^3 - 10x^2 (may be implied by sight of dy/dx = 6x^2 - 20x)"
+            },
+            {
+              "code": "M1",
+              "type": "M",
+              "value": 1,
+              "criterion": "Differentiated reducing a power by one on one of their terms."
+            },
+            {
+              "code": "dM1",
+              "type": "M",
+              "value": 1,
+              "criterion": "Sets dy/dx = 0 and solves a quadratic equation to find at least one solution. (Usual rules for solving a quadratic). Values such as 0 and 3.33 to imply this mark."
+            },
+            {
+              "code": "A1",
+              "type": "A",
+              "value": 1,
+              "criterion": "x = 0, 10/3 oe"
+            }
+          ],
+          "guidance": "B1: If a candidate uses the product rule then award this mark for correct terms for u, u’, v and v’ stated or implied.\nM1: If a candidate uses the product rule then look for dy/dx = Ax^2(x-5) + Bx^2. (Do not award for just differentiating the factor in front of the bracket and the x-5)\ndM1: It is dependent on the previous method mark. Dividing by x to find one of the solutions is also acceptable for this mark. Allow answers to be just written down but you may need to check these on your calculator.\nA1: Must be seen in (a) Allow if embedded within pairs of coordinates for the stationary points of C. SC If no calculus work shown then 0001 for achieving the correct x coordinates. SC If no credit worthy work seen in (a) but they use calculus in (b) then B1M1M1 can be awarded but withhold the A mark.\nAlt (a): u = x^2, u' = 4x, v = x-5, v' = 1. dy/dx = Ax^2(x-5) + Bx^2. Sets dy/dx = 0 => 4x(x-5) + x^2 = 0 => x=0, 10/3."
+        },
+        {
+          "label": "(b)",
+          "marks": 2,
+          "answer": "x <= 0, x >= 10/3",
+          "markAllocation": [
+            {
+              "code": "M1",
+              "type": "M",
+              "value": 1,
+              "criterion": "One of x <= \"0\" or x >= \"10/3\"."
+            },
+            {
+              "code": "A1",
+              "type": "A",
+              "value": 1,
+              "criterion": "Both x <= 0, x >= 10/3."
+            }
+          ],
+          "guidance": "M1: Note we are now marking this on epen as M1A1. Allow for x < \"0\" or x > \"10/3\". They must have only achieved a maximum of two x coordinates in (a). Do not award for inequalities using solutions from y = 0 or if they have integrated instead.\nA1: Allow both x < 0, x > 10/3. Ignore any joining statements such as “and”, “or” or any set notation eg. ∪ or ∩ and allow statements such as (-∞,0], [10/3, ∞). 10/3 does not need to be in its lowest terms. isw after two correct inequality statements unless they contradict. (Eg ignore after two correct inequalities x < 0, x > 10/3 a statement such as 0 < x > 10/3 but withhold the final mark if they subsequently write 0 < x < 10/3)"
+        }
+      ]
+    },
+    {
+      "qnum": 2,
+      "marks": 6,
+      "parts": [
+        {
+          "label": "(a)",
+          "marks": 3,
+          "answer": "32340",
+          "markAllocation": [
+            {
+              "code": "B1",
+              "type": "B",
+              "value": 1,
+              "criterion": "States or uses r = 1.02"
+            },
+            {
+              "code": "M1",
+              "type": "M",
+              "value": 1,
+              "criterion": "Attempts 25000 * \"r\"^12 or 25000 * \"r\"^13."
+            },
+            {
+              "code": "A1",
+              "type": "A",
+              "value": 1,
+              "criterion": "32340 (or 32341)."
+            }
+          ],
+          "guidance": "B1: States or uses r = 1.02, 102%, (1+2%) oe\nM1: Allow eg r = 2 for this mark. They may show the increase each year which is acceptable. Expect to see at least one correct increase for their r and attempting 12 or 13 increases by the same percentage. Allow a misread if 2500 or 250000 is used instead. Awrt 31706 which is 25000 * 1.02^12 is usually sufficient evidence for this mark.\nA1: Must be an integer. Allow 32300 which is the answer rounded to 3sf."
+        },
+        {
+          "label": "(b)",
+          "marks": 3,
+          "answer": "£1997000",
+          "markAllocation": [
+            {
+              "code": "M1",
+              "type": "M",
+              "value": 1,
+              "criterion": "Attempts a(r^n - 1)/(r - 1) or a(1 - r^n)/(1 - r)"
+            },
+            {
+              "code": "A1",
+              "type": "A",
+              "value": 1,
+              "criterion": "For 25000(1.02^14 - 1)/(1.02 - 1) or 125000(1.02^14 - 1)/(1.02 - 1) or equivalent."
+            },
+            {
+              "code": "A1",
+              "type": "A",
+              "value": 1,
+              "criterion": "1997000 only"
+            }
+          ],
+          "guidance": "M1: with a = 25000 or 125000, n = 13 or 14 and r = 1.02 or their r from part (a).\nA1: Awrt 1 997 000 implies this mark.\nAlt(b) M1: If they attempt to add year by year then look for 13 or 14 values being added with the first year 25000 and at least one increase year to year of 2% or their r.\nAlt(b) A1: All 14 values seen or implied from either column 2 or 3 of the table on the next page. Allow values to be truncated or rounded to 3 significant figures. Awrt 1 997 000 also implies this mark.\nAlt(b) A1: 1 997 000 only"
+        }
+      ]
+    },
+    {
+      "qnum": 3,
+      "marks": 6,
+      "parts": [
+        {
+          "label": "(a)",
+          "marks": 3,
+          "answer": "1 + 3x + (33/8)x^2 + (55/16)x^3",
+          "markAllocation": [
+            {
+              "code": "M1",
+              "type": "M",
+              "value": 1,
+              "criterion": "For an attempt at the binomial expansion. Score for a correct attempt at term 3 or 4."
+            },
+            {
+              "code": "B1",
+              "type": "B",
+              "value": 1,
+              "criterion": "For 1 + 3x"
+            },
+            {
+              "code": "A1",
+              "type": "A",
+              "value": 1,
+              "criterion": "For (33/8)x^2 + (55/16)x^3"
+            }
+          ],
+          "guidance": "M1: Accept sight of C(12,2)(x/4)^2 or C(12,3)(x/4)^3 condoning the omission of brackets. Accept any relevant coefficient appearing from Pascal’s triangle. FYI C(12,2) = 66, C(12,3) = 220\nB1: Must be simplified. Also allow 1,3x if written as a list.\nA1: Accept 1 + 3x + 4.125x^2 + 3.4375x^3. (All four terms do not need to be written as a summation and may be written as a list)."
+        },
+        {
+          "label": "(b)",
+          "marks": 3,
+          "answer": "77/8",
+          "markAllocation": [
+            {
+              "code": "B1ft",
+              "type": "B",
+              "value": 1,
+              "criterion": "Sight of 55/16 or C(12,5) * (1/4)^5 which must be independent of x"
+            },
+            {
+              "code": "M1",
+              "type": "M",
+              "value": 1,
+              "criterion": "For attempting to add their 55/16 to C(12,5) * (1/4)^5 or (1/8) * 792 * (1/4)^5"
+            },
+            {
+              "code": "A1",
+              "type": "A",
+              "value": 1,
+              "criterion": "For 77/8 oe"
+            }
+          ],
+          "guidance": "B1ft: Most candidates do not find the additional term in the expansion of (1 + x/4)^12 so typically would only score a maximum of 100 in (b)\nA1: eg 9.625"
+        }
+      ]
+    },
+    {
+      "qnum": 4,
+      "marks": 8,
+      "parts": [
+        {
+          "label": "(a)",
+          "marks": 1,
+          "answer": "-35",
+          "markAllocation": [
+            {
+              "code": "B1",
+              "type": "B",
+              "value": 1,
+              "criterion": "-35 stated"
+            }
+          ],
+          "guidance": ""
+        },
+        {
+          "label": "(b)",
+          "marks": 2,
+          "answer": "a = -17",
+          "markAllocation": [
+            {
+              "code": "M1",
+              "type": "M",
+              "value": 1,
+              "criterion": "Attempts to set f(±2/3) = 0."
+            },
+            {
+              "code": "A1*",
+              "type": "A",
+              "value": 1,
+              "criterion": "Achieves the given answer with no incorrect work (including brackets) and at least one correct intermediate line before proceeding to a = -17."
+            }
+          ],
+          "guidance": "M1: Must see ±2/3 substituted into the expression and set equal to zero. Condone bracket errors for this mark. They may multiply out the expression before substituting so allow errors in the manipulation for this mark. (FYI x^3 + (2/3)x^2 + ax^2 - (2/3)ax - 35x - (70/3)) “=0” may be implied by their working.\nA1*: “=0” must be seen somewhere for this mark. Eg. (7/3)a - 35 = 17 => a = -17\nAlt (b) M1: Assumes a = -17 and attempts f(2/3) = 0 where f(x) = (3x-2)(x^2 - 17) - 35x\nAlt (b) A1*: Achieves f(2/3) = 0 with no incorrect work, at least one correct intermediate line and states hence proven or some other acknowledgement of the “proof”."
+        },
+        {
+          "label": "(c)",
+          "marks": 5,
+          "answer": "(3x-2)(x+2)(x-4)",
+          "markAllocation": [
+            {
+              "code": "B1",
+              "type": "B",
+              "value": 1,
+              "criterion": "Multiplies out to achieve f(x) = 3x^3 - 8x^2 - 20x + 16."
+            },
+            {
+              "code": "M1",
+              "type": "M",
+              "value": 1,
+              "criterion": "Attempts to divide or factorise out (3x-2) from their cubic."
+            },
+            {
+              "code": "A1",
+              "type": "A",
+              "value": 1,
+              "criterion": "Correct factors (3x-2)(x^2 - 2x - 8)"
+            },
+            {
+              "code": "M1",
+              "type": "M",
+              "value": 1,
+              "criterion": "Factorises their quadratic factor of the form Ax^2 + Bx + C with A, B, C ≠ 0."
+            },
+            {
+              "code": "A1",
+              "type": "A",
+              "value": 1,
+              "criterion": "(3x-2)(x+2)(x-4) on one line following B1M1A1M1"
+            }
+          ],
+          "guidance": "B1: This may be implied by eg (3x-2)(x^2 - 2x - 8)\nM1: By factorisation look for 3x^3 - 8x^2 - 20x + 16 = (3x-2)(x^2 + kx + α) where k ≠ 0 or they may equate coefficients correctly to find k. By division look for x^2 + βx ± β / (3x-2) | 3x^3 - 8x^2 - 20x + 16 (Usually x^2 - 2x ....). There are various other methods but we should be seeing a correct method to find at least two of the coefficients (allow ±) of their quadratic for the method mark. Send to review if unsure how to mark a response.\nA1: The two factors do not need to be written together eg this mark can be awarded if the quadratic factor is seen at the top of their algebraic division.\nM1: Score for Ax^2 + Bx + C = (dx+e)(fx+g) where A = d*f or C = e*g\nA1: isw (3x-2)(x+2)(x-4) => x = 2/3, -2, 4 and allow 3(x-2/3)(x+2)(x-4). Note the question says using algebra and showing each step. f(x) = 3x^3 - 8x^2 - 20x + 16 => (3x-2)(x+2)(x-4) is 10000. Beware f(x) = 3x^3 - 8x^2 - 20x + 16 = 0 => x = 2/3, -2, 4 => (3x-2)(x+2)(x-4) is 10000. f(x) = 3x^3 - 8x^2 - 20x + 16 = 0 => (x-2/3)(x+2)(x-4) is 10000. isw (3x-2)(x+2)(x-4) => x = 2/3, -2, 4. isw 3(x-2/3)(x+2)(x-4) => (x-2/3)(x+2)(x-4)"
+        }
+      ]
+    },
+    {
+      "qnum": 5,
+      "marks": 7,
+      "parts": [
+        {
+          "label": "(a)",
+          "marks": 2,
+          "answer": "Graph of y = 2^x",
+          "markAllocation": [
+            {
+              "code": "M1",
+              "type": "M",
+              "value": 1,
+              "criterion": "For either the shape in quadrants 1 and 2 only or the y-intercept at 1."
+            },
+            {
+              "code": "A1",
+              "type": "A",
+              "value": 1,
+              "criterion": "Fully correct. Shape in quadrants 1 and 2 only with the y-intercept at 1."
+            }
+          ],
+          "guidance": "M1: Condone slips of the pen but the gradient should be tending to 0 as x increases. Condone (1,0) marked on the correct axis.\nA1: Condone slips of the pen towards the x-axis but the graph should not cross the x-axis. Condone (1,0) marked on the correct axis. For a fully correct graph its asymptote should not appear to be y = 1. As a rule of thumb look for the asymptote to be at least half way below its y-intercept. Do not be too concerned about relative position of the curve in the second quadrant as long as the curve gets steeper as x →-∞"
+        },
+        {
+          "label": "(b)",
+          "marks": 3,
+          "answer": "awrt 19.0",
+          "markAllocation": [
+            {
+              "code": "B1",
+              "type": "B",
+              "value": 1,
+              "criterion": "h = 0.5 seen or implied"
+            },
+            {
+              "code": "M1",
+              "type": "M",
+              "value": 1,
+              "criterion": "For the correct bracket structure (0.5/2) * {4.25 + 16.06 + 2 * (6.427 + 9.125 + 12.34)}"
+            },
+            {
+              "code": "A1",
+              "type": "A",
+              "value": 1,
+              "criterion": "awrt 19.0"
+            }
+          ],
+          "guidance": "B1: by sight of 0.5/2 in front of the bracket\nM1: condoning slips copying from the table or the omission of the final bracket. eg 1/2 * 0.5 * (4.25 + 16.06 + 2 * (6.427 + 9.125 + 12.34)). Recovery from missing brackets to achieving the correct answer can still score full marks.\nA1: 19.0235 but awrt 19.0 will usually score full marks. Note: The calculator answer for the integral is 18.937… which is A0.\nExamples of mark traits where full marks are not scored: (1/2) * 0.5 * (4.25 + 16.06 + 2 * (6.427 + 9.125 + 12.34)) = 72.9065 is B1M0A0. (1/2) * 0.5 * (4.25 + 16.06 + 2 * 6.427 + 9.125 + 12.34) = 51.4415 is B1M0A0"
+        },
+        {
+          "label": "(c)",
+          "marks": 2,
+          "answer": "awrt 1.0",
+          "markAllocation": [
+            {
+              "code": "M1",
+              "type": "M",
+              "value": 1,
+              "criterion": "For realising that ∫(2^x - 3) dx = ∫2^x dx - ∫3 dx"
+            },
+            {
+              "code": "A1ft",
+              "type": "A",
+              "value": 1,
+              "criterion": "awrt 1.0 or follow through on their answer or their unrounded answer from (b) - 18 provided M1 has been scored."
+            }
+          ],
+          "guidance": "M1: i.e. [2^x/ln2 - 3x] must be seen or ∫(2^x - 3) dx => (b) - ∫3 dx. The 3x term must be isolated from the rest of the integral that is identified in some way to be their part (b). There must be some integration carried out so look for x → 3x. Condone poor notation.\nA1ft: 1.0235 but accept awrt 1.0. Note: The calculator answer for the integral is 0.937 (awrt 0.9) is M0A0"
+        }
+      ]
+    },
+    {
+      "qnum": 6,
+      "marks": 7,
+      "parts": [
+        {
+          "label": "(a)",
+          "marks": 2,
+          "answer": "y = -2x + 7",
+          "markAllocation": [
+            {
+              "code": "M1",
+              "type": "M",
+              "value": 1,
+              "criterion": "Attempts the equation of the line with gradient -2 and point (4, -1)"
+            },
+            {
+              "code": "A1",
+              "type": "A",
+              "value": 1,
+              "criterion": "y = -2x + 7"
+            }
+          ],
+          "guidance": "M1: Condone a slip on one of the signs of the (4, -1). For example y - 1 = -2(x - 4). If the form y = mx + c is used they must proceed as far as c = ...\nAlt (a) M1: Differentiates implicitly the equation of the circle (x-4)^2 + (y+1)^2 = r^2 => 2(x-4) + 2(y+1)dy/dx = 0 and substitutes in dy/dx = 1/2\nAlt (a) A1: y = -2x + 7"
+        },
+        {
+          "label": "(b)",
+          "marks": 5,
+          "answer": "(x-4)^2 + (y+1)^2 = 36/5",
+          "markAllocation": [
+            {
+              "code": "M1",
+              "type": "M",
+              "value": 1,
+              "criterion": "Attempts to find where y = x/2 meets their y = -2x + 7."
+            },
+            {
+              "code": "A1",
+              "type": "A",
+              "value": 1,
+              "criterion": "(14/5, 7/5) oe"
+            },
+            {
+              "code": "dM1",
+              "type": "M",
+              "value": 1,
+              "criterion": "Attempts to find the distance between their (14/5, 7/5) and (4, -1) using Pythagoras’ theorem."
+            },
+            {
+              "code": "A1",
+              "type": "A",
+              "value": 1,
+              "criterion": "For r^2 = 36/5 or r = sqrt(36/5) oe"
+            },
+            {
+              "code": "A1",
+              "type": "A",
+              "value": 1,
+              "criterion": "(x-4)^2 + (y+1)^2 = 36/5 oe"
+            }
+          ],
+          "guidance": "M1: Expect to see candidates proceed to x = ...\nA1: or any other form eg (2.8,1.4) or x = 14/5, y = 7/5\ndM1: Look for an attempt to subtract the coordinates, square and add. It is dependent on the previous method mark. Condone a slip on one of the signs.\nA1: For r^2 = 36/5 or r = sqrt(36/5) oe\nA1: eg (x-4)^2 + (y+1)^2 = 7.2 or 5(x-4)^2 + 5(y+1)^2 = 36 only\nAlt (b) M1: Substitutes y = x/2 into (x-4)^2 + (y+1)^2 = r^2, multiplies out and rearranges ... = 0\nAlt (b) A1: 5x^2 - 28x + 68 - 4r^2 = 0 or 5y^2 - 14y + 17 - r^2\nAlt (b) dM1: Uses the discriminant b^2 - 4ac = 0 and proceeds to r = ... or r^2 = ... It is dependent on the previous method mark.\nAlt (b) A1: For r^2 = 36/5 or r = sqrt(36/5)\nAlt (b) A1: (x-4)^2 + (y+1)^2 = 36/5 oe eg (x-4)^2 + (y+1)^2 = 7.2 or 5(x-4)^2 + 5(y+1)^2 = 36\nNote: Candidates who substitute y = -2x + \"7\" into (x-4)^2 + (y+1)^2 = r^2 and attempt the discriminant approach will score 0 marks in (b)"
+        }
+      ]
+    },
+    {
+      "qnum": 7,
+      "marks": 7,
+      "parts": [
+        {
+          "label": "(i)",
+          "marks": 2,
+          "answer": "1/2 - k",
+          "markAllocation": [
+            {
+              "code": "M1",
+              "type": "M",
+              "value": 1,
+              "criterion": "Uses log laws to achieve 1/2 log_a(a) - log_a(b) or eg 0.5 - log_a(b)"
+            },
+            {
+              "code": "A1",
+              "type": "A",
+              "value": 1,
+              "criterion": "1/2 - k oe"
+            }
+          ],
+          "guidance": ""
+        },
+        {
+          "label": "(ii)",
+          "marks": 2,
+          "answer": "(2+k)/3",
+          "markAllocation": [
+            {
+              "code": "M1",
+              "type": "M",
+              "value": 1,
+              "criterion": "Uses correct log laws on the numerator or denominator. Score for ... + 3log_a(b) or ... + 3k or sight of the numerator 2log_a(a) + log_a(b) which does not have to be part of a fraction (May be implied by 2+k)"
+            },
+            {
+              "code": "A1",
+              "type": "A",
+              "value": 1,
+              "criterion": "(2+k)/3 or 2/3 + k/3 do not isw"
+            }
+          ],
+          "guidance": ""
+        },
+        {
+          "label": "(iii)",
+          "marks": 3,
+          "answer": "1325k",
+          "markAllocation": [
+            {
+              "code": "M1",
+              "type": "M",
+              "value": 1,
+              "criterion": "Either uses the sum formula for an AP in terms of k on part or all of the expression with n = 50, d = k, a = k or n = 50, d = k, a = 2k. It is sufficient to see the terms substituted in for this mark."
+            },
+            {
+              "code": "A1",
+              "type": "A",
+              "value": 1,
+              "criterion": "A correct unsimplified answer in terms of k."
+            },
+            {
+              "code": "A1",
+              "type": "A",
+              "value": 1,
+              "criterion": "1325k"
+            }
+          ],
+          "guidance": "M1: (Σ(n=1 to 50) nk = (50/2)(2k + (50-1)k) or (50/2)(k + 50k)). You may see the equivalent sum n/2(a+L) eg 50/2(k+50k). Or uses the sum formula for an AP in terms of log_a(b) on part of the expression with n = 50, d = log_a(b), a = log_a(b) (Σ(n=1 to 50) n log_a(b) = (50/2)(2log_a(b) + 49log_a(b))). You may see the equivalent sum n/2(a+L) = (50/2)(log_a(b) + 50log_a(b))\nA1: Eg. S_50 = (50/2)(2k + 49k) or S_50 = (50/2)(k + 50k)"
+        }
+      ]
+    },
+    {
+      "qnum": 8,
+      "marks": 9,
+      "parts": [
+        {
+          "label": "(i)",
+          "marks": 5,
+          "answer": "37/8 - 4sqrt(2)",
+          "markAllocation": [
+            {
+              "code": "B1",
+              "type": "B",
+              "value": 1,
+              "criterion": "For (1/2)x^(-3/2) - (5/2)x^(-1/2) (seen or implied)."
+            },
+            {
+              "code": "M1",
+              "type": "M",
+              "value": 1,
+              "criterion": "For raising any index by one on one of their terms."
+            },
+            {
+              "code": "A1",
+              "type": "A",
+              "value": 1,
+              "criterion": "Correct terms (may be unsimplified but the indices must be processed)"
+            },
+            {
+              "code": "dM1",
+              "type": "M",
+              "value": 1,
+              "criterion": "Substitutes 4 and 2 into an integrated function and subtracts either way round. Dependent on the previous method mark."
+            },
+            {
+              "code": "A1",
+              "type": "A",
+              "value": 1,
+              "criterion": "37/8 - 4sqrt(2) or exact equivalent"
+            }
+          ],
+          "guidance": "B1: Ignore any +C. You may also see a factor of ½ taken out eg (1/2)(8x^(-3/2) - 5x^(-1/2))\nM1: Follow through on incorrect indices but do not allow for candidates who attempt to integrate the numerator and denominators separately.\ndM1: awrt 1.03 following B1M1A1 is sufficient evidence to award this mark.\nA1: (eg 4.625 - 4sqrt(2) or (37 - 32sqrt(2))/8) Note: Answer only scores 0 marks."
+        },
+        {
+          "label": "(ii)",
+          "marks": 4,
+          "answer": "k = 29/18",
+          "markAllocation": [
+            {
+              "code": "M1",
+              "type": "M",
+              "value": 1,
+              "criterion": "Attempts to integrate (1/2)x^2 + k/x with one term correct unsimplified"
+            },
+            {
+              "code": "A1",
+              "type": "A",
+              "value": 1,
+              "criterion": "(1/6)x^3 + kln|x|"
+            },
+            {
+              "code": "dM1",
+              "type": "M",
+              "value": 1,
+              "criterion": "Substitutes 6 and -3 into Ax^3 + kln|x|, subtracts, sets = 55 and proceeds to k = ..."
+            },
+            {
+              "code": "A1",
+              "type": "A",
+              "value": 1,
+              "criterion": "k = 29/18 or exact equivalent"
+            }
+          ],
+          "guidance": "M1: so allow eg (1/3)x^3 or kx but the index must be processed.\nA1: (allow unsimplified equivalent expressions as above)\ndM1: Do not be concerned with the mechanics of their rearrangement.\nA1: eg 1.61 but do not allow 1.6 or 1.61 or 1.61…."
+        }
+      ]
+    },
+    {
+      "qnum": 9,
+      "marks": 12,
+      "parts": [
+        {
+          "label": "(i)",
+          "marks": 4,
+          "answer": "θ = awrt 14.7°, 85.3°",
+          "markAllocation": [
+            {
+              "code": "M1",
+              "type": "M",
+              "value": 1,
+              "criterion": "For proceeding to arcsin(1/3)"
+            },
+            {
+              "code": "dM1",
+              "type": "M",
+              "value": 1,
+              "criterion": "For correct order of operations leading to one answer for θ."
+            },
+            {
+              "code": "A1",
+              "type": "A",
+              "value": 1,
+              "criterion": "One of awrt 14.7°, 85.3°"
+            },
+            {
+              "code": "A1",
+              "type": "A",
+              "value": 1,
+              "criterion": "Both of awrt 14.7°, 85.3° and no others in the range."
+            }
+          ],
+          "guidance": "M1: which may be implied by the sight of awrt 19.5° or awrt 160.5° (Allow awrt 0.340 (radians) for this mark)\ndM1: May be implied by 14.7°/14.8° but cannot be scored by adding 10 to an angle in radians but may be implied by awrt 0.257 / 0.258rad\nA1: ignore any others.\nNote that solutions based entirely on graphical or numerical methods are not acceptable so answers only will score 0 marks."
+        },
+        {
+          "label": "(ii)",
+          "marks": 8,
+          "subparts": [
+            {
+              "label": "(a)",
+              "marks": 3,
+              "answer": "2cosα = 3sinα",
+              "markAllocation": [
+                {
+                  "code": "M1",
+                  "type": "M",
+                  "value": 1,
+                  "criterion": "Uses the terms of an AP to set up a correct equation. Eg sinα - (1/tanα) = (1/tanα) - 2sinα, (cosα/sinα) - sinα = 2sinα - (cosα/sinα)."
+                },
+                {
+                  "code": "dM1",
+                  "type": "M",
+                  "value": 1,
+                  "criterion": "Uses tanα = sinα/cosα within an equation involving 1/tanα, sinα & 2sinα."
+                },
+                {
+                  "code": "A1*",
+                  "type": "A",
+                  "value": 1,
+                  "criterion": "Proceeds to given answer with no errors or omissions."
+                }
+              ],
+              "guidance": "M1: They may also do (1/2)(sinα + 2sinα) = 1/tanα. Condone mixed variables and poor notation for the method marks.\ndM1: This mark can be implied but do not award if they just proceed straight to the final answer. It is dependent on the previous method mark. A candidate starting with (cosα/sinα) - sinα = 2sinα - (cosα/sinα) scores M1dM1 straight away.\nA1*: The equation must start with an equation involving tanα but see the note below for further guidance. Withhold this mark for incorrect notation eg sin^2α or if they had mixed variables on the same line. Eg α and θ. Note: In the example below they can score full marks as tanα = sinα/cosα is implied by their second term listed on the first line. Had they not written these first three terms or stated somewhere in their solution tanα = sinα/cosα in their working then we would withhold the final mark."
+            },
+            {
+              "label": "(b)",
+              "marks": 5,
+              "answer": "α = awrt 5.517 radians",
+              "markAllocation": [
+                {
+                  "code": "M1",
+                  "type": "M",
+                  "value": 1,
+                  "criterion": "Attempts to use sin^2α + cos^2α = 1"
+                },
+                {
+                  "code": "A1",
+                  "type": "A",
+                  "value": 1,
+                  "criterion": "3cos^2α + 2cosα - 3 = 0"
+                },
+                {
+                  "code": "dM1",
+                  "type": "M",
+                  "value": 1,
+                  "criterion": "Attempts to solve their 3cos^2α + 2cosα - 3 = 0 by the formula/completing the square, usual rules for solving a 3TQ apply but do not award for attempted factorisation unless their quadratic factorises."
+                },
+                {
+                  "code": "A1",
+                  "type": "A",
+                  "value": 1,
+                  "criterion": "cosα = (-2 + sqrt(40))/6 oe"
+                },
+                {
+                  "code": "A1",
+                  "type": "A",
+                  "value": 1,
+                  "criterion": "α = awrt 5.517 radians and no others in the given range"
+                }
+              ],
+              "guidance": "M1: Eg. 2cosα = 3sinα => 2cosα = 3sqrt(1 - cos^2α). Beware that a candidate may use this identity in part (ii)(a) which would not gain the mark in this part.\nA1: The “=0” may be implied by later work but the terms must be collected on one side. Evidence of this may be awarded for correct coefficients substituted into the quadratic formula.\ndM1: Award for cosα = (-2 ± sqrt(40))/6 or cosα = awrt 0.72 or awrt -1.4 or equivalent. You may need to check decimal values on your calculator.\nA1: (typically cosα = (-1 + sqrt(10))/3). Implied by cosα = awrt 0.721 or α = awrt 5.52 radians."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "qnum": 10,
+      "marks": 7,
+      "parts": [
+        {
+          "label": "(a)",
+          "marks": 4,
+          "answer": "a = 4/3, b = 1/3",
+          "markAllocation": [
+            {
+              "code": "M1",
+              "type": "M",
+              "value": 1,
+              "criterion": "Substitutes x=2, y=5 into y = ax^3 - 3x^2 + 3x + b to get an equation in a and b"
+            },
+            {
+              "code": "M1",
+              "type": "M",
+              "value": 1,
+              "criterion": "Substitutes x=2, dy/dx=7 into dy/dx = 3ax^2 - 6x + 3 to get an equation in a"
+            },
+            {
+              "code": "A1",
+              "type": "A",
+              "value": 1,
+              "criterion": "a = 4/3 or exact equivalent"
+            },
+            {
+              "code": "A1",
+              "type": "A",
+              "value": 1,
+              "criterion": "b = 1/3 or exact equivalent"
+            }
+          ],
+          "guidance": "M1: (condone slips)\nM1: (dy/dx must be correct)"
+        },
+        {
+          "label": "(b)",
+          "marks": 3,
+          "answer": "b^2 - 4ac < 0, hence no turning points.",
+          "markAllocation": [
+            {
+              "code": "M1",
+              "type": "M",
+              "value": 1,
+              "criterion": "Sets their dy/dx = 0 with their value of a."
+            },
+            {
+              "code": "dM1",
+              "type": "M",
+              "value": 1,
+              "criterion": "Attempts to find b^2 - 4ac or roots via the formula"
+            },
+            {
+              "code": "A1*",
+              "type": "A",
+              "value": 1,
+              "criterion": "Achieves 4x^2 - 6x + 3 = 0, b^2 - 4ac = -12 and states -12 < 0 and so there are no turning points or equivalent."
+            }
+          ],
+          "guidance": "M1: This may be implied by later working.\nA1*: They may attempt to solve the equation and either state that no real roots so no turning points or achieve complex roots and state that no real roots so no turning points. Note full marks can be scored with an incorrect value for b = 1/3 but cannot be scored from an incorrect value for a = 4/3 from part (a)\nAlt (b) M1: Attempts to complete the square for dy/dx = 3ax^2 - 6x + 3 for their value of a to achieve eg A(x ± B)^2 ± C\nAlt (b) dM1: For a=4/3, dy/dx = 4x^2 - 6x + 3 = 4(x - 3/4)^2 + 3/4\nAlt (b) A1*: Achieves 4(x - 3/4)^2 + 3/4 and states there are no turning points as dy/dx > 0 (for all x) or equivalent. If you see any other ways that may be credit worthy then send to review"
+        }
+      ]
+    }
+  ]
+}

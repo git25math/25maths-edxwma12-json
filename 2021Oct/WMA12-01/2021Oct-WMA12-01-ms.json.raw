@@ -1,0 +1,786 @@
+{
+  "v": "1.0",
+  "paper": "2021Oct-WMA12-01",
+  "board": "edx",
+  "code": "WMA12",
+  "year": 2021,
+  "session": "Oct",
+  "paperNum": "01",
+  "totalMarks": 75,
+  "questions": [
+    {
+      "qnum": 1,
+      "marks": 6,
+      "parts": [
+        {
+          "label": "(a)",
+          "marks": 3,
+          "answer": "(i) $k = -1/4$, (ii) $p = 15/2$",
+          "markAllocation": [
+            {
+              "code": "M1",
+              "type": "M",
+              "value": 1,
+              "criterion": "States/uses either $16k = -4$ or $16 \\times 15 / 2 k^2 = p$"
+            },
+            {
+              "code": "A1",
+              "type": "A",
+              "value": 1,
+              "criterion": "$k = -1/4$"
+            },
+            {
+              "code": "A1",
+              "type": "A",
+              "value": 1,
+              "criterion": "$p = 15/2$"
+            }
+          ],
+          "guidance": "M1: States or uses either $16k = -4$ or $16 \\times 15 / 2 k^2 = p$. It may be implied by a correct value for k or p if no incorrect working is seen. (i) A1: $k = -1/4$ or $-0.25$. (ii) A1: $p = 15/2$ or $7.5$. Allow if this follows from $k = \\pm 1/4$."
+        },
+        {
+          "label": "(b)",
+          "marks": 3,
+          "answer": "Term in $x^2$ is $-125x^2$",
+          "markAllocation": [
+            {
+              "code": "M1",
+              "type": "M",
+              "value": 1,
+              "criterion": "Attempts one of the two relevant terms or coefficients"
+            },
+            {
+              "code": "dM1",
+              "type": "M",
+              "value": 1,
+              "criterion": "Attempts sum of their $(2 \"p\")x^2$ and their $(16 \\times 15 \\times 14 / 3!) \"k\"^3 x^2$"
+            },
+            {
+              "code": "A1",
+              "type": "A",
+              "value": 1,
+              "criterion": "$-125x^2$"
+            }
+          ],
+          "guidance": "M1: Attempts one of the two relevant terms or coefficients. Either $(2p)x^2$ or $(16 \\times 15 \\times 14 / 3!)k^3 x^2$ or exact equivalent. May be part of an attempt at a full expansion. May be in terms of p and k. dM1: Must have attempted at least one of the terms correctly. Attempts sum of their $(2 \"p\")x^2$ and their $(16 \\times 15 \\times 14 / 3!) \"k\"^3 x^2$ which must be arising from correct combination of powers from the expanded brackets though the coefficients need not be correct. Must be numerical terms. May be part of an attempt at a full expansion. FYI If the k is not cubed in the second of these then you may see $2240x^2$ and can score the dM. A1: Term in $-125x^2$. Must include the $x^2$. Do not allow as part of an expansion for this mark."
+        }
+      ]
+    },
+    {
+      "qnum": 2,
+      "marks": 5,
+      "parts": [
+        {
+          "label": "(a)",
+          "marks": 2,
+          "answer": "$u_3 = 6(k+3)+3$",
+          "markAllocation": [
+            {
+              "code": "M1",
+              "type": "M",
+              "value": 1,
+              "criterion": "Attempts a full method of finding $u_3$"
+            },
+            {
+              "code": "A1",
+              "type": "A",
+              "value": 1,
+              "criterion": "$u_3 = 6(k+3)+3$ OR $u_3 = 2(6k+3)+3$"
+            }
+          ],
+          "guidance": "M1: Attempts a full method of finding $u_3$. Allow if the \"+3\" is missing once only. E.g. score for an attempt at substituting $u_2 = 6k+3$ into $u_3 = 2(u_2)+3$ or their $u_2$ into $u_3 = 2u_2+3$. May be implied by a correct answer, but an incorrect answer with no substitution is M0. A1: $u_3 = 6(k+3)+3$ OR $u_3 = 2(6k+3)+3$ but isw after a correct answer is seen."
+        },
+        {
+          "label": "(b)",
+          "marks": 3,
+          "answer": "$k = 7/2$",
+          "markAllocation": [
+            {
+              "code": "M1",
+              "type": "M",
+              "value": 1,
+              "criterion": "Sets their $u_1 + u_2 + u_3 = 117$"
+            },
+            {
+              "code": "dM1",
+              "type": "M",
+              "value": 1,
+              "criterion": "Solves a 3TQ by any valid method to find at least one value for k"
+            },
+            {
+              "code": "A1",
+              "type": "A",
+              "value": 1,
+              "criterion": "$k = 7/2$ ONLY"
+            }
+          ],
+          "guidance": "M1: Sets their $u_1 + u_2 + u_3 = 117$ to produce an equation in just k. dM1: Solves a 3TQ by any valid method to find at least one value for k. A1: $k = 7/2$ ONLY."
+        }
+      ]
+    },
+    {
+      "qnum": 3,
+      "marks": 8,
+      "parts": [
+        {
+          "label": "(a)",
+          "marks": 3,
+          "answer": "$10.10$",
+          "markAllocation": [
+            {
+              "code": "B1",
+              "type": "B",
+              "value": 1,
+              "criterion": "States or uses $h=3$"
+            },
+            {
+              "code": "M1",
+              "type": "M",
+              "value": 1,
+              "criterion": "An attempt at the trapezium rule with their value of h"
+            },
+            {
+              "code": "A1*",
+              "type": "A",
+              "value": 1,
+              "criterion": "Reaches $10.10$ (or allow $10.1$) following at least one correct intermediate line and no incorrect lines that would give a significantly different answer"
+            }
+          ],
+          "guidance": "B1: States or uses $h=3$. (If there is a conflict between what is stated and used award bod if one is correct.) M1: An attempt at the trapezium rule with their value of h. Look for $h/2 \\{ \\log_{10} 2 + \\log_{10} 14 + 2(.....)\\}$ where the ..... is an attempt at at least two intermediate terms and does not repeat the end points. The bracket structure must be correct or implied. (Use of h = 4 is likely to have two terms in this inner bracket.) Allow with values correct to 2 s.f. for the first and last terms. A1*: Reaches $10.10$ (or allow $10.1$) following at least one correct intermediate line and no incorrect lines that would give a significantly different answer. Example are $3/2 \\{ \\log_{10} 2 + \\log_{10} 14 + 2(\\log_{10} 5 + \\log_{10} 8 + \\log_{10} 11)\\}$ or possibly $3/2 \\{ \\log_{10} 28 + 2\\log_{10} 440\\}$ or $3/2 (0.301 + 1.146 + 2(0.699 + 0.903 + 1.041))$ with values correct to at least 2d.p. (Note that integration via the calculator gives 10.23)"
+        },
+        {
+          "label": "(b)",
+          "marks": 1,
+          "answer": "Increase the number of strips",
+          "markAllocation": [
+            {
+              "code": "B1",
+              "type": "B",
+              "value": 1,
+              "criterion": "States 'increase the number of strips', 'decrease the width of the strips', 'use more intervals' o.e."
+            }
+          ],
+          "guidance": "B1: States 'increase the number of strips', 'decrease the width of the strips', 'use more intervals' o.e."
+        },
+        {
+          "label": "(c)",
+          "marks": 4,
+          "subparts": [
+            {
+              "label": "(i)",
+              "marks": 1,
+              "answer": "$5.05$",
+              "markAllocation": [
+                {
+                  "code": "B1",
+                  "type": "B",
+                  "value": 1,
+                  "criterion": "(awrt) $5.05$"
+                }
+              ],
+              "guidance": "B1: (awrt) $5.05$ or allow $1/2 \\times (a)$ if they make a slip miscopying the $10.10$. (This is a B mark, so allow even if this answer comes from a repeat at using the trapezium rule.)"
+            },
+            {
+              "label": "(ii)",
+              "marks": 3,
+              "answer": "$54.30$",
+              "markAllocation": [
+                {
+                  "code": "B1",
+                  "type": "B",
+                  "value": 1,
+                  "criterion": "States or implies that $\\log_{10} (100x^3) = \\log_{10} 100 + 3\\log_{10} x$"
+                },
+                {
+                  "code": "M1",
+                  "type": "M",
+                  "value": 1,
+                  "criterion": "Uses $\\left[ 2x \\right]_2^{14} + 3 \\times 10.10$ or equivalent work for finding the area of the rectangle"
+                },
+                {
+                  "code": "A1",
+                  "type": "A",
+                  "value": 1,
+                  "criterion": "$54.30$"
+                }
+              ],
+              "guidance": "B1: States or implies that $\\log_{10} (100x^3) = \\log_{10} 100 + 3\\log_{10} x$. M1: $\\left[ 2x \\right]_2^{14} + 3 \\times 10.10$ or equivalent work for finding the area of the rectangle. Use of the trapezium rule again here is M0. Must see use of (a). A1: $54.30$ Accept $54.3$."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "qnum": 4,
+      "marks": 8,
+      "parts": [
+        {
+          "label": "(a)",
+          "marks": 1,
+          "answer": "$-21$",
+          "markAllocation": [
+            {
+              "code": "B1",
+              "type": "B",
+              "value": 1,
+              "criterion": "$-21$"
+            }
+          ],
+          "guidance": "B1: $-21$"
+        },
+        {
+          "label": "(b)",
+          "marks": 2,
+          "answer": "$f(3)=0 \\Rightarrow (x-3)$ is a factor of $f(x)$",
+          "markAllocation": [
+            {
+              "code": "M1",
+              "type": "M",
+              "value": 1,
+              "criterion": "Attempts to substitute $x=3$ into $f(x)$"
+            },
+            {
+              "code": "A1*",
+              "type": "A",
+              "value": 1,
+              "criterion": "Achieves $f(3)=0$ and states that $(x-3)$ is a factor of $f(x)$"
+            }
+          ],
+          "guidance": "M1: Attempts to substitute $x = 3$ into $f(x) = (2x-3)(x-2)(x-3)-21$ or its expanded form. Condone slips but don't accept just $f(3)=0$. Attempts via long division score M0. A1*: Achieves $f(3)=0$ and states that $(x-3)$ is a factor of $f(x)$. If this latter is given in a preamble accept a minimal conclusion such as // or QED."
+        },
+        {
+          "label": "(c)",
+          "marks": 5,
+          "subparts": [
+            {
+              "label": "(i)",
+              "marks": 3,
+              "answer": "$f(x) = (x-3)(2x^2+3x+5)$",
+              "markAllocation": [
+                {
+                  "code": "B1",
+                  "type": "B",
+                  "value": 1,
+                  "criterion": "Expands $f(x)$ to $2x^3-11x^2+15x-21$"
+                },
+                {
+                  "code": "M1",
+                  "type": "M",
+                  "value": 1,
+                  "criterion": "Correct attempt to find quadratic factor using either division by $(x-3)$ or inspection"
+                },
+                {
+                  "code": "A1",
+                  "type": "A",
+                  "value": 1,
+                  "criterion": "$(x-3)(2x^2+3x+5)$"
+                }
+              ],
+              "guidance": "B1: Expands $f(x) = (2x-3)(x-2)(x-3)-21$ to reach correct 4 term cubic. Allow if the cubic is seen anywhere. M1: Correct attempt to find quadratic factor using either division by $(x-3)$ or inspection. To score the M mark look for e.g. correct first and last terms by inspection, or first two terms by division. (Two correct terms will imply the mark.) Allow for work seen in (b) a long as it is referred to in (c). A1: $(x-3)(2x^2+3x+5)$ following a correct cubic. Must be seen together on one line."
+            },
+            {
+              "label": "(ii)",
+              "marks": 2,
+              "answer": "Only root is $x=3$",
+              "markAllocation": [
+                {
+                  "code": "M1",
+                  "type": "M",
+                  "value": 1,
+                  "criterion": "Attempts to show their quadratic factor has no real roots"
+                },
+                {
+                  "code": "A1*",
+                  "type": "A",
+                  "value": 1,
+                  "criterion": "Requires correct factorisation, correct calculation, reason and conclusion"
+                }
+              ],
+              "guidance": "M1: Attempts to show their quadratic factor has no real roots. Factorisation attempts are M0. Accept via: an attempt at $b^2-4ac$ for their quadratic factor; an attempt to solve their $2x^2+3x+5$ using the quadratic formula or calculator; an attempt to complete the square. A1*: Requires correct factorisation, correct calculation, reason and conclusion. For example after (c)(i) $f(x) = (x-3)(2x^2+3x+5)$ accept e.g. $2x^2+3x+5$ has no roots as $3^2-4 \\times 2 \\times 5 < 0$ so $f(x)=0$ only has root at $x=3$. $2x^2+3x+5=0 \\Rightarrow x = (-3 \\pm i\\sqrt{31})/4$, $(x-3)=0 \\Rightarrow x=3$. So only one real root. $2(x+3/4)^2 + 31/8 > 0 \\dots$, so no roots hence 3 is the only root. There must be some reference to the root either by stating it or indicating the linear term has a root (e.g. writing “root” next to it), but do not accept incorrect statements such as only real root is $(x-3)$. Do not allow statements such as “Math error” without interpretation of what this means."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "qnum": 5,
+      "marks": 6,
+      "parts": [
+        {
+          "label": "(a)",
+          "marks": 2,
+          "answer": "$285$ tonnes",
+          "markAllocation": [
+            {
+              "code": "M1",
+              "type": "M",
+              "value": 1,
+              "criterion": "Attempts to use $a + (n-1)d$ with at least two of a, d and n correct"
+            },
+            {
+              "code": "A1",
+              "type": "A",
+              "value": 1,
+              "criterion": "$285$ tonnes"
+            }
+          ],
+          "guidance": "M1: Attempts to use $a + (n-1)d$ with at least two of a, d and n correct. (So allow with $a+nd$ if both a and d are correct, bod.) They may have $d > 0$ for this mark. A1: $285$ tonnes. Condone the omission of the units."
+        },
+        {
+          "label": "(b)",
+          "marks": 3,
+          "answer": "$N^2-65N+1036=0$",
+          "markAllocation": [
+            {
+              "code": "M1",
+              "type": "M",
+              "value": 1,
+              "criterion": "Attempts to use a correct sum formula with $S = 7770$ using their a and d, condoning slips"
+            },
+            {
+              "code": "A1",
+              "type": "A",
+              "value": 1,
+              "criterion": "A correct equation for N"
+            },
+            {
+              "code": "A1*",
+              "type": "A",
+              "value": 1,
+              "criterion": "Achieves $N^2-65N+1036=0$ (including the \"=0\") following a correct intermediate line and with no errors"
+            }
+          ],
+          "guidance": "Note: Use of n instead of N is fine throughout part (b). M1: Attempts to use a correct sum formula with $S = 7770$ using their a and d, condoning slips. A1: A correct equation for N. E.g. $N/2 \\{ 2 \\times 480 + (N-1) \\times -15 \\} = 7770$. A1*: Achieves $N^2-65N+1036=0$ (including the \"=0\") following a correct intermediate line (see scheme) and with no errors, although \"=0\" may be implied in intermediate steps."
+        },
+        {
+          "label": "(c)",
+          "marks": 1,
+          "answer": "$28$ only",
+          "markAllocation": [
+            {
+              "code": "B1",
+              "type": "B",
+              "value": 1,
+              "criterion": "States $28$ only"
+            }
+          ],
+          "guidance": "B1: States 28 only. The 37 should be rejected if found. 29 is B0."
+        }
+      ]
+    },
+    {
+      "qnum": 6,
+      "marks": 8,
+      "parts": [
+        {
+          "label": "(i)",
+          "marks": 4,
+          "subparts": [
+            {
+              "label": "(a)",
+              "marks": 2,
+              "answer": "Centre $(-5, 6)$",
+              "markAllocation": [
+                {
+                  "code": "M1",
+                  "type": "M",
+                  "value": 1,
+                  "criterion": "Attempts to complete the square on both x and y or states the centre as $(\\pm 5, \\pm 6)$"
+                },
+                {
+                  "code": "A1",
+                  "type": "A",
+                  "value": 1,
+                  "criterion": "Centre $(-5,6)$"
+                }
+              ],
+              "guidance": "M1: Attempts to complete the square on both x and y or states the centre as $(\\pm 5, \\pm 6)$. For completing the square look for $(x \\pm 5)^2 + (y \\pm 6)^2 = \\dots$. A1: Centre $(-5,6)$. This written down can score M1 A1. Allow written as separate coordinates ie. $x=-5, y=6$."
+            },
+            {
+              "label": "(b)",
+              "marks": 2,
+              "answer": "$k > -61$",
+              "markAllocation": [
+                {
+                  "code": "M1",
+                  "type": "M",
+                  "value": 1,
+                  "criterion": "Sets $(k + (\\pm 5)^2 + (\\pm 6)^2) > 0$"
+                },
+                {
+                  "code": "A1",
+                  "type": "A",
+                  "value": 1,
+                  "criterion": "$k > -61$"
+                }
+              ],
+              "guidance": "M1: $(k + (\\pm 5)^2 + (\\pm 6)^2) > 0$. Follow through on their $(-5,6)$. Allow $(k + (\\pm 5)^2 + (\\pm 6)^2) \\dots 0$. They must have an inequality for this mark. A1: $k > -61$ but allow $k \\ge -61$."
+            }
+          ]
+        },
+        {
+          "label": "(ii)",
+          "marks": 4,
+          "answer": "$p = 3 + \\sqrt{165}$ only",
+          "markAllocation": [
+            {
+              "code": "M1",
+              "type": "M",
+              "value": 1,
+              "criterion": "Attempts centre and radius (or radius squared) of $C_2$ using a correct method"
+            },
+            {
+              "code": "A1",
+              "type": "A",
+              "value": 1,
+              "criterion": "Centre is $(-3, 2)$; radius is $13$"
+            },
+            {
+              "code": "M1",
+              "type": "M",
+              "value": 1,
+              "criterion": "Uses their centre and radius in a correct method to find p"
+            },
+            {
+              "code": "A1",
+              "type": "A",
+              "value": 1,
+              "criterion": "$p = 3 + \\sqrt{165}$ ONLY"
+            }
+          ],
+          "guidance": "M1: Attempts centre and radius (or radius squared) of $C_2$ using a correct method. (If only the diameter is found it is M0). NB the attempt at the radius may arise from an attempt at QX or RX where X is the centre. A1: Correct centre and radius. Centre at $(-3, 2)$ and radius = 13. M1: Uses their centre and radius (allow if they think the diameter is the radius) in a correct method to find p (or x when y = 0). E.g. finds the equation of $C_2$, sets $y=0$ and solves to find p (or x). uses the fact that PX = r or $PX^2 = r^2$ (where X is the centre) to form and solve an equation in p. For this mark allow if their centre and radius of the circle from (i) are used. A1: $3 + \\sqrt{165}$ ONLY. Alt 6 (ii) M1: Uses either $PQ^2+PR^2=RQ^2$ or grad PQ $\\times$ grad PR = -1. A1: Correct equation. E.g. $(p-(-10))^2 + (0-8)^2 + (p-(-14))^2 + (0-2)^2 = (-10-(-14))^2 + (8-2)^2$. Alternatively $(8-0)/(p-(-10)) \\times (2-0)/(p-(-14)) = -1$. dM1: Attempts to set up and solve a 3TQ resulting in a value for p. FYI $p^2+6p-156=0$. A1: $p = 3 + \\sqrt{165}$ only."
+        }
+      ]
+    },
+    {
+      "qnum": 7,
+      "marks": 10,
+      "parts": [
+        {
+          "label": "(i)",
+          "marks": 3,
+          "answer": "$n=129$",
+          "markAllocation": [
+            {
+              "code": "B1",
+              "type": "B",
+              "value": 1,
+              "criterion": "States or implies the solution can be found by solving $4 \\times 6^{n-1} \\dots 100$"
+            },
+            {
+              "code": "M1",
+              "type": "M",
+              "value": 1,
+              "criterion": "Shows a correct method of solving an equation of the form $4 \\times 6^N \\dots 100$ by correctly taking logs to produce an equation without powers"
+            },
+            {
+              "code": "A1",
+              "type": "A",
+              "value": 1,
+              "criterion": "$n=129$"
+            }
+          ],
+          "guidance": "B1: States or implies the solution can be found by solving $4 \\times 6^{n-1} \\dots 100$ where ... can be = or any inequality. M1: Shows a correct method of solving an equation of the form $4 \\times 6^N \\dots 100$ by correctly taking logs to produce an equation without powers. The log and index work must be correct, but allow slips in rearranging terms. A1: $n=129$."
+        },
+        {
+          "label": "(ii)",
+          "marks": 7,
+          "subparts": [
+            {
+              "label": "(a)",
+              "marks": 3,
+              "answer": "$25r^2-25r-6=0$",
+              "markAllocation": [
+                {
+                  "code": "B1",
+                  "type": "B",
+                  "value": 1,
+                  "criterion": "States or implies the correct two equations in a and r"
+                },
+                {
+                  "code": "M1",
+                  "type": "M",
+                  "value": 1,
+                  "criterion": "Combines $ar = -6$ and $a/(1-r) = 25$ to form a single equation in r"
+                },
+                {
+                  "code": "A1*",
+                  "type": "A",
+                  "value": 1,
+                  "criterion": "Proceeds to $25r^2-25r-6=0$ showing at least one correct simplified intermediate line and no errors"
+                }
+              ],
+              "guidance": "B1: States or implies the correct two equations in a and r. $ar = -6$ and $a/(1-r) = 25$. M1: Combines $ar = -6$ and $a/(1-r) = 25$ to form a single equation in r. A1*: Proceeds to $25r^2-25r-6=0$ showing at least one correct simplified intermediate line and no errors."
+            },
+            {
+              "label": "(b)",
+              "marks": 1,
+              "answer": "$r = 6/5, -1/5$",
+              "markAllocation": [
+                {
+                  "code": "B1",
+                  "type": "B",
+                  "value": 1,
+                  "criterion": "$r = 6/5, -1/5$"
+                }
+              ],
+              "guidance": "B1: $r = 6/5, -1/5$ or exact equivalent – award when seen even if not in part (b)."
+            },
+            {
+              "label": "(c)",
+              "marks": 1,
+              "answer": "$r = -1/5$ as $|r|<1$",
+              "markAllocation": [
+                {
+                  "code": "B1",
+                  "type": "B",
+                  "value": 1,
+                  "criterion": "$r = -1/5$"
+                }
+              ],
+              "guidance": "B1: $r = -1/5$ as $|r|<1$ (for $S_\\infty$ to exist). Requires a minimal reason, but accept reasons that reject $6/5$ since it would mean all the terms are negative so cannot give a positive sum. Do not accept just “as the GS is convergent”."
+            },
+            {
+              "label": "(d)",
+              "marks": 2,
+              "answer": "$24.96$",
+              "markAllocation": [
+                {
+                  "code": "M1",
+                  "type": "M",
+                  "value": 1,
+                  "criterion": "Attempts $S_n = a(1-r^n)/(1-r)$ with $n=4$, their $r$ from (c) and their $a$ from $ar=-6$"
+                },
+                {
+                  "code": "A1",
+                  "type": "A",
+                  "value": 1,
+                  "criterion": "$24.96$"
+                }
+              ],
+              "guidance": "M1: Attempts $S_n = a(1-r^n)/(1-r)$ with $n=4$, their $r$ from (c) and their $a$ from $ar=-6$. If there was no attempt to answer (c) accept with either value from (b) for r. If the correct formula is quoted then you can allow slips in substitution, but if the correct formula is not quoted then the equation should be correct for their r and a. Alternatively, they may find and add the first 4 terms. A1: $24.96$ or equivalent such as $624/25$."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "qnum": 8,
+      "marks": 10,
+      "parts": [
+        {
+          "label": "(a)",
+          "marks": 3,
+          "answer": "$k=28$",
+          "markAllocation": [
+            {
+              "code": "M1",
+              "type": "M",
+              "value": 1,
+              "criterion": "Attempts $dy/dx$ with one index correct"
+            },
+            {
+              "code": "dM1",
+              "type": "M",
+              "value": 1,
+              "criterion": "Substitutes $x=2$ into $dy/dx$ and sets $=0$"
+            },
+            {
+              "code": "A1*",
+              "type": "A",
+              "value": 1,
+              "criterion": "Achieves $k=28$ via a correct intermediate line and no missing \"=0\""
+            }
+          ],
+          "guidance": "M1: Attempts $dy/dx$ with one index correct. Must be seen in part (a). dM1: Substitutes $x=2$ into $dy/dx$ and sets $=0$. The $dy/dx$ must be of the form $ax^2+bx+k$ and the substitution must be clear. Going directly to $16-44+k=0$ is M0. The \"=0\" may be implied by an attempt to solve the equation for this mark. A1*: Achieves $k=28$ via a correct intermediate line and no missing \"=0\"."
+        },
+        {
+          "label": "(b)",
+          "marks": 2,
+          "answer": "$x < 2, x > 7/2$",
+          "markAllocation": [
+            {
+              "code": "M1",
+              "type": "M",
+              "value": 1,
+              "criterion": "Attempts to find the critical values"
+            },
+            {
+              "code": "A1",
+              "type": "A",
+              "value": 1,
+              "criterion": "$x < 2, x > 7/2$ or $x \\le 2, x \\ge 7/2$"
+            }
+          ],
+          "guidance": "M1: Attempts to find the critical values. A1: $x < 2, x > 7/2$ or $x \\le 2, x \\ge 7/2$. Do not accept $2 < x < 7/2$. Accept alternative set notations."
+        },
+        {
+          "label": "(c)",
+          "marks": 5,
+          "answer": "$40/3$",
+          "markAllocation": [
+            {
+              "code": "M1",
+              "type": "M",
+              "value": 1,
+              "criterion": "Attempts to integrate with one index correct"
+            },
+            {
+              "code": "A1",
+              "type": "A",
+              "value": 1,
+              "criterion": "Correct integration $4/3 x^3 - 11/2 x^2 + 28x$"
+            },
+            {
+              "code": "B1",
+              "type": "B",
+              "value": 1,
+              "criterion": "Correct y coordinate of M $68/3$"
+            },
+            {
+              "code": "M1",
+              "type": "M",
+              "value": 1,
+              "criterion": "Complete method to find R = $2 \\times (68/3) - \\int_0^2 (4x^2-11x+28) dx$"
+            },
+            {
+              "code": "A1",
+              "type": "A",
+              "value": 1,
+              "criterion": "$40/3$"
+            }
+          ],
+          "guidance": "M1: Attempts to integrate with one index correct. A1: Correct integration $4/3 x^3 - 11/2 x^2 + 28x$. Need not be simplified. B1: Correct y coordinate of M $68/3$. Accept awrt 22.7 for this mark. May be seen anywhere e.g. on the sketch. M1: Complete method to find R = $2 \\times (68/3) - \\int_0^2 (4x^2-11x+28) dx$ OR $2 \\times (68/3) - [4/3 x^3 - 11/2 x^2 + 28x]_0^2$. The lower limit may be implied. The integral must be a changed function. A1: $40/3$ or exact equivalent."
+        }
+      ]
+    },
+    {
+      "qnum": 9,
+      "marks": 4,
+      "parts": [
+        {
+          "label": "(a)",
+          "marks": 3,
+          "answer": "Proof that $x+y \\ge 2\\sqrt{xy}$",
+          "markAllocation": [
+            {
+              "code": "M1",
+              "type": "M",
+              "value": 1,
+              "criterion": "Sets up $(x-y)^2 \\ge 0$ and attempts to expand leading to three terms"
+            },
+            {
+              "code": "A1",
+              "type": "A",
+              "value": 1,
+              "criterion": "Correct expanded inequality $x^2-2xy+y^2 \\ge 0$"
+            },
+            {
+              "code": "A1*",
+              "type": "A",
+              "value": 1,
+              "criterion": "Rearranges to the required equation with no errors seen"
+            }
+          ],
+          "guidance": "M1: Sets up a correct inequality and attempts to expand $(x-y)^2$ leading to three terms. A1: Correct expanded equation. A1: Rearranges to the required equation with no errors seen. If working in reverse allow the first M and A (if steps correct) but require also a minimal conclusion for the final A. Alt 1 M1: Assumes $x+y \\ge 2\\sqrt{xy}$ true and attempts to square obtaining at least three terms. A1: Correct expansion and rearranges the inequality correctly to factorise to a perfect square. A1: A complete conclusion given. Alt 2 M1: Sets up an inequality using an appropriate perfect square and expands to at least three terms. A1: Makes a correct rearrangement and factors the left hand side to produce the equation shown. A1: Makes a full conclusion justifying why the square root gives x + y."
+        },
+        {
+          "label": "(b)",
+          "marks": 1,
+          "answer": "Example: $x=-8, y=-2$",
+          "markAllocation": [
+            {
+              "code": "B1",
+              "type": "B",
+              "value": 1,
+              "criterion": "Gives a suitable example with both sides evaluated correctly and a minimal conclusion"
+            }
+          ],
+          "guidance": "B1: Gives a suitable example with both sides evaluated correctly and a minimal conclusion. There is no need to refer to x and y in the conclusion, so long as it has been shown the required inequality does not hold. E.g. $-8+(-2) = -10$, $2\\sqrt{(-8)(-2)} = 2\\sqrt{16} = 8$. $-10 < 8$. QED is fine. A common response most likely to score 2 out of 3 marks."
+        }
+      ]
+    },
+    {
+      "qnum": 10,
+      "marks": 10,
+      "parts": [
+        {
+          "label": "(i)",
+          "marks": 5,
+          "answer": "$x = -11\\pi/24, -7\\pi/24, 5\\pi/24, 11\\pi/24$",
+          "markAllocation": [
+            {
+              "code": "M1",
+              "type": "M",
+              "value": 1,
+              "criterion": "Correct order of operations. Takes square root followed by arctan"
+            },
+            {
+              "code": "dM1",
+              "type": "M",
+              "value": 1,
+              "criterion": "Complete attempt to find one value for x"
+            },
+            {
+              "code": "A1",
+              "type": "A",
+              "value": 1,
+              "criterion": "One value of $-11\\pi/24, 5\\pi/24$"
+            },
+            {
+              "code": "A1",
+              "type": "A",
+              "value": 1,
+              "criterion": "One value of $-7\\pi/24, 11\\pi/24$"
+            },
+            {
+              "code": "A1",
+              "type": "A",
+              "value": 1,
+              "criterion": "All four values $-11\\pi/24, -7\\pi/24, 5\\pi/24, 11\\pi/24$ and no other values in the range"
+            }
+          ],
+          "guidance": "M1: Correct order of operations. Takes square root followed by arctan. Implied by $2x + \\pi/4 = \\pm \\pi/3$, $2x + \\pi/4 = \\pm 1.047$. Condone for this mark only $2x + \\pi/4 = \\pm 60$. Allow if they use $\\theta$ for $2x + \\pi/4$. A longer method is to do $\\tan^2(2x+\\pi/4) = 3 \\Rightarrow \\sin^2(2x+\\pi/4) = 3\\cos^2(2x+\\pi/4)$ and use $\\sin^2\\theta + \\cos^2\\theta = 1$ to produce an equation in either sin or cos, before taking the inverse. They must have a correct method up to slips in rearranging, and reach the stage of taking arcsin or arccos in order to score the M. dM1: Complete attempt to find one value for x. This would involve an attempt to move the $\\pi/4$ before dividing by 2. Condone $x = (\\pm 1.047 - \\pi/4) \\div 2$. A1: One value of $-11\\pi/24, 5\\pi/24$. Condone decimals here awrt 0.13, -1.44. A1: One value of $-7\\pi/24, 11\\pi/24$. Condone decimals here awrt 0.65, -0.92. A1: All four values $-11\\pi/24, -7\\pi/24, 5\\pi/24, 11\\pi/24$ and no other values in the range."
+        },
+        {
+          "label": "(ii)",
+          "marks": 5,
+          "answer": "$\\theta = 53.1^\\circ, 180^\\circ, 233.1^\\circ$",
+          "markAllocation": [
+            {
+              "code": "M1",
+              "type": "M",
+              "value": 1,
+              "criterion": "Attempts to multiply out to at least three terms, and use $\\sin^2\\theta + \\cos^2\\theta = 1$ somewhere in the equation"
+            },
+            {
+              "code": "dM1",
+              "type": "M",
+              "value": 1,
+              "criterion": "Cancels or factorises out the $\\sin\\theta$ term to produce a factor $\\sin\\theta(a\\sin\\theta \\pm b\\cos\\theta)$ or an equation of the form $a\\sin\\theta \\pm b\\cos\\theta = 0$ oe"
+            },
+            {
+              "code": "A1",
+              "type": "A",
+              "value": 1,
+              "criterion": "$\\tan\\theta = 4/3$"
+            },
+            {
+              "code": "A1",
+              "type": "A",
+              "value": 1,
+              "criterion": "$\\theta = 53.1^\\circ, 233.1^\\circ$ and no others in the range"
+            },
+            {
+              "code": "B1",
+              "type": "B",
+              "value": 1,
+              "criterion": "$\\theta = 180^\\circ$"
+            }
+          ],
+          "guidance": "M1: Attempts to multiply out to at least three terms, and use $\\sin^2\\theta + \\cos^2\\theta = 1$ somewhere in the equation. dM1: Cancels or factorises out the $\\sin\\theta$ term to produce a factor $\\sin\\theta(a\\sin\\theta \\pm b\\cos\\theta)$ or an equation of the form $a\\sin\\theta \\pm b\\cos\\theta = 0$ oe (the \"=0\" may be implied). A1: $\\tan\\theta = 4/3$. A1: $\\theta = 53.1^\\circ, 233.1^\\circ$ and no others in the range. (Note: 0 and 360° are outside the range so ignore if given as solutions.) B1: $\\theta = 180^\\circ$. Award when seen and allow however it arises. Alt M1: Attempts at least one of $\\cos\\theta = 1 \\pm 2\\sin\\theta$, rearranges and squares then attempts to use $\\sin^2\\theta + \\cos^2\\theta = 1$ to produce an equation in just $\\cos\\theta$ or just $\\sin\\theta$. FYI in $\\sin\\theta$ it is $4\\sin^2\\theta \\pm 4\\sin\\theta + 1 = 1-\\sin^2\\theta$. dM1: Solves their quadratic in $\\cos\\theta$ or $\\sin\\theta$ to obtain at least one value for $\\cos\\theta$ or $\\sin\\theta$. A1: One correct pair of solutions. FYI in $\\sin\\theta$ it is $\\sin\\theta = 0, 4/5$ or $\\sin\\theta = 0, -4/5$. A1: $\\theta = 53.1^\\circ, 233.1^\\circ$ and no others in the range. (Note via this method some extra solutions in the range are likely). B1: $\\theta = 180^\\circ$. Award when seen and allow however it arises. It is possible someone could have studied WMA13. M1: Attempts to write $2\\sin\\theta - \\cos\\theta$ in the form $R\\sin(\\theta - \\alpha)$ o.e. FYI $2\\sin\\theta - \\cos\\theta = \\sqrt{5}\\sin(\\theta - 26.6^\\circ)$. dM1: Proceeds from $R^2\\sin^2(\\theta - \\alpha) = 1$ to $\\sin(\\theta - \\alpha) = \\pm 1/R$. A1: $\\sin(\\theta - 26.6^\\circ) = \\pm 1/\\sqrt{5}$. A1: $\\theta = 53.1^\\circ, 233.1^\\circ$ and no others in the range. (Note: 0 and 360° are outside the range so ignore if given as solutions.) B1: $\\theta = 180^\\circ$. Award when seen and allow however it arises."
+        }
+      ]
+    }
+  ]
+}

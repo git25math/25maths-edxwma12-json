@@ -1,0 +1,728 @@
+{
+  "v": "1.0",
+  "paper": "2025May-WMA12-01A",
+  "board": "edx",
+  "code": "WMA12",
+  "year": 2025,
+  "session": "May",
+  "paperNum": "01",
+  "totalMarks": 75,
+  "questions": [
+    {
+      "qnum": 1,
+      "marks": 3,
+      "answer": "a b c abc\n2 15 3 90\n3 9 8 216\n4 1 15 60\nAll values of abc are multiples of 6",
+      "markAllocation": [
+        {
+          "code": "B1",
+          "type": "B",
+          "value": 1,
+          "criterion": "One correct set a, b & c"
+        },
+        {
+          "code": "M1",
+          "type": "M",
+          "value": 1,
+          "criterion": "Two correct rows"
+        },
+        {
+          "code": "A1",
+          "type": "A",
+          "value": 1,
+          "criterion": "Fully correct + statement"
+        }
+      ],
+      "guidance": "Main method: Numerical answer finding all known solutions\nB1: Any correct set of values for a, b and c. You can ignore any attempt at the product abc\nM1: Any two fully correct rows including the correct calculations for the products.\nCondone any extra or incorrect rows\nA1: Fully correct. The solution must have\n• the three correct rows with correct calculations for abc\n• any extra (or incorrect) rows that may be present must be deleted or somehow excluded\n• a minimal statement showing that they are aware that 90, 216 and 60 are multiples of 6.\nE.g they are all divisible by 6, use of a tick ✓, proven, QED, calculations such as $90/6 = 15$. They\ncan be divided by 6 (on its own) is insufficient without further clarification such as ''to give whole\nnumbers''\n• no incorrect calculations. E.g if their attempt to prove that 90 being a multiple of 6 includes\n$90/6 = 10$ then it is A0\nAlgebraic solution or solutions that rely on explanations: These will be rare and unlikely to lead to\ncompletely correct solutions.\nExample of an attempt that has some merit based upon odds and evens\nIf a is even\nThen $a = 2n$, leading to $c = (2n-1)(2n+1) = 4n^2-1$ and $b = 4n^2-2n-2$\ngiving $abc = (2n)(4n^2-2n-2)(4n^2-1)$\nIf a is odd.\nThen $a = 2n+1$, leading to $c = 4n(n+1)$ and $b = 4n^2-6n-19$\ngiving $abc = (2n+1)(4n^2-6n-19)(4n(n+1))$\nB1: Attempts both odd and even and achieves correct algebraic expressions for a, b and c in both cases.\nM1: Correct products with attempts when $n = 1, 2$ and achieves two fully correct rows\nA1: Fully correct with no additional rows"
+    },
+    {
+      "qnum": 2,
+      "marks": 6,
+      "parts": [
+        {
+          "label": "(a)",
+          "marks": 2,
+          "answer": "E.g. $64 \\times (-1/2)^3 = -8$ ✓ *",
+          "markAllocation": [
+            {
+              "code": "M1",
+              "type": "M",
+              "value": 1,
+              "criterion": "Any acceptable attempt to prove the statement."
+            },
+            {
+              "code": "A1*",
+              "type": "A",
+              "value": 1,
+              "criterion": "Fully correct proof."
+            }
+          ],
+          "guidance": "(a)\nM1: Any acceptable attempt to prove the statement.\nThis usually involves getting to an equation in r…\nE.g. I $ar^2 = 64, ar^5 = -8 \\implies r^3 = -8$ o.e. such as $ar^2 = 64, ar^5 = -8 \\implies r^{-3} = -8$ \nE.g. II $ar^2 = 64, ar^5 = -8 \\implies r^3 = -8/64$\n(the numbers used in the attempt, that is 64 and -8 must be correct)\nbut could involve using the given answer\nE.g. III $64 \\times (-1/2)^3$, $64 \\times (-1/2) \\times (-1/2) \\times (-1/2)$ or $-8 \\div (-1/2)^3$\nCondone the following types of slips/errors\nE.g. I or II with incorrect indices on terms as long as they differ by 3; $ar^3 = 64, ar^6 = -8 \\implies r^3 = -8$\nE.g. III with missing brackets $64 \\times -1/2^3$\nA1*: Fully correct proof. A minimal proof could be $r^3 = -8 \\implies r = -1/2$ o.e\nAs the result is given a direct proof must have a penultimate line equivalent of $r^3 = -8$ or $-r^3 = 8$\nIf they state $r^3 = -64/8$ followed by $r = -1/2$ without any intermediate work then it is M1 A0\nIf they assume the answer then expect to see equivalent to $64 \\times (-1/2)^3 = -8$ which must be\nfollowed by a concluding statement (tick sufficient) is required.\nEquivalent work would be $64 \\times -1/2 \\times -1/2 \\times -1/2 \\to -32 \\to 16 \\to -8 \\checkmark$\nThis mark cannot be awarded from incorrect indices on r or missing brackets (that are necessary)"
+        },
+        {
+          "label": "(b)",
+          "marks": 4,
+          "answer": "$a = 256$, $S_{\\infty} = 512/3$",
+          "markAllocation": [
+            {
+              "code": "M1",
+              "type": "M",
+              "value": 1,
+              "criterion": "Finds the value of a. E.g. $a \\times (-1/2)^2 = 64 \\implies a = 256$"
+            },
+            {
+              "code": "A1",
+              "type": "A",
+              "value": 1,
+              "criterion": "States or implies that $a = 256$ via the correct $r = -1/2$."
+            },
+            {
+              "code": "M1",
+              "type": "M",
+              "value": 1,
+              "criterion": "Uses $S_{\\infty} = a/(1-r)$ with a value of $a \\ne 64, -8$ and $r = \\pm 1/2$"
+            },
+            {
+              "code": "A1",
+              "type": "A",
+              "value": 1,
+              "criterion": "$512/3$ o.e. ISW after a correct answer."
+            }
+          ],
+          "guidance": "(b) The marks for the following can only be awarded from work in part (b)\nM1: Uses a suitable method to find the value of a allowing $r = \\pm 1/2$\nE,g. Attempts $a \\times (\\pm 1/2)^2 = 64 \\implies a = ...$\nCondone a missing bracket e.g. $a \\times -1/2^2 = 64 \\implies a = ...$\nA1: States or implies that $a = 256$ via the correct $r = -1/2$. \nStating the value scores the two marks. Note that $a \\times 1/4 = 64 \\implies a = 256$ is M1, A1 (nothing incorrect)\nThis can be awarded following a missing bracket. (It isn’t a proof)\nM1: Uses $S_{\\infty} = a/(1-r)$ with a value of $a \\ne 64, -8$ and $r = \\pm 1/2$\nSo award $S_{\\infty} = 'a'/(1-1/2)$ or $S_{\\infty} = 'a'/(1-(-1/2))$ but if an incorrect formula is stated score it M0\nA1: $512/3$ o.e . ISW after a correct answer.\nCondone $170.6\\dot{6}$ but do not allow awrt 170.7 unless the exact correct answer is seen first."
+        }
+      ]
+    },
+    {
+      "qnum": 3,
+      "marks": 7,
+      "parts": [
+        {
+          "label": "(a)",
+          "marks": 1,
+          "answer": "$-5$",
+          "markAllocation": [
+            {
+              "code": "B1",
+              "type": "B",
+              "value": 1,
+              "criterion": "States $-5$"
+            }
+          ],
+          "guidance": "(a)\nB1: States $-5$\nYou may see $f(k)$ or a division sum attempted, which is fine. You are just awarding the sight of $-5$\nDon’t be too concerned about what $-5$ is called. You may see $f(x)$, $f(k)$ or even $x$"
+        },
+        {
+          "label": "(b)",
+          "marks": 2,
+          "answer": "$k = -4$",
+          "markAllocation": [
+            {
+              "code": "M1",
+              "type": "M",
+              "value": 1,
+              "criterion": "Sets $f(-2) = 25$ to form an equation in k"
+            },
+            {
+              "code": "A1*",
+              "type": "A",
+              "value": 1,
+              "criterion": "Shows sufficient working with no errors to prove that $k = -4$."
+            }
+          ],
+          "guidance": "(b)\nM1: Sets $f(-2) = 25$ to form an equation in k Condone sign slips within the calculations but setting\n$f(-2) = -25$ or $f(2) = 25$ is M0. Some may attempt to substitute $-2$ into the expanded form of\n$f(x) = 3x^3 + (4-k)x^2 + (5-5k)x + k$ which is fine. Condone slips but expect to see linear\ncoefficients for k in each of $x^2, x$ and the constant terms.\nDon’t be concerned about poor attempts to solve the equation in k for this mark\nA1*: Shows sufficient working with no errors to prove that $k = -4$.\nThe answer must follow a simplified and (easily) solvable equation.\n(See scheme for possible route but allow simplified linear equations like $-30 - 15k = 30$)\n…………………………………………………………………………………………………………………\nM1: Alternatively substitutes $k = -4$ into $f(x)$ to get $(x-3)(x-4)(x+5) - 4(x+5)$ and attempt the value of\n$f(-2)$\nA1: Shows that $f(-2) = (-2-3)(-2-4)(-2+5) - 4(-2+5) = (-5)(-6)(3) - 4(3) = 15 \\times 2 - 5 = 25$ and makes a minimal conclusion e.g. ✓\n…………………………………………………………………………………………………………………"
+        },
+        {
+          "label": "(c)",
+          "marks": 4,
+          "answer": "Quotient = $3x^2 + 6x - 6$, Remainder = $-31$",
+          "markAllocation": [
+            {
+              "code": "B1",
+              "type": "B",
+              "value": 1,
+              "criterion": "Multiplies out $(x-3)(x-4)(x+5) - 4(x+5)$ to achieve a simplified $3x^3 + 8x^2 - 21x - 25$"
+            },
+            {
+              "code": "M1",
+              "type": "M",
+              "value": 1,
+              "criterion": "Scored for a full method of finding both the quotient and the remainder."
+            },
+            {
+              "code": "A1ft",
+              "type": "A",
+              "value": 1,
+              "criterion": "For either the quotient = $3x^2 + 6x - 6$. Or the remainder = $-31$"
+            },
+            {
+              "code": "A1",
+              "type": "A",
+              "value": 1,
+              "criterion": "States that the Quotient = $3x^2 + 6x - 6$ AND the Remainder = $-31$."
+            }
+          ],
+          "guidance": "(c)\nB1: Multiplies out $(x-3)(x-4)(x+5) - 4(x+5)$ to achieve a simplified $3x^3 + 8x^2 - 21x - 25$\nM1: Scored for a full method of finding both the quotient and the remainder.\nThe two main ways of scoring this mark are;\nEither attempting to divide their expanded $f(x)$ by $(x-1/3)$ to form a quotient of the form\n$Ax^2 + Bx + C$ and a remainder that is a constant.\nAlternatively, setting up an identity of the form $(x-1/3)(Ax^2 + Bx + C) + R$ followed by an attempt to\nfind the values of A, B, C and R.\nWatch for candidates who find $f(1/3) = -31$ and then adapt $f(x)$ to $3x^3 + 8x^2 - 21x + 6$. The M mark\nwould be scored for dividing their $3x^3 + 8x^2 - 21x + 6$ by $(x-1/3)$ to form a quotient of the form\n$Ax^2 + Bx + C$ and a remainder that is a constant (which should be 0 in a correct division).\nA1ft: For either the quotient = $3x^2 + 6x - 6$. Allow this to be scored within the division sum\nOr the remainder = $-31$ (may be scored within the division sum)\nIt must follow M1 so attempting $f(1/3)$ and reaching $-31$ will not score this mark without further\nwork\nFollow through on finding a correct quotient or remainder for their $3x^3 + 8x^2 - 21x - 25$ (4 term cubic\nexpression). Note that any $3x^3 + 8x^2 - 21x + k$ will have a quotient of $3x^2 + 6x - 6$\nA1: States that the Quotient = $3x^2 + 6x - 6$ AND the Remainder = $-31$. These cannot be scored within a\ndivision sum and must be stated separately to this. All previous marks must have been scored in (c)\nso cannot be awarded following an incorrect $f(x)$"
+        }
+      ]
+    },
+    {
+      "qnum": 4,
+      "marks": 9,
+      "parts": [
+        {
+          "label": "(a)",
+          "marks": 4,
+          "answer": "$a = 1/80$",
+          "markAllocation": [
+            {
+              "code": "M1",
+              "type": "M",
+              "value": 1,
+              "criterion": "Sets $\\log_3(a+1) - \\log_3 4 = \\log_3 a$ and then applies the subtraction law."
+            },
+            {
+              "code": "A1",
+              "type": "A",
+              "value": 1,
+              "criterion": "Correct equation not involving logs. For example, $(a+1)/4 = a$"
+            },
+            {
+              "code": "dM1",
+              "type": "M",
+              "value": 1,
+              "criterion": "Correct attempt to solve an equation of the form $(x+1)/k = x$ o.e. where k is an integer $k \\ne 3$ or 4."
+            },
+            {
+              "code": "A1",
+              "type": "A",
+              "value": 1,
+              "criterion": "$a = 1/80$ or $x = 1/80$ or 0.0125 following the award of M1,A1, dM1."
+            }
+          ],
+          "guidance": "(a) Allow with $a \\leftrightarrow x$ as seen in the notes\nM1: Sets $\\log_3(x+1) - \\log_3 4 = \\log_3 x$ and then applies the subtraction law. Condone the omission of the 3 in\nlog3\nAlternatively writes the equation $\\log_3(x+1) = \\log_3 x + \\log_3 4$ as $\\log_3(x+1) = \\log_3(kx)$ where $k \\ne 3$\nand then uses the addition law $\\log_3(x+1) = \\log_3(kx)$\nA1: Correct equation not involving logs. For example, $(x+1)/4 = x$\ndM1: Correct attempt to solve an equation of the form $(x+1)/k = x$ o.e. where k is an integer $k \\ne 3$ or 4.\nLook for $(x+1)/k = x \\implies x = 1/(k-1)$ where $k \\ne 3$.\nA1: a or $x = 1/80$ or 0.0125 following the award of M1,A1, dM1.\nWorking must be seen as required by the question.\nSpecial Case:\nYou may see attempts that proceed towards the correct answer using incorrect laws.\nE.g. $\\log_3(x+1) - \\log_3 4 = \\log_3 x \\implies \\log_3((x+1)/4) = \\log_3 x \\implies (x+1)/4 = x \\implies x+1 = 4x \\implies 3x = 1 \\implies x = 1/3$\nCandidates who achieve the correct answer using the above incorrect line can score SC 0, 0, 1, 1"
+        },
+        {
+          "label": "(b)",
+          "marks": 4,
+          "answer": "$\\log_3 15$",
+          "markAllocation": [
+            {
+              "code": "M1",
+              "type": "M",
+              "value": 1,
+              "criterion": "Score for a reasonable attempt at applying the trapezium rule."
+            },
+            {
+              "code": "A1",
+              "type": "A",
+              "value": 1,
+              "criterion": "A fully correct application of the trapezium rule in un-simplified form."
+            },
+            {
+              "code": "dM1",
+              "type": "M",
+              "value": 1,
+              "criterion": "Correct use of logs in an attempt to fully combine their terms following the award of the previous M."
+            },
+            {
+              "code": "A1",
+              "type": "A",
+              "value": 1,
+              "criterion": "$\\log_3 15$ following M1, A1 dM1"
+            }
+          ],
+          "guidance": "(b)\nCondone the omission of the 3 in log3 except for the final A mark where they must arrive at\n$\\log_3 15$. \nAny use of calculators to produce decimal equivalents to these values will result in a maximum\nscore of 1,0,0,0 marks as an exact value could never be achieved.\nM1: Score for a reasonable attempt at applying the trapezium rule.\nLook for an attempt at the correct form $h/2 \\{first term + last term + 2 \\sum of the other terms\\}$ with at\nleast the following\n(1) Correct first or last term\n(2) At least two correct ‘other terms’\n(3) $h = 1$\nThe bracketing must be correct but condone a missing trailing bracket.\nSo, look for a minimum of $1/2 \\{a + e + 2 \\times (b+c+d)\\}$ with a or e correct, two out of three of b, c and\nd correct with the missing trailing bracket\nFYI the decimal solution is $1/2 \\{0.631 + 0.166 + 2(0.369 + 0.262 + 0.203)\\}$ allow awrt 2 dp\nA1: A fully correct application of the trapezium rule in un-simplified form.\nAmongst various correct alternatives are\n$Area \\approx 1/2 \\{\\log_3 2 + \\log_3 6 + 2(\\log_3 3 + \\log_3 4 + \\log_3 5)\\}$\n$(Area \\approx 1/2 \\{\\log_3 2 + (\\log_3 6 - \\log_3 5) + 2(\\log_3 3 - \\log_3 2) + (\\log_3 4 - \\log_3 3) + (\\log_3 5 - \\log_3 4)\\}$\n$(Area \\approx 1/2 \\{\\log_3 2 + (\\log_3 6 - \\log_3 5) + 2(\\log_3 3 - \\log_3 2) + (\\log_3 5 - \\log_3 4)\\}$\n$Area \\approx 1/2 \\{\\log_3(2/1) + \\log_3(3/2) + \\log_3(4/3) + \\log_3(5/4) + \\log_3(6/5)\\}$\nFYI: A fully simplified expression for the approximate $Area$ is $1/2 \\{\\log_3 6 + \\log_3 5 - \\log_3 2\\}$\nCondone the omission of the trailing bracket as long as subsequent work implies its presence.\ndM1: Correct use of logs in an attempt to fully combine their terms following the award of the previous M.\nThis must include sight of at least one correct use of two of the three log laws.\nSo, use of just addition and subtraction laws is fine as would addition and power laws\nThis mark can be implied if they go directly from a correct exact expression to the correct answer.\nCandidates must proceed as far as $1/2 \\log p$ or $\\log q$\nA1: $\\log_3 15$ following M1, A1 dM1"
+        },
+        {
+          "label": "(c)",
+          "marks": 1,
+          "answer": "States ‘increase the number of strips’",
+          "markAllocation": [
+            {
+              "code": "B1",
+              "type": "B",
+              "value": 1,
+              "criterion": "States ‘increase the number of strips’"
+            }
+          ],
+          "guidance": "(c)\nB1: States\n• ‘increase the number of strips’\n• ‘decrease the width of the strips’\n• ‘make more strips’\nwithout any incorrect statements such as increase the strips, so try $\\int_1^6 (\\log_3(x+1) - \\log_3 x) dx$\nDo not allow vague statements such as ‘add more numbers of x’"
+        }
+      ]
+    },
+    {
+      "qnum": 5,
+      "marks": 7,
+      "parts": [
+        {
+          "label": "(a)",
+          "marks": 3,
+          "answer": "$u_1 = 1/4$, $u_2 = -1/3$, $u_3 = 4/3$, $u_4 = 1/4$. Sequence repeats every 3 terms.",
+          "markAllocation": [
+            {
+              "code": "M1",
+              "type": "M",
+              "value": 1,
+              "criterion": "Attempts to use the iterative sequence correctly at least once."
+            },
+            {
+              "code": "A1",
+              "type": "A",
+              "value": 1,
+              "criterion": "Achieves a correct value for both $u_2$ and $u_3$."
+            },
+            {
+              "code": "A1*",
+              "type": "A",
+              "value": 1,
+              "criterion": "This is a show that question and requires correct values for $u_2$ and $u_3$, a correct calculation and value seen for $u_4$, a minimal reason/statement and a minimal conclusion."
+            }
+          ],
+          "guidance": "(a)\nM1: Attempts to use the iterative sequence correctly at least once.\nMost often this is for $u_2 = 1/(1-1/4)$ or $u_2 = 4/3$ o.e.\nCondone omission of the lhs as long as it is obvious. E.g. 4, 0.75\nA1: Achieves a correct value for both $u_2$ and $u_3$. Condone $u_3 = -0.3\\dot{3}$\nDo not allow $u_3 = -0.33$ unless you see the exact value beforehand.\nAllow $(4/3, -1/3)$ if it is obviously values for both $u_2$ and $u_3$.\nA1*: This is a show that question and requires\n• correct values for $u_2$ and $u_3$\n• a correct calculation and value seen for $u_4$ E.g. $u_4 = 1/(1-(-1/3)) = 1/(4/3) = 3/4$\n• a minimal reason/statement ‘the sequence repeats every 3 terms’ o.e such as ‘as $u_4 = u_1$,\n• a minimal conclusion such as sequence is periodic of order 3’ or ‘hence true’"
+        },
+        {
+          "label": "(b)",
+          "marks": 4,
+          "answer": "$\\sum_{n=1}^{180} (u_n + 5n + 3) = 82255$",
+          "markAllocation": [
+            {
+              "code": "M1",
+              "type": "M",
+              "value": 1,
+              "criterion": "Establishes a viable method to find $\\sum_{n=1}^{180} (5n+3)$ using the fact that it is an AP."
+            },
+            {
+              "code": "M1",
+              "type": "M",
+              "value": 1,
+              "criterion": "Establishes a viable method to find $\\sum_{n=1}^{180} u_n$."
+            },
+            {
+              "code": "A1",
+              "type": "A",
+              "value": 1,
+              "criterion": "Scored for either $\\sum_{n=1}^{180} (5n+3) = 81990$ or $\\sum_{n=1}^{180} u_n = 265$ following the award of the equivalent M mark"
+            },
+            {
+              "code": "A1",
+              "type": "A",
+              "value": 1,
+              "criterion": "82255 which must follow the award of M1, M1 and A1"
+            }
+          ],
+          "guidance": "(b) All stages of working must be shown so don’t accept just answers as evidence of method\nM1: Establishes a viable method to find $\\sum_{n=1}^{180} (5n+3)$ using the fact that it is an AP.\nLook for use of $n/2(a+l)$ or $n/2(2a+(n-1)d)$ o.e. with $n=180, a=8$ and $d=5$\nAlternatively attempts $\\sum_{n=1}^{180} (5n+3) = 5 \\sum_{n=1}^{180} n + \\sum_{n=1}^{180} 3 = 5 \\times 180(180+1)/2 + 180 \\times 3$ o.e.\nDo not just accept $\\sum_{n=1}^{180} (5n+3) = 81990$ without sight of an intermediate calculation\nThis may be awarded from terms within a more complicated expression to complete $\\sum_{n=1}^{180} (u_n + 5n + 3)$\nM1: Establishes a viable method to find $\\sum_{n=1}^{180} u_n$.\nFor example, as it repeats every 3 terms look for $60 \\times (u_1 + u_2 + u_3)$ o.e such as $60 \\times 1/4 + 60 \\times 4/3 + 60 \\times (-1/3)$\nDo not accept $\\sum_{n=1}^{180} u_n = 265$ without sight of an intermediate calculation\nThis may be awarded from terms within a more complicated expression to complete $\\sum_{n=1}^{180} (u_n + 5n + 3)$\nA1: Scored for either $\\sum_{n=1}^{180} (5n+3) = 81990$ or $\\sum_{n=1}^{180} u_n = 265$ following the award of the equivalent M mark\nIt can be implied, so for instance 82255 following the award of both M’s but it is the value, not the\ncalculation that must be seen or implied.\nA less obvious award would be for $60 \\times (1/4 + 4/3 - 1/3) + 9 = 805/4 + 3 = 265$ which implies the 265\nA1: 82255 which must follow the award of M1, M1 and A1"
+        }
+      ]
+    },
+    {
+      "qnum": 6,
+      "marks": 12,
+      "parts": [
+        {
+          "label": "(i)",
+          "marks": 4,
+          "subparts": [
+            {
+              "label": "(a)",
+              "marks": 2,
+              "answer": "$\\sin \\theta = -2/5$",
+              "markAllocation": [
+                {
+                  "code": "M1",
+                  "type": "M",
+                  "value": 1,
+                  "criterion": "Uses $\\sin^2 \\theta + \\cos^2 \\theta = 1$ with $\\cos \\theta = 1/5 \\implies \\sin^2 \\theta = 1 - (1/5)^2$ o.e."
+                },
+                {
+                  "code": "A1",
+                  "type": "A",
+                  "value": 1,
+                  "criterion": "$\\sin \\theta = -2/5$ or simplified equivalent such as $-2\\sqrt{5}/5$ following the award of the M1. ISW after a correct answer."
+                }
+              ],
+              "guidance": "(i)\nClear use of trigonometric identities must be shown. Answers without method don’t score\nmarks\nLook for work within the body of the script which may be common\n(a)\nM1: Uses $\\sin^2 \\theta + \\cos^2 \\theta = 1$ with $\\cos \\theta = 1/5 \\implies \\sin^2 \\theta = 1 - (1/5)^2$ o.e.\nAlternatively shows a ‘triangle’ method and uses Pythagoras’ theorem to reach $\\sin \\theta = \\pm 2/5$\nE.g. [Diagram of right triangle with hypotenuse 5, adjacent 1, opposite $\\pm 2$]\nA1: $\\sin \\theta = -2/5$ or simplified equivalent such as $-2\\sqrt{5}/5$ following the award of the M1. ISW after a\ncorrect answer. Note that $\\sin \\theta = -4/5$ is A0 as it is not simplified"
+            },
+            {
+              "label": "(b)",
+              "marks": 2,
+              "answer": "$\\tan \\theta = -2$",
+              "markAllocation": [
+                {
+                  "code": "M1",
+                  "type": "M",
+                  "value": 1,
+                  "criterion": "Uses $\\tan \\theta = \\sin \\theta / \\cos \\theta$ with $\\cos \\theta = 1/5$ and either $\\sin \\theta = 2/5$ or $\\sin \\theta = -2/5$ from (a) which must have been awarded from a correct method."
+                },
+                {
+                  "code": "A1",
+                  "type": "A",
+                  "value": 1,
+                  "criterion": "$\\tan \\theta = -2$ following the award of the M1 in both (i) and (ii)"
+                }
+              ],
+              "guidance": "(b)\nM1: Uses $\\tan \\theta = \\sin \\theta / \\cos \\theta$ with $\\cos \\theta = 1/5$ and either $\\sin \\theta = 2/5$ or $\\sin \\theta = -2/5$ from (a) which must have\nbeen awarded from a correct method.\nAlternatively, from a triangle method, shows the opposite side = 2 in a right-angled triangle and\ntakes the correct ratio\nA1: $\\tan \\theta = -2$ following the award of the M1 in both (i) and (ii)"
+            }
+          ]
+        },
+        {
+          "label": "(ii)",
+          "marks": 8,
+          "subparts": [
+            {
+              "label": "(a)",
+              "marks": 1,
+              "answer": "1 (m)",
+              "markAllocation": [
+                {
+                  "code": "B1",
+                  "type": "B",
+                  "value": 1,
+                  "criterion": "1 (m)"
+                }
+              ],
+              "guidance": "(ii)(a)\nB1: 1 (m) Units are not necessary here but incorrect units e.g. 1 cm would be B0"
+            },
+            {
+              "label": "(b)",
+              "marks": 3,
+              "answer": "7:20 am",
+              "markAllocation": [
+                {
+                  "code": "M1",
+                  "type": "M",
+                  "value": 1,
+                  "criterion": "Sets $30t - 40$ equal to any value in degrees where the cosine is $-1$"
+                },
+                {
+                  "code": "A1",
+                  "type": "A",
+                  "value": 1,
+                  "criterion": "$t = 7.33$ or $7 \\frac{1}{3}$ but condone 7.3. It must follow the award of the M mark"
+                },
+                {
+                  "code": "A1",
+                  "type": "A",
+                  "value": 1,
+                  "criterion": "Achieves 7:20 am or 07:20 or any other acceptable way of establishing the exact time of day time\nin hours and minutes. So 7 hours 20 minutes after midnight is fine. Condone 7:20 but 7:20pm is\nA0 and 7 hours 20 minutes without reference to after midnight is A0. It must follow correct\nworking and cannot be rounded from a different time value such as 7:19.5"
+                }
+              ],
+              "guidance": "(ii)(b)\nM1: Sets $30t - 40$ equal to any value in degrees where the cosine is $-1$\nSo $30t - 40 = 180 + 2n \\times 180$, for any $n \\in Z$ is acceptable. Condone $30t - 40 = \\pi + 2n\\pi$\nCondone the result obtained from differentiation with $\\sin(30t-40) = 0 \\implies 30t-40 = 180 + 2n \\times 180$\nA1: $t = (180+40)/30$ or $7.33$ or $7 \\frac{1}{3}$ but condone 7.3. It must follow the award of the M mark\nA1: Achieves 7:20 am or 07:20 or any other acceptable way of establishing the exact time of day time\nin hours and minutes. So 7 hours 20 minutes after midnight is fine. Condone 7:20 but 7:20pm is\nA0 and 7 hours 20 minutes without reference to after midnight is A0. It must follow correct\nworking and cannot be rounded from a different time value such as 7:19.5"
+            },
+            {
+              "label": "(c)",
+              "marks": 4,
+              "answer": "$T = 16.65$",
+              "markAllocation": [
+                {
+                  "code": "M1",
+                  "type": "M",
+                  "value": 1,
+                  "criterion": "Sets $4 + 3\\cos(30T-40)^\\circ$ equal to 3.5 and proceeds to $\\cos(30T-40)^\\circ = k, k < 1$"
+                },
+                {
+                  "code": "A1",
+                  "type": "A",
+                  "value": 1,
+                  "criterion": "Achieves $30T-40$ equal to any of 99.6, 260.4, 459.6"
+                },
+                {
+                  "code": "dM1",
+                  "type": "M",
+                  "value": 1,
+                  "criterion": "Proceeds from $30T-40$ equal to any of awrt 100, 260, 460 AND uses correct order of operations\nand working leading to a value for T."
+                },
+                {
+                  "code": "A1",
+                  "type": "A",
+                  "value": 1,
+                  "criterion": "awrt 16.65 following the award of M1, A1 dM1"
+                }
+              ],
+              "guidance": "(ii)(c) Radian attempts can only usually score the first M1.\nM1: Sets $4 + 3\\cos(30T-40)^\\circ$ equal to 3.5 and proceeds to $\\cos(30T-40)^\\circ = k, k < 1$\nA1: Achieves $30T-40$ equal to any of 99.6, 260.4, 459.6\ndM1: Proceeds from $30T-40$ equal to any of awrt 100, 260, 460 AND uses correct order of operations\nand working leading to a value for T.\nFor example, allow for $30T-40 = awrt 100 \\implies T = (awrt 100+40)/30$ or awrt 4.7\n$30T-40 = awrt 260 \\implies T = (awrt 260+40)/30$ or awrt 10\n$30T-40 = awrt 460 \\implies T = (awrt 460+40)/30$ or awrt 16.7\nA1: awrt 16.65 following the award of M1, A1 dM1\nISW after a correct answer for T. Ignore any attempts to convert the T value to a time.\nA clear method must be shown here, so solutions produced entirely from a calculator will not\nscore.\nE.g. $4 + 3\\cos(30T-40)^\\circ = 3.5 \\implies T = 16.65$ is 0 marks\nA minimal acceptable response for 4 marks would be\n$4 + 3\\cos(30T-40)^\\circ = 3.5 \\implies \\cos(30T-40)^\\circ = -1/6$\n$30T-40 = 459.6$\n$T = 16.65$"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "qnum": 7,
+      "marks": 8,
+      "parts": [
+        {
+          "label": "(a)",
+          "marks": 6,
+          "answer": "$n = 16$, $k = -3/2$",
+          "markAllocation": [
+            {
+              "code": "M1",
+              "type": "M",
+              "value": 1,
+              "criterion": "States either $kn = -24$ (1) or $k n(n-1)/2 = 270$ (2)"
+            },
+            {
+              "code": "A1",
+              "type": "A",
+              "value": 1,
+              "criterion": "States both $kn = -24$ (1) and $k n(n-1)/2 = 270$ (2)"
+            },
+            {
+              "code": "M1",
+              "type": "M",
+              "value": 1,
+              "criterion": "Substitutes $k = -24/n$ in equation (2) $n(n-1)/2 \\times (-24/n) = 270 \\implies ... \\implies n = ...$"
+            },
+            {
+              "code": "A1",
+              "type": "A",
+              "value": 1,
+              "criterion": "$n = 16$"
+            },
+            {
+              "code": "dM1",
+              "type": "M",
+              "value": 1,
+              "criterion": "Uses $k = -24/n$ o.e. with their $n = '16'$ to find k or their $k = '-3/2'$ to find n"
+            },
+            {
+              "code": "A1",
+              "type": "A",
+              "value": 1,
+              "criterion": "$n = 16$ and $k = -3/2$ following the award of all previous marks"
+            }
+          ],
+          "guidance": "(a)\nM1: States either $kn = -24$ (1) or $k n(n-1)/2 = 270$ (2) accepting equivalents but see note below\nThis mark cannot be awarded from $k = -24/n$ or $k x^2 nC2 = 270 x^2$, with factorials\n$k n!/(2!(n-2)!) = 540$\nor indeed versions including x terms such as $knx = -24x$ unless followed by a correct $kn = -24$\nA1: States both $kn = -24$ (1) and $k n(n-1)/2 = 270$ (2) accepting equivalents\nM1: Forms an equation in one variable leading to a value for k or n\nIt is dependent upon having achieved $kn = \\pm 24$ and $k n(n-1)/2 = 270$\nThe process of forming the equation must be credible so look for $k = \\pm 24/n$ being substituted and\nNOT $k = \\pm 24 - n$ FYI the equation in k is $k ((-24/k)-1)/2 \\times (-24/k) = 270 \\implies ... \\implies k = ...$\nA1: For either $n = 16$ following a correctly solved equation in n.\nor $k = -3/2$ if the equation in k was formed.\nLook for correct working leading to the value for n. For example, forming a linear equation is\nsufficient.\n$(-24/n) n(n-1)/2 = 270 \\implies -12(n-1) = 270 \\implies -12n + 12 = 270 \\implies -12n = 258 \\implies n = -21.5$\ndM1: Uses $k = \\pm 24/n$ o.e. with their $n = '16'$ to find k or their $k = '-3/2'$ to find n\nThis mark may be implied. It is dependent upon the previous M\nSo, if they have scored the previous M, achieved $n = 8$ and $k = 24/n$ award for $k = 3$\nA1: $n = 16$ and $k = -3/2$ following the award of all previous marks\n……………………………………………………………………………………………………………….\nThe demand of the question is that they show all stages of their working.\nExample I\nIf a candidate states both equations $kn = -24$, $k n(n-1)/2 = 270$, shows a correct intermediate line in a\nsingle variable then follows this with correct $n = 16$ and $k = -3/2$ without the necessary working they can\nbe awarded SC: 1, 1, 1, 0, 1, 0\nExample II\nIf a candidate states both equations $kn = -24$, $k n(n-1)/2 = 270$ and follows this with correct $n = 16$ and\n$k = -3/2$ without any necessary intermediate equations and working they can be awarded SC: 1, 1, 0, 1, 0, 0\nIf the SC is seen in part (a), they can go on to score both marks in (b) for correct answers\n…………………………………………………………………………………………………………………\n(b)\nM1: Uses $p = k n(n-1)(n-2)/(3!)$ with their values for n and k found from part (a) to find a value for p.\nThis can be implied by a ‘correct’ answer for their values of n and k.\nAllow fractional values for both n and k\nAllow this to be scored by candidates who perhaps have only one equation, usually $kn = -24$ and go\non to state for example that $n = 4$ and $k = -6$ and then find $p = -864$\nValues cannot be made up without an attempt in part (a) scoring at least one mark\nA1: $-1890$ following correct values for n and k.\nIt must follow correct equations in part (a) but allow the values to be found from equations\ncontaining terms including factorial and/or combination notation."
+        },
+        {
+          "label": "(b)",
+          "marks": 2,
+          "answer": "$-1890$",
+          "markAllocation": [
+            {
+              "code": "M1",
+              "type": "M",
+              "value": 1,
+              "criterion": "Uses $p = k n(n-1)(n-2)/(3!)$ with their values for n and k found from part (a) to find a value for p."
+            },
+            {
+              "code": "A1",
+              "type": "A",
+              "value": 1,
+              "criterion": "$-1890$ following correct values for n and k."
+            }
+          ],
+          "guidance": "(b)\nM1: Uses $p = k n(n-1)(n-2)/(3!)$ with their values for n and k found from part (a) to find a value for p.\nThis can be implied by a ‘correct’ answer for their values of n and k.\nAllow fractional values for both n and k\nAllow this to be scored by candidates who perhaps have only one equation, usually $kn = -24$ and go\non to state for example that $n = 4$ and $k = -6$ and then find $p = -864$\nValues cannot be made up without an attempt in part (a) scoring at least one mark\nA1: $-1890$ following correct values for n and k.\nIt must follow correct equations in part (a) but allow the values to be found from equations\ncontaining terms including factorial and/or combination notation."
+        }
+      ]
+    },
+    {
+      "qnum": 8,
+      "marks": 9,
+      "parts": [
+        {
+          "label": "(a)",
+          "marks": 2,
+          "answer": "$-5 < x < 2/3$",
+          "markAllocation": [
+            {
+              "code": "M1",
+              "type": "M",
+              "value": 1,
+              "criterion": "Achieves the correct critical values. Condone for this mark $-5$ and awrt 0.67"
+            },
+            {
+              "code": "A1",
+              "type": "A",
+              "value": 1,
+              "criterion": "$-5 < x < 2/3$ or $-5 \\le x \\le 2/3$. Either of these on their own (with consistent inequality use) scores both marks"
+            }
+          ],
+          "guidance": "(a)\nM1: Achieves the correct critical values. Condone for this mark $-5$ and awrt 0.67\nThey may be seen as part of an incorrect inequality\nA1: $-5 < x < 2/3$ or $-5 \\le x \\le 2/3$. Either of these on their own (with consistent inequality use) scores both\nmarks\nAccept other valid alternatives such as $x \\in (-5, 2/3)$ and $\{x : x > -5 \\cap x < 2/3\}$ but not $x < 2/3$ or $x > -5$"
+        },
+        {
+          "label": "(b)",
+          "marks": 1,
+          "answer": "$(x-7)^2$",
+          "markAllocation": [
+            {
+              "code": "B1",
+              "type": "B",
+              "value": 1,
+              "criterion": "States $(x-7)^2$ or $A=2, B=-7$ which must be seen in (b)."
+            }
+          ],
+          "guidance": "(b)\nB1: States $(x-7)^2$ or $A=2, B=-7$ which must be seen in (b).\nCondone candidates who write $(x-7)^2 = (x-7)(x-7)$ Note that stating $(x-7)$ on its own is B0"
+        },
+        {
+          "label": "(c)",
+          "marks": 6,
+          "answer": "$f(x) = (x-7)^2(2x+5)$",
+          "markAllocation": [
+            {
+              "code": "M1",
+              "type": "M",
+              "value": 1,
+              "criterion": "Multiplies out $f'(x)$ to form a quadratic expression and attempts to integrate."
+            },
+            {
+              "code": "A1",
+              "type": "A",
+              "value": 1,
+              "criterion": "$f(x) = 2x^3 + 13x^2 - 20x + c$ with or without the + c"
+            },
+            {
+              "code": "dM1",
+              "type": "M",
+              "value": 1,
+              "criterion": "Substitutes $x = 7/2, y = 0 \\implies c = ...$"
+            },
+            {
+              "code": "A1",
+              "type": "A",
+              "value": 1,
+              "criterion": "$f(x) = 2x^3 + 13x^2 - 20x - 175$ but allow $f(x) = 2x^3 + 13x^2 - 20x + c$ followed by $c = -175$"
+            },
+            {
+              "code": "ddM1",
+              "type": "M",
+              "value": 1,
+              "criterion": "Attempts to divide or factorise out a factor of $(x-7/2)$ or $(x-7)^2$ from their $f(x) = 2x^3 + 13x^2 - 20x - 175$"
+            },
+            {
+              "code": "A1",
+              "type": "A",
+              "value": 1,
+              "criterion": "CSO Requires working to be seen so look for $f(x) = (x-7)^2(2x+5)$ or $f(x) = (x-7)(x-7)(2x+5)$ following correct $f(x)$ AND correct intermediate factorisation $(x-7)(2x^2+10x+25)$"
+            }
+          ],
+          "guidance": "(c) Some candidates integrate in part (b). Allow these candidates to score the marks in (c) as long as they\nre-write $f(x)$ in (c) or do some extra work involving $f(x)$ in (c)\nM1: Multiplies out $f'(x)$ to form a quadratic expression and attempts to integrate.\nLook for $f'(x) = (2x-3)(2x+5) = 4x^2 + 4x - 15 \\to f(x) = ax^3 + bx^2 + cx + d$ with or without the + c\nA1: $f(x) = 2x^3 + 13x^2 - 20x + c$ with or without the + c\ndM1: Substitutes $x = 7/2, y = 0 \\implies ... \\implies c = ...$\nAlternatives exist via division using the fact that $(x-7/2)^2$ is a factor of $2x^3 + 13x^2 - 20x + c$\nA1: $f(x) = 2x^3 + 13x^2 - 20x - 175$ but allow $f(x) = 2x^3 + 13x^2 - 20x + c$ followed by $c = -175$\nddM1: Attempts to divide or factorise out a factor of $(x-7/2)$ or $(x-7)^2$ from their $f(x) = 2x^3 + 13x^2 - 20x - 175$\nAwarded for ‘correct’ first and last terms or correct first two terms for their $f(x)$ condoning sign\nslips\nE.g. $2x^3 + 13x^2 - 20x - 175 = (x-7/2)(2x^2 + ... + 25)$ or $2x^3 + 13x^2 - 20x - 175 = (x-7)^2(2x + ... + 50)$\nIt is dependent upon both previous M’s so cannot be awarded if they don’t have a value for c\nMark their final response here as there may be working before the final answer\nA1: CSO Requires working to be seen (see bold sentences in question) so look for\n• $f(x) = (x-7)^2(2x+5)$ or $f(x) = (x-7)(x-7)(2x+5)$ following correct $f(x)$\n• AND correct intermediate factorisation $(x-7)(2x^2+10x+25)$\nGoing directly from $2x^3 + 13x^2 - 20x - 175$ to $(x-7)^2(2x+5)$ without sight of working would\nresult in the loss of the last two marks\nNote that the last 4 marks can be scored without finding the value of c BUT the constant c must be\npresent.\nWe know that $f(x) = 2x^3 + 13x^2 - 20x + c$ and that $(x-7)^2$ is a factor\nSo $2x^3 + 13x^2 - 20x + c = (x-7)^2(Ax+B)$ which may be attempted via division\n$(x-7)^2(2x+5) = (x^2-14x+49)(2x+5) = 2x^3+5x^2-28x^2-70x+98x+245 = 2x^3-23x^2+28x+245$\nThe 6 marks in part (c) are awarded as follows\nM1, A1: For $f(x) = 2x^3 + 13x^2 - 20x + c$ with or without the + c\ndM1: For setting their $f(x) = '2'x^3 + '13'x^2 - '20'x + c = (x-7)^2(Ax+B)$ and correctly deduces the\nvalue for A for their $f(x)$. You may see a division attempted here which is equivalent work\nA1: Correctly deduces $2x^3 + 13x^2 - 20x + c = (x-7)^2(2x+B)$\nVia division, the $(2x+...)$ can be awarded implied from within the calculation\nddM1: Correctly deduces $2x^3 + 13x^2 - 20x + c = (x-7)^2(2x+5)$\nA1: $f(x) = (x-7)^2(2x+5)$ o.e."
+        }
+      ]
+    },
+    {
+      "qnum": 9,
+      "marks": 5,
+      "parts": [
+        {
+          "label": "(a)",
+          "marks": 1,
+          "answer": "[Diagram of a circle passing through (0,0), symmetrical about x-axis, in quadrants 1 and 4]",
+          "markAllocation": [
+            {
+              "code": "B1",
+              "type": "B",
+              "value": 1,
+              "criterion": "A circle lying in quadrants 1 and 4 only which passes through (0, 0) and is symmetrical about the x-axis"
+            }
+          ],
+          "guidance": "(a)\nB1: A circle lying in quadrants 1 and 4 only which\n• passes through (0, 0)\n• is symmetrical about the x-axis\nCondone slips of the pen. Mark this positively.\nIgnore any reference to the point $(5,6)$\nIgnore any reference to the coordinates of the centre"
+        },
+        {
+          "label": "(b)",
+          "marks": 4,
+          "answer": "$(x-6.1)^2 + y^2 = (6.1)^2$",
+          "markAllocation": [
+            {
+              "code": "M1",
+              "type": "M",
+              "value": 1,
+              "criterion": "Allowable left-hand side for the equation of C For example $(x \\pm a)^2 + y^2 = ...$ or $(a-x)^2 + y^2 = ...$"
+            },
+            {
+              "code": "A1",
+              "type": "A",
+              "value": 1,
+              "criterion": "Correct form for the equation involving a single constant. Examples of correct equations are $(x-a)^2 + y^2 = a^2$, $(x+k)^2 + y^2 = k^2$ and $x^2 + y^2 = \\pm px$"
+            },
+            {
+              "code": "dM1",
+              "type": "M",
+              "value": 1,
+              "criterion": "Uses $(5, 6)$ in $(x \\pm a)^2 + y^2 = a^2$ o.e. to form and solve an equation in a."
+            },
+            {
+              "code": "A1",
+              "type": "A",
+              "value": 1,
+              "criterion": "$(x-6.1)^2 + y^2 = (6.1)^2$ o.e. such as $x^2 + y^2 - 12.2x = 0$"
+            }
+          ],
+          "guidance": "(b) Way One: Candidates start from an appropriate equation involving x2 and y2 then use (5, 6)\nThe following equations are mostly written with a constant a. Any suitable constant may be used.\nThe sign of the constant is also not important so accept $(x+a)^2 + y^2 = ...$. or $(x-a)^2 + y^2 = ...$\nas well as $(a-x)^2 + y^2 = ...$\nM1: Allowable left-hand side for the equation of C For example $(x \\pm a)^2 + y^2 = ...$ or $(a-x)^2 + y^2 = ...$\nThis must involve a constant and not be $(x-5)^2 + y^2 = ...$ for example\nA1: Correct form for the equation involving a single constant.\nExamples of correct equations are $(x-a)^2 + y^2 = a^2$, $(x+k)^2 + y^2 = k^2$ and $x^2 + y^2 = \\pm px$\nIf they write $(x-a)^2 + y^2 = r^2$ and $r^2 = a^2$ this can be implied\ndM1: Uses $(5, 6)$ in $(x \\pm a)^2 + y^2 = a^2$ o.e. to form and solve an equation in a.\nE.g. $(5-a)^2 + 36 = a^2 \\implies 25 - 10a + a^2 + 36 = a^2 \\implies 61 = 10a \\implies a = 6.1$\n$5^2 + 6^2 = \\pm p(5) \\implies 61 = \\pm 5p \\implies p = \\pm 12.2$\nA1: $(x-6.1)^2 + y^2 = (6.1)^2$ o.e. such as $x^2 + y^2 - 12.2x = 0$\n………………………………………………………………………………………………………………\nWay Two: Candidates use Pythagoras' theorem to set up an equation in single variable\n[Diagram of circle with center (r,0), point (5,6), radius r, distance from (r,0) to (5,6) is r]\nM1: Applies Pythagoras’s theorem leading to the equation $(r-5)^2 + 6^2 = r^2$ or $(5-r)^2 + 36 = r^2$\nThis may be awarded for any variable\nA1: Solves the above equation to find correct value $r = 6.1$\ndM1: Uses a correct equation of circle $(x-'6.1')^2 + y^2 = ('6.1')^2$ following through on their 6.1.\nThis is dependent on the 6.1 being a solution of a correct equation (previous M1)\nA1: $(x-6.1)^2 + y^2 = (6.1)^2$ o.e.\nWay Three: Bisector of chord method\nM1: Attempts to find where the perpendicular bisector cuts the x-axis\nLook for a good attempt using mid points and perpendicular\ngradient work.\nA1: Achieves equation of perpendicular bisector as $y = -5/6 x + 61/12$\nand point of intersection with the x-axis to be $61/10$ o.e\ndM1: Correct form of equation with $(x-'6.1')^2 + y^2 = ('6.1')^2$\nA1: $(x-6.1)^2 + y^2 = (6.1)^2$ o.e."
+        }
+      ]
+    },
+    {
+      "qnum": 10,
+      "marks": 9,
+      "parts": [
+        {
+          "label": "(a)",
+          "marks": 4,
+          "answer": "$x = 4$",
+          "markAllocation": [
+            {
+              "code": "M1",
+              "type": "M",
+              "value": 1,
+              "criterion": "Attempts $dy/dx$ with one correct aspect. Allow for $2x \\to 2$ or $x^{-3} \\to x^{-2}$ but not $3 \\to 0$"
+            },
+            {
+              "code": "A1",
+              "type": "A",
+              "value": 1,
+              "criterion": "$dy/dx = -128x^{-3} + 2$ o.e which may be left un simplified. The lhs is not required"
+            },
+            {
+              "code": "dM1",
+              "type": "M",
+              "value": 1,
+              "criterion": "Sets their $dy/dx = 0$ and proceeds to $x^3 = \\alpha/\\beta$"
+            },
+            {
+              "code": "A1*",
+              "type": "A",
+              "value": 1,
+              "criterion": "Shows that the x coordinate of P is 4. This is a given answer so there must be sufficient evidence"
+            }
+          ],
+          "guidance": "(a)\nM1: Attempts $dy/dx$ with one correct aspect. Allow for $2x \\to 2$ or $x^{-3} \\to x^{-2}$ but not $3 \\to 0$\nA1: $dy/dx = -128x^{-3} + 2$ o.e which may be left un simplified. The lhs is not required\ndM1: Sets their $dy/dx = p x^{-3} \\pm q = 0$ and proceeds to $x^3 = \\alpha/\\beta$\nAlso allow candidates to substitute 4 into their $dy/dx$ which must be of the form $dy/dx = p x^{-3} \\pm q$ and\nfind its value.\nA1*: Shows that the x coordinate of P is 4. This is a given answer so there must be sufficient\nevidence\nFor a direct proof you should see all of $-128x^{-3} + 2 = 0$, $x^3 = 64$ (condone $2x^3 = 128$) and $x = 4$\nor $-128x^{-3} + 2 = 0$, $x^{-3} = 1/64$ (condone $-2x^{-3} = -128$) and $x = 4$\nFor a substitution method look for $dy/dx = -128x^{-3} + 2$ and at P, $dy/dx = -128(4)^{-3} + 2 = 0$, hence proven\n(o.e.)"
+        },
+        {
+          "label": "(b)",
+          "marks": 5,
+          "answer": "20",
+          "markAllocation": [
+            {
+              "code": "M1",
+              "type": "M",
+              "value": 1,
+              "criterion": "Attempts to integrate $y = 64x^{-2} + 2x - 3$ scored for increasing a correct index by 1 including $3 \\to 3x$"
+            },
+            {
+              "code": "A1",
+              "type": "A",
+              "value": 1,
+              "criterion": "$\\int (64x^{-2} + 2x - 3) dx = -64x^{-1} + x^2 - 3x + c$ which may be left un simplified"
+            },
+            {
+              "code": "B1",
+              "type": "B",
+              "value": 1,
+              "criterion": "Finds the y values at both x = 2 and x = 4. M = (0, 17) and N = (0, 9)"
+            },
+            {
+              "code": "dM1",
+              "type": "M",
+              "value": 1,
+              "criterion": "Full attempt at area. It dependent upon having done some correct integration (M1 scored)."
+            },
+            {
+              "code": "A1",
+              "type": "A",
+              "value": 1,
+              "criterion": "20"
+            }
+          ],
+          "guidance": "(b)\nM1: Attempts to integrate $y = 64x^{-2} + 2x - 3$ scored for increasing a correct index by 1 including $3 \\to 3x$\nA1: $\\int (64x^{-2} + 2x - 3) dx = -64x^{-1} + x^2 - 3x + c$ which may be left un simplified\nB1: Finds the y values at both x = 2 and x = 4. M = (0, 17) and N = (0, 9)\nThis mark may be implied by an area calculation\n$[-64x^{-1} + x^2 - 3x]_2^4 - (9 \\times 2) + (17 \\times 2) / 2$\nEvidence may be awarded from the diagram or from coordinates for P and Q\ndM1: Full attempt at area. It dependent upon having done some correct integration (M1 scored).\nLook for the ‘correct’ areas being combined in the right way, condoning slips in integration and\narithmetical slips\nTotal area = '22' - '18' + '16' = …\nA1: 20\nAlt method to b using (curve – line) can be marked in a similar way\nM1: Attempts to integrate $(64x^{-2} + 2x - 3 - k)$ scored for increasing a correct index by 1\nA1: $\\int (64x^{-2} + 2x - 12) dx = -64x^{-1} + x^2 - 12x + c$ which may be left un simplified\nB1: Finds the y values at both x = 2 and x = 4. M = (0, 17) and N = (0, 9)\nThis mark may be implied by an area calculation\n$[-64x^{-1} + x^2 - 12x]_2^4 + (17-9)/2 \\times 2$\ndM1: Full attempt at area. It dependent upon having done some correct integration (M1 scored).\nShaded area under curve $\\int_2^4 (64x^{-2} + 2x - 3 - 9) dx = [-64x^{-1} + x^2 - 12x]_2^4 = 4$\nTotal area = 4 + 16 = 20\nLook for the ‘correct’ areas being combined in the right way, condoning slips in integration\nand arithmetical slips (such as 4+16 =22)\nA1: 20"
+        }
+      ]
+    }
+  ]
+}

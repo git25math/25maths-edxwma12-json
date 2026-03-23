@@ -1,0 +1,738 @@
+{
+  "v": "1.0",
+  "paper": "2023May-WMA12-01",
+  "board": "edx",
+  "code": "WMA12",
+  "year": 2023,
+  "session": "May",
+  "paperNum": "01",
+  "totalMarks": 75,
+  "questions": [
+    {
+      "qnum": 1,
+      "marks": 3,
+      "answer": "6.814",
+      "markAllocation": [
+        {
+          "code": "B1",
+          "type": "B",
+          "value": 1,
+          "criterion": "$h = 0.2$"
+        },
+        {
+          "code": "M1",
+          "type": "M",
+          "value": 1,
+          "criterion": "Correct application of the trapezium rule with their $h$ (which may be 1 or $h$). Look for a correct inner bracket structure $\\frac{0.2}{2}(9.2 + 8.6 + 2(8.4556 + 3.8512 + 5.0342 + 7.8297))$ condoning slips copying values from the table or the omission of the final brackets on the rhs. e.g. $\\frac{1}{2} \\times \"0.2\"(9.2 + 8.6 + 2(8.4556 + 3.8512 + 5.0342 + 7.8297))$ is M1 but $\\frac{1}{2} \\times \"0.2\" \\times 9.2 + 8.6 + 2(8.4556 + 3.8512 + 5.0342 + 7.8297)$ is M0 unless the brackets are recovered or implied by the correct answer (you may need to check this). Also allow for a correct method adding individual trapezia using their $h$ condoning copying errors but the brackets must be correct (or recovered or implied by later work) e.g. $\\frac{1}{2} \\times \"0.2\"(9.2 + 8.4556) + \\frac{1}{2} \\times \"0.2\"(8.4556 + 3.8512) + \\frac{1}{2} \\times \"0.2\"(3.8512 + 5.0342) + \\frac{1}{2} \\times \"0.2\"(5.0342 + 7.8297) + \\frac{1}{2} \\times \"0.2\"(7.8297 + 8.6)$"
+        },
+        {
+          "code": "A1",
+          "type": "A",
+          "value": 1,
+          "criterion": "awrt 6.814. Correct answer with no working scores B1M1A1 but if there is evidence of using $h = -0.2$ then maximum awarded is B0M1A0. The A mark cannot be awarded without both B1M1 being awarded on this question."
+        }
+      ],
+      "guidance": "B1: o.e. (including $5 - \\frac{4}{5}$) seen or implied by sight of e.g. $\\frac{0.2}{2}$ or $\\frac{1}{10}$ in front of the bracket. May also be implied by a correct answer if no incorrect working seen. $h = -0.2$ is B0. A1: isw once a correct answer is seen."
+    },
+    {
+      "qnum": 2,
+      "marks": 6,
+      "parts": [
+        {
+          "label": "(a)",
+          "marks": 2,
+          "answer": "$a = -3$",
+          "markAllocation": [
+            {
+              "code": "M1",
+              "type": "M",
+              "value": 1,
+              "criterion": "Substitutes $x = \\frac{3}{2}$ into the expression, sets equal to 0 (may be implied for this mark) and rearranges to find $a$. Condone invisible brackets for this mark only and condone arithmetical slips in their working. Substituting $x = -\\frac{3}{2}$ is M0 and attempts via long division score M0."
+            },
+            {
+              "code": "A1*",
+              "type": "A",
+              "value": 1,
+              "criterion": "$a = -3$ achieved with no errors seen including the omission of brackets. There must be sight of $x = \\frac{3}{2}$ which may be embedded in the expression or $f(\\frac{3}{2})$ followed by at least one intermediate stage of working/manipulation (it may just be the left hand side of the equation), before proceeding to the given answer. The \"$= 0$\" must be seen somewhere in their working before the given answer. e.g. $f(\\frac{3}{2}) = 4(\\frac{3}{2})^3 - a(\\frac{3}{2})^2 + 5(\\frac{3}{2}) + 3 = 0 \\Rightarrow a = -3$ is M1A1. Note the trivial case $f(\\frac{3}{2}) = a(\\frac{3}{2})^2 + 3 = 0 \\Rightarrow a = -3$ is M1A0 (not enough shown)."
+            }
+          ],
+          "guidance": ""
+        },
+        {
+          "label": "(b)",
+          "marks": 4,
+          "answer": "$x = \\frac{3}{2}$ is the only real root.",
+          "markAllocation": [
+            {
+              "code": "M1",
+              "type": "M",
+              "value": 1,
+              "criterion": "Attempts to find a quadratic factor of $4x^3 - 8x^2 + 5x - 3$ using $2x - 3$ as a factor. Score for $2x^2 ... x ...$ if algebraic division is used or $2x^2 ... 1$ if equating coefficients/inspection used. Alternatively, they may attempt to find a quadratic factor using $x - \\frac{3}{2}$ as a factor so score for $4x^2 ... x ...$ if algebraic division is used or $4x^2 ... 2$ if equating coefficients/inspection used."
+            },
+            {
+              "code": "A1",
+              "type": "A",
+              "value": 1,
+              "criterion": "$2x^2 - x + 1$ (for $2x - 3$ as the linear factor) or $4x^2 - 2x + 2$ (for $x - \\frac{3}{2}$ as the linear factor)"
+            },
+            {
+              "code": "dM1",
+              "type": "M",
+              "value": 1,
+              "criterion": "Attempts to show their quadratic factor has no real roots. It is dependent on the previous method mark. Factorisation attempts are M0. Accept via an attempt at $b^2 - 4ac$ for their quadratic factor so score for values correctly embedded in $b^2 - 4ac$ for their quadratic; an attempt to solve their $2x^2 - x + 1$ or $4x^2 - 2x + 2$ using the quadratic formula with values embedded or via a calculator (you must check their roots are correct for their quadratic); an attempt to complete the square e.g. $(x - \\frac{1}{4})^2 ...$"
+            },
+            {
+              "code": "A1*",
+              "type": "A",
+              "value": 1,
+              "criterion": "Requires correct factorisation of the cubic, correct calculation for the quadratic, reason and conclusion. For example, after factorising their cubic to e.g. $(2x - 3)(2x^2 - x + 1)$ which does not need to be explicitly stated accept e.g. the discriminant of $2x^2 - x + 1$ is $-7 < 0$ so only has a root at $x = \\frac{3}{2}$. If correct values are embedded which give $-7$ then this is fine. (For $4x^2 - 2x + 2$ the discriminant is $-28$). There must be some reference to the root $x = \\frac{3}{2}$ either by stating it or indicating the linear term has a root (e.g. writing “root from here” next to it), but do not accept incorrect statements such as only real root is $(2x - 3)$. Condone “solution” for “root”. Do not allow statements such as “Math error” without interpretation of what this means."
+            }
+          ],
+          "guidance": "Work done in (a) must be made use of in (b) to gain credit."
+        }
+      ]
+    },
+    {
+      "qnum": 3,
+      "marks": 7,
+      "parts": [
+        {
+          "label": "(a)",
+          "marks": 3,
+          "subparts": [
+            {
+              "label": "(i)",
+              "marks": 2,
+              "answer": "$r = 10$",
+              "markAllocation": [
+                {
+                  "code": "M1",
+                  "type": "M",
+                  "value": 1,
+                  "criterion": "Attempts to find the radius. Score for the values embedded in the expression e.g. $\\sqrt{(8 - 2)^2 + (-3 - 5)^2}$ or $\\sqrt{(2 - 8)^2 + (5 - (-3))^2}$. They must be attempting to find the difference in the x coordinates and the difference in the y coordinates."
+                },
+                {
+                  "code": "A1",
+                  "type": "A",
+                  "value": 1,
+                  "criterion": "$r = 10$ ignore any units. $\\pm 10$ is A0. Do not accept 100 for this mark. isw once a correct answer is seen."
+                }
+              ],
+              "guidance": ""
+            },
+            {
+              "label": "(ii)",
+              "marks": 1,
+              "answer": "$(x - 2)^2 + (y - 5)^2 = 100$",
+              "markAllocation": [
+                {
+                  "code": "A1ft",
+                  "type": "A",
+                  "value": 1,
+                  "criterion": "$(x - 2)^2 + (y - 5)^2 = \"100\"$ o.e. e.g. $(x - 2)^2 + (y - 5)^2 = \"10^2\"$ or $x^2 + y^2 - 4x - 10y = \"71\"$. Follow through on their positive single value of $r$. isw once a correct equation is seen."
+                }
+              ],
+              "guidance": "Note that if M0 is scored in (a)(i) then this is A0 in (ii)."
+            }
+          ],
+          "guidance": "Mark (a) and (b) together"
+        },
+        {
+          "label": "(b)",
+          "marks": 4,
+          "answer": "$3x - 4y - 36 = 0$",
+          "markAllocation": [
+            {
+              "code": "B1",
+              "type": "B",
+              "value": 1,
+              "criterion": "Gradient between centre and P is $-\\frac{4}{3}$ (may be implied by their gradient of the tangent)"
+            },
+            {
+              "code": "M1",
+              "type": "M",
+              "value": 1,
+              "criterion": "Attempts to find the negative reciprocal for their gradient. May be embedded within their equation of the tangent."
+            },
+            {
+              "code": "M1",
+              "type": "M",
+              "value": 1,
+              "criterion": "Attempts to find the equation of the tangent at P using a changed gradient (cannot just be a stated gradient of the tangent which is incorrect and does not follow from any earlier work) and $(8, -3)$. Score for $y - (-3) = \"\\frac{3}{4}\"(x - 8)$. The coordinates $(8, -3)$ must be correctly placed. If they use $y = mx + c$ they must proceed as far as $c = ...$"
+            },
+            {
+              "code": "A1",
+              "type": "A",
+              "value": 1,
+              "criterion": "$3x - 4y - 36 = 0$ o.e. (provided all the coefficients are integers and all terms are on one side of the equation) isw once a correct equation is seen."
+            }
+          ],
+          "guidance": ""
+        }
+      ]
+    },
+    {
+      "qnum": 4,
+      "marks": 7,
+      "parts": [
+        {
+          "label": "(a)",
+          "marks": 1,
+          "answer": "243",
+          "markAllocation": [
+            {
+              "code": "B1",
+              "type": "B",
+              "value": 1,
+              "criterion": "$3^5$ or 243 seen. Do not award if it is outside the bracket as $(3 + px)^5$, but allow if some of the terms of the binomial expansion are found and 243 is the constant term. e.g. $243 + 405px + ...$ Do not accept e.g. $^5C_0 \\times 3^5 \\times (px)^0$ for this mark."
+            }
+          ],
+          "guidance": ""
+        },
+        {
+          "label": "(b)",
+          "marks": 6,
+          "subparts": [
+            {
+              "label": "(i)",
+              "marks": 4,
+              "answer": "$p = -\\frac{1}{2}$",
+              "markAllocation": [
+                {
+                  "code": "M1",
+                  "type": "M",
+                  "value": 1,
+                  "criterion": "$B = (^5C_1) \\times 3^4 \\times (p)$ or $D = (^5C_3) \\times 3^2 \\times (p)^3$ (simplified or unsimplified including unprocessed indices). The coefficients of B or D may be embedded within the binomial expansion such as $... + 5 \\times 3^4 \\times px + ... + 10 \\times 3^2 \\times (px)^3$. Also allow e.g. $5 \\times 3^4 \\times p^1$ or $5 \\times 3^2 \\times p^3$ or $^5C_1 \\times 3^4 \\times p$ or $^5C_3 \\times 3^2 \\times p^3$"
+                },
+                {
+                  "code": "A1",
+                  "type": "A",
+                  "value": 1,
+                  "criterion": "$B = 5 \\times 3^4 \\times p$ and $D = 10 \\times 3^2 \\times p^3$ (simplified or unsimplified) Allow this mark if the coefficients have not been isolated from $x$ and $x^3$, but the brackets around $(px)$ and $(px)^3$ must be correctly removed. Binomial notation such as $^5C_1$ or $^5C_3$ must have been evaluated."
+                },
+                {
+                  "code": "M1",
+                  "type": "M",
+                  "value": 1,
+                  "criterion": "Uses \"$B = 18D$\" to form a cubic equation in $p$ and attempts to take out a factor of $p$ or divide by $p$ leading to $p^2 = ...$ (or may be implied by their value of $p$). \"$B = D$\" is M0. Condone equations involving $x$ and $x^3$ as long as they are removed as they proceed to $p^2 = ...$ Note that equations may have been simplified before they are formed by cancelling factors e.g. $3^2, 3, 5$ or $p$ so look carefully at equations which are acceptable such as $5 \\times 3^3 \\times p = 18 \\times 10 \\times p^3$ or $9p^2 = 36 \\Rightarrow p^2 = ...$ (condone if negative). Note $405p = 18 \\times 90p^3 \\Rightarrow p^2 = 405 / (18 \\times 90) = 1/4 \\Rightarrow p = \\pm 1/2$ scores M1A1M0A0 in (b)(i) (did not use \"$B = 18D$\"). They can proceed in (b)(ii) to score M1A0."
+                },
+                {
+                  "code": "A1",
+                  "type": "A",
+                  "value": 1,
+                  "criterion": "$p = -\\frac{1}{2}$ only following correct coefficients for B and D (the positive root and $p = 0$ must be rejected if found / a clear choice of $p = -\\frac{1}{2}$). Can only be scored provided all previous marks have been awarded. Note if the coefficients of B and D are incorrect leading to $p = -\\frac{1}{2}$ then this is max M0A0M1A0 in (b) and M1A0 in (c)."
+                }
+              ],
+              "guidance": ""
+            },
+            {
+              "label": "(ii)",
+              "marks": 2,
+              "answer": "$\\frac{135}{2}$",
+              "markAllocation": [
+                {
+                  "code": "M1",
+                  "type": "M",
+                  "value": 1,
+                  "criterion": "Uses their value of $p^2$, $p$ or $p$ and either attempts $^5C_2 \\times 3^3 \\times p^2$ to find a value for C, or attempts to find $^5C_2 \\times 3^3 \\times (px)^2$ and then proceeds to identify the value for C. Condone values for $p$ where $x$ had not been removed from (i) e.g. $\\pm \\frac{1}{2x}$ being substituted in provided a value without $x$ is identified/extracted in (ii). Condone a slip in calculating $^5C_2$ and allow this mark if they substitute both values of $p$ into the expression and find two values for C. The method mark may be implied by the value found using their $p$"
+                },
+                {
+                  "code": "A1",
+                  "type": "A",
+                  "value": 1,
+                  "criterion": "$\\frac{135}{2}$ o.e. e.g. 67.5 or $67 \\frac{1}{2}$ or $\\frac{270}{4}$ following a correctly found $p = \\pm \\frac{1}{2}$ or $p^2 = \\frac{1}{4}$. Condone where both values of $p$ are used provided they both give the correct answer. Do not accept e.g. $\\frac{135}{2} x^2$ unless the coefficient is clearly identified"
+                }
+              ],
+              "guidance": ""
+            }
+          ],
+          "guidance": ""
+        }
+      ]
+    },
+    {
+      "qnum": 5,
+      "marks": 5,
+      "answer": "$x = \\frac{3}{2}$",
+      "markAllocation": [
+        {
+          "code": "B1",
+          "type": "B",
+          "value": 1,
+          "criterion": "Correct use of $\\log_a b = c \\Rightarrow b = a^c$. This will usually result from either $\\log_2 8 = 3$ or $\\log_2 16 = 4$ being stated or seen applied. e.g. $\\log_2 16(x+1) = \\log_2 8(x+6)$ or $\\log_2 \\frac{x+1}{x+6} = -1$"
+        },
+        {
+          "code": "M1",
+          "type": "M",
+          "value": 1,
+          "criterion": "Applies the addition (or subtraction) laws of logs at least once correctly. Condone invisible brackets. e.g. $\\log_2 16 + \\log_2 (x+1)$. This mark can be scored for expressions where the law has been applied correctly and does not need to be a full equation e.g. $\\log_2 \\frac{x+6}{x+1}$ scores M1. Do not withhold this mark if they subsequently apply a law incorrectly. e.g. $\\log_2 16(x+1) = 3 + \\log_2 (x+6)$ still scores M1. Also allow the mark to be scored despite an error dealing with the 3 when writing it as a log e.g. $\\log_2 (x+6) + \\log_2 6 = \\log_2 (x+6) + \\log_2 (x+6)$"
+        },
+        {
+          "code": "A1",
+          "type": "A",
+          "value": 1,
+          "criterion": "$2x^2 + 6x - 0 = 0$ or equivalent 3TQ (quite often $16x^2 + 8x - 48 = 0$). Terms must be collected but do not need to be collected on the same side. Condone the omission of $= 0$. Can only be scored from correct working."
+        },
+        {
+          "code": "dM1",
+          "type": "M",
+          "value": 1,
+          "criterion": "Attempts to solve their 3TQ via any valid method including via a calculator (you may need to check this). Condone complex roots. It is dependent on the previous method mark."
+        },
+        {
+          "code": "A1cso",
+          "type": "A",
+          "value": 1,
+          "criterion": "$\\frac{3}{2}$ o.e. only ($-2$ must be rejected if found). This mark can only be scored if a correct quadratic is achieved (following correct log work)"
+        }
+      ],
+      "guidance": "Note a correct answer with no working is 0 marks"
+    },
+    {
+      "qnum": 6,
+      "marks": 9,
+      "parts": [
+        {
+          "label": "(a)",
+          "marks": 2,
+          "answer": "$k^2 - 7k - 60 = 0$",
+          "markAllocation": [
+            {
+              "code": "M1",
+              "type": "M",
+              "value": 1,
+              "criterion": "Forms a correct equation linking the three terms and attempts to rearrange to the given quadratic (it cannot be awarded for just proceeding in one step from the starting equation to the given answer and usually will involve attempting to multiply out brackets or dealing with any fractions). Must proceed as far as a quadratic with terms collected. Condone slips in their rearrangement and invisible brackets. Possible starting equations will involve using the nth term formula or the sum of a geometric series. The ones below are not exhaustive. $\\frac{k+4}{k} = \\frac{k}{2k-15}$ or $k^2 = (k+4)(2k-15)$ or $u_2^2 = u_1 \\times u_3$ or $\\frac{k+4}{2k-15} = \\frac{k}{k+4}$ or $\\frac{k}{k+4} = \\frac{2k-15}{k}$ or $(2k-15) + (k+4) + k = 153$ (sum of 3 terms)"
+            },
+            {
+              "code": "A1*",
+              "type": "A",
+              "value": 1,
+              "criterion": "Rearranges to achieve $k^2 - 7k - 60 = 0$ with no errors seen including brackets. There must be at least some intermediate working (e.g. brackets multiplied out or multiplying to remove any fractions) between their starting equation and the given answer."
+            }
+          ],
+          "guidance": ""
+        },
+        {
+          "label": "(b)",
+          "marks": 4,
+          "answer": "21300",
+          "markAllocation": [
+            {
+              "code": "B1",
+              "type": "B",
+              "value": 1,
+              "criterion": "$k = 12$ (ignore $-5$) seen or used in (b) (may be implied by the value of the second term)"
+            },
+            {
+              "code": "M1",
+              "type": "M",
+              "value": 1,
+              "criterion": "Substitutes their 12 (must be positive) into the expressions for two of the terms and attempts to find a value for $r$. Condone arithmetical slips but they the division the correct way round."
+            },
+            {
+              "code": "M1",
+              "type": "M",
+              "value": 1,
+              "criterion": "Attempts to find the 4th term using their positive $k$ and their positive $r$ e.g. $(k+4) \\times r^2 = (12+4) \\times (\\frac{4}{3})^2 = ...$ (may be implied by awrt 21.3). Alternatively, they may find the first term $a$ and use this with their $r$ to find the 4th term. Condone slips in finding $a$. Condone $r$ to be rounded from their earlier work and condone missing brackets but not incorrectly placed brackets."
+            },
+            {
+              "code": "A1",
+              "type": "A",
+              "value": 1,
+              "criterion": "21300 or 21330 or 21333 only or their equivalences e.g. 21.3 thousand"
+            }
+          ],
+          "guidance": "Note a candidate who uses $k$ as $r$ can only score maximum B1 in (b) and no marks in (c)"
+        },
+        {
+          "label": "(c)",
+          "marks": 3,
+          "answer": "17",
+          "markAllocation": [
+            {
+              "code": "M1",
+              "type": "M",
+              "value": 1,
+              "criterion": "Uses their \"9\" or \"9000\" and their positive \"$\\frac{4}{3}$\" in the sum of a geometric formula $S_N = \\frac{a(r^N - 1)}{r - 1}$ (may be $=$ or any inequality in between) and proceeds to $(\\frac{4}{3})^N = \\frac{A}{B}$ (condone $A \\times B$ to be negative), where A could be 1 and B could be unsimplified. Do not be concerned with the number of 0s after the 3. Do not be concerned by the mechanics of their rearrangement and may be implied by further work if logarithms are used correctly. Condone $r$ to be rounded from their earlier work and condone missing brackets but not incorrectly placed brackets."
+            },
+            {
+              "code": "dM1",
+              "type": "M",
+              "value": 1,
+              "criterion": "Attempts to find N using logarithms correctly. Do not be concerned with the use of equals or the direction of any inequality used for this mark. May be implied by a correct expression (not a value) for N. It is dependent on the previous method mark. This mark can only be scored if $A \\times B > 0$ for their $(\\frac{4}{3})^N = \\frac{A}{B}$"
+            },
+            {
+              "code": "A1",
+              "type": "A",
+              "value": 1,
+              "criterion": "17 cso (if an incorrect inequality sign is used at some point in their working then withhold this final mark) This mark can only be scored provided there are no arithmetical errors and correct log work is seen as part of their solution. Do not withhold the mark for invisible brackets around their $(\\frac{4}{3})^N$. Condone if $r$ is rounded from $\\frac{4}{3}$. If a value for N is found before deducing $N = 17$ then it must be 16.4 or better. 17 with no working seen is 0 marks."
+            }
+          ],
+          "guidance": "Typically, candidates will work in base 10, but other bases such as their $r$ is acceptable. Note: Methods relying on trial and improvement, or the equation solver score maximum M1dM0A0"
+        }
+      ]
+    },
+    {
+      "qnum": 7,
+      "marks": 8,
+      "parts": [
+        {
+          "label": "(a)",
+          "marks": 5,
+          "answer": "$5\\alpha^2 - 18\\alpha - 20 = 0$",
+          "markAllocation": [
+            {
+              "code": "M1",
+              "type": "M",
+              "value": 1,
+              "criterion": "Multiplies out and attempts to differentiate. Award for one correct index from correct working (may be implied if they multiply out and differentiate at the same time) $t^{\\frac{3}{2}}$, $t^{\\frac{1}{2}}$ or $t^{-\\frac{1}{2}}$ (condone if these are $\\alpha^{\\frac{3}{2}}$, $\\alpha^{\\frac{1}{2}}$ or $\\alpha^{-\\frac{1}{2}}$ or any other variable). The indices do not need to be processed for this mark. e.g. $5t^{\\frac{1}{2}}$. Alternatively, they may attempt the product rule so look for a correct general expression such as $\\frac{\\text{d}H}{\\text{d}t} = ... (20t + 6t^{\\frac{1}{2}}) + ... (t^{\\frac{1}{2}} + At^{-\\frac{1}{2}} + Bt^{-\\frac{3}{2}})$ (condone if in terms of $\\alpha$ or another variable instead)"
+            },
+            {
+              "code": "A1",
+              "type": "A",
+              "value": 1,
+              "criterion": "One of $\\frac{1}{2} t^{\\frac{1}{2}}$, $\\frac{9}{2} t^{-\\frac{1}{2}}$, $-\\frac{1}{8} t^{-\\frac{3}{2}}$ (simplified or unsimplified) via the main scheme. If they differentiate using the product rule then this mark can only be awarded for one of $\\frac{1}{2} t^{-\\frac{1}{2}} (20t + 6t^{\\frac{1}{2}}) + ...$ or $... + (t^{\\frac{1}{2}} + \\frac{1}{2} t^{-\\frac{1}{2}} + \\frac{1}{2} t^{-\\frac{3}{2}}) (6t - 2t^{-\\frac{1}{2}})$ (unsimplified). In both cases the indices must be processed. Condone if in terms of $\\alpha$"
+            },
+            {
+              "code": "A1",
+              "type": "A",
+              "value": 1,
+              "criterion": "$\\frac{\\text{d}H}{\\text{d}t} = \\frac{1}{2} t^{\\frac{1}{2}} + \\frac{9}{2} t^{-\\frac{1}{2}} - \\frac{1}{8} t^{-\\frac{3}{2}}$ or equivalent e.g. $\\frac{\\text{d}H}{\\text{d}t} = \\frac{1}{40} t^{-\\frac{3}{2}} (20t^2 + 18t - 5)$ which may be unsimplified. Also allow e.g. $\\frac{\\text{d}H}{\\text{d}t} = \\frac{1}{2} t^{-\\frac{1}{2}} (20t + 6t^{\\frac{1}{2}}) + (t^{\\frac{1}{2}} + \\frac{1}{2} t^{-\\frac{1}{2}} + \\frac{1}{2} t^{-\\frac{3}{2}}) (6t - 2t^{-\\frac{1}{2}})$ (via the product rule)"
+            },
+            {
+              "code": "dM1",
+              "type": "M",
+              "value": 1,
+              "criterion": "Sets their derivative of the form $... t^{\\frac{3}{2}} \\pm ... t^{\\frac{1}{2}} \\pm ... t^{-\\frac{1}{2}} = 0$ (may be implied) and proceeds via a correct method to a 3TQ in $t$ or $\\alpha$ (or any other variable) where the powers and the coefficients of the terms are integers. Condone sign slips only. It is dependent on the previous method mark. Proceeding directly to the given answer is M0, unless they state how they have proceeded from the derivative directly to the given answer e.g. set $t = \\alpha$ and $\\times 40t^{\\frac{3}{2}}$. Derivatives which are already factorised before being set $= 0$ and have the quadratic factor $20t^2 + 18t - 5$ can score this mark for e.g. $\\frac{1}{40} t^{-\\frac{3}{2}} (20t^2 + 18t - 5) = 0 \\Rightarrow 5t^2 - 18t - 20 = 0$"
+            },
+            {
+              "code": "A1*",
+              "type": "A",
+              "value": 1,
+              "criterion": "Achieves $5\\alpha^2 - 18\\alpha - 20 = 0$ with no errors seen and all previous marks scored. Must be in terms of $\\alpha$ (do not be concerned if it looks like a). The $= 0$ must have been seen before achieving the given answer. Do not be concerned with the labelling of the derivative if seen e.g. $\\frac{\\text{d}y}{\\text{d}x}$ instead. Do not penalise invisible brackets as long as they are recovered and the intention is clear through their subsequent lines of working."
+            }
+          ],
+          "guidance": "If they change $t$ to $\\alpha$ before differentiating then score maximum M1A1A0dM1A0. Alternative method: They may attempt to multiply by e.g. 20 or take out a factor and then differentiate. This can score full marks, provided for A1* they explain at some point that this does not affect the given answer. You will need to check their terms are correct for the first A mark and withhold the A marks if e.g. they do not multiply all terms including the +17 by 20"
+        },
+        {
+          "label": "(b)",
+          "marks": 1,
+          "answer": "$\\alpha = \\text{awrt } 4.491$",
+          "markAllocation": [
+            {
+              "code": "B1",
+              "type": "B",
+              "value": 1,
+              "criterion": "$\\alpha = \\text{awrt } 4.491$ only. Accept the exact answer. If both roots are stated then awrt 4.491 must be the only one used within their $\\frac{\\text{d}^2H}{\\text{d}t^2}$, or if both values are used then the other is rejected. If awrt 4.491 is seen then allow for it to be subsequently rounded to 2 or 3sf when used as evidence of selecting awrt 4.491"
+            }
+          ],
+          "guidance": "Mark (b) and (c) together"
+        },
+        {
+          "label": "(c)",
+          "marks": 2,
+          "answer": "$\\frac{\\text{d}^2H}{\\text{d}t^2} < 0 \\Rightarrow \\text{maximum}$",
+          "markAllocation": [
+            {
+              "code": "M1",
+              "type": "M",
+              "value": 1,
+              "criterion": "Attempts to differentiate their $\\frac{\\text{d}H}{\\text{d}t}$ to achieve a second derivative of the form $... t^{-\\frac{1}{2}} + ... t^{-\\frac{3}{2}} + ... t^{-\\frac{5}{2}}$ (may be in terms of $\\alpha$ or another variable) and either attempts to substitute in their value of $\\alpha$ which must be between 0 and 7 or considers the sign of their second derivative. Condone their $\\alpha$ to have been subsequently rounded before substituted in. May be seen as $\\frac{1}{40} t^{-\\frac{5}{2}} (-20t^2 - 18t + 15)$. If differentiation in part (a) is via the product rule then look for an attempt to apply the product rule on their $\\frac{\\text{d}H}{\\text{d}t}$ leading to $... t^{-\\frac{1}{2}} + ... t^{-\\frac{3}{2}} + ... t^{-\\frac{5}{2}}$. Alternatively, attempts to show that the second derivative is always negative. e.g. attempts to complete the square on $-20t^2 - 18t + 15$ and considers its sign."
+            },
+            {
+              "code": "A1*",
+              "type": "A",
+              "value": 1,
+              "criterion": "$\\frac{\\text{d}^2H}{\\text{d}t^2} = -0.3... < 0 \\Rightarrow \\text{maximum}$ when $\\alpha = \\text{awrt } 4.491$. If evaluated, it must be $-0.3$ or better ($-0.3174...$). The second derivative must be correct but condone in terms of $\\alpha$. In the alternative method look for correct working and valid argument explaining that e.g. $20t^2 + 18t - 15$ is always greater than zero so $\\frac{1}{80} t^{-\\frac{5}{2}} (-20t^2 - 18t + 15)$ is always negative for any value of $t$. Condone poor phrasing as part of the explanation e.g. “$t = 4.491$ is a maximum” instead of “$t = 4.491$ is the value at which H is at a maximum”. Condone poor notation for $\\frac{\\text{d}^2H}{\\text{d}t^2}$ and condone e.g. $y''$"
+            }
+          ],
+          "guidance": ""
+        }
+      ]
+    },
+    {
+      "qnum": 8,
+      "marks": 5,
+      "parts": [
+        {
+          "label": "(i)",
+          "marks": 2,
+          "answer": "$7^2 + 11^2 = 170$, which is a multiple of 10, so the statement is untrue.",
+          "markAllocation": [
+            {
+              "code": "M1",
+              "type": "M",
+              "value": 1,
+              "criterion": "Attempts to find $a^2 + b^2$ using two consecutive prime numbers $a$ and $b$. It does not matter whether this combination of prime numbers results in a multiple of 10 to score M1. Condone slips in their evaluation of the sum of the squares of these two numbers. If a candidate has several combinations, you only need to look for one calculation using two consecutive prime numbers. Note $1^2 + 2^2 = ...$ as the only calculation is M0A0"
+            },
+            {
+              "code": "A1*",
+              "type": "A",
+              "value": 1,
+              "criterion": "Correctly: evaluates the sum of two consecutive prime numbers squared; either makes a comment that the answer is a multiple of 10 or makes a comment that 10 is a factor of their answer or makes a comment that their answer is divisible by 10 (do not accept can be divided by 10) or shows that the answer is a multiple of 10 (such as splitting the number into two factors, one of which is 10, or showing the number is divisible by 10 e.g. $170/10 = 17$); concludes not true o.e. (condone e.g. “not correct”, “not always true”). If a candidate has several combinations, you do not need to check all of them. Just look for one which would lead to correct counter example."
+            }
+          ],
+          "guidance": ""
+        },
+        {
+          "label": "(ii)",
+          "marks": 3,
+          "answer": "$1 < \\frac{4x - xy}{x} < 15$ for all $x$ and $y$ that are positive even integers less than 6.",
+          "markAllocation": [
+            {
+              "code": "M1",
+              "type": "M",
+              "value": 1,
+              "criterion": "Attempts at least two valid combinations of $x$ and $y$ and evaluates $\\frac{4x - xy}{x}$ condone slips in the evaluation of the combinations. Alternatively, attempts at least two valid combinations of $x$ and $y$ and evaluates $4x - xy$"
+            },
+            {
+              "code": "A1",
+              "type": "A",
+              "value": 1,
+              "criterion": "All four valid combinations of $x$ and $y$ correctly evaluated for $\\frac{4x - xy}{x}$ (or in the alternative method $4x - xy$)"
+            },
+            {
+              "code": "A1*",
+              "type": "A",
+              "value": 1,
+              "criterion": "A minimal conclusion that $1 < \\frac{4x - xy}{x} < 15$ (or condone $4 < 4x - xy < 60$) for all $x$ and $y$ that are positive even integers less than 6. e.g. “hence statement is true”, “they are all between 1 and 15” (or 4 and 60 in the alternative), “proven”, “QED” or they may have a preamble which can be concluded with a tick or similar."
+            }
+          ],
+          "guidance": "Check first if they have multiplied the inequality e.g. by 4 to give $4 < 4x - xy < 60$"
+        }
+      ]
+    },
+    {
+      "qnum": 9,
+      "marks": 7,
+      "parts": [
+        {
+          "label": "(a)",
+          "marks": 3,
+          "answer": "$3\\cos^2\\theta - 14\\cos\\theta + 8 = 0$",
+          "markAllocation": [
+            {
+              "code": "M1",
+              "type": "M",
+              "value": 1,
+              "criterion": "Substitutes or uses $\\tan\\theta = \\frac{\\sin\\theta}{\\cos\\theta}$ to achieve an equation in sine and cosine only. May be in another variable and condone if there is a mix of variables in the same equation for this mark."
+            },
+            {
+              "code": "dM1",
+              "type": "M",
+              "value": 1,
+              "criterion": "Attempts to use $\\sin^2\\theta \\pm \\cos^2\\theta = \\pm 1$ to achieve an equation in cosine only. It is dependent on the previous method mark. Condone slips in their manipulation of the equation. May be in another variable and condone if there is a mix of variables in the same equation for this mark."
+            },
+            {
+              "code": "A1*",
+              "type": "A",
+              "value": 1,
+              "criterion": "Achieves $3\\cos^2\\theta - 14\\cos\\theta + 8 = 0$ with no errors seen including brackets. Withhold this mark for poor notation used such as $3\\cos^2 \\theta - 14\\cos \\theta + 8 = 0$. Allow a candidate to work consistently in one variable and then change to $\\theta$ but withhold this final mark if there is a mixture of variables within the same equation/line of working."
+            }
+          ],
+          "guidance": ""
+        },
+        {
+          "label": "(b)",
+          "marks": 4,
+          "answer": "$x = \\text{awrt } 24.1, \\text{awrt } 155.9, \\text{awrt } 204.1, \\text{awrt } 335.9$",
+          "markAllocation": [
+            {
+              "code": "B1",
+              "type": "B",
+              "value": 1,
+              "criterion": "$\\cos(2x) = \\frac{2}{3}$ (ignore any reference to 4)"
+            },
+            {
+              "code": "M1",
+              "type": "M",
+              "value": 1,
+              "criterion": "Solves using the correct order of operations to find at least one value for $x$. You may need to check this on your calculator. May be implied by a correct value for $\\cos(2x) = \"\\frac{2}{3}\""
+            },
+            {
+              "code": "A1",
+              "type": "A",
+              "value": 1,
+              "criterion": "Two of awrt 24, awrt 156, awrt 204, awrt 336. (Condone in radians two of awrt 0.42, awrt 2.7, awrt 3.6, awrt 5.9)"
+            },
+            {
+              "code": "A1",
+              "type": "A",
+              "value": 1,
+              "criterion": "awrt 24.1, awrt 155.9, awrt 204.1, awrt 335.9 and no others in the range"
+            }
+          ],
+          "guidance": "Note that answers only scores 0 marks. May work in any variable and do not be concerned as to whether they are writing e.g. $x$ or $2x$ in their working"
+        }
+      ]
+    },
+    {
+      "qnum": 10,
+      "marks": 10,
+      "parts": [
+        {
+          "label": "(a)",
+          "marks": 5,
+          "answer": "$2046 - 6k + \\frac{84}{5}k^2$",
+          "markAllocation": [
+            {
+              "code": "M1",
+              "type": "M",
+              "value": 1,
+              "criterion": "Attempts to multiply out the numerator and split the fraction into separate terms. Score for one term with a correct index (which must be processed). Any attempts via substitution e.g. setting $u = \\sqrt{x}$ send to review. Condone poor attempts at multiplying out the brackets such that $(x - k)^2 / \\sqrt{x}$ becomes $(x^2 - k^2) / \\sqrt{x}$"
+            },
+            {
+              "code": "M1",
+              "type": "M",
+              "value": 1,
+              "criterion": "Attempts to raise the power (which must be a fraction or decimal) by one on one of their terms. (The index does not need to be processed)."
+            },
+            {
+              "code": "A1",
+              "type": "A",
+              "value": 1,
+              "criterion": "$\\frac{2}{5} x^{\\frac{5}{2}} - 2k x^{\\frac{3}{2}} + 2k^2 x^{\\frac{1}{2}}$ or unsimplified equivalent. Indices must be processed. Ignore any spurious notation around the expression. May be with or without $+ c$"
+            },
+            {
+              "code": "dM1",
+              "type": "M",
+              "value": 1,
+              "criterion": "Substitutes in 16 and 1 for $x$ and subtracts either way round. The values embedded are sufficient and condone invisible brackets. It is dependent on the previous method mark."
+            },
+            {
+              "code": "A1",
+              "type": "A",
+              "value": 1,
+              "criterion": "$2046 - 6k + \\frac{84}{5}k^2$ o.e. e.g. $409.2 - 6k + 16.8k^2$. isw after a correct answer is seen, but withhold this mark if there is spurious notation such as $\\int$ or $\\text{d}x$ at either the start or end of the answer."
+            }
+          ],
+          "guidance": ""
+        },
+        {
+          "label": "(b)",
+          "marks": 2,
+          "answer": "$k = 4$",
+          "markAllocation": [
+            {
+              "code": "M1",
+              "type": "M",
+              "value": 1,
+              "criterion": "Substitutes the coordinates of A into the equation for C or, alternatively, substitutes in the coordinates of A and $k = 4$ into the equation for C."
+            },
+            {
+              "code": "A1*",
+              "type": "A",
+              "value": 1,
+              "criterion": "Solves either: $9 = (1 - k)^2 \\Rightarrow k = 1 \\pm 3 \\Rightarrow k = 4$ or $k^2 - 2k - 8 = 0$ with terms collected to a 3TQ via any allowable method including via a calculator. With either method they must proceed to $k = 4$ only with no errors seen, including invisible brackets. If $-2$ is found it must be rejected or 4 clearly selected. If they use $k = 4$ in their solution, then there must be a minimal conclusion."
+            }
+          ],
+          "guidance": ""
+        },
+        {
+          "label": "(c)",
+          "marks": 3,
+          "answer": "$\\frac{1683}{10}$",
+          "markAllocation": [
+            {
+              "code": "B1",
+              "type": "B",
+              "value": 1,
+              "criterion": "$q = 36$ seen (may be in (b) or on the diagram) or implied for example by a correct area of a triangle or trapezium."
+            },
+            {
+              "code": "M1",
+              "type": "M",
+              "value": 1,
+              "criterion": "Attempts to find the area of R using their $q$ and their answer to part (a). Condone arithmetical slips and do not be concerned with poor notation for this mark. Must proceed to find a value for the area but condone subtracting areas the wrong way round which may result in a negative area. Possible methods include: e.g. Line – curve: $\\int_1^{16} (\\frac{9}{5} x + \\frac{36}{5}) \\text{d}x$ - part (a) with $k = 4$. e.g. Area of trapezium (337.5) – part (a) with $k = 4$. Note: the correct values if the trapezium is split into a rectangle and a triangle are 135 and 202.5, respectively. For evidence of use of part (a), look for $k = 4$ to be substituted into their part (a) answer, or may be implied by a correct value for their $2046 - 6k + \\frac{84}{5}k^2$ with $k = 4$. Condone $\\int_1^{16} \\frac{(x - k)^2}{\\sqrt{x}} \\text{d}x = 169.2$ provided their part (a) is correct"
+            },
+            {
+              "code": "A1",
+              "type": "A",
+              "value": 1,
+              "criterion": "$\\frac{1683}{10}$ oe (ignore units) Condone spurious notation. Withhold this mark if their method results in a negative area but they just omit the negative sign. They would need to indicate area is positive for e.g. $A = -168.3$ so $A = 168.3$"
+            }
+          ],
+          "guidance": ""
+        }
+      ]
+    },
+    {
+      "qnum": 11,
+      "marks": 8,
+      "parts": [
+        {
+          "label": "(a)",
+          "marks": 2,
+          "answer": "$u_2 = b - 3a$, $u_3 = b^2 - 3ab + a^2$",
+          "markAllocation": [
+            {
+              "code": "B1",
+              "type": "B",
+              "value": 1,
+              "criterion": "$u_2 = b - 3a$ oe"
+            },
+            {
+              "code": "B1",
+              "type": "B",
+              "value": 1,
+              "criterion": "$u_3 = (b - a)(b - 3a) - a$ oe isw"
+            }
+          ],
+          "guidance": "Check next to the question. If there is a contradiction between the answer next to the question and the answer in the main body of the work then the answer in the main body of the work takes precedence."
+        },
+        {
+          "label": "(b)",
+          "marks": 3,
+          "answer": "$a^2 - 5a - 66 = 0$",
+          "markAllocation": [
+            {
+              "code": "M1",
+              "type": "M",
+              "value": 1,
+              "criterion": "Attempts to add $u_1 = 3$, their $u_2$ and their $u_3$ and sets equal to 153. Condone slips in their copying of their expressions for $u_2$ and $u_3$. Invisible brackets may be implied by further work. May be in terms of $a$ or $b$ only if they substitute in $b = a + 9$ at the same time. e.g. $3 + (a+9) - 3a + (a+9)^2 - 3a(a+9) + a^2 = 153$"
+            },
+            {
+              "code": "dM1",
+              "type": "M",
+              "value": 1,
+              "criterion": "Attempts to substitute $b = a + 9$ into their equation and then attempts to collect terms to achieve a 3TQ in $a$ (condone the omission of $= 0$). The three terms do not all need to be on the same side of the equation. It is dependent on them having a $u_3$ term which would lead to an $a^2$ term. Do not be too concerned by the mechanics of their rearrangement for this mark. It is dependent on the previous method mark."
+            },
+            {
+              "code": "A1*",
+              "type": "A",
+              "value": 1,
+              "criterion": "Achieves the given answer with no arithmetical errors seen. Condone recovery of missing brackets, provided the recovery is before the final answer. Must see at least one intermediate stage of working following an equation in $a$ only, before proceeding to the given quadratic equation."
+            }
+          ],
+          "guidance": ""
+        },
+        {
+          "label": "(c)",
+          "marks": 3,
+          "answer": "$u_2 = 21$",
+          "markAllocation": [
+            {
+              "code": "B1",
+              "type": "B",
+              "value": 1,
+              "criterion": "$a = -6$ seen or used in (c). Ignore the positive root for this mark."
+            },
+            {
+              "code": "M1",
+              "type": "M",
+              "value": 1,
+              "criterion": "Attempts to substitute their negative root into $b = a + 9$ to find a value for $b$ and then uses these in their expression for $u_2$ to find a value for $u_2$. Alternatively, attempts to substitute both their negative root and $b = a + 9$ into their expression for $u_2$ and proceeds to find a value for $u_2$. Ignore working relating to where they repeat the calculations to find $u_2$ using their positive root. May be implied by their answer (you may need to check this). Note: For candidates who have two roots of the same sign then this mark can be awarded for using their smaller value (i.e. most negative/least positive) and proceeding to find a value for $u_2$"
+            },
+            {
+              "code": "A1",
+              "type": "A",
+              "value": 1,
+              "criterion": "21 only cao (if two answers are reached they must select 21 or reject the other answer). Correct answer on its own scores full marks."
+            }
+          ],
+          "guidance": ""
+        }
+      ]
+    }
+  ]
+}

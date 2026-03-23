@@ -1,0 +1,698 @@
+{
+  "v": "1.0",
+  "paper": "2025May-WMA12-01",
+  "board": "edx",
+  "code": "WMA12",
+  "year": 2025,
+  "session": "May",
+  "paperNum": "01",
+  "totalMarks": 75,
+  "questions": [
+    {
+      "qnum": 1,
+      "marks": 6,
+      "parts": [
+        {
+          "label": "(a)",
+          "marks": 4,
+          "answer": "1 - 28x + 336x^2 - 2240x^3",
+          "markAllocation": [
+            {
+              "code": "M1",
+              "type": "M",
+              "value": 1,
+              "criterion": "Correct form for term 3 or term 4: Either $(7 \\ 2) (4x)^2$ or $(7 \\ 3) (4x)^3$ o.e."
+            },
+            {
+              "code": "A1",
+              "type": "A",
+              "value": 1,
+              "criterion": "$(7 \\ 2) (-4x)^2$ or $(7 \\ 3) (-4x)^3$ o.e."
+            },
+            {
+              "code": "B1",
+              "type": "B",
+              "value": 1,
+              "criterion": "For the series starting $1 - 28x$"
+            },
+            {
+              "code": "A1",
+              "type": "A",
+              "value": 1,
+              "criterion": "$336x^2 - 2240x^3$"
+            }
+          ],
+          "guidance": "Note that a correct expression scores 4/4\nM1: Correct form for $x^2$ or $x^3$. Look for the correct binomial coefficient with the correct power of x. You do not need to be concerned with the $4^-$ which may have been omitted.\nAllow alternative equivalent notation for the binomial coefficient for this mark e.g. $^7C_2$ or $^7C_5$ or $\\binom{7}{2}$ or $7!/(2!5!)$ etc\nCondone invisible brackets for this mark e.g. $^7C_2 4x^2$\nA1: Correct $x^2$ or $x^3$ term (which may be unsimplified). They must have a numerical expression or value for their binomial coefficient for this mark. i.e. do not allow e.g. $^7C_3$\nDo not condone poor bracketing for this mark but may be implied by further work.\nB1: For the series starting $1 - 28x$ (terms may be in any order or as a list)\nCondone $1 + (-28x)$ but not e.g. $1 - 28x^+$\nisw if they subsequently incorrectly attempt to simplify their answer.\nA1: $336x^2 - 2240x^3$ Do not accept e.g. $336x^2 + (-2240x^3)$ unless already penalised for B1.\nAllow the terms to be written as a list.\nisw once the correct simplified terms have been found"
+        },
+        {
+          "label": "(b)",
+          "marks": 2,
+          "answer": "k = 13",
+          "markAllocation": [
+            {
+              "code": "M1",
+              "type": "M",
+              "value": 1,
+              "criterion": "Sets \"336\" - 5 \"28\"k = 1316"
+            },
+            {
+              "code": "A1",
+              "type": "A",
+              "value": 1,
+              "criterion": "k = 13"
+            }
+          ],
+          "guidance": "M1: Adds the correct two terms using their coefficients from (a) and sets equal to 1316. (Allow misread)\nLook for ''336'' $\\pm$ 5 ''28''k = 1316 i.e. they do not need to proceed to a value for k for this mark\nIf they still have x and $x^2$ present in the equation then these must be removed or implied by further work to score the mark. Condone transcription errors from their part (a).\nIf just a value is stated following an incorrect part (a), then you will need to check this.\nA1: k = 13"
+        }
+      ]
+    },
+    {
+      "qnum": 2,
+      "marks": 7,
+      "parts": [
+        {
+          "label": "(a)",
+          "marks": 5,
+          "answer": "$(x-1)^2 + (y-10)^2 = 34$",
+          "markAllocation": [
+            {
+              "code": "B1",
+              "type": "B",
+              "value": 1,
+              "criterion": "Midpoint of $(-2, 5)$ and $(4,15)$ is $(\\frac{-2+4}{2}, \\frac{5+15}{2}) = (1,10)$"
+            },
+            {
+              "code": "M1",
+              "type": "M",
+              "value": 1,
+              "criterion": "Attempts radius^2 or diameter^2: e.g. $D^2 = (4 - (-2))^2 + (15 - 5)^2 = 136$"
+            },
+            {
+              "code": "A1",
+              "type": "A",
+              "value": 1,
+              "criterion": "Radius^2 = 34"
+            },
+            {
+              "code": "M1",
+              "type": "M",
+              "value": 1,
+              "criterion": "$(x - ''1'')^2 + (y - ''10'')^2 = ''34''$"
+            },
+            {
+              "code": "A1",
+              "type": "A",
+              "value": 1,
+              "criterion": "$(x-1)^2 + (y-10)^2 = 34$"
+            }
+          ],
+          "guidance": "B1: Finds the midpoint of the two given points. Must be simplified to score this mark.\nCan be implied by circle formula. Allow e.g. $x=1, y=10$ or may be without brackets. May be seen on a diagram.\nM1: Attempts to find the radius^2 or diameter^2. Can be implied by the circle formula e.g. $(x \\pm ...)^2 + (y \\pm ...)^2 = 34$\nIt does not need to be correctly labelled but they must be attempting to find the difference between the x coordinates and the difference between the y coordinates before squaring.\nCondone square rooting to find the radius or diameter (which may be all that is seen) e.g. $r = \\sqrt{34}, D = \\sqrt{136} (\\approx 11.66..), r \\approx 5.83...$. Allow decimals for this mark.\nMay be seen embedded within $x^2 + y^2 + 2fx + 2gy + c = 0$\nA1: Calculates the radius^2 = 34 o.e. (or allow to be implied by radius = $\\sqrt{34}$)\nCan be implied by circle formula or a value of $c = 67$ in $x^2 + y^2 + 2fx + 2gy + c = 0$\nM1: Attempts correct form for the circle $(x \\pm ''1'')^2 + (y \\pm ''10'')^2 = ''34''$ or $(x \\pm ''1'')^2 + (y \\pm ''10'')^2 = ''136''/4$\nDo not allow this mark if they have clearly attempted to use their radius instead of their radius^2\nIf they have found the length of the diameter or diameter^2 however they have labelled it, then they must have attempted to divide by 4.\nThey may alternatively attempt $x^2 + y^2 + 2fx + 2gy + c = 0$ where $f = \\pm ''1''$, $g = \\pm ''10''$ and $c = \\pm ''67''$\nIf a centre has not been found or attempted with just values appearing in the equation then they must be correct.\nA1: $(x-1)^2 + (y-10)^2 = 34$ but not $(x-1)^2 + (y-10)^2 = (\\sqrt{34})^2$ isw after a correct answer\nAlso allow equivalent expressions e.g. $x^2 + y^2 - 2x - 20y + 67 = 0$"
+        },
+        {
+          "label": "(b)",
+          "marks": 2,
+          "answer": "$(1, 10 - \\sqrt{34})$",
+          "markAllocation": [
+            {
+              "code": "B1",
+              "type": "B",
+              "value": 1,
+              "criterion": "Either $x=1$ or $y = 10 - \\sqrt{34}$"
+            },
+            {
+              "code": "dB1",
+              "type": "B",
+              "value": 1,
+              "criterion": "Both $x=1$ and $y = 10 - \\sqrt{34}$"
+            }
+          ],
+          "guidance": "Note coordinates may be seen on a diagram. Do not allow $x=1$ if just the midpoint from (a) is stated.\nB1: Either $x=1$ or $y = 10 - \\sqrt{34}$ Condone lack of labelling for this mark.\nIsw after an exact coordinate is seen.\ndB1: Both $x=1$ and $y = 10 - \\sqrt{34}$ Isw after both exact coordinates are seen. Note B0B1 is not possible."
+        }
+      ]
+    },
+    {
+      "qnum": 3,
+      "marks": 5,
+      "answer": "13.5",
+      "markAllocation": [
+        {
+          "code": "M1",
+          "type": "M",
+          "value": 1,
+          "criterion": "Attempts to integrate the curve and achieves at least one term with the correct index i.e. $x \\to x^2$, $x^{-2} \\to x^{-1}$ or $8 \\to \\pm 8x$"
+        },
+        {
+          "code": "A1",
+          "type": "A",
+          "value": 1,
+          "criterion": "Two correct terms from $16x - \\frac{8}{x} - \\frac{x^3}{3}$"
+        },
+        {
+          "code": "A1",
+          "type": "A",
+          "value": 1,
+          "criterion": "$16x - \\frac{8}{x} - \\frac{x^3}{3}$"
+        },
+        {
+          "code": "dM1",
+          "type": "M",
+          "value": 1,
+          "criterion": "Full method including correct area (value or expression) of trapezium. The expression with correct limits substituted in or partially evaluated as evidence is sufficient for this mark and condone subtracting either way round. They cannot just proceed to the final answer without additional evidence of using the limits. Note area of trapezium = 24, area under curve = 10.5."
+        },
+        {
+          "code": "A1",
+          "type": "A",
+          "value": 1,
+          "criterion": "13.5 o.e following all previous marks scored."
+        }
+      ],
+      "guidance": "M1: Attempts to integrate the curve and achieves at least one term with the correct index i.e. $x \\to x^2$, $x^{-2} \\to x^{-1}$ or $8 \\to \\pm 8x$ (indices do not need to be processed for this mark e.g. $x^n \\to x^{n+1}$)\nA1: Two correct terms from $16x - \\frac{8}{x} - \\frac{x^3}{3}$, may be unsimplified but indices must be processed.\nAllow equivalent forms.\nA1: $16x - \\frac{8}{x} - \\frac{x^3}{3}$, may be unsimplified. Allow the presence of the constant of integration.\nDo not be concerned with spurious notation or any limits.\ndM1: Full method including correct area (value or expression) of trapezium. The expression with correct limits substituted in or partially evaluated as evidence is sufficient for this mark and condone subtracting either way round. They cannot just proceed to the final answer without additional evidence of using the limits. Note area of trapezium = 24, area under curve = 10.5.\nCondone slips in evaluating some of the terms provided the intention is clear.\nA1: 13.5 o.e following all previous marks scored. Note if they use the limits the wrong way round resulting in a negative value for the integral then we must see that calculated correctly before they state the area is 13.5\n-------------------------------------------------------------------------------------------------------------------------------------\nAlternative: line – curve\nM1: Attempts to integrate and achieves at least one term with the correct index . i.e. $x \\to x^2$, $x^{-2} \\to x^{-1}$ or \"21\" $x \\to \\pm$ \"21\"x (allow slips in their collecting terms). Indices do not need to be processed for this mark.\nA1: Two correct terms from $x^2 - \\frac{5x^2}{2} + \\frac{16}{x} + 21x$, which may be unsimplified but indices must be processed.\nAllow equivalent forms including terms which have not been collected.\nA1: Correct integration, may be unsimplified. Allow the presence of the constant of integration.\nAllow equivalent forms including terms which have not been collected.\nDo not be concerned with spurious notation or any limits.\ndM1: Full method (condoning an incorrect equation for the line). Scored for\ne.g. $\\int_1^2 (21-5x - (16-8x^{-2}-x^2)) dx = [5x - \\frac{5x^2}{2} - \\frac{8}{x} + \\frac{x^3}{3}]_1^2 = ...$\nThe expression with correct limits substituted in or partially evaluated is sufficient for this mark and condone subtracting either way round.\nCondone slips in finding the straight line, evaluating some terms or collecting terms incorrectly\nprovided the intention is clear.\nA1: 13.5 o.e following all previous marks scored. Note if they use the limits the wrong way round\nresulting in a negative value then we must see that calculated correctly before they state the area is\n13.5\nThere will be variations of these two methods but should mark similarly. Send to review if you are unsure.\nNote for those who attempt curve-line\nAllow to score M1A1A1dM1A0 but accept the final A1 to be scored if they subsequently state the area is $27/2$ (i.e. they cannot just write $27/2$ as the answer to this integral)"
+    },
+    {
+      "qnum": 4,
+      "marks": 9,
+      "parts": [
+        {
+          "label": "(a)",
+          "marks": 2,
+          "answer": "3b = 2a + 18",
+          "markAllocation": [
+            {
+              "code": "M1",
+              "type": "M",
+              "value": 1,
+              "criterion": "Sets $f(-3) = 0 \\to a(-3)^3 + b(-3)^2 + 5(-3) - 3 = 0$"
+            },
+            {
+              "code": "A1*",
+              "type": "A",
+              "value": 1,
+              "criterion": "$-27a + 9b - 15 - 3 = 0 \\implies -27a + 9b = 18 \\implies 3b = 2a + 18$"
+            }
+          ],
+          "guidance": "M1: Sets $f(-3) = 0$ and proceeds to an equation in a and b Condone sign slips.\nScore when you see embedded values within the equation or two correct simplified terms on the lhs of the equation. The = 0 may be implied by further work which is not the given answer.\nA1*: Completes proof with no errors including brackets and at least one intermediate stage of working such as $-27a + 9b = 18$ and = 0 must be seen somewhere in their solution.\n-------------------------------------------------------------------------------------------------------------------------------------\nAlt I\nM1: Attempts to divide by $x+3$ and sets their remainder in a and b = 0. May be seen in a variety of forms such as the grid or box method. Condone slips provided they are attempting to divide by $x+3$ and set their remainder in a and b equal to 0. The = 0 may be implied by further work which is not the given answer.\nA1*: Completes proof with no errors seen and an intermediate stage of working such as $18 - 9(a-b) = 0 \\implies 3b = 2a + 18$ (= 0 must be seen somewhere in their solution)\nAlt II\nM1: Substitutes in $3b = 2a + 18$, sets $f(-3) = 0 \\to$ equation in a or b only Condone sign slips.\nScore when you see embedded values within the equation or two correct terms on the lhs of the equation.\nA1*: Completes proof and achieves $0=0$ concluding that $3b = 2a + 18$"
+        },
+        {
+          "label": "(b)",
+          "marks": 4,
+          "answer": "a=2, b=8",
+          "markAllocation": [
+            {
+              "code": "M1",
+              "type": "M",
+              "value": 1,
+              "criterion": "Sets $f(1/2) = 7/4 \\to a(1/2)^3 + b(1/2)^2 + 5(1/2) - 3 = 7/4$"
+            },
+            {
+              "code": "A1",
+              "type": "A",
+              "value": 1,
+              "criterion": "$a/8 + b/4 + 5/2 - 3 = 7/4 \\implies a/8 + b/4 = 9/4 \\implies a + 2b = 18$"
+            },
+            {
+              "code": "M1",
+              "type": "M",
+              "value": 1,
+              "criterion": "Solves $3b = 2a + 18$ with their $a + 2b = 18 \\implies a = ..., b = ...$"
+            },
+            {
+              "code": "A1",
+              "type": "A",
+              "value": 1,
+              "criterion": "a=2, b=8"
+            }
+          ],
+          "guidance": "Note they may have substituted in $3b = 2a + 18$ early so the equation will be in a only or b only\nM1: Sets $f(1/2) = 7/4$ o.e. and proceeds to an equation in a and b.\nCondone slips provided they set their remainder in a and b equal to $7/4$ o.e. (e.g. $f(1/2) - 7/4 = 0$)\nMay use algebraic division or e.g. grid method.\nA1: $a + 2b = 18$ or other simplified equivalent including $a/8 + b/4 = 9/4$ which may only be in a or only in b. e.g. $7a = 14$\nM1: Solves $3b = 2a + 18$ with their $a + 2b = 18 \\implies a = ..., b = ...$\nYou do not need to be concerned with the mechanics of the rearrangement. Award as long as values appear for both a and b (both non zero) (which may be found using a calculator)\nA1: a=2, b=8"
+        },
+        {
+          "label": "(c)",
+          "marks": 3,
+          "answer": "Quotient = $2x^2 + 12x + 29$, Remainder = 55",
+          "markAllocation": [
+            {
+              "code": "M1",
+              "type": "M",
+              "value": 1,
+              "criterion": "Attempts to divide $2x^3 + 8x^2 + 5x - 3$ by $(x-2)$ and proceeds to a quadratic quotient $ax^2 + bx + c$."
+            },
+            {
+              "code": "A1",
+              "type": "A",
+              "value": 1,
+              "criterion": "Quotient = $2x^2 + 12x + 29$"
+            },
+            {
+              "code": "B1",
+              "type": "B",
+              "value": 1,
+              "criterion": "Remainder = 55"
+            }
+          ],
+          "guidance": "In EPEN this is M1A1A1 but we are marking this M1A1B1\nM1: Attempts to divide the cubic with their values for a and b by $(x-2)$ and proceeds to a quadratic quotient $...x^2 + ...x + ...$. where a is the value found in (b). It is not a requirement to proceed to a value for R for this mark, but their method must allow for it to be found. If R is stated as 0 then M0.\nCondone slips.\nIf they attempt $2x^3 + 8x^2 + 5x - 3 = (x-2)(ax^2+bx+c) + R \\implies a=..., b=..., c=..., R=...$\nA1: Quotient = $2x^2 + 12x + 29$ which can be extracted from their working e.g. on the top line of their algebraic division or $(x-2)(2x^2+12x+29) + R$ isw\nB1: Remainder = 55 which can be extracted from their working. isw\nMay also be written in the expression $(x-2)(2x^2+12x+29) + 55$"
+        }
+      ]
+    },
+    {
+      "qnum": 5,
+      "marks": 6,
+      "parts": [
+        {
+          "label": "(a)",
+          "marks": 3,
+          "answer": "18.8",
+          "markAllocation": [
+            {
+              "code": "B1",
+              "type": "B",
+              "value": 1,
+              "criterion": "Identifies h = 1.5"
+            },
+            {
+              "code": "M1",
+              "type": "M",
+              "value": 1,
+              "criterion": "Area = $\\frac{1.5}{2} \\{12 + 0.023 + 2(4.243 + 1.5 + 0.530 + 0.188 + 0.066)\\}$"
+            },
+            {
+              "code": "A1",
+              "type": "A",
+              "value": 1,
+              "criterion": "18.8"
+            }
+          ],
+          "guidance": "Note that awrt 18.8 with no working is 0 marks\nB1: Identifies h = 1.5 or may be implied by e.g. 0.75 oe outside of the bracket in the expression for the area\nM1: Correct method of finding the area. Requires $1/2 \\times$ their h $\\times$ correct bracket structure but condone the omission of a trailing bracket. Allow h = 1 if stated but if only an expression is seen then it must be correct. Allow equivalent expressions e.g. they may add together individual trapezia.\nCondone invisible brackets to be implied by further work or awrt 18.8 but do not allow just awrt 18.8 with no working seen to score this mark. Condone slips on the digits of the heights, e.g 4.234 for 4.243\nA1: 18.8 or better (18.80775) following M1. i.e. if they have carried out the calculation and their 18.8 does not come from 18.0775 (allow truncating or rounding) then A0. Isw\nNote that the calculator answer is 17.2785..."
+        },
+        {
+          "label": "(b)",
+          "marks": 3,
+          "subparts": [
+            {
+              "label": "(i)",
+              "marks": 1,
+              "answer": "4.7",
+              "markAllocation": [
+                {
+                  "code": "B1ft",
+                  "type": "B",
+                  "value": 1,
+                  "criterion": "Calculates $\\frac{1}{4} \\times ''18.8'' = ''4.7''$"
+                }
+              ],
+              "guidance": "Note in part (b) they may have rounded their value in part (a) as their final answer (e.g. 18.8) but then used an earlier unrounded value in part (b). They must give an answer in part (b) that is at least 1dp for the B1ft in (i) and/or A1ft (ii) to be awarded. You will need to check their follow through answers if (a) is incorrect.\nDo not accept solutions in (b) which involve re-doing the table of values and attempting the trapezium rule again.\n(b)(i) Note if they have awrt 17.3 in (a) then this mark cannot be scored unless we see $1/4 \\times$ awrt17.3\nB1ft: Calculates $1/4 \\times ''18.8'' = ''4.7''$\nNote that the calculator answer is 4.3196..."
+            },
+            {
+              "label": "(ii)",
+              "marks": 2,
+              "answer": "51.3",
+              "markAllocation": [
+                {
+                  "code": "M1",
+                  "type": "M",
+                  "value": 1,
+                  "criterion": "Recognises that $\\int_2^7 (\\frac{1}{2}x^{-1} - 3 - 2x) dx = \\frac{1}{3} \\times \\int_2^7 (\\frac{1}{2}x^{-1} - 3) dx$ AND integrates $2x$ to $x^2$."
+                },
+                {
+                  "code": "A1ft",
+                  "type": "A",
+                  "value": 1,
+                  "criterion": "51.3 or ft on their answer to part (a) by adding 45 to $\\frac{1}{3} \\times ''18.8''$."
+                }
+              ],
+              "guidance": "(b)(ii) Note if they have awrt 17.3 in (a) then A1ft can be scored following M1.\nM1: Recognises that $\\int_2^7 (\\frac{1}{2}x^{-1} - 3 - 2x) dx = \\frac{1}{3} \\times \\int_2^7 (\\frac{1}{2}x^{-1} - 3) dx$ AND integrates $2x$ to $x^2$. We must see the $x^2$ or allow to be implied by limits substituted in and subtracting e.g. $(7^2 - 2^2)$ (or $7^2 - 2^2$ or $49-4$) but not just 45\nA1ft: 51.3 or ft on their answer to part (a) by adding 45 to $\\frac{1}{3} \\times ''18.8''$. Allow fractions e.g. $769/15$\nNote that the calculator answer is 50.7595..."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "qnum": 6,
+      "marks": 10,
+      "parts": [
+        {
+          "label": "(i)",
+          "marks": 5,
+          "answer": "x = -2",
+          "markAllocation": [
+            {
+              "code": "B1",
+              "type": "B",
+              "value": 1,
+              "criterion": "One correct log law applied – examples (not exhaustive): $(2\\log_2(4-x) = \\log_2(4-x)^2)$, $(\\log_2(11+x) - \\log_2 2 = \\log_2(\\frac{11+x}{2}))$ or $3 = \\log_2 8$"
+            },
+            {
+              "code": "M1",
+              "type": "M",
+              "value": 1,
+              "criterion": "Correctly combines two original terms e.g. $\\log_2(4-x)^2 = \\log_2(11+x) + 3$"
+            },
+            {
+              "code": "A1",
+              "type": "A",
+              "value": 1,
+              "criterion": "Correct equation not involving logs $(4-x)^2 = 8(11+x)$"
+            },
+            {
+              "code": "dM1",
+              "type": "M",
+              "value": 1,
+              "criterion": "Solves a quadratic equation via factorisation, the formula or completing the square (usual rules apply). $(x-14)(x+2)=0 \\implies x = ...$"
+            },
+            {
+              "code": "A1",
+              "type": "A",
+              "value": 1,
+              "criterion": "$x = -2$ only"
+            }
+          ],
+          "guidance": "B1: Sight of one correct log law applied. See scheme. There will be other equivalent examples e.g. $\\log_2(11+x) - \\log_2 2 = \\log_2(\\frac{11+x}{2})$. This mark can still be awarded if they have made errors before applying the law and do not withhold this mark for any subsequent errors.\nM1: Correctly combines two of the three original terms of the equation. e.g. $\\log_2 \\frac{(4-x)^2}{11+x} = 3$\nMay be implied by a correct equation in any form not involving logs provided it has not come from incorrect log work. e.g. $\\log_2(4-x)^2 - \\log_2(11+x) = 3 \\implies \\frac{(4-x)^2}{11+x} = 8$ is M1\nA1: Correct equation in any form not involving logs which has not come from incorrect log work.\ndM1: Solves a quadratic equation via factorisation, the formula or completing the square (usual rules apply). They are not allowed to just state the roots. Dependent on the previous method mark.\nA1: $x = -2$ only (the 14 if found must be rejected or not included in their final answer)"
+        },
+        {
+          "label": "(ii)",
+          "marks": 5,
+          "answer": "$(\\log_3 2, 12)$",
+          "markAllocation": [
+            {
+              "code": "M1",
+              "type": "M",
+              "value": 1,
+              "criterion": "Combines $y = 6 \\times 3^x$ and $y = 3^{x+2} - 3^x \\implies 6 \\times 3^x = 3^{x+2} - 3^x$"
+            },
+            {
+              "code": "dM1",
+              "type": "M",
+              "value": 1,
+              "criterion": "A correct method of solving the equation in x (or y) to find either an unsimplified expression or value for x in terms of logs, or an expression or value for y not involving logs. e.g. $3^x = 2 \\implies x = \\log_3 2$"
+            },
+            {
+              "code": "A1",
+              "type": "A",
+              "value": 1,
+              "criterion": "Correct x coordinate ($\\log_3 2$ or equivalent expressions such as $\\log_3 6 - 1$ or $\\frac{\\log 2}{\\log 3}$ o.e.) or y coordinate which must be 12"
+            },
+            {
+              "code": "ddM1",
+              "type": "M",
+              "value": 1,
+              "criterion": "Uses a correct method to find values for both x and y. e.g. $y = 6 \\times 3^{\\log_3 2} = 6 \\times 2 = 12$"
+            },
+            {
+              "code": "A1",
+              "type": "A",
+              "value": 1,
+              "criterion": "coordinates of P are: $(\\log_3 2, 12)$"
+            }
+          ],
+          "guidance": "Note that if logarithms are written as decimals instead of keeping their values exact then\n- if they find x first the maximum score is M1dM0A0ddM0A0\n- if they find y first the maximum score is M1dM1A1ddM0A0\nM1: Sets up a correct equation in x or y. Most likely in x but it is possible to form an equation in y\ne.g. $y = 3^{x+2} - 3^x = 3^x(3^2 - 1) = 8 \\times 3^x \\implies y = 8 \\times (y/6) \\implies y = 4y/3 \\implies y = 0$ (This is a typo in the scheme, it should lead to $3^x=2$)\ndM1: A correct method of solving the equation in x (or y) to find either\n• an unsimplified expression or value for x in terms of logs, or\n• an expression or value for y not involving logs\nIt is dependent on the previous method mark. Condone arithmetical slips but any log/index work must be correct.\nThere may be some alternative approaches here to solving:\ne.g. taking logarithms of base 3:\n$3^{x+2} - 3^x = 6 \\times 3^x \\implies 9 \\times 3^x - 3^x = 6 \\times 3^x \\implies 8 \\times 3^x = 6 \\times 3^x \\implies 2 \\times 3^x = 0 \\implies 3^x = 0$ (This is a typo in the scheme, it should lead to $3^x=2$)\ne.g. forming a quadratic in $3^x$ (or another variable)\nIf solving an equation in y then e.g. $y = 8 \\times (y/6) \\implies y = 4y/3 \\implies y = 0$ (This is a typo in the scheme, it should lead to $y=12$)\nA1: Correct x coordinate ($\\log_3 2$ or equivalent expressions such as $\\log_3 6 - 1$ or $\\frac{\\log 2}{\\log 3}$ o.e.) or y coordinate which must be 12\nddM1: Uses a correct method to find values for both x and y. Condone arithmetical slips but any log/index work must be correct.\nIt is dependent on the previous two method marks.\nMay be implied by a correct coordinate for their x or y. Do not allow logarithms to be written as decimals.\nA1: $(\\log_3 2,12)$ Accept if written separately e.g. $x = \\log_3 2, y = 12$. isw if they incorrectly state the values of a and b after correct coordinates are seen.\nCondone missing brackets but do not allow the coordinates to be the wrong way round."
+        }
+      ]
+    },
+    {
+      "qnum": 7,
+      "marks": 9,
+      "parts": [
+        {
+          "label": "(i)",
+          "marks": 5,
+          "subparts": [
+            {
+              "label": "(a)",
+              "marks": 2,
+              "answer": "50",
+              "markAllocation": [
+                {
+                  "code": "M1",
+                  "type": "M",
+                  "value": 1,
+                  "criterion": "Attempts $S_\\infty = \\frac{a}{1-r}$ with $a=10, r=0.8$"
+                },
+                {
+                  "code": "A1",
+                  "type": "A",
+                  "value": 1,
+                  "criterion": "$S_\\infty = 50$"
+                }
+              ],
+              "guidance": "M1: Attempts $S_\\infty = \\frac{a}{1-r}$ with $a=10, r=0.8$ but condone slips on an incorrectly evaluated ''r'' provided the method to finding it is correct and $-1 < r < 1$. The expression with the values substituted in is sufficient.\nA1: $S_\\infty = 50$"
+            },
+            {
+              "label": "(b)",
+              "marks": 3,
+              "answer": "k = 46",
+              "markAllocation": [
+                {
+                  "code": "M1",
+                  "type": "M",
+                  "value": 1,
+                  "criterion": "Sets $10 \\times 0.8^{k-1} < 0.0005 \\implies 0.8^{k-1} < 0.00005$"
+                },
+                {
+                  "code": "M1",
+                  "type": "M",
+                  "value": 1,
+                  "criterion": "e.g. $\\log(0.8^{k-1}) < \\log(0.00005) \\implies (k-1)\\log(0.8) < \\log(0.00005)$"
+                },
+                {
+                  "code": "A1",
+                  "type": "A",
+                  "value": 1,
+                  "criterion": "k = 46"
+                }
+              ],
+              "guidance": "Note that candidates may misread the number of 0s in 0.0005 but can still score M1M1A0\nM1: Sets $10 ''0.8''^{k-1} < 0.0005$ and proceeds to $''0.8''^{k-1} < 0.00005$ (or they may manipulate correctly to $''0.8''^k < 0.00005 \\times 0.8$). If they take logs before this stage then they will need to proceed to e.g. $(k-1)\\log''0.8'' < \\log0.0005 - \\log10$\nCondone other signs being used e.g. = or >\nM1: Uses a correct method to solve an equation or inequality of the type $p^k < q$ or $p^{k-1} < q$\nIt cannot be for just stating the value for k. They only need to proceed as far as $k-1$ on one side of an equation or inequality. Evidence of using logs is required which cannot be e.g. 44.38… otherwise M0A0\nDo not be concerned with the direction of inequalities, if used, in their solution for this mark.\nA1: $k = 46$ from correct working.\nIf inequalities are used in their method then the direction must be correct."
+            }
+          ]
+        },
+        {
+          "label": "(ii)",
+          "marks": 4,
+          "answer": "52033",
+          "markAllocation": [
+            {
+              "code": "M1",
+              "type": "M",
+              "value": 1,
+              "criterion": "Sets $u_n = 850 + (n-1)(-7) = 0 \\implies n = 122.4...$"
+            },
+            {
+              "code": "A1",
+              "type": "A",
+              "value": 1,
+              "criterion": "States or implies that n = 122"
+            },
+            {
+              "code": "dM1",
+              "type": "M",
+              "value": 1,
+              "criterion": "Attempts $S_n$ using a correct formula e.g. $S_{122} = \\frac{122}{2}(2 \\times 850 + (122-1)(-7))$"
+            },
+            {
+              "code": "A1",
+              "type": "A",
+              "value": 1,
+              "criterion": "52033 only"
+            }
+          ],
+          "guidance": "When using either formula condone missing brackets around $(-7)$\ne.g. $850 + (n-1) -7$ or e.g. $S_n = \\frac{n}{2}(2 \\times 850 + (n-1) -7)$\nM1: Attempts to find the value of n that maximises $S_n$\nMay set $u_n = 850 + (n-1)(-7) = 0 \\implies -7n + 857 = 0 \\implies n = ...$ or show trial calculations of $u_{122} = 3$ and $u_{123} = -4$. May be implied by 122.\nAlternatively sets $S_n = \\frac{n}{2}(2 \\times 850 + (n-1)(-7))$ and either\n• differentiates and sets = 0 : $\\frac{dS_n}{dn} = 850 - 7n + 7/2 = 0 \\implies n = ...$\n• uses roots: $S_n = 0 \\implies n(1707 - 7n) = 0 \\implies n = 0, n = 1707/7 = ...$ and then finds the midpoint of the two roots\n• completes the square: $S_n = -7/2 (n - 1707/7)^2 + ... \\implies n = ...$\nto find the position of the turning point (approximately 121.9)\nIn all cases condone the use of n instead of $n-1$\nA1: States or implies that $n = 122$ (if there are multiple attempts using different values of n then the others must be rejected for this mark to be scored)\ndM1: Attempts $S_n$ using a correct formula (they may attempt to find the last term and use $S_n = \\frac{n}{2}(a+L)$\nIt is dependent upon the previous M.\nCondone the incorrect value of n being selected but it must be a positive integer.\nMay see multiple attempts using different values of n which is acceptable.\nA1: 52033 only (i.e. if they have multiple attempts using different values then this answer must be clearly identified or the others all rejected)"
+        }
+      ]
+    },
+    {
+      "qnum": 8,
+      "marks": 8,
+      "parts": [
+        {
+          "label": "(i)",
+          "marks": 3,
+          "answer": "$x = \\frac{29\\pi}{60}, \\frac{59\\pi}{60}$",
+          "markAllocation": [
+            {
+              "code": "M1",
+              "type": "M",
+              "value": 1,
+              "criterion": "Correct order of operations $2x + \\frac{\\pi}{5} = \\arctan(\\frac{3}{3}) = \\frac{\\pi}{4}$ or any correct angle."
+            },
+            {
+              "code": "dM1",
+              "type": "M",
+              "value": 1,
+              "criterion": "Correct order of operations $2x + \\frac{\\pi}{5} = \\frac{\\pi}{4}, \\frac{5\\pi}{4}, \\frac{9\\pi}{4}, ... \\implies x = ...$"
+            },
+            {
+              "code": "A1",
+              "type": "A",
+              "value": 1,
+              "criterion": "$x = \\frac{29\\pi}{60}, \\frac{59\\pi}{60}$"
+            }
+          ],
+          "guidance": "In both (i) and (ii) condone poor notation, omission of $\\theta$ or x in their working provided the intention is clear or recovered/implied by further work.\nM1: Correct order of operations $2x + \\frac{\\pi}{5} = \\arctan(\\frac{3}{3})$ implied by $2x + \\frac{\\pi}{5} = \\frac{\\pi}{4}$ or any correct angle.\nCondone decimal values here e.g. $2x + 0.628... = 0.52....$\nAllow to work consistently in degrees. e.g. $2x + 36 = 30$\nAlternatively, attempts to use $\\tan\\theta = \\frac{\\sin\\theta}{\\cos\\theta}$, squares both sides , attempts to use $\\sin^2\\theta + \\cos^2\\theta = 1$ and proceeds to a quadratic equation in sine or cosine\ndM1: Correct order of operations $2x + \\frac{\\pi}{5} = \\frac{\\pi}{4}, \\frac{5\\pi}{4}, \\frac{9\\pi}{4}, ...$ to find a value for x which does not need to be in the given range (e.g. condone $-\\frac{\\pi}{60}$)\nCondone decimal answers here (awrt -0.05, awrt 1.5, awrt 3.1). It is dependent on the previous method mark. Allow to work consistently in degrees. e.g. $2x = 30 - 36 \\implies x = -3$\nA1: $x = \\frac{29\\pi}{60}, \\frac{59\\pi}{60}$ and no other angles in the range. Must be exact and in radians.\n--------------------------------------------------------------------------------------------------------------------------\nAlternative: Using compound angle formula\nM1: Forms the equation $\\tan(2x) = \\frac{\\tan(\\pi/4) - \\tan(\\pi/5)}{1 + \\tan(\\pi/4)\\tan(\\pi/5)}$ Allow to work consistently in degrees\ndM1: Correct order of operations (arctan followed by dividing by 2) Allow to work consistently in degrees\nA1: $x = \\frac{29\\pi}{60}, \\frac{59\\pi}{60}$ and no other angles in the range. Must be exact and in radians."
+        },
+        {
+          "label": "(ii)",
+          "marks": 5,
+          "answer": "$\\theta = 50.3^\\circ, 309.7^\\circ$",
+          "markAllocation": [
+            {
+              "code": "M1",
+              "type": "M",
+              "value": 1,
+              "criterion": "Attempts to use $\\tan\\theta = \\frac{\\sin\\theta}{\\cos\\theta}$ leading to an equation in $\\sin\\theta$ and $\\cos\\theta$ e.g. $5\\sin\\theta \\frac{\\sin\\theta}{\\cos\\theta} = \\cos\\theta + 4$"
+            },
+            {
+              "code": "dM1",
+              "type": "M",
+              "value": 1,
+              "criterion": "Multiplies through by $\\cos\\theta$ (on at least 2 of the 3 terms in the equation) and attempts to use $\\sin^2\\theta + \\cos^2\\theta = 1$ to set up a quadratic equation in $\\cos\\theta$"
+            },
+            {
+              "code": "A1",
+              "type": "A",
+              "value": 1,
+              "criterion": "$6\\cos^2\\theta + 4\\cos\\theta - 5 = 0$"
+            },
+            {
+              "code": "ddM1",
+              "type": "M",
+              "value": 1,
+              "criterion": "Solves their three-term quadratic equation in $\\cos\\theta$ (or condone $\\sin\\theta$) and proceeds to a value for $\\theta$"
+            },
+            {
+              "code": "A1",
+              "type": "A",
+              "value": 1,
+              "criterion": "awrt $50.3^\\circ$, awrt $309.7^\\circ$"
+            }
+          ],
+          "guidance": "Note that there may be other credit worthy methods relying on identities covered in later units. If seen then send to review.\nM1: Attempts to use $\\tan\\theta = \\frac{\\sin\\theta}{\\cos\\theta}$ leading to an equation in $\\sin\\theta$ and $\\cos\\theta$ e.g. $5\\sin\\theta \\times \\frac{\\sin\\theta}{\\cos\\theta} = \\cos\\theta + 4$ Condone slips.\ndM1: Multiplies through by $\\cos\\theta$ (on at least 2 of the 3 terms in the equation) and attempts to use $\\sin^2\\theta + \\cos^2\\theta = 1$ to set up a quadratic equation in $\\cos\\theta$ (may be in $\\sin\\theta$ if they make an earlier slip so allow this to score as well)\nCondone slips e.g. not multiplying both terms by 5 if $5(1-\\cos^2\\theta)$ is not seen on the left hand side of the equation.\nTerms do not need to be collected for this mark.\nCondone arithmetical slips in their rearrangement.\nA1: $6\\cos^2\\theta + 4\\cos\\theta - 5 = 0$ o.e The = 0 may be implied by further work.\nRequires 3 terms but allow the constant term to be on the other side of the equation.\nddM1: Solves their three-term quadratic equation in $\\cos\\theta$ (or condone $\\sin\\theta$) and proceeds to a value for $\\theta$\nAllow use of a calculator to solve the quadratic otherwise usual rules apply for factorising, using the formula or completing the square.\nWe must see\n• a correct method used to solve the quadratic, or can be implied by a correct root to 1dp for their quadratic equation\n• a correct angle for their root by taking arccos of the root (allow to the nearest integer in degrees) You may need to check this.\nA correct angle on its own does not imply this mark.\nA1: awrt $50.3^\\circ$, awrt $309.7^\\circ$ and no others in the range. Must be in degrees."
+        }
+      ]
+    },
+    {
+      "qnum": 9,
+      "marks": 11,
+      "parts": [
+        {
+          "label": "(a)",
+          "marks": 4,
+          "answer": "$S = 6x^2 + \\frac{20}{x}$",
+          "markAllocation": [
+            {
+              "code": "M1",
+              "type": "M",
+              "value": 1,
+              "criterion": "Attempts $V = x^2 L = 4 \\implies L = \\frac{4}{x^2}$ or $Lx = \\frac{4}{x}$"
+            },
+            {
+              "code": "A1",
+              "type": "A",
+              "value": 1,
+              "criterion": "$L = \\frac{4}{x^2}$ OR $Lx = \\frac{4}{x}$ o.e."
+            },
+            {
+              "code": "dM1",
+              "type": "M",
+              "value": 1,
+              "criterion": "Substitutes $L = \\frac{4}{x^2}$ OR $Lx = \\frac{4}{x}$ into $S = Rx^2 + TxL$ (where R and T are constants leading to the final answer) which may be unsimplified to produce a formula of the correct form."
+            },
+            {
+              "code": "A1",
+              "type": "A",
+              "value": 1,
+              "criterion": "$S = 6x^2 + \\frac{20}{x}$"
+            }
+          ],
+          "guidance": "M1: Attempts to use a volume formula to make L or Lx the subject. May be seen substituted into a surface area expression which is not in the required form of the final answer.\nAllow $V = \\alpha x^2 L = \\beta \\implies L = \\beta/(\\alpha x^2)$ or $Lx = \\beta/(\\alpha x)$\nA1: $L = \\frac{4}{x^2}$ OR $Lx = \\frac{4}{x}$ o.e. Maybe seen substituted into the equation for the surface area.\ndM1: Substitutes $L = \\frac{4}{x^2}$ OR $Lx = \\frac{4}{x}$ into $S = Rx^2 + TxL$ which may be unsimplified to produce a formula of the correct form. It is dependent on the previous method mark.\nA1: $S = 6x^2 + \\frac{20}{x}$\nMust see “ S =” or e.g. “(surface) area = ” connected at some point with $6x^2 + \\frac{20}{x}$"
+        },
+        {
+          "label": "(b)",
+          "marks": 5,
+          "answer": "awrt 25.3",
+          "markAllocation": [
+            {
+              "code": "M1",
+              "type": "M",
+              "value": 1,
+              "criterion": "Correct form for the derivative $\\frac{dS}{dx} = ax + bx^{-2}$"
+            },
+            {
+              "code": "A1ft",
+              "type": "A",
+              "value": 1,
+              "criterion": "$\\frac{dS}{dx} = 12x - 20x^{-2}$"
+            },
+            {
+              "code": "dM1",
+              "type": "M",
+              "value": 1,
+              "criterion": "Solves $\\frac{dS}{dx} = 0 \\implies 12x - 20x^{-2} = 0 \\implies x = ...$"
+            },
+            {
+              "code": "ddM1",
+              "type": "M",
+              "value": 1,
+              "criterion": "Substitutes their value of x in S to find S. e.g. $S = 6(1.18563...)^2 + \\frac{20}{1.18563...}$"
+            },
+            {
+              "code": "A1",
+              "type": "A",
+              "value": 1,
+              "criterion": "awrt 25.3"
+            }
+          ],
+          "guidance": "Condone other letters used instead of S and x for $\\frac{dS}{dx}$ including y for S. Accept use of e.g. S'\nM1: Correct form for the derivative $\\frac{dS}{dx} = ax + bx^{-2}$\nA1ft: Follow through on the derivative of their $S = Px^2 + Qx^{-1} \\implies \\frac{dS}{dx} = 2Px - Qx^{-2}$\ndM1: Solves $\\frac{dS}{dx} = 0 \\implies ...x = ... \\implies x = ...$ Do not be concerned by the mechanics of the rearrangement as long as a value for x is achieved. =0 may be implied by further work or if just a correct value for x then you may need to check this. It is dependent on the previous method mark.\nddM1: Substitutes their value of x in S to find S. Condone slips. It is dependent on the previous two method marks.\nIf only a value is stated you may need to check this.\nA1: awrt 25.3 (m2) following correct differentiation. Units not required."
+        },
+        {
+          "label": "(c)",
+          "marks": 2,
+          "answer": "Minimum justified",
+          "markAllocation": [
+            {
+              "code": "M1",
+              "type": "M",
+              "value": 1,
+              "criterion": "Differentiates and finds $\\frac{d^2S}{dx^2}$ of the form $M + Nx^{-3}$"
+            },
+            {
+              "code": "A1*",
+              "type": "A",
+              "value": 1,
+              "criterion": "Justifies $\\frac{d^2S}{dx^2} > 0$ (at $x = 1.18563...$), hence minimum *"
+            }
+          ],
+          "guidance": "Note the final A1* can only be scored using a correct expression for $\\frac{d^2S}{dx^2}$ or $\\frac{dS}{dx}$ (depending on the approach taken). Condone other letters used instead of S and x for $\\frac{d^2S}{dx^2}$ including y for S. Accept use of e.g. S''\nIf second differentiation is seen in (b) then it must be seen or used in (c) to score.\nM1: Differentiates and finds $\\frac{d^2S}{dx^2}$ of the form $M + Nx^{-3}$ (do not be concerned about signs for this mark).\nAlternatively, substitutes in values of x above and below their 1.1856.. and proceeds to find values for $\\frac{dS}{dx}$ at these points.\nA1*: Either justifies $\\frac{d^2S}{dx^2} > 0$, which must be a correct expression AND gives a minimal conclusion\nRequires one of:\n• a correct value for $\\frac{d^2S}{dx^2}$ (awrt 36 if using 1.18(56..) but allow awrt 35.1 if using 1.2) from a correct expression, a correct comparison with 0 and a conclusion e.g. min\n• deduces that as 12 and 40 are both positive and the correct value of x (awrt 1.2) > 0 then $\\frac{d^2S}{dx^2} > 0$ with a conclusion e.g. proven\nOr justifies there is a change of sign for $\\frac{dS}{dx}$ AND gives a minimal conclusion\nRequires both calculations to be correct using a correct expression for $\\frac{dS}{dx}$ (you will need to check this)"
+        }
+      ]
+    },
+    {
+      "qnum": 10,
+      "marks": 4,
+      "answer": "Proof",
+      "markAllocation": [
+        {
+          "code": "M1",
+          "type": "M",
+          "value": 1,
+          "criterion": "Sets $m = 3p+1$ or $m = 3p+2$ (p > 0) o.e. and attempts $m^2 + 3m + 2$"
+        },
+        {
+          "code": "A1",
+          "type": "A",
+          "value": 1,
+          "criterion": "Correct quadratic expression with constant terms collected for $m^2 + 3m + 2$ for either of the two cases and shows or gives a reason why the expression is a multiple of 3."
+        },
+        {
+          "code": "dM1",
+          "type": "M",
+          "value": 1,
+          "criterion": "Sets $m = 3p+1$ o.e and $m = 3p+2$ o.e. (p > 0) and expands $m^2 + 3m + 2$ and achieves two quadratic expressions which may be unsimplified."
+        },
+        {
+          "code": "A1*",
+          "type": "A",
+          "value": 1,
+          "criterion": "Requires correct quadratic expression for $m^2 + 3m + 2$ for both cases which is not in terms of m, shows or gives a reason for why the expressions are multiples of 3, and makes a concluding overall statement."
+        }
+      ],
+      "guidance": "Main scheme algebraic method using e.g. $m = 3p+1$ and $m = 3p+2$\nYou will need to look at both cases and mark the one which is fully correct first.\nAllow a different variable to p and may be different letters for the two cases.\nCondone use of m as a variable for the first three marks.\nThere should be no errors in the algebra for the A marks including invisible brackets.\nNote that there are other allowable pairs of combinations covering the two distinct cases e.g. $m = 3p-1$ and $m = 3p+1$ or e.g. $m = 3p-2$ and $m = 3p+2$ but not e.g. $m = 3p-1$ and $m = 3p+2$\nNote: An attempt substituting in values rather than using algebra will score 0 marks.\nM1: Sets $m = 3p+1$ o.e or $m = 3p+2$ o.e., expands $m^2 + 3m + 2$ and achieves a quadratic expression which may be unsimplified\nA1: Correct quadratic expression with constant terms collected for $m^2 + 3m + 2$ for either of the two cases and shows or gives a reason why the expression is a multiple of 3. They must have fully multiplied out or the quadratic expression must have a factor of 3 taken out.\nDo not isw if they simplify their quadratic incorrectly.\ne.g. $9p^2 + 15p + 6$ and states each term is a multiple of 3 or alternatively, correctly divides by 3 and concludes that it is divisible by 3\ne.g. $3(3p^2 + 5p + 2)$ or e.g. $3(3p^2 + 2p) + 3(3p + 1) + 3$\ne.g. $9p^2 + 21p + 12$ and states each term is a multiple of 3 or alternatively correctly divides by 3 and concludes that it is divisible by 3\ne.g. $3(3p^2 + 7p + 4)$\ndM1: Sets $m = 3p+1$ o.e and $m = 3p+2$ o.e. and expands $m^2 + 3m + 2$ and achieves two quadratic expressions which may be unsimplified. See first M1 for guidance. It is dependent on the previous method mark.\nA1*: Requires\n• correct quadratic expression for $m^2 + 3m + 2$ for both cases which is not in terms of m\n• shows or gives a reason for why the expressions are multiples of 3 (see first A1 for guidance)\n• makes a concluding overall statement. “Hence $m^2 + 3m + 2$ is always a multiple of 3 for all m that are not multiples of 3” (or equivalent) Allow generic conclusions e.g. “proven”, “hence true”\nWithhold the final mark if they have a spurious = 0 on the end of their quadratic expressions.\n---------------------------------------------------------------------------------------------------------------------------------\nFactorising first then using logic\nNote the same marking principle can be applied as in the main scheme and notes\n$m^2 + 3m + 2 = (m+1)(m+2)$\nSets e.g. $m = 3p+1$ leading to $(3p+1+1)(3p+1+2) = (3p+2)(3p+3) = 3(3p+2)(p+1)$\nSets e.g. $m = 3p-1$ leading to $(3p-1+1)(3p-1+2) = (3p)(3p+1) = 3p(3p+1)$\n---------------------------------------------------------------------------------------------------------------------------------\nAlternative using algebra with logic\n$m^2 + 3m + 2 = (m+1)(m+2)$\ne.g. $(m+1)(m+2)$ represents two consecutive numbers and if m is not a multiple of 3 then one of $(m+1)$ or $(m+2)$ must be a multiple of 3 hence $m^2 + 3m + 2$ is a multiple of 3.\nIf you see this approach or other attempts that you think may be credit-worthy then send to review."
+    }
+  ]
+}

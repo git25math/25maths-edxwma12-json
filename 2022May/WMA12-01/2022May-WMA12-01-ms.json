@@ -1,0 +1,666 @@
+{
+  "v": "1.0",
+  "paper": "2022May-WMA12-01",
+  "board": "edx",
+  "code": "WMA12",
+  "year": 2022,
+  "session": "May",
+  "paperNum": "01",
+  "totalMarks": 75,
+  "questions": [
+    {
+      "qnum": 1,
+      "marks": 4,
+      "answer": "$1024 + 1920x + 1620x^2 + 810x^3$",
+      "markAllocation": [
+        {
+          "code": "B1",
+          "type": "B",
+          "value": 1,
+          "criterion": "Correct constant term of $1024$ as an integer."
+        },
+        {
+          "code": "M1",
+          "type": "M",
+          "value": 1,
+          "criterion": "Correct binomial coefficient multiplied by the correct powers of $x$ for at least 2 terms in $x$, $x^2$ or $x^3$. Allow e.g. $C_{10}^1, C_{10}^2, C_{10}^3$ or $\\binom{10}{1}, \\binom{10}{2}, \\binom{10}{3}$ or evaluated coefficients and condone missing brackets e.g. $2^8 x$ for $(2x)^8$ or $(3/8 x)^3$ for $(3/8 x)^3$. May take out a common factor of $2^{10}$ first, but again look for correct binomial coefficients multiplied by the correct powers of $x$ for at least 2 terms in $x$, $x^2$ or $x^3$. E.g. $(2 + 3/8 x)^{10} = 2^{10} (1 + 3/16 x)^{10} = 2^{10} (1 + C_{10}^1 (3/16 x) + C_{10}^2 (3/16 x)^2 + ...)$"
+        },
+        {
+          "code": "A1",
+          "type": "A",
+          "value": 1,
+          "criterion": "Allow for a fully correct unsimplified expression (ignoring the constant term) with evaluated binomial coefficients, must be expanded if a common factor of $2^{10}$ is taken out first OR two of the three terms in $x$, $x^2$ and $x^3$ correct and simplified. E.g. $... + 10 \\times 2^9 \\times (3/8 x) + 45 \\times 2^8 \\times (3/8 x)^2 + 120 \\times 2^7 \\times (3/8 x)^3$. Or $2^{10} (10 \\times (3/16 x) + 45 \\times (3/16 x)^2 + 120 \\times (3/16 x)^3)$. The brackets must be present unless they are implied by subsequent work. OR two of $1920x, 1620x^2, 810x^3$. Allow terms to be “listed”."
+        },
+        {
+          "code": "A1",
+          "type": "A",
+          "value": 1,
+          "criterion": "Final three terms fully correct and simplified. Allow terms to be “listed”. Ignore any extra terms if found."
+        }
+      ],
+      "guidance": "Once a correct expansion (or list of terms) is seen then isw. E.g. some candidates think they have to list the coefficients separately but apply isw.\nSpecial case: Some candidates are just finding the coefficients $1024 + 1920 + 1620 + 810$ and this scores B1 only if the x’s never make an appearance."
+    },
+    {
+      "qnum": 2,
+      "marks": 8,
+      "parts": [
+        {
+          "label": "(a)",
+          "marks": 2,
+          "answer": "$y$ values for $x=1$ and $x=2$ are $1.075$ and $1.041$ respectively.",
+          "markAllocation": [
+            {
+              "code": "B1",
+              "type": "B",
+              "value": 1,
+              "criterion": "Either of awrt $1.075$ or awrt $1.041$ correct."
+            },
+            {
+              "code": "B1",
+              "type": "B",
+              "value": 1,
+              "criterion": "Both of awrt $1.075$ and awrt $1.041$ correct."
+            }
+          ],
+          "guidance": "Remember to check the body of the script for the values if the table has not been completed. Note that the incorrect values of $2.758$ and $2.457$ come from the use of degrees. (Which gives $4.51$ in (b))"
+        },
+        {
+          "label": "(b)",
+          "marks": 3,
+          "answer": "awrt $2.96$",
+          "markAllocation": [
+            {
+              "code": "B1",
+              "type": "B",
+              "value": 1,
+              "criterion": "Correct interval width seen or implied by working."
+            },
+            {
+              "code": "M1",
+              "type": "M",
+              "value": 1,
+              "criterion": "Correct application of the trapezium rule. Must all be $y$ values, and should be first + last + $2$(sum of middle values), but if one middle value is omitted allow as a slip. A repeated value is M0. Follow through their values from (a). Allow obvious copying slips. Note that $\\frac{\\text{“}0.5\\text{”}}{2} \\times (1.319 + 2(\\text{“}1.075\\text{”} + 1.001 + \\text{“}1.041\\text{”} + 1.223) + 1.850)$ scores M0 unless the missing brackets are implied by subsequent work. Allow this mark if they add the areas of individual trapezia e.g. $\\frac{\\text{“}0.5\\text{”}}{2} \\times (1.319 + \\text{“}1.075\\text{”}) + \\frac{\\text{“}0.5\\text{”}}{2} \\times (\\text{“}1.075\\text{”} + 1.001) + ...$"
+            },
+            {
+              "code": "A1",
+              "type": "A",
+              "value": 1,
+              "criterion": "For awrt $2.96$. Allow to come from answers in (a) incorrectly rounded or wrong accuracy."
+            }
+          ],
+          "guidance": "FYI: Use of rounded figure gives $2.96225$, use of calculated figures gives $2.9625726\\dots$ Actual value is $2.89$ to 2 decimal places."
+        },
+        {
+          "label": "(c)",
+          "marks": 3,
+          "answer": "awrt $7.04$",
+          "markAllocation": [
+            {
+              "code": "B1",
+              "type": "B",
+              "value": 1,
+              "criterion": "Writes $\\log_{10}(3 \\sin(x))$ correctly in terms of $1 - \\log_{10}(\\sin(x))$. May be implied."
+            },
+            {
+              "code": "M1",
+              "type": "M",
+              "value": 1,
+              "criterion": "Integrates the $K$ in $K - \\log_{10}(\\sin(x))$ to $Kx$, $K \\neq \\pm 3$, substitutes in the limits $3$ and $0.5$ and subtracts oe e.g. $4 \\times (3 - 0.5)$ and uses the answer to (b)."
+            },
+            {
+              "code": "A1ft",
+              "type": "A",
+              "value": 1,
+              "criterion": "Correct answer awrt $7.04$, follow through their $2.96$ if given to 3sf or better."
+            }
+          ],
+          "guidance": "Condone all work in (c) written without the “$10$” in $\\log_{10}(\\sin(x))$.\nAlternative method:\nB1: Rearranges integral to find $\\int_{0.5}^3 \\log_{10}(\\sin(x)) dx = 2.5 - \\text{“}2.96\\text{”}$. May be implied.\nM1: Integrates the $3$ and substitutes in given limits and subtracts oe e.g. $3 \\times (3 - 0.5)$ and adds their attempt at $\\int_{0.5}^3 \\log_{10}(\\sin(x)) dx$ found using the answer to (b).\nA1ft: Correct answer awrt $7.04$, follow through their $2.96$ if given to 3sf or better.\nA common incorrect method in (c): $[3x + \\int \\log_{10}(\\sin(x)) dx]_{0.5}^3 = 3(3) - 3(0.5) + \\text{“}2.96\\text{”} = \\text{“}10.46\\text{”}$ Scores no marks as they have not used the integral in part (b).\nAttempts to use the trapezium rule again in (c) score no marks."
+        }
+      ]
+    },
+    {
+      "qnum": 3,
+      "marks": 7,
+      "parts": [
+        {
+          "label": "(i)",
+          "marks": 2,
+          "answer": "$n=5$, $3^6 - 2^5 = 729 - 32 = 697 = 17 \\times 41$, which is not prime.",
+          "markAllocation": [
+            {
+              "code": "M1",
+              "type": "M",
+              "value": 1,
+              "criterion": "Shows evidence of trying to find a counter example for a positive integer (at least one attempt). $3^2 - 2^1$ is prime is sufficient."
+            },
+            {
+              "code": "A1",
+              "type": "A",
+              "value": 1,
+              "criterion": "Gives a correct counter example with reason (shows factorisation) and concludes e.g. “which is not prime”. Ignore any previous “incorrect” attempts e.g. $6^3 - 5^3 = 91$ which is prime. Note $n = 7 (169 = 13 \\times 13)$ and $n = 8 (217 = 7 \\times 31)$ and $n = 12 (469 = 7 \\times 67)$ are the next few counter examples. (Bigger examples are not likely to be seen!) Allow equivalent reasons for not being prime e.g. $169/13 = 13$ or $169$ is divisible by $13$ (condone “can be divided by $13$”). Generally algebraic approaches score no marks unless they substitute numbers as indicated above."
+            }
+          ],
+          "guidance": ""
+        },
+        {
+          "label": "(ii)",
+          "marks": 5,
+          "answer": "Angle at $C$ is a right angle, hence $AB$ is a diameter.",
+          "markAllocation": [
+            {
+              "code": "M1",
+              "type": "M",
+              "value": 1,
+              "criterion": "Attempts the gradients of $AC$ or $BC$. Allow slips but score M0 if both attempts are clearly incorrect."
+            },
+            {
+              "code": "A1",
+              "type": "A",
+              "value": 1,
+              "criterion": "Correct gradients from correct formulae: $m_{AC} = -1$ and $m_{BC} = 1$."
+            },
+            {
+              "code": "dM1",
+              "type": "M",
+              "value": 1,
+              "criterion": "Applies perpendicular condition. May be seen as $m_{AC} \\times m_{BC} = -1$ but allow equivalent work."
+            },
+            {
+              "code": "A1",
+              "type": "A",
+              "value": 1,
+              "criterion": "Correct calculations or equivalent: $(-1) \\times (1) = -1$."
+            },
+            {
+              "code": "A1",
+              "type": "A",
+              "value": 1,
+              "criterion": "Suitable explanation and conclusion given with no errors and all previous marks awarded with no incorrect statements seen."
+            }
+          ],
+          "guidance": "The majority of methods here will follow ways 1, 2 or 3 below.\nIn these cases the general guidance is as follows:\nM1: Attempts to find the gradient of any relevant line, e.g. AC or BC or the length of any relevant line, e.g. AB/AB$^2$ or BC/BC$^2$ or AC/AC$^2$ or the mid-point M of line AB.\nA1: Correct relevant calculation of gradients AC and BC or lengths of lines AB/AB$^2$, BC/BC$^2$ and AC/AC$^2$ or mid-point of line AB.\ndM1: Full attempt at combining all relevant information required to solve the problem. Attempts product of gradients or equivalent or attempts to show Pythagoras AB$^2$ = AC$^2$ + BC$^2$ or attempts to show MA$^2$ = MC$^2$.\nA1: Correct calculations or equivalent providing required evidence for the above.\nA1: Provides correct reason and conclusion with all previous marks scored.\n\nWay 2 (Pythagoras):\nM1: Attempts length of AB or AC or BC or their squares. Allow slips but score M0 if attempts are clearly incorrect.\nA1: Correct values for AB, AC and BC or their squares: $AB^2 = 104$, $AC^2 = 72$, $BC^2 = 32$.\ndM1: Applies Pythagoras’ theorem with their values: $104 = 72 + 32$.\nA1: All calculations correct for this approach.\nA1: Suitable explanation and conclusion given with no errors and all previous marks awarded with no incorrect statements seen.\n\nWay 3 (Midpoint and Radius):\nM1: Attempts midpoint of AB. If no method is shown accept one correct coordinate as evidence.\nA1: Correct midpoint: $(2, -5)$.\ndM1: Attempts length of MC and at least one of MA or MB, or AB. As M is midpoint of AB there is no need to find both MA and MB, these may be assumed to be the same. If they find AB then they must halve it to find the radius.\nA1: All required calculations correct for this approach: $MA = MC = \\sqrt{26}$.\nA1: Suitable explanation made which may be in a preamble and conclusion given with no errors and all previous marks awarded.\n\nWay 4 (Circle Equation):\nM1: Attempts midpoint of AB. If no method is shown accept one correct coordinate as evidence.\nA1: Correct midpoint: $(2, -5)$.\ndM1: Attempts length of MA or MB to find $r$ or $r^2$, forms equation of the circle and substitutes the coordinates of C. $MA^2 = (2-1)^2 + (-5-0)^2 = 26$. Equation of circle: $(x-2)^2 + (y+5)^2 = 26$. Substitute $C(7, -6)$: $(7-2)^2 + (-6+5)^2 = 5^2 + (-1)^2 = 25+1 = 26$.\nA1: All required calculations correct for this approach.\nA1: Suitable explanation and conclusion given with no errors and all previous marks awarded. There must be some further justification as above rather than just “AB is a diameter” which may be in a preamble e.g. If C lies on the circle…\n\nSEE END OF MARKSCHEME FOR SOME OTHER MORE UNUSUAL METHODS THAT MAY BE SEEN DURING MARKING WITH SUGGESTED MARKING GUIDELINES.\nThere may be other methods. Choose the way that best fits the overall response. If you are in any doubt if a particular response deserves credit then use Review."
+        }
+      ]
+    },
+    {
+      "qnum": 4,
+      "marks": 6,
+      "answer": "$a = 4 + 4\\sqrt{5}$ and $b = -4 + 4\\sqrt{5}$",
+      "markAllocation": [
+        {
+          "code": "M1",
+          "type": "M",
+          "value": 1,
+          "criterion": "Correct addition law applied (may be implied) or undoes a log equation correctly, or replaces the $3$ by $\\log_4 4^3$ oe. The addition law may be seen after substitution from the first equation e.g. $a-b=8 \\Rightarrow a=b+8$. $\\log_4(b+8) + \\log_4 b = 3 \\Rightarrow \\log_4(b(b+8)) = 3$. Condone $\\log_4(b^2) + \\log_4 b = 8 + \\log_4 b$ (incorrect example from MS)."
+        },
+        {
+          "code": "dM1",
+          "type": "M",
+          "value": 1,
+          "criterion": "Removes logs correctly and proceeds from an equation of the form $ab=K$ and the given equation $a-b=8$ to a quadratic equation in either $a$ or $b$."
+        },
+        {
+          "code": "A1",
+          "type": "A",
+          "value": 1,
+          "criterion": "Correct quadratic equation: $a^2 - 8a - 64 = 0$ or $b^2 + 8b - 64 = 0$. Brackets must be expanded but terms not necessarily all on one side. The “$=0$” may be implied by their attempt to solve."
+        },
+        {
+          "code": "M1",
+          "type": "M",
+          "value": 1,
+          "criterion": "Solves a 3TQ in $a$ or $b$ to obtain a positive solution. There is no need to see the negative solution in their working."
+        },
+        {
+          "code": "M1",
+          "type": "M",
+          "value": 1,
+          "criterion": "Uses their $a$ to find $b$ or vice versa. This depends on having solved a 3TQ earlier and obtained a root of the form $p \\pm \\sqrt{q}$, $q \\neq 0$ to obtain another root of a similar form i.e. not a decimal. The value of $a$ or $b$ does not necessarily have to be positive for this mark. Note that having found $a$ or $b$ they may repeat the process above to find the other value which is acceptable."
+        },
+        {
+          "code": "A1",
+          "type": "A",
+          "value": 1,
+          "criterion": "Both of $a = 4 + 4\\sqrt{5}$ and $b = -4 + 4\\sqrt{5}$ simplified, with no other solutions."
+        }
+      ],
+      "guidance": "Apply isw once correct answers are seen, e.g. if they subsequently go into decimals."
+    },
+    {
+      "qnum": 5,
+      "marks": 6,
+      "answer": "$\\theta = -13^\\circ, 107^\\circ$",
+      "markAllocation": [
+        {
+          "code": "M1",
+          "type": "M",
+          "value": 1,
+          "criterion": "Uses $\\tan(\\dots) = \\frac{\\sin(\\dots)}{\\cos(\\dots)}$ and multiplies through to form an equation of the form $A \\sin(\\dots) = B \\cos(\\dots)$. Condone poor notation e.g.: $\\frac{3 \\sin(\\theta + 43^\\circ)}{\\cos(\\theta + 43^\\circ)} = 2 \\Rightarrow 3 \\sin(\\theta + 43^\\circ) = 2 \\cos(\\theta + 43^\\circ)$ (with or without brackets)."
+        },
+        {
+          "code": "M1",
+          "type": "M",
+          "value": 1,
+          "criterion": "Applies Pythagorean identity to obtain a 3 term quadratic equation in $\\sin$. Allow use of $\\cos^2(\\dots) = 1 \\pm \\sin^2(\\dots)$."
+        },
+        {
+          "code": "M1",
+          "type": "M",
+          "value": 1,
+          "criterion": "Solves a 3 term quadratic in $\\sin(\\theta + 43^\\circ)$ by any valid means. This may be implied by at least one correct root for their quadratic. Allow if they have $x = \\sin(\\theta + 43^\\circ)$ or another variable or e.g. $\\sin \\alpha$ where $\\alpha = \\theta + 43^\\circ$."
+        },
+        {
+          "code": "A1",
+          "type": "A",
+          "value": 1,
+          "criterion": "Correct value of $\\sin(\\theta + 43^\\circ) = 1/2$. If $x = \\sin(\\theta + 43^\\circ)$ is used, it must be clear they mean $\\sin(\\theta + 43^\\circ)$ but this may be implied if they have e.g. $\\sin \\alpha = 1/2$ where $\\alpha = \\theta + 43^\\circ$. If $x = 1/2$ is left as a final answer it is A0."
+        },
+        {
+          "code": "M1",
+          "type": "M",
+          "value": 1,
+          "criterion": "Correct method for solving $\\sin(\\theta + 43^\\circ) = k$, $|k| < 1$, look for use of inverse sine followed by subtraction of $43$ from $\\arcsin(k)$. Implied by one correct solution for their $k$. Do not allow mixing of degrees and radians for this mark."
+        },
+        {
+          "code": "A1",
+          "type": "A",
+          "value": 1,
+          "criterion": "Correct solutions and no others in the range."
+        }
+      ],
+      "guidance": ""
+    },
+    {
+      "qnum": 6,
+      "marks": 8,
+      "parts": [
+        {
+          "label": "(a)",
+          "marks": 3,
+          "answer": "$3r^2 + 4r - 4 = 0$",
+          "markAllocation": [
+            {
+              "code": "M1",
+              "type": "M",
+              "value": 1,
+              "criterion": "Uses the correct n-th term formula for a GP to set up two equations in $a$ and $r$. May also be in terms of $u_1$ and $r$ or $u_2$ and $r$ or $u_3$ and $r$ e.g. $u_1 r + u_1 r^2 = 6$ and $u_1 r^3 = 8$ or $u_2 + u_2 r = 6$ and $u_2 r^2 = 8$ or $u_3/r + u_3 = 6$ and $u_3 r = 8$. Must be using the correct term formula so e.g. $ar^2 + ar^3 = 6$ and $ar^4 = 8$ is M0. Alternatively may use the correct sum formula for the first equation, $a(r^3 - 1)/(r - 1) = 6$ oe."
+            },
+            {
+              "code": "M1",
+              "type": "M",
+              "value": 1,
+              "criterion": "Attempts to solve their two equations to get an equation in $r$. Look for an attempt to divide the two equations, or an attempt to find $a$ in terms of $r$ from one and substitute into the other. Allow slips but the algebra should essentially be correct so do not allow use of e.g. $ar^3 = (ar)^3$. Alternatively, attempts to eliminate $r$ from the equation, $a = 8/r^3$. $8/r^2 + 8/r = 6$. Award when they reach a quadratic in $1/r$ in this case."
+            },
+            {
+              "code": "A1*",
+              "type": "A",
+              "value": 1,
+              "criterion": "CSO Note that as we are marking (a), (b) and (c) together, allow the printed answer to appear anywhere as long as it follows correct work but the “$=0$” must be seen not implied."
+            }
+          ],
+          "guidance": "Ignore labelling and mark (a), (b) and (c) together.\nWay 2:\nM1: Uses $u_4 = 8$ to write $u_2$ and $u_3$ in terms of $r$.\nM1: Uses $u_2 + u_3 = 6$ to get an equation in $r$.\nA1*: CSO."
+        },
+        {
+          "label": "(b)",
+          "marks": 3,
+          "answer": "$u_1 = -27/2$",
+          "markAllocation": [
+            {
+              "code": "B1",
+              "type": "B",
+              "value": 1,
+              "criterion": "Correct value of $r = -2/3$ seen or used in their working even if subsequently rejected and ignore any other value offered e.g. $r = 2$."
+            },
+            {
+              "code": "M1",
+              "type": "M",
+              "value": 1,
+              "criterion": "Uses a value for $r$ from solving the equation given in (a) where $|r| < 1$ in one of their equations from (a) to find a value for $u_1$ or $a$. Allow slips but the algebra should essentially be correct."
+            },
+            {
+              "code": "A1ft",
+              "type": "A",
+              "value": 1,
+              "criterion": "Correct value and no other values. Follow through on $8 / (\\text{their } r^3)$ for a value of $r$ with $|r| < 1$."
+            }
+          ],
+          "guidance": ""
+        },
+        {
+          "label": "(c)",
+          "marks": 2,
+          "answer": "$S_\\infty = -81/5$",
+          "markAllocation": [
+            {
+              "code": "M1",
+              "type": "M",
+              "value": 1,
+              "criterion": "Uses the correct sum formula with their $a$ ($u_1$) obtained from $|r| < 1$ and $r$ where $|r| < 1$, to find the sum to infinity."
+            },
+            {
+              "code": "A1",
+              "type": "A",
+              "value": 1,
+              "criterion": "Correct answer and no other values. Allow equivalents e.g. $-16.2$."
+            }
+          ],
+          "guidance": ""
+        }
+      ]
+    },
+    {
+      "qnum": 7,
+      "marks": 7,
+      "answer": "$A = 1/2$, $B = -28$",
+      "markAllocation": [
+        {
+          "code": "M1",
+          "type": "M",
+          "value": 1,
+          "criterion": "Uses the factor theorem or long division to find one linear equation relating $A$ and $B$. The “$=0$” must be seen or implied by later work."
+        },
+        {
+          "code": "A1",
+          "type": "A",
+          "value": 1,
+          "criterion": "Correct equation: $4A + B = 4$. Award once a correct equation is seen unsimplified or simplified. So allow e.g. $2(-2)^3 + A(-2)^2 - 6(-2) + B = 0$ but not e.g. $2 \\times -8 + A \\times 4 - 6 \\times -2 + B = 0$ unless the indices are processed correctly subsequently to e.g. $-16 + 4A + 12 + B = 0$. The “$=0$” must be seen or implied by later work."
+        },
+        {
+          "code": "M1",
+          "type": "M",
+          "value": 1,
+          "criterion": "Attempts to integrate the given expression, look for at least one power increased by 1. This can also be evidenced by $B \\to Bx$."
+        },
+        {
+          "code": "A1",
+          "type": "A",
+          "value": 1,
+          "criterion": "Correct integration: $x^4/2 + Ax^3/3 - 3x^2 + Bx$. Allow unsimplified e.g. $2x^{3+1}/(3+1)$ for $2x^4/4$. Condone poor notation e.g. $\\int f(x) dx = 2x^4/4 + Ax^3/3 - 6x^2/2 + Bx$ and ignore any “$+ c$”."
+        },
+        {
+          "code": "dM1",
+          "type": "M",
+          "value": 1,
+          "criterion": "Applies limits $5$ and $3$ either way round and subtracts and equates to $176$ to obtain an equation in $A$ and $B$. Depends on previous M. Condone poor use of brackets when subtracting e.g. allow $(5^4/2 + A(5^3)/3 - 3(5^2) + B(5)) - (3^4/2 + A(3^3)/3 - 3(3^2) + B(3)) = 176$."
+        },
+        {
+          "code": "dM1",
+          "type": "M",
+          "value": 1,
+          "criterion": "Solves their two equations in $A$ and $B$ to find values for both constants. Depends on all previous M marks but allow this mark if the only error was to attempt $f(2) = 0$ at the beginning."
+        },
+        {
+          "code": "A1",
+          "type": "A",
+          "value": 1,
+          "criterion": "Correct values."
+        }
+      ],
+      "guidance": "Note that some candidates eliminate A or B by rearranging the first equation and substituting into the integral. This essentially follows the main scheme.\nLong Division for reference: Score the first M1 for a complete method to obtain a remainder in terms of A and B that is set $= 0$ and A1 for a correct equation e.g. $B - 8A + 32 = 0$."
+    },
+    {
+      "qnum": 8,
+      "marks": 8,
+      "parts": [
+        {
+          "label": "(a)",
+          "marks": 3,
+          "answer": "$dy/dx = 1024x^3 - 304x^{-2} - 54x^{-4}$",
+          "markAllocation": [
+            {
+              "code": "M1",
+              "type": "M",
+              "value": 1,
+              "criterion": "Attempts the derivative, with at least two terms of the correct form (ie $x^n \\to x^{n-1}$ at least twice)."
+            },
+            {
+              "code": "A1",
+              "type": "A",
+              "value": 1,
+              "criterion": "At least two terms correct, need not be simplified."
+            },
+            {
+              "code": "A1",
+              "type": "A",
+              "value": 1,
+              "criterion": "Fully correct derivative, need not be simplified. Isw after a correct (unsimplified) answer. Note that there is no need to see the $dy/dx$ in (a) just look for the differentiation. Ignore any spurious “$=0$”."
+            }
+          ],
+          "guidance": ""
+        },
+        {
+          "label": "(b)",
+          "marks": 5,
+          "answer": "$(-1/2, 241)$ and $(3/4, -134)$",
+          "markAllocation": [
+            {
+              "code": "M1",
+              "type": "M",
+              "value": 1,
+              "criterion": "Sets their derivative equal to zero and multiplies through by “$x^4$” to achieve a polynomial equation. If in doubt at least 2 terms must be multiplied. Allow equivalent work e.g. $1024x^3 - 304/x^2 - 54/x^4 = 0 \\Rightarrow 1024x^7 - 304x^2 - 54 = 0$. To score this mark, the derivative must have a negative power of $x$ so allow for e.g. $1024x^3 - 304x^{-2} - 54x^{-4} = 0 \\Rightarrow 1024x^7 - 304x^2 - 54 = 0$."
+            },
+            {
+              "code": "dM1",
+              "type": "M",
+              "value": 1,
+              "criterion": "Solves a 3 term quadratic in $x^3$ by any valid means (including calculator). Must come from an attempt at $dy/dx = 0$ not $d^2y/dx^2 = 0$ or $\\int y dx = 0$. Condone use of inequalities rather than “$=$” as long as they solve an equation. Note that here we accept e.g. $(y - 512/27)(y + 1/8) = 0$ where $y = x^3$. Or even $(x^3 - 512/27)(x^3 + 1/8) = 0$."
+            },
+            {
+              "code": "A1",
+              "type": "A",
+              "value": 1,
+              "criterion": "Achieves at least one correct value for $x$ or $x^3$. It must be clear that they are values for $x^3$ here so $y = \\dots$ is acceptable if $y = x^3$ is seen or implied. If they have $x = \\dots$ then they must have cube rooted. So e.g. $x^3 = -1/8$ or $x^3 = 27/64$."
+            },
+            {
+              "code": "dM1",
+              "type": "M",
+              "value": 1,
+              "criterion": "Proceeds to find the $y$ coordinate for at least one value of $x$. Must cube root and not e.g. square root the solution from the quadratic first. The $x$ must have come from a 2 or 3 term quadratic in $x^3$. If no method shown, accept any value for $y$ having found an $x$ value but score M0 if there is no evidence of cube rooting or clear evidence that they have substituted into something other than the curve equation but condone if they clearly just mis-copy the equation. Depends on having scored at least 1 of the previous M marks in (b)."
+            },
+            {
+              "code": "A1",
+              "type": "A",
+              "value": 1,
+              "criterion": "Both correct pairs of coordinates. Accept if given as e.g. $x = -1/2, y = 241$ and $x = 3/4, y = -134$. And no other values. Allow equivalent fractions or values for the $-1/2$ and $3/4$."
+            }
+          ],
+          "guidance": ""
+        }
+      ]
+    },
+    {
+      "qnum": 9,
+      "marks": 9,
+      "parts": [
+        {
+          "label": "(a)",
+          "marks": 2,
+          "answer": "Graph of $N = k \\lambda^t$ with correct shape and position.",
+          "markAllocation": [
+            {
+              "code": "M1",
+              "type": "M",
+              "value": 1,
+              "criterion": "Correct shape from or passing through a point on positive vertical axis. May extend to the left of the vertical axis and allow to pass into quadrant 4. There must be no (obvious) turning points. Labels not required on axes and ignore any that are given."
+            },
+            {
+              "code": "A1",
+              "type": "A",
+              "value": 1,
+              "criterion": "Shape and position correct, accept 1 or $k$ as intercept on the positive vertical axis and allow to extend to the left of the vertical axis as shown. Condone $(1, 0)$ or $(k, 0)$ as long as it is in the correct position. The curve should approach a horizontal asymptote that is half-way between the horizontal axis and the intercept or below. Be tolerant with “wobbles” as it approaches the asymptote. May just “touch” the horizontal axis but not go below it. Labels not required on axes and ignore any that are given."
+            }
+          ],
+          "guidance": ""
+        },
+        {
+          "label": "(b)",
+          "marks": 2,
+          "answer": "$\\lambda = 0.999878$",
+          "markAllocation": [
+            {
+              "code": "M1",
+              "type": "M",
+              "value": 1,
+              "criterion": "Uses the information to set up a correct equation and rearranges to form $\\lambda = (a/b)^{1/c}$ where $a$ and $b$ are constants. Allow $\\lambda^{5700} = 1/2$ to be written down directly."
+            },
+            {
+              "code": "A1*",
+              "type": "A",
+              "value": 1,
+              "criterion": "Evidence of taking fractional root seen, leading to the given answer. Alternatively, may see logs used, $\\log(1/2) = 5700 \\log(\\lambda) \\Rightarrow \\log(\\lambda) = \\log(1/2)/5700$. Look for at least one correct intermediate step (and no incorrect ones). Allow greater accuracy e.g. $0.9998784026\\dots$ Note that the use of $5699$ instead of $5700$ scores M1A0."
+            }
+          ],
+          "guidance": "Alternative method:\nM1: Substitutes values $0.9998775$ and $0.9998785$ or a tighter range containing the root (e.g. $0.999878$ and $0.9998785$ will do) to calculate $N$ or just $\\lambda^t$ at $t = 5700$.\nA1*: Correct values, with suitable conclusion that as half value occurs between these $\\lambda = 0.999878$ to 6 d.p."
+        },
+        {
+          "label": "(c)",
+          "marks": 2,
+          "answer": "awrt $10.1$ grams",
+          "markAllocation": [
+            {
+              "code": "M1",
+              "type": "M",
+              "value": 1,
+              "criterion": "Substitutes given values (or more accurate $\\lambda$) into the equation and evaluates. Implied by a correct answer, but an incorrect answer with no evidence is M0. Allow $3249$ for $3250$. Condone the use of a less accurate $\\lambda$ e.g. $0.9999$ if the intention is clear."
+            },
+            {
+              "code": "A1",
+              "type": "A",
+              "value": 1,
+              "criterion": "Awrt $10.1$. Units not required. Answer only can score both marks."
+            }
+          ],
+          "guidance": ""
+        },
+        {
+          "label": "(d)",
+          "marks": 3,
+          "answer": "$2700$ years old",
+          "markAllocation": [
+            {
+              "code": "B1",
+              "type": "B",
+              "value": 1,
+              "criterion": "Sets up the correct equation from the information given. It must be clear they are using the given $\\lambda$ or better accuracy so clear use of e.g. $0.9999$ scores B0 but allow the M1 below. This may be implied if they write e.g. $18 = 25 \\lambda^t$ and then go on to use the given value of $\\lambda$. Allow this mark if a different letter is used for $t$ as long as the equation is correct."
+            },
+            {
+              "code": "M1",
+              "type": "M",
+              "value": 1,
+              "criterion": "Solves an equation of the form $a = b \\lambda^t$ for $t$ to obtain a value. Must be correct log work so look for e.g. $\\lambda^t = a/b \\Rightarrow t \\log(\\lambda) = \\log(a/b) \\Rightarrow t = \\log(a/b) / \\log(\\lambda)$. Allow a mis-copied $\\lambda$ or a less accurate $\\lambda$ for this mark."
+            },
+            {
+              "code": "A1",
+              "type": "A",
+              "value": 1,
+              "criterion": "Correct answer of $2700$ (not awrt). Accept “$27$ hundred” or even “$2692.49\\dots$ so $27$”. FYI use of $\\lambda = (1/2)^{-1/5700}$ gives $2701.4$ years."
+            }
+          ],
+          "guidance": ""
+        }
+      ]
+    },
+    {
+      "qnum": 10,
+      "marks": 12,
+      "parts": [
+        {
+          "label": "(a)",
+          "marks": 3,
+          "answer": "$5x^2 + (4k - 26)x + (k^2 - 10k + 34 - r^2) = 0$",
+          "markAllocation": [
+            {
+              "code": "M1",
+              "type": "M",
+              "value": 1,
+              "criterion": "Forms equation of circle and substitutes in equation of line. The circle equation must be of the form $(x \\pm a)^2 + (y \\pm b)^2 = r^2$."
+            },
+            {
+              "code": "dM1",
+              "type": "M",
+              "value": 1,
+              "criterion": "Expands both sets of brackets and collects terms in $x^2$ and $x$."
+            },
+            {
+              "code": "A1*",
+              "type": "A",
+              "value": 1,
+              "criterion": "Reaches the answer given with no errors seen."
+            }
+          ],
+          "guidance": "Note that some candidates expand the brackets first before substitution e.g.: $x^2 - 6x + 9 + y^2 - 10y + 25 = r^2$. This implies the first M and then the second M will score when terms in $x^2$ and $x$ are collected. Note about poor squaring e.g. $(x-3)^2 = x^2+9$: The first M is available in both cases above but the second M requires at least two $x^2$ terms and at least two $x$ terms from the expansions. Note that it is acceptable to go from a completely correct full expansion to the printed answer e.g. $x^2 - 6x + 9 + 4x^2 + 4kx - 20x + k^2 - 10k + 25 = r^2$ scores full marks in (a)."
+        },
+        {
+          "label": "(b)",
+          "marks": 3,
+          "answer": "$r^2 = (k+1)^2 / 5$",
+          "markAllocation": [
+            {
+              "code": "M1",
+              "type": "M",
+              "value": 1,
+              "criterion": "Uses the discriminant is zero to form an equation in $k$ and $r$."
+            },
+            {
+              "code": "dM1",
+              "type": "M",
+              "value": 1,
+              "criterion": "Expands and rearranges to make $\\alpha r^2$ the subject."
+            },
+            {
+              "code": "A1",
+              "type": "A",
+              "value": 1,
+              "criterion": "Correct answer."
+            }
+          ],
+          "guidance": "Way 2:\nM1: Attempts the equation of BX and solves simultaneously with $l$ to find the coordinates of B. Alternatively uses $x = -(4k-26)/(2 \\times 5)$ at B and uses this to find $y$ at B.\ndM1: Correct use of Pythagoras for BX and sets $= r^2$.\nA1: Correct answer."
+        },
+        {
+          "label": "(c)",
+          "marks": 6,
+          "answer": "$k = 11/4$",
+          "markAllocation": [
+            {
+              "code": "M1",
+              "type": "M",
+              "value": 1,
+              "criterion": "Attempts $XA^2$ correctly in terms of $k$ (the $k$ may appear as $y$ but must be replaced by $k$ later) and uses it in Pythagoras theorem for triangle AXB. May be implied."
+            },
+            {
+              "code": "M1",
+              "type": "M",
+              "value": 1,
+              "criterion": "Applies $AB = 2r$ to get $AB^2 = 4r^2$ in terms of $r$. Condone with $AB^2 = 2r^2$ used."
+            },
+            {
+              "code": "A1",
+              "type": "A",
+              "value": 1,
+              "criterion": "Correct equation: $9 + (5-k)^2 = 3r^2$."
+            },
+            {
+              "code": "M1",
+              "type": "M",
+              "value": 1,
+              "criterion": "Substitutes the result from (b) and expands brackets."
+            },
+            {
+              "code": "dM1",
+              "type": "M",
+              "value": 1,
+              "criterion": "Solves a linear equation in $k$. Depends on the previous M."
+            },
+            {
+              "code": "A1",
+              "type": "A",
+              "value": 1,
+              "criterion": "Correct value."
+            }
+          ],
+          "guidance": "Alt (c):\nM1: Uses the result in (a) to find the $x$ coordinate where the line and circle meet and then finds $y$. An alternative is to find the equation of BX as in (b) way 2 and solve with $l$ to find $x$ and $y$ at B (May have already found the coordinates of B in (a) but must be re-stated or used in (c) to score this mark).\nM1: Uses distance formula to find an expression in $k$ for AB or AB$^2$.\nA1: Correct expression for AB or AB$^2$. Need not be simplified.\nM1: Applies $AB = 2r$ to the equation. Condone with $AB^2 = 2r^2$ used.\ndM1: Substitutes the result from (b) and solves a linear equation in $k$. Depends on the previous M.\nA1: Correct value."
+        }
+      ]
+    }
+  ]
+}

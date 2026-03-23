@@ -1,0 +1,744 @@
+{
+  "v": "1.0",
+  "paper": "2020Oct-WMA12-01",
+  "board": "edx",
+  "code": "WMA12",
+  "year": 2020,
+  "session": "Oct",
+  "paperNum": "01",
+  "totalMarks": 75,
+  "questions": [
+    {
+      "qnum": 1,
+      "marks": 7,
+      "parts": [
+        {
+          "label": "(a)",
+          "marks": 4,
+          "answer": "$1024 - 1280x + 720x^2 - 240x^3$",
+          "markAllocation": [
+            {
+              "code": "M1",
+              "type": "M",
+              "value": 1,
+              "criterion": "Attempts the binomial expansion to get the third and/or fourth term with an acceptable structure. The correct binomial coefficient must be combined with the correct power of $x$ and the correct power of 2 but condone omission of brackets. You can ignore the signs between the terms and allow the terms to be listed. Allow for e.g. $\\binom{10}{2} 2^8 (\\frac{x}{4})^2$ or $\\binom{10}{3} 2^7 (\\frac{x}{4})^3$ but condone omission of brackets. NB $\\binom{10}{2}=45, \\binom{10}{3}=120$. NB $\\binom{10}{2}=\\binom{10}{8}$ and $\\binom{10}{3}=\\binom{10}{7}$. Alternative: $(2 - \\frac{x}{8})^{10} = 2^{10} + \\binom{10}{1} 2^9 (-\\frac{x}{8}) + \\binom{10}{2} 2^8 (-\\frac{x}{8})^2 + \\binom{10}{3} 2^7 (-\\frac{x}{8})^3 + ...$. Score M1 for $\\binom{10}{2} 2^8 (\\pm \\frac{x}{8})^2$ or $\\binom{10}{3} 2^7 (\\pm \\frac{x}{8})^3$."
+            },
+            {
+              "code": "B1",
+              "type": "B",
+              "value": 1,
+              "criterion": "$1024 - 1280x$"
+            },
+            {
+              "code": "A1",
+              "type": "A",
+              "value": 1,
+              "criterion": "$720x^2$ or $-240x^3$"
+            },
+            {
+              "code": "A1",
+              "type": "A",
+              "value": 1,
+              "criterion": "$720x^2$ and $-240x^3$"
+            }
+          ],
+          "guidance": "Note that if any of the “−”’s are “+ −“’s then penalise once on the first occurrence. Allow the terms to be listed e.g. $1024, -1280x, 720x^2, -240x^3$. Apply isw once a correct answer is seen. Ignore any extra terms."
+        },
+        {
+          "label": "(b)",
+          "marks": 3,
+          "answer": "$17616$",
+          "markAllocation": [
+            {
+              "code": "B1",
+              "type": "B",
+              "value": 1,
+              "criterion": "Correct expansion. May be implied by their work to find the constant. $1 - \\frac{2}{3x} + \\frac{1}{9x^2}$ or $1 - \\frac{2}{3}x^{-1} + \\frac{1}{9}x^{-2}$"
+            },
+            {
+              "code": "M1",
+              "type": "M",
+              "value": 1,
+              "criterion": "Attempts to find the constant term by multiplying their expansion from (a) by their expansion from $(1 - \\frac{1}{3x})^2$. This mark depends on having obtained an expression of the form $A + Bx + Cx^2$ for $(1 - \\frac{1}{3x})^2$ and at least a 3-term quadratic expression from part (a) so award for: \"1024\" $\\times A +$ \"$-1280$\" $\\times B +$ \"$720$\" $\\times C$. A, B, C non-zero. Allow 1 sign error on their values. May be seen as part of a complete expansion but there must be an attempt to calculate the value of the constant term with the above conditions. For reference, true value calculation is: $9216 + 7680 + 720$."
+            },
+            {
+              "code": "A1",
+              "type": "A",
+              "value": 1,
+              "criterion": "Correct value. Must be “extracted” if a complete expansion is found above."
+            }
+          ],
+          "guidance": ""
+        }
+      ]
+    },
+    {
+      "qnum": 2,
+      "marks": 4,
+      "parts": [
+        {
+          "label": "(a)",
+          "marks": 1,
+          "answer": "y values: $0.462, 0.577, 0.653, 0.686, 0.698$",
+          "markAllocation": [
+            {
+              "code": "B1",
+              "type": "B",
+              "value": 1,
+              "criterion": "Allow awrt these values and look for the values appearing in the body of the script or within their calculation in part (b). Also allow exact value for the 0.577 e.g. $\\frac{1}{\\sqrt{3}}$ or $\\frac{\\sqrt{3}}{3}$."
+            }
+          ],
+          "guidance": ""
+        },
+        {
+          "label": "(b)",
+          "marks": 3,
+          "answer": "awrt $0.624$ or $\\frac{78}{125}$ oe e.g. $\\frac{312}{500}$",
+          "markAllocation": [
+            {
+              "code": "B1",
+              "type": "B",
+              "value": 1,
+              "criterion": "Correct strip width. May be implied by $\\frac{1}{8}$ or $0.25 \\times \\frac{1}{2}$."
+            },
+            {
+              "code": "M1",
+              "type": "M",
+              "value": 1,
+              "criterion": "Correct application of the trapezium rule with their h. Must be a correct application of the rule so e.g. $\\frac{1}{2} \\times \"0.25\" \\times (0.462 + 0.698 + 2(\"0.577\" + 0.653 + \"0.686\"))$ scores M0 unless any missing brackets are implied by subsequent work. Condone copying slips e.g. 0.426 instead of 0.462. Must use all the y-values. Repeated or missing y-values scores M0. Allow separate trapezia e.g. $\\frac{1}{2} \\times \"0.25\" \\times (0.462 + \"0.577\") + \\frac{1}{2} \\times \"0.25\" \\times (\"0.577\" + 0.653) + \\frac{1}{2} \\times \"0.25\" \\times (0.653 + \"0.686\") + \\frac{1}{2} \\times \"0.25\" \\times (\"0.686\" + 0.698)$. Allow use of the function e.g. $\\frac{0.25}{2} \\left\\{ \\frac{2}{\\sqrt{5(-0.25)+3}} + \\frac{2}{\\sqrt{5(0.75)+3}} + 2\\left( \\frac{2}{\\sqrt{5(0)+3}} + \\frac{2}{\\sqrt{5(0.25)+3}} + \\frac{2}{\\sqrt{5(0.5)+3}} \\right) \\right\\}$."
+            },
+            {
+              "code": "A1",
+              "type": "A",
+              "value": 1,
+              "criterion": "accept awrt 0.624 or exact fraction but isw if necessary. Note that the calculator answer for the integral is 0.6265569683… "
+            }
+          ],
+          "guidance": ""
+        }
+      ]
+    },
+    {
+      "qnum": 3,
+      "marks": 10,
+      "parts": [
+        {
+          "label": "(a)",
+          "marks": 2,
+          "answer": "$16a + 24b = 24$",
+          "markAllocation": [
+            {
+              "code": "M1",
+              "type": "M",
+              "value": 1,
+              "criterion": "Attempts to set $f(-4) = -108$ to obtain an equation in a and b. Score when you see “– 4” embedded in the equation or 2 correct terms (excluding the “+ 4”) on lhs. May be implied by e.g. $-64a - 16 + 4b + 4 = -108$. Condone minor slips on the lhs e.g. one sign error between terms but must use $-108$. As an alternative for the first mark we will condone an attempt at long division. This requires a complete method to divide $(ax^3 – x^2 + bx + 4)$ by $(x + 4)$ to obtain a remainder in terms of a and b which is then equated to $-108$. For reference, the quotient is $ax^2 – (1+4a)x + 16a + b + 4$ and the remainder is $-4b – 64a – 12$."
+            },
+            {
+              "code": "A1*",
+              "type": "A",
+              "value": 1,
+              "criterion": "Correct equation obtained with no errors and at least one line of intermediate working if starting with e.g. $a(-4)^3 - (-4)^2 + b(-4) + 4 = -108$."
+            }
+          ],
+          "guidance": ""
+        },
+        {
+          "label": "(b)",
+          "marks": 3,
+          "answer": "$a = 2, b = -8$",
+          "markAllocation": [
+            {
+              "code": "M1",
+              "type": "M",
+              "value": 1,
+              "criterion": "Attempts to set $f(\\frac{1}{2}) = 0$ to obtain an equation in a and b. Condone slips. Score when you see “$\\frac{1}{2}$” embedded in the equation or 2 correct terms (excluding the “+ 4”) on lhs. May be implied by e.g. $\\frac{1}{8}a - \\frac{1}{4} + \\frac{1}{2}b + 4 = 0$. The “= 0” may be implied when they attempt to solve simultaneously below. An alternative for the first mark is to attempt long division. This requires a complete method to divide $(ax^3 – x^2 + bx + 4)$ by $(2x – 1)$ to obtain a remainder in a and b which is then equated to 0. For reference, the quotient is $\\frac{1}{2}ax^2 + (\\frac{1}{4}a - \\frac{1}{2})x + (\\frac{1}{8}a - \\frac{1}{4} + \\frac{1}{2}b)$ and the remainder is $\\frac{15}{4} + \\frac{1}{2}b + \\frac{1}{8}a$."
+            },
+            {
+              "code": "M1",
+              "type": "M",
+              "value": 1,
+              "criterion": "Attempts to solve $16a + 24b = 24$ simultaneously with their equation in a and b. This may be implied if values of a and b are obtained (e.g. calculator)."
+            },
+            {
+              "code": "A1",
+              "type": "A",
+              "value": 1,
+              "criterion": "Correct values."
+            }
+          ],
+          "guidance": ""
+        },
+        {
+          "label": "(c)",
+          "marks": 1,
+          "answer": "$f'(x) = 6x^2 - 2x - 8$",
+          "markAllocation": [
+            {
+              "code": "B1ft",
+              "type": "B",
+              "value": 1,
+              "criterion": "Correct derivative (follow through their a and b). Allow unsimplified and apply isw if necessary. Allow with the letters “a” and “b” and a “made up” “a” and “b”."
+            }
+          ],
+          "guidance": ""
+        },
+        {
+          "label": "(d)",
+          "marks": 4,
+          "answer": "$(\\frac{4}{3}, -\\frac{100}{27})$ and $(-1, 9)$",
+          "markAllocation": [
+            {
+              "code": "M1",
+              "type": "M",
+              "value": 1,
+              "criterion": "Sets their $f'(x) = 0$ (may be implied) and solves a 3 term quadratic. Apply general guidance if necessary. You may need to check if a calculator has been used."
+            },
+            {
+              "code": "M1",
+              "type": "M",
+              "value": 1,
+              "criterion": "Uses at least one of their x values to find a value for y using their $f(x)$ where x is from an attempt to solve $f'(x) = 0$. You may need to check their y values if working is not shown."
+            },
+            {
+              "code": "A1",
+              "type": "A",
+              "value": 1,
+              "criterion": "One correct point. The fractional coordinates must be exact but allow 1.3 with a dot over the 3 and 3.703 with dots over the 7 and 3. Note that it is not necessary for the points to be written as coordinates as long as the pairing is clear. Depends on having scored both previous M marks."
+            },
+            {
+              "code": "A1",
+              "type": "A",
+              "value": 1,
+              "criterion": "Both correct points. The fractional coordinates must be exact but allow 1.3 with a dot over the 3 and 3.703 with dots over the 7 and 3. Note that it is not necessary for the points to be written as coordinates as long as the pairing is clear. Depends on having scored both previous M marks."
+            }
+          ],
+          "guidance": "Fully correct answers with no working scores 4/4 following a correct part (c) i.e. $f'(x) = 6x^2 - 2x - 8$."
+        }
+      ]
+    },
+    {
+      "qnum": 4,
+      "marks": 9,
+      "parts": [
+        {
+          "label": "(a)",
+          "marks": 4,
+          "subparts": [
+            {
+              "label": "(i)",
+              "marks": 2,
+              "answer": "$x = -7, y = 9$",
+              "markAllocation": [
+                {
+                  "code": "B1",
+                  "type": "B",
+                  "value": 1,
+                  "criterion": "$x = -7$ or $y = 9$"
+                },
+                {
+                  "code": "B1",
+                  "type": "B",
+                  "value": 1,
+                  "criterion": "$x = -7$ and $y = 9$"
+                }
+              ],
+              "guidance": "Award the marks in (a) once correct answers are seen. Special case: If all you see is $(9, -7)$ award B1B0."
+            },
+            {
+              "label": "(ii)",
+              "marks": 2,
+              "answer": "$r = 5$",
+              "markAllocation": [
+                {
+                  "code": "M1",
+                  "type": "M",
+                  "value": 1,
+                  "criterion": "Correct strategy for the radius. Must be a correct method for their centre (if used) but allow 1 sign slip within one of the brackets. A correct answer scores both marks. Must see the $\\frac{1}{2}$ if finding the length of the diameter. Examples: $\\sqrt{(3 - \"-7\")^2 + (12 - \"9\")^2}$ or $\\sqrt{(11 - \"-7\")^2 + (6 - \"9\")^2}$ or $\\frac{1}{2}\\sqrt{(3 - 11)^2 + (12 - 6)^2}$."
+                },
+                {
+                  "code": "A1",
+                  "type": "A",
+                  "value": 1,
+                  "criterion": "Correct radius."
+                }
+              ],
+              "guidance": ""
+            }
+          ]
+        },
+        {
+          "label": "(b)",
+          "marks": 2,
+          "answer": "$(x+7)^2 + (y-9)^2 = 25$",
+          "markAllocation": [
+            {
+              "code": "M1",
+              "type": "M",
+              "value": 1,
+              "criterion": "Correct attempt at circle equation using their values. Allow for $(x \\pm \\text{their } x_c)^2 + (y \\pm \\text{their } y_c)^2 = (\\text{their numerical } r)^2$ or e.g. $x^2 + y^2 + 2(\\text{their } x_c)x - 2(\\text{their } y_c)y + (\\text{their } x_c)^2 + (\\text{their } y_c)^2 - (\\text{their numerical } r)^2 = 0$."
+            },
+            {
+              "code": "A1",
+              "type": "A",
+              "value": 1,
+              "criterion": "Correct equation in any form."
+            }
+          ],
+          "guidance": ""
+        },
+        {
+          "label": "(c)",
+          "marks": 3,
+          "answer": "$4x + 3y - 24 = 0$",
+          "markAllocation": [
+            {
+              "code": "M1",
+              "type": "M",
+              "value": 1,
+              "criterion": "This mark is for an attempt to find the radius gradient or the tangent gradient. If the method is not clear allow one sign error in the numerator or denominator. Radius gradient $m_r = \\frac{12-9}{3-(-7)} = \\frac{3}{10}$. Tangent gradient $m_t = -\\frac{10}{3}$. Alternative for the first M: Differentiates $(x+7)^2 + (y-9)^2 = 25$ implicitly to get $2(x+7) + 2(y-9)\\frac{dy}{dx} = 0$ and attempts to find $\\frac{dy}{dx}$."
+            },
+            {
+              "code": "M1",
+              "type": "M",
+              "value": 1,
+              "criterion": "Uses a correct straight line method for the tangent using the point Q. Must be fully correct work here so must be a clear attempt at the tangent not the radius. So if the radius gradient is found previously, must apply negative reciprocal rule to their radius gradient. If using $y = mx + c$ must reach as far as $c = \\dots$."
+            },
+            {
+              "code": "A1",
+              "type": "A",
+              "value": 1,
+              "criterion": "Allow any integer multiple."
+            }
+          ],
+          "guidance": ""
+        }
+      ]
+    },
+    {
+      "qnum": 5,
+      "marks": 11,
+      "parts": [
+        {
+          "label": "(a)",
+          "marks": 2,
+          "answer": "(\\pounds)295",
+          "markAllocation": [
+            {
+              "code": "M1",
+              "type": "M",
+              "value": 1,
+              "criterion": "Uses $a + (n – 1)d$ with $a = 100, d = 5$ and $n = 40$. This may be implied by a correct expression e.g. $100 + 39 \\times 5$."
+            },
+            {
+              "code": "A1",
+              "type": "A",
+              "value": 1,
+              "criterion": "Cao. Correct answer with no working scores both marks."
+            }
+          ],
+          "guidance": ""
+        },
+        {
+          "label": "(b)",
+          "marks": 3,
+          "answer": "(\\pounds)14 850",
+          "markAllocation": [
+            {
+              "code": "M1",
+              "type": "M",
+              "value": 1,
+              "criterion": "Uses a correct sum formula with $a = 100, d = 5$ and $n = 60$ or $n = 40$. May be implied by a correct numerical expression. If using $\\frac{1}{2}n(a+l)$ with $n = 40$ you may see $\\frac{1}{2} \\times 40 \\times (100 + 295)$ using their result from (a) and this scores M1 also."
+            },
+            {
+              "code": "A1",
+              "type": "A",
+              "value": 1,
+              "criterion": "Correct numerical expression with $n = 60$. If there are any missing brackets then this mark should be withheld unless the correct expression is implied by their answer."
+            },
+            {
+              "code": "A1",
+              "type": "A",
+              "value": 1,
+              "criterion": "Cao. Correct answer with no working scores 3 marks. Apply isw if necessary and award this mark once a correct answer is seen."
+            }
+          ],
+          "guidance": ""
+        },
+        {
+          "label": "(c)",
+          "marks": 3,
+          "answer": "$n^2 - 121n + 3640 = 0$",
+          "markAllocation": [
+            {
+              "code": "M1",
+              "type": "M",
+              "value": 1,
+              "criterion": "Attempts to use a correct sum formula with $a = 600, d = -10$ and sets $= 18200$. Condone poor use of brackets."
+            },
+            {
+              "code": "A1",
+              "type": "A",
+              "value": 1,
+              "criterion": "Correct equation which may be implied by subsequent work."
+            },
+            {
+              "code": "A1*",
+              "type": "A",
+              "value": 1,
+              "criterion": "Obtains the printed answer with at least one intermediate line and no errors. Allow other variables to be used for n but the final answer must be as printed including “= 0”."
+            }
+          ],
+          "guidance": ""
+        },
+        {
+          "label": "(d)",
+          "marks": 2,
+          "answer": "$n = 56, 65$",
+          "markAllocation": [
+            {
+              "code": "M1",
+              "type": "M",
+              "value": 1,
+              "criterion": "Attempts to solve the given quadratic. This may be implied by correct answers. Apply general guidance if necessary but must reach at least one value for n. (Allow them to use x rather than n)."
+            },
+            {
+              "code": "A1",
+              "type": "A",
+              "value": 1,
+              "criterion": "Correct values (ignore how they are labelled e.g. allow x = …)."
+            }
+          ],
+          "guidance": ""
+        },
+        {
+          "label": "(e)",
+          "marks": 1,
+          "answer": "(n =) 65 because e.g. the money has already been saved after 56 months",
+          "markAllocation": [
+            {
+              "code": "B1",
+              "type": "B",
+              "value": 1,
+              "criterion": "States (n =) 65 and gives a suitable reason – see below for examples of acceptable comments. There must be no contradictory statements and any calculations must be correct."
+            }
+          ],
+          "guidance": "Acceptable comments for 5(e): $t_{65} = 600 – 10 \\times 64 = –40$ which is not possible/doesn’t make sense/etc. $n = 65$ because Lina will have saved the money after 56 months. $n = 65$ because Lina will have saved the money before then. $600 + (n-1)(-10) = 0 \\implies n = 61$ so she will have paid off the loan before $n = 65$. Condone “because $65 > 60$” or equivalent e.g. it is only over 60 months (or 5 years). $n = 65$ means $t = 600 – 10 \\times 64 = –40$ so reject (but not just “it is negative”)."
+        }
+      ]
+    },
+    {
+      "qnum": 6,
+      "marks": 9,
+      "parts": [
+        {
+          "label": "(a)",
+          "marks": 4,
+          "answer": "$(2, 5)$",
+          "markAllocation": [
+            {
+              "code": "M1",
+              "type": "M",
+              "value": 1,
+              "criterion": "Sets C1 = C2, and collects terms."
+            },
+            {
+              "code": "A1",
+              "type": "A",
+              "value": 1,
+              "criterion": "Correct cubic equation. The “= 0” may be implied by their attempt to solve."
+            },
+            {
+              "code": "M1",
+              "type": "M",
+              "value": 1,
+              "criterion": "Attempts to factorise using $(x – 1)$ as a factor or uses long division by $(x – 1)$ to obtain a quadratic factor and proceeds to solve quadratic or factorise and solve. NB $x^3 + 2x^2 - 13x + 10 = (x-1)(x^2+3x-10)$. Or attempts 3 factors directly (by considering roots). Or solves (using calculator) to obtain 3 roots (may need to check if cubic incorrect)."
+            },
+            {
+              "code": "A1",
+              "type": "A",
+              "value": 1,
+              "criterion": "Correct values from a correct cubic. Allow as a coordinate pair or written separately. If there are any errors in the algebra e.g. wrong factors, wrong working etc. this mark should be withheld even if they have $(2, 5)$ and score as M1A1M1A0."
+            }
+          ],
+          "guidance": "Special Case: If you see: $x^3 - 6x^2 + 9x - 2 = -x^2 + 7x + 1 \\implies x^3 + 2x^2 - 13x + 10 = 0 \\implies (2, 5)$ or $x=2, y=5$. Score M1A1M1A0."
+        },
+        {
+          "label": "(b)",
+          "marks": 5,
+          "answer": "$\\frac{13}{12}$",
+          "markAllocation": [
+            {
+              "code": "M1",
+              "type": "M",
+              "value": 1,
+              "criterion": "For increasing any power of x by 1 for C1 or C2 or for $\\pm (C1 – C2)$."
+            },
+            {
+              "code": "M1",
+              "type": "M",
+              "value": 1,
+              "criterion": "For correct integration of 1 term for C1 and one term for C2 or for correct integration for 2 terms of their $\\pm (C1 – C2)$."
+            },
+            {
+              "code": "A1",
+              "type": "A",
+              "value": 1,
+              "criterion": "Fully correct integration of both C1 and C2 or for $\\pm (C1 – C2)$. Award this mark as soon as fully correct integration is seen and ignore subsequent work."
+            },
+            {
+              "code": "M1",
+              "type": "M",
+              "value": 1,
+              "criterion": "Fully correct strategy for the area. Depends on both previous M marks. Uses the limits “2” and 1 in their “changed” expression(s) and subtracts either way round."
+            },
+            {
+              "code": "A1",
+              "type": "A",
+              "value": 1,
+              "criterion": "If the attempt is correct apart from subtracting the wrong way round (for limits or functions) and $-\\frac{13}{12}$ is obtained, allow recovery if they then make their answer positive."
+            }
+          ],
+          "guidance": "Some values for reference: $\\int (x^3 + 2x^2 - 13x + 10) dx = \\frac{x^4}{4} + \\frac{2x^3}{3} - \\frac{13x^2}{2} + 10x$."
+        }
+      ]
+    },
+    {
+      "qnum": 7,
+      "marks": 7,
+      "parts": [
+        {
+          "label": "(i)",
+          "marks": 3,
+          "answer": "$\\frac{1}{\\sin\\theta\\cos\\theta}$",
+          "markAllocation": [
+            {
+              "code": "M1",
+              "type": "M",
+              "value": 1,
+              "criterion": "Uses $\\tan\\theta \\equiv \\frac{\\sin\\theta}{\\cos\\theta}$ on both terms."
+            },
+            {
+              "code": "M1",
+              "type": "M",
+              "value": 1,
+              "criterion": "Uses $\\tan\\theta \\equiv \\frac{\\sin\\theta}{\\cos\\theta}$ and $\\cot\\theta \\equiv \\frac{\\cos\\theta}{\\sin\\theta}$ and attempts common denominator of $\\sin\\theta\\cos\\theta$ with a 2 term numerator one of which is correct. Or attempts 2 separate fractions with a denominator of $\\sin\\theta\\cos\\theta$ one of which is correct. Depends on the first mark."
+            },
+            {
+              "code": "A1*",
+              "type": "A",
+              "value": 1,
+              "criterion": "Correct proof with no notation errors or missing variables but allow “$\\equiv$” instead of “=”. If there are any spurious “= 0”’s alongside the proof score A0."
+            }
+          ],
+          "guidance": "Alternative 1 for (i): M1: Attempts common denominator of $\\tan\\theta$. M1: Applies appropriate and correct identities to obtain in terms of $\\sin\\theta$ and $\\cos\\theta$ only and eliminates “double decker” fractions if necessary. A1*: Correct proof with no notation errors or missing variables but allow “$\\equiv$” instead of “=”. If there are any spurious “= 0”’s alongside the proof score A0. Alternative 2 for (i): M1: Uses $\\tan\\theta \\equiv \\frac{\\sin\\theta}{\\cos\\theta}$ and multiplies through by $\\sin\\theta$ or $\\cos\\theta$. M1: Uses $\\tan\\theta \\equiv \\frac{\\sin\\theta}{\\cos\\theta}$ and multiplies through by $\\sin\\theta$ and $\\cos\\theta$. A1*: Fully correct work reaching a correct identity with a conclusion. If there are any spurious “= 0”’s alongside the proof score A0."
+        },
+        {
+          "label": "(ii)",
+          "marks": 4,
+          "answer": "$x = 22.4^\\circ, 57.6^\\circ$",
+          "markAllocation": [
+            {
+              "code": "M1",
+              "type": "M",
+              "value": 1,
+              "criterion": "Divides by 3 and takes square root of both sides. The “$\\pm$” is not required."
+            },
+            {
+              "code": "M1",
+              "type": "M",
+              "value": 1,
+              "criterion": "Applies $x = \\frac{\\cos^{-1}(\\pm \\text{\"value\"}) - 10}{2}$. You may need to check their values if no working is shown."
+            },
+            {
+              "code": "A1",
+              "type": "A",
+              "value": 1,
+              "criterion": "Awrt one of these."
+            },
+            {
+              "code": "A1",
+              "type": "A",
+              "value": 1,
+              "criterion": "Awrt both with no extras in range."
+            }
+          ],
+          "guidance": "If mixing degrees and radians allow the method marks. Alternative 1 for part (b): M1: Uses a correct identity, rearranges and takes square root of both sides. The “$\\pm$” is not required. M1: Applies $x = \\frac{\\sin^{-1}(\\pm \\text{\"value\"}) - 10}{2}$. You may need to check their values if no working is shown. A1: Awrt one of these. A1: Awrt both with no extras in range. Alternative 2 for part (b): M1: Uses a correct identity, rearranges to make $\\cos(4x+20)$ the subject. M1: Applies $x = \\frac{\\cos^{-1}(\\text{\"value\"}) - 20}{4}$. You may need to check their values if no working is shown. A1: Awrt one of these. A1: Awrt both with no extras in range."
+        }
+      ]
+    },
+    {
+      "qnum": 8,
+      "marks": 8,
+      "parts": [
+        {
+          "label": "(a)",
+          "marks": 3,
+          "answer": "$S_n = \\frac{a(1-r^n)}{1-r}$",
+          "markAllocation": [
+            {
+              "code": "M1",
+              "type": "M",
+              "value": 1,
+              "criterion": "Writes down at least 3 correct terms of a geometric series and multiplies their sequence by r. There may be extra incorrect terms but allow this mark if there are 3 correct terms in both sequences and at least one “+” in both sequences but see special case below."
+            },
+            {
+              "code": "A1",
+              "type": "A",
+              "value": 1,
+              "criterion": "Obtains either equation where both $S_n$ and $rS_n$ had the correct first and last terms and at least one other correct term but no incorrect terms. Both sides must be seen unfactorised."
+            },
+            {
+              "code": "A1*",
+              "type": "A",
+              "value": 1,
+              "criterion": "Factorises both sides and divides by $1 – r$ to obtain the printed answer. Should be as printed but allow e.g. $S_n = \\frac{a(r^n-1)}{r-1}$ but not $S_n = \\frac{ar^n-a}{r-1}$ unless followed by correct version."
+            }
+          ],
+          "guidance": "Special case: If terms are listed rather than added and the working is otherwise correct score 110. See next page for proof by induction. Alternative for (a): M1: Writes down at least 3 correct terms of a geometric series and multiplies both sides by $1 – r$ or multiplies the right hand side by $\\frac{1-r}{1-r}$. There may be extra incorrect terms but allow this mark if there are 3 correct terms. A1: Obtains the above equation where $S_n$ had the correct first and last terms and at least one other correct term and no incorrect terms. Right hand side must be seen unfactorised unless the “a” was factored out earlier. A1*: Should be as printed but allow e.g. $S_n = \\frac{a(r^n-1)}{r-1}$ but not $S_n = \\frac{ar^n-a}{r-1}$ unless followed by correct version."
+        },
+        {
+          "label": "(b)",
+          "marks": 2,
+          "answer": "$r = -0.4$",
+          "markAllocation": [
+            {
+              "code": "M1",
+              "type": "M",
+              "value": 1,
+              "criterion": "Correct strategy for r. Allow for dividing the 2 given terms either way round and attempting to cube root."
+            },
+            {
+              "code": "A1",
+              "type": "A",
+              "value": 1,
+              "criterion": "Correct value (and no others) but allow equivalents e.g. -2/5. Correct answer only scores both marks."
+            }
+          ],
+          "guidance": "Note that some candidates take $ar^2 = -320$ and $ar^5 = \\frac{512}{25}$ and use these correctly to give $r^3 = \\frac{512/25}{-320} = -\\frac{2}{125} \\implies r = -\\frac{2}{5} = -0.4$. In such cases you can allow full marks for (b) but see note * in (c)."
+        },
+        {
+          "label": "(c)",
+          "marks": 3,
+          "answer": "$S_{13} = 571.43$",
+          "markAllocation": [
+            {
+              "code": "M1",
+              "type": "M",
+              "value": 1,
+              "criterion": "Correct attempt at the first term using $\\pm$ their r and the $-320$ or the $\\frac{512}{25}$. May be implied by their a but must be using e.g. $ar^2 = -320$ or $ar^5 = \\frac{512}{25}$ not $ar^3 = -320$ or $ar^4 = \\frac{512}{25}$."
+            },
+            {
+              "code": "M1",
+              "type": "M",
+              "value": 1,
+              "criterion": "Correct attempt at the sum using their a and their r and $n = 13$ to find a value for $S_{13}$. Must be a fully correct attempt at the sum here using $n = 13$, their a and their r. Note that $\\frac{\\\"800\\\"(1 - (-0.4)^{13})}{1 - (-0.4)}$ is equivalent to $\\frac{\\\"800\\\"(1 + (0.4)^{13})}{1 + 0.4}$ and is acceptable for this mark."
+            },
+            {
+              "code": "A1",
+              "type": "A",
+              "value": 1,
+              "criterion": "Correct value. Note that $S_\\infty$ is also 571.43 so working must be seen i.e. correct answer only scores no marks."
+            }
+          ],
+          "guidance": "Mark (b) and (c) together."
+        }
+      ]
+    },
+    {
+      "qnum": 9,
+      "marks": 10,
+      "parts": [
+        {
+          "label": "(i)",
+          "marks": 4,
+          "answer": "$x = \\frac{86}{161}$",
+          "markAllocation": [
+            {
+              "code": "B1",
+              "type": "B",
+              "value": 1,
+              "criterion": "$\\log_3 81 = 4$ or $3^4 = 81$. May be implied by e.g. $\\log_3(x+5) - \\log_3(2x-1) = 4$."
+            },
+            {
+              "code": "M1",
+              "type": "M",
+              "value": 1,
+              "criterion": "This mark is for combining 2 log terms correctly and can be awarded following an incorrect rearrangement e.g. $\\log_3(x+5) - 4 = \\log_3(2x-1) \\implies \\log_3(x+5) - \\log_3(2x-1) = 4 \\implies \\log_3(\\frac{x+5}{2x-1}) = 4$."
+            },
+            {
+              "code": "A1",
+              "type": "A",
+              "value": 1,
+              "criterion": "Obtains this equation in any form e.g. $\\frac{x+5}{2x-1} = 81$."
+            },
+            {
+              "code": "A1",
+              "type": "A",
+              "value": 1,
+              "criterion": "Cao."
+            }
+          ],
+          "guidance": "Condone the omission of the base throughout. Alternative for first 3 marks: B1 for sight of $3^4$ and M1 for applying $\\log a - \\log b = \\log(\\frac{a}{b})$ and A1 as above. (a) Special Case: $\\log_3(x+5) - \\log_3(2x-1) = 4 \\implies \\log_3(\\frac{x+5}{2x-1}) = 4 \\implies \\frac{x+5}{2x-1} = 81 \\implies x = \\frac{86}{161}$. Scores B1(implied) M0 A0 A1."
+        },
+        {
+          "label": "(ii)",
+          "marks": 6,
+          "subparts": [
+            {
+              "label": "(a)",
+              "marks": 4,
+              "answer": "$y = 0.75$",
+              "markAllocation": [
+                {
+                  "code": "B1",
+                  "type": "B",
+                  "value": 1,
+                  "criterion": "One correct index law seen or implied anywhere in their working e.g. $3^{y+3} = 3^y \\times 3^3$ or $2^{1-2y} = 2^1 \\times 2^{-2y}$."
+                },
+                {
+                  "code": "M1",
+                  "type": "M",
+                  "value": 1,
+                  "criterion": "Applies both correct index laws to the lhs of the equation."
+                },
+                {
+                  "code": "M1",
+                  "type": "M",
+                  "value": 1,
+                  "criterion": "Isolates the terms in y (as powers of 3 and 2(or 4)) on the lhs and the constants on the rhs. There must be no incorrect work to combine terms e.g. $3^y \\times 3^y = 3^{2y}$ etc."
+                },
+                {
+                  "code": "A1*",
+                  "type": "A",
+                  "value": 1,
+                  "criterion": "Cso. Reaches the given answer with no errors and all steps shown with $2^{2y}$ appearing as $4^y$ at some point."
+                }
+              ],
+              "guidance": "Alternative 1 for (ii)(a) using logs: B1: One correct log law seen or implied anywhere in their working. No bracketing errors allowed for this mark. M1: Applies the correct log laws to the lhs. You can condone missing brackets around the $y + 3$ and/or $1 – 2y$. M1: Proceeds to isolate the terms in y on the lhs and combines the constants on the rhs. A1*: Cso. With e.g. $2\\log 2$ seen as $\\log 4$ or $\\log 2^2$ or implied at some point. Alternative 2 for (ii)(a) using factors of 108: B1: One correct index law seen or implied anywhere in their working e.g. $3^{y+3} = 3^y \\times 3^3$ or $2^{1-2y} = 2^1 \\times 2^{-2y}$. M1: Applies both correct index laws to the lhs of the equation. M1: Proceeds to isolate the terms in y (as powers of 3 and 2(or 4)) on the lhs and the constants on the rhs. A1*: Cso. Reaches the given answer with no errors and all steps shown with $2^{2y}$ appearing as $4^y$ at some point."
+            },
+            {
+              "label": "(b)",
+              "marks": 2,
+              "answer": "$y = -2.409$",
+              "markAllocation": [
+                {
+                  "code": "M1",
+                  "type": "M",
+                  "value": 1,
+                  "criterion": "Correct processing to obtain a value for y. May be implied by awrt – 2.4."
+                },
+                {
+                  "code": "A1",
+                  "type": "A",
+                  "value": 1,
+                  "criterion": "Awrt -2.409. A correct answer implies both marks."
+                }
+              ],
+              "guidance": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

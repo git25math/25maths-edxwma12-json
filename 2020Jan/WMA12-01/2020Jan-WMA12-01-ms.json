@@ -1,0 +1,720 @@
+{
+  "v": "1.0",
+  "paper": "2020Jan-WMA12-01",
+  "board": "edx",
+  "code": "WMA12",
+  "year": 2020,
+  "session": "Jan",
+  "paperNum": "01",
+  "totalMarks": 75,
+  "questions": [
+    {
+      "qnum": 1,
+      "marks": 7,
+      "parts": [
+        {
+          "label": "(a)",
+          "marks": 3,
+          "answer": "awrt 45.6",
+          "markAllocation": [
+            {
+              "code": "B1",
+              "type": "B",
+              "value": 1,
+              "criterion": "For $h=3$. This is implied by sight of $3/2$ in front of the bracket"
+            },
+            {
+              "code": "M1",
+              "type": "M",
+              "value": 1,
+              "criterion": "For a correct bracket condoning slips (e.g 4.18 instead of 4.81). Look for {first + last + 2(sum of three terms}), but repeated terms scores M0. Must all be y values. Condone “invisible” outside brackets for the M1."
+            },
+            {
+              "code": "A1",
+              "type": "A",
+              "value": 1,
+              "criterion": "awrt 45.6 An answer of 45.6 can imply the B and M mark if no contrary working is seen and the M may be recovered from “incorrect bracketing” if the answer implies correct bracketing is used.."
+            }
+          ],
+          "guidance": ""
+        },
+        {
+          "label": "(b)",
+          "marks": 4,
+          "subparts": [
+            {
+              "label": "(i)",
+              "marks": 2,
+              "answer": "awrt 18.2",
+              "markAllocation": [
+                {
+                  "code": "M1",
+                  "type": "M",
+                  "value": 1,
+                  "criterion": "States or uses $\\log_2 4x = 2\\log_2 2x$ (oe)"
+                },
+                {
+                  "code": "A1ft",
+                  "type": "A",
+                  "value": 1,
+                  "criterion": "For calculating $2 \\times \\text{their (a)}/5 = \\text{awrt 18.2}$ but following through on their answer for (a)"
+                }
+              ],
+              "guidance": ""
+            },
+            {
+              "label": "(ii)",
+              "marks": 2,
+              "answer": "awrt 21.6",
+              "markAllocation": [
+                {
+                  "code": "M1",
+                  "type": "M",
+                  "value": 1,
+                  "criterion": "Attempts to write equation in terms of $\\log_2 2x$ using the subtraction rule work to be able to apply (a). Should be $\\int \\log_2 (x^2/2) dx = \\int (\\log_2 x^2 - \\log_2 2) dx = \\int (2\\log_2 x - \\log_2 2) dx$ but allow eg. $\\int \\log_2 (x^2/2) dx = \\int \\log_2 x^2 / \\log_2 2 dx = \\int \\log_2 x^2 - \\log_2 2 dx$ for M1."
+                },
+                {
+                  "code": "A1ft",
+                  "type": "A",
+                  "value": 1,
+                  "criterion": "For calculating $24 - \\text{their (a)} = \\text{awrt 21.6}$ but following through on their answer for (a) and isw if later made positive."
+                }
+              ],
+              "guidance": "Do not allow for answers that evaluate an integral by calculator (so use of $\\log_2 x^2 - \\log_2 2$ will likely score M1A0). Note that trapezium rule used again in (b) is M0 in both parts unless the relevant log work has been seen. Watch out for these as they give the same answers as those in the scheme to 1 dp. Working must be seen in part (b) to gain credit. Alt for (b)(ii): $\\int_1^4 \\log_2 (x^2/2) dx = \\int_1^4 (\\log_2 x^2 - \\log_2 2) dx = \\int_1^4 2\\log_2 x dx - \\int_1^4 \\log_2 2 dx$ and $\\int_1^4 \\log_2 (x^2/2) dx = \\int_1^4 (2\\log_2 x - 1) dx = 2 \\int_1^4 \\log_2 x dx - \\int_1^4 1 dx$ solved simultaneously scores the M when the $\\log_2 x$ terms are eliminated."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "qnum": 2,
+      "marks": 7,
+      "parts": [
+        {
+          "label": "(a)",
+          "marks": 4,
+          "answer": "$a = \\pm 2$",
+          "markAllocation": [
+            {
+              "code": "M1",
+              "type": "M",
+              "value": 1,
+              "criterion": "For an attempt at the correct term of the binomial expansion which may be embedded within a full expansion. Accept $(^6C_4)(ax)^4(3)^2$, $(^6C_2)(ax)^4(3)^2$, $15(ax)^4(3)^2$, $135(ax)^4$ etc but must have correct coefficient and correct powers of 3 and x. Allow equivalents such as $(^6C_4)(3)^2(ax)^4$ and condone a missing bracket for this mark ie. $135ax^4$. You may condone a slip on the 3 if the rest of an expansion is correct."
+            },
+            {
+              "code": "A1",
+              "type": "A",
+              "value": 1,
+              "criterion": "For a correct equation in a. Allow $15 \\times 3^2 a^4 = 540$ or $15 \\times 3^2 (ax)^4 = 540x^4$. The coefficient must be evaluated for this mark"
+            },
+            {
+              "code": "dM1",
+              "type": "M",
+              "value": 1,
+              "criterion": "For $''135'' a^4 = 540 \\Rightarrow a^4 = \\dots$ Condone slips on the 540 or errors simplifying an initially correct coefficient, but must be attempting a fourth root. This is implied by a =1.41"
+            },
+            {
+              "code": "A1",
+              "type": "A",
+              "value": 1,
+              "criterion": "$a = \\pm 2$ must be exact. Accept $\\pm \\sqrt[4]{16}$ oe"
+            }
+          ],
+          "guidance": ""
+        },
+        {
+          "label": "(b)",
+          "marks": 3,
+          "answer": "17",
+          "markAllocation": [
+            {
+              "code": "M1",
+              "type": "M",
+              "value": 1,
+              "criterion": "For identifying two terms independent of x. Allow if the power of 3 is incorrect but it is clear the correct terms are meant, so $3^6$ and $a^6 x^6 \\times (1/x)^6$ extracted."
+            },
+            {
+              "code": "A1",
+              "type": "A",
+              "value": 1,
+              "criterion": "Both terms correct and added, ie. $3^6 + a^6$ with a or following through on their value of a but allow if terms are initially correct individually but slips when evaluating."
+            },
+            {
+              "code": "A1",
+              "type": "A",
+              "value": 1,
+              "criterion": "17 Allow recovery to 17 from use of decimals but 17.0 is A0."
+            }
+          ],
+          "guidance": ""
+        }
+      ]
+    },
+    {
+      "qnum": 3,
+      "marks": 8,
+      "parts": [
+        {
+          "label": "(a)",
+          "marks": 2,
+          "answer": "$f(-3/2) = 0$ and states 'hence factor'",
+          "markAllocation": [
+            {
+              "code": "M1",
+              "type": "M",
+              "value": 1,
+              "criterion": "Allow for an attempt at finding a value of $f(-3/2) = 6(-3/2)^3 + 17(-3/2)^2 + 4(-3/2) - 12$. Sight of embedded values is sufficient. Attempted division is M0"
+            },
+            {
+              "code": "A1*",
+              "type": "A",
+              "value": 1,
+              "criterion": "Correctly shows $f(-3/2) = 0$ and states ''hence factor'' (or substantial equivalent conclusion). They may state “factor if $f(-3/2)=0$” in a preamble, in which case accept a minimal conclusion such as //. The M must be scored so there needs to be evidence of either embedded $(-3/2)$'s or calculations."
+            }
+          ],
+          "guidance": ""
+        },
+        {
+          "label": "(b)",
+          "marks": 4,
+          "answer": "$(2x+3)(3x-2)(x+2)$",
+          "markAllocation": [
+            {
+              "code": "M1",
+              "type": "M",
+              "value": 1,
+              "criterion": "Attempt to divide or factorise out $(2x+3)$. By factorisation look for $(2x+3)(3x^2+kx \\pm 4)$. By division look for $3x^2+4x-4$ as quotient. By comparing coefficients look for $(2x+3)(ax^2+bx+c) = 6x^3+17x^2+4x-12 \\Rightarrow a=3, c=-4, b=\\pm 1$."
+            },
+            {
+              "code": "A1",
+              "type": "A",
+              "value": 1,
+              "criterion": "Correct quadratic factor $(3x^2+4x-4)$ found. May be within the long division."
+            },
+            {
+              "code": "dM1",
+              "type": "M",
+              "value": 1,
+              "criterion": "Attempts to factorise their $(3x^2+4x-4)$ usual rules."
+            },
+            {
+              "code": "A1",
+              "type": "A",
+              "value": 1,
+              "criterion": "$(2x+3)(3x-2)(x+2)$ written out as a product of factors (not as a list) and isw. Allow $(2x+3)(x-2/3)(x+2)$ oe as long as there are three linear factors. Factors given but no working shown scores M0A0dM0A0"
+            }
+          ],
+          "guidance": "Allow for work done in part (a) if referred to in part (b)."
+        },
+        {
+          "label": "(c)",
+          "marks": 2,
+          "answer": "$\\theta = \\text{awrt 2.03, 2.16}$",
+          "markAllocation": [
+            {
+              "code": "M1",
+              "type": "M",
+              "value": 1,
+              "criterion": "Solves $\\tan \\theta = k$ where k is any of their roots to their cubic. Allow if $\\tan^{-1}$ seen followed by an answer, or it can be implied by awrt $-0.98$ or $-1.1$ or $0.59$ or $0.58$ truncated (or awrt $-56.3$ or $-63.4$ or $33.7$ (degrees))"
+            },
+            {
+              "code": "A1",
+              "type": "A",
+              "value": 1,
+              "criterion": "$\\theta = \\text{awrt 2.03, 2.16}$ and no other solutions inside the range. Accept $0.6476\\pi$ and $0.687\\pi$ as these give correct answers to 3s.f. but not $0.648\\pi$ as this is not correct to 3s.f."
+            }
+          ],
+          "guidance": ""
+        }
+      ]
+    },
+    {
+      "qnum": 4,
+      "marks": 6,
+      "answer": "$20\\sqrt{5}/3$",
+      "markAllocation": [
+        {
+          "code": "M1",
+          "type": "M",
+          "value": 1,
+          "criterion": "Correct attempt at integration on $2x^2+7$ ie raises a power by one"
+        },
+        {
+          "code": "A1",
+          "type": "A",
+          "value": 1,
+          "criterion": "$2x^3/3+7x$ (need not be simplified)"
+        },
+        {
+          "code": "B1",
+          "type": "B",
+          "value": 1,
+          "criterion": "Achieves a limit of $\\sqrt{5}$ either attached to an integral or used to find the area of the rectangle."
+        },
+        {
+          "code": "M1",
+          "type": "M",
+          "value": 1,
+          "criterion": "For applying Area of R = $\\pm$(area of rectangle - area under curve) = $\\pm (''17\\sqrt{5}'' - \\int_0^{\\sqrt{5}} (2x^2+7) dx)$"
+        },
+        {
+          "code": "M1",
+          "type": "M",
+          "value": 1,
+          "criterion": "Area under curve = $[2x^3/3+7x]_0^{\\sqrt{5}} = 2(\\sqrt{5})^3/3+7\\sqrt{5}$. This is for applying the limits of 0 and their $\\sqrt{5}$ (must be an x value) to the integral which must be a changed function. The application of the 0 may be implied. Can be scored if the rectangle is not considered. May be awarded on decimals correct to 1d.p. (allow if found by calculator (23.1))."
+        },
+        {
+          "code": "A1",
+          "type": "A",
+          "value": 1,
+          "criterion": "$20\\sqrt{5}/3$ or exact (single term) equivalent and can be recovered from a negative made positive"
+        }
+      ],
+      "guidance": "Line and curve together: M1 Attempts $\\pm$ (line – curve) with correct attempt at integration on their $\\pm (10-2x^2)$ (raises a power by one). A1 $\\pm (10x - 2x^3/3)$ (may be either way round). B1 Achieves a limit of $\\sqrt{5}$. M1 For Area = $\\pm \\int_0^{\\sqrt{5}} \\text{their \"line-curve\"} dx$ with limits 0 and their $\\sqrt{5}$ which must be an x value. M1 $[10x - 2x^3/3]_0^{\\sqrt{5}} = 10\\sqrt{5} - 2(\\sqrt{5})^3/3$. This is for applying the limits of 0 (may be implied) and their $\\sqrt{5}$ (must be an x value) to the integral. May be awarded on decimals (1d.p., calculator use ie 14.9 if correct integral). A1 $20\\sqrt{5}/3$ or exact (single term) equivalent and can be recovered from a negative made positive. Note that Area of $R = \\int_7^{17} (\\sqrt{(y-7)/2}) dy$ is not on specification but allowable and the above scheme can be applied having made x the subject . M1A1 correct integration B1 uses limit 7 M1 attempts integral w.r.t. y with limits their 7 and 17 (need not be correct integration) M1 applies limits A1 answer."
+    },
+    {
+      "qnum": 5,
+      "marks": 8,
+      "parts": [
+        {
+          "label": "(a)",
+          "marks": 3,
+          "answer": "$p = 4.26$",
+          "markAllocation": [
+            {
+              "code": "M1",
+              "type": "M",
+              "value": 1,
+              "criterion": "Attempts to find the common ratio by use of $30000 \\times r^3 = 34000$ or $30000 \\times r^2 = 34000$. Must involve taking a root. It may be called p. Condone slips on the 30000 or 34000."
+            },
+            {
+              "code": "A1",
+              "type": "A",
+              "value": 1,
+              "criterion": "For awrt 1.04. It may be called p"
+            },
+            {
+              "code": "A1ft",
+              "type": "A",
+              "value": 1,
+              "criterion": "$p = 4.26$ or follow through on a correct percentage to 2 d.p. for their r if the method has been earned (usually 6.46). Note it must be 2d.p. for this mark."
+            }
+          ],
+          "guidance": ""
+        },
+        {
+          "label": "(b)",
+          "marks": 5,
+          "answer": "$N = 22$",
+          "markAllocation": [
+            {
+              "code": "M1",
+              "type": "M",
+              "value": 1,
+              "criterion": "States/uses $30000 \\times \"r\"^N = 75000$ or $30000 \\times \"r\"^{N-1} = 75000$ with their ratio r, but not if their percentage is used. E.g. follow through on their 1.0426 but not 4.26"
+            },
+            {
+              "code": "A1",
+              "type": "A",
+              "value": 1,
+              "criterion": "''Correct'' intermediate statement $''r''^N = 5/2$ or $''r''^{N-1} = 5/2$. Accept $r = \\text{awrt 1.04}$ or $r = \\text{awrt 1.06}$ if r2 was used in (a)"
+            },
+            {
+              "code": "M1",
+              "type": "M",
+              "value": 1,
+              "criterion": "Uses logs correctly $N = \\log_{''1.0426''}(5/2)$ or $N-1 = \\log_{''1.0426''}(5/2)$ or $''1.0426''^N = 5/2$. Award for the correct solution of any index equation using logs (correctly). The equation may be from incorrect work, e.g having used Sn but must be a solvable equation (ie positive base and operand)"
+            },
+            {
+              "code": "A1",
+              "type": "A",
+              "value": 1,
+              "criterion": "Correct expression for N or $N = \\text{awrt 21.96}$ following correct work"
+            },
+            {
+              "code": "B1",
+              "type": "B",
+              "value": 1,
+              "criterion": "Depends on r = awrt 1.04 and $ar^N$ used. It is for 22 or f.t. their “N” rounded up to nearest integer providing the only errors have been due to rounding. E.g. For r = 1.04 this will be for N = 24"
+            }
+          ],
+          "guidance": "Note: Accept answers in (b) using inequalities and don’t be concerned about the inequalities. S.C. If power N – 1 is used then N = 22.962 will be reached if all is correct. If they then round down to 22 then the final A and B can be recovered (it is correct work). SC For trial and improvement M1 Tries $30000 \\times \"r\"^N$ with N either side of 22 or appropriate value for their r (eg 15 for 1.0646) with A1 correct values found either side of 75000 for r = awrt 1.04 or 1.06. M1 Values for N directly either side of 75000 found for their r. A1 Must be using r = 1.0426. Finds $30000 \\times (1.0426)^{21} = 72043$ and $30000 \\times (1.0426)^{22} = 75112$. B1 Deduces 22 or f.t. N = 24 for r = 1.04."
+        }
+      ]
+    },
+    {
+      "qnum": 6,
+      "marks": 8,
+      "parts": [
+        {
+          "label": "(a)",
+          "marks": 3,
+          "answer": "(i) Centre $(-3,2)$ (ii) Radius $\\sqrt{27}$ or $3\\sqrt{3}$",
+          "markAllocation": [
+            {
+              "code": "M1",
+              "type": "M",
+              "value": 1,
+              "criterion": "Attempts to complete the square. Look for $(x \\pm 3)^2 + (y \\pm 2)^2 = \\dots$. M1 may be awarded for a centre of $(\\pm 3, \\pm 2)$ (from no, or from incorrect, working)"
+            },
+            {
+              "code": "A1",
+              "type": "A",
+              "value": 1,
+              "criterion": "Centre $(-3,2)$"
+            },
+            {
+              "code": "A1",
+              "type": "A",
+              "value": 1,
+              "criterion": "Radius $\\sqrt{27}$ or $3\\sqrt{3}$"
+            }
+          ],
+          "guidance": ""
+        },
+        {
+          "label": "(b)",
+          "marks": 2,
+          "answer": "$k = 2 + 3\\sqrt{3}$ and $k = 2 - 3\\sqrt{3}$",
+          "markAllocation": [
+            {
+              "code": "M1",
+              "type": "M",
+              "value": 1,
+              "criterion": "Attempts one value of k by $''2'' \\pm ''r''$. In the alternative it is for setting y = k in the circle equation, applying $b^2-4ac=0$ and then solving the resulting quadratic in k, or equivalent method. But substitution of x=0 is M0."
+            },
+            {
+              "code": "A1",
+              "type": "A",
+              "value": 1,
+              "criterion": "For both $k = 2 + 3\\sqrt{3}$ and $k = 2 - 3\\sqrt{3}$. Allow $y \\leftrightarrow k$. Accept exact equivalents, e.g. with $\\sqrt{27}$"
+            }
+          ],
+          "guidance": "Alt by differentiation requires M1 Achieves $ax + by + cx + d = 0$ followed by setting $dy/dx = 0$, finding x and substituting into the circle equation then attempting to solve the quadratic. A1 Correct answers."
+        },
+        {
+          "label": "(c)",
+          "marks": 3,
+          "answer": "$p = 2 - \\sqrt{23}$",
+          "markAllocation": [
+            {
+              "code": "M1",
+              "type": "M",
+              "value": 1,
+              "criterion": "For an attempt to use Pythagoras's theorem with 2 and their 'r' to find 'h' or ‘h’2"
+            },
+            {
+              "code": "dM1",
+              "type": "M",
+              "value": 1,
+              "criterion": "Attempts $p = \"2\" \\pm \"h\"$. Condone $p \\leftrightarrow y$. Follow through their y coordinate of the centre. Can be implied by the correct decimal answer (awrt −2.8)"
+            },
+            {
+              "code": "A1",
+              "type": "A",
+              "value": 1,
+              "criterion": "$p = 2 - \\sqrt{23}$ only. Condone $p \\leftrightarrow y$. Accept equivalent exact forms e.g $(2 - \\sqrt{23})$"
+            }
+          ],
+          "guidance": "Alternatives are possible: Alt 1: M1 Identifies an x coordinate where the chord touches the circle, x = −3 ± 2, or applies x + 3 = ±2. dM1 Substitutes into the circle equation (either form) and attempts to solve the quadratic (usual rules). A1 $p = 2 - \\sqrt{23}$ only. Condone $p \\leftrightarrow y$. Alt2: M1 Substitutes $y=p$ into C and applies the difference between roots is 4. dM1 Solves the resulting quadratic to find p. A1 $p = 2 - \\sqrt{23}$ only. Condone $p \\leftrightarrow y$."
+        }
+      ]
+    },
+    {
+      "qnum": 7,
+      "marks": 7,
+      "parts": [
+        {
+          "label": "(a)",
+          "marks": 3,
+          "answer": "$3\\sin^2\\theta + 8\\sin\\theta - 3 = 0$",
+          "markAllocation": [
+            {
+              "code": "M1",
+              "type": "M",
+              "value": 1,
+              "criterion": "Uses $\\tan\\theta = \\sin\\theta/\\cos\\theta$ (oe) in $8\\tan\\theta = 3\\cos\\theta$. Condone slips in coefficients."
+            },
+            {
+              "code": "M1",
+              "type": "M",
+              "value": 1,
+              "criterion": "Multiplies by $\\cos\\theta$ and uses $\\cos^2\\theta = 1 - \\sin^2\\theta$ (oe) to produce an equation in just $\\sin\\theta$"
+            },
+            {
+              "code": "A1*",
+              "type": "A",
+              "value": 1,
+              "criterion": "Proceeds to $3\\sin^2\\theta + 8\\sin\\theta - 3 = 0$ with no arithmetical or notational errors. No mixed variables within the lines of the ''proof''. An example of a notational error is $\\cos\\theta^2$ for $\\cos^2\\theta$ (Note that this would not lose the M1)"
+            }
+          ],
+          "guidance": ""
+        },
+        {
+          "label": "(b)",
+          "marks": 4,
+          "answer": "$x = \\text{awrt 9.74, 80.26}$",
+          "markAllocation": [
+            {
+              "code": "M1",
+              "type": "M",
+              "value": 1,
+              "criterion": "Attempts to find the critical values of the given quadratic. Implied by correct values given if no working shown. Allow if just $1/3$ is given."
+            },
+            {
+              "code": "A1",
+              "type": "A",
+              "value": 1,
+              "criterion": "Critical value of $1/3$ and no incorrect second value. The $-3$ need not be stated. Accept awrt 0.333 for $1/3$"
+            },
+            {
+              "code": "dM1",
+              "type": "M",
+              "value": 1,
+              "criterion": "A correct method to find one value of x from their $\\sin 2x = 1/3$. It requires both arcsin and $\\div 2$ and may be implied by one answer to one decimal place rounded or truncated eg awrt 9.7 or awrt 80.3 (or for 2sf radian answer awrt 0.17, or awrt 1.4)"
+            },
+            {
+              "code": "A1",
+              "type": "A",
+              "value": 1,
+              "criterion": "$x = \\text{awrt 9.74, 80.26}$ degrees. A0 if extra solutions are given in the range but ignore solutions outside."
+            }
+          ],
+          "guidance": "Note that M1A0M1A1 is possible if correct answers come from a critical value of $1/3$ if a second incorrect C.V. was also found but does not lead to extra solutions in the range."
+        }
+      ]
+    },
+    {
+      "qnum": 8,
+      "marks": 7,
+      "parts": [
+        {
+          "label": "(i)",
+          "marks": 3,
+          "answer": "$S_n = n/2 (2a + (n-1)d)$",
+          "markAllocation": [
+            {
+              "code": "B1",
+              "type": "B",
+              "value": 1,
+              "criterion": "Writes down an expression for S in a minimum of 3 in a and d terms including the first and last terms. Eg. States that $S = a + (a+d) + (a+2d) + \\dots + (a+(n-2)d) + (a+(n-1)d)$. $S = a + (a+d) + \\dots + l$ scores B1 only if $l = a+(n-1)d$ is later identified as only two terms in a and d."
+            },
+            {
+              "code": "M1",
+              "type": "M",
+              "value": 1,
+              "criterion": "Attempts to reverse their sum and add terms. Must include at least two pairs of matching terms to be enough to establish the pattern (allow if second sum misses last terms)."
+            },
+            {
+              "code": "A1*",
+              "type": "A",
+              "value": 1,
+              "criterion": "Correctly achieves the given result including the intermediate line $2S = n(2a + (n-1)d)$. There must be no errors and at least 3 terms should have been shown for the sum and its reverse."
+            }
+          ],
+          "guidance": "If $S_n = a_1 + a_2 + \\dots + a_n$ is used allow the B and final A only if $a_m = a + (m-1)d$ (oe) is clearly identified in the working, or other clear reasoning why each term gives $2a+(n-1)d$, but the M may be gained. If commas used instead of + in the summation, eg $S = a, (a+d), \\dots, (a+(n-2)d), (a+(n-1)d)$ the score B0 as no correct sum, but allow M1A1 if the sum is implied by working and all else is correct. If you see other attempts you feel are worthy of credit then consult your team leader."
+        },
+        {
+          "label": "(ii)",
+          "marks": 4,
+          "subparts": [
+            {
+              "label": "(a)",
+              "marks": 1,
+              "answer": "22",
+              "markAllocation": [
+                {
+                  "code": "B1",
+                  "type": "B",
+                  "value": 1,
+                  "criterion": "22"
+                }
+              ],
+              "guidance": ""
+            },
+            {
+              "label": "(b)",
+              "marks": 3,
+              "answer": "8847",
+              "markAllocation": [
+                {
+                  "code": "M1",
+                  "type": "M",
+                  "value": 1,
+                  "criterion": "Attempts to use the sum of an AP with $n=59, a=5, d=5$. Also allow $n/2(a+l) = 59/2(5+59 \\times 5)$"
+                },
+                {
+                  "code": "B1",
+                  "type": "B",
+                  "value": 1,
+                  "criterion": "For $\\sum_{n=1}^{59} (-1)^n \\times 3 = -3$"
+                },
+                {
+                  "code": "A1",
+                  "type": "A",
+                  "value": 1,
+                  "criterion": "8847"
+                }
+              ],
+              "guidance": "Listing terms can score 3/3 as it is a correct method and can be marked per main scheme. Answers with no incorrect working can score 3/3. If the correct answer appears from incorrect working then apply SC M0B1A0. There are other variations on how to do this part (b)(ii) such as Alt 1: Splits to odd and even terms: $S_{odd} = 30/2(2 \\times 5 + (30-1) \\times 10) = 4410$, $S_{even} = 29/2(2 \\times 13 + (29-1) \\times 10) = 4437$. $4410+4437 = 8847$. M1 separates into the two sequences and applies summation formula to at least one. B1 Correct expression for both summations (must have correct number of terms for each). A1 8847. Alt 2: Pairs terms (or can be first term + pairs) $S = (5-3) + (10+3) + (15-3) + \\dots + (5 \\times 58 + 3) + (5 \\times 59 - 3) = 2+13+12+23+ \\dots + 293+292$. M1 pairs terms appropriately, may use 1st + (2nd+3rd) + …+ (58th +59th) and applies summation formula to the terms. B1 For the extra term correctly shown 2+… or …+ 292. A1 8847. In general apply M1 For a correct overall strategy that includes a summation. B1 For dealing with the $\\sum (-1)^n$ correctly within the strategy (which may be for a correct overall expression in many cases). A1 8847."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "qnum": 9,
+      "marks": 7,
+      "parts": [
+        {
+          "label": "(a)",
+          "marks": 2,
+          "answer": "Correct shape and position, intercept at $(0,3)$",
+          "markAllocation": [
+            {
+              "code": "B1",
+              "type": "B",
+              "value": 1,
+              "criterion": "Correct shape and position. Should be increasing, always above the x axis and must be in both quadrants 1 and 2. Be tolerant with the asymptote as long as it does not cross the axis or clearly bend away (but don’t be concerned if there is a gap between curve and axis)."
+            },
+            {
+              "code": "B1",
+              "type": "B",
+              "value": 1,
+              "criterion": "Intercept at $(0,3)$ Accept 3 or $(3,0)$ marked on the axis, but $(3,0)$ away from the graph is B0. Their graph must have crossed the positive y axis to score this mark. Ignore any x intercepts"
+            }
+          ],
+          "guidance": ""
+        },
+        {
+          "label": "(b)",
+          "marks": 5,
+          "answer": "$x = \\frac{\\log 6 - \\log 3}{\\log 4 + \\log 6}$ or $x = \\frac{\\log 2}{\\log 24}$",
+          "markAllocation": [
+            {
+              "code": "M1",
+              "type": "M",
+              "value": 1,
+              "criterion": "Attempt to takes logs (any base, including 6) and attempts either the addition law or the power law. Eg. $\\log 6^{1-x} \\rightarrow (1-x)\\log 6$ or $\\log (3 \\times 4^x) \\rightarrow \\log 3 + \\log 4^x$ (Condone invisible brackets for Ms)"
+            },
+            {
+              "code": "dM1",
+              "type": "M",
+              "value": 1,
+              "criterion": "Takes logs of both sides and attempts both the addition law and the power law to achieve a linear equation in x (can still be in any base at this stage)"
+            },
+            {
+              "code": "A1",
+              "type": "A",
+              "value": 1,
+              "criterion": "A correct linear equation in x (any base)."
+            },
+            {
+              "code": "ddM1",
+              "type": "M",
+              "value": 1,
+              "criterion": "Attempts to make x the subject of the formula with no incorrect log work. Allow with just log, but any other base must be changed to base 10 to allow this mark."
+            },
+            {
+              "code": "A1*",
+              "type": "A",
+              "value": 1,
+              "criterion": "Proceeds to the given answer showing a correct intermediate step with no incorrect working seen. For example $(\\log 3 + x\\log 4) = (1-x)\\log 6 \\Rightarrow x(\\log 4 + \\log 6) = \\log 6 - \\log 3$ or $x = \\frac{\\log 2}{\\log 24}$"
+            }
+          ],
+          "guidance": "Alt (b): M1: applies index law to $6^{1-x}$ ie $6/6^x$. dM1: rearranges to equation of form $a^x = b$ using correct power laws (ie $p^x q^x =(pq)^x$). A1: Correct equation. ddM1: solve equation of the form shown using logs. A1: correctly achieved."
+        }
+      ]
+    },
+    {
+      "qnum": 10,
+      "marks": 10,
+      "parts": [
+        {
+          "label": "(a)",
+          "marks": 4,
+          "answer": "$k = -3/2$",
+          "markAllocation": [
+            {
+              "code": "M1",
+              "type": "M",
+              "value": 1,
+              "criterion": "Attempts to differentiate reducing any power of x by one"
+            },
+            {
+              "code": "A1",
+              "type": "A",
+              "value": 1,
+              "criterion": "For $2kx^{-2} - 12x^{-3} - 9x^{-4}$ oe need not see $dy/dx$"
+            },
+            {
+              "code": "dM1",
+              "type": "M",
+              "value": 1,
+              "criterion": "Substitutes $x=1/2, dy/dx=0$ into their $dy/dx$ to set up a linear equation in k. (Allow the M if “=0” implied)"
+            },
+            {
+              "code": "A1*",
+              "type": "A",
+              "value": 1,
+              "criterion": "Proceeds via $ak+b=0$ or $ak=b$ to achieve $k = -3/2$ following correct work. The “= 0” must have been seen for this mark."
+            }
+          ],
+          "guidance": ""
+        },
+        {
+          "label": "(b)",
+          "marks": 2,
+          "answer": "$d^2y/dx^2 = -12 < 0 \\Rightarrow$ (Local) Maximum",
+          "markAllocation": [
+            {
+              "code": "M1",
+              "type": "M",
+              "value": 1,
+              "criterion": "Attempts to find the value of $d^2y/dx^2$ at $x=1/2$. Follow through on their $dy/dx$ with one term correct."
+            },
+            {
+              "code": "A1",
+              "type": "A",
+              "value": 1,
+              "criterion": "Fully correct $d^2y/dx^2 = -12 < 0 \\Rightarrow$ (Local) Maximum. Allow with $-12 < 0$"
+            }
+          ],
+          "guidance": "Attempts at first derivative test – send to review if they seem worthy of merit."
+        },
+        {
+          "label": "(c)",
+          "marks": 4,
+          "answer": "$x = \\sqrt{2}$",
+          "markAllocation": [
+            {
+              "code": "M1",
+              "type": "M",
+              "value": 1,
+              "criterion": "Sets their $dy/dx = 0$ and proceeds to a three term quartic equation in x or factorise to give $x^{-4}(ax^4+bx^2+c)=0$ where $kac=24$ and $kbd=3$ (though k = 3 may be cancelled)."
+            },
+            {
+              "code": "A1",
+              "type": "A",
+              "value": 1,
+              "criterion": "$(3x^2-4)(2x^2-1)=0$ oe. This is implied by $x^2=1/2$ following use of quadratic formula or having identified a quadratic in $x^2$ e.g. by $y=x^2$ and $24y^2-18y+3=0$."
+            },
+            {
+              "code": "dM1",
+              "type": "M",
+              "value": 1,
+              "criterion": "Solves their $x^2=2 \\Rightarrow x=\\pm \\sqrt{2}$ by taking square root of their positive root"
+            },
+            {
+              "code": "A1",
+              "type": "A",
+              "value": 1,
+              "criterion": "$x = \\sqrt{2}$ or $x = 2^{1/2}$ or $x = 1/\\sqrt{2}$ but must be positive solution only. Ignore the $x=1/2$ but A0 if others given."
+            }
+          ],
+          "guidance": "NB Answers directly from the quartic with no further working score M1A0dM0A0"
+        }
+      ]
+    }
+  ]
+}
